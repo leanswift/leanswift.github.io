@@ -1,2 +1,2 @@
 
-# [Accounts Receivable](/accounts-receivable/src/pages/introduction.md)
+# [Accounts Receivable](/webapps/accounts-receivable/src/pages/introduction.md)
