@@ -14,7 +14,7 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [Overview](#overview)
 
-[Navigating the Application](#navigating_the_Application)
+[Navigating the Application](#navigating-the-Application)
 
 [Main Menu](#main_Menu)
 
