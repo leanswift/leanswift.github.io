@@ -16,93 +16,93 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [Navigating the Application](#navigating-the-Application)
 
-[Main Menu](#main_Menu)
+[Main Menu](#main-Menu)
 
-[Application Pages](#application_Pages)
+[Application Pages](#application-Pages)
 
-[Themes &amp; Wallpapers](#themes_&amp;_Wallpapers)
+[Themes &amp; Wallpapers](#themes_&amp;-Wallpapers)
 
 [Language](#language)
 
 [About](#about)
 
-[Selecting Lines in a List](#selecting_Lines_in_a_List)
+[Selecting Lines in a List](#selecting-Lines-in-a-List)
 
-[Selecting Cells and Copy/Paste](#selecting_Cells_and_Copy/Paste)
+[Selecting Cells and Copy/Paste](#selecting-Cells-and-Copy/Paste)
 
-[List Filters](#list_Filters)
+[List Filters](#list-Filters)
 
-[Sorting Lists](#sorting_Lists)
+[Sorting Lists](#sorting-Lists)
 
-[Rearranging column order](#rearranging_column_order)
+[Rearranging column order](#rearranging-column-order)
 
-[Exporting to Excel](#exporting_to_Excel)
+[Exporting to Excel](#exporting-to-Excel)
 
 [Notifications](#notifications)
 
-[Application Pages](#application_Pages)
+[Application Pages](#application-Pages)
 
-[Main selection](#Main_selection)
+[Main selection](#Main-selection)
 
 [Division](#division)
 
 [Customer](#customer)
 
-[Default Payer from Customer](#default_Payer_from_Customer)
+[Default Payer from Customer](#default_Payer-from-Customer)
 
 [Payer](#payer) 
 
-[Rolling Date](#rolling_Date)
+[Rolling Date](#rolling-Date)
 
 [Invoices](#invoices)
 
 [Payments](#payments)
 
-[Payment Details](#payment_Details)
+[Payment Details](#payment-Details)
 
 [Aging](#aging)
 
-[IDM (Infor Document Management)](#iDM (Infor Document Management))
+[IDM (Infor Document Management)](#iDM-(Infor-Document-Management))
 
-[Tickler Notes By Invoice Number](#tickler_Notes_By_Invoice_Number)
+[Tickler Notes By Invoice Number](#tickler-Notes-By-Invoice-Number)
 
-[Flagged Invoices](#flagged_Invoices)
+[Flagged Invoices](#flagged-Invoices)
 
-[Basic Data](#basic_Data)
+[Basic Data](#basic-Data)
 
-[Tickler Notes](#tickler_Notes)
+[Tickler Notes](#tickler-Notes)
 
-[Adding new notes](#adding_new_notes)
+[Adding new notes](#adding-new-notes)
 
-[Editing existing notes](#editing_existing_notes)
+[Editing existing notes](#editing-existing-notes)
 
-[Credit History](#credit_History)
+[Credit History](#credit-History)
 
-[Credit Release](#credit_Release)
+[Credit Release](#credit-Release)
 
-[Release Orders](#release_Orders)
+[Release Orders](#release-Orders)
 
-[Tickler Notes By Invoice Number](#tickler_Notes_By_Invoice_Number)
+[Tickler Notes By Invoice Number](#tickler-Notes-By-Invoice-Number)
 
 [Orders](#orders)
 
-[Account Payments](#account_Payments)
+[Account Payments](#account-Payments)
  
-[Search for a Check Number](#search_for_a_Check_Number)
+[Search for a Check Number](#search-for-a-Check-Number)
 
-[Cash Payments](#cash_Payments)
+[Cash Payments](#cash-Payments)
 
 [Search](#search)
 
 [Troubleshooting](#troubleshooting)
 
-[First sign of trouble](#first_sign_of_trouble)
+[First sign of trouble](#first-sign-of-trouble)
 
-[First line of defense](#first_line_of_defense)
+[First line of defense](#first-line-of-defense)
 
-[Experiencing slowness](#experiencing_slowness)
+[Experiencing slowness](#experiencing-slowness)
 
-[Deciphering Error Messages](#deciphering_Error_Messages)
+[Deciphering Error Messages](#deciphering-Error-Messages)
 
 
 ## Navigating the Application
