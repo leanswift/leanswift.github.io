@@ -62,7 +62,7 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [Aging](#aging)
 
-[IDM (Infor Document Management)](#iDM-(Infor-Document-Management))
+[IDM](#iDM)
 
 [Tickler Notes By Invoice Number](#tickler-Notes-By-Invoice-Number)
 
@@ -114,6 +114,9 @@ This section will give a quick overview on how to get around and navigate the we
 The main menu appears on the left side of the screen, and the menu button is in the top left corner of the screen. The menu itself is stickied to the left side and will display without icons, or icons with labels. You can cycle through either display option by clicking the menu button.
 
 In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
+
+![](images/Menu.png)
+
 
 ### Application Pages
 
