@@ -115,7 +115,7 @@ The main menu appears on the left side of the screen, and the menu button is in 
 
 In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
 
-![](images/Menu.png)
+![Payments](https://github.com/leanswift/product-documentation/blob/dev/webapps/accounts-receivable/src/images/Menu.png)
 
 
 ### Application Pages
