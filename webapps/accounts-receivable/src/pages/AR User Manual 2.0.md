@@ -4,7 +4,7 @@ Webapp User Manual
 
 Version 7.0
 
-Jan, 2020
+May, 2020
 
 ## Overview
 
@@ -12,9 +12,7 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 ### Table of Contents
 
-Overview
-
-Table of Contents
+[Overview](#overview)
 
 [Navigating the Application](#navigating_the_Application)
 
@@ -117,11 +115,11 @@ The main menu appears on the left side of the screen, and the menu button is in 
 
 In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
 
-###Application Pages
+### Application Pages
 
 The first section of the main menu will be the application pages themselves. These are specific to the application and contain views grouped in functional and intuitive ways. Clicking any of these menu options will load the respective page. All of these are described in detail below.
 
-###About
+### About
 
 The about main menu option will display details of the application such as the exact application version and build you are running. If you are experiencing issues these will be vital to know when contacting support and troubleshooting.
 
@@ -165,7 +163,7 @@ You can use the list menu for a number of things, one of them being exporting to
 
 Note. You can also use the list menu to show and hide columns as well as export to pdf.
 
-## Notifications
+### Notifications
 
 All notification, warning and error messages will be displayed in a colored box just below the main selection area
 
@@ -337,7 +335,7 @@ Type your search criteria in the input boxes and then press the Search button.
 
 Note. If/When you select a line in the Results list below the application will switch over to the Invoices page, change the main selection criteria to match the searched invoice, reload, and then scroll down and display the invoice in the list.
 
-### Troubleshooting
+## Troubleshooting
 
 #### Clear cache and cookies
 
