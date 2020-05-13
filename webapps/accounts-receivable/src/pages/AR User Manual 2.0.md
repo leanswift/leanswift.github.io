@@ -20,7 +20,7 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [Application Pages](#application-Pages)
 
-[Themes &amp; Wallpapers](#themes_&amp;-Wallpapers)
+[Themes &amp; Wallpapers](#themes-&amp;-Wallpapers)
 
 [Language](#language)
 
@@ -48,7 +48,7 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [Customer](#customer)
 
-[Default Payer from Customer](#default_Payer-from-Customer)
+[Default Payer from Customer](#default-Payer-from-Customer)
 
 [Payer](#payer) 
 
@@ -62,7 +62,7 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [Aging](#aging)
 
-[IDM](#iDM)
+[IDM](#idm)
 
 [Tickler Notes By Invoice Number](#tickler-Notes-By-Invoice-Number)
 
@@ -98,7 +98,7 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [First sign of trouble](#first-sign-of-trouble)
 
-[First line of defense](#first-line-of-defense)
+[First line of defense](#first-Line-Of-Defense)
 
 [Experiencing slowness](#experiencing-slowness)
 
