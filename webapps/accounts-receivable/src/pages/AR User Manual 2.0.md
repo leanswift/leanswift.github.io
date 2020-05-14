@@ -111,9 +111,10 @@ The main menu appears on the left side of the screen, and the menu button is in 
 
 In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
 
-![Payments](https://github.com/leanswift/product-documentation/blob/dev/webapps/accounts-receivable/src/images/Menu.png)
+![](/src/images/Menu.png)
 
-<img src="https://github.com/leanswift/product-documentation/blob/dev/webapps/accounts-receivable/src/images/Menu.png" width="150">
+
+<img src="/images/Menu.png" width="150">
 
 
 ### Application Pages
@@ -166,7 +167,7 @@ Note. You can also use the list menu to show and hide columns as well as export 
 
 ### Notifications
 
-All notification, warning and error messages will be displayed in a colored box just below the main selection area
+All notification, warning and error messages will be displayed in a colored box below. 
 
 ## Application Pages
 
