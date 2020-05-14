@@ -96,9 +96,9 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [Troubleshooting](#troubleshooting)
 
-[First sign of trouble](#first-sign-of-trouble)
+[First Sign Of Trouble](#first-Sign-Of-Trouble)
 
-[First line of defense](#first-Line-Of-Defense)
+[First Line Of Defense](#first-Line-Of-Defense)
 
 [Experiencing slowness](#experiencing-slowness)
 
