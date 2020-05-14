@@ -111,10 +111,10 @@ The main menu appears on the left side of the screen, and the menu button is in 
 
 In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
 
-![](/src/images/Menu.png)
+![](images/Menu.png)
 
 
-<img src="/images/Menu.png" width="150">
+<img src="images/Menu.png" width="150">
 
 
 ### Application Pages
