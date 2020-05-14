@@ -98,10 +98,6 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [First Sign Of Trouble](#first-Sign-Of-Trouble)
 
-[First Line Of Defense](#first-Line-Of-Defense)
-
-[Experiencing slowness](#experiencing-slowness)
-
 [Deciphering Error Messages](#deciphering-Error-Messages)
 
 
@@ -260,7 +256,7 @@ If there is an existing invoice reference on a Tickler Note for your selected in
 
 Also note that Tickler Note By Invoice Number functionality may or may not be activated as it is an administrator configuration. Your company may not be using this.
 
-## Flagged Invoices
+### Flagged Invoices
 
 Some invoices may appear &quot;flagged&quot; with a small icon. These are so called preliminary invoices in M3 and should not be appearing here. It is an indication that something is not right and may need further investigation in M3.
 
@@ -286,13 +282,13 @@ By selecting a line the detail section below will load (note that if there is no
 
 Note. Make sure to wait for the loading icon to complete the save.
 
-## Credit History
+### Credit History
 
 The Credit History page will display credit information for both the customer and payer selected. This page will show last payment details, balances and high period, outstanding amount, average days to pay, aging and more. The purpose of this page is to review credit references and history.
 
 Note. Initially the page will not load additional details for application performance reasons.
 
-## Credit Release
+### Credit Release
 
 The Credit Release page allows for credit release similar to OIS120 in M3. It also provides customer and payer information similar to the Credit History page to help determine if an order should be released from hold or not. The list of credit stopped orders displays orders for all customers regardless of your customer and/or payer selection.
 
@@ -330,7 +326,7 @@ There is a special search box at the top where you can query for any check. Note
 
 This section shows information for cash account customers and charge account customers that paid cash or used a credit card for a transaction.
 
-### Selecting a Cash Payments line will display the Cash Payments Detail.
+Selecting a Cash Payments line will display the Cash Payments Detail.
 
 ### Search
 
