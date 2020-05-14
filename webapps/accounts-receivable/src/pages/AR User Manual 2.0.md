@@ -117,6 +117,8 @@ In the top navigation bar you will also see what M3 environment (and Company and
 
 ![Payments](https://github.com/leanswift/product-documentation/blob/dev/webapps/accounts-receivable/src/images/Menu.png)
 
+<img src="https://github.com/leanswift/product-documentation/blob/dev/webapps/accounts-receivable/src/images/Menu.png" width="150">
+
 
 ### Application Pages
 
