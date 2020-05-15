@@ -62,7 +62,7 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [Aging](#aging)
 
-[IDM](#idm)
+[Infor Document Management](#infor-Document-Management)
 
 [Tickler Notes By Invoice Number](#tickler-Notes-By-Invoice-Number)
 
@@ -109,13 +109,11 @@ This section will give a quick overview on how to get around and navigate the we
 
 The main menu appears on the left side of the screen, and the menu button is in the top left corner of the screen. The menu itself is stickied to the left side and will display without icons, or icons with labels. You can cycle through either display option by clicking the menu button.
 
-In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
-
-![](images/Menu.png)
-
-
 <img src="images/Menu.png" width="150">
 
+In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
+
+<img src="images/cono" width="150">
 
 ### Application Pages
 
@@ -125,9 +123,13 @@ The first section of the main menu will be the application pages themselves. The
 
 The about main menu option will display details of the application such as the exact application version and build you are running. If you are experiencing issues these will be vital to know when contacting support and troubleshooting.
 
+<img src="images/logo.png" width="150">
+
 ### Selecting Lines in a List
 
 To select a line click the checkmark box to the left of the line you wish to select. When you select a line usually there is a list or data section below on the same page that will populate with detailed data based on the selected line.
+
+<img src="images/select-single-line.png" width="150">
 
 Lists also support multi selection. 
 
@@ -225,7 +227,7 @@ At the bottom of the page the aging will be displayed. It will only populate if 
 
 Each aging bucket is hyperlinked and you can click this amount to open a popup. The popup will contain a listing of the invoices that make up that specific aging bucket amount.
 
-### IDM (Infor Document Management)
+### Infor Document Management
 
 The Accounts Receivable application can be configured to integrate with your company&#39;s IDM. Note. If your company is not using IDM then this specific functionality will not work in your AR application.
 
