@@ -113,7 +113,7 @@ The main menu appears on the left side of the screen, and the menu button is in 
 
 In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
 
-<img src="images/cono" width="150">
+<img src="images/cono.png" width="200">
 
 ### Application Pages
 
@@ -123,21 +123,25 @@ The first section of the main menu will be the application pages themselves. The
 
 The about main menu option will display details of the application such as the exact application version and build you are running. If you are experiencing issues these will be vital to know when contacting support and troubleshooting.
 
-<img src="images/logo.png" width="150">
+<img src="images/logo.png" width="200">
 
 ### Selecting Lines in a List
 
 To select a line click the checkmark box to the left of the line you wish to select. When you select a line usually there is a list or data section below on the same page that will populate with detailed data based on the selected line.
 
-<img src="images/select-single-line.png" width="150">
+<img src="images/select-single-line.png" width="650">
 
 Lists also support multi selection. 
+
+<img src="images/select-multi-line.png" width="650">
 
 Note that some functionality like loading details below will only apply to the last clicked line.
 
 ### Selecting Cells and Copy/Paste
 
 You can select an individual cell inside of a list by clicking it (it will become highlighted).
+
+<img src="images/copy-cell.png" width="650">
 
 With a cell selected you can copy the value using Ctrl+C (or Cmd+C).
 
@@ -153,6 +157,8 @@ The filters are based on the data type in the column. For numbers and dates it i
 
 For normal text filters you can free text search. Note that it is a wildcard search and the value does not have to start or end with your search string.
 
+<img src="images/filters.png" width="200">
+
 ### Sorting Lists
 
 You can sort a list by any column simply by clicking the column header. Please note that there are 3 stages when you click a header for sorting, and clicking will cycle through all of them.
@@ -165,17 +171,24 @@ You can sort a list by any column simply by clicking the column header. Please n
 
 You can use the list menu for a number of things, one of them being exporting to Excel. Click the small menu icon in the right hand corner of any list and select &quot;Export all data as csv&quot;.Then open the csv file in Excel.
 
+<img src="images/3dots-menu.png" width="200"> <img src="images/3-dots-menu.png" width="200">
+
 Note. You can also use the list menu to show and hide columns as well as export to pdf.
 
 ### Notifications
 
 All notification, warning and error messages will be displayed in a colored box below. 
 
+<img src="images/notification.PNG" width="650">
+
+
 ## Application Pages
 
 ### Main selection
 
 This is not a menu option on its own but at the top of each page there will be a consistent &quot;Selection&quot; section. Generally this is the main selection criteria for which the application displays data. Once you press the Find button the application will load and display the data based on your selections (each page will be loaded based on your selection data). The Clear button is a quick and easy way to clear out all your selections.
+
+<img src="images/selection-panel.png" width="300">
 
 ### Division
 
@@ -211,11 +224,17 @@ Once you have made your selection and hit the Find button the Invoices list will
 
 Note that this operation while optimised still can take some time to complete, especially for big accounts, or if you have a date range selected for multiple years back, or if for example you&#39;re working through a VPN connection. Quite a lot of data is retrieved from M3 and then processed and calculated before display.
 
+<img src="images/invoices.png" width="650">
+
 The bottom of the list of invoices will display totals for the amount columns. Also note that if you select multiple lines it will immediately display how many you have selected as well as the amount totals for your selection (pressing the Totals button below the list will give you a popup with the same information for your selections).
+
+<img src="images/invoice-totals.png" width="650">
 
 ### Payments
 
 If you select a line in the list of invoices the Payments section below will load and display payment data for the selected invoice.
+
+<img src="images/payments.png" width="650">
 
 ### Payment Details
 
@@ -225,7 +244,11 @@ By selecting a line in the Payments list in turn the Payment Details list below 
 
 At the bottom of the page the aging will be displayed. It will only populate if you are viewing Open or All Invoices (and only take open invoices into account). Aging can be viewed by Invoice or by Due date as selected.
 
+<img src="images/aging.png" width="650">
+
 Each aging bucket is hyperlinked and you can click this amount to open a popup. The popup will contain a listing of the invoices that make up that specific aging bucket amount.
+
+<img src="images/aging-popup.png" width="650">
 
 ### Infor Document Management
 
@@ -233,9 +256,13 @@ The Accounts Receivable application can be configured to integrate with your com
 
 At the top next to the display options there will be a checkbox &quot;Show IDM&quot;. Checking this option will display two additional columns in the list for Invoice and Proof of Delivery. Initially these columns will be empty.
 
+<img src="images/idm.png" width="650">
+
 Clicking the PDF icon will open the Invoice document for view directly in your browser.
 
 Note that the two previously disabled buttons Email Invoice(s) and Email PoD(s) have now become active. You can select one, or multiple lines, and click the the respective Email button
+
+<img src="images/show-idm.png" width="650">
 
 Once you click the Email button a popup will appear. Fill out the fields and press the Send button. All of the respective documents for your selected lines will be attached to the email. Once the email have been sent the popup will automatically close.
 
