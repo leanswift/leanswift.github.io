@@ -2,7 +2,7 @@
 
 Webapp User Manual
 
-Version 7.0
+Version 8.0
 
 May, 2020
 
@@ -171,7 +171,7 @@ You can sort a list by any column simply by clicking the column header. Please n
 
 You can use the list menu for a number of things, one of them being exporting to Excel. Click the small menu icon in the right hand corner of any list and select &quot;Export all data as csv&quot;.Then open the csv file in Excel.
 
-<img src="images/3dots-menu.png" width="200"> <img src="images/3-dots-menu.png" width="200">
+<img src="images/3-dots-menu.png" width="200"> <img src="images/3dots-menu.png" width="100" height="200"> 
 
 Note. You can also use the list menu to show and hide columns as well as export to pdf.
 
@@ -188,7 +188,7 @@ All notification, warning and error messages will be displayed in a colored box 
 
 This is not a menu option on its own but at the top of each page there will be a consistent &quot;Selection&quot; section. Generally this is the main selection criteria for which the application displays data. Once you press the Find button the application will load and display the data based on your selections (each page will be loaded based on your selection data). The Clear button is a quick and easy way to clear out all your selections.
 
-<img src="images/selection-panel.png" width="300">
+<img src="images/selection-panel.png" width="500">
 
 ### Division
 
@@ -286,9 +286,13 @@ If there is an existing invoice reference on a Tickler Note for your selected in
 
 Also note that Tickler Note By Invoice Number functionality may or may not be activated as it is an administrator configuration. Your company may not be using this.
 
+<img src="images/tickler-notes-by-invoice.png" width="500">
+
 ### Flagged Invoices
 
 Some invoices may appear &quot;flagged&quot; with a small icon. These are so called preliminary invoices in M3 and should not be appearing here. It is an indication that something is not right and may need further investigation in M3.
+
+<img src="images/flagged-invoice.png" width="500">
 
 ### Basic Data
 
@@ -296,25 +300,37 @@ The Basic Data page combines information from various places in M3 such as CRS61
 
 Note. If you do not see the Save button on the Basic Data page then you have not been granted update access by your application administrator.
 
+<img src="images/basic-data-global.png" width="500">
+
+<img src="images/basic-data-credit.png" width="500">
+
 ### Tickler Notes
 
 Tickler Notes are created in RMS440 in M3, however, the M3 interface is not intuitive and complex to use (and there exist no standard M3 api to handle Tickler Notes). On the Tickler Notes page you will be able to easily and quickly view, edit, and create new notes.
 
 Note. If you do not see the Save button on the Tickler Notes page then you have not been granted update access by your application administrator.
 
-Adding new notes
+### Adding new notes
+
 
 To add a new tickler note simply enter an id and description and click the Add button.
+
+<img src="images/tickler-note-add.png" width="500">
 
 ### Editing existing notes
 
 By selecting a line the detail section below will load (note that if there is no text data it will still be blank). You can type in any of the fields and then click the Save button.
+
+<img src="images/existing-tickler-notes.png" width="500">
 
 Note. Make sure to wait for the loading icon to complete the save.
 
 ### Credit History
 
 The Credit History page will display credit information for both the customer and payer selected. This page will show last payment details, balances and high period, outstanding amount, average days to pay, aging and more. The purpose of this page is to review credit references and history.
+
+<img src="images/credit-history-data.png" width="500">
+<img src="images/credit-history-aging-total.png" width="500">
 
 Note. Initially the page will not load additional details for application performance reasons.
 
@@ -323,6 +339,8 @@ Note. Initially the page will not load additional details for application perfor
 The Credit Release page allows for credit release similar to OIS120 in M3. It also provides customer and payer information similar to the Credit History page to help determine if an order should be released from hold or not. The list of credit stopped orders displays orders for all customers regardless of your customer and/or payer selection.
 
 Note. When you select a line in the list the Data/Aging/Totals sections below will load with data based on the Customer and Payer on the selected line. The Aging and Totals displayed on the Credit Release page are corresponding to the Customer and Payer on the selected line and NOT your main selection in the application.
+
+<img src="images/credit-release-order.png" width="500">
 
 ### Release Orders
 
@@ -342,15 +360,27 @@ _Again. This is not a &quot;shortcut&quot; to the Tickler Notes page functionali
 
 The Orders page shows a list of current and past orders for the selected customer account. This can be useful to lookup additional details of a current order or to lookup past orders that have had issues such as payment rejections.
 
-By selecting an order in the list, the below order lines will load. By selecting an order line in turn the charges and line charges will load if there are any.
+By selecting an order in the list, the below order lines will load. By selecting an order line in turn the charges and line charges will load if there are any
+
+<img src="images/orders.png" width="500">
+
+<img src="images/order-line.png" width="500">
+
+<img src="images/charges.png" width="500">
 
 ### Account Payments
 
 The Account Payments page will show a list of checks paid by a customer along with all the invoices paid on that check. When you select a Payment line the Payment Details for that line will load.
 
+<img src="images/account-payment.png" width="500">
+
+<img src="images/account-paymentdetails.png" width="500">
+
 ### Search for a Check Number
 
 There is a special search box at the top where you can query for any check. Note that this is not a filter for the list below it. This search box is special in that it will search and display results regardless of your main selection - ie you can search for any check number in M3 even if it does not match your main selection above.
+
+<img src="images/search-with-check.png" width="500">
 
 ### Cash Payments
 
@@ -358,11 +388,15 @@ This section shows information for cash account customers and charge account cus
 
 Selecting a Cash Payments line will display the Cash Payments Detail.
 
+<img src="images/cash-payment.png" width="500">
+
 ### Search
 
 The Search page allows you to search for an invoice, either via invoice number, order number, PO number or by check number.
 
 Type your search criteria in the input boxes and then press the Search button.
+
+<img src="images/search-with-check.png" width="500">
 
 Note. If/When you select a line in the Results list below the application will switch over to the Invoices page, change the main selection criteria to match the searched invoice, reload, and then scroll down and display the invoice in the list.
 
@@ -387,6 +421,8 @@ Please note that slowness in the application may also be due to M3 being under h
 Errors can happen in the application for many different reasons and will be presented to you in a notification box. Here is a short guide on how to decipher these messages.
 
 Example 1 - M3 API error
+
+<img src="images/error-msg.png" width="500">
 
 In this error message it begins by telling us which service specifically is failing. You can recognize this by it being on a URL form. In this case _http://...rest/items/itemwarehouse/copy_
 
