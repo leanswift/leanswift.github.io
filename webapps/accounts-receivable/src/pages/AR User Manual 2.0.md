@@ -100,6 +100,7 @@ This user guide will cover the Accounts Receivable application. This webapp take
 
 [Deciphering Error Messages](#deciphering-Error-Messages)
 
+[Limitations](#limitations)
 
 ## Navigating the Application
 
@@ -286,13 +287,13 @@ If there is an existing invoice reference on a Tickler Note for your selected in
 
 Also note that Tickler Note By Invoice Number functionality may or may not be activated as it is an administrator configuration. Your company may not be using this.
 
-<img src="images/tickler-notes-by-invoice.png" width="500">
+<img src="images/tickler-notes-by-invoice.png" width="700">
 
 ### Flagged Invoices
 
 Some invoices may appear &quot;flagged&quot; with a small icon. These are so called preliminary invoices in M3 and should not be appearing here. It is an indication that something is not right and may need further investigation in M3.
 
-<img src="images/flagged-invoice.png" width="500">
+<img src="images/flagged-invoice.png" width="700">
 
 ### Basic Data
 
@@ -300,9 +301,9 @@ The Basic Data page combines information from various places in M3 such as CRS61
 
 Note. If you do not see the Save button on the Basic Data page then you have not been granted update access by your application administrator.
 
-<img src="images/basic-data-global.png" width="500">
+<img src="images/basic-data-global.png" width="700">
 
-<img src="images/basic-data-credit.png" width="500">
+<img src="images/basic-data-credit.png" width="700">
 
 ### Tickler Notes
 
@@ -315,13 +316,13 @@ Note. If you do not see the Save button on the Tickler Notes page then you have 
 
 To add a new tickler note simply enter an id and description and click the Add button.
 
-<img src="images/tickler-note-add.png" width="500">
+<img src="images/tickler-note-add.png" width="700">
 
 ### Editing existing notes
 
 By selecting a line the detail section below will load (note that if there is no text data it will still be blank). You can type in any of the fields and then click the Save button.
 
-<img src="images/existing-tickler-notes.png" width="500">
+<img src="images/existing-tickler-notes.png" width="700">
 
 Note. Make sure to wait for the loading icon to complete the save.
 
@@ -329,8 +330,8 @@ Note. Make sure to wait for the loading icon to complete the save.
 
 The Credit History page will display credit information for both the customer and payer selected. This page will show last payment details, balances and high period, outstanding amount, average days to pay, aging and more. The purpose of this page is to review credit references and history.
 
-<img src="images/credit-history-data.png" width="500">
-<img src="images/credit-history-aging-total.png" width="500">
+<img src="images/credit-history-data.png" width="700">
+<img src="images/credit-history-aging-total.png" width="700">
 
 Note. Initially the page will not load additional details for application performance reasons.
 
@@ -340,7 +341,7 @@ The Credit Release page allows for credit release similar to OIS120 in M3. It al
 
 Note. When you select a line in the list the Data/Aging/Totals sections below will load with data based on the Customer and Payer on the selected line. The Aging and Totals displayed on the Credit Release page are corresponding to the Customer and Payer on the selected line and NOT your main selection in the application.
 
-<img src="images/credit-release-order.png" width="500">
+<img src="images/credit-release-order.png" width="700">
 
 ### Release Orders
 
@@ -362,25 +363,25 @@ The Orders page shows a list of current and past orders for the selected custome
 
 By selecting an order in the list, the below order lines will load. By selecting an order line in turn the charges and line charges will load if there are any
 
-<img src="images/orders.png" width="500">
+<img src="images/orders.png" width="700">
 
-<img src="images/order-line.png" width="500">
+<img src="images/order-line.png" width="700">
 
-<img src="images/charges.png" width="500">
+<img src="images/charges.png" width="700">
 
 ### Account Payments
 
 The Account Payments page will show a list of checks paid by a customer along with all the invoices paid on that check. When you select a Payment line the Payment Details for that line will load.
 
-<img src="images/account-payment.png" width="500">
+<img src="images/account-payment.png" width="700">
 
-<img src="images/account-paymentdetails.png" width="500">
+<img src="images/account-paymentdetails.png" width="700">
 
 ### Search for a Check Number
 
 There is a special search box at the top where you can query for any check. Note that this is not a filter for the list below it. This search box is special in that it will search and display results regardless of your main selection - ie you can search for any check number in M3 even if it does not match your main selection above.
 
-<img src="images/search-with-check.png" width="500">
+<img src="images/search-with-check.png" width="700">
 
 ### Cash Payments
 
@@ -388,7 +389,7 @@ This section shows information for cash account customers and charge account cus
 
 Selecting a Cash Payments line will display the Cash Payments Detail.
 
-<img src="images/cash-payment.png" width="500">
+<img src="images/cash-payment.png" width="700">
 
 ### Search
 
@@ -396,7 +397,7 @@ The Search page allows you to search for an invoice, either via invoice number, 
 
 Type your search criteria in the input boxes and then press the Search button.
 
-<img src="images/search-with-check.png" width="500">
+<img src="images/search-with-check.png" width="700">
 
 Note. If/When you select a line in the Results list below the application will switch over to the Invoices page, change the main selection criteria to match the searched invoice, reload, and then scroll down and display the invoice in the list.
 
@@ -422,7 +423,7 @@ Errors can happen in the application for many different reasons and will be pres
 
 Example 1 - M3 API error
 
-<img src="images/error-msg.png" width="500">
+<img src="images/error-msg.png" width="700">
 
 In this error message it begins by telling us which service specifically is failing. You can recognize this by it being on a URL form. In this case _http://...rest/items/itemwarehouse/copy_
 
@@ -449,3 +450,13 @@ Some &quot;usual suspects&quot; that could have caused this (but by far not limi
 If you see this you should try re-doing what you just did. For example load something else in the app, then go back in and load the data that caused the issue, and so on. If the problem persists you will need to contact your application administrator.
 
 Also you should avoid clicking around all too much in the application while you see a loading icon on the screen.
+
+### Limitations
+
+Few APIs have a limit on the number of records returned. Below are the list of APIs which are limited to 1000 results
+1. CMS100MI : LstInvNE9_arls, LstInvOrde_arls, LstCsData1_arls, LstCsData2_arls, LstCsData3_arls, LstCusCr_arls, LstOrdLine_arls, LstOrdrCh_arls, LstCrStop_arls
+2. CRS111MI : Get
+3. OIS100MI : SearchHead
+4. OIS012MI : LstPriceLstTabl
+5. OIS320MI : LstDiscModels
+6. OIS010MI : LstOrderTypes
