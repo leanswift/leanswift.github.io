@@ -6,7 +6,7 @@
 
 # [H5 Web Applications](/webapps/index.md)
 
-# [Supplier Portal](/supplierportal/pages/introduction.md)
+# [Supplier Portal](/supplierportal/src/pages/introduction.md)
 
 # MobileFirst
 
