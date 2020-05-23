@@ -8,6 +8,6 @@
 
 # [Supplier Portal](/supplierportal/src/pages/introduction.md)
 
-# MobileFirst
+# [MobileFirst](/mobile/src/pages/index.md)
 
-# HubSpot-M3 Integration 
+# [HubSpot-M3 Integration](hubspot-m3/src/pages/index.md)
