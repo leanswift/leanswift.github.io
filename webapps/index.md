@@ -1,3 +1,4 @@
+![LeanSwift Standard H5 Web Applications](../images/banner-h5-web-applications.jpg)
 
 ## Accounts Receivable
 
