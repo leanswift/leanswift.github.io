@@ -5,11 +5,11 @@
 
 ### Table of Contents
 
-[Overview](#overview)
+- [Overview](#overview)
 
-[Navigating the Application](#navigating-the-Application)
+- [Navigating the Application](#navigating-the-Application)
 
-[Main Menu](#main-Menu)
+    - [Main Menu](#main-Menu)
 
 [Application Pages](#application-Pages)
 
@@ -96,9 +96,11 @@
 [Limitations](#limitations)
 
 
-## Overview
+## Overview 
 
 This user guide will cover the Accounts Receivable application. This webapp takes information and data from multiple places in Infor M3 such as, but not limited to, CRS610, MFS610, ARS200, RMS440, and combines them into one interface. This should allow a credit manager to do all of their job functions from one place rather than going into multiple programs and screens in Infor M3 to enter, edit, and obtain information.
+
+[Go to Top](#table-of-contents)
 
 ## Navigating the Application
 
