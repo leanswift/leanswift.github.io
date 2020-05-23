@@ -108,11 +108,11 @@ This section will give a quick overview on how to get around and navigate the we
 
 The main menu appears on the left side of the screen, and the menu button is in the top left corner of the screen. The menu itself is stickied to the left side and will display without icons, or icons with labels. You can cycle through either display option by clicking the menu button.
 
-<img src="images/Menu.png" width="150">
+<img src="../images/Menu.png" width="150">
 
 In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
 
-<img src="images/cono.png" width="200">
+<img src="../images/cono.png" width="200">
 
 ### Application Pages
 
