@@ -1,14 +1,7 @@
-# Accounts Receivable
+# User Manual - Accounts Receivable Version 8.0.0
 
-Webapp User Manual
+![Optional Text](../../../../images/banner-accounts-receivable.jpg)
 
-Version 8.0
-
-May, 2020
-
-## Overview
-
-This user guide will cover the Accounts Receivable application. This webapp takes information and data from multiple places in Infor M3 such as, but not limited to, CRS610, MFS610, ARS200, RMS440, and combines them into one interface. This should allow a credit manager to do all of their job functions from one place rather than going into multiple programs and screens in Infor M3 to enter, edit, and obtain information.
 
 ### Table of Contents
 
@@ -101,6 +94,11 @@ This user guide will cover the Accounts Receivable application. This webapp take
 [Deciphering Error Messages](#deciphering-Error-Messages)
 
 [Limitations](#limitations)
+
+
+## Overview
+
+This user guide will cover the Accounts Receivable application. This webapp takes information and data from multiple places in Infor M3 such as, but not limited to, CRS610, MFS610, ARS200, RMS440, and combines them into one interface. This should allow a credit manager to do all of their job functions from one place rather than going into multiple programs and screens in Infor M3 to enter, edit, and obtain information.
 
 ## Navigating the Application
 
