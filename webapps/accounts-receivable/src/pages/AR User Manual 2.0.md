@@ -108,11 +108,11 @@ This section will give a quick overview on how to get around and navigate the we
 
 The main menu appears on the left side of the screen, and the menu button is in the top left corner of the screen. The menu itself is stickied to the left side and will display without icons, or icons with labels. You can cycle through either display option by clicking the menu button.
 
-<img src="../images/Menu.png" width="150">
+<kbd><img src="../images/Menu.png" width="150" alt="App Menu"></kbd>
 
 In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
 
-<img src="../images/cono.png" width="200">
+<img src="../images/cono.png" width="200" alt="M3 Company and Division">
 
 ### Application Pages
 
@@ -122,17 +122,17 @@ The first section of the main menu will be the application pages themselves. The
 
 The about main menu option will display details of the application such as the exact application version and build you are running. If you are experiencing issues these will be vital to know when contacting support and troubleshooting.
 
-<img src="images/logo.png" width="200">
+<img src="../images/logo.png" width="200">
 
 ### Selecting Lines in a List
 
 To select a line click the checkmark box to the left of the line you wish to select. When you select a line usually there is a list or data section below on the same page that will populate with detailed data based on the selected line.
 
-<img src="../images/select-single-line.png" width="650">
+<kbd><img src="../images/select-single-line.png" width="650"></kbd>
 
 Lists also support multi selection. 
 
-<img src="../images/select-multi-line.png" width="650">
+<kbd><img src="../images/select-multi-line.png" width="650"></kbd>
 
 Note that some functionality like loading details below will only apply to the last clicked line.
 
