@@ -133,8 +133,8 @@ Magento and when any transaction in eConnect is not working due to service being
 <img alt="Service Configuration" src="../../images/usermanual/serviceconfiguration.png">
 </kbd>
 
-<br>
 <b>
+<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -154,8 +154,8 @@ The section used to configure the connection parameters for connecting M3. An op
 <img alt="Basic Configuration" src="../../images/usermanual/authentication.png">
 </kbd>
 
-<br>
 <b>
+<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -178,8 +178,8 @@ The section provides configuration for the company details and other settings wh
 <img alt="General Configuration" src="../../images/usermanual/supplier-settings/general.png">
 </kbd>
 
-<br>
 <b>
+<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -210,8 +210,8 @@ The section provides an option to choose email templates for each operation. It 
 <img alt="Email templates" src="../../images/usermanual/supplier-settings/email-templates.png">
 </kbd>
 
-<br>
 <b>
+<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -223,8 +223,8 @@ The section contains cron configuration for sending PO request to M3 and getting
 <img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/cron.png">
 </kbd>
 
-<br>
 <b>
+<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -260,8 +260,8 @@ The section contains information to be basic configuration for company.
 <img alt="General Configuration" src="../../images/usermanual/supplier-design/general.png">
 </kbd>
 
-<br>
 <b>
+<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -286,8 +286,8 @@ The section contains information to be basic configuration for company.
     <img alt="Frontend color code" src="../../images/usermanual/supplier-design/frontend-color.png">
 </kbd>
 
-<br>
 <b>
+<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -299,8 +299,8 @@ Logo image upload width and height can be changed over here.
     <img alt="Logo Image size" src="../../images/usermanual/supplier-design/logo-imagesize.png">
 </kbd>
 
-<br>
 <b>
+<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -324,8 +324,8 @@ The section contains the status code ,label and color code mapping for forecast 
 <img alt="Forecast status mapping" src="../../images/usermanual/supplier-design/forecast-status-mapping.png">
 </kbd>
 
-<br>
 <b>
+<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -368,12 +368,10 @@ The section contains the filter limit, filter label mapping for the filter attri
 <img alt="Forecast filter mapping" src="../../images/usermanual/supplier-design/filter-forecast.png">
 </kbd>
 
-
-<br>
 <b>
+<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
-
 
 
 ### Exit System
@@ -381,14 +379,19 @@ The section contains the filter limit, filter label mapping for the filter attri
 Log out from Magento admin using the link at the top right.
 
 <kbd>
-<img alt="Forecast filter mapping" src="../../images/usermanual/supplier-design/filter-forecast.png">
+<img alt="Forecast filter mapping" src="../../images/usermanual/admin-logout.png">
 </kbd>
+
+<b>
+<br>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
 
 ## Additional Functionality
 
 ### IDM
 
-&#39;Uploading documents into IDM against Purchase Orders&#39; requires LeanSwift IDM Magento Extension.
+Uploading documents into IDM against Purchase Orders requires LeanSwift IDM Magento Extension.
 
 \&lt;\&lt; Provide link to eConnect-base Configuration page \&gt;\&gt;
 
