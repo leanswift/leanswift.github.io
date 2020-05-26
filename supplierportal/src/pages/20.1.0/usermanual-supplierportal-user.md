@@ -58,25 +58,28 @@ May, 2020
       - [Basic Data Configuration](#basic-data-configuration)
       - [Authentication](#authentication)
     - [Supplier Portal Settings](#supplier-portal-settings)
-      - [Settings](#settings)
-        - [General Configuration](#general-configuration)
-        - [ION WorkFlow Configuration](#ion-workflow-configuration)
-        - [Metrics Display](#metrics-display)
-        - [On-Time Delivery KPI](#on-time-delivery-kpi)
-        - [Email templates](#email-templates)
-        - [Cron](#cron)
-      - [Design Settings](#design-settings)
-        - [General](#general)
-        - [Frontend Color Codes](#frontend-color-codes)
-        - [Logo Image size](#logo-image-size)
-        - [Status Mapping](#status-mapping)
-        - [Filter and Search](#filter-and-search)
+      - [General Configuration](#general-configuration)
+      - [ION WorkFlow Configuration](#ion-workflow-configuration)
+      - [Metrics Display](#metrics-display)
+      - [On-Time Delivery KPI](#on-time-delivery-kpi)
+      - [Email templates](#email-templates)
+      - [Cron](#cron)
+    - [Design Settings](#design-settings)
+      - [General](#general)
+      - [Frontend Color Codes](#frontend-color-codes)
+      - [Logo Image size](#logo-image-size)
+      - [Status Mapping](#status-mapping)
+        - [PO Status Mapping](#po-status-mapping)
+        - [Forecast Status Mapping](#forecast-status-mapping)
+      - [Filter and Search](#filter-and-search)
+        - [Purchaseorder Filter Mapping](#purchaseorder-filter-mapping)
+        - [Forecast Filter Mapping](#forecast-filter-mapping)
     - [Exit System](#exit-system)
   - [Additional Functionality](#additional-functionality)
     - [IDM](#idm)
   - [ION Workflows](#ion-workflows)
   - [Logging](#logging)
-  
+    
 # System Overview
 
 LeanSwift Supplier Portal is a supplier self-service web portal that enables efficient online communication with vendors. It is seamlessly integrated with Infor M3 Cloudsuite via ION. Supplier Portal helps automate the entire purchase-to-pay process for the customer.
@@ -310,12 +313,10 @@ The section used to configure the connection parameters for connecting M3. An op
 
 Supplier portal related settings and design configurations can be made here.
  
-#### Settings
+#### General Configuration
 
 The section provides configuration for the company details and other settings which are associated for the behaviour
  of the system.
- 
-##### General Configuration
 
 **Company Name:** Provide the company name.
 
@@ -325,38 +326,38 @@ The section provides configuration for the company details and other settings wh
 
 <img alt="General Configuration" src="../../images/usermanual/supplier-settings/general.png">
 
-##### ION WorkFlow Configuration
+#### ION WorkFlow Configuration
 
 <img alt="workflow Configuration" src="../../images/usermanual/supplier-settings/workflow.png">
 
-##### Metrics Display
+#### Metrics Display
 
 <img alt="metrics display" src="../../images/usermanual/supplier-settings/metrics.png">
 
-##### On-Time Delivery KPI
+#### On-Time Delivery KPI
 
 <img alt="on-time delivery" src="../../images/usermanual/supplier-settings/ontime-delivery.png">
 
-##### Email templates
+#### Email templates
 
 The section provides an option to choose email templates for each operation. It is configured with default email
  templates. When a new email template is created it can be changed over here. 
 
 <img alt="Email templates" src="../../images/usermanual/supplier-settings/email-templates.png">
 
-##### Cron
+#### Cron
 
 The section contains cron configuration for sending PO request to M3 and getting forecast PO from M3.
 
 <img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/cron.png">
 
-#### Design Settings
+### Design Settings
 
 The section provides configuration for the company images with color code configuration affecting frontend behaviour
 with an option to choose different colors for each status of Purchase order and forecast. It provides
 an option to create customizable filters for the purchase order and forecast pages.
 
-##### General
+#### General
 
 The section contains information to be basic configuration for company.
 
@@ -380,31 +381,46 @@ The section contains information to be basic configuration for company.
 
 <img alt="General Configuration" src="../../images/usermanual/supplier-design/general.png">
 
-##### Frontend Color Codes  
+#### Frontend Color Codes  
+
+
+| Color Label    | Purpose    |
+| :-------------: | :----------: |
+|  Background color | Body background color(page wrapper BG color).   |
+| Text HighLight   | Headings in account page, supplier name,filter name color. |
+| Sign In Button color  | Normal Button BG color in supplier portal pages. |
+| Filter Button color  | Filter list add button BG color for purchase order and forecast page. |
+| Special Button color  | This color code used in download button, confirm, all button and chart types menu in metrics page. |
+| Menu color  | This is used for paginization , active menu selection, Table head BG color, Collapsible menu in my account and metrics page. |
+| Chart color  | This is used for the chart color in metrics page. |
+| Confirmed Status BG color  | Confirmed purchase order line BG color is mentioned here. |
+| Waiting Status BG color  | Waiting purchase order line BG color is mentioned here. |
+
+ > BG -  Background color
 
 <img alt="Frontend color code" src="../../images/usermanual/supplier-design/frontend-color.png">
 
-##### Logo Image size
+#### Logo Image size
 
 <img alt="Logo Image size" src="../../images/usermanual/supplier-design/logo-imagesize.png">
 
-##### Status Mapping
+#### Status Mapping
 
-###### PO Status Mapping
+##### PO Status Mapping
 
 <img alt="PO status mapping" src="../../images/usermanual/supplier-design/po-status-mapping.png">
 
-###### Forecast Status Mapping
+##### Forecast Status Mapping
 
 <img alt="Forecast status mapping" src="../../images/usermanual/supplier-design/forecast-status-mapping.png">
 
-##### Filter and Search
+#### Filter and Search
 
-###### Purchaseorder Filter Mapping
+##### Purchaseorder Filter Mapping
 
 <img alt="Purchaseorder filter mapping" src="../../images/usermanual/supplier-design/filter-po.png">
 
-###### Forecast Filter Mapping
+##### Forecast Filter Mapping
 
 <img alt="Forecast filter mapping" src="../../images/usermanual/supplier-design/filter-forecast.png">
 
