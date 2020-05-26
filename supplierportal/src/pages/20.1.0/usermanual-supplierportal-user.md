@@ -13,6 +13,7 @@ May, 2020
 
 - [Supplier Portal](#supplier-portal)
   - [Overview](#overview)
+- [Table of contents](#table-of-contents)
 - [System Overview](#system-overview)
   - [Organization of the Manual](#organization-of-the-manual)
   - [Architecture](#architecture)
@@ -56,14 +57,26 @@ May, 2020
       - [Service Configuration](#service-configuration)
       - [Basic Data Configuration](#basic-data-configuration)
       - [Authentication](#authentication)
-    - [General Settings](#general-settings)
-    - [Design Settings](#design-settings)
+    - [Supplier Portal Settings](#supplier-portal-settings)
+      - [Settings](#settings)
+        - [General Configuration](#general-configuration)
+        - [ION WorkFlow Configuration](#ion-workflow-configuration)
+        - [Metrics Display](#metrics-display)
+        - [On-Time Delivery KPI](#on-time-delivery-kpi)
+        - [Email templates](#email-templates)
+        - [Cron](#cron)
+      - [Design Settings](#design-settings)
+        - [General](#general)
+        - [Frontend Color Codes](#frontend-color-codes)
+        - [Logo Image size](#logo-image-size)
+        - [Status Mapping](#status-mapping)
+        - [Filter and Search](#filter-and-search)
     - [Exit System](#exit-system)
   - [Additional Functionality](#additional-functionality)
     - [IDM](#idm)
   - [ION Workflows](#ion-workflows)
   - [Logging](#logging)
-
+  
 # System Overview
 
 LeanSwift Supplier Portal is a supplier self-service web portal that enables efficient online communication with vendors. It is seamlessly integrated with Infor M3 Cloudsuite via ION. Supplier Portal helps automate the entire purchase-to-pay process for the customer.
@@ -149,7 +162,6 @@ Go to Home page and select &#39;Create an Account&#39;
 
 Based on whether econnect is installed or not , the registration
 
-&#39;
 
 ## Log in
 
@@ -233,8 +245,6 @@ Based on whether econnect is installed or not , the registration
 
 \&lt;\&lt; Show an image and provide description \&gt;\&gt;
 
-#
-
 
 # User Guide for Portal Admin
 
@@ -246,7 +256,6 @@ credentials.
 
 <img alt="Admin screen" src="../../images/usermanual/adminscreen.png" width="200">
 
-##
 
 ## Configuration
 
@@ -297,17 +306,76 @@ The section used to configure the connection parameters for connecting M3. An op
 <img alt="Basic Configuration" src="../../images/usermanual/authentication.png" width="650">
 
 
-### General Settings
+### Supplier Portal Settings
 
-\&lt;\&lt; List images and details of each section under Supplier Portal/Settings \&gt;\&gt;
+Supplier portal related settings and design configurations can be made here.
+ 
+#### Settings
 
-### Design Settings
+The section provides configuration for the company details and other settings which are associated for the behaviour
+ of the system.
+ 
+##### General Configuration
 
-\&lt;\&lt; List images and details of each section under Supplier Portal/Design/Display \&gt;\&gt;
+<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/general.png" width="650">
 
-\&lt;\&lt; Show sample screenshots of where certain settings affect the user interface \&gt;\&gt;
+##### ION WorkFlow Configuration
 
-\&lt;\&lt; When describing how the look can be changed by changing colors
+<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/workflow.png" width="650">
+
+##### Metrics Display
+
+<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/metrics.png" width="650">
+
+##### On-Time Delivery KPI
+
+<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/ontime-delivery.png" width="650">
+
+##### Email templates
+
+<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/email-templates.png" width="650">
+
+##### Cron
+
+<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/cron.png" width="650">
+
+#### Design Settings
+
+The section provides configuration for the company images with color code configuration affecting frontend behaviour
+with an option to choose different colors for each status of Purchase order and forecast. It provides
+an option to create customizable filters for the purchase order and forecast pages.
+
+##### General
+
+<img alt="General Configuration" src="../../images/usermanual/supplier-design/general.png" width="650">
+
+##### Frontend Color Codes  
+
+<img alt="Frontend color code" src="../../images/usermanual/supplier-design/frontend-color.png" width="650">
+
+##### Logo Image size
+
+<img alt="Logo Image size" src="../../images/usermanual/supplier-design/logo-imagesize.png" width="650">
+
+##### Status Mapping
+
+###### PO Status Mapping
+
+<img alt="PO status mapping" src="../../images/usermanual/supplier-design/po-status-mapping.png" width="650">
+
+###### Forecast Status Mapping
+
+<img alt="Forecast status mapping" src="../../images/usermanual/supplier-design/forecast-status-mapping.png" width="650">
+
+##### Filter and Search
+
+###### Purchaseorder Filter Mapping
+
+<img alt="Purchaseorder filter mapping" src="../../images/usermanual/supplier-design/filter-po.png" width="650">
+
+###### Forecast Filter Mapping
+
+<img alt="Forecast filter mapping" src="../../images/usermanual/supplier-design/filter-forecast.png" width="650">
 
 ### Exit System
 
