@@ -1,1 +1,1 @@
-![LeanSwift Supplier Portal Overview](../images/supplier-portal-overview.jpg)
+![LeanSwift Supplier Portal Overview](../../images/supplier-portal-overview.jpg)
