@@ -289,21 +289,21 @@ Magento and when any transaction in eConnect is not working due to service being
 
 **Debug/Log data:** Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in development but should be set to &quot;No&quot; in production to improve performance.
 
-<img alt="Service Configuration" src="../../images/usermanual/serviceconfiguration.png" width="650">
+<img alt="Service Configuration" src="../../images/usermanual/serviceconfiguration.png">
 
 #### Basic Data Configuration
 
 The **Basic Data** section of the configuration contains key settings needed for the various transactions.
 
 
-<img alt="Basic Configuration" src="../../images/usermanual/basicconfiguration.png" width="650">
+<img alt="Basic Configuration" src="../../images/usermanual/basicconfiguration.png">
 
 
 #### Authentication
 
 The section used to configure the connection parameters for connecting M3. An option to test the connection between Portal and M3.
 
-<img alt="Basic Configuration" src="../../images/usermanual/authentication.png" width="650">
+<img alt="Basic Configuration" src="../../images/usermanual/authentication.png">
 
 
 ### Supplier Portal Settings
@@ -317,27 +317,38 @@ The section provides configuration for the company details and other settings wh
  
 ##### General Configuration
 
-<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/general.png" width="650">
+**Company Name:** Provide the company name.
+
+**Company Email** : Alerts will be sent to the company email.
+
+**Debug/Log data:** Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in development but should be set to &quot;No&quot; in production to improve performance.
+
+<img alt="General Configuration" src="../../images/usermanual/supplier-settings/general.png">
 
 ##### ION WorkFlow Configuration
 
-<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/workflow.png" width="650">
+<img alt="workflow Configuration" src="../../images/usermanual/supplier-settings/workflow.png">
 
 ##### Metrics Display
 
-<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/metrics.png" width="650">
+<img alt="metrics display" src="../../images/usermanual/supplier-settings/metrics.png">
 
 ##### On-Time Delivery KPI
 
-<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/ontime-delivery.png" width="650">
+<img alt="on-time delivery" src="../../images/usermanual/supplier-settings/ontime-delivery.png">
 
 ##### Email templates
 
-<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/email-templates.png" width="650">
+The section provides an option to choose email templates for each operation. It is configured with default email
+ templates. When a new email template is created it can be changed over here. 
+
+<img alt="Email templates" src="../../images/usermanual/supplier-settings/email-templates.png">
 
 ##### Cron
 
-<img alt="Basic Configuration" src="../../images/usermanual/supplier-settings/cron.png" width="650">
+The section contains cron configuration for sending PO request to M3 and getting forecast PO from M3.
+
+<img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/cron.png">
 
 #### Design Settings
 
@@ -347,35 +358,55 @@ an option to create customizable filters for the purchase order and forecast pag
 
 ##### General
 
-<img alt="General Configuration" src="../../images/usermanual/supplier-design/general.png" width="650">
+The section contains information to be basic configuration for company.
+
+**Company Logo:** Provide the company logo.
+
+**Company Logo:** Provide the product logo.
+
+**Homepage Banner:** Provide the homepage banner.
+
+**Facicon Image:** Provide the Favicon for the website.
+
+**Show Supplier Portal Homepage:** When an option selected as &quot;Yes&quot; Supplier portal homepage is shown.When
+ it is set to &quot;No&quot; default homepage configured to website will be displayed.
+ 
+ > The option wil be enabled only when LeanSwift Econnect Module is installed 
+
+**Show document upload option:** When an option is selected as &quot;Yes&quot; upload document in
+ Purchase order page will be displayed. When set to &quot;No&quot; upload document is disabled.
+
+> The option wil be enabled only when LeanSwift IDM Module is installed
+
+<img alt="General Configuration" src="../../images/usermanual/supplier-design/general.png">
 
 ##### Frontend Color Codes  
 
-<img alt="Frontend color code" src="../../images/usermanual/supplier-design/frontend-color.png" width="650">
+<img alt="Frontend color code" src="../../images/usermanual/supplier-design/frontend-color.png">
 
 ##### Logo Image size
 
-<img alt="Logo Image size" src="../../images/usermanual/supplier-design/logo-imagesize.png" width="650">
+<img alt="Logo Image size" src="../../images/usermanual/supplier-design/logo-imagesize.png">
 
 ##### Status Mapping
 
 ###### PO Status Mapping
 
-<img alt="PO status mapping" src="../../images/usermanual/supplier-design/po-status-mapping.png" width="650">
+<img alt="PO status mapping" src="../../images/usermanual/supplier-design/po-status-mapping.png">
 
 ###### Forecast Status Mapping
 
-<img alt="Forecast status mapping" src="../../images/usermanual/supplier-design/forecast-status-mapping.png" width="650">
+<img alt="Forecast status mapping" src="../../images/usermanual/supplier-design/forecast-status-mapping.png">
 
 ##### Filter and Search
 
 ###### Purchaseorder Filter Mapping
 
-<img alt="Purchaseorder filter mapping" src="../../images/usermanual/supplier-design/filter-po.png" width="650">
+<img alt="Purchaseorder filter mapping" src="../../images/usermanual/supplier-design/filter-po.png">
 
 ###### Forecast Filter Mapping
 
-<img alt="Forecast filter mapping" src="../../images/usermanual/supplier-design/filter-forecast.png" width="650">
+<img alt="Forecast filter mapping" src="../../images/usermanual/supplier-design/filter-forecast.png">
 
 ### Exit System
 
