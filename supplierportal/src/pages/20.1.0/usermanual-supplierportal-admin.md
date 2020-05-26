@@ -1,6 +1,4 @@
-
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
-
 
 # Supplier Portal
 
@@ -135,7 +133,10 @@ Magento and when any transaction in eConnect is not working due to service being
 <img alt="Service Configuration" src="../../images/usermanual/serviceconfiguration.png">
 </kbd>
 
-<a href="#table-of-contents">↥ Go to Top</a>
+<br>
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
 
 #### Basic Data Configuration
 
@@ -153,7 +154,10 @@ The section used to configure the connection parameters for connecting M3. An op
 <img alt="Basic Configuration" src="../../images/usermanual/authentication.png">
 </kbd>
 
-<a href="#table-of-contents">↥ Go to Top</a>
+<br>
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
 
 ### Supplier Portal Settings
 
@@ -174,7 +178,10 @@ The section provides configuration for the company details and other settings wh
 <img alt="General Configuration" src="../../images/usermanual/supplier-settings/general.png">
 </kbd>
 
-<a href="#table-of-contents">↥ Go to Top</a>
+<br>
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
 
 #### ION WorkFlow Configuration
 
@@ -203,7 +210,10 @@ The section provides an option to choose email templates for each operation. It 
 <img alt="Email templates" src="../../images/usermanual/supplier-settings/email-templates.png">
 </kbd>
 
-<a href="#table-of-contents">↥ Go to Top</a>
+<br>
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
 
 #### Cron
 
@@ -213,7 +223,10 @@ The section contains cron configuration for sending PO request to M3 and getting
 <img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/cron.png">
 </kbd>
 
-<a href="#table-of-contents">↥ Go to Top</a>
+<br>
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
 
 ### Design Settings
 
@@ -247,7 +260,10 @@ The section contains information to be basic configuration for company.
 <img alt="General Configuration" src="../../images/usermanual/supplier-design/general.png">
 </kbd>
 
-<a href="#table-of-contents">↥ Go to Top</a>
+<br>
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
 
 #### Frontend Color Codes  
 
@@ -270,19 +286,31 @@ The section contains information to be basic configuration for company.
     <img alt="Frontend color code" src="../../images/usermanual/supplier-design/frontend-color.png">
 </kbd>
 
-<a href="#table-of-contents">↥ Go to Top</a>
+<br>
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
 
 #### Logo Image size
+
+Logo image upload width and height can be changed over here.
 
 <kbd>
     <img alt="Logo Image size" src="../../images/usermanual/supplier-design/logo-imagesize.png">
 </kbd>
 
-<a href="#table-of-contents">↥ Go to Top</a>
+<br>
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
 
 #### Status Mapping
 
+The section contains mapping of status code corresponding status label and color code.
+
 ##### PO Status Mapping
+
+The section contains the status code ,label and color code mapping for Purchase order page.
 
 <kbd>
 <img alt="PO status mapping" src="../../images/usermanual/supplier-design/po-status-mapping.png">
@@ -290,23 +318,63 @@ The section contains information to be basic configuration for company.
 
 ##### Forecast Status Mapping
 
+The section contains the status code ,label and color code mapping for forecast purchase order.
+
 <kbd>
 <img alt="Forecast status mapping" src="../../images/usermanual/supplier-design/forecast-status-mapping.png">
 </kbd>
 
+<br>
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+
 #### Filter and Search
 
+The section contains the filter limit and mapping for the filter attribute and filter operations with filter type.
+
+**Filter Operations:** Inbuild filter operations are
+
+- Less Than
+- Greater Than
+- Equals
+- Contains
+- Starts with
+- Ends with
+
+
+**Filter types:** Inbuild filter types are
+
+- Number
+- Date
+- Text
+
 ##### Purchaseorder Filter Mapping
+
+The section contains the filter limit, filter label mapping for the filter attribute and filter operations for
+ purchase order.
 
 <kbd>
 <img alt="Purchaseorder filter mapping" src="../../images/usermanual/supplier-design/filter-po.png">
 </kbd>
 
+
+
 ##### Forecast Filter Mapping
+
+The section contains the filter limit, filter label mapping for the filter attribute and filter operations for forecast.
 
 <kbd>
 <img alt="Forecast filter mapping" src="../../images/usermanual/supplier-design/filter-forecast.png">
 </kbd>
+
+
+<br>
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+
+
 
 ### Exit System
 
