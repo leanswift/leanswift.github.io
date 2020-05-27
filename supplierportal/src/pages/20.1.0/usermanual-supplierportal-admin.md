@@ -8,7 +8,7 @@ Version 1.0
 
 May, 2020
 
-## Overview
+To view the user manual for Portal Users [click here.](http://google.com)
 
 # Table of contents
 
@@ -49,6 +49,9 @@ May, 2020
     - [IDM](#idm)
   - [ION Workflows](#ion-workflows)
   - [Logging](#logging)
+
+## Overview
+
   
 # System Overview
 
@@ -99,8 +102,6 @@ credentials.
 
 The Admin Panel allows the portal administrator to view and edit configuration required for the Supplier Portal to function.
 
-**Note** : _Images for Admin should be from the restricted access menu that we would create for portal administrators and not the super admin user we usually use for ourselves._
-
 ### Menus
 
 To access the LeanSwift Configuration, click the LeanSwift tab.
@@ -117,24 +118,33 @@ LeanSwift eConnect-base extension is a prerequisite for Supplier Portal. Provide
 
 Section enables the user to configure M3 communication and general usability related settings.
 
-**M3 Connection Protocol** : Option to choose the M3 communication protocol either ION or eLink.eConnectBase Pick the option which is choosen.
+**M3 Connection Protocol** : 
 
-**API Service URL:** Service URL is entered here.
+Option to choose the M3 communication protocol either ION or eLink.eConnectBase Pick the option which is choosen.
 
-**Email** : Define the e-mail address that will be used for error alerts if exceptions were to occur in
+**API Service URL:** 
 
+Service URL is entered here.
+
+**Email** : 
+
+Define the e-mail address that will be used for error alerts if exceptions were to occur in
 Magento and when any transaction in eConnect is not working due to service being down
 
-**Error Email Template:** Enabled an option to choose an error email template can map over the customized template here.
+**Error Email Template:** 
 
-**Debug/Log data:** Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in development but should be set to &quot;No&quot; in production to improve performance.
+Enabled an option to choose an error email template can map over the customized template here.
+
+**Debug/Log data:** 
+
+Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in development but should be set to &quot;No&quot; in production to improve performance.
 
 <kbd>
 <img alt="Service Configuration" src="../../images/usermanual/serviceconfiguration.png">
 </kbd>
 
+<br></br>
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -154,8 +164,8 @@ The section used to configure the connection parameters for connecting M3. An op
 <img alt="Basic Configuration" src="../../images/usermanual/authentication.png">
 </kbd>
 
+<br></br>
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -168,18 +178,25 @@ Supplier portal related settings and design configurations can be made here.
 The section provides configuration for the company details and other settings which are associated for the behaviour
  of the system.
 
-**Company Name:** Provide the company name.
+**Company Name:** 
 
-**Company Email** : Alerts will be sent to the company email.
+Provide the company name.
 
-**Debug/Log data:** Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in development but should be set to &quot;No&quot; in production to improve performance.
+**Company Email** : 
+
+Alerts will be sent to the company email.
+
+**Debug/Log data:** 
+
+Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in development but should be set to &quot;No&quot; in production to improve performance.
 
 <kbd>
 <img alt="General Configuration" src="../../images/usermanual/supplier-settings/general.png">
 </kbd>
 
+<br></br>
+
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -210,8 +227,9 @@ The section provides an option to choose email templates for each operation. It 
 <img alt="Email templates" src="../../images/usermanual/supplier-settings/email-templates.png">
 </kbd>
 
+<br></br>
+
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -223,8 +241,8 @@ The section contains cron configuration for sending PO request to M3 and getting
 <img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/cron.png">
 </kbd>
 
+<br></br>
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -238,20 +256,32 @@ an option to create customizable filters for the purchase order and forecast pag
 
 The section contains information to be basic configuration for company.
 
-**Company Logo:** Provide the company logo.
+**Company Logo:** 
 
-**Company Logo:** Provide the product logo.
+Provide the company logo.
 
-**Homepage Banner:** Provide the homepage banner.
+**Company Logo:** 
 
-**Facicon Image:** Provide the Favicon for the website.
+Provide the product logo.
 
-**Show Supplier Portal Homepage:** When an option selected as &quot;Yes&quot; Supplier portal homepage is shown.When
+**Homepage Banner:** 
+
+Provide the homepage banner.
+
+**Facicon Image:** 
+
+Provide the Favicon for the website.
+
+**Show Supplier Portal Homepage:** 
+
+When an option selected as &quot;Yes&quot; Supplier portal homepage is shown.When
  it is set to &quot;No&quot; default homepage configured to website will be displayed.
  
  > The option wil be enabled only when LeanSwift Econnect Module is installed 
 
-**Show document upload option:** When an option is selected as &quot;Yes&quot; upload document in
+**Show document upload option:** 
+
+When an option selected as &quot;Yes&quot; upload document in
  Purchase order page will be displayed. When set to &quot;No&quot; upload document is disabled.
 
 > The option wil be enabled only when LeanSwift IDM Module is installed
@@ -260,8 +290,8 @@ The section contains information to be basic configuration for company.
 <img alt="General Configuration" src="../../images/usermanual/supplier-design/general.png">
 </kbd>
 
+<br></br>
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -269,7 +299,7 @@ The section contains information to be basic configuration for company.
 
 
 | Color Label    | Purpose    |
-| :-------------: | :----------: |
+| :------------- | :---------- |
 |  Background color | Page Body background color.   |
 | Text HighLight   | Headings in account page, supplier name,filter name color. |
 | Sign In Button color  | Normal Button BG color in supplier portal pages. |
@@ -286,8 +316,8 @@ The section contains information to be basic configuration for company.
     <img alt="Frontend color code" src="../../images/usermanual/supplier-design/frontend-color.png">
 </kbd>
 
+<br></br>
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -299,8 +329,8 @@ Logo image upload width and height can be changed over here.
     <img alt="Logo Image size" src="../../images/usermanual/supplier-design/logo-imagesize.png">
 </kbd>
 
+<br></br>
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -316,6 +346,13 @@ The section contains the status code ,label and color code mapping for Purchase 
 <img alt="PO status mapping" src="../../images/usermanual/supplier-design/po-status-mapping.png">
 </kbd>
 
+<br></br>
+
+<p>Purchase order M3 status shown below</p>
+<kbd>
+<img alt="Purchase order M3" src="../../images/usermanual/supplier-design/purchaseorder-m3.png">
+</kbd>
+
 ##### Forecast Status Mapping
 
 The section contains the status code ,label and color code mapping for forecast purchase order.
@@ -324,8 +361,15 @@ The section contains the status code ,label and color code mapping for forecast 
 <img alt="Forecast status mapping" src="../../images/usermanual/supplier-design/forecast-status-mapping.png">
 </kbd>
 
+<br></br>
+
+<p>Forecast M3 status shown below</p>
+<kbd>
+<img alt="Forecast order M3" src="../../images/usermanual/supplier-design/forecast-m3.png">
+</kbd>
+
+<br></br>
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -333,7 +377,9 @@ The section contains the status code ,label and color code mapping for forecast 
 
 The section contains the filter limit and mapping for the filter attribute and filter operations with filter type.
 
-**Filter Operations:** Inbuild filter operations are
+**Filter Operations:** 
+
+Inbuild filter operations are
 
 - Less Than
 - Greater Than
@@ -343,7 +389,9 @@ The section contains the filter limit and mapping for the filter attribute and f
 - Ends with
 
 
-**Filter types:** Inbuild filter types are
+**Filter types:** 
+
+Inbuild filter types are
 
 - Number
 - Date
@@ -368,8 +416,8 @@ The section contains the filter limit, filter label mapping for the filter attri
 <img alt="Forecast filter mapping" src="../../images/usermanual/supplier-design/filter-forecast.png">
 </kbd>
 
+<br></br>
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -382,8 +430,8 @@ Log out from Magento admin using the link at the top right.
 <img alt="Forecast filter mapping" src="../../images/usermanual/admin-logout.png">
 </kbd>
 
+<br></br>
 <b>
-<br>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 
@@ -398,7 +446,3 @@ Uploading documents into IDM against Purchase Orders requires LeanSwift IDM Mage
 ## ION Workflows
 
 \&lt;\&lt; Mention about the custom ION Workflows required for the functioning of the portal, details on functionality, prerequisites, how to set up/install, basic troubleshooting, if any. Add relevant images from MT demo environment \&gt;\&gt;
-
-## Logging
-
-\&lt;\&lt; Brief description of how logs are created/maintained, what information are logged and where to find/view logs \&gt;\&gt;
