@@ -186,7 +186,13 @@ Based on whether econnect is installed or not , the registration
 
 ## My Account
 
-\&lt;\&lt; Show image and provide description \&gt;\&gt;
+My Accounts section contains Account information,Buyer Information and Communication channels and address section.
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/my-accounts.png">
+</kbd>
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/my-accounts-address.png">
+</kbd>
 
 ## My Purchase Orders
 
@@ -194,25 +200,67 @@ Based on whether econnect is installed or not , the registration
 
 \&lt;\&lt; List images and provide description for each of the sections below \&gt;\&gt;
 
+My Purchase Orders section contains all the purchase orders that belongs to the registered supplier.Based on the Purchase order (Normal or Delivery Schedule purchase orders ) indicators will be shown to differentiate.Each purchase order has one or more purchase order lines. Purchase orders are displayed along with Order date,Currency,lowest status among the order lines in a PO. A single purchase order can hold more than 1000 PO lines and it will be displayed in a single page with scroll button.
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/purchase-order.png">
+</kbd>
+By clicking on the side arrow in a Purchase Order,it expands to display the purchase order lines and related information corresponding to the particular purchase order.The purchase order lines have Line Number, Sub Line Number,Item,Description,Quantity,Confirmed Quantity, Received Quantity,Price, U/M,Confirmed Price, Requested Date , Confirmed Date and Status.
+Single select,Multi select or select all of the purchase order lines can be done 
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/purchase-orderlines.png">
+</kbd>
 ### Paginate
-
+Pagination is availabe to show a minimum of 10 PO p to maximum of 40 PO per page .
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/pagination.png">
+</kbd>
 ### Sort
-
+PO number, Order date and Status can be sorted ascendingly or descendingly. By default the POs are sorted based on the status.Single click on arrow mark (symbol pointing downwards) determines that the sort is descending. Double click on the arrow mark (symbol pointing upwards) determine the sort is ascending.
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/sort.png">
+</kbd>
 ### Search
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/sort.png">
+</kbd>
 
 ### Filter
 
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/filter.png">
+</kbd>
+
 ### Filter on Status
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/status-filter.png">
+</kbd>
 
 ### Download as CSV
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/download-csv.png">
+</kbd>
 
 ### Confirm PO Line
 
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/confirm-with-changes.png">
+</kbd>
+
 ### Confirm All Lines
+
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/confirm-all-lines.png">
+</kbd>
 
 ### Upload to IDM
 
-(Optional Functionality)
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/idm-select.png">
+</kbd>
+
+<kbd>
+<img alt="My Accounts" src="../../images/usermanual/idm-view.png">
+</kbd>
 
 ## My Forecast
 
@@ -220,17 +268,8 @@ Based on whether econnect is installed or not , the registration
 
 \&lt;\&lt; List images and provide description for each of the sections below \&gt;\&gt;
 
-### Paginate
 
-### Sort
 
-### Search
-
-### Filter
-
-### Filter on Status
-
-### Download as CSV
 
 ## My Performance Metrics
 
