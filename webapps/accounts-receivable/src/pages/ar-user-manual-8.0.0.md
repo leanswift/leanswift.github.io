@@ -107,7 +107,7 @@ This section will give a quick overview on how to get around and navigate the we
 
 The main menu appears on the left side of the screen, and the menu button is in the top left corner of the screen. The menu itself is stickied to the left side and will display without icons, or icons with labels. You can cycle through either display option by clicking the menu button.
 
-<kbd><img src="../images/Menu.png" width="150" alt="App Menu"></kbd>
+<kbd><img src="../images/menu.png" width="150" alt="App Menu"></kbd>
 
 In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
 
@@ -125,7 +125,7 @@ The first section of the main menu will be the application pages themselves. The
 
 The about main menu option will display details of the application such as the exact application version and build you are running. If you are experiencing issues these will be vital to know when contacting support and troubleshooting.
 
-<kbd><img src="../images/logo.PNG" width="200" alt="About Logo"></kbd>
+<kbd><img src="../images/logo.png" width="200" alt="About Logo"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -193,7 +193,7 @@ Note. You can also use the list menu to show and hide columns.
 
 All notification, warning and error messages will be displayed in a colored box below. 
 
-<kbd><img src="../images/notification.PNG" width="650" alt="Warnings And Error Messages" ></kbd>
+<kbd><img src="../images/notification.png" width="650" alt="Warnings And Error Messages" ></kbd>
 
 [Go to Top](#table-of-contents)
 
