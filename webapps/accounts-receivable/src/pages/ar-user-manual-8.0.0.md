@@ -17,13 +17,11 @@
 
     - [Selecting Lines in a List](#selecting-Lines-in-a-List)
 
-    - [Selecting Cells and Copy/Paste](#selecting-Cells-and-Copy/Paste)
+    - [Selecting Cells and Copy/Paste](#selecting-Cells-and-Copy-/-Paste)
 
     - [List Filters](#list-Filters)
 
     - [Sorting Lists](#sorting-Lists)
-
-    - [Rearranging column order](#rearranging-column-order)
 
     - [Exporting to Excel](#exporting-to-Excel)
 
