@@ -95,10 +95,11 @@
 
 [Limitations](#limitations)
 
+[Point of Contacts](#point-of-contacts)
 
 ## Overview 
 
-This user guide will cover the Accounts Receivable application. This webapp takes information and data from multiple places in Infor M3 such as, but not limited to, CRS610, MFS610, ARS200, RMS440, and combines them into one interface. This should allow a credit manager to do all of their job functions from one place rather than going into multiple programs and screens in Infor M3 to enter, edit, and obtain information.
+This user guide will cover the Accounts Receivable application. This webapp takes information and data from multiple places in Infor M3 such as, but not limited to, CRS610, MFS610, ARS200, RMS440, and combines them into one interface. This should allow a credit manager to do all of their job functions from one place rather than going into multiple programs and screens in Infor M3 to enter, edit, and obtain information.This version is compatible with Infor M3 13.4 (on-premise) and Infor M3 CloudSuite.
 
 [Go to Top](#table-of-contents)
 
@@ -114,7 +115,7 @@ The main menu appears on the left side of the screen, and the menu button is in 
 
 In the top navigation bar you will also see what M3 environment (and Company and Division) you are viewing in the app.
 
-<img src="../images/cono.png" width="200" alt="M3 Company and Division">
+<kbd><img src="../images/cono.png" width="200" alt="M3 Company and Division"></kbd>
 
 ### Application Pages
 
@@ -124,17 +125,17 @@ The first section of the main menu will be the application pages themselves. The
 
 The about main menu option will display details of the application such as the exact application version and build you are running. If you are experiencing issues these will be vital to know when contacting support and troubleshooting.
 
-<img src="../images/logo.png" width="200">
+<kbd><img src="../images/logo.PNG" width="200" alt="About logo"></kbd>
 
 ### Selecting Lines in a List
 
 To select a line click the checkmark box to the left of the line you wish to select. When you select a line usually there is a list or data section below on the same page that will populate with detailed data based on the selected line.
 
-<kbd><img src="../images/select-single-line.png" width="650"></kbd>
+<kbd><img src="../images/select-single-line.png" width="650" alt="Single select"></kbd>
 
 Lists also support multi selection. 
 
-<kbd><img src="../images/select-multi-line.png" width="650"></kbd>
+<kbd><img src="../images/select-multi-line.png" width="650" alt="Multi select"></kbd>
 
 Note that some functionality like loading details below will only apply to the last clicked line.
 
@@ -142,7 +143,7 @@ Note that some functionality like loading details below will only apply to the l
 
 You can select an individual cell inside of a list by clicking it (it will become highlighted).
 
-<img src="../images/copy-cell.png" width="650">
+<kbd><img src="../images/copy-cell.png" width="650" alt="Selecting cells"></kbd>
 
 With a cell selected you can copy the value using Ctrl+C (or Cmd+C).
 
@@ -158,7 +159,7 @@ The filters are based on the data type in the column. For numbers and dates it i
 
 For normal text filters you can free text search. Note that it is a wildcard search and the value does not have to start or end with your search string.
 
-<img src="../images/filters.png" width="200">
+<kbd><img src="../images/filters.png" width="200" alt="Invoice amount filter"></kbd>
 
 ### Sorting Lists
 
@@ -172,7 +173,7 @@ You can sort a list by any column simply by clicking the column header. Please n
 
 You can use the list menu for a number of things, one of them being exporting to Excel. Click the small menu icon in the right hand corner of any list and select &quot;Export all data as csv&quot;.Then open the csv file in Excel.
 
-<img src="../images/3-dots-menu.png" width="200"> <img src="images/3dots-menu.png" width="100" height="200"> 
+<kbd><img src="../images/3-dots-menu.png" width="200" alt="3dot menu"></kbd>
 
 Note. You can also use the list menu to show and hide columns as well as export to pdf.
 
@@ -180,7 +181,7 @@ Note. You can also use the list menu to show and hide columns as well as export 
 
 All notification, warning and error messages will be displayed in a colored box below. 
 
-<img src="../images/notification.PNG" width="650">
+<kbd><img src="../images/notification.PNG" width="650" alt="warnings and error messages" ></kbd>
 
 
 ## Application Pages
@@ -189,7 +190,7 @@ All notification, warning and error messages will be displayed in a colored box 
 
 This is not a menu option on its own but at the top of each page there will be a consistent &quot;Selection&quot; section. Generally this is the main selection criteria for which the application displays data. Once you press the Find button the application will load and display the data based on your selections (each page will be loaded based on your selection data). The Clear button is a quick and easy way to clear out all your selections.
 
-<img src="../images/selection-panel.png" width="500">
+<kbd><img src="../images/selection-panel.png" width="500" alt="Selection panel"></kbd>
 
 ### Division
 
@@ -225,17 +226,17 @@ Once you have made your selection and hit the Find button the Invoices list will
 
 Note that this operation while optimised still can take some time to complete, especially for big accounts, or if you have a date range selected for multiple years back, or if for example you&#39;re working through a VPN connection. Quite a lot of data is retrieved from M3 and then processed and calculated before display.
 
-<img src="../images/invoices.png" width="650">
+<kbd><img src="../images/invoices.png" width="650" alt="Invoice table"></kbd>
 
 The bottom of the list of invoices will display totals for the amount columns. Also note that if you select multiple lines it will immediately display how many you have selected as well as the amount totals for your selection (pressing the Totals button below the list will give you a popup with the same information for your selections).
 
-<img src="../images/invoice-totals.png" width="650">
+<kbd><img src="../images/invoice-totals.png" width="650" alt="Invoice totals"></kbd>
 
 ### Payments
 
 If you select a line in the list of invoices the Payments section below will load and display payment data for the selected invoice.
 
-<img src="../images/payments.png" width="650">
+<kbd><img src="../images/payments.png" width="650" alt="Payments and Payment details table"></kbd>
 
 ### Payment Details
 
@@ -245,11 +246,11 @@ By selecting a line in the Payments list in turn the Payment Details list below 
 
 At the bottom of the page the aging will be displayed. It will only populate if you are viewing Open or All Invoices (and only take open invoices into account). Aging can be viewed by Invoice or by Due date as selected.
 
-<img src="../images/aging.png" width="650">
+<kbd><img src="../images/aging.png" width="650" alt="Aging dropdown"></kbd>
 
 Each aging bucket is hyperlinked and you can click this amount to open a popup. The popup will contain a listing of the invoices that make up that specific aging bucket amount.
 
-<img src="../images/aging-popup.png" width="650">
+<kbd><img src="../images/aging-popup.png" width="650" alt="Aging pop up"></kbd>
 
 ### Infor Document Management
 
@@ -257,13 +258,13 @@ The Accounts Receivable application can be configured to integrate with your com
 
 At the top next to the display options there will be a checkbox &quot;Show IDM&quot;. Checking this option will display two additional columns in the list for Invoice and Proof of Delivery. Initially these columns will be empty.
 
-<img src="../images/idm.png" width="650">
+<kbd><img src="../images/idm.png" width="650" alt="IDM pdf"></kbd>
 
 Clicking the PDF icon will open the Invoice document for view directly in your browser.
 
 Note that the two previously disabled buttons Email Invoice(s) and Email PoD(s) have now become active. You can select one, or multiple lines, and click the the respective Email button
 
-<img src="../images/show-idm.png" width="650">
+<kbd><img src="../images/show-idm.png" width="650" alt="Show IDM"></kbd>
 
 Once you click the Email button a popup will appear. Fill out the fields and press the Send button. All of the respective documents for your selected lines will be attached to the email. Once the email have been sent the popup will automatically close.
 
@@ -287,13 +288,13 @@ If there is an existing invoice reference on a Tickler Note for your selected in
 
 Also note that Tickler Note By Invoice Number functionality may or may not be activated as it is an administrator configuration. Your company may not be using this.
 
-<img src="../images/tickler-notes-by-invoice.png" width="700">
+<kbd><img src="../images/tickler-notes-by-invoice.png" width="700" alt="Tickler notes by invoice"></kbd>
 
 ### Flagged Invoices
 
 Some invoices may appear &quot;flagged&quot; with a small icon. These are so called preliminary invoices in M3 and should not be appearing here. It is an indication that something is not right and may need further investigation in M3.
 
-<img src="../images/flagged-invoice.png" width="700">
+<kbd><img src="../images/flagged-invoice.png" width="700" alt="Flagged invoices"></kbd>
 
 ### Basic Data
 
@@ -301,9 +302,9 @@ The Basic Data page combines information from various places in M3 such as CRS61
 
 Note. If you do not see the Save button on the Basic Data page then you have not been granted update access by your application administrator.
 
-<img src="../images/basic-data-global.png" width="650">
+<kbd><img src="../images/basic-data-global.png" width="650" alt="Basic data global section"></kbd>
 
-<img src="../images/basic-data-credit.png" width="650">
+<kbd><img src="../images/basic-data-credit.png" width="650" alt="Basic data credit section"></kbd>
 
 ### Tickler Notes
 
@@ -316,13 +317,13 @@ Note. If you do not see the Save button on the Tickler Notes page then you have 
 
 To add a new tickler note simply enter an id and description and click the Add button.
 
-<img src="../images/tickler-note-add.png" width="650">
+<kbd><img src="../images/tickler-note-add.png" width="650" alt="Add tickler note"></kbd>
 
 ### Editing existing notes
 
 By selecting a line the detail section below will load (note that if there is no text data it will still be blank). You can type in any of the fields and then click the Save button.
 
-<img src="../images/existing-tickler-notes.png" width="650">
+<kbd><img src="../images/existing-tickler-notes.png" width="650" alt="Edit existing tickler note"></kbd>
 
 Note. Make sure to wait for the loading icon to complete the save.
 
@@ -330,8 +331,8 @@ Note. Make sure to wait for the loading icon to complete the save.
 
 The Credit History page will display credit information for both the customer and payer selected. This page will show last payment details, balances and high period, outstanding amount, average days to pay, aging and more. The purpose of this page is to review credit references and history.
 
-<img src="../images/credit-history-data.png" width="650">
-<img src="../images/credit-history-aging-total.png" width="650">
+<kbd><img src="../images/credit-history-data.png" width="650" alt="Credit history payer and calculated data"></kbd>
+<kbd><img src="../images/credit-history-aging-total.png" width="650" alt="Credit history aging and totals"></kbd>
 
 Note. Initially the page will not load additional details for application performance reasons.
 
@@ -341,7 +342,7 @@ The Credit Release page allows for credit release similar to OIS120 in M3. It al
 
 Note. When you select a line in the list the Data/Aging/Totals sections below will load with data based on the Customer and Payer on the selected line. The Aging and Totals displayed on the Credit Release page are corresponding to the Customer and Payer on the selected line and NOT your main selection in the application.
 
-<img src="../images/credit-release-order.png" width="650">
+<kbd><img src="../images/credit-release-order.png" width="650" alt="Credit release orders table"></kbd>
 
 ### Release Orders
 
@@ -363,25 +364,25 @@ The Orders page shows a list of current and past orders for the selected custome
 
 By selecting an order in the list, the below order lines will load. By selecting an order line in turn the charges and line charges will load if there are any
 
-<img src="../images/orders.png" width="650">
+<kbd><img src="../images/orders.png" width="650" alt="Orders"></kbd>
 
-<img src="../images/order-line.png" width="650">
+<kbd><img src="../images/order-line.png" width="650" alt="Line Charges"></kbd>
 
-<img src="../images/charges.png" width="650">
+<kbd><img src="../images/charges.png" width="650" alt="Charges"></kbd>
 
 ### Account Payments
 
 The Account Payments page will show a list of checks paid by a customer along with all the invoices paid on that check. When you select a Payment line the Payment Details for that line will load.
 
-<img src="../images/account-payment.png" width="650">
+<kbd><img src="../images/account-payment.png" width="650" alt="Account Payments"></kbd>
 
-<img src="../images/account-paymentdetails.png" width="650">
+<kbd><img src="../images/account-paymentdetails.png" width="650" alt="Account Payment Details"></kbd>
 
 ### Search for a Check Number
 
 There is a special search box at the top where you can query for any check. Note that this is not a filter for the list below it. This search box is special in that it will search and display results regardless of your main selection - ie you can search for any check number in M3 even if it does not match your main selection above.
 
-<img src="../images/search-with-check.png" width="650">
+<kbd><img src="../images/search-with-check.png" width="650" alt="Account payments searching with checknumber"></kbd>
 
 ### Cash Payments
 
@@ -389,7 +390,7 @@ This section shows information for cash account customers and charge account cus
 
 Selecting a Cash Payments line will display the Cash Payments Detail.
 
-<img src="../images/cash-payment.png" width="650">
+<kbd><img src="../images/cash-payment.png" width="650" alt="Cash Payments"></kbd>
 
 ### Search
 
@@ -397,7 +398,7 @@ The Search page allows you to search for an invoice, either via invoice number, 
 
 Type your search criteria in the input boxes and then press the Search button.
 
-<img src="../images/search-with-check.png" width="650">
+<kbd><img src="../images/search-with-check.png" width="650" alt="Cash payments search with checknumber"></kbd>
 
 Note. If/When you select a line in the Results list below the application will switch over to the Invoices page, change the main selection criteria to match the searched invoice, reload, and then scroll down and display the invoice in the list.
 
@@ -423,7 +424,7 @@ Errors can happen in the application for many different reasons and will be pres
 
 Example 1 - M3 API error
 
-<img src="../images/error-msg.png" width="700">
+<kbd><img src="../images/error-msg.png" width="700" alt="Error message"></kbd>
 
 In this error message it begins by telling us which service specifically is failing. You can recognize this by it being on a URL form. In this case _http://...rest/items/itemwarehouse/copy_
 
@@ -453,10 +454,11 @@ Also you should avoid clicking around all too much in the application while you 
 
 ### Limitations
 
-Few APIs have a limit on the number of records returned. Below are the list of APIs which are limited to 1000 results
-1. CMS100MI : LstInvNE9_arls, LstInvOrde_arls, LstCsData1_arls, LstCsData2_arls, LstCsData3_arls, LstCusCr_arls, LstOrdLine_arls, LstOrdrCh_arls, LstCrStop_arls
-2. CRS111MI : Get
-3. OIS100MI : SearchHead
-4. OIS012MI : LstPriceLstTabl
-5. OIS320MI : LstDiscModels
-6. OIS010MI : LstOrderTypes
+Few APIs have a limit on the number of records returned. Below are the list of functionalities that use APIs which are limited to 1000 results
+1. Open Invoices,Paid Invoices ,Payer Information,Orders,Order lines and Ordercharges
+2. Pricing ,Discount Model and Order Types in Basic Data section
+AR app doesn't work on safari and MT.
+
+### Point of Contacts
+
+This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at http://www.leanswift.com or email info@leanswift.com
