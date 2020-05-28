@@ -17,7 +17,7 @@
 
     - [Selecting Lines in a List](#selecting-Lines-in-a-List)
 
-    - [Selecting Cells and Copy/Paste](#selecting-Cells-and-Copy-/-Paste)
+    - [Selecting Cells](#selecting-Cells)
 
     - [List Filters](#list-Filters)
 
@@ -141,7 +141,7 @@ Note that some functionality like loading details below will only apply to the l
 
 [Go to Top](#table-of-contents)
 
-### Selecting Cells and Copy/Paste
+### Selecting Cells
 
 You can select an individual cell inside of a list by clicking it (it will become highlighted).
 
@@ -517,8 +517,8 @@ Also you should avoid clicking around all too much in the application while you 
 
 Few APIs have a limit on the number of records returned. Below are the list of functionalities that use APIs which are limited to 1000 results
 1. Open Invoices,Paid Invoices ,Payer Information,Orders,Order lines and Ordercharges
-2. Pricing ,Discount Model and Order Types in Basic Data section
-AR app doesn't work on safari and MT.
+2. Pricing ,Discount Model and Order Types in Basic Data section.
+3. app MT version doesn't work on safari browser.
 
 [Go to Top](#table-of-contents)
 
