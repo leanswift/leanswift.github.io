@@ -210,7 +210,7 @@ Single select,Multi select or select all of the purchase order lines can be done
 <img alt="My Accounts" src="../../images/usermanual/purchase-orderlines.png">
 </kbd>
 ### Paginate
-Pagination is availabe to show a minimum of 10 PO p to maximum of 40 PO per page .
+Pagination is availabe to show a minimum of 10 PO  to maximum of 40 PO per page .
 <kbd>
 <img alt="My Accounts" src="../../images/usermanual/pagination.png">
 </kbd>
@@ -220,22 +220,25 @@ PO number, Order date and Status can be sorted ascendingly or descendingly. By d
 <img alt="My Accounts" src="../../images/usermanual/sort.png">
 </kbd>
 ### Search
-<kbd>
-<img alt="My Accounts" src="../../images/usermanual/sort.png">
-</kbd>
+
+Search bar is available above the purchase order table . The Search bar is a text field and it also accomodates Filter and clear all buttons. It provides a simple text search functionality and can be used to search both at PO and PO line levels.
 
 ### Filter
-
+Based on admin configuraion,the filter can perform Equals,Less Than, Greater Than,Contains,Starts With,Ends With. The number of filters that can be applied is configured in admin. The filters works in AND operation (if two filters f1 and f2 are added , the results will have POs that satisify f1 AND f2)
 <kbd>
 <img alt="My Accounts" src="../../images/usermanual/filter.png">
 </kbd>
 
 ### Filter on Status
+
+The Status filter is a dropdown having a list of PO status such as READY, PRINTED, ACTIVATED, SCHEDULED, CONFIRMED, ASN, NOTIFIED, RECEIVED, PARTIAL REJECTED, COMPLETE, PARTIAL INVOICED, INVOICED.
 <kbd>
 <img alt="My Accounts" src="../../images/usermanual/status-filter.png">
 </kbd>
 
 ### Download as CSV
+
+Download button is present in top right corner of the My Purchase Order page and My Forecast page. By default downloads all the data ,When the purchase order/forecast POs are filtered, it downloads the filtered results in CSV format. Downloaded File Name  has pre-defined format, Supplier number with Timestamp of download. For example, Y50001_1578908806.csv.
 <kbd>
 <img alt="My Accounts" src="../../images/usermanual/download-csv.png">
 </kbd>
