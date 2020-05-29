@@ -577,7 +577,7 @@ The section contains the filter limit, filter label mapping for the filter attri
 <img alt="Purchaseorder filter mapping" src="../../images/usermanual/supplier-design/filter-po.png">
 </kbd>
 
-
+<br></br>
 
 ##### Forecast Filter Mapping
 
@@ -599,7 +599,7 @@ The section contains the filter limit, filter label mapping for the filter attri
 Log out from Magento admin using the link at the top right.
 
 <kbd>
-<img alt="Forecast filter mapping" src="../../images/usermanual/admin-logout.png">
+<img alt="Exit system" src="../../images/usermanual/admin-logout.png">
 </kbd>
 
 <br></br>
