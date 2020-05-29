@@ -83,7 +83,7 @@
 
 - [Troubleshooting](#troubleshooting)
 
-    - [First Sign Of Trouble](#first-Sign-Of-Trouble)
+    - [Clear cache and cookies](#Clear-cache-and-cookies)
 
     - [Deciphering Error Messages](#deciphering-Error-Messages)
 
@@ -354,7 +354,6 @@ Tickler Notes are created in RMS440 in M3, however, the M3 interface is not intu
 
 ### Adding new notes
 
-
 To add a new tickler note simply enter an id and description and click the Add button.
 
 <kbd><img src="../images/tickler-note-add.png" width="750" alt="Add Tickler Note"></kbd>
@@ -467,7 +466,7 @@ Type your search criteria in the input boxes and then press the Search button.
 
 ## Troubleshooting
 
-#### Clear cache and cookies
+### Clear cache and cookies
 
 When you are experiencing issues with the application your first line of defense before contacting support should always be to clear out your browser cache, cookies and temporary internet files. Then close down the tab and browser, reopen your browser and reopen the application page.
 
