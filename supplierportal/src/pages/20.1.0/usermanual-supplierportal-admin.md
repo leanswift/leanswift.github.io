@@ -67,7 +67,9 @@ To view the user manual for Portal Users, click here.
 
 The solution is built on **Magento Open Source Platform**. It interacts with **Infor M3** via **Infor ION Platform**. **RabbitMQ** is the message queue used to send/receive messages to/from ION.
 
-\&lt;\&lt;Insert Architecture Image\&gt;\&gt;
+<kbd>
+<img alt ="Supplier portal architecture" src="../../images/usermanual/Supplier%20Portal%20-%20Tech%20Architecture.png">
+</kbd>
 
 ## Features
 
@@ -202,21 +204,157 @@ Select &quot;Yes&quot; to log additional information in Magento. This setting is
 
 #### ION WorkFlow Configuration
 
+The section provides the configuration for connecting M3 workflow from the Supplierportal.
+
+**API Service Url**
+
+Provide the URL for ION processing workflows.
+
+**Logical Id**
+
+Provide application logical ID of Infor OS.
+
+**Test Connection**
+
+Provide an option to test connectivity between application to ION workflow.
+
 <kbd>
-<img alt="workflow Configuration" src="../../images/usermanual/supplier-settings/workflow.png">
+<img alt="General Workflow Configuration" src="../../images/usermanual/supplier-settings/workflow-genera-settings.png">
+</kbd>
+<br></br>
+
+**PO Confirmation**
+
+The section different setting configuration for sending purchase order to M3.
+
+**Realtime API call for Confirm PO**
+
+When an option set to "Yes", Confirmed Purchase orders will push to M3 in realtime. If it is set to
+ "No" the confirmed Purchase order pushed to M3 via CRON.
+ 
+ <blockquote>
+    How to enable in cron 
+    <a href="#cron">refer here</a>
+ </blockquote>
+
+**Activate approval process for Confirm PO**
+
+When an option set to "Yes", Changes made in Purchase order will push to M3 for Buyer approval. If it is set to
+ "No" the changed purchase order pushed to M3 via Realtime or CRON based on setting above.
+ 
+ 
+**Workflow Name**
+
+Provide workflow name for PO confirmation.
+
+> This will be shown when activate approval process for confirm PO is set to true
+
+<kbd>
+<img alt="Approval process Workflow Configuration" src="../../images/usermanual/supplier-settings/po-confirmation-with
+-workflow.png">
+</kbd>
+<br></br>
+
+**Registration**
+
+The section provides control the Supplier registration approval from system or M3.
+
+ **Enable Register Approval**
+ 
+ When setting made to "Yes" the supplier registration approval will be send to M3 via workflow and approval process
+ can be made in M3.It is set to "No" approval process can be made in Portal Admin.
+
+**Workflow Name**
+
+Provide workflow name for Supplier registration.
+
+> This will be shown when Enable Register Approval set to true
+
+**Request to be approved by**
+
+Provide an option to select request approver.
+
+- Buyer
+- Authorized User
+- Generic Admin User
+- Generic Admin Group
+
+> This will be shown when Enable Register Approval set to true
+  
+<kbd>
+<img alt="Approval process Workflow Configuration" src="../../images/usermanual/supplier-settings/workflow-registration.png">
 </kbd>
 
+<br></br>
+
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+    
+
 #### Metrics Display
+
+The section contains configuration for list of different metrics to display ot not.
+
+**On-Time Delivery**
+
+Provide an option to display or hide to Supplier.
+
+>This metric records the percentage of inbound deliveries received on time, that is Requested Delivery Date Vs
+> Actual
+ Delivery Date.
+ 
+ 
+ 
+**Quality: Rejected Inventory**
+
+Provide an option to display or hide to Supplier.
+
+>This metric records the total number of rejected supplies in a given period of time.
+
+**Purchase Price Variance**
+
+Provide an option to display or hide to Supplier.
+
+> This metric records the difference between the actual price paid to buy an item and its standard price as confirmed
+ by the supplier, multiplied by the actual number of units purchased (Confirmed Quantity), i.e Confirmed Price Vs
+  Invoiced Price	
 
 <kbd>
 <img alt="metrics display" src="../../images/usermanual/supplier-settings/metrics.png">
 </kbd>
 
+<br></br>
+
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+
 #### On-Time Delivery KPI
+
+The section provides calculation configuration for On-Time Delivery	metric Graph.
+
+**Allowed delivery delay in days**
+
+Provide an allowed delay delivery days to calculate graph.
+
+**Y-Axis Date Field Criteria**
+
+Provide an option to select a parameter, Based on selection the graph will be plotted.
+
+- Receipt Date
+- Confirmed Date
+- Planning Date
 
 <kbd>
 <img alt="on-time delivery" src="../../images/usermanual/supplier-settings/ontime-delivery.png">
 </kbd>
+
+<br></br>
+
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
 
 #### Email templates
 
@@ -235,7 +373,22 @@ The section provides an option to choose email templates for each operation. It 
 
 #### Cron
 
-The section contains cron configuration for sending PO request to M3 and getting forecast PO from M3.
+This section contains the basic setup for how often the Supplier portal specific background (cron) jobs should run. The
+actual configuration of the job in the screen shot below is not representative of a normal customer installation.
+The setup will vary from customer to customer depending on a number of factors such as basic data volumes, frequency
+ of changing purchase order etc.This section should always be reviewed within the project, and with the help of the
+  LeanSwift Services team be adjusted to best fit each customer’s environment.
+
+**Cron setting to send confirm PO requests to M3**
+
+The Setting facilitate to send confirmed Purchase orders to supplier.
+
+> Setting is useful only when we disable the Realtime API call for Confirm PO.
+
+
+**Cron setting to get forecast PO from M3**
+
+The settings used to pull the forecast purchase order's from M3.
 
 <kbd>
 <img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/cron.png">
@@ -440,8 +593,6 @@ Log out from Magento admin using the link at the top right.
 ### IDM
 
 Uploading documents into IDM against Purchase Orders requires LeanSwift IDM Magento Extension.
-
-\&lt;\&lt; Provide link to eConnect-base Configuration page \&gt;\&gt;
 
 ## ION Workflows
 
