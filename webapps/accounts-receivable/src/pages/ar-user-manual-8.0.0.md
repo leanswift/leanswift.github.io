@@ -195,6 +195,9 @@ All notification, warning and error messages will be displayed in a colored box 
 
 [Go to Top](#table-of-contents)
 
+#### NOTE: App Navigation can be done as follows:
+Open M3 and type ctrl+r, in the dialog box that opens type /mne/apps/"nameofapp"
+
 
 ## Application Pages
 
@@ -516,7 +519,7 @@ Also you should avoid clicking around all too much in the application while you 
 Few APIs have a limit on the number of records returned. Below are the list of functionalities that use APIs which are limited to 1000 results
 1. Open Invoices,Paid Invoices ,Payer Information,Orders,Order lines and Ordercharges
 2. Pricing ,Discount Model and Order Types in Basic Data section.
-3. app MT version doesn't work on safari browser.
+3. MT version doesn't work on safari browser.
 
 [Go to Top](#table-of-contents)
 
