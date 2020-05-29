@@ -377,7 +377,7 @@ By selecting a line the detail section below will load (note that if there is no
 
 The Credit History page will display credit information for both the customer and payer selected. This page will show last payment details, balances and high period, outstanding amount, average days to pay, aging and more. The purpose of this page is to review credit references and history.
 
-<kbd><img src="../images/credit-history-data.png" width="750" alt="Credit History Payer And Calculated Data"></kbd>
+<kbd><img src="../images/credit-historydata.png" width="750" alt="Credit History Payer And Calculated Data"></kbd>
 <kbd><img src="../images/credit-history-aging-total.png" width="750" alt="Credit History Aging And Totals"></kbd>
 
 #### Note. Initially the page will not load additional details for application performance reasons.
@@ -451,6 +451,7 @@ This section shows information for cash account customers and charge account cus
 Selecting a Cash Payments line will display the Cash Payments Detail.
 
 <kbd><img src="../images/cash-payment.png" width="750" alt="Cash Payments"></kbd>
+<kbd><img src="../images/cash-payment-detail.png" width="750" alt="Cash Payments Detail"></kbd>
 
 [Go to Top](#table-of-contents)
 
