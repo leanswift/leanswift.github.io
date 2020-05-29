@@ -162,6 +162,8 @@ The homepage is customised with error messages for empty or incorrect username a
 
 ## My Settings
 
+Date Format can be modified in this section.The selected date format will be displayed as *Changed Date Format* below the dropdown.
+
 <kbd><img alt="My Accounts" src="../../images/usermanual/my-settings.png"  width="500"></kbd>
 
 ## My Account
@@ -176,14 +178,13 @@ My Accounts section contains Account information,Buyer Information and Communica
 ## My Purchase Orders
 
 My Purchase Orders section contains all the purchase orders that belongs to the registered supplier.Based on the Purchase order (Normal or Delivery Schedule purchase orders ) indicators will be shown to differentiate.Each purchase order has one or more purchase order lines. Purchase orders are displayed along with Order date,Currency,lowest status among the order lines in a PO. A single purchase order can hold more than 1000 PO lines and it will be displayed in a single page with scroll button.
-<kbd>
-<img alt="My Accounts" src="../../images/usermanual/purchase-order.png" width="500">
-</kbd>
+
+<kbd><img alt="My Accounts" src="../../images/usermanual/purchase-order.png" width="500"></kbd> 
+
 By clicking on the side arrow in a Purchase Order,it expands to display the purchase order lines and related information corresponding to the particular purchase order.The purchase order lines have Line Number, Sub Line Number,Item,Description,Quantity,Confirmed Quantity, Received Quantity,Price, U/M,Confirmed Price, Requested Date , Confirmed Date and Status.
 Single select,Multi select or select all of the purchase order lines can be done 
-<kbd>
-<img alt="My Accounts" src="../../images/usermanual/purchase-orderlines.png" width="500">
-</kbd>
+
+<kbd><img alt="My Accounts" src="../../images/usermanual/purchase-orderlines.png" width="500"></kbd>
 
 
 ### Paginate
@@ -228,7 +229,8 @@ Download button is present in top right corner of the My Purchase Order page and
 
 ### Confirm PO Line
 
-To Confirm a PO line select a single PO line or multiple lines and click on the Confirm button.Conf qty, Conf Price and Conf Date can be modified. By default, when a PO line is confirmed with changes, approval request is sent to ION and waiting symbol is shown as below:
+To Confirm a PO line select a single PO line or multiple lines and click on the Confirm button.
+Conf qty, Conf Price and Conf Date can be modified. By default, when a PO line is confirmed with changes, approval request is sent to ION and waiting symbol is shown as below
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/confirm-with-changes.png" width="500"></kbd>
 
