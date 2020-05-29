@@ -103,7 +103,7 @@ This section will give a quick overview on how to get around and navigate the we
 
 ### Main Menu
 
-The main menu appears on the left side of the screen, and the menu button is in the top left corner of the screen. The menu itself is stickied to the left side and will display without icons, or icons with labels. You can cycle through either display option by clicking the menu button.
+The main menu appears on the left side of the screen, and the menu button is in the top left corner of the screen. The menu itself is stickied to the left side and will display icons with labels. You can cycle through either display option by clicking the menu button.
 
 <kbd><img src="../images/menu.png" width="150" alt="App Menu"></kbd>
 
@@ -137,7 +137,7 @@ Lists also support multi selection.
 
 <kbd><img src="../images/select-multi-line.png" width="650" alt="Multi Select"></kbd>
 
-Note that some functionality like loading details below will only apply to the last clicked line.
+#### Note that some functionality like loading details below will only apply to the last clicked line.
 
 [Go to Top](#table-of-contents)
 
@@ -183,7 +183,7 @@ You can use the list menu for a number of things, one of them being exporting to
 
 <kbd><img src="../images/3-dots-menu.png" width="200" alt="3dot Menu"></kbd>
 
-Note. You can also use the list menu to show and hide columns.
+#### Note. You can also use the list menu to show and hide columns.
 
 [Go to Top](#table-of-contents)
 
@@ -216,7 +216,7 @@ This is the M3 division and the default division for your M3 user will be pre-se
 
 In the Customer dropdown you select which customer account to display. You can either scroll in the list or type using your keyboard and it will narrow the search down to what matches your typed characters.
 
-Note that if you are using a tablet to view the application you need to click the in the dropdown (again) to bring up the on screen keyboard.
+#### Note that if you are using a tablet to view the application you need to click the in the dropdown (again) to bring up the on screen keyboard.
 
 [Go to Top](#table-of-contents)
 
@@ -238,7 +238,7 @@ The selector for rolling date is there to limit the amount of data that is loadi
 
 Default is 12 months, which is usually enough, but you can increase this as you need. Keep in mind that some accounts with less activity can easily be loaded for several years back but some larger accounts could have tens of thousands of invoices and could take a very long time to load.
 
-Note. A common mistake when you&#39;re not seeing a particular invoice is that the invoice date in M3 is out of your selected date range in the application.
+#### Note. A common mistake when you&#39;re not seeing a particular invoice is that the invoice date in M3 is out of your selected date range in the application.
 
 [Go to Top](#table-of-contents)
 
@@ -338,7 +338,7 @@ Some invoices may appear &quot;flagged&quot; with a small icon. These are so cal
 
 The Basic Data page combines information from various places in M3 such as CRS610, MFS610 and OIS165. From this screen you can view and update customer basic data and credit limits.
 
-Note. If you do not see the Save button on the Basic Data page then you have not been granted update access by your application administrator.
+##### Note. If you do not see the Save button on the Basic Data page then you have not been granted update access by your application administrator.
 
 <kbd><img src="../images/basic-data-global.png" width="650" alt="Basic data global section"></kbd>
 
@@ -350,7 +350,7 @@ Note. If you do not see the Save button on the Basic Data page then you have not
 
 Tickler Notes are created in RMS440 in M3, however, the M3 interface is not intuitive and complex to use (and there exist no standard M3 api to handle Tickler Notes). On the Tickler Notes page you will be able to easily and quickly view, edit, and create new notes.
 
-Note. If you do not see the Save button on the Tickler Notes page then you have not been granted update access by your application administrator.
+#### Note. If you do not see the Save button on the Tickler Notes page then you have not been granted update access by your application administrator.
 
 [Go to Top](#table-of-contents)
 
@@ -369,7 +369,7 @@ By selecting a line the detail section below will load (note that if there is no
 
 <kbd><img src="../images/existing-tickler-notes.png" width="650" alt="Edit Existing Tickler Note"></kbd>
 
-Note. Make sure to wait for the loading icon to complete the save.
+#### Note. Make sure to wait for the loading icon to complete the save.
 
 [Go to Top](#table-of-contents)
 
@@ -380,7 +380,7 @@ The Credit History page will display credit information for both the customer an
 <kbd><img src="../images/credit-history-data.png" width="650" alt="Credit History Payer And Calculated Data"></kbd>
 <kbd><img src="../images/credit-history-aging-total.png" width="650" alt="Credit History Aging And Totals"></kbd>
 
-Note. Initially the page will not load additional details for application performance reasons.
+#### Note. Initially the page will not load additional details for application performance reasons.
 
 [Go to Top](#table-of-contents)
 
@@ -388,9 +388,9 @@ Note. Initially the page will not load additional details for application perfor
 
 The Credit Release page allows for credit release similar to OIS120 in M3. It also provides customer and payer information similar to the Credit History page to help determine if an order should be released from hold or not. The list of credit stopped orders displays orders for all customers regardless of your customer and/or payer selection.
 
-Note. When you select a line in the list the Data/Aging/Totals sections below will load with data based on the Customer and Payer on the selected line. The Aging and Totals displayed on the Credit Release page are corresponding to the Customer and Payer on the selected line and NOT your main selection in the application.
+#### Note. When you select a line in the list the Data/Aging/Totals sections below will load with data based on the Customer and Payer on the selected line. The Aging and Totals displayed on the Credit Release page are corresponding to the Customer and Payer on the selected line and NOT your main selection in the application.
 
-<kbd><img src="../images/credit-release-order.png" width="650" alt="Credit Release Orders Table"></kbd>
+<kbd><img src="../images/credit-release-order.png" width="750" alt="Credit Release Orders Table"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -400,7 +400,7 @@ The buttons below the list for Release and Hold will put the order in the corres
 
 You can select one or more lines to release at the same time.
 
-Note. If you do not see the Release/Hold button(s) on the Credit Release page then you have not been granted access to release by your application administrator.
+#### Note. If you do not see the Release/Hold button(s) on the Credit Release page then you have not been granted access to release by your application administrator.
 
 [Go to Top](#table-of-contents)
 
@@ -418,11 +418,11 @@ The Orders page shows a list of current and past orders for the selected custome
 
 By selecting an order in the list, the below order lines will load. By selecting an order line in turn the charges and line charges will load if there are any
 
-<kbd><img src="../images/orders.png" width="650" alt="Orders"></kbd>
+<kbd><img src="../images/orders.png" width="750" alt="Orders"></kbd>
 
-<kbd><img src="../images/order-line.png" width="650" alt="Line Charges"></kbd>
+<kbd><img src="../images/order-line.png" width="750" alt="Line Charges"></kbd>
 
-<kbd><img src="../images/charges.png" width="650" alt="Charges"></kbd>
+<kbd><img src="../images/charges.png" width="750" alt="Charges"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -430,9 +430,9 @@ By selecting an order in the list, the below order lines will load. By selecting
 
 The Account Payments page will show a list of checks paid by a customer along with all the invoices paid on that check. When you select a Payment line the Payment Details for that line will load.
 
-<kbd><img src="../images/account-payment.png" width="650" alt="Account Payments"></kbd>
+<kbd><img src="../images/account-payment.png" width="750" alt="Account Payments"></kbd>
 
-<kbd><img src="../images/account-paymentdetails.png" width="650" alt="Account Payment Details"></kbd>
+<kbd><img src="../images/account-paymentdetails.png" width="750" alt="Account Payment Details"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -440,7 +440,7 @@ The Account Payments page will show a list of checks paid by a customer along wi
 
 There is a special search box at the top where you can query for any check. Note that this is not a filter for the list below it. This search box is special in that it will search and display results regardless of your main selection - ie you can search for any check number in M3 even if it does not match your main selection above.
 
-<kbd><img src="../images/search-with-check.png" width="650" alt="Account Payments Searching With Checknumber"></kbd>
+<kbd><img src="../images/search-with-check.png" width="750" alt="Account Payments Searching With Checknumber"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -450,7 +450,7 @@ This section shows information for cash account customers and charge account cus
 
 Selecting a Cash Payments line will display the Cash Payments Detail.
 
-<kbd><img src="../images/cash-payment.png" width="650" alt="Cash Payments"></kbd>
+<kbd><img src="../images/cash-payment.png" width="750" alt="Cash Payments"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -460,9 +460,9 @@ The Search page allows you to search for an invoice, either via invoice number, 
 
 Type your search criteria in the input boxes and then press the Search button.
 
-<kbd><img src="../images/search-with-check.png" width="650" alt="Cash Payments Search With Checknumber"></kbd>
+<kbd><img src="../images/search-with-check.png" width="750" alt="Cash Payments Search With Checknumber"></kbd>
 
-Note. If/When you select a line in the Results list below the application will switch over to the Invoices page, change the main selection criteria to match the searched invoice, reload, and then scroll down and display the invoice in the list.
+#### Note. If/When you select a line in the Results list below the application will switch over to the Invoices page, change the main selection criteria to match the searched invoice, reload, and then scroll down and display the invoice in the list.
 
 [Go to Top](#table-of-contents)
 
