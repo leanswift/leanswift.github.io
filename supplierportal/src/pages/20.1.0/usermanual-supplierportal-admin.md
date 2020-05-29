@@ -115,7 +115,7 @@ LeanSwift eConnect-base extension is a prerequisite for Supplier Portal. Provide
 
 Section enables the user to configure M3 communication and general usability related settings.
 
-**M3 Connection Protocol** : 
+**M3 Connection Protocol** 
 
 Option to choose the M3 communication protocol either ION or eLink.eConnectBase Pick the option which is choosen.
 
@@ -164,9 +164,11 @@ The section used to configure the connection parameters for connecting M3. An op
 </kbd>
 
 <br></br>
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 ### Supplier Portal Settings
 
@@ -195,9 +197,11 @@ Select &quot;Yes&quot; to log additional information in Magento. This setting is
 
 <br></br>
 
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 #### ION WorkFlow Configuration
 
@@ -283,9 +287,11 @@ Provide an option to select request approver.
 
 <br></br>
 
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
     
 
 #### Metrics Display
@@ -322,9 +328,11 @@ Provide an option to display or hide to Supplier.
 
 <br></br>
 
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 #### On-Time Delivery KPI
 
@@ -348,9 +356,11 @@ Provide an option to select a parameter, Based on selection the graph will be pl
 
 <br></br>
 
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 #### Email templates
 
@@ -363,9 +373,11 @@ The section provides an option to choose email templates for each operation. It 
 
 <br></br>
 
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 #### Cron
 
@@ -391,9 +403,11 @@ The settings used to pull the forecast purchase order's from M3.
 </kbd>
 
 <br></br>
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 ### Design Settings
 
@@ -440,9 +454,11 @@ When an option selected as &quot;Yes&quot; upload document in
 </kbd>
 
 <br></br>
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 #### Frontend Color Codes  
 
@@ -466,9 +482,11 @@ When an option selected as &quot;Yes&quot; upload document in
 </kbd>
 
 <br></br>
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 #### Logo Image size
 
@@ -479,9 +497,11 @@ Logo image upload width and height can be changed over here.
 </kbd>
 
 <br></br>
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 #### Status Mapping
 
@@ -518,9 +538,11 @@ The section contains the status code ,label and color code mapping for forecast 
 </kbd>
 
 <br></br>
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 #### Filter and Search
 
@@ -566,10 +588,11 @@ The section contains the filter limit, filter label mapping for the filter attri
 </kbd>
 
 <br></br>
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
-
+</div>
 
 ### Exit System
 
@@ -580,9 +603,11 @@ Log out from Magento admin using the link at the top right.
 </kbd>
 
 <br></br>
+<div align="right">
 <b>
- <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 ## Additional Functionality
 
