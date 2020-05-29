@@ -141,9 +141,11 @@ Select &quot;Yes&quot; to log additional information in Magento. This setting is
 </kbd>
 
 <br></br>
+<div align="right">
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents">↥ Go to Top</a>
 </b>
+</div>
 
 #### Basic Data Configuration
 
@@ -163,7 +165,7 @@ The section used to configure the connection parameters for connecting M3. An op
 
 <br></br>
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 ### Supplier Portal Settings
@@ -194,7 +196,7 @@ Select &quot;Yes&quot; to log additional information in Magento. This setting is
 <br></br>
 
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 #### ION WorkFlow Configuration
@@ -282,7 +284,7 @@ Provide an option to select request approver.
 <br></br>
 
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
     
 
@@ -321,7 +323,7 @@ Provide an option to display or hide to Supplier.
 <br></br>
 
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 #### On-Time Delivery KPI
@@ -347,7 +349,7 @@ Provide an option to select a parameter, Based on selection the graph will be pl
 <br></br>
 
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 #### Email templates
@@ -362,7 +364,7 @@ The section provides an option to choose email templates for each operation. It 
 <br></br>
 
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 #### Cron
@@ -390,7 +392,7 @@ The settings used to pull the forecast purchase order's from M3.
 
 <br></br>
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 ### Design Settings
@@ -439,7 +441,7 @@ When an option selected as &quot;Yes&quot; upload document in
 
 <br></br>
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 #### Frontend Color Codes  
@@ -465,7 +467,7 @@ When an option selected as &quot;Yes&quot; upload document in
 
 <br></br>
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 #### Logo Image size
@@ -478,7 +480,7 @@ Logo image upload width and height can be changed over here.
 
 <br></br>
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 #### Status Mapping
@@ -517,7 +519,7 @@ The section contains the status code ,label and color code mapping for forecast 
 
 <br></br>
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 #### Filter and Search
@@ -565,7 +567,7 @@ The section contains the filter limit, filter label mapping for the filter attri
 
 <br></br>
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 
@@ -579,7 +581,7 @@ Log out from Magento admin using the link at the top right.
 
 <br></br>
 <b>
- <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
+ <a href="#table-of-contents" style="float:right;">↥ Go to Top</a>
 </b>
 
 ## Additional Functionality
