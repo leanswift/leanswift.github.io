@@ -13,9 +13,8 @@ To view the user manual for Portal Users [click here.](http://google.com)
 # Table of contents
 
 - [Supplier Portal](#supplier-portal)
-  - [Overview](#overview)
 - [Table of contents](#table-of-contents)
-- [System Overview](#system-overview)
+- [Overview](#overview)
   - [Organization of the Manual](#organization-of-the-manual)
   - [Architecture](#architecture)
   - [Features](#features)
@@ -48,12 +47,8 @@ To view the user manual for Portal Users [click here.](http://google.com)
   - [Additional Functionality](#additional-functionality)
     - [IDM](#idm)
   - [ION Workflows](#ion-workflows)
-  - [Logging](#logging)
-
-## Overview
-
   
-# System Overview
+# Overview
 
 LeanSwift Supplier Portal is a supplier self-service web portal that enables efficient online communication with vendors. It is seamlessly integrated with Infor M3 Cloudsuite via ION. Supplier Portal helps automate the entire purchase-to-pay process for the customer.
 
@@ -124,7 +119,7 @@ Section enables the user to configure M3 communication and general usability rel
 
 Option to choose the M3 communication protocol either ION or eLink.eConnectBase Pick the option which is choosen.
 
-**API Service URL:** 
+**API Service URL** 
 
 Service URL is entered here.
 
@@ -133,11 +128,11 @@ Service URL is entered here.
 Define the e-mail address that will be used for error alerts if exceptions were to occur in
 Magento and when any transaction in eConnect is not working due to service being down
 
-**Error Email Template:** 
+**Error Email Template** 
 
 Enabled an option to choose an error email template can map over the customized template here.
 
-**Debug/Log data:** 
+**Debug/Log data** 
 
 Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in development but should be set to &quot;No&quot; in production to improve performance.
 
@@ -147,7 +142,7 @@ Select &quot;Yes&quot; to log additional information in Magento. This setting is
 
 <br></br>
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 #### Basic Data Configuration
@@ -168,7 +163,7 @@ The section used to configure the connection parameters for connecting M3. An op
 
 <br></br>
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 ### Supplier Portal Settings
@@ -180,7 +175,7 @@ Supplier portal related settings and design configurations can be made here.
 The section provides configuration for the company details and other settings which are associated for the behaviour
  of the system.
 
-**Company Name:** 
+**Company Name** 
 
 Provide the company name.
 
@@ -188,7 +183,7 @@ Provide the company name.
 
 Alerts will be sent to the company email.
 
-**Debug/Log data:** 
+**Debug/Log data** 
 
 Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in development but should be set to &quot;No&quot; in production to improve performance.
 
@@ -199,7 +194,7 @@ Select &quot;Yes&quot; to log additional information in Magento. This setting is
 <br></br>
 
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 #### ION WorkFlow Configuration
@@ -250,8 +245,7 @@ Provide workflow name for PO confirmation.
 > This will be shown when activate approval process for confirm PO is set to true
 
 <kbd>
-<img alt="Approval process Workflow Configuration" src="../../images/usermanual/supplier-settings/po-confirmation-with
--workflow.png">
+<img alt="Approval process Workflow Configuration" src="../../images/usermanual/supplier-settings/po-confirmation-with-workflow.png">
 </kbd>
 <br></br>
 
@@ -288,7 +282,7 @@ Provide an option to select request approver.
 <br></br>
 
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
     
 
@@ -327,7 +321,7 @@ Provide an option to display or hide to Supplier.
 <br></br>
 
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 #### On-Time Delivery KPI
@@ -353,7 +347,7 @@ Provide an option to select a parameter, Based on selection the graph will be pl
 <br></br>
 
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 #### Email templates
@@ -368,7 +362,7 @@ The section provides an option to choose email templates for each operation. It 
 <br></br>
 
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 #### Cron
@@ -396,7 +390,7 @@ The settings used to pull the forecast purchase order's from M3.
 
 <br></br>
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 ### Design Settings
@@ -409,30 +403,30 @@ an option to create customizable filters for the purchase order and forecast pag
 
 The section contains information to be basic configuration for company.
 
-**Company Logo:** 
+**Company Logo** 
 
 Provide the company logo.
 
-**Company Logo:** 
+**Company Logo**
 
 Provide the product logo.
 
-**Homepage Banner:** 
+**Homepage Banner**
 
 Provide the homepage banner.
 
-**Facicon Image:** 
+**Facicon Image** 
 
 Provide the Favicon for the website.
 
-**Show Supplier Portal Homepage:** 
+**Show Supplier Portal Homepage** 
 
 When an option selected as &quot;Yes&quot; Supplier portal homepage is shown.When
  it is set to &quot;No&quot; default homepage configured to website will be displayed.
  
  > The option wil be enabled only when LeanSwift Econnect Module is installed 
 
-**Show document upload option:** 
+**Show document upload option** 
 
 When an option selected as &quot;Yes&quot; upload document in
  Purchase order page will be displayed. When set to &quot;No&quot; upload document is disabled.
@@ -445,7 +439,7 @@ When an option selected as &quot;Yes&quot; upload document in
 
 <br></br>
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 #### Frontend Color Codes  
@@ -471,7 +465,7 @@ When an option selected as &quot;Yes&quot; upload document in
 
 <br></br>
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 #### Logo Image size
@@ -484,7 +478,7 @@ Logo image upload width and height can be changed over here.
 
 <br></br>
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 #### Status Mapping
@@ -523,14 +517,14 @@ The section contains the status code ,label and color code mapping for forecast 
 
 <br></br>
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 #### Filter and Search
 
 The section contains the filter limit and mapping for the filter attribute and filter operations with filter type.
 
-**Filter Operations:** 
+**Filter Operations** 
 
 Inbuild filter operations are
 
@@ -542,7 +536,7 @@ Inbuild filter operations are
 - Ends with
 
 
-**Filter types:** 
+**Filter types** 
 
 Inbuild filter types are
 
@@ -571,7 +565,7 @@ The section contains the filter limit, filter label mapping for the filter attri
 
 <br></br>
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 
@@ -585,7 +579,7 @@ Log out from Magento admin using the link at the top right.
 
 <br></br>
 <b>
- <a href="#table-of-contents">↥ Go to Top</a>
+ <a style="float:right" href="#table-of-contents">↥ Go to Top</a>
 </b>
 
 ## Additional Functionality
