@@ -1,3 +1,5 @@
+![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+
 # Supplier Portal
 
 Supplier Portal User Manual
@@ -49,36 +51,7 @@ May, 2020
     - [On-Time Delivery %](#on-time-delivery-)
     - [Quality - Rejected Inventory](#quality---rejected-inventory)
     - [Purchase Price Variance](#purchase-price-variance)
-- [User Guide for Portal Admin](#user-guide-for-portal-admin)
-  - [Log in](#log-in)
-  - [Configuration](#configuration)
-    - [Menus](#menus)
-    - [eConnect-base Configuration](#econnect-base-configuration)
-      - [Service Configuration](#service-configuration)
-      - [Basic Data Configuration](#basic-data-configuration)
-      - [Authentication](#authentication)
-    - [Supplier Portal Settings](#supplier-portal-settings)
-      - [General Configuration](#general-configuration)
-      - [ION WorkFlow Configuration](#ion-workflow-configuration)
-      - [Metrics Display](#metrics-display)
-      - [On-Time Delivery KPI](#on-time-delivery-kpi)
-      - [Email templates](#email-templates)
-      - [Cron](#cron)
-    - [Design Settings](#design-settings)
-      - [General](#general)
-      - [Frontend Color Codes](#frontend-color-codes)
-      - [Logo Image size](#logo-image-size)
-      - [Status Mapping](#status-mapping)
-        - [PO Status Mapping](#po-status-mapping)
-        - [Forecast Status Mapping](#forecast-status-mapping)
-      - [Filter and Search](#filter-and-search)
-        - [Purchaseorder Filter Mapping](#purchaseorder-filter-mapping)
-        - [Forecast Filter Mapping](#forecast-filter-mapping)
-    - [Exit System](#exit-system)
-  - [Additional Functionality](#additional-functionality)
-    - [IDM](#idm)
-  - [ION Workflows](#ion-workflows)
-  - [Logging](#logging)
+
     
 # System Overview
 
@@ -118,7 +91,13 @@ During setup, the Magento Admin panel is used to configure the portal. Some of t
 
 ## Validated Versions
 
-\&lt;\&lt;List versions of various software components\&gt;\&gt;
+versions of various software components used in Supplier portal:
+
+- Magento community version: 2.3.4
+- eConnect Base Module Version: 2.0.0
+- Supplier portal Module Version: 1.0.0
+- Idm Module version: 3.0.0
+
 
 ## Point of Contact
 
@@ -137,9 +116,8 @@ _Do not show any real username, email ids wherever possible._
 ## Registration
 
 Registration Page is used to register the user as supplier Supplier portal registration page is displayed looks like below
-<kbd>
-<img alt="Registration Page without econnect" src="../../images/usermanual/registationpage-without-econnect.png" width="500">
-</kbd>
+
+<kbd><img alt="Registration Page without econnect" src="../../images/usermanual/registationpage-without-econnect.png" width="500"></kbd>
 
 Prerequisites to register as supplier
 
@@ -159,10 +137,11 @@ Steps to register as supplier.
 
 <kbd><img alt="Registration Page with econnect" src="../../images/usermanual/after-registration.png" width="500"></kbd>
 
+**Note** : Once registration is complete, approval request is sent to buyer. Supplier can login only after the buyer has approved the registration request.Supplier will be notified with email regarding the approval/decline of the registration to registered email id.
 
 ## Log in
 
-The Homepage/Login page can be customised in backend with or without supplier theme when econnect add on is installed along with supplier portal, When no econnect add on is present, the Supplier portal homepage is displayed by default.
+The Homepage/Login page has username and password. It can also be customised to incorporate CAPTCHA.
 
 <kbd><img alt="Registration Page with econnect" src="../../images/usermanual/homepage-supplier.png" width="500"></kbd>
 
@@ -183,15 +162,15 @@ The homepage is customised with error messages for empty or incorrect username a
 
 ## My Settings
 
-\&lt;\&lt; Show the profile icon and settings page and provide description \&gt;\&gt;
+<kbd><img alt="My Accounts" src="../../images/usermanual/my-settings.png"  width="500"></kbd>
 
 ## My Account
 
 My Accounts section contains Account information,Buyer Information and Communication channels and address section.
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/my-accounts.png"></kbd>
+<kbd><img alt="My Accounts" src="../../images/usermanual/my-accounts.png"  width="500"></kbd>
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/my-accounts-address.png"></kbd>
+<kbd><img alt="My Accounts" src="../../images/usermanual/my-accounts-address.png"  width="500"></kbd>
 
 
 ## My Purchase Orders
@@ -249,48 +228,51 @@ Download button is present in top right corner of the My Purchase Order page and
 
 ### Confirm PO Line
 
-To Confirm a PO line select a single PO line or multiple lines and click on the Confirm button.Conf qty, Conf Price and Conf Date can be modified. By default, when a PO line is confirmed with changes , approval request is sent to ION and waiting symbol is shown as below 
-<kbd>
-<img alt="My Accounts" src="../../images/usermanual/confirm-with-changes.png" width="500">
-</kbd>
+To Confirm a PO line select a single PO line or multiple lines and click on the Confirm button.Conf qty, Conf Price and Conf Date can be modified. By default, when a PO line is confirmed with changes, approval request is sent to ION and waiting symbol is shown as below:
+
+<kbd><img alt="My Accounts" src="../../images/usermanual/confirm-with-changes.png" width="500"></kbd>
 
 ### Confirm All Lines
 
-<kbd>
-<img alt="My Accounts" src="../../images/usermanual/confirm-all-lines.png" width="500">
-</kbd>
+<kbd><img alt="My Accounts" src="../../images/usermanual/confirm-all-lines.png" width="500"></kbd>
 
 ### Upload to IDM
 
-<kbd>
-<img alt="My Accounts" src="../../images/usermanual/idm-select.png" width="500">
-</kbd>
+<kbd><img alt="My Accounts" src="../../images/usermanual/idm-select.png" width="500"></kbd>
 
-<kbd>
-<img alt="My Accounts" src="../../images/usermanual/idm-view.png" width="500">
-</kbd>
+<kbd><img alt="My Accounts" src="../../images/usermanual/idm-view.png" width="500"></kbd>
 
 ## My Forecast
 
-\&lt;\&lt; Show an image and provide description of the overall page \&gt;\&gt;
-
-\&lt;\&lt; List images and provide description for each of the sections below \&gt;\&gt;
-
-
-
+<kbd><img alt="My Accounts" src="../../images/usermanual/my-forecast.png" width="500"></kbd>
 
 ## My Performance Metrics
 
-\&lt;\&lt; Show an image and provide description of the overall page and chart options/labels \&gt;\&gt;
+Currently there are three types of graphs supported, they are :
+- on-Time Delivery
+- Quality - Rejected Inventory
+- Purchase Price Variance.
+Graph can be viewed either as bar or line chart (selected from dropdown in right corner). The graph can also be plotted for Monthly , Quarterly or yearly based on the options selected.
+
+<kbd><img alt="My Accounts" src="../../images/usermanual/my-performance-metrics.png" width="500"></kbd>
+
 
 ### On-Time Delivery %
 
-\&lt;\&lt; Show an image and provide description \&gt;\&gt;
+This metric records the percentage of inbound deliveries received on time, that is *Requested Delivery Date* Vs *Actual Delivery Date*.
+
+<kbd><img alt="My Accounts" src="../../images/usermanual/on-time-delivery.png" width="500"></kbd>
 
 ### Quality - Rejected Inventory
 
-\&lt;\&lt; Show an image and provide description \&gt;\&gt;
+ This metric records the total number of rejected supplies in a given period of time, that is Rejected Quantity.
+ 
+ <kbd><img alt="My Accounts" src="../../images/usermanual/quality-graph.png" width="500"></kbd>
 
 ### Purchase Price Variance
 
-\&lt;\&lt; Show an image and provide description \&gt;\&gt;
+This metric records the difference between the actual price paid to buy an item and its standard price as confirmed by the supplier, multiplied by the actual number of units purchased (Confirmed Quantity), that is, Confirmed Price Vs Invoiced Price.
+
+<kbd><img alt="My Accounts" src="../../images/usermanual/ppv.png" width="500"></kbd>
+
+
