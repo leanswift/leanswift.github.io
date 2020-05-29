@@ -109,9 +109,6 @@ Solutions Inc. via contact form at http://www.leanswift.com or email [info@leans
 
 # User Guide for Suppliers
 
-**Note** : _Images should be from an environment which has the LeanSwift logo as company logo._
-
-_Do not show any real username, email ids wherever possible._
 
 ## Registration
 
@@ -154,11 +151,15 @@ The homepage is customised with error messages for empty or incorrect username a
 
 ## Forgot Password
 
-\&lt;\&lt; List image, prerequisites and steps to reclaim or reset password \&gt;\&gt;
+To change the password, click on forgot password link and enter the username and captcha and click on Reset My Password. An email will be sent to the registered mail id to reset the password. 
+
+<kbd><img alt="My Accounts" src="../../images/usermanual/forgot-password.png" width="500"></kbd>
 
 ## Log out
 
-\&lt;\&lt; Show the profile icon and logout option \&gt;\&gt;
+To Log out click on the profile icon and select sign out. After logging out the page refreshes to home page after 5 seconds.
+
+<kbd><img alt="My Accounts" src="../../images/usermanual/logout.png" width="500"></kbd>
 
 ## My Settings
 
@@ -168,9 +169,11 @@ Date Format can be modified in this section.The selected date format will be dis
 
 ## My Account
 
-My Accounts section contains Account information,Buyer Information and Communication channels and address section.
+My Accounts section contains Account information and  communication information of the supplier as well as general information of the buyer.
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/my-accounts.png"  width="500"></kbd>
+
+The different types of supplier's address such as Postal Address,Street Address,Pickup Address,Origin Address,Final Delivery Address and Bank Address are listed in My Address section.
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/my-accounts-address.png"  width="500"></kbd>
 
@@ -236,11 +239,18 @@ Conf qty, Conf Price and Conf Date can be modified. By default, when a PO line i
 
 ### Confirm All Lines
 
+When Confirm All Lines is selected , all the purhase order lines in a PO is confirmed with same Confirmed Quantity/Price/Date as the Requested Quantity/Price/Date.
+
 <kbd><img alt="My Accounts" src="../../images/usermanual/confirm-all-lines.png" width="500"></kbd>
+
 
 ### Upload to IDM
 
+To add / view  notes or extra information related to a purchase order, one can upload/download IDM document. To upload a IDM document, click on the select option under Upload secion and upload a document. Document type that can be uploaded is configured in the backend. 
+
 <kbd><img alt="My Accounts" src="../../images/usermanual/idm-select.png" width="500"></kbd>
+
+To view the document attached for a particular PO, click on the plus symbol. A pop-up is displayed with document uploaded for a particular PO.
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/idm-view.png" width="500"></kbd>
 
@@ -251,7 +261,7 @@ Conf qty, Conf Price and Conf Date can be modified. By default, when a PO line i
 ## My Performance Metrics
 
 Currently there are three types of graphs supported, they are :
-- on-Time Delivery
+- On-Time Delivery
 - Quality - Rejected Inventory
 - Purchase Price Variance.
 Graph can be viewed either as bar or line chart (selected from dropdown in right corner). The graph can also be plotted for Monthly , Quarterly or yearly based on the options selected.
