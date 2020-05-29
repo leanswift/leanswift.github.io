@@ -131,11 +131,11 @@ The about main menu option will display details of the application such as the e
 
 To select a line click the checkmark box to the left of the line you wish to select. When you select a line usually there is a list or data section below on the same page that will populate with detailed data based on the selected line.
 
-<kbd><img src="../images/select-single-line.png" width="650" alt="Single Select"></kbd>
+<kbd><img src="../images/select-single-line.png" width="750" alt="Single Select"></kbd>
 
 Lists also support multi selection. 
 
-<kbd><img src="../images/select-multi-line.png" width="650" alt="Multi Select"></kbd>
+<kbd><img src="../images/select-multi-line.png" width="750" alt="Multi Select"></kbd>
 
 #### Note that some functionality like loading details below will only apply to the last clicked line.
 
@@ -145,7 +145,7 @@ Lists also support multi selection.
 
 You can select an individual cell inside of a list by clicking it (it will become highlighted).
 
-<kbd><img src="../images/copy-cell.png" width="650" alt="Selecting Cells"></kbd>
+<kbd><img src="../images/copy-cell.png" width="750" alt="Selecting Cells"></kbd>
 
 With a cell selected you can copy the value using Ctrl+C (or Cmd+C).
 
@@ -250,11 +250,11 @@ Once you have made your selection and hit the Find button the Invoices list will
 
 Note that this operation while optimised still can take some time to complete, especially for big accounts, or if you have a date range selected for multiple years back, or if for example you&#39;re working through a VPN connection. Quite a lot of data is retrieved from M3 and then processed and calculated before display.
 
-<kbd><img src="../images/invoices.png" width="650" alt="Invoice Table"></kbd>
+<kbd><img src="../images/invoices.png" width="750" alt="Invoice Table"></kbd>
 
 The bottom of the list of invoices will display totals for the amount columns. Also note that if you select multiple lines it will immediately display how many you have selected as well as the amount totals for your selection (pressing the Totals button below the list will give you a popup with the same information for your selections).
 
-<kbd><img src="../images/invoice-totals.png" width="650" alt="Invoice Totals"></kbd>
+<kbd><img src="../images/invoice-totals.png" width="750" alt="Invoice Totals"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -262,7 +262,7 @@ The bottom of the list of invoices will display totals for the amount columns. A
 
 If you select a line in the list of invoices the Payments section below will load and display payment data for the selected invoice.
 
-<kbd><img src="../images/payments.png" width="650" alt="Payments And Payment Details Table"></kbd>
+<kbd><img src="../images/payments.png" width="750" alt="Payments And Payment Details Table"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -276,11 +276,11 @@ By selecting a line in the Payments list in turn the Payment Details list below 
 
 At the bottom of the page the aging will be displayed. It will only populate if you are viewing Open or All Invoices (and only take open invoices into account). Aging can be viewed by Invoice or by Due date as selected.
 
-<kbd><img src="../images/aging.png" width="650" alt="Aging Dropdown"></kbd>
+<kbd><img src="../images/aging.png" width="750" alt="Aging Dropdown"></kbd>
 
 Each aging bucket is hyperlinked and you can click this amount to open a popup. The popup will contain a listing of the invoices that make up that specific aging bucket amount.
 
-<kbd><img src="../images/aging-popup.png" width="650" alt="Aging Pop Up"></kbd>
+<kbd><img src="../images/aging-popup.png" width="750" alt="Aging Pop Up"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -290,13 +290,13 @@ The Accounts Receivable application can be configured to integrate with your com
 
 At the top next to the display options there will be a checkbox &quot;Show IDM&quot;. Checking this option will display two additional columns in the list for Invoice and Proof of Delivery. Initially these columns will be empty.
 
-<kbd><img src="../images/idm.png" width="650" alt="IDM PDF"></kbd>
+<kbd><img src="../images/idm.png" width="750" alt="IDM PDF"></kbd>
 
 Clicking the PDF icon will open the Invoice document for view directly in your browser.
 
 Note that the two previously disabled buttons Email Invoice(s) and Email PoD(s) have now become active. You can select one, or multiple lines, and click the the respective Email button
 
-<kbd><img src="../images/show-idm.png" width="650" alt="Show IDM"></kbd>
+<kbd><img src="../images/show-idm.png" width="750" alt="Show IDM"></kbd>
 
 Once you click the Email button a popup will appear. Fill out the fields and press the Send button. All of the respective documents for your selected lines will be attached to the email. Once the email have been sent the popup will automatically close.
 
@@ -322,7 +322,7 @@ If there is an existing invoice reference on a Tickler Note for your selected in
 
 Also note that Tickler Note By Invoice Number functionality may or may not be activated as it is an administrator configuration. Your company may not be using this.
 
-<kbd><img src="../images/tickler-notes-by-invoice.png" width="700" alt="Tickler notes by invoice"></kbd>
+<kbd><img src="../images/tickler-notes-by-invoice.png" width="750" alt="Tickler notes by invoice"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -330,7 +330,7 @@ Also note that Tickler Note By Invoice Number functionality may or may not be ac
 
 Some invoices may appear &quot;flagged&quot; with a small icon. These are so called preliminary invoices in M3 and should not be appearing here. It is an indication that something is not right and may need further investigation in M3.
 
-<kbd><img src="../images/flagged-invoice.png" width="700" alt="Flagged invoices"></kbd>
+<kbd><img src="../images/flagged-invoice.png" width="750" alt="Flagged invoices"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -340,9 +340,9 @@ The Basic Data page combines information from various places in M3 such as CRS61
 
 ##### Note. If you do not see the Save button on the Basic Data page then you have not been granted update access by your application administrator.
 
-<kbd><img src="../images/basic-data-global.png" width="650" alt="Basic data global section"></kbd>
+<kbd><img src="../images/basic-data-global.png" width="750" alt="Basic data global section"></kbd>
 
-<kbd><img src="../images/basic-data-credit.png" width="650" alt="Basic data credit section"></kbd>
+<kbd><img src="../images/basic-data-credit.png" width="750" alt="Basic data credit section"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -359,7 +359,7 @@ Tickler Notes are created in RMS440 in M3, however, the M3 interface is not intu
 
 To add a new tickler note simply enter an id and description and click the Add button.
 
-<kbd><img src="../images/tickler-note-add.png" width="650" alt="Add Tickler Note"></kbd>
+<kbd><img src="../images/tickler-note-add.png" width="750" alt="Add Tickler Note"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -367,7 +367,7 @@ To add a new tickler note simply enter an id and description and click the Add b
 
 By selecting a line the detail section below will load (note that if there is no text data it will still be blank). You can type in any of the fields and then click the Save button.
 
-<kbd><img src="../images/existing-tickler-notes.png" width="650" alt="Edit Existing Tickler Note"></kbd>
+<kbd><img src="../images/existing-tickler-notes.png" width="750" alt="Edit Existing Tickler Note"></kbd>
 
 #### Note. Make sure to wait for the loading icon to complete the save.
 
@@ -377,8 +377,8 @@ By selecting a line the detail section below will load (note that if there is no
 
 The Credit History page will display credit information for both the customer and payer selected. This page will show last payment details, balances and high period, outstanding amount, average days to pay, aging and more. The purpose of this page is to review credit references and history.
 
-<kbd><img src="../images/credit-history-data.png" width="650" alt="Credit History Payer And Calculated Data"></kbd>
-<kbd><img src="../images/credit-history-aging-total.png" width="650" alt="Credit History Aging And Totals"></kbd>
+<kbd><img src="../images/credit-history-data.png" width="750" alt="Credit History Payer And Calculated Data"></kbd>
+<kbd><img src="../images/credit-history-aging-total.png" width="750" alt="Credit History Aging And Totals"></kbd>
 
 #### Note. Initially the page will not load additional details for application performance reasons.
 
