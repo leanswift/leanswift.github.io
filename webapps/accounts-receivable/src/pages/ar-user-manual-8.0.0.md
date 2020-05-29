@@ -288,15 +288,13 @@ Each aging bucket is hyperlinked and you can click this amount to open a popup. 
 
 The Accounts Receivable application can be configured to integrate with your company&#39;s IDM. Note. If your company is not using IDM then this specific functionality will not work in your AR application.
 
-At the top next to the display options there will be a checkbox &quot;Show IDM&quot;. Checking this option will display two additional columns in the list for Invoice and Proof of Delivery. Initially these columns will be empty.
-
-<kbd><img src="../images/idm.png" width="750" alt="IDM PDF"></kbd>
+At the top next to the display options there will be a checkbox &quot;Show IDM&quot;. Checking this option will display two additional columns in the list for Invoice and Delivery note. Initially these columns will be empty.
 
 Clicking the PDF icon will open the Invoice document for view directly in your browser.
 
 Note that the two previously disabled buttons Email Invoice(s) and Email PoD(s) have now become active. You can select one, or multiple lines, and click the the respective Email button
 
-<kbd><img src="../images/show-idm.png" width="750" alt="Show IDM"></kbd>
+<kbd><img src="../images/idm.png" width="750" alt="IDM PDF"></kbd>
 
 Once you click the Email button a popup will appear. Fill out the fields and press the Send button. All of the respective documents for your selected lines will be attached to the email. Once the email have been sent the popup will automatically close.
 
