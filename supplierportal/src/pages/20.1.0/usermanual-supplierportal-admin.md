@@ -4,12 +4,20 @@
 
 To view the user manual for Portal Users click [here](usermanual-supplierportal-user.md).
 
+
 # Table of contents
 
+- [Version 20.1.0 - User Manual - Admin User](#version-2010---user-manual---admin-user)
+- [Table of contents](#table-of-contents)
 - [Overview](#overview)
   - [Organization of the Manual](#organization-of-the-manual)
   - [Architecture](#architecture)
   - [Features](#features)
+    - [Account](#account)
+    - [Purchase Orders](#purchase-orders)
+    - [Purchase Proposals/Forecasts](#purchase-proposalsforecasts)
+    - [Performance Metrics](#performance-metrics)
+  - [Point of Contact](#point-of-contact)
 - [User Guide for Portal Admin](#user-guide-for-portal-admin)
   - [Log in](#log-in)
   - [Configuration](#configuration)
@@ -39,7 +47,7 @@ To view the user manual for Portal Users click [here](usermanual-supplierportal-
   - [Additional Functionality](#additional-functionality)
     - [IDM](#idm)
   - [ION Workflows](#ion-workflows)
-  
+    
 # Overview
 
 LeanSwift Supplier Portal is a supplier self-service web portal that enables efficient online communication with vendors. It is seamlessly integrated with Infor M3 Cloudsuite via ION. Supplier Portal helps automate the entire purchase-to-pay process for the customer.
@@ -55,24 +63,39 @@ To view the user manual for Portal Users, click [here](usermanual-supplierportal
 The solution is built on **Magento Open Source Platform**. It interacts with **Infor M3** via **Infor ION Platform**. **RabbitMQ** is the message queue used to send/receive messages to/from ION.
 
 <kbd>
-<img alt ="Supplier portal architecture" src="../../images/usermanual/Supplier%20Portal%20-%20Tech%20Architecture.png">
+<img alt ="Supplier portal architecture" src="../../images/usermanual/architecture.png">
 </kbd>
 
 ## Features
 
-- Register Supplier as Portal user (existing M3 suppliers only)
+### Account
+- Registration and Login
 - View Supplier Information
-- View Purchase Orders
-- Search/Filter/Sort on Purchase Orders
-- Confirm Purchase Orders
-- Download Purchase Orders Information
-- View Purchase Forecasts
-- Search/Filter/Sort on Purchase Forecasts
-- View Quality metrics based on rejected quantity
-- View Delivery Performance metrics
-- View Purchase Price Variance metrics
-- User settings to set date format
-- Configurable options for Portal Admin user
+- User Date Format Setting
+
+### Purchase Orders 
+- View Purchase Orders.
+- Search/Filter/Sort on Purchase Orders.
+- Confirm Purchase Orders. 
+- Download Purchase Orders Information.
+- Upload documents into IDM against Purchase Orders.
+> This is available only if additional functionality for IDM integration is included as part of license
+>
+
+### Purchase Proposals/Forecasts
+- View Purchase Forecasts.
+- Search/Filter/Sort on Purchase Forecasts.
+
+### Performance Metrics 
+- View Quality metrics based on rejected quantity.
+- View Delivery Performance metrics.
+- View Purchase Price Variance metrics.
+
+
+## Point of Contact
+
+This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at http://www.leanswift.com or email [info@leanswift.com](mailto:info@leanswift.com).
+
 
 # User Guide for Portal Admin
 
