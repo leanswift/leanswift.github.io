@@ -53,9 +53,9 @@ LeanSwift Supplier Portal is a supplier self-service web portal that enables eff
 
 ## Organization of the Manual
 
-This manual describes the admin configuration of LeanSwift Supplier Portal for Infor M3 and is meant for the Portal administrator.
+This manual describes the frontend look and feel of LeanSwift Supplier Portal for Infor M3 and is meant for the Portal user(Supplier).
 
-To view the user manual for Portal Users, click here.
+To view the user manual for Portal admin, [click here.](https://github.com/leanswift/leanswift.github.io/blob/dev/supplierportal/src/pages/20.1.0/usermanual-supplierportal-admin.md)
 
 ## Architecture
 
@@ -108,7 +108,7 @@ Solutions Inc. via contact form at http://www.leanswift.com or email [info@leans
 
 ## Registration
 
-Registration Page is used to register the user as supplier Supplier portal registration page is displayed looks like below
+Registration Page is used to register the user as supplier.Supplier portal registration page is displayed looks like below
 
 <kbd><img alt="Registration Page without econnect" src="../../images/usermanual/registationpage-without-econnect.png" width="500"></kbd>
 
@@ -126,7 +126,7 @@ Steps to register as supplier.
 
 -Based on whether econnect is installed or not , the registration portal appears with/without supplier theme.
 
--Once the supplier registration is completed and sent for buyer approval,user is notified with message "Thank you for registering with  us. Your request has been sent for review. It may take a few hours or days to receive a response" in the homepage
+-Once the supplier registration is completed and sent for buyer approval,user is notified with message "Thank you for registering with  us. Your request has been sent for review. It may take a few hours or days to receive a response" in the homepage.
 
 <kbd><img alt="Registration Page with econnect" src="../../images/usermanual/after-supplier-registration.png" width="500"></kbd>
 
@@ -140,7 +140,7 @@ Steps to register as supplier.
 
 ## Log in
 
-The Homepage/Login page has username and password. It can also be customised to incorporate CAPTCHA.
+The Homepage/Login page has username and password text fields. It can also be customised to incorporate CAPTCHA.
 
 <kbd><img alt="Registration Page with econnect" src="../../images/usermanual/homepage-supplier.png" width="500"></kbd>
 
