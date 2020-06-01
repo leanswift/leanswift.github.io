@@ -161,7 +161,7 @@ The homepage is customised with error messages for empty or incorrect username a
 
 To change the password, click on forgot password link and enter the username and captcha and click on Reset My Password. An email will be sent to the registered mail id to reset the password. 
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/forgot-password.png" width="500"></kbd>
+<kbd><img alt="Forgot Password" src="../../images/usermanual/forgot-password.png" width="500"></kbd>
 
 <div align="right">
 <b>
@@ -173,7 +173,7 @@ To change the password, click on forgot password link and enter the username and
 
 To Log out click on the profile icon and select sign out. After logging out the page refreshes to home page after 5 seconds.
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/logout.png" width="500"></kbd>
+<kbd><img alt="Log Out" src="../../images/usermanual/logout.png" width="500"></kbd>
 
 <div align="right">
 <b>
@@ -185,7 +185,7 @@ To Log out click on the profile icon and select sign out. After logging out the 
 
 Date Format can be modified in this section.The selected date format will be displayed as *Changed Date Format* below the dropdown.
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/my-settings.png"  width="500"></kbd>
+<kbd><img alt="My Settings" src="../../images/usermanual/my-settings.png"  width="500"></kbd>
 
 <div align="right">
 <b>
@@ -201,7 +201,7 @@ My Accounts section contains Account information and  communication information 
 
 The different types of supplier's address such as Postal Address,Street Address,Pickup Address,Origin Address,Final Delivery Address and Bank Address are listed in My Address section.
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/my-accounts-address.png"  width="500"></kbd>
+<kbd><img alt="My Accounts Address" src="../../images/usermanual/my-accounts-address.png"  width="500"></kbd>
 
 <div align="right">
 <b>
@@ -214,26 +214,26 @@ The different types of supplier's address such as Postal Address,Street Address,
 
 My Purchase Orders section contains all the purchase orders that belongs to the registered supplier.Based on the Purchase order (Normal or Delivery Schedule purchase orders ) indicators will be shown to differentiate.Each purchase order has one or more purchase order lines. Purchase orders are displayed along with Order date,Currency,lowest status among the order lines in a PO. A single purchase order can hold more than 1000 PO lines and it will be displayed in a single page with scroll button.
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/purchase-order.png" width="500"></kbd> 
+<kbd><img alt="My Purchase Orders" src="../../images/usermanual/purchase-order.png" width="500"></kbd> 
 
 By clicking on the side arrow in a Purchase Order,it expands to display the purchase order lines and related information corresponding to the particular purchase order.The purchase order lines have Line Number, Sub Line Number,Item,Description,Quantity,Confirmed Quantity, Received Quantity,Price, U/M,Confirmed Price, Requested Date , Confirmed Date and Status.
 Single select,Multi select or select all of the purchase order lines can be done 
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/purchase-orderlines.png" width="500"></kbd>
+<kbd><img alt="Purchase Orders Lines" src="../../images/usermanual/purchase-orderlines.png" width="500"></kbd>
 
 
 ### Paginate
 
 Pagination is availabe to show a minimum of 10 PO  to maximum of 40 PO per page.
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/pagination.png" width="500"></kbd>
+<kbd><img alt="Pagination" src="../../images/usermanual/pagination.png" width="500"></kbd>
 
 
 ### Sort
 
 PO number, Order date and Status can be sorted ascendingly or descendingly. By default the POs are sorted based on the status.Single click on arrow mark (symbol pointing downwards) determines that the sort is descending. Double click on the arrow mark (symbol pointing upwards) determine the sort is ascending.
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/sort.png" width="500"></kbd>
+<kbd><img alt="Sorting" src="../../images/usermanual/sort.png" width="500"></kbd>
 
 
 ### Search
@@ -245,21 +245,21 @@ Search bar is available above the purchase order table . The Search bar is a tex
 
 Based on admin configuraion,the filter can perform Equals,Less Than, Greater Than,Contains,Starts With,Ends With. The number of filters that can be applied is configured in admin. The filters works in AND operation (if two filters f1 and f2 are added , the results will have POs that satisify f1 AND f2)
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/filter.png" width="500"></kbd>
+<kbd><img alt="Filters" src="../../images/usermanual/filter.png" width="500"></kbd>
 
 
 ### Filter on Status
 
 The Status filter is a dropdown having a list of PO status such as READY, PRINTED, ACTIVATED, SCHEDULED, CONFIRMED, ASN, NOTIFIED, RECEIVED, PARTIAL REJECTED, COMPLETE, PARTIAL INVOICED, INVOICED.
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/status-filter.png" width="500"></kbd>
+<kbd><img alt="Filter on Status" src="../../images/usermanual/status-filter.png" width="500"></kbd>
 
 
 ### Download as CSV
 
 Download button is present in top right corner of the My Purchase Order page and My Forecast page. By default downloads all the data ,When the purchase order/forecast POs are filtered, it downloads the filtered results in CSV format. Downloaded File Name  has pre-defined format, Supplier number with Timestamp of download. For example, Y50001_1578908806.csv.
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/download-csv.png" width="500"></kbd>
+<kbd><img alt="Download as CSV" src="../../images/usermanual/download-csv.png" width="500"></kbd>
 
 
 ### Confirm PO Line
@@ -268,21 +268,26 @@ To Confirm a PO line select a single PO line or multiple lines and click on the 
 Confirming a PO line can be done in two ways
 - *Confirm with changes* :
    When a PO line is confirmed with changes, approval request is sent to ION. To confirm a PO line with changes, Change the Conf            Qty/Conf Date/Conf Price an click on confirm button. When Confirm with changes are done, PO Confirm approval request is sent to the      buyer.The PO lines confirmed with changes has indicator with red dot to differentiate with lines confirmed without changes.
-   When a PO line approval is rejected by the buyer, it is update in the 
+   
+   <kbd><img alt="Confirming PO Line With Changes" src="../../images/usermanual/confirm-with-changes.png" width="500"></kbd>
+   
+   When a PO line approval is rejected by the buyer, it is update in the PO line with reject symbol.
+   
+   <kbd><img alt="Confirming PO Line Rejection" src="../../images/usermanual/confirm-poline-reject.png" width="500"></kbd>
+   
+   When PO line confirm quantity or date or price is modified, a text dialog box appears to add comments. User can add short notes to      track it further. The text box appears for each PO line. When there is no change in conf qty/date/price, the dialog box is not shown.
+   
+   <kbd><img alt="Confirming PO Line Textbox" src="../../images/usermanual/confirm-poline-textbox.png" width="500"></kbd>
   
 - *Confirm without changes* :
    To confrim a PO line without changes, keep the conf qty/ conf date/conf price as same as the requested date/price/qty. When a PO line    is confirmed without changes, line is confirmed directly and no 'PO Confirm approval request' is not sent to the buyer. Confirmed        line without any changes has a plain green indicator. 
 
-   <kbd><img alt="My Accounts" src="../../images/usermanual/confirm-with-changes.png" width="500"></kbd>
+   <kbd><img alt="Confirming PO Line Without Changes" src="../../images/usermanual/confirm-with-changes.png" width="500"></kbd>
    
- Apart from *Confirm with changes*,*Confirm without changes*  indicators involved in Confirm PO lifecycle are *Waiting* and *Rejected*
- Initialy after a PO line is confirmed , it goes to waiting state (highlighted in yellow ) before it moves to confirmed state.
+ Apart from confirmed and rejected indicators, there is a waiting indicator applied to a PO line before it moves to confirmed state.
  
+ <kbd><img alt="Confirming PO Line Waiting" src="../../images/usermanual/poline-waiting-indicator.png" width="500"></kbd>
  
-   
-   
-  
-
 
 ### Confirm All Lines
 
@@ -310,12 +315,14 @@ To view the document attached for a particular PO, click on the plus symbol. A p
 ## My Forecast
 
 My Forecast page list the Planned purchase orders created via delivery schedules. The Forecast page has the functionalities such as,
+
 -Paginate
 -sort
 -search
 -filter
 -filter with status
 -download as csv
+
 All these works similar to 'My purchase Orders' page.
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/my-forecast.png" width="500"></kbd>
