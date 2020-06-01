@@ -41,12 +41,6 @@ May, 2020
     - [Confirm All Lines](#confirm-all-lines)
     - [Upload to IDM](#upload-to-idm)
   - [My Forecast](#my-forecast)
-    - [Paginate](#paginate)
-    - [Sort](#sort)
-    - [Search](#search)
-    - [Filter](#filter)
-    - [Filter on Status](#filter-on-status)
-    - [Download as CSV](#download-as-csv)
   - [My Performance Metrics](#my-performance-metrics)
     - [On-Time Delivery %](#on-time-delivery-)
     - [Quality - Rejected Inventory](#quality---rejected-inventory)
@@ -67,7 +61,9 @@ To view the user manual for Portal Users, click here.
 
 The solution is built on **Magento Open Source Platform**. It interacts with **Infor M3** via **Infor ION Platform**. **RabbitMQ** is the message queue used to send/receive messages to/from ION.
 
-\&lt;\&lt;Insert Architecture Image\&gt;\&gt;
+<kbd>
+<img alt ="Supplier portal architecture" src="../../images/usermanual/Supplier%20Portal%20-%20Tech%20Architecture.png">
+</kbd>
 
 ## Features
 
@@ -136,6 +132,12 @@ Steps to register as supplier.
 
 **Note** : Once registration is complete, approval request is sent to buyer. Supplier can login only after the buyer has approved the registration request.Supplier will be notified with email regarding the approval/decline of the registration to registered email id.
 
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
 ## Log in
 
 The Homepage/Login page has username and password. It can also be customised to incorporate CAPTCHA.
@@ -148,6 +150,12 @@ The homepage is customised with error messages for empty or incorrect username a
 
 <kbd><img alt="Registration Page with econnect" src="../../images/usermanual/homepage-error-incorrect password.png" width="500"></kbd>
 
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
 
 ## Forgot Password
 
@@ -155,17 +163,35 @@ To change the password, click on forgot password link and enter the username and
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/forgot-password.png" width="500"></kbd>
 
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
 ## Log out
 
 To Log out click on the profile icon and select sign out. After logging out the page refreshes to home page after 5 seconds.
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/logout.png" width="500"></kbd>
 
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
 ## My Settings
 
 Date Format can be modified in this section.The selected date format will be displayed as *Changed Date Format* below the dropdown.
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/my-settings.png"  width="500"></kbd>
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
 ## My Account
 
@@ -176,6 +202,12 @@ My Accounts section contains Account information and  communication information 
 The different types of supplier's address such as Postal Address,Street Address,Pickup Address,Origin Address,Final Delivery Address and Bank Address are listed in My Address section.
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/my-accounts-address.png"  width="500"></kbd>
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
 
 ## My Purchase Orders
@@ -233,9 +265,24 @@ Download button is present in top right corner of the My Purchase Order page and
 ### Confirm PO Line
 
 To Confirm a PO line select a single PO line or multiple lines and click on the Confirm button.
-Conf qty, Conf Price and Conf Date can be modified. By default, when a PO line is confirmed with changes, approval request is sent to ION and waiting symbol is shown as below
+Confirming a PO line can be done in two ways
+- *Confirm with changes* :
+   When a PO line is confirmed with changes, approval request is sent to ION. To confirm a PO line with changes, Change the Conf            Qty/Conf Date/Conf Price an click on confirm button. When Confirm with changes are done, PO Confirm approval request is sent to the      buyer.The PO lines confirmed with changes has indicator with red dot to differentiate with lines confirmed without changes.
+   When a PO line approval is rejected by the buyer, it is update in the 
+  
+- *Confirm without changes* :
+   To confrim a PO line without changes, keep the conf qty/ conf date/conf price as same as the requested date/price/qty. When a PO line    is confirmed without changes, line is confirmed directly and no 'PO Confirm approval request' is not sent to the buyer. Confirmed        line without any changes has a plain green indicator. 
 
-<kbd><img alt="My Accounts" src="../../images/usermanual/confirm-with-changes.png" width="500"></kbd>
+   <kbd><img alt="My Accounts" src="../../images/usermanual/confirm-with-changes.png" width="500"></kbd>
+   
+ Apart from *Confirm with changes*,*Confirm without changes*  indicators involved in Confirm PO lifecycle are *Waiting* and *Rejected*
+ Initialy after a PO line is confirmed , it goes to waiting state (highlighted in yellow ) before it moves to confirmed state.
+ 
+ 
+   
+   
+  
+
 
 ### Confirm All Lines
 
@@ -254,9 +301,30 @@ To view the document attached for a particular PO, click on the plus symbol. A p
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/idm-view.png" width="500"></kbd>
 
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
 ## My Forecast
 
+My Forecast page list the Planned purchase orders created via delivery schedules. The Forecast page has the functionalities such as,
+-Paginate
+-sort
+-search
+-filter
+-filter with status
+-download as csv
+All these works similar to 'My purchase Orders' page.
+
 <kbd><img alt="My Accounts" src="../../images/usermanual/my-forecast.png" width="500"></kbd>
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
 ## My Performance Metrics
 
@@ -286,5 +354,11 @@ This metric records the percentage of inbound deliveries received on time, that 
 This metric records the difference between the actual price paid to buy an item and its standard price as confirmed by the supplier, multiplied by the actual number of units purchased (Confirmed Quantity), that is, Confirmed Price Vs Invoiced Price.
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/ppv.png" width="500"></kbd>
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
 
