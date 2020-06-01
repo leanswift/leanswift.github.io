@@ -1,21 +1,9 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Supplier Portal
-
-Supplier Portal User Manual
-
-Version 1.0
-
-May, 2020
-
-## Overview
-
+# Version 20.1.0 - User Manual - Supplier User
 
 # Table of contents
 
-- [Supplier Portal](#supplier-portal)
-  - [Overview](#overview)
-- [Table of contents](#table-of-contents)
 - [System Overview](#system-overview)
   - [Organization of the Manual](#organization-of-the-manual)
   - [Architecture](#architecture)
@@ -53,9 +41,9 @@ LeanSwift Supplier Portal is a supplier self-service web portal that enables eff
 
 ## Organization of the Manual
 
-This manual describes the frontend look and feel of LeanSwift Supplier Portal for Infor M3 and is meant for the Portal user(Supplier).
+This manual describes the frontend look and feel of LeanSwift Supplier Portal for Infor M3 and is meant for the Portal user(Supplier Representative).
 
-To view the user manual for Portal admin, [click here.](https://github.com/leanswift/leanswift.github.io/blob/dev/supplierportal/src/pages/20.1.0/usermanual-supplierportal-admin.md)
+To view the user manual for Portal admin, [click here](https://github.com/leanswift/leanswift.github.io/blob/dev/supplierportal/src/pages/20.1.0/usermanual-supplierportal-admin.md).
 
 ## Architecture
 
@@ -87,21 +75,18 @@ During setup, the Magento Admin panel is used to configure the portal. Some of t
 
 ## Validated Versions
 
-versions of various software components used in Supplier portal:
+Versions of various software components used in Supplier Portal:
 
-- Magento community version: 2.3.4
-- eConnect Base Module Version: 2.0.0
-- Supplier portal Module Version: 1.0.0
-- Idm Module version: 3.0.0
+- Magento Open Source: 2.3.4
+- eConnect Base Module: 2.0.0
+
+IDM functionality was validated using 
+- IDM Module: 3.0.0
 
 
 ## Point of Contact
 
-This document and the software it describes are provided by LeanSwift Solutions Inc. For
-
-additional information regarding support, licensing, functionality etc. please contact LeanSwift
-
-Solutions Inc. via contact form at http://www.leanswift.com or email [info@leanswift.com](mailto:info@leanswift.com).
+This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at http://www.leanswift.com or email [info@leanswift.com](mailto:info@leanswift.com).
 
 # User Guide for Suppliers
 
