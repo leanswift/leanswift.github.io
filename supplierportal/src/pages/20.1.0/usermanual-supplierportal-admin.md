@@ -153,7 +153,7 @@ Select &quot;Yes&quot; to log additional information in Magento. This setting is
 <img alt="Service Configuration" src="../../images/usermanual/serviceconfiguration.png">
 </kbd>
 
-<br></br>
+<br/>
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
@@ -176,7 +176,7 @@ The section used to configure the connection parameters for connecting M3. An op
 <img alt="Basic Configuration" src="../../images/usermanual/authentication.png">
 </kbd>
 
-<br></br>
+<br/>
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
@@ -208,7 +208,7 @@ Select &quot;Yes&quot; to log additional information in Magento. This setting is
 <img alt="General Configuration" src="../../images/usermanual/supplier-settings/general.png">
 </kbd>
 
-<br></br>
+<br/>
 
 <div align="right">
 <b>
@@ -235,7 +235,7 @@ Provide an option to test connectivity between application to ION workflow.
 <kbd>
 <img alt="General Workflow Configuration" src="../../images/usermanual/supplier-settings/workflow-genera-settings.png">
 </kbd>
-<br></br>
+<br/>
 
 **PO Confirmation**
 
@@ -266,7 +266,7 @@ Provide workflow name for PO confirmation.
 <kbd>
 <img alt="Approval process Workflow Configuration" src="../../images/usermanual/supplier-settings/po-confirmation-with-workflow.png">
 </kbd>
-<br></br>
+<br/>
 
 **Registration**
 
@@ -298,7 +298,7 @@ Provide an option to select request approver.
 <img alt="Approval process Workflow Configuration" src="../../images/usermanual/supplier-settings/workflow-registration.png">
 </kbd>
 
-<br></br>
+<br/>
 
 <div align="right">
 <b>
@@ -339,7 +339,7 @@ Provide an option to display or hide to Supplier.
 <img alt="metrics display" src="../../images/usermanual/supplier-settings/metrics.png">
 </kbd>
 
-<br></br>
+<br/>
 
 
 <div align="right">
@@ -368,7 +368,7 @@ Provide an option to select a parameter, Based on selection the graph will be pl
 <img alt="on-time delivery" src="../../images/usermanual/supplier-settings/ontime-delivery.png">
 </kbd>
 
-<br></br>
+<br/>
 
 <div align="right">
 <b>
@@ -385,7 +385,7 @@ The section provides an option to choose email templates for each operation. It 
 <img alt="Email templates" src="../../images/usermanual/supplier-settings/email-templates.png">
 </kbd>
 
-<br></br>
+<br/>
 
 <div align="right">
 <b>
@@ -416,7 +416,7 @@ The settings used to pull the forecast purchase order's from M3.
 <img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/cron.png">
 </kbd>
 
-<br></br>
+<br/>
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
@@ -467,7 +467,7 @@ When an option selected as &quot;Yes&quot; upload document in
 <img alt="General Configuration" src="../../images/usermanual/supplier-design/general.png">
 </kbd>
 
-<br></br>
+<br/>
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
@@ -495,7 +495,7 @@ When an option selected as &quot;Yes&quot; upload document in
     <img alt="Frontend color code" src="../../images/usermanual/supplier-design/frontend-color.png">
 </kbd>
 
-<br></br>
+<br/>
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
@@ -510,7 +510,7 @@ Logo image upload width and height can be changed over here.
     <img alt="Logo Image size" src="../../images/usermanual/supplier-design/logo-imagesize.png">
 </kbd>
 
-<br></br>
+<br/>
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
@@ -529,7 +529,7 @@ The section contains the status code ,label and color code mapping for Purchase 
 <img alt="PO status mapping" src="../../images/usermanual/supplier-design/po-status-mapping.png">
 </kbd>
 
-<br></br>
+<br/>
 
 <p>Purchase order M3 status shown below</p>
 <kbd>
@@ -544,14 +544,14 @@ The section contains the status code ,label and color code mapping for forecast 
 <img alt="Forecast status mapping" src="../../images/usermanual/supplier-design/forecast-status-mapping.png">
 </kbd>
 
-<br></br>
+<br/>
 
 <p>Forecast M3 status shown below</p>
 <kbd>
 <img alt="Forecast order M3" src="../../images/usermanual/supplier-design/forecast-m3.png">
 </kbd>
 
-<br></br>
+<br/>
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
@@ -591,7 +591,7 @@ The section contains the filter limit, filter label mapping for the filter attri
 <img alt="Purchaseorder filter mapping" src="../../images/usermanual/supplier-design/filter-po.png">
 </kbd>
 
-<br></br>
+<br/>
 
 ##### Forecast Filter Mapping
 
@@ -601,7 +601,7 @@ The section contains the filter limit, filter label mapping for the filter attri
 <img alt="Forecast filter mapping" src="../../images/usermanual/supplier-design/filter-forecast.png">
 </kbd>
 
-<br></br>
+<br/>
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
@@ -616,7 +616,7 @@ Log out from Magento admin using the link at the top right.
 <img alt="Exit system" src="../../images/usermanual/admin-logout.png">
 </kbd>
 
-<br></br>
+<br/>
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
