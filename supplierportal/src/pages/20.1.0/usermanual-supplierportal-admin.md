@@ -1,19 +1,11 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Supplier Portal
+# Version 20.1.0 - User Manual - Admin User
 
-Supplier Portal Admin User Manual
-
-Version 1.0
-
-May, 2020
-
-To view the user manual for Portal Users [click here.](http://google.com)
+To view the user manual for Portal Users click [here](usermanual-supplierportal-user.md).
 
 # Table of contents
 
-- [Supplier Portal](#supplier-portal)
-- [Table of contents](#table-of-contents)
 - [Overview](#overview)
   - [Organization of the Manual](#organization-of-the-manual)
   - [Architecture](#architecture)
@@ -56,7 +48,7 @@ LeanSwift Supplier Portal is a supplier self-service web portal that enables eff
 
 This manual describes the admin configuration of LeanSwift Supplier Portal for Infor M3 and is meant for the Portal administrator.
 
-To view the user manual for Portal Users, click here.
+To view the user manual for Portal Users, click [here](usermanual-supplierportal-user.md).
 
 ## Architecture
 
@@ -86,9 +78,7 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 
 ## Log in
 
-Log in to Magento Admin Panel using the URL provided to you and the applicable user
-
-credentials.
+Log in to Magento Admin Panel using the URL provided to you and the applicable user credentials.
 
 <kbd>
 <img alt="Admin screen" src="../../images/usermanual/adminscreen.png" width="200">
