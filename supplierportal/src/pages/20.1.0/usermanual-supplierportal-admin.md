@@ -627,7 +627,61 @@ Log out from Magento admin using the link at the top right.
 
 ### IDM
 
-Uploading documents into IDM against Purchase Orders requires LeanSwift IDM Magento Extension.
+Uploading documents into IDM against Purchase Orders requires LeanSwift IDM Magento Extension. The LeanSwift IDM extension for Infor M3 provides the ability to upload, download (multiple files for ION) and search documents in IDM. Also, when the IDM extension is installed along with Supplier Portal, it provides the ability to download/ view  IDM documents from supplier portal **My Purchase Order** page.
+
+**Configuration**
+
+The configurable options available for IDM add-on can be separated as three parts – *Upload*, *Download* and *Search*.
+
+**Upload Configuration**
+
+- Enable Upload - Option can be set to Yes or No.
+
+- Allowed File Types – File extensions that are allowed to be uploaded to IDM. This field is not mandatory.
+
+- Cron / Real-time – Documents will be uploaded to IDM based on this option. If cron is chosen, cron expression should be provided to     upload the files on a periodic basis.
+
+- Configurable Options to Upload – Select the Document Type from the drop-down list, required Attribute Type(s), Used In[Should be         unique to identify the configuration]. Can add as many options as necessary.
+
+- Clears the uploaded files to IDM – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/upload/ folder periodically   based on cron expression. It’s good practice to configure suitable cron expressions here to manage disk space.
+
+<kbd>
+<img alt="Exit system" src="../../images/usermanual/idm-backend-upload.png">
+</kbd>
+
+
+**Download Configuration**
+
+- Enable Download - Option can be set to Yes or No
+
+- Cron / Real-time – Documents will be downloaded from IDM based on this option. If cron is chosen, cron expression should be given to     download the files from IDM on a periodic basis.
+
+- Configurable Options to Download – Select the Document Type, required Attribute Type, Operation, Used In [Should be unique to identify   the configuration]. Can add as many options as necessary.
+
+- Clears the downloaded files to IDM – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/download/ folder             periodically based on cron expression. It’s good practice to configure suitable cron expression here to manage disk space.
+
+<kbd>
+<img alt="Exit system" src="../../images/usermanual/idm-backend-download.png">
+</kbd>
+
+**Search Configuration**
+
+- Enable Search - Option can be set to Yes or No
+
+- Configurable Options to Search – Select the Document Type, required Attribute Type, Operation, Offset and Limit
+
+<kbd>
+<img alt="Exit system" src="../../images/usermanual/idm-backend-search.png">
+</kbd>
+
+**Mapping**
+
+Attribute Key refers to M3_AttributeKey Name of IDM Document Type and the Custom key is the one we name it for our reference which we will use in code to retrieve M3_AttributeKey mapped here.
+
+<kbd>
+<img alt="Exit system" src="../../images/usermanual/idm-backend-mapping.png">
+</kbd>
+
 
 ## ION Workflows
 
