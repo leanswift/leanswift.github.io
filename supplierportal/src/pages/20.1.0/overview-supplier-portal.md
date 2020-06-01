@@ -1,1 +1,1 @@
-<kbd> ![LeanSwift Supplier Portal Overview](../../images/supplier-portal-overview.jpg)</kbd>
+<kbd>![LeanSwift Supplier Portal Overview](../../images/supplier-portal-overview.jpg)</kbd>
