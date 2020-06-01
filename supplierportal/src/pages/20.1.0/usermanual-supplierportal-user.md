@@ -114,7 +114,7 @@ Registration Page is used to register the user as supplier Supplier portal regis
 
 Prerequisites to register as supplier
 
--To register, the supplier needs to be vendor in M3 and the supplier id needs to be in status &#39;20&#39; (approved) in M3.
+-The supplier needs to be vendor in M3 and the supplier id needs to be in status &#39;20&#39; (approved) in M3.
 
 -Already registered supplier id cannot be registered again.
 
@@ -128,7 +128,7 @@ Steps to register as supplier.
 
 -Once the supplier registration is completed and sent for buyer approval,user is notified with message "Thank you for registering with  us. Your request has been sent for review. It may take a few hours or days to receive a response" in the homepage
 
-<kbd><img alt="Registration Page with econnect" src="../../images/usermanual/after-registration.png" width="500"></kbd>
+<kbd><img alt="Registration Page with econnect" src="../../images/usermanual/after-supplier-registration.png" width="500"></kbd>
 
 **Note** : Once registration is complete, approval request is sent to buyer. Supplier can login only after the buyer has approved the registration request.Supplier will be notified with email regarding the approval/decline of the registration to registered email id.
 
@@ -172,6 +172,8 @@ To change the password, click on forgot password link and enter the username and
 ## Log out
 
 To Log out click on the profile icon and select sign out. After logging out the page refreshes to home page after 5 seconds.
+
+<kbd><img alt="Log Out" src="../../images/usermanual/logout-icon.png" width="500"></kbd>
 
 <kbd><img alt="Log Out" src="../../images/usermanual/logout.png" width="500"></kbd>
 
@@ -317,10 +319,15 @@ To view the document attached for a particular PO, click on the plus symbol. A p
 My Forecast page list the Planned purchase orders created via delivery schedules. The Forecast page has the functionalities such as,
 
 -Paginate
+
 -sort
+
 -search
+
 -filter
+
 -filter with status
+
 -download as csv
 
 All these works similar to 'My purchase Orders' page.
