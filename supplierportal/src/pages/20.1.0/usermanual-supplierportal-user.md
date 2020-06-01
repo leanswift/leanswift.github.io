@@ -28,6 +28,12 @@
     - [Confirm All Lines](#confirm-all-lines)
     - [Upload to IDM](#upload-to-idm)
   - [My Forecast](#my-forecast)
+    - [Paginate](#paginate)
+    - [Sort](#sort)
+    - [Search](#search)
+    - [Filter](#filter)
+    - [Filter on Status](#filter-on-status)
+    - [Download as CSV](#download-as-csv)
   - [My Performance Metrics](#my-performance-metrics)
     - [On-Time Delivery %](#on-time-delivery-)
     - [Quality - Rejected Inventory](#quality---rejected-inventory)
@@ -161,7 +167,7 @@ To change the password, click on *forgot password* link and enter the *username*
 
 ## My Settings
 
-Date Format can be modified in this section.The selected date format will be displayed as *Changed Date Format* below the dropdown.
+Date Format can be modified in this section. The selected date format will be displayed as *Changed Date Format* below the dropdown.
 
 <kbd><img alt="My Settings" src="../../images/usermanual/my-settings.png"></kbd>
 

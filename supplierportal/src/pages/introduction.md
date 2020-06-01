@@ -10,4 +10,4 @@
 
 - ## [User Manual - User](20.1.0/usermanual-supplierportal-user.md)
 
-- ## Release Notes
+- ## [Release Notes](20.1.0//release-notes-supplier-portal.md)
