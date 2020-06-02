@@ -3,7 +3,7 @@
 
 # **Supplier Portal**
 
-# **1.0.0**
+# **20.1.0**
 
 ## **Release Notes**
 
@@ -72,12 +72,7 @@ Performance Metrics
 
 ## **Validated Versions**
 
-Storefront and Admin:
+- Microsoft Edge 44.18362.449.0
+- Chrome Version 83.0.4103.61
+- Internet Explorer 11.836.18362.0
 
-- Internet Explorer 11 or later, Microsoft Edge, latest–1
-- Firefox latest, latest–1 (any operating system)
-- Chrome latest, latest–1 (any operating system)
-- Safari latest, latest–1 (Mac OS only)
-- Safari Mobile for iPad 2, iPad Mini, iPad with Retina Display (iOS 12 or later), for desktop storefront
-- Safari Mobile for iPhone 6 or later; iOS 12 or later, for mobile storefront
-- Chrome for mobile latest–1 (Android 4 or later) for mobile storefront
