@@ -18,153 +18,150 @@ _ **for Infor M3 &amp; Magento** _
 
 # TABLE OF CONTENTS
 
-Page #
-
-Contents
 
 _**[TABLE OF CONTENTS](#_heading=h.30j0zll) 2**_
 
-_**[GENERAL INFORMATION](#_heading=h.1fob9te) 5**_
+- [General Information](#general-information) 
 
-_**[System Overview](#_heading=h.2et92p0) 5**_
+- [System Overview](#system-overview)
 
-**[Architecture](#_heading=h.u6fhnb7ross2) 5**
+  - [Architecture](#architecture)
 
-**[Architecture with LeanSwift eLink](#_heading=h.pedoav3dbcp) 6**
+  - [Architecture with LeanSwift eLink](#architecture-with-leanswift-elink)
+  
+  - [Architecture with ION for multi-tenant Cloud M3](#architecture-with-ion-for-multi-tenant-cloud-m3)
 
-**[Architecture with ION for multi-tenant Cloud M3](#_heading=h.p4kahfgfd2ic) 6**
+  - [eConnect-base v2.0.0](#econnect-base-v2.0.0)
 
-**[eConnect-base v2.0.0](#_heading=h.ql61v97hrxzk) 7**
+  - [Transactions](#transaction)
 
-**[Transactions](#_heading=h.eu6px4uccu0h) 7**
+  - [User Interface](#user-interface)
 
-**[User Interface](#_heading=h.3dy6vkm) 7**
+- [Points of Contact](#points-of-contaacts)
 
-_**[Points of Contact](#_heading=h.1t3h5sf) 8**_
+- [Organization of the Manual](#organization-of-the-manual)
 
-**[Organization of the Manual](#_heading=h.ak657x6x7zbk) 8**
+- [Acronyms and Abbreviations](#acronyms-and-abbreviations)
 
-_**[Acronyms and Abbreviations](#_heading=h.k095cvid3lmw) 8**_
+- [CONFIGURATION](#configuration)
 
-_**[CONFIGURATION](#_heading=h.2s8eyo1) 9**_
+- [Magento Configuration](#magento-configuration)
 
-_**[Magento Configuration](#_heading=h.26in1rg) 9**_
+- [System Menu](#system-menu)
 
-_**[System Menu](#_heading=h.35nkun2) 10**_
+  - [Configuration](#configuration)
 
-_**[Configuration](#_heading=h.1ksv4uv) 10**_
+  - [Configuration/LeanSwift](#configuration/leanswift)
 
-_**[Configuration/LeanSwift](#_heading=h.2jxsxqh) 12**_
+  - [Configuration/LeanSwift/eConnect](#configuration/leanSwift/eConnect)
 
-_**[Configuration/LeanSwift/eConnect](#_heading=h.auxpnwsznva1) 13**_
+- [eConnect-base](#econnect-base)
 
-_**[eConnect-base](#_heading=h.p1tjc9105a9h) 14**_
+  - [Service Configuration](#service-configuration)
 
-**[Service Configuration](#_heading=h.4mgr12u3td8o) 15**
+  - [M3 Connection Protocol](#m3-connection-protocol)
 
-**[M3 Connection Protocol](#_heading=h.p3jk2edk1tw4) 15**
+  - [Basic Data Configuration (M3 connection protocol - ION)](#basic-data-configuration-(m3-connection-protocol-ion))
 
-**[Basic Data Configuration (M3 connection protocol - ION)](#_heading=h.shswq1sjeway) 16**
+  - [Company](#company)
 
-**[Company](#_heading=h.x0swopsmyutp) 16**
+  - [Division](#division)
 
-**[Division](#_heading=h.h3m72jgjobd0) 16**
+  - [Authentication](#authentication)
 
-**[Authentication](#_heading=h.suwbbrhjuxew) 16**
+- [eConnect-General](#econnect-general)
 
-_**[eConnect-General](#_heading=h.3j2qqm3) 17**_
+  - [General Configuration](#general-configuration)
 
-_**[General Configuration](#_heading=h.70b4254wl9go) 17**_
+  - [Use M3 order history](#use-m3-order-history)
 
-**[Use M3 order history](#_heading=h.qsh70q) 17**
+  - [Display Invoice](#display-invoice)
 
-**[Display Invoice](#_heading=h.3as4poj) 17**
+  - [Debug/log data](#debug-log-data)
 
-**[Debug/log data](#_heading=h.1pxezwc) 18**
+- [eConnect-ION](#econnect-ion)
 
-_**[eConnect-ION](#_heading=h.49x2ik5) 19**_
+- [Basic Data Configuration](#basic-data-configuration)
 
-_**[Basic Data Configuration](#_heading=h.147n2zr) 19**_
+  - [Facility](#facility)
 
-**[Facility](#_heading=h.ihv636) 19**
+  - [Warehouse](#warehouse)
 
-**[Warehouse](#_heading=h.32hioqz) 19**
+  - [Price Code](#price-code)
 
-**[Price Code](#_heading=h.9e7gchtvqi2o) 19**
+  - [Currency code](#currency-code)
 
-**[Currency code](#_heading=h.41mghml) 19**
+  - [Order Type](#order-type)
 
-**[Order Type](#_heading=h.2grqrue) 19**
+- [Shipping Method](#shipping-method)
 
-_**[Shipping Method](#_heading=h.3fwokq0) 20**_
+- [Manual Sync Configuration](#manual-sync-configuration)
 
-_**[Manual Sync Configuration](#_heading=h.yc3m5w4eql0k) 21**_
+- [Customer General Configuration](#customer-general-configuration)
 
-_**[Customer General Configuration](#_heading=h.3tbugp1) 21**_
+  - [Enable Registration](#enable-registration)
 
-**[Enable Registration](#_heading=h.28h4qwu) 21**
+  - [Create New Customer](#create-new-customer)
 
-**[Create New Customer](#_heading=h.nmf14n) 23**
+- [Product Addition/ Synchronization](#product-addition-synchronization)
 
-_**[Product Addition/ Synchronization](#_heading=h.1v1yuxt) 25**_
+  - [Product attribute mapping](#product-attribute-mapping)
+  
+- [Product Synchronization - AttributeSet Mapping](#product-synchronization-attributeset-mapping)
 
-_**[Product attribute mapping](#_heading=h.4f1mdlm) 26**_
+- [Product Synchronization - Category Mapping](#product-synchronization-category-mapping)
 
-_**[Product Synchronization - AttributeSet Mapping](#_heading=h.19c6y18) 28**_
+- [Customer Addition/ Synchronization](#customer-addition-synchronization)
 
-_**[Product Synchronization - Category Mapping](#_heading=h.2u6wntf) 29**_
+  - [Enable](#enable)
 
-_**[Customer Addition/ Synchronization](#_heading=h.37m2jsg) 30**_
+  - [Enable Customer sync](#enable-customer-sync)
 
-**[Enable](#_heading=h.1mrcu09) 30**
+  - [Enable Customer Addition](#enable-customer-addition)
 
-**[Enable Customer sync](#_heading=h.46r0co2) 31**
+  - [Customer Group Id](#customer-group-id)
 
-**[Enable Customer Addition](#_heading=h.2lwamvv) 31**
+  - [Customer Master Mapping](#customer-master-mapping)
 
-**[Customer Group Id](#_heading=h.111kx3o) 31**
+  - [Customer Address Mapping](#customer-address-mapping)
 
-**[Customer Master Mapping](#_heading=h.206ipza) 31**
+- [Sales](#sales)
 
-**[Customer Address Mapping](#_heading=h.4k668n3) 31**
+  - [Enable order comments](#enable-order-comments)
 
-_**[Sales](#_heading=h.2zbgiuw) 32**_
+  - [Allow Item Price](#allow-item-price)
 
-**[Enable order comments](#_heading=h.1egqt2p) 32**
+  - [Capture Payment Online](#capture-payment-online)
 
-**[Allow Item Price](#_heading=h.3ygebqi) 32**
+- [Order Charges](#order-charges)
 
-**[Capture Payment Online](#_heading=h.sqyw64) 32**
+  - [Shipping/Freight Fee Charge Type](#shipping/fright-fee-charge)
 
-_**[Order Charges](#_heading=h.3cqmetx) 33**_
+  - [Gift Wrap Transfer](#gift-wrap-transfer)
 
-**[Shipping/Freight Fee Charge Type](#_heading=h.1rvwp1q) 34**
+- [Payments](#payments)
 
-**[Gift Wrap Transfer](#_heading=h.4bvk7pj) 36**
+  - [Re-authorization Amount (Credit Cards)](#re-authorization-amount)
 
-_**[Payments](#_heading=h.2r0uhxc) 38**_
+  - [Payment Provider](#payment-provider)
 
-**[Re-authorization Amount (Credit Cards)](#_heading=h.1664s55) 38**
+  - [Invoice Fee Charge Type](#invoice-fee-charge-type)
 
-**[Payment Provider](#_heading=h.3q5sasy) 38**
+  - [Invoice Fees](#invoice-fees)
 
-**[Invoice Fee Charge Type](#_heading=h.25b2l0r) 38**
+- [Price Synchronization](#price-synchronization)
 
-**[Invoice Fees](#_heading=h.kgcv8k) 39**
+  - [Enable](#enable)
 
-_**[Price Synchronization](#_heading=h.34g0dwd) 40**_
+  - [Enable in Admin](#enable-in-admin)
 
-**[Enable](#_heading=h.1jlao46) 40**
+- [Inventory Synchronization](#inventory-synchronization)
 
-**[Enable in Admin](#_heading=h.43ky6rz) 40**
+  - [ERP Inventory Attribute](#erp-inventory-attribute)
 
-_**[Inventory Synchronization](#_heading=h.2iq8gzs) 40**_
+- [Cron Settings](#cron-settings)
 
-**[ERP Inventory Attribute](#_heading=h.xvir7l) 40**
-
-_**[Cron Settings](#_heading=h.3hv69ve) 42**_
-
-_**[Version Info](#_heading=h.1x0gk37) 42**_
+- [Version Info](#version-info)
 
 _**[MAGENTO STANDARD FUNCTIONALITY](#_heading=h.2w5ecyt) 44**_
 
