@@ -4,22 +4,18 @@
 
 # **USER MANUAL**
 
-## _ **LeanSwift eConnect** _
+##  **LeanSwift eConnect** 
 
-_ **for Infor M3 &amp; Magento** _
+ **for Infor M3 &amp; Magento** 
 
 **Part I – Configuration**
 
+
+**Product Version 20.2.0**
 #
-
-**Product Version 20.1.0**
-
-**ECONNECT 20.1.0 USER MANUAL**
-
+**ECONNECT 20.2.0 USER MANUAL**
+#
 # TABLE OF CONTENTS
-
-
-_**[TABLE OF CONTENTS](#_heading=h.30j0zll) 2**_
 
 - [General Information](#general-information) 
 
@@ -163,27 +159,25 @@ _**[TABLE OF CONTENTS](#_heading=h.30j0zll) 2**_
 
 - [Version Info](#version-info)
 
-_**[MAGENTO STANDARD FUNCTIONALITY](#_heading=h.2w5ecyt) 44**_
+- [MAGENTO STANDARD FUNCTIONALITY](#magento-standard-functionality) 
 
-_**[Exit System](#_heading=h.3vac5uf) 44**_
+- [Exit System](#exit-system)
 
-# ![](RackMultipart20200605-4-1903pio_html_ba25a3aa14ac570c.png) GENERAL INFORMATION
+# GENERAL INFORMATION
 
 # System Overview
 
-_ **LeanSwift eConnect for Infor M3** _ provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
+**LeanSwift eConnect for Infor M3** provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
 
-_ **LeanSwift eConnect for Infor M3** _ is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
+**LeanSwift eConnect for Infor M3** is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 
-_ **LeanSwift eConnect for Infor M3** _ employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
+**LeanSwift eConnect for Infor M3** employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
 
-## Architecture
+### Architecture
 
-With 20.1.0, the part of eConnect functionality dealing with connectivity to Infor OS and
+With 20.2.0, the part of eConnect functionality dealing with connectivity to Infor OS and data processing has been moved out of eConnect extension into a new extension named
 
-data processing has been moved out of eConnect extension into a new extension named
-
-**eConnect-base**.
+### eConnect-base
 
 From 20.1.0 onward, eConnect will require the eConnect-base extension to function.
 
@@ -191,14 +185,9 @@ eConnect 20.1.0 is compatible with eConnect-base 2.0.0.
 
 <kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/architecture.png"></kbd>
 
-
-
 ### Architecture with ION for multi-tenant Cloud M3
 
-
-
 <kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/architecture-with-ebase.png"></kbd>
-
 
 
 ### eConnect-base v2.0.0
@@ -215,7 +204,7 @@ eConnect 20.1.0 is compatible with eConnect-base 2.0.0.
 
 ### Transactions
 
-eConnect 20.1.0 includes the following set of standard transactions like its previous versions:
+eConnect 20.2.0 includes the following set of standard transactions like its previous versions:
 
 - Product Addition
 - Product Information Sync
@@ -233,7 +222,6 @@ eConnect 20.1.0 includes the following set of standard transactions like its pre
 - Invoice History
 - BOD Mapping
 - Initial Load / Import
-
 - Manual Sync for Customer
 - Manual Sync for Product
 - Manual Sync for Order
@@ -247,7 +235,7 @@ During setup, the Magento Admin panel is used to configure which transactions sh
 
 **Validated versions**
 
-- Magento Commerce 2.3.4
+- Magento Commerce 2.3.5
 - Magento Open Source 2.3.4
 - Infor M3 16.1
 - LeanSwift eLink 7.6.3
@@ -255,11 +243,11 @@ During setup, the Magento Admin panel is used to configure which transactions sh
 - Infor ION Grid 12.0.2.0.20180308-135417.2
 - ION Desk 12.0.0
 
-# Points of Contact
-
+### Points of Contact
+#
 This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at [http://www.leanswift.com](http://www.leanswift.com/)or email info@leanswift.com
 
-# Organization of the Manual
+### Organization of the Manual
 
 This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation, though the general workflow is similar.
 
