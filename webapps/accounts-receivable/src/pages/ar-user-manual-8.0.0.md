@@ -480,37 +480,21 @@ After a new version of the application has been deployed normally you only need 
 
 ### Deciphering Error Messages
 
-Errors can happen in the application for many different reasons and will be presented to you in a notification box. Here is a short guide on how to decipher these messages.
+Errors can happen in the application for many different reasons and will be presented to you in a snackbar at the bottom of the screen. Here is a short guide on how to decipher these messages.
 
-Example 1 - M3 API error
+#### Example 1 -Network error
+
+If connection to the M3 API is lost you will find an error message which looks like this. The general format of this message is
 
 <kbd><img src="../images/error-msg.png" width="700" alt="Error message"></kbd>
 
-In this error message it begins by telling us which service specifically is failing. You can recognize this by it being on a URL form. In this case _http://...rest/items/itemwarehouse/copy_
+Most common cause for this error is network issues like failing to connect to a VPN.
 
-This is then followed by a server error message usually starting with &quot;Status…&quot;. Per above
+#### Example 2 - M3 API error
+M3 API errors usually contain the NOK word in the message. If you see these too often you can find the detailed error message in the browser console (in most browsers you can open the console using either F12 or Ctrl + Shift + I)
 
-_Status: 500 (Internal Server Error)_
-
-After this can come any number of details about the error. In the above example it is an M3 API failing. When you see a &quot;NOK&quot; this is going to be an M3 API error. And in the above example we can see that there is some sort of problem in M3 with the Trade Stat: Error: NOK - Consumption code - trade stat (TST) does not exist
-
-So this in this case it is not necessarily the application that is failing, but M3 is complaining about the input to the api call. This is a problem that may be due to data in M3 being incorrect, and can possibly be fixed in M3 to make it work in the application without even contacting support. However, knowing exactly what API that failed in M3 is not necessarily clear and you must still know what the application is trying to do to draw conclusions about what could be wrong in M3.
-
-Example 2 - The &quot;Status 0&quot; error
-
-If by chance you see somewhere in the error that it mentions &quot;Status 0&quot; (zero) this means that your browser itself ran into an unexpected problem. It is unfortunately almost impossible to know what has happened to cause this or even to diagnose the problem. It is your browser that errored out, and not the server (which is sometimes the unfortunate nature of browser based applications).
-
-Some &quot;usual suspects&quot; that could have caused this (but by far not limited to)
-
-•The request timed out and browser aborted it
-
-•You clicked something else, navigating away from a page, while a request was still happening in the background and the browser aborted your previous request
-
-•Generic network related problems caused unexpected abort by browser
-
-If you see this you should try re-doing what you just did. For example load something else in the app, then go back in and load the data that caused the issue, and so on. If the problem persists you will need to contact your application administrator.
-
-Also you should avoid clicking around all too much in the application while you see a loading icon on the screen.
+#### Example 3 - Miscellaneous error
+Errors of the sort “Cannot find x of undefined” can be classified under this. Ideally these should not happen. If you find these errors please report to the dev team.
 
 [Go to Top](#table-of-contents)
 
