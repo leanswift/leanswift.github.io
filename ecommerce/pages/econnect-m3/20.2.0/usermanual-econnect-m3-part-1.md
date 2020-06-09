@@ -13,8 +13,8 @@
 
 **Product Version 20.2.0**
 #
-**ECONNECT 20.2.0 USER MANUAL**
-#
+# ECONNECT 20.2.0 USER MANUAL
+
 # TABLE OF CONTENTS
 
 - [General Information](#general-information) 
@@ -163,6 +163,7 @@
 
 - [Exit System](#exit-system)
 
+#
 # GENERAL INFORMATION
 
 # System Overview
@@ -248,6 +249,7 @@ During setup, the Magento Admin panel is used to configure which transactions sh
 This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at [http://www.leanswift.com](http://www.leanswift.com/)or email info@leanswift.com
 
 ### Organization of the Manual
+#
 
 This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation, though the general workflow is similar.
 
@@ -265,9 +267,9 @@ B2C – Business to Consumer
 
 RMA – Return Materials Authorization
 
-# ![](RackMultipart20200605-4-1903pio_html_8a644972a31e83d4.png) CONFIGURATION
+# CONFIGURATION
 
-# Magento Configuration
+### Magento Configuration
 
 To support the use of LeanSwift eConnect for Infor M3, configuration is required within Magento, in LeanSwift eLink, in ION and also within the M3 ERP system. This section covers the configuration within _Magento_.
 
@@ -277,7 +279,7 @@ Log in to Magento Admin Panel using the URL provided to you and the applicable u
 
 # System Menu
 
-## Configuration
+### Configuration
 
 - To access the LeanSwift Configuration, click the **Leanswift** tab, and select the **Configuration** option under **econnect-ION**.
 
