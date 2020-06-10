@@ -1,19 +1,5 @@
-![](RackMultipart20200605-4-1903pio_html_f5f7f63ec5d1a8b9.gif)
+# <span style="color:blue"> User Manual - eConnect With ION - Version 20.2.0 </span>
 
-![](RackMultipart20200605-4-1903pio_html_5749ee4c7fdc9cd3.png)
-
-# USER MANUAL
-
-##  **LeanSwift eConnect** 
-
- **for Infor M3 &amp; Magento** 
-
-**Part I – Configuration**
-
-
-**Product Version 20.2.0**
-#
-# ECONNECT 20.2.0 USER MANUAL
 
 # TABLE OF CONTENTS
 
