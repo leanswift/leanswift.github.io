@@ -416,7 +416,7 @@ This feature enables manual sync of customer with M3. We can choose multiple cus
 
 Alongside Price &amp; Inventory, the Order Creation transaction is one of the core transactions within eConnect. LeanSwift have then on top of this added a number of features to be able to better manage the creation of sales orders within M3 when initiated from Magento.
 
-    1.
+    
 ## Transaction Overview
 
 There are multiple steps involved in creating an order in M3, and these are covered later on in this section. The B2B order creation section provides details of the order process from both Magento front-end as well as Magento Admin. The differences in the B2C scenarios are discussed in the related sections.
@@ -429,7 +429,7 @@ The order creation process can be initiated in a number of different ways – bo
 
 To manually initiate the order creation in M3 following the creation of an order from the Magento front-end (or from within Admin), the action &#39;Sync Order with M3&#39; should be used. This option can be found within the Sales order grid (_Sales \&gt; Orders_).
 
-![](RackMultipart20200604-4-58zvro_html_d17f239558802774.png)
+<kbd><img alt="Transaction overview" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/sync-order-with-m3.png"></kbd>
 
 **Sync Order with M3**
 
@@ -448,9 +448,9 @@ The verification message displayed to the user also contains a wealth of informa
 
 To schedule order creation via the background jobs, make sure to configure the following cron job to run with appropriate intervals under LS \&gt; eConnect ION \&gt; Configuration \&gt; Cron:
 
-![](RackMultipart20200604-4-58zvro_html_7fc2b304af7dcf0.png)
+<kbd><img alt="cron setting to send ERP" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/cron.png"></kbd>
 
-    1.
+    
 ## Order Creation –B2B
 
 The order creation in a B2B scenario assumes the customer in Magento is already associated with an approved (status 20) M3 customer number via the &#39;External Customer number&#39; connection.
@@ -467,45 +467,46 @@ Please note that orders normally are synchronized between Magento &amp; M3 via t
 
 In this example, a test customer with e-mail ID [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@leanswift.com)is used. This customer is associated to a test B2B site and to M3 customer# **LEAN000399** :
 
-![](RackMultipart20200604-4-58zvro_html_159d9ebb2e1e2ca9.gif)
+<kbd><img alt="Customer details" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry.png"></kbd>
+
 
 After logging in on the front-end, and order is placed for 1 EA of item 200200 is added to cart. The customer specific price is already applied at this point (based on 1 EA of the item in question):
 
-![](RackMultipart20200604-4-58zvro_html_8254c95d9024f486.gif)
+<kbd><img alt="order addition" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-pdt-addtion.png"></kbd>
 
 Proceeding to checkout we at the last step get to order summary information regarding subtotal for items, Shipping &amp; Handling and Tax:
 
-![](RackMultipart20200604-4-58zvro_html_24c1b9f0de0aee89.gif)
+<kbd><img alt="order Placement" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-place-order.png"></kbd>
 
 In this example, eConnect has been configured to transfer Sales tax, and a line charge &#39;TAX1&#39; will be used. In the same way, Shipping &amp; Handling should be added as an order header charge using charge ID &#39;SHIP&#39;.
 
-![](RackMultipart20200604-4-58zvro_html_c8e6495ba9658842.png)
+<kbd><img alt="order charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-charges.png"></kbd>
 
 After pressing &#39;Place Order&#39; at the final step of the checkout process, a confirmation is received
 
 detailing the Magento order#.
 
-![](RackMultipart20200604-4-58zvro_html_d98ac8276c8e6f15.gif)
+<kbd><img alt="order placed" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-orderplaced.png"></kbd>
 
 In Magento Admin, the order can now be found in the Order grid (_Sales \&gt; Orders_), and the most recent order is at the top of the list.
 
-![](RackMultipart20200604-4-58zvro_html_e1ddf5796e322117.gif)
+<kbd><img alt="orders page" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-order.png"></kbd>
 
 To manually initiate the order sync, select the order/orders (1) and under **Actions** on the upper
 
 right hand side of the grid header select &#39;Sync Orders with M3&#39;.
 
-![](RackMultipart20200604-4-58zvro_html_506a4a97db168b86.gif)
+<kbd><img alt="orders page" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-order-sync.png"></kbd>
 
 Once a manual synchronization is complete, the user is presented with a confirmation message in the header of the order grid. The confirmation contains information on temporary- &amp; final order numbers as well as whether any shipments or invoices were added to Magento (more details on the Shipment and Invoice sync can be found in sections 2.8 &amp; 2.9).
 
-![](RackMultipart20200604-4-58zvro_html_fa61d80812ded5b8.gif)
+<kbd><img alt="Temp order number generated" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-temp-order.png"></kbd>
 
 The temporary (batch) order number ( **Temp Order #** ) is brought back from M3 as soon as the order has been successfully sent to M3. If some validation fails in M3 that leads to the final order not being fully created, this can be related to missing/incorrect information within M3. As such, the temporary order number is displayed in Magento along with a message to the user to review the errors in M3&#39;s batch order entry (OIS275).
 
 If the order creation progresses successfully [as in the example above], the final customer order number from M3 is also populated and displayed right in the order grid in the **Final Ord #** field.
 
-    1.
+    
 ## Order Creation –B2C
 
 Order creation in a B2C environment can be handled in two different ways within eConnect, and they differ with regards to how the Customer is managed from an M3 perspective.
