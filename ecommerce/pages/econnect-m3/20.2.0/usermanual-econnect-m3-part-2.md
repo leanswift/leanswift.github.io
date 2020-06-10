@@ -529,7 +529,7 @@ In the Discrete Customer scenario, eConnect always as a first step validates whe
 
 Besides the customer creation step when discrete customer is used in a B2C scenario, the additional parts of the order creation process are the same as for the B2B scenario.
 
-    1.
+   
 ## ShipComplete
 
 The Ship Complete functionality offers customers an option to allow end-customers to during
@@ -538,13 +538,14 @@ ordering select to have the entire order shipped &quot;complete&quot;, i.e. in a
 
 This functionality is enabled in _LS \&gt; eConnect-ION \&gt; Configuration \&gt; Sales_, by setting **Enable Ship Complete** to &#39;Yes&#39;. If this has been enabled, the customers on the site/store in question will have the option to during the checkout process select &#39;Ship Complete&#39; for their order:
 
-![](RackMultipart20200604-4-58zvro_html_a9da8acc25f8e050.gif)
+<kbd><img alt="Enable ship complete" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/ship-complete.png"></kbd>
+
 
 This will with the correct setup in M3 (parameter 290 in &#39;Dispatch Policy. Open&#39; – MWS010/G must be set to &#39;1&#39;) ensure that a picking list isn&#39;t released for the order until all of the lines are fully allocated. To enable this, eConnect will ensure each order line is created with the same &quot;Joint Delivery Code&quot; value:
 
-![](RackMultipart20200604-4-58zvro_html_8bc4969551292144.jpg)
+<kbd><img alt="Joint delivery code added in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/joint-delivery-code.png"></kbd>
 
-    1.
+    
 ## Gift Wrapping
 
 The first step in adding this support focuses on the detailed information on order- and/or line level charges for Gift Wrapping, as well as information regarding what type of gift wrapping should be applied.
