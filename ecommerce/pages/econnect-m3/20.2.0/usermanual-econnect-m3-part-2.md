@@ -965,8 +965,10 @@ Each delivery that is created within M3 will be synchronized over to Magento, an
 
 the M3 delivery number as a reference within the &#39;Shipment History&#39; section.
 
-![](RackMultipart20200604-4-58zvro_html_ffd4df7f68e77d29.gif)
- ![](RackMultipart20200604-4-58zvro_html_235c763bd0b7d3f8.gif)
+
+<kbd><img alt="Shipments" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipments.png"></kbd>
+
+ <kbd><img alt="Shipment history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipment-history.png"></kbd>
 
 The synchronization of the M3 delivery is possible only following pick reporting, i.e. after the quantity on the delivery has been issued (at corresponding status moved to &#39;6&#39; in M3) and the delivery appears in &#39;CO Delivery.Open&#39; (OIS150).
 
