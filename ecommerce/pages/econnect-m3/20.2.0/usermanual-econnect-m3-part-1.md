@@ -3,154 +3,53 @@
 
 ![eConnect bnner](../../../../images/banner-econnect-m3.jpg)
 
-# TABLE OF CONTENTS
+# Table of contents
 
-- [General Information](#general-information) 
+- [TABLE OF CONTENTS](#table-of-contents)
 
-- [System Overview](#system-overview)
-
-  - [Architecture](#architecture)
-
-   - [Architecture with ION for multi-tenant Cloud M3](#architecture-with-ion-for-multi-tenant-cloud-m3)
-
-  - [eConnect-base v2.0.0](#eConnect-base-v2.0.0)
-  
-  - [IMS](#ims)
-
+- [GENERAL INFORMATION](#general-information)
+  - [System Overview](#system-overview)
+  - [Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
+- [eConnect-base v2.0.0](#econnect-base-v200)
+- [IMS](#ims)
   - [Transactions](#transactions)
-
   - [User Interface](#user-interface)
-
-- [Points of Contact](#points-of-contacts)
-
-- [Organization of the Manual](#organization-of-the-manual)
-
-- [Acronyms and Abbreviations](#acronyms-and-abbreviations)
-
+  - [Points of Contact](#points-of-contact)
+  - [Organization of the Manual](#organization-of-the-manual)
+  - [Acronyms and Abbreviations](#acronyms-and-abbreviations)
 - [CONFIGURATION](#configuration)
-
-- [Magento Configuration](#magento-configuration)
-
+  - [Magento Configuration](#magento-configuration)
 - [System Menu](#system-menu)
-
   - [Configuration](#configuration)
-
-  - [Configuration/LeanSwift](#configuration/leanswift)
-
-  - [Configuration/LeanSwift/eConnect](#configuration/leanSwift/eConnect)
-
+  - [Configuration/LeanSwift](#configurationleanswift)
+  - [Configuration/LeanSwift/eConnect](#configurationleanswifteconnect)
 - [eConnect-base](#econnect-base)
-
+  - [Import History](#import-history)
+  - [Connectivity](#connectivity)
   - [Service Configuration](#service-configuration)
-
-  - [M3 Connection Protocol](#m3-connection-protocol)
-
-  - [Basic Data Configuration (M3 connection protocol - ION)](#basic-data-configuration-(m3-connection-protocol-ion))
-
-  - [Company](#company)
-
-  - [Division](#division)
-
   - [Authentication](#authentication)
-
+  - [IMS Configuration](#ims-configuration)
+  - [Cron](#cron)
 - [eConnect-General](#econnect-general)
-
   - [General Configuration](#general-configuration)
-
-  - [Use M3 order history](#use-m3-order-history)
-
-  - [Display Invoice](#display-invoice)
-
-  - [Debug/log data](#debug-log-data)
-
 - [eConnect-ION](#econnect-ion)
-
-- [Basic Data Configuration](#basic-data-configuration)
-
-  - [Facility](#facility)
-
-  - [Warehouse](#warehouse)
-
-  - [Price Code](#price-code)
-
-  - [Currency code](#currency-code)
-
-  - [Order Type](#order-type)
-
-- [Shipping Method](#shipping-method)
-
-- [Manual Sync Configuration](#manual-sync-configuration)
-
-- [Customer General Configuration](#customer-general-configuration)
-
-  - [Enable Registration](#enable-registration)
-
-  - [Create New Customer](#create-new-customer)
-
-- [Product Addition/ Synchronization](#product-addition-synchronization)
-
-  - [Product attribute mapping](#product-attribute-mapping)
-  
-- [Product Synchronization - AttributeSet Mapping](#product-synchronization-attributeset-mapping)
-
-- [Product Synchronization - Category Mapping](#product-synchronization-category-mapping)
-
-- [Customer Addition/ Synchronization](#customer-addition-synchronization)
-
-  - [Enable](#enable)
-
-  - [Enable Customer sync](#enable-customer-sync)
-
-  - [Enable Customer Addition](#enable-customer-addition)
-
-  - [Customer Group Id](#customer-group-id)
-
-  - [Customer Master Mapping](#customer-master-mapping)
-
-  - [Customer Address Mapping](#customer-address-mapping)
-
-- [Sales](#sales)
-
-  - [Enable order comments](#enable-order-comments)
-
-  - [Allow Item Price](#allow-item-price)
-
-  - [Capture Payment Online](#capture-payment-online)
-
-- [Order Charges](#order-charges)
-
-  - [Shipping/Freight Fee Charge Type](#shipping-fright-fee-charge-type)
-
-  - [Gift Wrap Transfer](#gift-wrap-transfer)
-
-- [Payments](#payments)
-
-  - [Re-authorization Amount](#re-authorization-amount)
-
-  - [Payment Provider](#payment-provider)
-
-  - [Invoice Fee Charge Type](#invoice-fee-charge-type)
-
-  - [Invoice Fees](#invoice-fees)
-
-- [Price Synchronization](#price-synchronization)
-
-  - [Enable](#enable)
-
-  - [Enable in Admin](#enable-in-admin)
-
-- [Inventory Synchronization](#inventory-synchronization)
-
-  - [ERP Inventory Attribute](#erp-inventory-attribute)
-
-- [Cron Settings](#cron-settings)
-
+  - [Basic Data Configuration](#basic-data-configuration)
+  - [Shipping Method](#shipping-method)
+  - [Manual Sync Configuration](#manual-sync-configuration)
+  - [Customer General Configuration](#customer-general-configuration)
+  - [Product Addition/ Synchronization](#product-addition-synchronization)
+  - [Customer Addition/ Synchronization](#customer-addition-synchronization)
+  - [Sales](#sales)
+  - [Order Charges](#order-charges)
+  - [Payments](#payments)
+  - [Price Synchronization](#price-synchronization)
+  - [Inventory Synchronization](#inventory-synchronization)
+  - [Initial Load/ Import](#initial-load-import)
+  - [BOD Mapping](#bod-mapping)
+  - [Cron Settings](#cron-settings)
 - [Version Info](#version-info)
-
-- [Magento Standard Functionality](#magento-standard-functionality) 
-
+- [MAGENTO STANDARD FUNCTIONALITY](#magento-standard-functionality)
 - [Exit System](#exit-system)
-
 
 # GENERAL INFORMATION
 
