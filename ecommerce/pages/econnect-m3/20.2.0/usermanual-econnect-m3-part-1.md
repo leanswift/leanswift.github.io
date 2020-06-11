@@ -500,9 +500,11 @@ The **Basic Data Configuration** section of the configuration contains a number 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/basicdata-configuration.png"></kbd>
 
 **Facility**
+
 The default facility within M3. Setting can be defined on Default or Store level.
 
 **Warehouse**
+
 The default facility within M3. Setting can be defined on Default or Store level. This setting is currently used as input to all transactions except the Order Entry.
 
 
@@ -561,12 +563,15 @@ There is a maximum limit of 200 beyond which manual sync cannot be done.
 
 ## Customer General Configuration
 
+
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config.png"></kbd>
 
 
 This section now contains the key parameters for how to handle customer creation, both for a B2B and a B2C site.
 
-NOTE! The &#39;Customer Template ID&#39; field has dual function depending on whether the Customer Registration feature is used or not. For a single site, these features are mutually exclusive in that one is intended for B2B- and the other for B2C use.
+**NOTE! The &#39;Customer Template ID&#39; field has dual function depending on whether the Customer Registration feature is used or not. For a single site, these features are mutually exclusive in that one is intended for B2B- and the other for B2C use.
+If ### Create Customer via IMS
+is set to &#39;Yes&#39;, Customer creation is done via IMS, else the regular econnect-ION workflow is followed. **
 
 ### Create Customer On Registration
 
@@ -574,7 +579,11 @@ This feature is intended for a B2B setup where new customers are allowed to regi
 
  <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config3.png"></kbd>
 
-If **Create Customer On Registration** is set to &#39;Yes&#39;, eConnect will remove the **Create Customer On Placing Order** parameter as this indicates the site being configured is a B2B site where every customer always exists already when an order is place.
+If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed.
+
+If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;No&#39;, the customer template mentioned under **Customer Template Id** will be used to create a new customer number within M3 for each order being placed.
+
+eConnect will remove the **Create Customer On Placing Order** parameter as this indicates the site being configured is a B2B site where every customer always exists already when an order is place.
 
 When **Create Customer On Registration** is set to &#39;Yes&#39;, this indicates that as new customers register from the Magento front-end, a customer record is added in Magento – and a customer in a preliminary status (status 10) is created within M3.
 
@@ -588,9 +597,13 @@ Setting **Create Customer On Registration** to &#39;No&#39; disables the registr
 
 This parameter is intended to be used for B2C sites where a choice needs to be made whether individual customers should exist in M3 for each consumer, or if a single &quot;common&quot; customer should be used for all consumer orders received from Magento.
 
-If **Create Customer On Placing Order** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer number **IONCUST** will be used to create a new customer number within M3 for each order being placed. If a registered user is signed in, and as such already has a Magento customer# - a verification is always first performed to see whether there&#39;s a value on External Customer # or not. If not new customer# will be created in M3.
+If **Create Customer On Placing Order** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed. 
 
-If **Create Customer On Placing Orderr** is set to &#39;No&#39;, then the same Customer# is used for each order created within M3. This customer number is then defined in the **Common Customer ID** field.
+If **Create Customer On Placing Order** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;No&#39;, the customer template mentioned under **Customer Template Id** will be used to create a new customer number within M3 for each order being placed.
+
+If a registered user is signed in, and as such already has a Magento customer# - a verification is always first performed to see whether there&#39;s a value on External Customer # or not. If not new customer# will be created in M3.
+
+If **Create Customer On Placing Orderr** is set to &#39;No&#39;, then the same Customer template mentioned under **Common Customer Id** is used for each order created within M3. 
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config2.png"></kbd>
 
@@ -600,6 +613,7 @@ If **Create Customer via IMS** is set to &#39;Yes&#39;, IMS is used to send cust
 If **Create Customer via IMS** is set to &#39;No&#39;, the regular ION workflow is enabled.
 
 ### User-defined Fields
+
 **User-defined Fields** is used when Field Name and Value  is to be added to UserArea section in CustomerPartyMaster BOD before sending to ION
 
 [Go to Top](#table-of-contents)
@@ -607,7 +621,7 @@ If **Create Customer via IMS** is set to &#39;No&#39;, the regular ION workflow 
 
 ## Product Addition/ Synchronization
 
-There exists functionality to conveniently map your M3 items to your Magento webshop. _Leanswift \&gt; econnect-ION \&gt; Configuration \&gt; [Product Addition/Synchronization](http://econnectqa.leanswiftdev.net/admin/admin/system_config/edit/section/ion/key/c35142ed29bd2e0250b9bfba0bb952a1c067e5f472b65ab9091ee1ab7ed48f08/#ion_product_sync-link)_. In the current version, simple and configurable products are supported using this process, for all other product types, the default Magento process of importing via CSV is in place.
+There exists functionality to conveniently map your M3 items to your Magento webshop. _Leanswift &gt; econnect-ION &gt; Configuration &gt; Product Addition/Synchronization In the current version, simple and configurable products are supported using this process, for all other product types, the default Magento process of importing via CSV is in place.
 
 You can control the Product sync in website level by choosing Yes/No option in the Enable field. Each of the features, addition of new items, and syncing of existing can be controlled independently of each other.
 
@@ -699,28 +713,35 @@ Customer Addition/Synchronizationcontains all settings related to fetching Custo
 
 
 
-### Enable
+**Enable**
+
 This setting provides the option to enable/disable the Customer Addition/Sync on website level.
 
 
-### Enable Customer sync
+**Enable Customer sync**
+
 This setting provides the option to enable/disable the Customer Sync on website level.
 
 
-### Enable Customer Addition
+**Enable Customer Addition**
+
 This setting provides the option to enable/disable the Customer Addition on website level.
 
 
-### Customer Group Id
+**Customer Group Id**
+
 This setting provides the option to choose the group from which customers from M3 needs to be imported.
 
-### New Account Email Notification
+**New Account Email Notification**
+
 This field sends a mail confirmation to the newly added customer when set to yes. The mail will have a &#39;Confirm Account&#39; option. When clicked on that, user will get redirected to frontend page
 
-### Customer Master Mapping
+**Customer Master Mapping**
+
 This section allows for mapping of additional Customer related fields within Magento to Customer master fields in M3. The mapping works exactly the same way as for the previous two sections. Customer&#39;s Order type, Facility and Division can also be synchronized. When a customer has this data synchronized, this detail gets picked over the basic data while order is getting placed
 
-### Customer Address Mapping
+**Customer Address Mapping**
+
 This section controls how the Billing and Shipping Address for the customer in Magento is to be created based on the address details in M3.
 
 The mapping is done in the same way as for Shipping methods and Product Sync for example. The Magento address attribute to map is selected from the drop-down list in the &#39;Magento Attribute&#39; column. The M3 attribute this should be mapped to is then selected from the drop- down list in the &#39;M3 Attribute&#39; column.
@@ -734,13 +755,16 @@ The &#39;Sales&#39; section contains three key settings related to the sales ord
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/sales.png"></kbd>
 
-### Enable order comments
+**Enable order comments**
+
 If set to &#39;Yes&#39;, this enables sending header-level comments [entered in the last step of the Checkout process] for the entire order to M3.
 
-### Allow Item Price
+**Allow Item Price**
+
 If set to &#39;Yes&#39;, this enables sending Price for the order to M3.
 
-### Capture Payment Online
+**Capture Payment Online**
+
 This option set to &#39;Yes&#39; will during Invoice creation in Magento [as part of the synchronization when the invoice details from M3 are used to create the Magento invoice] also invoke the &#39;Capture&#39; transaction from Magento for credit card orders. If this option is set to &#39;No&#39;, it&#39;s assumed that capture of funds via whatever payment gateway is used within Magento is handled manually via a separate process.
 
 [Go to Top](#table-of-contents)
@@ -762,7 +786,7 @@ The drop-down for Tax Charge code provides dynamic values from M3 to enable an e
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/order-charges-taxcode-dropdown.png"></kbd>
 
-### Shipping/Freight Fee Charge Type
+**Shipping/Freight Fee Charge Type**
 
 This setting provides the option to determine whether to in M3 handle the Shipping fee from Magento as a Non-stock item or an order header charge.
 
@@ -778,7 +802,7 @@ If &#39;Charges&#39; is selected, the following field provides selection of &#39
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/order-charges-shipping-dropdown.png"></kbd>
 
 
-### Gift Wrap Transfer
+**Gift Wrap Transfer**
 
 The **Gift Wrap** Transfer parameter controls whether or not to transfer Gift Wrapping related information from Magento. This information includes:
 
@@ -814,20 +838,24 @@ The Payments group contains the configuration related to credit-card integration
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/payments.png"></kbd>
 
-### Re-authorization Amount (Credit Cards)
+**Re-authorization Amount (Credit Cards)**
+
 Single-authorization is used by eConnect, i.e. the credit card authorization created by Magento is transferred over to M3 without the need to re-authorize. This parameter will be removed.
 
-### Payment Provider
+**Payment Provider**
+
 The mapping within this setup provides the link between Magento Payment Method values and Payment Terms &amp; Payment Method values in M3. In the case of the mapping for the Credit Card Payment Method, the &#39;M3 Credit Card Provider&#39; value also provides direct input to the order creation process.
 
-### Invoice Fee Charge Type
+**Invoice Fee Charge Type**
+
 Invoice fees that can be imposed by certain payment providers can via this setting be handled two different ways in M3 – either as a non-stock item or as a [order header] charge.
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/invoice-fee-type.png"></kbd>
 
 The selection made on this parameter will control which of the two values &#39;Invoice Fee Charge Code&#39; or &#39;Invoice Fee Charge Item no&#39; in the mapping below that will be used
 
-### Invoice Fees
+**Invoice Fees**
+
 This section is used if any Payment provider imposes some kind of transaction fee that needs to be represented on the order in M3. One example of this is the Swedish payment provider _Klarna_, that imposes a fee of about 25 SEK on each purchase when their service is used.
 
 The fee corresponding to the value entered in the &#39;Invoice Fee Amount&#39; column is added to the order either as a header charge or as a non-stock item depending on the previous settings.
@@ -844,12 +872,14 @@ The Price Synchronization settings have been added to provide an option to enabl
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/price-sync.png"></kbd>
 
 
-### Enable
+**Enable**
+
 Setting this parameter to &#39;Yes&#39; enables the Customer special price to be updated in magento when there is a change in M3 price table. Setting to No will not update any changes in magento.
 
 When his setting is turned On, Customer special price is displayed in frontend when the customer places the order.
 
-### Enable in Admin
+**Enable in Admin**
+
 Setting this parameter to &#39;Yes&#39; enables the Customer special price to be updated in magento when there is a change in M3 price table. Setting to No will not update any changes in magento.
 
 When his setting is turned On, Customer special price is displayed in the backend when customer places the order.
@@ -864,7 +894,7 @@ This setting provides an option for which stock to invoke when stock is updated 
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/inventory-sync.png"></kbd>
 
-### ERP Inventory Attribute
+**ERP Inventory Attribute**
 Allows admin to choose between On-Hand/Available Inventory/Allocatable Net.
 
 [Go to Top](#table-of-contents)
