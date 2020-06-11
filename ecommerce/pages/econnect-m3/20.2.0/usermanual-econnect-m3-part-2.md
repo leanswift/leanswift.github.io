@@ -165,7 +165,7 @@ LeanSwift eConnect comes with a number of standard transactions included. This s
 
 Please refer to **Part I** of the User Manual for the required configuration behind each of the transactions.
 
-    1.
+   
 ## Summary
 
 LeanSwift always uses two key principles as guiding lights when we develop new features for eConnect:
@@ -177,7 +177,7 @@ This sometimes leads to certain limitations being imposed due to the simple fact
 
 There are of course also examples where Magento&#39;s functionality is more specific, and similar limitations have to be put in on the M3 side. Gift cards, Coupons, Cross &amp; Up-sells are great examples of functionality that within Magento is far more tailored for a B2C environment.
 
-    1.
+    
 ## Assumptions/Limitations
 
 ##
@@ -192,7 +192,7 @@ If any changes at all need to be made to an order placed via Magento, the order 
 
 No additional charges (such as Freight) are added within M3 once the order has been created. If this is done, eConnect won&#39;t synchronize this additional amount to Magento and as a result the invoice amount will differ between the two systems. Furthermore – if the freight isn&#39;t added upfront within Magento and the order is paid via credit card, the freight will not be included in the amount that&#39;s authorized against the customer&#39;s card.
 
-  1.
+  
 # PRODUCT SETUP &amp; INFORMATION
 
 From a product perspective, eConnect relies on the &#39;External Item#&#39; value. This value must be equal to the corresponding M3 item number for all of the eConnect transactions to function as they should.
@@ -568,49 +568,51 @@ section of the Product Information.
 
 For the example in this section, eConnect has been configured to use order header &amp; line charges to represent the Gift Wrapping within M3.
 
-![](RackMultipart20200604-4-58zvro_html_f03747928845a4e4.png)
+<kbd><img alt="Gift wrap configurations" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-charges-gift-wrap.png"></kbd>
 
 Furthermore, at least one Gift Wrap needs to be defined for the website under _Stores \&gt; Gift Wrapping_:
 
-![](RackMultipart20200604-4-58zvro_html_ac4767d7773435c0.png)
+<kbd><img alt="Gift wrap" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/gift-wrapping.png"></kbd>
 
 To illustrate the functionality, an order is placed for two test items.
 
-![](RackMultipart20200604-4-58zvro_html_aa459852b6814acc.gif)
+<kbd><img alt="Gift wrap" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2giftwrap-chargeanditem-.png"></kbd>
 
 In the &#39;View and Edit cart&#39; page, we can choose the gift options:
 
-![](RackMultipart20200604-4-58zvro_html_f675acf3f51106a4.gif)
+<kbd><img alt="Gift wrap" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftcard-cart.png"></kbd>
 
 Magento offers the ability to gift wrap the entire order and/or individual items only, as well as send a gift receipt and include a printed card with the order. As noted earlier – if the Printed card setup in Magento carries a cost, this cost will in this version not be reflected in M3.
 
 For this example, we&#39;ll add gift wrapping to both the entire order as well as the first product on the order:
 
-![](RackMultipart20200604-4-58zvro_html_74ede2f634d87e3.gif)
+<kbd><img alt="Giftwrap header and line level charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-chargeatheadandline.png"></kbd>
+
 
 Once the Gift options is chosen, click on &#39;Update&#39; button for changes to reflect on the order. On the Order Review panel, a summary of the order is provided – where the Gift Wrapping for the order and items are shown.
 
-![](RackMultipart20200604-4-58zvro_html_60d537744615b191.gif)
+
+<kbd><img alt="Giftwrap viewcart" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-items.png"></kbd>
 
 Click on &#39;Go to Checkout&#39;, choose the shipping address and shipping method and click &#39;Next&#39;. Choose the payment option and press &#39;PLACE ORDER&#39; in the checkout page yields the confirmation panel with the Magento order#.
 
-![](RackMultipart20200604-4-58zvro_html_f0707f7e646592af.gif)
+<kbd><img alt="Giftwrap viewcart" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-ordernumber.png"></kbd>
 
 Validation of the order within Magento Admin reflects the correct situation as well:
 
-![](RackMultipart20200604-4-58zvro_html_81c72f5ed22cdbce.gif)
+<kbd><img alt="Giftwrap magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-magento.png"></kbd>
 
 Order is manually synchronized with M3:
 
-![](RackMultipart20200604-4-58zvro_html_f7ade0e3ca5ddcc7.gif)
+<kbd><img alt="Giftwrap ordersync" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-ordersync.png"></kbd>
 
-![](RackMultipart20200604-4-58zvro_html_ee2d738d8118cf20.gif)
+<kbd><img alt="Giftwrap temporder" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-temporder.png"></kbd>
 
 A review of the order in M3 validates that the $6.00 order level gift wrap charge, as well as the
 
 $10.00 line gift wrap charge for the first line item are both in place correctly. The name of the Gift wrap charge is also transferred to the name of the corresponding charge.
 
-![](RackMultipart20200604-4-58zvro_html_7a92471d0a9ab736.gif)
+<kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-charges.png"></kbd>
 
 Should eConnect have been configured to instead use non-stock items, the result in M3 would instead have been the following:
 
@@ -622,7 +624,7 @@ The current logic places the non-stock item for each line-related gift-wrapping 
 
 The configuration with non-stock items might be preferable should there be a need to info warehousepersonneltoinclude/performcertaingiftwrappinginconnectionwithpicking&amp; packing the order.
 
-    1.
+   
 ## Credit Card Management
 
 A key component of any B2C [and most B2B] implementation/s is the processing of credit card payments.
@@ -639,7 +641,7 @@ This means that the standard M3 credit card functionality is not utilized.
 
 The single credit card related configuration option within the Lean Swift extension can be found under _LS \&gt; eConnect-ION \&gt; Configuration \&gt; Sales_-Capture Payment online
 
-![](RackMultipart20200604-4-58zvro_html_a36a3960bb9ddc13.png)
+<kbd><img alt="Credit card management-sales" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/creditcard-management.png"></kbd>
 
 The authorization of the customer&#39;s card takes place as usual upfront when the order is placed.
 
@@ -647,7 +649,7 @@ Once the entire (or part of) the order has been picked, packed, shipped &amp; in
 
 It is also possible to opt to handle the capture from within M3 via the standard batch process that can be initiated following invoicing of the order. In this case, the above &#39;Capture Payment Online&#39; parameter should be set to &#39;No&#39; within Magento.
 
-    1.
+    
 ## Order Charges
 
 Base eConnect comes with support for three types of order charges:
@@ -672,7 +674,7 @@ The configuration for which charge ID (defined in &#39;CO Charge. Open&#39; – 
 
 User can choose to send or not, the shipping charges to M3, which is controlled by a Yes/No option
 
-![](RackMultipart20200604-4-58zvro_html_3a44c60d50f831a5.png)
+<kbd><img alt="Freight charge" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/freight.png"></kbd>
 
 The freight (Shipping &amp; Handling) amount within Magento is always invoiced in full on the first invoice issued for the order in question. M3 offers different configuration options for how to invoice freight (and other charges) to for example repeatedly invoice the same freight charge multiple times. Please note that if a configuration within M3 is used that would invoice the same freight charge more than once – the invoice amount in M3 will not correspond to the invoice amount in Magento. The Shipping information/details are available in Sync.SalesOrder BOD.
 
@@ -684,7 +686,7 @@ The configuration for which charge ID (defined in &#39;CO Charge. Open&#39; – 
 
 An order level charge corresponding to the Gift-Wrapping price is added when Order-level Gift wrapping is applied to an order [and Gift Wrapping has been configured to be transferred over to M3]. The charge ID for these charges is also defined within &#39;CO Charge. Open&#39; – OIS030).
 
-    1.
+    
 ## Line Charges
 
 Base eConnect comes with support for two types of order line charges:
@@ -724,12 +726,12 @@ This feature enables manual sync of orders with M3. We can choose multiple order
 
 ![](RackMultipart20200604-4-58zvro_html_72b9d16719fdd93.png)
 
-  1.
+  
 # ORDER INFORMATION
 
 This section and the following two contain details on the synchronization of order statuses, deliveries &amp; invoices from M3 to Magento. All the order information is carried in Sync.SalesOrder and Sync.LS\_SalesOrderDetails BODs.
 
-    1.
+   
 ## Transaction Overview
 
 The synchronization of the status of the customer order within M3 with the corresponding order in Magento is one of the basic features needed to properly be able to follow the progress of an order within Magento Admin.
@@ -899,12 +901,12 @@ Magento standard functionality will then change an order from state _Processing_
 
 when all order lines have been shipped andinvoiced.
 
-  1.
+  
 # SHIPMENT
 
 The Shipment synchronization is the second key within eConnect to within Magento be able to properly reflect the complete state of the order as it is in M3. The shipment details are carried in Sync.SalesOrder BOD.
 
-    1.
+    
 ## Shipments in Magento
 
 Each Magento order can have multiple shipments associated with it.
@@ -923,7 +925,7 @@ The shipment includes delivery address and items delivered. When creating the de
 
 Shipment information is carried in &#39;Sync.Shipment&#39; BOD.
 
-    1.
+    
 ## Deliveries in M3
 
 Within M3, each order is broken down in one or multiple _deliveries_. These deliveries act as more manageable &quot;sub orders&quot; from a logistics perspective. Any pick, pack and other dispatch activity within M3 is handled on the delivery level.
@@ -936,7 +938,7 @@ A delivery is also in M3 made up of a number of the lines (or part of the lines)
 
 There is also in M3 a concept called &#39;Shipments&#39;, where several deliveries can be combined in to a single entity. The current version of eConnect only supports synchronization on the delivery level, and validation has not been performed with Shipments inM3.
 
-    1.
+    
 ## Tracking Numbers
 
 eConnect is also prepared to also synchronize any tracking numbers that are entered on the delivery within M3. With the assumption that Shipments in M3 are not supported, tracking numbers can be entered in two different ways depending on the dispatch process used. The tracking details are carried in Sync.SalesOrder BOD.
@@ -968,7 +970,7 @@ the M3 delivery number as a reference within the &#39;Shipment History&#39; sect
 
 The synchronization of the M3 delivery is possible only following pick reporting, i.e. after the quantity on the delivery has been issued (at corresponding status moved to &#39;6&#39; in M3) and the delivery appears in &#39;CO Delivery.Open&#39; (OIS150).
 
-  1.
+  
 # INVOICE
 
 The third and final key piece related to order information is the ability to synchronize over invoices from M3 to Magento.
@@ -992,7 +994,7 @@ Invoice information/Details are available in Sync.Invoice Bod and in Sync.Receiv
 
 Invoice information is carried by Sync.Invoice BOD and Sync.ReceivableTransaction BOD.
 
-  1.
+  
 # ORDERHISTORY
 
 The Order History section within the Magento front-end has been re-designed, and additional filter options have been added together with a simple way to separate orders that originates from Magento vs. M3.
