@@ -1,5 +1,5 @@
 
-#  User Manual - eConnect and ION Messaging Service- Version 20.2.0
+#  User Manual - eConnect and ION Messaging Service- V20.2.0
 
 ![eConnect bnner](../../../../images/banner-econnect-m3.jpg)
 
@@ -164,19 +164,7 @@
 
 [Go to Top](#table-of-contents)
 
-### Architecture
-
-With 20.2.0, the part of eConnect functionality dealing with connectivity to Infor OS and data processing has been moved out of eConnect extension into a new extension named **eConnect-base**
-
-From 20.1.0 onward, eConnect will require the eConnect-base extension to function.
-
-eConnect 20.1.0 is compatible with eConnect-base 2.0.0.
-
-<kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/architecture.png"></kbd>
-
-[Go to Top](#table-of-contents)
-
-### Architecture with ION for multi-tenant Cloud M3
+### Architecture with IMS for multi-tenant Cloud M3
 
 <kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/architecture-with-ebase.png"></kbd>
 
@@ -277,7 +265,6 @@ This manual describes the configuration of LeanSwift eConnect for Infor M3 with 
 - Business to Consumer
 - RMA – Return Materials Authorization
 
-[Go to Top](#table-of-contents)
 
 
 
@@ -343,9 +330,6 @@ eConnect-base has 2 sections
 
 <kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-base.png"></kbd>
 
-[Go to Top](#table-of-contents)
-
-
 
 ## Import History
 
@@ -355,36 +339,44 @@ Whenever an initial load API(EVS002MI/Initiate) call gets triggered, that reques
  
  <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/import-history.png"></kbd>
 
-[Go to Top](#table-of-contents)
-
 
 ## Connectivity
 
 The Connectivity section of eConnect-base has the following configurations.
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-base-configurations.png"></kbd>
-
-
-
-
+  
 
 ### Service Configuration
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/service-configurations.png"></kbd>
 
 
-### M3 Connection Protocol
+**M3 Connection Protocol**
 
 Provides a choice for the admin to choose between Leanswift eLink/ION version of eConnect. There are 2 options, Leanswift eLink and ION. eConnect uses the configuration based on the option chosen.
+
+**API Service URL**
+
+This is the service URL to connect to Infor ION
+
+**E-mail**
+All the errors will be sent to the email configured here
+
+**Error email template**
+Email template chosen based on theme fallback when "Default" option is selected
+
+**Debug/log data**
+This is to log data to check request and response data, specially when developing
 
 ### Basic Data Configuration (M3 connection protocol - ION)
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/basicdata-configuration.png"></kbd>
 
-### Company
+**Company**
 The default company within M3. Setting can be defined on Default or Store level.
 
-### Division
+**Division**
 The default division within M3. Setting can be defined on Default or Store level.
 
 ### Authentication
@@ -403,6 +395,44 @@ The M3 User is the user with which we connect to ION APIs
 
 We have a &#39;Test connection&#39; button to verify if connection is up.
 
+### IMS Configuration
+
+**Debug/log data**
+This is to log data to check request and response data, specially when developing
+
+**API Service URL**
+This is the The ION Messaging Service URL to send documents into ION.
+
+**API Service Message endpoint**
+This is the Endpoint to append to base URL to publish message to ION.
+
+**X-TenantId**
+Infor OS Tenant Id is configured here
+
+**X-ClientId**
+The Client Id used by ION API Gateway to validate the Client is configured here.
+
+**Test Connection**
+This is used to test IMS connection
+
+**From LogicalId**
+Logical ID of Connection Point for IMS-eConnect is configured here.
+
+**To LogicalId**
+Default Logical ID is entered here
+
+**Encoding**
+HTTP Request Encoding options are available here. We can either choose it to be NONE or DEFLATE.
+
+**Source**
+This indicates the Label to suggest from where the request is being sent to ION.
+
+**Message Id Prefix**
+This is the Prefix for Message Id in request.
+
+### Cron
+**Clear inbound BODs**
+This cron is used to clear inbound BODs 
 
 [Go to Top](#table-of-contents)
 
