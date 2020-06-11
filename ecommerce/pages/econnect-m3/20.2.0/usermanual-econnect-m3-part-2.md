@@ -166,10 +166,10 @@ Please refer to **Part I** of the User Manual for the required configuration beh
    
 ### SUMMARY
 
-LeanSwift always uses two key principles as guiding lights when we develop new features for eConnect:
+LeanSwift always uses two key principles as guiding lights when we develop new features for eConnect.
 
-      1. Infor M3 is the system of record.
-      2. Always adhere to Magento&#39;s core standard functionality wherever possible.
+- Infor M3 is the system of record.
+- Always adhere to Magento's core standard functionality wherever possible.
 
 This sometimes leads to certain limitations being imposed due to the simple fact that Infor&#39;s M3 ERP by nature is a far more versatile and complex system by definition being an ERP, especially in areas such as order processing, dispatch management etc.
 
@@ -452,7 +452,7 @@ To schedule order creation via the background jobs, make sure to configure the f
 
 The order creation in a B2B scenario assumes the customer in Magento is already associated with an approved (status 20) M3 customer number via the &#39;External Customer number&#39; connection.
 
-\*\* **Please note** \*\*
+**Please note**
 
 This process can still result in a sales order that&#39;s not fully created within M3. In cases where some additional error/warning is found when the order details are being processed through the batch order entry function – a manual check &amp; validation step (or multiple steps) need to be performed within &#39;Batch Customer Order. Open&#39; (OIS275).
 
@@ -828,29 +828,17 @@ The following is part of the order line status help text in M3:
 **Alternatives**
 
 05 = Quotation
-
 10 = Preliminary
-
 22 = Reserved
-
 33 = Allocated - location and lot number selected 44 = Picking list printed
-
 66 = Delivered
-
 77 = Invoiced
-
 99 = Flagged as completed, without delivery.
-
 2 = Quantity remains to be allocated. This is displayed in field Remaining quantity.
-
 3 = Allocated quantity exists.
-
 4 = Picking list for the quantity is printed.
-
 6 = Delivered quantity exists.
-
 7 = Invoiced quantity exists.
-
 9 = Quantity is manually flagged as completed when the picking list is reported.
 
 The order status codes contain two positions. When the status is higher than 20, the first position indicates how far a partial quantity has progressed in the earliest stage of the order flow. The second position indicates how far a partial quantity has progressed in the latest stage of the orderflow.
