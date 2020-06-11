@@ -48,7 +48,7 @@
   - [BOD Mapping](#bod-mapping)
   - [Cron Settings](#cron-settings)
 - [Version Info](#version-info)
-- [MAGENTO STANDARD FUNCTIONALITY](#magento-standard-functionality)
+- [Magento Standard Functionality](#magento-standard-functionality)
 - [Exit System](#exit-system)
 
 # GENERAL INFORMATION
@@ -845,7 +845,7 @@ This last section provides information related to the version of the LeanSwift M
 [Go to Top](#table-of-contents)
 
 
-# MAGENTO STANDARD FUNCTIONALITY
+# Magento Standard Functionality
 
 The ERP connector does not override or impact any other functionality in Magento. Configure Magento using the Magento admin panel as required.
 
