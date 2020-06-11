@@ -154,7 +154,7 @@
 
 # GENERAL INFORMATION
 
-### System Overview
+## System Overview
 
 **LeanSwift eConnect for Infor M3** provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
 
@@ -164,7 +164,7 @@
 
 [Go to Top](#table-of-contents)
 
-### Architecture with IMS for multi-tenant Cloud M3
+## Architecture with IMS for multi-tenant Cloud M3
 
 <kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/architecture-with-ebase.png"></kbd>
 
@@ -222,7 +222,7 @@ These transactions can, if necessary, be modified and new transactions can be ad
 
 [Go to Top](#table-of-contents)
 
-### User Interface
+## User Interface
 
 
 During setup, the Magento Admin panel is used to configure which transactions should be used and how they should function.There is also additional background configuration within the Connector.
@@ -270,7 +270,7 @@ This manual describes the configuration of LeanSwift eConnect for Infor M3 with 
 
 # CONFIGURATION
 
-### Magento Configuration
+## Magento Configuration
 
 To support the use of LeanSwift eConnect for Infor M3, configuration is required within Magento, in LeanSwift eLink, in ION and also within the M3 ERP system. This section covers the configuration within _Magento_.
 
@@ -282,9 +282,9 @@ Log in to Magento Admin Panel using the URL provided to you and the applicable u
 
 
 
-## System Menu
+# System Menu
 
-### Configuration
+## Configuration
 
 - To access the LeanSwift Configuration, click the **Leanswift** tab, and select the **Configuration** option under **econnect-ION**.
 
@@ -300,7 +300,7 @@ For further information about _Configuration scope_ in Magento, please refer to 
 
 
 
-### Configuration/LeanSwift
+## Configuration/LeanSwift
 
 Navigate to the **LeanSwift Solutions** sub-menu down in the left-hand side configuration menu.
 
@@ -311,7 +311,7 @@ Here, there will be several sections under the LeanSwift sub-menu.
 
 
 
-### Configuration/LeanSwift/eConnect
+## Configuration/LeanSwift/eConnect
 
 The **eConnect-ION**  section contains the vast majority of the settings for base eConnect, and the details of each group is covered in the following sections of this document.
 
@@ -347,7 +347,7 @@ The Connectivity section of eConnect-base has the following configurations.
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-base-configurations.png"></kbd>
   
 
-### Service Configuration
+## Service Configuration
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/service-configurations.png"></kbd>
 
@@ -384,7 +384,7 @@ The default company within M3. Setting can be defined on Default or Store level.
 
 The default division within M3. Setting can be defined on Default or Store level.
 
-### Authentication
+## Authentication
 
 The **Authentication** group contains the settings related to the web service authentication using the OAuth2.0 standard that eConnect employs.
 
@@ -401,7 +401,7 @@ The M3 User is the user with which we connect to ION APIs
 
 We have a &#39;Test connection&#39; button to verify if connection is up.
 
-### IMS Configuration
+## IMS Configuration
 
 Insert image here
 
@@ -449,7 +449,7 @@ This indicates the Label to suggest from where the request is being sent to ION.
 
 This is the Prefix for Message Id in request.
 
-### Cron
+## Cron
 
 **Clear inbound BODs**
 
@@ -957,7 +957,7 @@ The ERP connector does not override or impact any other functionality in Magento
 
 Log out from Magento admin using the link at the top right.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/manual-sync-configuration.png"></kbd>
+<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/manual-sync-configuraton.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
