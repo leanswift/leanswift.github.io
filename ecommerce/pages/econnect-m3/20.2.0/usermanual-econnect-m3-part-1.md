@@ -361,12 +361,15 @@ Provides a choice for the admin to choose between Leanswift eLink/ION version of
 This is the service URL to connect to Infor ION
 
 **E-mail**
+
 All the errors will be sent to the email configured here
 
 **Error email template**
+
 Email template chosen based on theme fallback when "Default" option is selected
 
 **Debug/log data**
+
 This is to log data to check request and response data, specially when developing
 
 ### Basic Data Configuration (M3 connection protocol - ION)
@@ -374,12 +377,15 @@ This is to log data to check request and response data, specially when developin
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/basicdata-configuration.png"></kbd>
 
 **Company**
+
 The default company within M3. Setting can be defined on Default or Store level.
 
 **Division**
+
 The default division within M3. Setting can be defined on Default or Store level.
 
 ### Authentication
+
 The **Authentication** group contains the settings related to the web service authentication using the OAuth2.0 standard that eConnect employs.
 
 This section is configured by LeanSwift during product installation.
@@ -397,41 +403,56 @@ We have a &#39;Test connection&#39; button to verify if connection is up.
 
 ### IMS Configuration
 
+Insert image here
+
 **Debug/log data**
+
 This is to log data to check request and response data, specially when developing
 
 **API Service URL**
+
 This is the The ION Messaging Service URL to send documents into ION.
 
 **API Service Message endpoint**
+
 This is the Endpoint to append to base URL to publish message to ION.
 
 **X-TenantId**
+
 Infor OS Tenant Id is configured here
 
 **X-ClientId**
+
 The Client Id used by ION API Gateway to validate the Client is configured here.
 
 **Test Connection**
+
 This is used to test IMS connection
 
 **From LogicalId**
+
 Logical ID of Connection Point for IMS-eConnect is configured here.
 
 **To LogicalId**
+
 Default Logical ID is entered here
 
 **Encoding**
+
 HTTP Request Encoding options are available here. We can either choose it to be NONE or DEFLATE.
 
 **Source**
+
 This indicates the Label to suggest from where the request is being sent to ION.
 
 **Message Id Prefix**
+
 This is the Prefix for Message Id in request.
 
 ### Cron
+
 **Clear inbound BODs**
+
 This cron is used to clear inbound BODs 
 
 [Go to Top](#table-of-contents)
@@ -446,8 +467,12 @@ The General section contains a number of basic settings that are generic for thi
 
 ## General Configuration
 
+**Enable Config log**
 
-### Use M3 order history
+This is  to log Config data during data feed from consumers
+
+
+**Use M3 order history**
 
 This parameter refers to the retrieval of order history from M3 from Magento front-end.
 
@@ -455,18 +480,11 @@ Select &quot;Yes&quot; to retrieve the order history from the ERP system in real
 
 Select &quot;No&quot; to only use the order history from Magento when the user selects Order History in My Account.
 
-### Display Invoice
+**Display Invoice**
 
 Set this option to &#39;Yes&#39; in order to retrieve Invoice history details from M3. Please note that this does not apply to the B2C configuration when a single customer# in M3 is used for all orders.
 
 In this case, the invoice history from Magento is always displayed by default.
-
-
-
-### Debug/log data
-
-Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in test but should be set to &quot;No&quot; in production to improve performance.
-
 
 [Go to Top](#table-of-contents)
 
@@ -481,25 +499,29 @@ The **Basic Data Configuration** section of the configuration contains a number 
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/basicdata-configuration.png"></kbd>
 
-### Facility
+**Facility**
 The default facility within M3. Setting can be defined on Default or Store level.
 
-### Warehouse
+**Warehouse**
 The default facility within M3. Setting can be defined on Default or Store level. This setting is currently used as input to all transactions except the Order Entry.
 
 
-### Price Code
+**Price Code**
+
 This refers to the Price List within M3 from which the list price/MSRP/Retail price is synchronized for a site. This setting is optional and can be left blank. Also note that if prices for a site should be synchronized, the &#39;Price&#39; attribute must also be included as part of the mapping within the &#39;Production Synchronization&#39; setup that&#39;s covered later in this manual.
 
 
-### Currency code
+**Currency code**
+
 Only required if &#39;Price code&#39; is filled in and is then used to ensure the right price list in M3 is used for price synchronization.
 
 
-### Order Type
+**Order Type**
+
 The default order type to use for Order creation. This setting can be managed on a Default or Website level.
 
 **Document Class**
+
   The default document class is Co02. It is the class used while sending Order comments to M3
   
 [Go to Top](#table-of-contents)
