@@ -2,9 +2,9 @@
 
 # **USER MANUAL**
 
- **LeanSwift eConnect** 
+**LeanSwift eConnect** 
 
- **for Infor M3 &amp;Magento** 
+**for Infor M3 &amp;Magento** 
 
 **Part II – Standard Transactions &amp; Processes**
 
@@ -13,20 +13,18 @@
 **ECONNECT 20.1.0 USER MANUAL**
 
 
-# Table of contents
+# TABLE OF CONTENTS
 
 - [**USER MANUAL**](#user-manual)
 - [Table of Contents](#table-of-contents)
-- [](#)
-- [1.0 SYSTEM OVERVIEW](#10-system-overview)
+- [SYSTEM OVERVIEW](#system-overview)
   - [Architecture](#architecture)
-- [1.1 Points of Contact](#11-points-of-contact)
-- [1.2 Organization of the Manual](#12-organization-of-the-manual)
-- [1.3 Acronyms and Abbreviations](#13-acronyms-and-abbreviations)
-- [2.0 STANDARD TRANSACTIONS](#20-standard-transactions)
+  - [Points of Contact](#points-of-contact)
+  - [Organization of the Manual](#12-organization-of-the-manual)
+  - [Acronyms and Abbreviations](#13-acronyms-and-abbreviations)
+- [STANDARD TRANSACTIONS](#20-standard-transactions)
   - [Summary](#summary)
   - [Assumptions/Limitations](#assumptionslimitations)
-  - [](#)
 - [PRODUCT SETUP &amp; INFORMATION](#product-setup-amp-information)
 - [PRICE](#price)
   - [Single Price List](#single-price-list)
@@ -60,27 +58,27 @@
 
 #
 
-# 1.0 SYSTEM OVERVIEW
+## 1.0 SYSTEM OVERVIEW
 
-_ **LeanSwift eConnect for Infor M3** _ provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
+- **LeanSwift eConnect for Infor M3** _ provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
 
-_ **LeanSwift eConnect for Infor M3** _ is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (CloudSuite).
+- **LeanSwift eConnect for Infor M3** _ is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (CloudSuite).
 
-_ **LeanSwift eConnect for Infor M3** _ employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
+- **LeanSwift eConnect for Infor M3** _ employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
 
-## Architecture
+### ARCHITECTURE
 
- With 20.1.0, the part of eConnect functionality dealing with connectivity to Infor OS and
+ The part of eConnect functionality dealing with connectivity to Infor OS and
 
-  data processing has been moved out of eConnect extension into a new extension named
+ data processing has been moved out of eConnect extension into a new extension named
 
-   **eConnect-base**.
+ **eConnect-base**.
 
-  From 20.1.0 onward, eConnect will require the eConnect-base extension to function.
+ From 20.1.0 onward, eConnect will require the eConnect-base extension to function.
 
-  eConnect 20.1.0 is compatible with eConnect-base 2.0.0.
+ eConnect 20.1.0 is compatible with eConnect-base 2.0.0.
 
-### eConnect-base v2.0.0
+**eConnect-base v2.0.0**
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 - Acts as the communication layer for RabbitMQ Message consumption
@@ -95,15 +93,15 @@ _ **LeanSwift eConnect for Infor M3** _ employs a layered architecture to allow 
 
 econnect-user-manual-ion-part2
 
-### Architecture with ION for multi-tenant Cloud M3
+**Architecture with ION for multi-tenant Cloud M3**
 
-###
+
 
 <kbd><img alt="architecture-with-ebase" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/architecture-with-ebase.png"></kbd>
 
 
 
-### Transactions
+**Transactions**
 
 eConnect 20.1.0 includes the following set of standard transactions like its previous versions:
 
@@ -129,9 +127,9 @@ eConnect 20.1.0 includes the following set of standard transactions like its pre
 
 **User interface**
 
-During setup, the Magento Admin panel is used to configure which transactions should be used and how they should function
+During setup, the Magento Admin panel is used to configure which transactions should be used and how they should function.
 
-**Validated versions **
+**Validated versions**
 
 - Magento Commerce 2.3.4
 - Magento Open Source 2.3.4
@@ -141,17 +139,17 @@ During setup, the Magento Admin panel is used to configure which transactions sh
 - Infor ION Grid 12.0.2.0.20180308-135417.2
 - ION Desk 12.0.0
 
-# 1.1 Points of Contact
+### POINTS OF CONTACTS
 
 This document and the software details are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc via contact form at [http://www.leanswift.com](http://www.leanswift.com/)or email info@leanswift.com
 
-# 1.2 Organization of the Manual
+### ORGANIZATION OF THE MANUAL
 
 This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation – though the general workflow is similar.
 
 Section 2 of this manual describes the various standard transactions included in the base offering of LeanSwift eConnect for Infor M3.
 
-# 1.3 Acronyms and Abbreviations
+### ACRONYMS AND ABBREVATIONS
 
 ERP – Enterprise Resource Planning B2B – Business to business
 
@@ -159,14 +157,14 @@ B2C – Business to consumer
 
 RMA – Return Materials (Merchandise) Authorization
 
-# 2.0 STANDARD TRANSACTIONS
+## STANDARD TRANSACTIONS
 
 LeanSwift eConnect comes with a number of standard transactions included. This section provides a detailed walkthrough of each of them.
 
 Please refer to **Part I** of the User Manual for the required configuration behind each of the transactions.
 
    
-## Summary
+### SUMMARY
 
 LeanSwift always uses two key principles as guiding lights when we develop new features for eConnect:
 
@@ -178,9 +176,8 @@ This sometimes leads to certain limitations being imposed due to the simple fact
 There are of course also examples where Magento&#39;s functionality is more specific, and similar limitations have to be put in on the M3 side. Gift cards, Coupons, Cross &amp; Up-sells are great examples of functionality that within Magento is far more tailored for a B2C environment.
 
     
-## Assumptions/Limitations
+### ASSUMPTIONS AND LIMITATIONS
 
-##
 
 This section provides a listing of all key assumptions that form the basis for LeanSwift eConnect 20.1.0
 
@@ -193,7 +190,7 @@ If any changes at all need to be made to an order placed via Magento, the order 
 No additional charges (such as Freight) are added within M3 once the order has been created. If this is done, eConnect won&#39;t synchronize this additional amount to Magento and as a result the invoice amount will differ between the two systems. Furthermore – if the freight isn&#39;t added upfront within Magento and the order is paid via credit card, the freight will not be included in the amount that&#39;s authorized against the customer&#39;s card.
 
   
-# PRODUCT SETUP &amp; INFORMATION
+## PRODUCT SETUP &amp; INFORMATION
 
 From a product perspective, eConnect relies on the &#39;External Item#&#39; value. This value must be equal to the corresponding M3 item number for all of the eConnect transactions to function as they should.
 
@@ -216,15 +213,15 @@ This feature enables manual sync of Products with M3. We can choose multiple pro
 <kbd><img alt="product set up information" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-process.png"></kbd>
 
   
-# PRICE
+## PRICE
 
 Depending on the situation and configuration within Magento and M3, two different types of prices that serve two different purposes can be synchronized:
 
-1. Price from a single M3 price list (normally used for a MSRP/ListPrice)
-2. Customer specific price for certain product
+- Price from a single M3 price list (normally used for a MSRP/ListPrice)
+- Customer specific price for certain product
 
     
-## Single Price List
+### SINGLE PRICE LIST
 
 This price synchronization is normally used to bring over a single MSRP/List price value per product from M3 to Magento. This is in Magento stored in the regular &#39;Price&#39; field within the Product Information \&gt; Prices section.
 
@@ -246,7 +243,7 @@ Once the information is received, the correct price from M3 is also displayed wi
 ![](RackMultipart20200604-4-58zvro_html_32543223d8429211.png)
 
     
-## Customer Specific Price
+### CUSTOMER SPECIFIC PRICE
 
 The customer specific price transaction is normally used in a B2B scenario, when individual negotiated prices for different customer/item combination need to be displayed within the web shop.
 
@@ -274,12 +271,12 @@ When the &#39;Allow Item Price&#39; is set to Yes, Price will be sent to M3 from
 When the &#39;Allow Item Price&#39; is set to No, Price will not be sent to M3 from magento
 
   
-# INVENTORY
+## INVENTORY
 
 Inventory synchronization with M3 is done via Sync.LS\_ItemStock BOD.
 
     
-## Inventory Value Selection
+### INVENTORY VALUE SELECTION
 
 eConnect now offers a possibility to select which quantity value from M3 should be used as &#39;Quantity&#39;. The setting can be found under the &#39;Inventory Synchronization&#39; section of the eConnect configuration:
 
@@ -294,12 +291,12 @@ The available options are:
 Where &#39;Allocatable Net&#39; is the default setting with the eConnect install.
 
     
-## InventorySync
+### INVENTORY SYNC
 
 When there is an Add/Update/delete in stock for an item in M3, Sync.LS\_ItemStock BOD gets generated. If there is a corresponding item in Magento, the stock gets updated based on the BOD information.
 
   
-# CUSTOMER REGISTRATION
+## CUSTOMER REGISTRATION
 
 The Customer registration feature was specifically added to cater for a B2B scenario where new customer sign-ups are accepted from the front-end.
 
@@ -321,7 +318,7 @@ Within M3, the customer is created in a preliminary status (10). The process to 
 On the Magento front-end, the customer will be able to log in, shop around, add products to the cart and save the cart without being approved. They will however not be able to complete the check-out process and place the order unless the corresponding M3 customer number has been approved first, as a real-time check of the M3 customer status is performed.
 
  
-# CUSTOMER ADDITION/SYNCHRONIZATION
+## CUSTOMER ADDITION/SYNCHRONIZATION
 
 The Customer Addition feature is designed to fetch the customers from M3 into Magento.
 
@@ -349,10 +346,10 @@ This process triggers Sync.CustomerPartyMaster and Sync.LS\_CustomerDetails.
 If customer has addresses added in M3, it triggers Sync.BillToPartyMaster and Sync.ShipToPartyMaster BODs.
 
   
-# CUSTOMER INFORMATION SYNC
+## CUSTOMER INFORMATION SYNC
 
     
-## Transaction Overview
+### TRANSACTION OVERVIEW
 
 This functionality enables customer details and addresses to be synced over to Magento from M3.
 
@@ -369,7 +366,7 @@ The following information is available to synchronize between M3 &amp; Magento:
 <kbd><img alt="Customer address" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address.png"></kbd>
 
     
-## Synchronization Process
+### SYNCHRONIZATION PROCESS
 
 The synchronization of the customer information is done with the help of multiple BOD&#39;s.
 
@@ -412,12 +409,12 @@ This feature enables manual sync of customer with M3. We can choose multiple cus
 
 <kbd><img alt="Manual Sync Customers" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-process2.png"></kbd>
   
-# ORDER CREATION
+## ORDER CREATION
 
 Alongside Price &amp; Inventory, the Order Creation transaction is one of the core transactions within eConnect. LeanSwift have then on top of this added a number of features to be able to better manage the creation of sales orders within M3 when initiated from Magento.
 
     
-## Transaction Overview
+### TRANSACTION OVERVIEW
 
 There are multiple steps involved in creating an order in M3, and these are covered later on in this section. The B2B order creation section provides details of the order process from both Magento front-end as well as Magento Admin. The differences in the B2C scenarios are discussed in the related sections.
 
@@ -451,7 +448,7 @@ To schedule order creation via the background jobs, make sure to configure the f
 <kbd><img alt="cron setting to send ERP" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/cron.png"></kbd>
 
     
-## Order Creation –B2B
+### ORDER CREATION–B2B
 
 The order creation in a B2B scenario assumes the customer in Magento is already associated with an approved (status 20) M3 customer number via the &#39;External Customer number&#39; connection.
 
@@ -461,7 +458,7 @@ This process can still result in a sales order that&#39;s not fully created with
 
 If the order was manually synchronized as described in the previous section, the confirmation message displayed to the user will indicate that the complete order creation in M3 was unsuccessful and direct the user to &#39;Batch Customer Order. Open&#39; (OIS275)
 
-**ORDER ENTRY – MAGENTO FRONT-END**
+**Order entry-Magento Frontend**
 
 Please note that orders normally are synchronized between Magento &amp; M3 via the background cron job, but that the manual option used in this example can be used whenever needed on individual orders.
 
@@ -507,19 +504,19 @@ The temporary (batch) order number ( **Temp Order #** ) is brought back from M3 
 If the order creation progresses successfully [as in the example above], the final customer order number from M3 is also populated and displayed right in the order grid in the **Final Ord #** field.
 
     
-## Order Creation –B2C
+### ORDER CREATION–B2C
 
 Order creation in a B2C environment can be handled in two different ways within eConnect, and they differ with regards to how the Customer is managed from an M3 perspective.
 
 Which Customer approach is used is handled via the eConnect configuration within _LS \&gt; eConnect-ION \&gt; Configuration \&gt; Customer General Configuration_.
 
-**COMMON CUSTOMER**
+**Common Customer**
 
 Common customer is used when all orders from a Store view/Site should be created in M3 under a single Customer number.
 
 The **Create New Customer** parameter is then set to &#39;No&#39;, and the parameter below it ( **Common Customer ID** ) then contains which [common] customer# to use for all orders.
 
-**DISCRETE CUSTOMER**
+**Discrete Customer**
 
 Discrete customer is the opposite. In this case, each order created within M3 should be added with a unique customer number.
 
@@ -530,7 +527,7 @@ In the Discrete Customer scenario, eConnect always as a first step validates whe
 Besides the customer creation step when discrete customer is used in a B2C scenario, the additional parts of the order creation process are the same as for the B2B scenario.
 
    
-## ShipComplete
+### SHIPCOMPLETE
 
 The Ship Complete functionality offers customers an option to allow end-customers to during
 
@@ -546,7 +543,7 @@ This will with the correct setup in M3 (parameter 290 in &#39;Dispatch Policy. O
 <kbd><img alt="Joint delivery code added in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/joint-delivery-code.png"></kbd>
 
     
-## Gift Wrapping
+### GIFT WRAPPING
 
 The first step in adding this support focuses on the detailed information on order- and/or line level charges for Gift Wrapping, as well as information regarding what type of gift wrapping should be applied.
 
@@ -625,7 +622,7 @@ The current logic places the non-stock item for each line-related gift-wrapping 
 The configuration with non-stock items might be preferable should there be a need to info warehousepersonneltoinclude/performcertaingiftwrappinginconnectionwithpicking&amp; packing the order.
 
    
-## Credit Card Management
+### CREDIT CARD MANAGEMENT
 
 A key component of any B2C [and most B2B] implementation/s is the processing of credit card payments.
 
@@ -650,7 +647,7 @@ Once the entire (or part of) the order has been picked, packed, shipped &amp; in
 It is also possible to opt to handle the capture from within M3 via the standard batch process that can be initiated following invoicing of the order. In this case, the above &#39;Capture Payment Online&#39; parameter should be set to &#39;No&#39; within Magento.
 
     
-## Order Charges
+### ORDER CHARGES
 
 Base eConnect comes with support for three types of order charges:
 
@@ -668,7 +665,7 @@ The following order provides an example of where all these three charges are pre
 
 ![](RackMultipart20200604-4-58zvro_html_940d6062000946db.png)
 
-### FREIGHT (SHIPPING)
+**Freight(Shipping)**
 
 The configuration for which charge ID (defined in &#39;CO Charge. Open&#39; – OIS030) to use for the total freight amount per order is now defined as a configurable charge code.
 
@@ -678,16 +675,16 @@ User can choose to send or not, the shipping charges to M3, which is controlled 
 
 The freight (Shipping &amp; Handling) amount within Magento is always invoiced in full on the first invoice issued for the order in question. M3 offers different configuration options for how to invoice freight (and other charges) to for example repeatedly invoice the same freight charge multiple times. Please note that if a configuration within M3 is used that would invoice the same freight charge more than once – the invoice amount in M3 will not correspond to the invoice amount in Magento. The Shipping information/details are available in Sync.SalesOrder BOD.
 
-### INVOICE FEES
+**Invoice Fees**
 
 The configuration for which charge ID (defined in &#39;CO Charge. Open&#39; – OIS030) to use for an Invoice fee (if applicable). An Invoice fee charge code can be connected to a Magento Payment method.
 
-### GIFT WRAPPING
+**Gift Wrapping**
 
 An order level charge corresponding to the Gift-Wrapping price is added when Order-level Gift wrapping is applied to an order [and Gift Wrapping has been configured to be transferred over to M3]. The charge ID for these charges is also defined within &#39;CO Charge. Open&#39; – OIS030).
 
     
-## Line Charges
+### LINE CHARGES
 
 Base eConnect comes with support for two types of order line charges:
 
@@ -702,9 +699,8 @@ The following order provides an example of where these two charges are present w
 
 ![](RackMultipart20200604-4-58zvro_html_2ad2e4e358f58820.png)
 
-###
 
-### SALES TAX
+**Sales Tax**
 
 As of this version of eConnect, Sales Tax is passed as a line charge per order line.
 
@@ -714,9 +710,8 @@ Whether or not to pass Sales Tax to M3 is controlled via _LS \&gt; eConnect-ION 
 
 enables the transfer and opens the second related field below.
 
-### GIFT WRAPPING
+**Gift Wrapping**
 
-###
 
 If Gift Wrapping has been enabled to be sent to M3 within _LS \&gt; eConnect-ION \&gt; Configuration \&gt; Order Charges_, and charges have been selected to be used – any line-level Gift Wrapping cost in Magento will be passed over as a line charge to the corresponding order line in M3.
 
@@ -727,18 +722,18 @@ This feature enables manual sync of orders with M3. We can choose multiple order
 ![](RackMultipart20200604-4-58zvro_html_72b9d16719fdd93.png)
 
   
-# ORDER INFORMATION
+## ORDER INFORMATION
 
 This section and the following two contain details on the synchronization of order statuses, deliveries &amp; invoices from M3 to Magento. All the order information is carried in Sync.SalesOrder and Sync.LS\_SalesOrderDetails BODs.
 
    
-## Transaction Overview
+### TRANSACTION OVERVIEW
 
 The synchronization of the status of the customer order within M3 with the corresponding order in Magento is one of the basic features needed to properly be able to follow the progress of an order within Magento Admin.
 
 The following provides a brief background on _order statuses_ within the two systems.
 
-**MAGENTO**
+**Magento**
 
 A Magento order has a _state_. The order _state_ is what defines the position of the order in the order processing workflow. Order statuses are assigned to order states. There can be more than one status assigned to a state, but one of these statuses is set to be the default one. When the _state_ of an order changes the default, status assigned to it is displayed. **Status** could be user defined, while _state_ is used by Magento internally for processing order.
 
@@ -866,8 +861,8 @@ If a customer order line has status 33, it only contains allocated quantity. If 
 
 If a customer then has one partially allocated &amp; invoiced line (status 37), and one fully invoiced line (status 77) – the Highest/Lowest status for the entire order will be 77/37
 
-    1.
-## Magento &amp; M3 Order Status Relation
+    
+## MAGENTO &amp; M3 ORDER STATUS RELATION
 
 Since Magento only supports order statuses on order level (not order line level), eConnect can only update the Magento order status based on the M3 order header status.
 
@@ -902,12 +897,12 @@ Magento standard functionality will then change an order from state _Processing_
 when all order lines have been shipped andinvoiced.
 
   
-# SHIPMENT
+## SHIPMENT
 
 The Shipment synchronization is the second key within eConnect to within Magento be able to properly reflect the complete state of the order as it is in M3. The shipment details are carried in Sync.SalesOrder BOD.
 
     
-## Shipments in Magento
+### SHIPMENTS IN MAGENTO
 
 Each Magento order can have multiple shipments associated with it.
 
@@ -926,7 +921,7 @@ The shipment includes delivery address and items delivered. When creating the de
 Shipment information is carried in &#39;Sync.Shipment&#39; BOD.
 
     
-## Deliveries in M3
+### DELIVERIES IN M3
 
 Within M3, each order is broken down in one or multiple _deliveries_. These deliveries act as more manageable &quot;sub orders&quot; from a logistics perspective. Any pick, pack and other dispatch activity within M3 is handled on the delivery level.
 
@@ -939,11 +934,11 @@ A delivery is also in M3 made up of a number of the lines (or part of the lines)
 There is also in M3 a concept called &#39;Shipments&#39;, where several deliveries can be combined in to a single entity. The current version of eConnect only supports synchronization on the delivery level, and validation has not been performed with Shipments inM3.
 
     
-## Tracking Numbers
+### TRACKING NUMBERS
 
 eConnect is also prepared to also synchronize any tracking numbers that are entered on the delivery within M3. With the assumption that Shipments in M3 are not supported, tracking numbers can be entered in two different ways depending on the dispatch process used. The tracking details are carried in Sync.SalesOrder BOD.
 
-**Delivery Tracking#**
+**Delivery Tracking**
 
 A single tracking number can be entered for the entire delivery on detail panel F of the delivery
 
@@ -973,7 +968,7 @@ the M3 delivery number as a reference within the &#39;Shipment History&#39; sect
 The synchronization of the M3 delivery is possible only following pick reporting, i.e. after the quantity on the delivery has been issued (at corresponding status moved to &#39;6&#39; in M3) and the delivery appears in &#39;CO Delivery.Open&#39; (OIS150).
 
   
-# INVOICE
+## INVOICE
 
 The third and final key piece related to order information is the ability to synchronize over invoices from M3 to Magento.
 
@@ -997,7 +992,7 @@ Invoice information/Details are available in Sync.Invoice Bod and in Sync.Receiv
 Invoice information is carried by Sync.Invoice BOD and Sync.ReceivableTransaction BOD.
 
   
-# ORDERHISTORY
+## ORDER HISTORY
 
 The Order History section within the Magento front-end has been re-designed, and additional filter options have been added together with a simple way to separate orders that originates from Magento vs. M3.
 
@@ -1025,7 +1020,7 @@ The following Additional filter capabilities are available within the _ERP Order
   4. Search for a specific Customer PO/Ref# from the order inM3
   5. Filter orders with a specific status
 
-  1. **INVOICEHISTORY**
+## INVOICE HISTORY
 
 The invoice history view is accessed via the customer&#39;s &#39;My Account&#39; view on the front-end.
 
