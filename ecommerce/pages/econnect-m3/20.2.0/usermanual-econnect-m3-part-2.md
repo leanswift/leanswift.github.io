@@ -739,26 +739,13 @@ A Magento order has a _state_. The order _state_ is what defines the position of
 
 The state is used to define/drive Magento functionality and new states cannot be added using simple configuration.
 
-![](RackMultipart20200604-4-58zvro_html_7168fcbbdd6bca8f.jpg)
+<kbd><img alt="Order Management in Magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-management-magento.png"></kbd>
 
 **Source** : Magento via [www.magentocommerce.com](http://www.magentocommerce.com/)
 
 The following Magento states &amp; statuses exist in a new standard installation (Statuses &amp; States listed independently):
 
-| **Status State** |
-| --- |
-| Processing | New |
-| Pending Payment | Pending Payment |
-| Suspected Fraud | Processing |
-| Payment Review | Complete |
-| Pending | Closed |
-| On Hold | Canceled |
-| Complete | On Hold |
-| Closed | Payment Review |
-| Canceled |
- |
-| Pending PayPal |
- |
+<kbd><img alt="Statuses in Magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/magento-status.png"></kbd>
 
 **Initial Load/ Import**
 
@@ -772,11 +759,11 @@ This feature allows to import data from M3 into Magento. Data can be imported fo
 - Order (Show.LS\_SalesOrderDetails, Show.SalesOrder)
 - Invoice (Show.invoice, Show.ReceivableTransaction)
 
-![](RackMultipart20200604-4-58zvro_html_e04906260167c194.png)
+<kbd><img alt="Initial load/import" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/initial-load-import.png"></kbd>
 
 Import can be based on certain filter conditions.
 
-![](RackMultipart20200604-4-58zvro_html_829bc627a58ad64.png)
+<kbd><img alt="Import Invoices" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/import-invoices.png"></kbd>
 
 **From Date:**
 
@@ -800,7 +787,7 @@ Once import is done, the last imported date is displayed
 
 This displays the history of imports done in the system. Clicking on this will navigate to a page that displays information on which module was imported and the corresponding conditions that were used.
 
-![](RackMultipart20200604-4-58zvro_html_21f2a2958b27e7cc.png)
+<kbd><img alt="Import History" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/import-history.png"></kbd>
 
 **M3**
 
