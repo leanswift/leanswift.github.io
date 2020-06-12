@@ -988,19 +988,21 @@ In the case where a common customer number is used in a B2C setup, the functiona
 
 For a B2C or B2B configuration where individual (discrete) customer numbers are used, the Order History is accessed via the &#39;My Orders&#39; link in the menu on the left on the account home page after a user has logged in to the Magento front-end.
 
-![](RackMultipart20200604-4-58zvro_html_60091299929dfdbc.gif)
+<kbd><img alt="Order history recent orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-recentorders.png"></kbd>
+
+<kbd><img alt="Order history my orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-myorders.png"></kbd>
 
 The new Order History view presents the users with two pre-defined views (1) _ERP Orders_ and
 
 1. _Magento Orders_. There&#39;re also additional optional filters (3) that can be applied in the _ERP Orders_view.
 
-![](RackMultipart20200604-4-58zvro_html_f577807d0f5e2832.gif)
+<kbd><img alt="Order history erp orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-erporders.png"></kbd>
 
 When the _ERP Orders_ view is selected, every sales order in M3 for the M3 customer number that the Magento user logged in is associated with is displayed.
 
 The following Additional filter capabilities are available within the _ERP Orders_ view:
 
-![](RackMultipart20200604-4-58zvro_html_d233b04ac2f6aa05.gif)
+<kbd><img alt="Order history Filters" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-filters.png"></kbd>
 
   1. Search for a specific Magento order number
   2. Search for a specific M3 order number
@@ -1012,11 +1014,11 @@ The following Additional filter capabilities are available within the _ERP Order
 
 The invoice history view is accessed via the customer&#39;s &#39;My Account&#39; view on the front-end.
 
-![](RackMultipart20200604-4-58zvro_html_21d3cf5eb12c6ef9.gif)
+<kbd><img alt="Invoice History" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-history.png"></kbd>
 
 Some filter capabilities exist also for the &#39;My Invoice&#39; view.
 
-![](RackMultipart20200604-4-58zvro_html_9a49dc77d445e3f9.gif)
+<kbd><img alt="Invoice Filters" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-filters.png"></kbd>
 
 1. A specific Invoice Number can be searched out
 2. A specific M3 order number can be searched out
