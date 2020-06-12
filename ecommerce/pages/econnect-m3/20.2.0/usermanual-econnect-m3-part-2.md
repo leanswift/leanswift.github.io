@@ -894,15 +894,15 @@ The Shipment synchronization is the second key within eConnect to within Magento
 
 Each Magento order can have multiple shipments associated with it.
 
-![](RackMultipart20200604-4-58zvro_html_196cd7ad6d6d4b77.gif)
+<kbd><img alt="Shipments" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipments.png"></kbd>
 
 Each shipment can have several tracking numbers associated to it.
 
-![](RackMultipart20200604-4-58zvro_html_91f8da02b88a265c.gif)
+<kbd><img alt="Shipment Handling Information" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipping-handling-info.png"></kbd>
 
 Click on Track order to view the tracking info.
 
-![](RackMultipart20200604-4-58zvro_html_3bf5294588b09f05.gif)
+<kbd><img alt="Shipment Tracking Info" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipment-trackinginfo.png"></kbd>
 
 The shipment includes delivery address and items delivered. When creating the delivery, only items on the order can be selected. Order comments can be added. A new shipment can automatically generate an email notification to the customer.
 
@@ -932,7 +932,7 @@ A single tracking number can be entered for the entire delivery on detail panel 
 
 in &#39;Delivery. Open Toolbox&#39; (MWS410).
 
-![](RackMultipart20200604-4-58zvro_html_9cbcf060da896c02.jpg)
+<kbd><img alt="Shipment Tracking Info in M3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipment-trackinginfo-m3.png"></kbd>
 
 **Package Tracking#**
 
@@ -972,10 +972,11 @@ section.
 
 Invoice information/Details are available in Sync.Invoice Bod and in Sync.ReceivableTransaction BODs.
 
-![](RackMultipart20200604-4-58zvro_html_e7d8ad2bb08c9f7a.gif)
- ![](RackMultipart20200604-4-58zvro_html_58932a46cdbffb9e.jpg)
+<kbd><img alt="Invoice tab in Orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-order.png"></kbd>
 
-![](RackMultipart20200604-4-58zvro_html_4b7280a3c26e203.gif)
+<kbd><img alt="Invoice display in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-display.png"></kbd>
+
+<kbd><img alt="Invoice history in orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoicehistory-order.png"></kbd>
 
 Invoice information is carried by Sync.Invoice BOD and Sync.ReceivableTransaction BOD.
 
