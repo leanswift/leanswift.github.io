@@ -238,15 +238,15 @@ The _Price list_ &amp; _Currency_ that should be used are defined [per website V
 <kbd><img alt="product set up information" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/single-price-list.png"></kbd>
 
 
-The item price in M3 for this example in price list &#39;02&#39; is $155.00:
+The item price in M3 for this example in price list &#39;02&#39; is $59.00:
 
-![](RackMultipart20200604-4-58zvro_html_c8c96749b53d15a5.jpg)
+<kbd><img alt="Price list in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/single-price-m3.png"></kbd>
 
 Whenever there is an Addition/Update/deletion of price in M3, Sync.LS\_ItemMasterDetails BOD gets triggered and the same gets updated in magento.
 
 Once the information is received, the correct price from M3 is also displayed within Magento Admin.
 
-![](RackMultipart20200604-4-58zvro_html_32543223d8429211.png)
+<kbd><img alt="Price in magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/single-price-magento.png"></kbd>
 
     
 ### Customer Specific Price
