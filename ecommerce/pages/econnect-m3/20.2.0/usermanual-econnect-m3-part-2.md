@@ -599,7 +599,7 @@ In the &#39;View and Edit cart&#39; page, we can choose the gift options:
 
 Magento offers the ability to gift wrap the entire order and/or individual items only, as well as send a gift receipt and include a printed card with the order. As noted earlier – if the Printed card setup in Magento carries a cost, this cost will in this version not be reflected in M3.
 
-For this example, we&#39;ll add gift wrapping to both the entire order as well as the first product on the order:
+For this example, we&#39;ll add gift wrapping to both the entire order as well as one product on the order:
 
 <kbd><img alt="Giftwrap header and line level charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-chargeatheadandline.png"></kbd>
 
@@ -623,11 +623,13 @@ Order is manually synchronized with M3:
 
 <kbd><img alt="Giftwrap temporder" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-temporder.png"></kbd>
 
-A review of the order in M3 validates that the $6.00 order level gift wrap charge, as well as the
+A review of the order in M3 validates that the $26.00 order level gift wrap charge, as well as the
 
-$10.00 line gift wrap charge for the first line item are both in place correctly. The name of the Gift wrap charge is also transferred to the name of the corresponding charge.
+$26.00 line gift wrap charge for the  line item are both in place correctly. The name of the Gift wrap charge is also transferred to the name of the corresponding charge.
 
 <kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-charges.png"></kbd>
+
+<kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2giftwarp-linecharge.png"></kbd>
 
 Should eConnect have been configured to instead use non-stock items, the result in M3 would instead have been the following:
 
