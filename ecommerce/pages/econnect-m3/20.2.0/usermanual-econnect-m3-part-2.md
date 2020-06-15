@@ -8,9 +8,9 @@
 
 **Part II – Standard Transactions &amp; Processes**
 
-**Product Version 20.1.0**
+**Product Version 20.2.0**
 
-**ECONNECT 20.1.0 USER MANUAL**
+**ECONNECT 20.2.0 USER MANUAL**
 
 
 # TABLE OF CONTENTS
