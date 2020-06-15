@@ -459,7 +459,7 @@ The verification message displayed to the user also contains a wealth of informa
 - the number of Invoices added in Magento since the last sync
 - the number of tracking numbers added in Magento since the last sync
 
-To schedule order creation via the background jobs, make sure to configure the following cron job to run with appropriate intervals under LS \&gt; eConnect ION \&gt; Configuration \&gt; Cron:
+To schedule order creation via the background jobs, make sure to configure the following cron job to run with appropriate intervals under LS > eConnect ION > Configuration >  Cron:
 
 <kbd><img alt="cron setting to send ERP" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/cron.png"></kbd>
 
