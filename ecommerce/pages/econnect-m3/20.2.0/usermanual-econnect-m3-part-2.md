@@ -255,7 +255,7 @@ The customer specific price transaction is normally used in a B2B scenario, when
 
 Whether or not to enable this transaction is controlled within the LeanSwift Magento extension
 
-_LS \&gt; eConenct\_ION \&gt; Configuration \&gt; Price Synchronization_:
+LS > eConenct_ION > Configuration > Price Synchronization
 
 <kbd><img alt="Price Synchronization" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/price-synchronisation.png"></kbd>
 
@@ -629,15 +629,15 @@ $26.00 line gift wrap charge for the  line item are both in place correctly. The
 
 <kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-charges.png"></kbd>
 
-<kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2giftwarp-linecharge.png"></kbd>
+<kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwarp-linecharge.png"></kbd>
 
 Should eConnect have been configured to instead use non-stock items, the result in M3 would instead have been the following:
 
-![](RackMultipart20200604-4-58zvro_html_4ae8552943a9e1da.png)
+<kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem.png"></kbd>
 
 The current logic places the non-stock item for each line-related gift-wrapping charge right after the line it belongs to, and the order total gift wrapping item at the very bottom.
 
-![](RackMultipart20200604-4-58zvro_html_5250fa77f55f5b02.png)
+<kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem-details.png"></kbd>
 
 The configuration with non-stock items might be preferable should there be a need to info warehousepersonneltoinclude/performcertaingiftwrappinginconnectionwithpicking&amp; packing the order.
 
