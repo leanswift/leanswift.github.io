@@ -157,6 +157,8 @@ B2C – Business to consumer
 
 RMA – Return Materials (Merchandise) Authorization
 
+[Go to Top](#table-of-contents)
+
 ## STANDARD TRANSACTIONS
 
 LeanSwift eConnect comes with a number of standard transactions included. This section provides a detailed walkthrough of each of them.
@@ -189,6 +191,8 @@ If any changes at all need to be made to an order placed via Magento, the order 
 
 No additional charges (such as Freight) are added within M3 once the order has been created. If this is done, eConnect won&#39;t synchronize this additional amount to Magento and as a result the invoice amount will differ between the two systems. Furthermore – if the freight isn&#39;t added upfront within Magento and the order is paid via credit card, the freight will not be included in the amount that&#39;s authorized against the customer&#39;s card.
 
+[Go to Top](#table-of-contents)
+
   
 ## PRODUCT SETUP &amp; INFORMATION
 
@@ -211,6 +215,8 @@ With this transaction it is possible to keep in sync discrete values within M3&#
 This feature enables manual sync of Products with M3. We can choose multiple products that require sync with M3 and choose &#39;Sync Items with M3&#39;. Clicking on Manual sync triggers &#39;Show&#39; BODs. Once the BOD reaches Magento, the information gets updated in respective tables in the DB. Multiple products can be chosen to sync with M3.
 
 <kbd><img alt="product set up information" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-process.png"></kbd>
+
+[Go to Top](#table-of-contents)
 
   
 ## PRICE
@@ -270,6 +276,8 @@ When the &#39;Allow Item Price&#39; is set to Yes, Price will be sent to M3 from
 
 When the &#39;Allow Item Price&#39; is set to No, Price will not be sent to M3 from magento
 
+[Go to Top](#table-of-contents)
+
   
 ## INVENTORY
 
@@ -295,6 +303,9 @@ Where &#39;Allocatable Net&#39; is the default setting with the eConnect install
 
 When there is an Add/Update/delete in stock for an item in M3, Sync.LS\_ItemStock BOD gets generated. If there is a corresponding item in Magento, the stock gets updated based on the BOD information.
 
+
+[Go to Top](#table-of-contents)
+
   
 ## CUSTOMER REGISTRATION
 
@@ -316,6 +327,8 @@ For each successful customer signup from the front-end, a new customer record wi
 Within M3, the customer is created in a preliminary status (10). The process to approve the customer within M3 is manual, i.e. a user would [outside of the system] perform any required validations, credit checks etc. of the new customer. Once completed and if the new customer is approved as a new B2B account – the status would manually be changed to &#39;20&#39; within M3.
 
 On the Magento front-end, the customer will be able to log in, shop around, add products to the cart and save the cart without being approved. They will however not be able to complete the check-out process and place the order unless the corresponding M3 customer number has been approved first, as a real-time check of the M3 customer status is performed.
+
+[Go to Top](#table-of-contents)
 
  
 ## CUSTOMER ADDITION/SYNCHRONIZATION
@@ -344,6 +357,8 @@ When a customer is created in M3, Customer gets added into magento if &#39;Custo
 This process triggers Sync.CustomerPartyMaster and Sync.LS\_CustomerDetails.
 
 If customer has addresses added in M3, it triggers Sync.BillToPartyMaster and Sync.ShipToPartyMaster BODs.
+
+[Go to Top](#table-of-contents)
 
   
 ## CUSTOMER INFORMATION SYNC
@@ -408,6 +423,9 @@ Account information tab saves the Variation ID, BOD Timestamp and BOD ID for fut
 This feature enables manual sync of customer with M3. We can choose multiple customers that require sync with M3 and choose &#39;Sync customers with M3&#39;. Clicking on Manual sync triggers &#39;Show&#39; BODs. Once the BOD reaches Magento, the information gets updated in respective tables in the DB.
 
 <kbd><img alt="Manual Sync Customers" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-process2.png"></kbd>
+
+[Go to Top](#table-of-contents)
+
   
 ## ORDER CREATION
 
@@ -721,6 +739,8 @@ This feature enables manual sync of orders with M3. We can choose multiple order
 
 ![](RackMultipart20200604-4-58zvro_html_72b9d16719fdd93.png)
 
+[Go to Top](#table-of-contents)
+
   
 ## ORDER INFORMATION
 
@@ -836,6 +856,8 @@ If a customer order line has status 33, it only contains allocated quantity. If 
 
 If a customer then has one partially allocated &amp; invoiced line (status 37), and one fully invoiced line (status 77) – the Highest/Lowest status for the entire order will be 77/37
 
+[Go to Top](#table-of-contents)
+
     
 ## MAGENTO &amp; M3 ORDER STATUS RELATION
 
@@ -870,6 +892,8 @@ The value of the &#39;Status Text&#39; can be changed within each Magento instal
 Magento standard functionality will then change an order from state _Processing_ to _Complete_
 
 when all order lines have been shipped andinvoiced.
+
+[Go to Top](#table-of-contents)
 
   
 ## SHIPMENT
@@ -942,6 +966,8 @@ the M3 delivery number as a reference within the &#39;Shipment History&#39; sect
 
 The synchronization of the M3 delivery is possible only following pick reporting, i.e. after the quantity on the delivery has been issued (at corresponding status moved to &#39;6&#39; in M3) and the delivery appears in &#39;CO Delivery.Open&#39; (OIS150).
 
+[Go to Top](#table-of-contents)
+
   
 ## INVOICE
 
@@ -966,6 +992,8 @@ Invoice information/Details are available in Sync.Invoice Bod and in Sync.Receiv
 <kbd><img alt="Invoice history in orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoicehistory-order.png"></kbd>
 
 Invoice information is carried by Sync.Invoice BOD and Sync.ReceivableTransaction BOD.
+
+[Go to Top](#table-of-contents)
 
   
 ## ORDER HISTORY
@@ -997,6 +1025,8 @@ The following Additional filter capabilities are available within the _ERP Order
   3. Filter on a range of dates the orders were created
   4. Search for a specific Customer PO/Ref# from the order inM3
   5. Filter orders with a specific status
+  
+[Go to Top](#table-of-contents)
 
 ## INVOICE HISTORY
 
@@ -1017,4 +1047,6 @@ Some filter capabilities exist also for the &#39;My Invoice&#39; view.
 In the case where a common customer number is used in a B2C setup, only invoice history from within Magento is displayed.
 
 All orders related to customer is shown up in the page irrespective of how old the order is.
+
+[Go to Top](#table-of-contents)
 
