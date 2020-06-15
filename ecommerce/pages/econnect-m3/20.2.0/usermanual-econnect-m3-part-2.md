@@ -928,7 +928,7 @@ Deliveries for customer orders are within M3 managed in two different places –
 
 A delivery is also in M3 made up of a number of the lines (or part of the lines) on the associated customer order.
 
-**\*\* Note \*\***
+**Note**
 
 There is also in M3 a concept called &#39;Shipments&#39;, where several deliveries can be combined in to a single entity. The current version of eConnect only supports synchronization on the delivery level, and validation has not been performed with Shipments inM3.
 
