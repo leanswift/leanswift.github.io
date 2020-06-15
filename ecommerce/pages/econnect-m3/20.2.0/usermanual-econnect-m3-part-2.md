@@ -15,7 +15,6 @@
 
 # TABLE OF CONTENTS
 
-- [**USER MANUAL**](#user-manual)
 - [Table of Contents](#table-of-contents)
 - [System Overview](#system-overview)
   - [Architecture](#architecture)
