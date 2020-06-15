@@ -228,7 +228,7 @@ Depending on the situation and configuration within Magento and M3, two differen
     
 ### Single Price List
 
-This price synchronization is normally used to bring over a single MSRP/List price value per product from M3 to Magento. This is in Magento stored in the regular &#39;Price&#39; field within the Product Information \&gt; Prices section.
+This price synchronization is normally used to bring over a single MSRP/List price value per product from M3 to Magento. This is in Magento stored in the regular &#39;Price&#39; field within the Product Information > Prices section.
 
 A different M3 price list can be defined for each website View via Magento Admin.
 
@@ -253,7 +253,6 @@ Once the information is received, the correct price from M3 is also displayed wi
 The customer specific price transaction is normally used in a B2B scenario, when individual negotiated prices for different customer/item combination need to be displayed within the web shop.
 
 Whether or not to enable this transaction is controlled within the LeanSwift Magento extension
-
 LS > eConenct_ION > Configuration > Price Synchronization
 
 <kbd><img alt="Price Synchronization" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/price-synchronisation.png"></kbd>
@@ -310,7 +309,7 @@ When there is an Add/Update/delete in stock for an item in M3, Sync.LS\_ItemStoc
 
 The Customer registration feature was specifically added to cater for a B2B scenario where new customer sign-ups are accepted from the front-end.
 
-The functionality is enabled via _LS \&gt; econnect-ION \&gt; Configuration \&gt; Customer General Configuration \&gt; ERP Customer Registration_:
+The functionality is enabled via LS > econnect-ION > Configuration > Customer General Configuration > ERP Customer Registration:
 
 <kbd><img alt="Customer general configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-general-configuration.png"></kbd>
 
@@ -334,7 +333,7 @@ On the Magento front-end, the customer will be able to log in, shop around, add 
 
 The Customer Addition feature is designed to fetch the customers from M3 into Magento.
 
-The functionality is enabled via _LS \&gt; eConnect-ION \&gt; Configuration \&gt; Customer Addition/Synchronization_:
+The functionality is enabled via LS > eConnect-ION > Configuration > Customer Addition/Synchronization:
 
 <kbd><img alt="Customer addition/synchronization" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-addition-sync.png"></kbd>
 
@@ -550,7 +549,7 @@ The Ship Complete functionality offers customers an option to allow end-customer
 
 ordering select to have the entire order shipped &quot;complete&quot;, i.e. in a single shipment.
 
-This functionality is enabled in _LS \&gt; eConnect-ION \&gt; Configuration \&gt; Sales_, by setting **Enable Ship Complete** to &#39;Yes&#39;. If this has been enabled, the customers on the site/store in question will have the option to during the checkout process select &#39;Ship Complete&#39; for their order:
+This functionality is enabled in LS > eConnect-ION > Configuration > Sales, by setting **Enable Ship Complete** to &#39;Yes&#39;. If this has been enabled, the customers on the site/store in question will have the option to during the checkout process select &#39;Ship Complete&#39; for their order:
 
 <kbd><img alt="Enable ship complete" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/ship-complete.png"></kbd>
 
@@ -566,16 +565,18 @@ The first step in adding this support focuses on the detailed information on ord
 
 Magento Enterprise Edition is required to take advantage of the Gift Wrapping functionality in eConnect as Magento Community Edition doesn&#39;t contain any Gift Wrapping functionality.
 
-Within the eConnect configuration (_LS \&gt; eConnect-ION \&gt; Configuration \&gt; Order Charges_), it&#39;s possible to turn on or off the transfer of Gift Wrapping charges to M3 – as well as decide whether any resulting charges should be added as charges or non-stock items.
+Within the eConnect configuration (LS > eConnect-ION >  Configuration > Order Charges), it&#39;s possible to turn on or off the transfer of Gift Wrapping charges to M3 – as well as decide whether any resulting charges should be added as charges or non-stock items.
 
 Pre-requisites
 
-- Gift Wrapping on Order &amp; Product level have been enabled in Magento under _System \&gt; Configuration \&gt; Sales \&gt; GiftOptions_.
+- Gift Wrapping on Order &amp; Product level have been enabled in Magento under System > Configuration > Sales > GiftOptions.
+
 - A cost for the Giftwrapping is[optionally]assigned to the products in the &#39;GiftOptions&#39;
 
 section of the Product Information.
 
-- All applicable Gift Wraps are defined in Magento under _Stores \&gt; GiftWrapping_.
+- All applicable Gift Wraps are defined in Magento under Stores > GiftWrapping.
+
 - The setup in M3 for the intended solution has been configured (i.e. Header- &amp;Line charges in OIS030/CRS275 or non-stock items inMMS001).
 
 **\*\*** In this version, costs assigned to printed cards in Magento as well as gift wrapping messages are not supported and will as such not be transferred to M3.
@@ -584,7 +585,7 @@ For the example in this section, eConnect has been configured to use order heade
 
 <kbd><img alt="Gift wrap configurations" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-charges-gift-wrap.png"></kbd>
 
-Furthermore, at least one Gift Wrap needs to be defined for the website under _Stores \&gt; Gift Wrapping_:
+Furthermore, at least one Gift Wrap needs to be defined for the website under Stores > Gift Wrapping:
 
 <kbd><img alt="Gift wrap" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/gift-wrapping.png"></kbd>
 
@@ -655,7 +656,7 @@ There is no credit card related information (i.e. transaction verification/autho
 
 This means that the standard M3 credit card functionality is not utilized.
 
-The single credit card related configuration option within the Lean Swift extension can be found under _LS \&gt; eConnect-ION \&gt; Configuration \&gt; Sales_-Capture Payment online
+The single credit card related configuration option within the Lean Swift extension can be found under LS > eConnect-ION > Configuration > Sales-Capture Payment online
 
 <kbd><img alt="Credit card management-sales" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/creditcard-management.png"></kbd>
 
@@ -723,7 +724,7 @@ The following order provides an example of where these two charges are present w
 
 As of this version of eConnect, Sales Tax is passed as a line charge per order line.
 
-Whether or not to pass Sales Tax to M3 is controlled via _LS \&gt; eConnect-ION \&gt; Configuration \&gt; Order Charges_.
+Whether or not to pass Sales Tax to M3 is controlled via LS > eConnect-ION > Configuration > Order Charges.
 
 &#39;Tax Transfer&#39; controls whether to pass tax amounts to M3. Setting this value to &#39;Yes&#39;
 
@@ -732,7 +733,7 @@ enables the transfer and opens the second related field below.
 **Gift Wrapping**
 
 
-If Gift Wrapping has been enabled to be sent to M3 within _LS \&gt; eConnect-ION \&gt; Configuration \&gt; Order Charges_, and charges have been selected to be used – any line-level Gift Wrapping cost in Magento will be passed over as a line charge to the corresponding order line in M3.
+If Gift Wrapping has been enabled to be sent to M3 within LS > eConnect-ION > Configuration > Order Charges, and charges have been selected to be used – any line-level Gift Wrapping cost in Magento will be passed over as a line charge to the corresponding order line in M3.
 
 ### Manual Sync Process
 
