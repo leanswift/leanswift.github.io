@@ -73,9 +73,9 @@
 
  **eConnect-base**.
 
- From 20.1.0 onward, eConnect will require the eConnect-base extension to function.
+ From 20.2.0 onward, eConnect will require the eConnect-base extension to function.
 
- eConnect 20.1.0 is compatible with eConnect-base 2.0.0.
+ eConnect 20.2.0 is compatible with eConnect-base 2.0.0.
 
 **eConnect-base v2.0.0**
 
@@ -102,7 +102,7 @@ econnect-user-manual-ion-part2
 
 ### Transactions
 
-eConnect 20.1.0 includes the following set of standard transactions like its previous versions:
+eConnect 20.2.0 includes the following set of standard transactions like its previous versions:
 
 - Product Addition
 - Product Information Sync
@@ -180,7 +180,7 @@ There are of course also examples where Magento&#39;s functionality is more spec
 ### Assumptions And Limitations
 
 
-This section provides a listing of all key assumptions that form the basis for LeanSwift eConnect 20.1.0
+This section provides a listing of all key assumptions that form the basis for LeanSwift eConnect 20.2.0
 
 - Order changes
 
