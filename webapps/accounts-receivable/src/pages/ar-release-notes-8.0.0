@@ -1,10 +1,10 @@
-# **Accounts Receivable 8.0.0**
+# Accounts Receivable 8.0.0
 
 
-# **Release Notes**
+# Release Notes
 
 
-## **Environment Details**
+## Environment Details
 
 | _ **Software Name** _ | _ **Version** _ |
 | --- | --- |
@@ -12,7 +12,7 @@
 | Infor M3 (MT) | 16.1 |
 | Infor H5 SDK version | 2.2.1 |
 
-## **Standard Features**
+## *tandard Features
 
 All the standard functionalities of Accounts Receivable are supported in v8.0.0, which include the following:
 
@@ -26,7 +26,7 @@ All the standard functionalities of Accounts Receivable are supported in v8.0.0,
 - Search
 - Order
 
-## **Highlights**
+## Highlights
 
 1. Built from scratch using the latest version of Infor M3 H5 SDK (version 2.2.1)
 2. Overall performance improvements
@@ -62,7 +62,7 @@ All the standard functionalities of Accounts Receivable are supported in v8.0.0,
 
 
 
-## **Important Points to Note**
+## Important Points to Note
 
 This version does not support the following:
 
@@ -80,14 +80,14 @@ This version does not support the following:
  Orders,Order lines and Order Charges
 - Pricing ,Discount Model and Order Types in Basic Data section.
 
-## **GitHub Links**
+## GitHub Links
 
 1. [All](https://leanswift.atlassian.net/issues/?jql=project%20%3D%20LHW%20ORDER%20BY%20priority%20DESC)
 2. [Bugs](https://leanswift.atlassian.net/issues/?jql=issuetype%20%3D%20Bug%20AND%20project%20%3D%20LHW%20ORDER%20BY%20priority%20DESC)
 3. [Story/Task](https://leanswift.atlassian.net/issues/?jql=issuetype%20in%20(Epic%2C%20Story%2C%20Task%2C%20Subtask)%20AND%20project%20%3D%20LHW%20ORDER%20BY%20priority%20DESC)
 
 
-## **Points of Contact**
+## Points of Contact
 
 1. [shyam.sathyanathan](mailto:shyam.sathyanathan@leanswift.com)[@leanswift.com](mailto:shyam.sathyanathan@leanswift.com)
 2. [backiyalakshmi.r@leanswift.com](mailto:backiyalakshmi.r@leanswift.com)
