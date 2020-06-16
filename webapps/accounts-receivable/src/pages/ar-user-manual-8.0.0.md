@@ -5,92 +5,51 @@
 
 ### Table of Contents
 
-- [Overview](#overview)
-
-- [Navigating the Application](#navigating-the-Application)
-
-    - [Main Menu](#main-Menu)
-
-    - [Application Pages](#application-Pages)
-
+ - [Overview](#overview)
+  - [Navigating the Application](#navigating-the-application)
+    - [Main Menu](#main-menu)
+    - [Application Pages](#application-pages)
     - [About](#about)
-
-    - [Selecting Lines in a List](#selecting-Lines-in-a-List)
-
-    - [Selecting Cells](#selecting-Cells)
-
-    - [List Filters](#list-Filters)
-
-    - [Sorting Lists](#sorting-Lists)
-
-    - [Exporting to Excel](#exporting-to-Excel)
-
+    - [Selecting Lines in a List](#selecting-lines-in-a-list)
+    - [Selecting Cells](#selecting-cells)
+    - [List Filters](#list-filters)
+    - [Sorting Lists](#sorting-lists)
+    - [Exporting to Excel](#exporting-to-excel)
     - [Notifications](#notifications)
-
-- [Application Pages](#application-Pages)
-
-    - [Main selection](#Main-selection)
-
+  - [Application Pages](#application-pages)
+    - [Main selection](#main-selection)
     - [Division](#division)
-
     - [Customer](#customer)
-
-    - [Default Payer from Customer](#default-Payer-from-Customer)
-
-    - [Payer](#payer) 
-
-    - [Rolling Date](#rolling-Date)
-
+    - [Default Payer from Customer](#default-payer-from-customer)
+    - [Payer](#payer)
+    - [Rolling Date](#rolling-date)
     - [Invoices](#invoices)
-
     - [Payments](#payments)
-
-    - [Payment Details](#payment-Details)
-
+    - [Payment Details](#payment-details)
     - [Aging](#aging)
-
-    - [Infor Document Management](#infor-Document-Management)
-
-    - [Tickler Notes By Invoice Number](#tickler-Notes-By-Invoice-Number)
-
-    - [Flagged Invoices](#flagged-Invoices)
-
-    - [Basic Data](#basic-Data)
-
-    - [Tickler Notes](#tickler-Notes)
-
+    - [Infor Document Management](#infor-document-management)
+    - [Tickler Notes _By Invoice Number_](#tickler-notes-by-invoice-number)
+    - [Flagged Invoices](#flagged-invoices)
+    - [Basic Data](#basic-data)
+    - [Tickler Notes](#tickler-notes)
     - [Adding new notes](#adding-new-notes)
-
     - [Editing existing notes](#editing-existing-notes)
-
-    - [Credit History](#credit-History)
-
-    - [Credit Release](#credit-Release)
-
-    - [Release Orders](#release-Orders)
-
-    - [Tickler Notes By Invoice Number](#tickler-Notes-By-Invoice-Number)
-
+    - [Credit History](#credit-history)
+    - [Credit Release](#credit-release)
+    - [Release Orders](#release-orders)
+    - [Tickler Notes _By Invoice Number_](#tickler-notes-by-invoice-number)
     - [Orders](#orders)
-
-    - [Account Payments](#account-Payments)
- 
-    - [Search for a Check Number](#search-for-a-Check-Number)
-
-    - [Cash Payments](#cash-Payments)
-
+    - [Account Payments](#account-payments)
+    - [Search for a Check Number](#search-for-a-check-number)
+    - [Cash Payments](#cash-payments)
     - [Search](#search)
-
-- [Troubleshooting](#troubleshooting)
-
-    - [Clear cache and cookies](#Clear-cache-and-cookies)
-
-    - [Deciphering Error Messages](#deciphering-Error-Messages)
-
-- [Limitations](#limitations)
-
-- [Point of Contacts](#point-of-contacts)
-
+  - [Troubleshooting](#troubleshooting)
+    - [Clear cache and cookies](#clear-cache-and-cookies)
+    - [Deciphering Error Messages](#deciphering-error-messages)
+  - [Limitations](#limitations)
+  - [Point of Contacts](#point-of-contacts)
+  
+  
 ## Overview 
 
 This user guide will cover the Accounts Receivable application. This webapp takes information and data from multiple places in Infor M3 such as, but not limited to, CRS610, MFS610, ARS200, RMS440, and combines them into one interface. This should allow a credit manager to do all of their job functions from one place rather than going into multiple programs and screens in Infor M3 to enter, edit, and obtain information.This version is compatible with Infor M3 13.4 (on-premise) and Infor M3 CloudSuite.
@@ -181,7 +140,8 @@ You can sort a list by any column simply by clicking the column header. Please n
 
 You can use the list menu for a number of things, one of them being exporting to Excel. Click the small menu icon in the right hand corner of any list and select &quot;Export all data as csv&quot;.Then open the csv file in Excel.
 
-<kbd><img src="../images/3-dots-menu.png" width="200" alt="3dot Menu"></kbd>
+<kbd><img src="../images/3-dots-menu.png" width="200" alt="3dot Menu"></kbd> <kbd><img src="../images/3dots-menu.png" width="200" alt="3dot Menu"></kbd>
+
 
 #### Note. You can also use the list menu to show and hide columns.
 
@@ -253,11 +213,21 @@ Once you have made your selection and hit the Find button the Invoices list will
 
 Note that this operation while optimised still can take some time to complete, especially for big accounts, or if you have a date range selected for multiple years back, or if for example you&#39;re working through a VPN connection. Quite a lot of data is retrieved from M3 and then processed and calculated before display.
 
+Note that in this version, Invoice section has further been split into 2 parts, Invoice details and Discount related details
+
 <kbd><img src="../images/invoices.png" width="750" alt="Invoice Table"></kbd>
+
+<kbd><img src="../images/discount.png" width="750" alt="Discount Table"></kbd>
+
 
 The bottom of the list of invoices will display totals for the amount columns. Also note that if you select multiple lines it will immediately display how many you have selected as well as the amount totals for your selection (pressing the Totals button below the list will give you a popup with the same information for your selections).
 
 <kbd><img src="../images/invoice-totals.png" width="750" alt="Invoice Totals"></kbd>
+
+When all the sections are collapsed, it looks like this
+
+<kbd><img src="../images/ivoicefull.png" width="750" alt="Invoice Full"></kbd>
+
 
 [Go to Top](#table-of-contents)
 
@@ -486,7 +456,7 @@ Errors can happen in the application for many different reasons and will be pres
 
 If connection to the M3 API is lost you will find an error message which looks like this. The general format of this message is
 
-<kbd><img src="../images/error-msg.png" width="700" alt="Error message"></kbd>
+<kbd><img src="../images/error-msg.png" width="500" alt="Error message"></kbd>
 
 Most common cause for this error is network issues like failing to connect to a VPN.
 
