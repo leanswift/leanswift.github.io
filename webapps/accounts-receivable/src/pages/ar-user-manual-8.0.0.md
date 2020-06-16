@@ -140,7 +140,7 @@ You can sort a list by any column simply by clicking the column header. Please n
 
 You can use the list menu for a number of things, one of them being exporting to Excel. Click the small menu icon in the right hand corner of any list and select &quot;Export all data as csv&quot;.Then open the csv file in Excel.
 
-<kbd><img src="../images/3-dots-menu.png" width="200" alt="3dot Menu"></kbd> <kbd><img src="../images/3dots-menu.png" width="200" alt="3dot Menu"></kbd>
+<kbd><img src="../images/3-dots-menu.png" width="200" alt="3dot Menu"></kbd> <kbd><img src="../images/3dots-menu.png" width="150" alt="3dot Menu"></kbd>
 
 
 #### Note. You can also use the list menu to show and hide columns.
@@ -226,7 +226,7 @@ The bottom of the list of invoices will display totals for the amount columns. A
 
 When all the sections are collapsed, it looks like this
 
-<kbd><img src="../images/ivoicefull.png" width="750" alt="Invoice Full"></kbd>
+<kbd><img src="../images/invoicefull.png" width="750" alt="Invoice Full"></kbd>
 
 
 [Go to Top](#table-of-contents)
@@ -456,7 +456,7 @@ Errors can happen in the application for many different reasons and will be pres
 
 If connection to the M3 API is lost you will find an error message which looks like this. The general format of this message is
 
-<kbd><img src="../images/error-msg.png" width="500" alt="Error message"></kbd>
+<kbd><img src="../images/error-msg.png" width="300" alt="Error message"></kbd>
 
 Most common cause for this error is network issues like failing to connect to a VPN.
 
