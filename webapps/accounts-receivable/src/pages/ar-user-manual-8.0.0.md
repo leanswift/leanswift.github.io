@@ -213,7 +213,18 @@ Once you have made your selection and hit the Find button the Invoices list will
 
 Note that this operation while optimised still can take some time to complete, especially for big accounts, or if you have a date range selected for multiple years back, or if for example you&#39;re working through a VPN connection. Quite a lot of data is retrieved from M3 and then processed and calculated before display.
 
-Note that in this version, Invoice section has further been split into 2 parts, Invoice details and Discount related details
+Invoice table doesn't load all of the order and discount details like previous versions to improve performance and reduce the number of failures.
+
+The following fields are loaded on demand once an invoice has been selected
+- Order number
+- Order type
+- Delivery number
+- Our reference
+- Project
+- PONO
+- Discount amount
+- Net amount
+- Discount date
 
 <kbd><img src="../images/invoices.png" width="750" alt="Invoice Table"></kbd>
 
