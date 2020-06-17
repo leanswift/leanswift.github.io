@@ -5,92 +5,51 @@
 
 ### Table of Contents
 
-- [Overview](#overview)
-
-- [Navigating the Application](#navigating-the-Application)
-
-    - [Main Menu](#main-Menu)
-
-    - [Application Pages](#application-Pages)
-
+ - [Overview](#overview)
+  - [Navigating the Application](#navigating-the-application)
+    - [Main Menu](#main-menu)
+    - [Application Pages](#application-pages)
     - [About](#about)
-
-    - [Selecting Lines in a List](#selecting-Lines-in-a-List)
-
-    - [Selecting Cells](#selecting-Cells)
-
-    - [List Filters](#list-Filters)
-
-    - [Sorting Lists](#sorting-Lists)
-
-    - [Exporting to Excel](#exporting-to-Excel)
-
+    - [Selecting Lines in a List](#selecting-lines-in-a-list)
+    - [Selecting Cells](#selecting-cells)
+    - [List Filters](#list-filters)
+    - [Sorting Lists](#sorting-lists)
+    - [Exporting to Excel](#exporting-to-excel)
     - [Notifications](#notifications)
-
-- [Application Pages](#application-Pages)
-
-    - [Main selection](#Main-selection)
-
+  - [Application Pages](#application-pages)
+    - [Main selection](#main-selection)
     - [Division](#division)
-
     - [Customer](#customer)
-
-    - [Default Payer from Customer](#default-Payer-from-Customer)
-
-    - [Payer](#payer) 
-
-    - [Rolling Date](#rolling-Date)
-
+    - [Default Payer from Customer](#default-payer-from-customer)
+    - [Payer](#payer)
+    - [Rolling Date](#rolling-date)
     - [Invoices](#invoices)
-
     - [Payments](#payments)
-
-    - [Payment Details](#payment-Details)
-
+    - [Payment Details](#payment-details)
     - [Aging](#aging)
-
-    - [Infor Document Management](#infor-Document-Management)
-
-    - [Tickler Notes By Invoice Number](#tickler-Notes-By-Invoice-Number)
-
-    - [Flagged Invoices](#flagged-Invoices)
-
-    - [Basic Data](#basic-Data)
-
-    - [Tickler Notes](#tickler-Notes)
-
+    - [Infor Document Management](#infor-document-management)
+    - [Tickler Notes _By Invoice Number_](#tickler-notes-by-invoice-number)
+    - [Flagged Invoices](#flagged-invoices)
+    - [Basic Data](#basic-data)
+    - [Tickler Notes](#tickler-notes)
     - [Adding new notes](#adding-new-notes)
-
     - [Editing existing notes](#editing-existing-notes)
-
-    - [Credit History](#credit-History)
-
-    - [Credit Release](#credit-Release)
-
-    - [Release Orders](#release-Orders)
-
-    - [Tickler Notes By Invoice Number](#tickler-Notes-By-Invoice-Number)
-
+    - [Credit History](#credit-history)
+    - [Credit Release](#credit-release)
+    - [Release Orders](#release-orders)
+    - [Tickler Notes _By Invoice Number_](#tickler-notes-by-invoice-number)
     - [Orders](#orders)
-
-    - [Account Payments](#account-Payments)
- 
-    - [Search for a Check Number](#search-for-a-Check-Number)
-
-    - [Cash Payments](#cash-Payments)
-
+    - [Account Payments](#account-payments)
+    - [Search for a Check Number](#search-for-a-check-number)
+    - [Cash Payments](#cash-payments)
     - [Search](#search)
-
-- [Troubleshooting](#troubleshooting)
-
-    - [Clear cache and cookies](#Clear-cache-and-cookies)
-
-    - [Deciphering Error Messages](#deciphering-Error-Messages)
-
-- [Limitations](#limitations)
-
-- [Point of Contacts](#point-of-contacts)
-
+  - [Troubleshooting](#troubleshooting)
+    - [Clear cache and cookies](#clear-cache-and-cookies)
+    - [Deciphering Error Messages](#deciphering-error-messages)
+  - [Limitations](#limitations)
+  - [Point of Contacts](#point-of-contacts)
+  
+  
 ## Overview 
 
 This user guide will cover the Accounts Receivable application. This webapp takes information and data from multiple places in Infor M3 such as, but not limited to, CRS610, MFS610, ARS200, RMS440, and combines them into one interface. This should allow a credit manager to do all of their job functions from one place rather than going into multiple programs and screens in Infor M3 to enter, edit, and obtain information.This version is compatible with Infor M3 13.4 (on-premise) and Infor M3 CloudSuite.
@@ -181,7 +140,8 @@ You can sort a list by any column simply by clicking the column header. Please n
 
 You can use the list menu for a number of things, one of them being exporting to Excel. Click the small menu icon in the right hand corner of any list and select &quot;Export all data as csv&quot;.Then open the csv file in Excel.
 
-<kbd><img src="../images/3-dots-menu.png" width="200" alt="3dot Menu"></kbd>
+<kbd><img src="../images/3-dots-menu.png" width="200" alt="3dot Menu"></kbd> <kbd><img src="../images/3dots-menu.png" width="150" alt="3dot Menu"></kbd>
+
 
 #### Note. You can also use the list menu to show and hide columns.
 
@@ -253,11 +213,32 @@ Once you have made your selection and hit the Find button the Invoices list will
 
 Note that this operation while optimised still can take some time to complete, especially for big accounts, or if you have a date range selected for multiple years back, or if for example you&#39;re working through a VPN connection. Quite a lot of data is retrieved from M3 and then processed and calculated before display.
 
+Invoice table doesn't load all of the order and discount details like previous versions to improve performance and reduce the number of failures.
+
+The following fields are loaded on demand once an invoice has been selected
+- Order number
+- Order type
+- Delivery number
+- Our reference
+- Project
+- PONO
+- Discount amount
+- Net amount
+- Discount date
+
 <kbd><img src="../images/invoices.png" width="750" alt="Invoice Table"></kbd>
+
+<kbd><img src="../images/discount.png" width="750" alt="Discount Table"></kbd>
+
 
 The bottom of the list of invoices will display totals for the amount columns. Also note that if you select multiple lines it will immediately display how many you have selected as well as the amount totals for your selection (pressing the Totals button below the list will give you a popup with the same information for your selections).
 
 <kbd><img src="../images/invoice-totals.png" width="750" alt="Invoice Totals"></kbd>
+
+When all the sections are collapsed, it looks like this
+
+<kbd><img src="../images/invoicefull.png" width="750" alt="Invoice Full"></kbd>
+
 
 [Go to Top](#table-of-contents)
 
@@ -480,37 +461,21 @@ After a new version of the application has been deployed normally you only need 
 
 ### Deciphering Error Messages
 
-Errors can happen in the application for many different reasons and will be presented to you in a notification box. Here is a short guide on how to decipher these messages.
+Errors can happen in the application for many different reasons and will be presented to you in a snackbar at the bottom of the screen. Here is a short guide on how to decipher these messages.
 
-Example 1 - M3 API error
+#### Example 1 -Network error
 
-<kbd><img src="../images/error-msg.png" width="700" alt="Error message"></kbd>
+If connection to the M3 API is lost you will find an error message which looks like this. The general format of this message is
 
-In this error message it begins by telling us which service specifically is failing. You can recognize this by it being on a URL form. In this case _http://...rest/items/itemwarehouse/copy_
+<kbd><img src="../images/error-msg.png" width="300" alt="Error message"></kbd>
 
-This is then followed by a server error message usually starting with &quot;Status…&quot;. Per above
+Most common cause for this error is network issues like failing to connect to a VPN.
 
-_Status: 500 (Internal Server Error)_
+#### Example 2 - M3 API error
+M3 API errors usually contain the NOK word in the message. If you see these too often you can find the detailed error message in the browser console (in most browsers you can open the console using either F12 or Ctrl + Shift + I)
 
-After this can come any number of details about the error. In the above example it is an M3 API failing. When you see a &quot;NOK&quot; this is going to be an M3 API error. And in the above example we can see that there is some sort of problem in M3 with the Trade Stat: Error: NOK - Consumption code - trade stat (TST) does not exist
-
-So this in this case it is not necessarily the application that is failing, but M3 is complaining about the input to the api call. This is a problem that may be due to data in M3 being incorrect, and can possibly be fixed in M3 to make it work in the application without even contacting support. However, knowing exactly what API that failed in M3 is not necessarily clear and you must still know what the application is trying to do to draw conclusions about what could be wrong in M3.
-
-Example 2 - The &quot;Status 0&quot; error
-
-If by chance you see somewhere in the error that it mentions &quot;Status 0&quot; (zero) this means that your browser itself ran into an unexpected problem. It is unfortunately almost impossible to know what has happened to cause this or even to diagnose the problem. It is your browser that errored out, and not the server (which is sometimes the unfortunate nature of browser based applications).
-
-Some &quot;usual suspects&quot; that could have caused this (but by far not limited to)
-
-•The request timed out and browser aborted it
-
-•You clicked something else, navigating away from a page, while a request was still happening in the background and the browser aborted your previous request
-
-•Generic network related problems caused unexpected abort by browser
-
-If you see this you should try re-doing what you just did. For example load something else in the app, then go back in and load the data that caused the issue, and so on. If the problem persists you will need to contact your application administrator.
-
-Also you should avoid clicking around all too much in the application while you see a loading icon on the screen.
+#### Example 3 - Miscellaneous error
+Errors of the sort “Cannot find x of undefined” can be classified under this. Ideally these should not happen. If you find these errors please report to the dev team.
 
 [Go to Top](#table-of-contents)
 

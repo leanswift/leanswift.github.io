@@ -3,10 +3,16 @@
 # MobileFirst for Infor M3 Cloud
 
 - ## @ [AppStore](https://apps.apple.com/us/app/mobilefirst-for-infor-m3-cloud/id1501667398)
+
 - ## Getting Started
+
 - ## Net Change / Release Notes
+
 - ## User Guide - MO Creation 
+
 - ## User Guide - MO Receipt 
+
+- ## [User Guide - PO Inspection](./POInspection.md)
 
 
 # MobileFirst for Infor M3
