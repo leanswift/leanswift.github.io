@@ -84,18 +84,11 @@
 
 [Go to Top](#table-of-contents)
 
-# IMS
-
-ION Messaging Service (also known as Infor Application Connector in latest MT instances) is a loosely coupled connector that allows applications to integrate with ION through REST/JSON APIs.
-
-This is the specification to incorporate functionality to post data from eConnect/Magento to Infor M3 via ION using IMS. Customer Creation and Order Creation functionality in eConnect will be enhanced to support this, in addition to existing implementation for these functionality using M3 ION APIs.
-
-[Go to Top](#table-of-contents)
 
 
 ## Transactions
 
-eConnect 20.2.0 includes the following set of standard transactions like its previous versions:
+eConnect 20.1.0 includes the following set of standard transactions like its previous versions:
 
 - Product Addition
 - Product Information Sync
@@ -149,7 +142,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 
 This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation, though the general workflow is similar.
 
-This manual describes the configuration of LeanSwift eConnect for Infor M3 with ION. For a detailed description of the standard transactions, please refer to **Part II of the User Manual - LeanSwift eConnect for M3**  **20.2.0**.
+This manual describes the configuration of LeanSwift eConnect for Infor M3 with ION. For a detailed description of the standard transactions, please refer to **Part II of the User Manual - LeanSwift eConnect for M3**  **20.1.0**.
 
  **Section 2** in this manual includes the configuration required within LeanSwift eConnect Magento extension via the Magento Admin panel.
  
