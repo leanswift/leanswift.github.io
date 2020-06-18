@@ -7,8 +7,8 @@
 
 |  **Software Name**  |  **Version**  |
 | --- | --- |
-| Infor M3 (ST) | 13.4 |
-| Infor M3 (MT) | 16.1 |
+| Infor M3 (Single-Tenant/On-Premise) | 13.4 |
+| Infor M3 Cloud (Multi-Tenant) | 16.1 |
 | Infor H5 SDK version | 2.2.1 |
 
 ## Standard Features
@@ -28,9 +28,13 @@ All the standard functionalities of Accounts Receivable are supported in v8.0.0,
 ## Highlights
 
 1. Built from scratch using the latest version of Infor M3 H5 SDK (version 2.2.1)
+
 2. Overall performance improvements
+
 3. PWA support in standalone mode (works only in ST)
+
 4. Compatibility for recent security changes with Infor APIs
+
 5. Performance &amp; stability improvements to Invoice table
   - Much more consistent totals calculation for invoices
   - Invoice table doesn&#39;t load all of the order and discount details like previous versions to improve performance and reduce the number of failures.
@@ -44,6 +48,7 @@ All the standard functionalities of Accounts Receivable are supported in v8.0.0,
     7. Discount amount
     8. Net amount
     9. Discount date
+    
 6. Removed all MDBREADMI calls and instead makes used of EXPORTMI extensively in the following arears
 
 - Invoice Module: For finding discount details
@@ -79,17 +84,6 @@ This version does not support the following:
  Orders,Order lines and Order Charges
 - Pricing ,Discount Model and Order Types in Basic Data section.
 
-## GitHub Links
+## Point of Contact
 
-1. [All](https://leanswift.atlassian.net/issues/?jql=project%20%3D%20LHW%20ORDER%20BY%20priority%20DESC)
-2. [Bugs](https://leanswift.atlassian.net/issues/?jql=issuetype%20%3D%20Bug%20AND%20project%20%3D%20LHW%20ORDER%20BY%20priority%20DESC)
-3. [Story/Task](https://leanswift.atlassian.net/issues/?jql=issuetype%20in%20(Epic%2C%20Story%2C%20Task%2C%20Subtask)%20AND%20project%20%3D%20LHW%20ORDER%20BY%20priority%20DESC)
-
-
-## Points of Contact
-
-1. [shyam.sathyanathan](mailto:shyam.sathyanathan@leanswift.com)[@leanswift.com](mailto:shyam.sathyanathan@leanswift.com)
-2. [backiyalakshmi.r@leanswift.com](mailto:backiyalakshmi.r@leanswift.com)
-3. [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@leanswift.com)
-4. [srinidhi.narayanan](mailto:srinidhi.narayanan@leanswift.com)[@leanswift.com](mailto:srinidhi.narayanan@leanswift.com)
-5. [nrithya.rajagopalan@leanswift.com](mailto:nrithya.rajagopalan@leanswift.com)
+[LeanSwift](mailto:info@leanswift.com)[@leanswift.com](mailto:info@leanswift.com)
