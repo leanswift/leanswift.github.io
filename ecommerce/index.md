@@ -28,7 +28,7 @@
 </br>
 </br>
 
-# [eConnect for Infor M3](pages/econnect-sxe/econnect-sxe.md)
+# [eConnect for Infor SX.e](pages/econnect-sxe/econnect-sxe.md)
 
 # Other Extensions & Add-ons for Infor SX.e / Infor CloudSuite Distribution
 
