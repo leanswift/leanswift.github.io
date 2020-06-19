@@ -52,7 +52,7 @@
   
 ## Overview 
 
-This user guide will cover the Accounts Receivable application. This webapp takes information and data from multiple places in Infor M3 such as, but not limited to, CRS610, MFS610, ARS200, RMS440, and combines them into one interface. This should allow a credit manager to do all of their job functions from one place rather than going into multiple programs and screens in Infor M3 to enter, edit, and obtain information.This version is compatible with Infor M3 13.4 (on-premise) and Infor M3 CloudSuite.
+This user guide will cover the Accounts Receivable application. This webapp takes information and data from multiple places in Infor M3 such as, but not limited to, CRS610, MFS610, ARS200, RMS440, and combines them into one interface. This should allow a credit manager to do all of their job functions from one place rather than going into multiple programs and screens in Infor M3 to enter, edit, and obtain information. This version is compatible with Infor M3 13.4 (on-premise) and Infor M3 CloudSuite (multi-tenant cloud).
 
 [Go to Top](#table-of-contents)
 
@@ -293,7 +293,9 @@ _To: steve@penguinglasscorp.com,jamesh@penguinglasscorp.com_
 
 #### Tickler Notes _By Invoice Number_
 
-**Please note.** \*\* This functionality is slightly different than the Tickler Notes page. The button below the list of Invoices labeled &quot;Tickler Note&quot; will allow you to add an invoice reference to a Tickler Note (or create a new Tickler Note with the selected invoice as a reference). \*\*\*\* This is NOT a &quot;shortcut&quot; to the standard Tickler Note functionality on the \*\*\*\* Tickler Note page \*\*\*\* described in a separate section.\*\*
+> **Please note.** \*\* _This functionality is slightly different than the Tickler Notes page. The button below the list of Invoices labeled &quot;Tickler Note&quot; will allow you to add an invoice reference to a Tickler Note (or create a new Tickler Note with the selected invoice as a reference)._ 
+
+> \*\*\*\* This is NOT a &quot;shortcut&quot; to the standard Tickler Note functionality on the \*\*\*\* Tickler Note page \*\*\*\* described in a separate section.\*\*
 
 First you have to select a single line, one invoice, and then press the Tickler Note button. A popup window will appear. This window can look somewhat different depending on if there is already an existing tickler note invoice reference on the invoice you selected, or if there is no such pre-existing reference. _Note. There is a 1:1 relationship when it comes to a Tickler Note and an Invoice._
 
@@ -483,7 +485,7 @@ Errors of the sort “Cannot find x of undefined” can be classified under this
 Few APIs have a limit on the number of records returned. Below are the list of functionalities that use APIs which are limited to 1000 results
 1. Open Invoices, Paid Invoices, Payer Information, Orders, Order Lines and Order Charges
 2. Pricing, Discount Model and Order Types in Basic Data section
-3. MT version doesn't work on Safari browser.
+3. MT version doesn't work on Safari browser
 
 [Go to Top](#table-of-contents)
 
