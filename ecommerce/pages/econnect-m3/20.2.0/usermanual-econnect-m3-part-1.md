@@ -65,7 +65,7 @@
 
 ## Architecture with IMS for multi-tenant Cloud M3
 
-<kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/architecture-with-ebase.png"></kbd>
+<kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/architecture-withebase.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -476,7 +476,7 @@ is set to &#39;Yes&#39;, Customer creation is done via IMS, else the regular eco
 
 This feature is intended for a B2B setup where new customers are allowed to register themselves on the front-end.
 
- <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config3.png"></kbd>
+ <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-configuration3.png"></kbd>
 
 If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed.
 
