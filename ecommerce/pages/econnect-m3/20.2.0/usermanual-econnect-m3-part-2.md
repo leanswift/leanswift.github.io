@@ -1,16 +1,6 @@
-![](RackMultipart20200604-4-58zvro_html_5749ee4c7fdc9cd3.png)
+#  User Manual - eConnect and ION Messaging Service- V20.2.0
 
-# **USER MANUAL**
-
-**LeanSwift eConnect** 
-
-**for Infor M3 &amp;Magento** 
-
-**Part II – Standard Transactions &amp; Processes**
-
-**Product Version 20.2.0**
-
-**ECONNECT 20.2.0 USER MANUAL**
+![eConnect bnner](../../../../images/banner-econnect-m3.jpg)
 
 
 # TABLE OF CONTENTS
