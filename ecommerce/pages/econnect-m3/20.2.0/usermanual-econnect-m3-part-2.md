@@ -96,7 +96,7 @@ econnect-user-manual-ion-part2
 
 
 
-<kbd><img alt="architecture-withebase" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/architecture-with-ebase.png"></kbd>
+<kbd><img alt="architecture-withebase" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/architecture-withebase.png"></kbd>
 
 
 
