@@ -430,7 +430,7 @@ been created in M3 in order to avoid the risk of duplicates.
 
 The order creation process can be initiated in a number of different ways – both manual and automated background (cron) jobs.
 
-To manually initiate the order creation in M3 following the creation of an order from the Magento front-end (or from within Admin), the action &#39;Sync Order with M3&#39; should be used. This option can be found within the Sales order grid (_Sales \&gt; Orders_).
+To manually initiate the order creation in M3 following the creation of an order from the Magento front-end (or from within Admin), the action &#39;Sync Order with M3&#39; should be used. This option can be found within the Sales order grid (Sales > Orders).
 
 <kbd><img alt="Transaction overview" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/sync-order-with-m3.png"></kbd>
 
@@ -491,7 +491,7 @@ detailing the Magento order#.
 
 <kbd><img alt="order placed" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-orderplaced.png"></kbd>
 
-In Magento Admin, the order can now be found in the Order grid (_Sales \&gt; Orders_), and the most recent order is at the top of the list.
+In Magento Admin, the order can now be found in the Order grid (Sales > Orders), and the most recent order is at the top of the list.
 
 <kbd><img alt="orders page" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-order.png"></kbd>
 
@@ -514,7 +514,7 @@ If the order creation progresses successfully [as in the example above], the fin
 
 Order creation in a B2C environment can be handled in two different ways within eConnect, and they differ with regards to how the Customer is managed from an M3 perspective.
 
-Which Customer approach is used is handled via the eConnect configuration within _LS \&gt; eConnect-ION \&gt; Configuration \&gt; Customer General Configuration_.
+Which Customer approach is used is handled via the eConnect configuration within LS > eConnect-ION > Configuration >  Customer General Configuration.
 
 **Common Customer**
 
