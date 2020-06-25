@@ -484,9 +484,7 @@ In this example, eConnect has been configured to transfer Sales tax, and a line 
 
 <kbd><img alt="order charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-charges.png"></kbd>
 
-After pressing &#39;Place Order&#39; at the final step of the checkout process, a confirmation is received
-
-detailing the Magento order#.
+After pressing &#39;Place Order&#39; at the final step of the checkout process, a confirmation is received detailing the Magento order#.
 
 <kbd><img alt="order placed" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-orderplaced.png"></kbd>
 
@@ -494,9 +492,7 @@ In Magento Admin, the order can now be found in the Order grid (Sales > Orders),
 
 <kbd><img alt="orders page" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-order.png"></kbd>
 
-To manually initiate the order sync, select the order/orders (1) and under **Actions** on the upper
-
-right hand side of the grid header select &#39;Sync Orders with M3&#39;.
+To manually initiate the order sync, select the order/orders (1) and under **Actions** on the upper right hand side of the grid header select &#39;Sync Orders with M3&#39;.
 
 <kbd><img alt="orders page" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-order-sync.png"></kbd>
 
@@ -534,9 +530,7 @@ Besides the customer creation step when discrete customer is used in a B2C scena
    
 ### Shipcomplete
 
-The Ship Complete functionality offers customers an option to allow end-customers to during
-
-ordering select to have the entire order shipped &quot;complete&quot;, i.e. in a single shipment.
+The Ship Complete functionality offers customers an option to allow end-customers to during ordering select to have the entire order shipped &quot;complete&quot;, i.e. in a single shipment.
 
 This functionality is enabled in LS > eConnect-ION > Configuration > Sales, by setting **Enable Ship Complete** to &#39;Yes&#39;. If this has been enabled, the customers on the site/store in question will have the option to during the checkout process select &#39;Ship Complete&#39; for their order:
 
@@ -612,9 +606,7 @@ Order is manually synchronized with M3:
 
 <kbd><img alt="Giftwrap temporder" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-temporder.png"></kbd>
 
-A review of the order in M3 validates that the $26.00 order level gift wrap charge, as well as the
-
-$26.00 line gift wrap charge for the  line item are both in place correctly. The name of the Gift wrap charge is also transferred to the name of the corresponding charge.
+A review of the order in M3 validates that the $26.00 order level gift wrap charge, as well as the $26.00 line gift wrap charge for the  line item are both in place correctly. The name of the Gift wrap charge is also transferred to the name of the corresponding charge.
 
 <kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-charges.png"></kbd>
 
@@ -637,9 +629,7 @@ A key component of any B2C [and most B2B] implementation/s is the processing of 
 
 The authorization performed by Magento is transferred over to eConnect without the need to perform any additional reference authorization from within M3.
 
-It&#39;s still possible to configure Magento to perform a &quot;Direct sale&quot;, i.e. to both authorize &amp; capture
-
-the funds as a single step when the order is placed if that&#39;s the desired.
+It&#39;s still possible to configure Magento to perform a &quot;Direct sale&quot;, i.e. to both authorize &amp; capture the funds as a single step when the order is placed if that&#39;s the desired.
 
 There is no credit card related information (i.e. transaction verification/authorization numbers, security codes, tokens etc.) passed from Magento to M3. All interaction with the payment gateway of choice (any of those supported by Magento), is handled by Magento.
 
@@ -664,9 +654,7 @@ Base eConnect comes with support for three types of order charges:
 2. Invoice fees
 3. Giftwrapping
 
-Each of these are in M3 added as an order header charge (i.e. can in M3 be found within
-
-&#39;Customer Order. Connect Charges&#39; (OIS103).
+Each of these are in M3 added as an order header charge (i.e. can in M3 be found within &#39;Customer Order. Connect Charges&#39; (OIS103).
 
 The following order provides an example of where all these three charges are present within Magento, and how they are represented within M3 (note – the Invoice fee setup is a backend configuration within eConnect):
 
@@ -703,10 +691,9 @@ Base eConnect comes with support for two types of order line charges:
 
 The following order provides an example of where these two charges are present within Magento, and how they are represented within M3:
 
-![](RackMultipart20200604-4-58zvro_html_ff0e2fa2d837c450.gif)
- ![](RackMultipart20200604-4-58zvro_html_1b5c345316e7ad5d.png)
+<kbd><img alt="Giftwrap magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-magento.png"></kbd>
 
-![](RackMultipart20200604-4-58zvro_html_2ad2e4e358f58820.png)
+<kbd><img alt="Giftwrap m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem.png"></kbd>
 
 
 **Sales Tax**
@@ -880,9 +867,7 @@ The installation of eConnect adds all of the custom statuses listed in the secon
 
 The value of the &#39;Status Text&#39; can be changed within each Magento installation.
 
-Magento standard functionality will then change an order from state _Processing_ to _Complete_
-
-when all order lines have been shipped andinvoiced.
+Magento standard functionality will then change an order from state _Processing_ to _Complete_ when all order lines have been shipped andinvoiced.
 
 [Go to Top](#table-of-contents)
 
@@ -930,9 +915,7 @@ eConnect is also prepared to also synchronize any tracking numbers that are ente
 
 **Delivery Tracking**
 
-A single tracking number can be entered for the entire delivery on detail panel F of the delivery
-
-in &#39;Delivery. Open Toolbox&#39; (MWS410).
+A single tracking number can be entered for the entire delivery on detail panel F of the delivery in &#39;Delivery. Open Toolbox&#39; (MWS410).
 
 <kbd><img alt="Shipment Tracking Info in M3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipment-trackinginfo-m3.png"></kbd>
 
@@ -940,15 +923,9 @@ in &#39;Delivery. Open Toolbox&#39; (MWS410).
 
 If a delivery contains one or multiple packages, the tracking number can also be added at the package level (if delivery is sent as small parcel for example).
 
-![](RackMultipart20200604-4-58zvro_html_903f35494ff02852.png)
-
 eConnect will search for tracking numbers in both of these places, starting with the delivery. A base assumption is that tracking numbers are not entered at both the delivery and the package level, but either or.
 
-Once shipment is created, shipment BOD updates the information into magento and order gets updated with the information
-
-Each delivery that is created within M3 will be synchronized over to Magento, and pegged with
-
-the M3 delivery number as a reference within the &#39;Shipment History&#39; section.
+Once shipment is created, shipment BOD updates the information into magento and order gets updated with the information, each delivery that is created within M3 will be synchronized over to Magento, and pegged with the M3 delivery number as a reference within the &#39;Shipment History&#39; section.
 
 
 <kbd><img alt="Shipments" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipments.png"></kbd>
@@ -970,9 +947,7 @@ When invoices are synchronized from M3 to Magento, each invoice in M3 (OINVOH/OI
 
 The invoice creation is limited to the functionality provided by Magento. This means that no additional charges can be added in M3 that does not exist on the Magento order, nor can changes be made within M3.
 
-Each invoice in Magento references the corresponding invoice in M3 within the &#39;InvoiceHistory&#39;
-
-section.
+Each invoice in Magento references the corresponding invoice in M3 within the &#39;InvoiceHistory&#39; section.
 
 Invoice information/Details are available in Sync.Invoice Bod and in Sync.ReceivableTransaction BODs.
 
