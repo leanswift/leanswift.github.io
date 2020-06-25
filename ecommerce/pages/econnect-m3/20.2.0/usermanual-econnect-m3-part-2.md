@@ -57,9 +57,7 @@
 
 ### Architecture
 
- The part of eConnect functionality dealing with connectivity to Infor OS and
-
- data processing has been moved out of eConnect extension into a new extension named
+ The part of eConnect functionality dealing with connectivity to Infor OS and data processing has been moved out of eConnect extension into a new extension named,
 
  **eConnect-base**.
 
@@ -70,24 +68,24 @@
 **eConnect-base v2.0.0**
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
+
 - Acts as the communication layer for RabbitMQ Message consumption
+
 - Acts as a core module for following LeanSwift Magento Extensions
 
   - eConnect
   - IDM
   - Supplier Portal
+  
 - eConnect add-ons depend on both eConnect-base and eConnect. eConnect and its Add-ons works only with eConnect-base configured
 
 - IDM can now work without eConnect
 
-econnect-user-manual-ion-part2
 
 **Architecture with ION for multi-tenant Cloud M3**
 
 
-
 <kbd><img alt="architecture-withebase" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/architecture-withebase.png"></kbd>
-
 
 
 ### Transactions
@@ -189,9 +187,7 @@ From a product perspective, eConnect relies on the &#39;External Item#&#39; valu
 
 <kbd><img alt="product set up information" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/product-setup-information.png"></kbd>
 
-The Product Information transaction offers the ability to sync select fields from the M3 Item
-
-master (MMS001/MITMAS) to Magento&#39;s Product attributes.
+The Product Information transaction offers the ability to sync select fields from the M3 Item master (MMS001/MITMAS) to Magento&#39;s Product attributes.
 
 The synchronization is initiated when there is change on the product&#39;s attribute/details in M3. Whenever there is a Add/Update/delete operation\* performed on the product in M3, Sync.ItemMaster, Sync.LS\_ItemMasterDetails BOD gets generated. The BOD is received by magento and the new information gets updated to the respective product.
 
@@ -242,8 +238,7 @@ Once the information is received, the correct price from M3 is also displayed wi
 
 The customer specific price transaction is normally used in a B2B scenario, when individual negotiated prices for different customer/item combination need to be displayed within the web shop.
 
-Whether or not to enable this transaction is controlled within the LeanSwift Magento extension
-LS > eConenct_ION > Configuration > Price Synchronization
+Whether or not to enable this transaction is controlled within the LeanSwift Magento extension LS > eConenct_ION > Configuration > Price Synchronization
 
 <kbd><img alt="Price Synchronization" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/price-synchronisation.png"></kbd>
 
@@ -423,9 +418,7 @@ Alongside Price &amp; Inventory, the Order Creation transaction is one of the co
 
 There are multiple steps involved in creating an order in M3, and these are covered later on in this section. The B2B order creation section provides details of the order process from both Magento front-end as well as Magento Admin. The differences in the B2C scenarios are discussed in the related sections.
 
-At the beginning of the process, a check is always made to ensure the order hasn&#39;t previously
-
-been created in M3 in order to avoid the risk of duplicates.
+At the beginning of the process, a check is always made to ensure the order hasn&#39;t previously been created in M3 in order to avoid the risk of duplicates.
 
 The order creation process can be initiated in a number of different ways – both manual and automated background (cron) jobs.
 
@@ -656,11 +649,6 @@ Base eConnect comes with support for three types of order charges:
 
 Each of these are in M3 added as an order header charge (i.e. can in M3 be found within &#39;Customer Order. Connect Charges&#39; (OIS103).
 
-The following order provides an example of where all these three charges are present within Magento, and how they are represented within M3 (note – the Invoice fee setup is a backend configuration within eConnect):
-
-![](RackMultipart20200604-4-58zvro_html_d6f8e115b964e061.gif)
-
-![](RackMultipart20200604-4-58zvro_html_940d6062000946db.png)
 
 **Freight(Shipping)**
 
@@ -715,7 +703,6 @@ If Gift Wrapping has been enabled to be sent to M3 within LS > eConnect-ION > Co
 
 This feature enables manual sync of orders with M3. We can choose multiple orders that require sync with M3 and choose &#39;Sync orders with M3&#39;. Clicking on Manual sync triggers &#39;Show&#39; BODs. Once the BOD reaches Magento, the information gets updated in respective tables in the DB. The order is sent to M3, once order is created, order status is updating on receiving respective Bods.
 
-![](RackMultipart20200604-4-58zvro_html_72b9d16719fdd93.png)
 
 [Go to Top](#table-of-contents)
 
