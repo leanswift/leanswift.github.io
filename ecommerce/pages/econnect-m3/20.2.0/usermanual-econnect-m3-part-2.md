@@ -323,20 +323,16 @@ The functionality is enabled via LS > eConnect-ION > Configuration > Customer Ad
 1. &#39;Enable&#39; set to &#39;Yes&#39; enables the Module.
 2. &#39;Enable Customer sync&#39; set to &#39;Yes&#39; to enable Customer Sync
 3. &#39;Enable Customer Addition&#39; set to &#39;Yes&#39; to enable Customer Addition
-4. &#39;Customer Group Id&#39; contains the value of the M3 customer group that the
-
-customer creation is based on.
+4. &#39;Customer Group Id&#39; contains the value of the M3 customer group that the customer creation is based on.
 
 1. &#39;New Account Email Notification&#39; This feature will send an e-mail notification when a new customer gets added into magento from M3
 2. Customer Master Mapping
 3. Customer Address Mapping
 
-This feature imports all the customers from M3 into Magento irrespective of customer status in M3. A default email address is created if there is no email address associated to a customer in M3. Customer&#39;s email address will get updated only once from dummy email to valid email address. Once valid email address([xxx@leanswift.com](mailto:xxx@leanswift.com)) gets updated, any further changes to email address will not make an update in our eConnect
+This feature imports all the customers from M3 into Magento irrespective of customer status in M3. A default email address is created if there is no email address associated to a customer in M3. Customer&#39;s email address will get updated only once from dummy email to valid email address. Once valid email address ([xxx@leanswift.com](mailto:xxx@leanswift.com)) gets updated, any further changes to email address will not make an update in our eConnect
 
 When a customer is created in M3, Customer gets added into magento if &#39;Customer Addition&#39; is enabled.
-
 This process triggers Sync.CustomerPartyMaster and Sync.LS\_CustomerDetails.
-
 If customer has addresses added in M3, it triggers Sync.BillToPartyMaster and Sync.ShipToPartyMaster BODs.
 
 [Go to Top](#table-of-contents)
@@ -370,28 +366,20 @@ The Customer details (basic- &amp; financial data) (OCUSMA) comes from Sync.Cust
 
 The Customer Addresses (OCUSAD) comes from Sync.BillToPartyMaster and Sync.ShipToPartyMaster
 
-**Customer Master Details:** Whenever there is an update in OCUSMA table i.e CRS610, Sync.CustomerPartyMaster and/or Sync.LS\_CustomerDetails gets triggered. When there is a corresponding customer in Magento, the changes will get synced from M3 to Magento via BOD&#39;s
+- **Customer Master Details:** Whenever there is an update in OCUSMA table i.e CRS610, Sync.CustomerPartyMaster and/or Sync.LS\_CustomerDetails gets triggered. When there is a corresponding customer in Magento, the changes will get synced from M3 to Magento via BOD&#39;s
 
-**Customer Addresses Mapping** handles the synchronization of address of type 1 &amp; 3 from Customer. Connect Addresses (OIS002), OCUSAD.
+- **Customer Addresses Mapping** handles the synchronization of address of type 1 &amp; 3 from Customer. Connect Addresses (OIS002), OCUSAD.
 
-Similar to CustomerPartyMaster BOD, when there is Add/Update operation in OCUSAD,
-
-Sync.CustomerPartyMaster, Sync.BillToPartyMaster and Sync.ShipToPartyMaster BODs triggers\* and the same gets synced into Magento
-
-Depending on which address/detail gets updated in M3, corresponding BOD gets triggered.
+Similar to CustomerPartyMaster BOD, when there is Add/Update operation in OCUSAD,Sync.CustomerPartyMaster, Sync.BillToPartyMaster and Sync.ShipToPartyMaster BODs triggers\* and the same gets synced into Magento. Depending on which address/detail gets updated in M3, corresponding BOD gets triggered.
 
 The **Address** tab within the **Customer Information** in Magento has two additional fields to store the origin of the address in M3.
 
-**ERP Address Type** contains values such as:
+- **ERP Address Type** contains values such as:
 
 _DEFAULT_: The main address from the Customer master (CRS610/E) is now not available in ION version.
-
 _01\_DELIVERY_: The shipping address from &#39;Customer. Connect Addresses&#39; _03\_INVOICE_: The billing address from &#39;Customer. Connect Addresses&#39; (OIS002)
 
-**ERP Address ID** contains the actual sequence#/ID for the address in question as defined within
-
-M3 (also in &#39;Customer. Connect Addresses&#39; – OIS002).
-
+- **ERP Address ID** contains the actual sequence#/ID for the address in question as defined within M3 (also in &#39;Customer. Connect Addresses&#39; – OIS002).
 Account information tab saves the Variation ID, BOD Timestamp and BOD ID for future reference.
 
 <kbd><img alt="Synchronization process addresstype1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/sync-process.png"></kbd>
@@ -431,7 +419,7 @@ This option performs the steps required to push the sales order from Magento in 
 
 The validation within Magento consist of feedback of what the temporary [batch] order number is ( **Temp Ord#** ), the final M3 customer order number ( **Final Ord#** ) as well as the order status ( **Status** ).
 
-This option also creates any new Shipments &amp; Invoices in Magento based on what&#39;s in M3. For more information on status, shipment &amp; invoice synchronization in this version of eConnect, please refer to sections **2.7** – **2.9**.
+This option also creates any new Shipments &amp; Invoices in Magento based on what&#39;s in M3. For more information on status, shipment &amp; invoice synchronization.
 
 The verification message displayed to the user also contains a wealth of information [besides the temporary order number] such as
 
@@ -464,7 +452,7 @@ In this example, a test customer with e-mail ID [deepthi.tadikamalla@leanswift.c
 <kbd><img alt="Customer details" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry.png"></kbd>
 
 
-After logging in on the front-end, and order is placed for 1 EA of item 200200 is added to cart. The customer specific price is already applied at this point (based on 1 EA of the item in question):
+After logging in on the front-end, and order is placed for 1 EA of item Roller Bearing is added to cart. The customer specific price is already applied at this point (based on 1 EA of the item in question):
 
 <kbd><img alt="order addition" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-pdt-addtion.png"></kbd>
 
@@ -546,9 +534,7 @@ Pre-requisites
 
 - Gift Wrapping on Order &amp; Product level have been enabled in Magento under System > Configuration > Sales > GiftOptions.
 
-- A cost for the Giftwrapping is[optionally]assigned to the products in the &#39;GiftOptions&#39;
-
-section of the Product Information.
+- A cost for the Giftwrapping is[optionally]assigned to the products in the &#39;GiftOptions&#39; section of the Product Information.
 
 - All applicable Gift Wraps are defined in Magento under Stores > GiftWrapping.
 
@@ -611,8 +597,6 @@ Should eConnect have been configured to instead use non-stock items, the result 
 The current logic places the non-stock item for each line-related gift-wrapping charge right after the line it belongs to, and the order total gift wrapping item at the very bottom.
 
 <kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem-details.png"></kbd>
-
-The configuration with non-stock items might be preferable should there be a need to info warehousepersonneltoinclude/performcertaingiftwrappinginconnectionwithpicking&amp; packing the order.
 
    
 ### Credit Card Management
@@ -685,16 +669,11 @@ The following order provides an example of where these two charges are present w
 
 **Sales Tax**
 
-As of this version of eConnect, Sales Tax is passed as a line charge per order line.
+As of this version of eConnect, Sales Tax is passed as a line charge per order line. Whether or not to pass Sales Tax to M3 is controlled via LS > eConnect-ION > Configuration > Order Charges.
 
-Whether or not to pass Sales Tax to M3 is controlled via LS > eConnect-ION > Configuration > Order Charges.
-
-&#39;Tax Transfer&#39; controls whether to pass tax amounts to M3. Setting this value to &#39;Yes&#39;
-
-enables the transfer and opens the second related field below.
+&#39;Tax Transfer&#39; controls whether to pass tax amounts to M3. Setting this value to &#39;Yes&#39; enables the transfer and opens the second related field below.
 
 **Gift Wrapping**
-
 
 If Gift Wrapping has been enabled to be sent to M3 within LS > eConnect-ION > Configuration > Order Charges, and charges have been selected to be used – any line-level Gift Wrapping cost in Magento will be passed over as a line charge to the corresponding order line in M3.
 
@@ -750,25 +729,18 @@ Import can be based on certain filter conditions.
 <kbd><img alt="Import Invoices" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/import-invoices.png"></kbd>
 
 **From Date:**
-
 Date from which data has to be imported
 
 **To Date:**
-
 Date upto which data has to be imported
 
 **Number of actions:**
-
 Restricts the number of records returned from import
 
 **Query:**
-
-Any conditions can be mentioned here
-
-Once import is done, the last imported date is displayed
+Any conditions can be mentioned here. Once import is done, the last imported date is displayed
 
 **Import History**
-
 This displays the history of imports done in the system. Clicking on this will navigate to a page that displays information on which module was imported and the corresponding conditions that were used.
 
 <kbd><img alt="Import History" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/import-history.png"></kbd>
@@ -997,7 +969,6 @@ Some filter capabilities exist also for the &#39;My Invoice&#39; view.
 1. A certain Customer PO# can be filtered
 
 In the case where a common customer number is used in a B2C setup, only invoice history from within Magento is displayed.
-
 All orders related to customer is shown up in the page irrespective of how old the order is.
 
 [Go to Top](#table-of-contents)
