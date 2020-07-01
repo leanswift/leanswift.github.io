@@ -113,9 +113,6 @@ eConnect 20.2.0 includes the following set of standard transactions like its pre
 - Invoice History
 - BOD Mapping
 - Initial Load / Import
-- Manual Sync for Customer
-- Manual Sync for Product
-- Manual Sync for Order
 
 These transactions can, if necessary, be modified and new transactions can be added to fulfill specific customer requirements.
 
@@ -123,15 +120,13 @@ These transactions can, if necessary, be modified and new transactions can be ad
 
 ## User Interface
 
-
 During setup, the Magento Admin panel is used to configure which transactions should be used and how they should function.There is also additional background configuration within the Connector.
 
 **Validated versions**
 
 - Magento Commerce 2.3.5
-- Magento Open Source 2.3.4
+- Magento Open Source 2.3.5
 - Infor M3 16.1
-- LeanSwift eLink 7.6.3
 - RabbitMQ 3.8.3
 - Infor ION Grid 12.0.2.0.20180308-135417.2
 - ION Desk 12.0.0
@@ -140,7 +135,7 @@ During setup, the Magento Admin panel is used to configure which transactions sh
 
 ## Points of Contact
 
-This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at [http://www.leanswift.com](http://www.leanswift.com/)or email info@leanswift.com
+This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at [http://www.leanswift.com](http://www.leanswift.com/) or email info@leanswift.com
 
 [Go to Top](#table-of-contents)
 
@@ -149,9 +144,9 @@ This document and the software it describes are provided by LeanSwift Solutions 
 
 This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation, though the general workflow is similar.
 
-This manual describes the configuration of LeanSwift eConnect for Infor M3 with ION. For a detailed description of the standard transactions, please refer to **Part II of the User Manual - LeanSwift eConnect for M3**  **20.2.0**.
+This manual describes the configuration of LeanSwift eConnect for Infor M3 with ION. For a detailed description of the standard transactions, please refer to **[Part II of the User Manual - LeanSwift eConnect for M3](https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/pages/econnect-m3/20.2.0/usermanual-econnect-m3-part-2.md)**  **20.2.0**.
 
- **Section 2** in this manual includes the configuration required within LeanSwift eConnect Magento extension via the Magento Admin panel.
+ This manual includes the configuration required within LeanSwift eConnect Magento extension via the Magento Admin panel.
  
 [Go to Top](#table-of-contents)
 
@@ -161,10 +156,8 @@ This manual describes the configuration of LeanSwift eConnect for Infor M3 with 
 
 - ERP – Enterprise Resource Planning
 - B2B – Business to Business
-- Business to Consumer
-- RMA – Return Materials Authorization
-
-
+- B2C – Business to Consumer
+- IMS – ION Messaging Service
 
 
 # CONFIGURATION
