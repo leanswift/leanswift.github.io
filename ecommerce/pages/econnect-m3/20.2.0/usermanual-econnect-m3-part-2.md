@@ -19,7 +19,7 @@
 - [Standard Transactions](#standard-transactions)
     - [Summary](#summary)
     - [Assumptions And Limitations](#assumptions-and-limitations)
-  - [Product Setup &amp; Information](#product-setup-amp-information)
+  - [Product Setup and Information](#product-setup-and-information)
     - [Manual Sync Process](#manual-sync-process)
   - [Price](#price)
     - [Single Price List](#single-price-list)
@@ -45,7 +45,7 @@
     - [Manual Sync Process](#manual-sync-process)
   - [Order Information](#order-information)
     - [Transaction Overview](#transaction-overview)
-    - [Magento &amp; M3 Order Status Relation](#magento-amp-m3-order-status-relation)
+    - [Magento and M3 Order Status Relation](#magento-and-m3-order-status-relation)
   - [Shipment](#shipment)
     - [Shipments In Magento](#shipments-in-magento)
     - [Deliveries In M3](#deliveries-in-m3)
@@ -139,16 +139,13 @@ This document and the software details are provided by LeanSwift Solutions Inc. 
 
 This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation – though the general workflow is similar.
 
-Section 2 of this manual describes the various standard transactions included in the base offering of LeanSwift eConnect for Infor M3.
+This manual describes the various standard transactions included in the base offering of LeanSwift eConnect for Infor M3.
 
 ## Acronyms And Abbrevations
 
 - ERP – Enterprise Resource Planning 
-
 - B2B – Business to business
-
 - B2C – Business to consumer
-
 - IMS – ION Messaging Service
 
 [Go to Top](#table-of-contents)
@@ -188,7 +185,7 @@ No additional charges (such as Freight) are added within M3 once the order has b
 [Go to Top](#table-of-contents)
 
   
-## Product Setup &amp; Information
+## Product Setup and Information
 
 From a product perspective, eConnect relies on the &#39;External Item#&#39; value. This value must be equal to the corresponding M3 item number for all of the eConnect transactions to function as they should.
 
@@ -803,7 +800,7 @@ If a customer then has one partially allocated &amp; invoiced line (status 37), 
 [Go to Top](#table-of-contents)
 
     
-### Magento &amp; M3 Order Status Relation
+### Magento and M3 Order Status Relation
 
 Since Magento only supports order statuses on order level (not order line level), eConnect can only update the Magento order status based on the M3 order header status.
 
