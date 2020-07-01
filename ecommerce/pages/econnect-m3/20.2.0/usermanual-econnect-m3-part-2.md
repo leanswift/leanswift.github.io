@@ -49,11 +49,11 @@
 
 # 1.0 System Overview
 
-- **LeanSwift eConnect for Infor M3** _ provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
+ **LeanSwift eConnect for Infor M3**  provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
 
-- **LeanSwift eConnect for Infor M3** _ is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (CloudSuite).
+ **LeanSwift eConnect for Infor M3**  is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (CloudSuite).
 
-- **LeanSwift eConnect for Infor M3** _ employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
+ **LeanSwift eConnect for Infor M3**  employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
 
 ### Architecture
 
@@ -82,7 +82,7 @@
 - IDM can now work without eConnect
 
 
-**Architecture with ION for multi-tenant Cloud M3**
+**Architecture with IMS for multi-tenant Cloud M3**
 
 
 <kbd><img alt="architecture-withebase" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/architecture-withebase.png"></kbd>
@@ -108,9 +108,7 @@ eConnect 20.2.0 includes the following set of standard transactions like its pre
 - Invoice History
 - Initial Load / Import
 - BOD Mapping
-- Manual Sync for Customer
-- Manual Sync for Product
-- Manual Sync for Order
+
 
 ### User Interface
 
@@ -118,17 +116,16 @@ During setup, the Magento Admin panel is used to configure which transactions sh
 
 ### Validated Versions
 
-- Magento Commerce 2.3.4
-- Magento Open Source 2.3.4
+- Magento Commerce 2.3.5
+- Magento Open Source 2.3.5
 - Infor M3 16.1
-- LeanSwift eLink 7.6.3
 - RabbitMQ 3.8.3
 - Infor ION Grid 12.0.2.0.20180308-135417.2
 - ION Desk 12.0.0
 
 ## Points Of Contacts
 
-This document and the software details are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc via contact form at [http://www.leanswift.com](http://www.leanswift.com/)or email info@leanswift.com
+This document and the software details are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc via contact form at [http://www.leanswift.com](http://www.leanswift.com/) or email info@leanswift.com
 
 ## Organization Of The Manual
 
@@ -138,11 +135,13 @@ Section 2 of this manual describes the various standard transactions included in
 
 ## Acronyms And Abbrevations
 
-ERP – Enterprise Resource Planning B2B – Business to business
+- ERP – Enterprise Resource Planning 
 
-B2C – Business to consumer
+- B2B – Business to business
 
-RMA – Return Materials (Merchandise) Authorization
+- B2C – Business to consumer
+
+- IMS – ION Messaging Service
 
 [Go to Top](#table-of-contents)
 
@@ -150,7 +149,7 @@ RMA – Return Materials (Merchandise) Authorization
 
 LeanSwift eConnect comes with a number of standard transactions included. This section provides a detailed walkthrough of each of them.
 
-Please refer to **Part I** of the User Manual for the required configuration behind each of the transactions.
+Please refer to **[Part I](https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/pages/econnect-m3/20.2.0/usermanual-econnect-m3-part-1.md)** of the User Manual for the required configuration behind each of the transactions.
 
    
 ### Summary
