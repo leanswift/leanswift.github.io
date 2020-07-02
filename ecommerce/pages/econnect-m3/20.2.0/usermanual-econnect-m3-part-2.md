@@ -67,8 +67,6 @@
 
  **eConnect-base**.
 
- From 20.2.0 onward, eConnect will require the eConnect-base extension to function.
-
  eConnect 20.2.0 is compatible with eConnect-base 2.0.0.
 
 **eConnect-base v2.0.0**
