@@ -297,7 +297,7 @@ We have a &#39;Test connection&#39; button to verify if connection is up.
 
 <kbd><img alt="IMS Configuration Part1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/IMSconfig1.png"></kbd>
 
-<kbd><img alt="IMS Configuration Part2" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/IMSconfig2.png"></kbd>
+<kbd><img alt="IMS Configuration Part2" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/Imsconfig2.png"></kbd>
 
 **Debug/log data**
 
