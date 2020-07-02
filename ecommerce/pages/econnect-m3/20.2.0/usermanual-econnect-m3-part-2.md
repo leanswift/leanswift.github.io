@@ -450,7 +450,7 @@ If the order was manually synchronized as described in the previous section, the
 
 Please note that orders normally are synchronized between Magento &amp; M3 via the background cron job, but that the manual option used in this example can be used whenever needed on individual orders.
 
-In this example, a test customer with e-mail ID [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@leanswift.com)is used. This customer is associated to a test B2B site and to M3 customer# **LEAN000399** :
+In this example, a test customer with e-mail ID [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@leanswift.com) is used. This customer is associated to a test B2B site and to M3 customer# **LEAN000399** :
 
 <kbd><img alt="Customer details" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry.png"></kbd>
 
@@ -479,7 +479,7 @@ To manually initiate the order sync, select the order/orders (1) and under **Act
 
 <kbd><img alt="orders page" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-order-sync.png"></kbd>
 
-Once a manual synchronization is complete, the user is presented with a confirmation message in the header of the order grid. The confirmation contains information on temporary- &amp; final order numbers as well as whether any shipments or invoices were added to Magento (more details on the Shipment and Invoice sync can be found in sections 2.8 &amp; 2.9).
+Once a manual synchronization is complete, the user is presented with a confirmation message in the header of the order grid. The confirmation contains information on temporary- &amp; final order numbers as well as whether any shipments or invoices were added to Magento (more details on the Shipment and Invoice sync can be found in respective sections).
 
 <kbd><img alt="Temp order number generated" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-temp-order.png"></kbd>
 
