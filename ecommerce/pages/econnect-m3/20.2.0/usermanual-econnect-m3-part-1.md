@@ -5,8 +5,6 @@
 
 # Table of contents
 
-- [TABLE OF CONTENTS](#table-of-contents)
-
 - [GENERAL INFORMATION](#general-information)
   - [System Overview](#system-overview)
   - [Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
