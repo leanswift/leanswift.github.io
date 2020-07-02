@@ -557,7 +557,7 @@ Furthermore, at least one Gift Wrap needs to be defined for the website under St
 
 To illustrate the functionality, an order is placed for two test items.
 
-<kbd><img alt="Gift wrap" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2giftwrap-chargeanditem-.png"></kbd>
+<kbd><img alt="Gift wrap" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-chargeanditem-.png"></kbd>
 
 In the &#39;View and Edit cart&#39; page, we can choose the gift options:
 
