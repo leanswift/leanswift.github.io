@@ -7,7 +7,7 @@
 
 - [User Manual - eConnect and ION Messaging Service- V20.2.0](#user-manual---econnect-and-ion-messaging-service--v2020)
 - [TABLE OF CONTENTS](#table-of-contents)
-- [](#)
+
 - [1.0 System Overview](#10-system-overview)
     - [Architecture](#architecture)
     - [Transactions](#transactions)
