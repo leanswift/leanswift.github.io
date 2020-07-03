@@ -496,7 +496,7 @@ Which Customer approach is used is handled via the eConnect configuration within
 
 Common customer is used when all orders from a Store view/Site should be created in M3 under a single Customer number.
 
-The **Create New Customer** parameter is then set to &#39;No&#39;, and the parameter below it ( **Common Customer ID** ) then contains which [common] customer# to use for all orders.
+The **Create Customer On Placing Order** parameter is then set to &#39;No&#39;, and the parameter below it ( **Common Customer ID** ) then contains which [common] customer# to use for all orders.
 
 **Discrete Customer**
 
