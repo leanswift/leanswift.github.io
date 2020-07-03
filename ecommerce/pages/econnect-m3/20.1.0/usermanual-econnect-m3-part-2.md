@@ -8,7 +8,7 @@
 
 - [1.0 System Overview](#10-system-overview)
     - [Architecture](#architecture)
-	- [New in this version](#new_in_this_version)
+    - [New in this version](#new-in-this-version)
     - [Transactions](#transactions)
     - [User Interface](#user-interface)
     - [Validated Versions](#validated-versions)
