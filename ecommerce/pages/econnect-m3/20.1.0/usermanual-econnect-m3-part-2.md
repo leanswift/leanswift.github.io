@@ -296,7 +296,7 @@ When there is an Add/Update/delete in stock for an item in M3, Sync.LS\_ItemStoc
 
 The Customer registration feature was specifically added to cater for a B2B scenario where new customer sign-ups are accepted from the front-end.
 
-The functionality is enabled via _LS \&gt; econnect-ION \&gt; Configuration \&gt; Customer General Configuration \&gt; ERP Customer Registration_:
+The functionality is enabled via _LS > econnect-ION > Configuration > Customer General Configuration > ERP Customer Registration_:
 
 <kbd><img alt="Customer registration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-registration.png"></kbd>
 
