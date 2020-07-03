@@ -296,21 +296,23 @@ When there is an Add/Update/delete in stock for an item in M3, Sync.LS\_ItemStoc
 
 The Customer registration feature was specifically added to cater for a B2B scenario where new customer sign-ups are accepted from the front-end.
 
-The functionality is enabled via LS > econnect-ION > Configuration > Customer General Configuration > ERP Customer Registration:
+The functionality is enabled via _LS \&gt; econnect-ION \&gt; Configuration \&gt; Customer General Configuration \&gt; ERP Customer Registration_:
 
-<kbd><img alt="Customer general configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-general-configuration.png"></kbd>
+<kbd><img alt="Customer registration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-registration.png"></kbd>
 
-If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed.
+1. &#39;Enable Registration&#39; set to &#39;Yes&#39; enables the functionality.
+2. &#39;Customer Template Id&#39; contains the value of the M3 customer number that the new
 
-If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;No&#39;, the customer template mentioned under **Customer Template Id** will be used to create a new customer number within M3 for each order being placed.
+customer creation should be based on.
 
-eConnect will remove the **Create Customer On Placing Order** parameter as this indicates the site being configured is a B2B site where every customer always exists already when an order is place.
+Please note that the &#39;Customer Template Id&#39; field is only visible when &#39;Enable Registration&#39; is set to &#39;Yes&#39;.
 
-When **Create Customer On Registration** is set to &#39;Yes&#39;, this indicates that as new customers register from the Magento front-end, a customer record is added in Magento – and a customer in a preliminary status (status 10) is created within M3.
+For each successful customer signup from the front-end, a new customer record will be added within both Magento and M3. The customer in Magento is tied to the M3# via the External customer# as usual.
 
-A manual process is assumed within M3, where a Customer service/Accounting responsible would review these preliminary customers (credit checks etc.)  and if they are approved as a new customer the status in M3 is manually changed to active (20). While the customer status in M3 is preliminary (10), the customer in question can&#39;t place an order within Magento (eConnect performs a real-time check against M3 during the checkout process to validate the customer status). Products can be added to cart and the cart saved, but the checkout process can&#39;t be completed.
+Within M3, the customer is created in a preliminary status (10). The process to approve the customer within M3 is manual, i.e. a user would [outside of the system] perform any required validations, credit checks etc. of the new customer. Once completed and if the new customer is approved as a new B2B account – the status would manually be changed to &#39;20&#39; within M3.
 
-Setting **Create Customer On Registration** to &#39;No&#39; disables the registration feature completely, which then in turn enables the Create Customer On Placing Order
+On the Magento front-end, the customer will be able to log in, shop around, add products to the cart and save the cart without being approved. They will however not be able to complete the check-out process and place the order unless the corresponding M3 customer number has been approved first, as a real-time check of the M3 customer status is performed.
+
 
 [Go to Top](#table-of-contents)
 
