@@ -502,7 +502,7 @@ The **Create New Customer** parameter is then set to &#39;No&#39;, and the param
 
 Discrete customer is the opposite. In this case, each order created within M3 should be added with a unique customer number.
 
-For this scenario, the **Create New Customer** parameter is then set to &#39;Yes&#39;, and the parameter below it (now called **Customer Template ID** ) then contains which M3 customer# to use as a template to create new customers from (via an additional Copy function preceding the creation of each order).
+For this scenario, the **Create Customer On Placing Order** parameter is then set to &#39;Yes&#39;, and IONCUST is used as a template to create new customers from (via an additional Add function preceding the creation of each order).
 
 In the Discrete Customer scenario, eConnect always as a first step validates whether the customer has placed an order previously. If so, the already existing customer# is used.
 
