@@ -415,7 +415,8 @@ There is a maximum limit of 200 beyond which manual sync cannot be done.
 ## Customer General Configuration
 
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general.png"></kbd>
+<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/usermanualpart1/customer-general.png.png"></kbd>
+
 
 
 This section now contains the key parameters for how to handle customer creation, both for a B2B and a B2C site.
@@ -425,7 +426,7 @@ This section now contains the key parameters for how to handle customer creation
 ### Enable Registration
 This feature is intended for a B2B setup where new customers are allowed to register themselves on the front-end.
 
-<kbd><img alt="enable reg" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/enable-reg.png"></kbd>
+<kbd><img alt="enable reg" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/usermanualpart1/enable-reg.png"></kbd>
 
 If **Enable Registration** is set to ‘Yes’, eConnect will remove the **Create New Customer** parameter as this indicates the site being configured is a B2B site where every customer always exists already when an order is place.
 
@@ -435,7 +436,7 @@ A manual process is assumed within M3, where a Customer service/Accounting respo
 
 Setting **Enable Registration** to ‘No’ disables the registration feature completely, which then in turn enables the Create New Customer parameter:
 
-<kbd><img alt="create new customer" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/create-new-customer.png"></kbd>
+<kbd><img alt="create new customer" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/usermanualpart1/create-new-customer.png"></kbd>
 
 ### Create New Customer
 
