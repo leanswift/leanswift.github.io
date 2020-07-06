@@ -421,7 +421,7 @@ There is a maximum limit of 200 beyond which manual sync cannot be done.
 
 This section now contains the key parameters for how to handle customer creation, both for a B2B and a B2C site.
 
-**NOTE! The &#39;Customer Template ID&#39; field has dual function depending on whether the Customer Registration feature is used or not. For a single site, these features are mutually exclusive in that one is intended for B2B- and the other for B2C use.
+**NOTE! The &#39;Customer Template ID&#39; field has dual function depending on whether the Customer Registration feature is used or not. For a single site, these features are mutually exclusive in that one is intended for B2B- and the other for B2C use**.
 
 ### Enable Registration
 This feature is intended for a B2B setup where new customers are allowed to register themselves on the front-end.
@@ -449,9 +449,6 @@ If **Create New Customer** is set to &#39;No&#39;, then the same Customer# is us
 
 insert image
 
-### User-defined Fields
-
-**User-defined Fields** is used when Field Name and Value  is to be added to UserArea section in CustomerPartyMaster BOD before sending to ION
 
 [Go to Top](#table-of-contents)
 
