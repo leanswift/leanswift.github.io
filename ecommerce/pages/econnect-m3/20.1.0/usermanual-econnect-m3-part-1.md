@@ -415,7 +415,7 @@ There is a maximum limit of 200 beyond which manual sync cannot be done.
 ## Customer General Configuration
 
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config.png"></kbd>
+<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general.png"></kbd>
 
 
 This section now contains the key parameters for how to handle customer creation, both for a B2B and a B2C site.
@@ -425,7 +425,7 @@ This section now contains the key parameters for how to handle customer creation
 ### Enable Registration
 This feature is intended for a B2B setup where new customers are allowed to register themselves on the front-end.
 
-insert image
+<kbd><img alt="enable reg" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/enable-reg.png"></kbd>
 
 If **Enable Registration** is set to ‘Yes’, eConnect will remove the **Create New Customer** parameter as this indicates the site being configured is a B2B site where every customer always exists already when an order is place.
 
@@ -433,11 +433,9 @@ When **Enable Registration** is set to ‘Yes’, this indicates that as new cus
 
 A manual process is assumed within M3, where a Customer service/Accounting responsible would review these preliminary customers (credit checks etc.) – and if they are approved as a new customer the status in M3 is manually changed to active (20). While the customer status in M3 is preliminary (10), the customer in question can’t place an order within Magento (eConnect performs a real-time check against M3 during the checkout process to validate the customer status). Products can be added to cart and the cart saved, but the checkout process can’t be completed.
 
-insert image
-
 Setting **Enable Registration** to ‘No’ disables the registration feature completely, which then in turn enables the Create New Customer parameter:
 
-Insert image
+<kbd><img alt="create new customer" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/create-new-customer.png"></kbd>
 
 ### Create New Customer
 
