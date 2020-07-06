@@ -5,13 +5,12 @@
 
 # Table of contents
 
-- [TABLE OF CONTENTS](#table-of-contents)
-
 - [GENERAL INFORMATION](#general-information)
   - [System Overview](#system-overview)
-  - [Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
-- [eConnect-base v2.0.0](#econnect-base-v200)
-- [IMS](#ims)
+    - [New in This verison](#new-in-this-verison)
+      - [Architecture with eConnect Base](#architecture-with-econnect-base)
+      - [eConnect-base v2.0.0](#econnect-base-v200)
+- [](#)
   - [Transactions](#transactions)
   - [User Interface](#user-interface)
   - [Points of Contact](#points-of-contact)
@@ -23,13 +22,13 @@
   - [Configuration](#configuration)
   - [Configuration/LeanSwift](#configurationleanswift)
   - [Configuration/LeanSwift/eConnect](#configurationleanswifteconnect)
-- [eConnect-base](#econnect-base)
-  - [Import History](#import-history)
-  - [Connectivity](#connectivity)
-  - [Service Configuration](#service-configuration)
-  - [Authentication](#authentication)
-  - [IMS Configuration](#ims-configuration)
-  - [Cron](#cron)
+  - [New in this version](#new-in-this-version)
+    - [eConnect-base](#econnect-base)
+      - [Import History](#import-history)
+      - [Connectivity](#connectivity)
+      - [Service Configuration](#service-configuration)
+      - [Basic Data Configuration (M3 connection protocol - ION)](#basic-data-configuration-m3-connection-protocol---ion)
+      - [Authentication](#authentication)
 - [eConnect-General](#econnect-general)
   - [General Configuration](#general-configuration)
 - [eConnect-ION](#econnect-ion)
@@ -37,7 +36,14 @@
   - [Shipping Method](#shipping-method)
   - [Manual Sync Configuration](#manual-sync-configuration)
   - [Customer General Configuration](#customer-general-configuration)
+    - [Enable Registration](#enable-registration)
+    - [Create New Customer](#create-new-customer)
+    - [User-defined Fields](#user-defined-fields)
   - [Product Addition/ Synchronization](#product-addition-synchronization)
+    - [Product attribute mapping](#product-attribute-mapping)
+    - [Product Synchronization - Item Disabling](#product-synchronization---item-disabling)
+    - [Product Synchronization - AttributeSet Mapping](#product-synchronization---attributeset-mapping)
+    - [Product Synchronization - Category Mapping](#product-synchronization---category-mapping)
   - [Customer Addition/ Synchronization](#customer-addition-synchronization)
   - [Sales](#sales)
   - [Order Charges](#order-charges)
@@ -63,14 +69,22 @@
 
 [Go to Top](#table-of-contents)
 
-## Architecture with IMS for multi-tenant Cloud M3
+### New in This verison
+
+#### Architecture with eConnect Base
+
+ With 20.1.0, the part of eConnect functionality dealing with connectivity to eLink and Infor OS and data processing has been moved out of eConnect extension into a new extension named **eConnect-base**. 
+
+  From 20.1.0 onward, eConnect will require the eConnect-base extension to function. 
+  eConnect 20.1.0 is compatible with eConnect-base 2.0.0.
+
 
 <kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/architecture-with-ebase.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
 
-# eConnect-base v2.0.0
+#### eConnect-base v2.0.0
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 - Acts as the communication layer for RabbitMQ Message consumption
@@ -84,6 +98,7 @@
 
 [Go to Top](#table-of-contents)
 
+#
 
 
 ## Transactions
@@ -106,9 +121,7 @@ eConnect 20.1.0 includes the following set of standard transactions like its pre
 - Invoice History
 - BOD Mapping
 - Initial Load / Import
-- Manual Sync for Customer
-- Manual Sync for Product
-- Manual Sync for Order
+
 
 These transactions can, if necessary, be modified and new transactions can be added to fulfill specific customer requirements.
 
@@ -121,7 +134,7 @@ During setup, the Magento Admin panel is used to configure which transactions sh
 
 **Validated versions**
 
-- Magento Commerce 2.3.5
+- Magento Commerce 2.3.4
 - Magento Open Source 2.3.4
 - Infor M3 16.1
 - LeanSwift eLink 7.6.3
@@ -155,7 +168,6 @@ This manual describes the configuration of LeanSwift eConnect for Infor M3 with 
 - ERP – Enterprise Resource Planning
 - B2B – Business to Business
 - Business to Consumer
-- RMA – Return Materials Authorization
 
 
 
@@ -211,10 +223,10 @@ The following sections are included in the eConnect configuration:
 
 <kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/configuration-ion.png"></kbd>
 
+## New in this version
 
 
-
-# eConnect-base
+### eConnect-base
 
 The eConnect-base section contains settings to connect with eLink/ION/M3, some of which were earlier a part of the eConnect-General and Basic data configuration section.
 
@@ -223,7 +235,7 @@ eConnect-base has 2 sections
 <kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-base.png"></kbd>
 
 
-## Import History
+#### Import History
 
 Whenever an initial load API(EVS002MI/Initiate) call gets triggered, that request and response information will be displayed in this grid. This API triggers the Show BODs.
  Entity Name can be customer, address, order, shipment, invoice, product, inventory, atp.
@@ -232,14 +244,14 @@ Whenever an initial load API(EVS002MI/Initiate) call gets triggered, that reques
  <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/import-history.png"></kbd>
 
 
-## Connectivity
+#### Connectivity
 
 The Connectivity section of eConnect-base has the following configurations.
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-base-configurations.png"></kbd>
   
 
-## Service Configuration
+#### Service Configuration
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/service-configurations.png"></kbd>
 
@@ -264,7 +276,7 @@ Email template chosen based on theme fallback when "Default" option is selected
 
 This is to log data to check request and response data, specially when developing
 
-### Basic Data Configuration (M3 connection protocol - ION)
+#### Basic Data Configuration (M3 connection protocol - ION)
 
 <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/basicdata-configuration.png"></kbd>
 
@@ -276,7 +288,7 @@ The default company within M3. Setting can be defined on Default or Store level.
 
 The default division within M3. Setting can be defined on Default or Store level.
 
-## Authentication
+#### Authentication
 
 The **Authentication** group contains the settings related to the web service authentication using the OAuth2.0 standard that eConnect employs.
 
@@ -293,59 +305,6 @@ The M3 User is the user with which we connect to ION APIs
 
 We have a &#39;Test connection&#39; button to verify if connection is up.
 
-## IMS Configuration
-
-Insert image here
-
-**Debug/log data**
-
-This is to log data to check request and response data, specially when developing
-
-**API Service URL**
-
-This is the The ION Messaging Service URL to send documents into ION.
-
-**API Service Message endpoint**
-
-This is the Endpoint to append to base URL to publish message to ION.
-
-**X-TenantId**
-
-Infor OS Tenant Id is configured here
-
-**X-ClientId**
-
-The Client Id used by ION API Gateway to validate the Client is configured here.
-
-**Test Connection**
-
-This is used to test IMS connection
-
-**From LogicalId**
-
-Logical ID of Connection Point for IMS-eConnect is configured here.
-
-**To LogicalId**
-
-Default Logical ID is entered here
-
-**Encoding**
-
-HTTP Request Encoding options are available here. We can either choose it to be NONE or DEFLATE.
-
-**Source**
-
-This indicates the Label to suggest from where the request is being sent to ION.
-
-**Message Id Prefix**
-
-This is the Prefix for Message Id in request.
-
-## Cron
-
-**Clear inbound BODs**
-
-This cron is used to clear inbound BODs 
 
 [Go to Top](#table-of-contents)
 
@@ -462,47 +421,35 @@ There is a maximum limit of 200 beyond which manual sync cannot be done.
 This section now contains the key parameters for how to handle customer creation, both for a B2B and a B2C site.
 
 **NOTE! The &#39;Customer Template ID&#39; field has dual function depending on whether the Customer Registration feature is used or not. For a single site, these features are mutually exclusive in that one is intended for B2B- and the other for B2C use.
-If ### Create Customer via IMS
-is set to &#39;Yes&#39;, Customer creation is done via IMS, else the regular econnect-ION workflow is followed. **
 
-### Create Customer On Registration
-
+### Enable Registration
 This feature is intended for a B2B setup where new customers are allowed to register themselves on the front-end.
 
- <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config3.png"></kbd>
+insert image
 
-If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed.
+If **Enable Registration** is set to ‘Yes’, eConnect will remove the **Create New Customer** parameter as this indicates the site being configured is a B2B site where every customer always exists already when an order is place.
 
-If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;No&#39;, the customer template mentioned under **Customer Template Id** will be used to create a new customer number within M3 for each order being placed.
+When **Enable Registration** is set to ‘Yes’, this indicates that as new customers register from the Magento front-end [customer registration extension not supplied as part of eConnect], a customer record is added in Magento – and a customer in a preliminary status (status 10) is created within M3.
 
-eConnect will remove the **Create Customer On Placing Order** parameter as this indicates the site being configured is a B2B site where every customer always exists already when an order is place.
+A manual process is assumed within M3, where a Customer service/Accounting responsible would review these preliminary customers (credit checks etc.) – and if they are approved as a new customer the status in M3 is manually changed to active (20). While the customer status in M3 is preliminary (10), the customer in question can’t place an order within Magento (eConnect performs a real-time check against M3 during the checkout process to validate the customer status). Products can be added to cart and the cart saved, but the checkout process can’t be completed.
 
-When **Create Customer On Registration** is set to &#39;Yes&#39;, this indicates that as new customers register from the Magento front-end, a customer record is added in Magento – and a customer in a preliminary status (status 10) is created within M3.
+insert image
 
-A manual process is assumed within M3, where a Customer service/Accounting responsible would review these preliminary customers (credit checks etc.)  and if they are approved as a new customer the status in M3 is manually changed to active (20). While the customer status in M3 is preliminary (10), the customer in question can&#39;t place an order within Magento (eConnect performs a real-time check against M3 during the checkout process to validate the customer status). Products can be added to cart and the cart saved, but the checkout process can&#39;t be completed.
+Setting **Enable Registration** to ‘No’ disables the registration feature completely, which then in turn enables the Create New Customer parameter:
 
-Setting **Create Customer On Registration** to &#39;No&#39; disables the registration feature completely, which then in turn enables the Create Customer On Placing Order:
+Insert image
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config.png"></kbd>
+### Create New Customer
 
-### Create Customer On Placing Order
+This parameter is intended to be used for B2C sites where a choice needs to be made whether individual customers should exist in M3 for each consumer, or if a single “common” customer should be used for all consumer orders received from Magento.
 
-This parameter is intended to be used for B2C sites where a choice needs to be made whether individual customers should exist in M3 for each consumer, or if a single &quot;common&quot; customer should be used for all consumer orders received from Magento.
+ <kbd><img alt="customer general config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-configuration3.png"></kbd>
 
-If **Create Customer On Placing Order** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed. 
+If **Create New Customer** is set to &#39;Yes&#39;, the customer number specified in **Customer Template ID** will be used to create a new customer number within M3 for each order being placed. If a registered user is signed in, and as such already has a Magento customer# - a verification is always first performed to see whether there’s a value on External Customer # or not. If there is – no new customer# will be created in M3.
 
-If **Create Customer On Placing Order** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;No&#39;, the customer template mentioned under **Customer Template Id** will be used to create a new customer number within M3 for each order being placed.
+If **Create New Customer** is set to &#39;No&#39;, then the same Customer# is used for each order created within M3. This customer number is then defined in the **Common Customer ID** field.
 
-If a registered user is signed in, and as such already has a Magento customer# - a verification is always first performed to see whether there&#39;s a value on External Customer # or not. If not new customer# will be created in M3.
-
-If **Create Customer On Placing Orderr** is set to &#39;No&#39;, then the same Customer template mentioned under **Common Customer Id** is used for each order created within M3. 
-
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config2.png"></kbd>
-
-### Create Customer via IMS
-
-If **Create Customer via IMS** is set to &#39;Yes&#39;, IMS is used to send customer information via BODs to ION
-If **Create Customer via IMS** is set to &#39;No&#39;, the regular ION workflow is enabled.
+insert image
 
 ### User-defined Fields
 
