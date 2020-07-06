@@ -415,7 +415,7 @@ There is a maximum limit of 200 beyond which manual sync cannot be done.
 ## Customer General Configuration
 
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/usermanualpart1/customer-general.png.png"></kbd>
+<kbd><img alt="customer config " src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/usermanualpart1/customer-general.png"></kbd>
 
 
 
@@ -436,13 +436,12 @@ A manual process is assumed within M3, where a Customer service/Accounting respo
 
 Setting **Enable Registration** to ‘No’ disables the registration feature completely, which then in turn enables the Create New Customer parameter:
 
-<kbd><img alt="create new customer" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/usermanualpart1/create-new-customer.png"></kbd>
 
 ### Create New Customer
 
 This parameter is intended to be used for B2C sites where a choice needs to be made whether individual customers should exist in M3 for each consumer, or if a single “common” customer should be used for all consumer orders received from Magento.
 
- <kbd><img alt="customer general config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-configuration3.png"></kbd>
+<kbd><img alt="create new customer" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/usermanualpart1/create-new-customer.png"></kbd>
 
 If **Create New Customer** is set to &#39;Yes&#39;, the customer number specified in **Customer Template ID** will be used to create a new customer number within M3 for each order being placed. If a registered user is signed in, and as such already has a Magento customer# - a verification is always first performed to see whether there’s a value on External Customer # or not. If there is – no new customer# will be created in M3.
 
