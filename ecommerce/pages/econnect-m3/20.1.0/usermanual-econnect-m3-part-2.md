@@ -62,9 +62,10 @@
 
  **LeanSwift eConnect for Infor M3**  employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
 
-### Architecture
 
-### New in this version
+## New in this version
+
+### Architecture with eConnect Base
 
  With 20.1.0, The part of eConnect functionality dealing with connectivity to Infor OS and data processing has been moved out of eConnect extension into a new extension named, **eConnect-base**.
 
@@ -72,7 +73,7 @@
 
  eConnect 20.1.0 is compatible with eConnect-base 2.0.0.
 
-**eConnect-base v2.0.0**
+### eConnect-base v2.0.0
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 
@@ -88,8 +89,6 @@
 
 - IDM can now work without eConnect
 
-
-**Architecture with IMS for multi-tenant Cloud M3**
 
 
 <kbd><img alt="architecture-withebase" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/architecture-withebase.png"></kbd>
@@ -500,17 +499,18 @@ Which Customer approach is used is handled via the eConnect configuration within
 
 Common customer is used when all orders from a Store view/Site should be created in M3 under a single Customer number.
 
-The **Create Customer On Placing Order** parameter is then set to &#39;No&#39;, and the parameter below it ( **Common Customer ID** ) then contains which [common] customer# to use for all orders.
+The **Create New Customer** parameter is then set to &#39;No&#39;, and the parameter below it ( **Common Customer ID** ) then contains which [common] customer# to use for all orders.
 
 **Discrete Customer**
 
 Discrete customer is the opposite. In this case, each order created within M3 should be added with a unique customer number.
 
-For this scenario, the **Create Customer On Placing Order** parameter is then set to &#39;Yes&#39;, and IONCUST is used as a template to create new customers from (via an additional Add function preceding the creation of each order).
+For this scenario, the **Create New Customer** parameter is then set to &#39;Yes&#39;, and the parameter below it (now called Customer Template ID) then contains which M3 customer# to use as a template to create new customers from (via an additional Copy function preceding the creation of each order).
 
 In the Discrete Customer scenario, eConnect always as a first step validates whether the customer has placed an order previously. If so, the already existing customer# is used.
 
 Besides the customer creation step when discrete customer is used in a B2C scenario, the additional parts of the order creation process are the same as for the B2B scenario.
+
    
 ### Shipcomplete
 
