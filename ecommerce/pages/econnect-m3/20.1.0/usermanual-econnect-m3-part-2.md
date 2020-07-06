@@ -7,11 +7,12 @@
 
 
 - [1.0 System Overview](#10-system-overview)
-    - [Architecture](#architecture)
-    - [New in this version](#new-in-this-version)
-    - [Transactions](#transactions)
-    - [User Interface](#user-interface)
-    - [Validated Versions](#validated-versions)
+  - [New in this version](#new-in-this-version)
+    - [Architecture with eConnect Base](#architecture-with-econnect-base)
+    - [eConnect-base v2.0.0](#econnect-base-v200)
+  - [Transactions](#transactions)
+  - [User Interface](#user-interface)
+  - [Validated Versions](#validated-versions)
   - [Points Of Contacts](#points-of-contacts)
   - [Organization Of The Manual](#organization-of-the-manual)
   - [Acronyms And Abbrevations](#acronyms-and-abbrevations)
@@ -53,7 +54,6 @@
   - [Order History](#order-history)
   - [Invoice History](#invoice-history)
 
-
 # 1.0 System Overview
 
  **LeanSwift eConnect for Infor M3**  provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
@@ -94,7 +94,7 @@
 <kbd><img alt="architecture-withebase" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/architecture-withebase.png"></kbd>
 
 
-### Transactions
+## Transactions
 
 eConnect 20.1.0 includes the following set of standard transactions like its previous versions:
 
@@ -116,11 +116,11 @@ eConnect 20.1.0 includes the following set of standard transactions like its pre
 - BOD Mapping
 
 
-### User Interface
+## User Interface
 
 During setup, the Magento Admin panel is used to configure which transactions should be used and how they should function.
 
-### Validated Versions
+## Validated Versions
 
 - Magento Commerce 2.3.4
 - Magento Open Source 2.3.4
