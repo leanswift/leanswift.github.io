@@ -347,8 +347,14 @@ This is the Prefix for Message Id in request.
 
 This cron is used to clear inbound BODs 
 
+<kbd><img alt="clear inbound cron" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/clear-inbound-cron.png"></kbd>
+
 [Go to Top](#table-of-contents)
 
+
+## IMS Report
+
+<kbd><img alt="clear inbound cron" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/ims-report.png"></kbd>
 
 
 # eConnect-General
