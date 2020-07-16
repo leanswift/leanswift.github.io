@@ -71,7 +71,8 @@
 
 [Go to Top](#table-of-contents)
 
-## Architecture with IMS for multi-tenant Cloud M3
+## New in this version
+### Architecture with IMS for multi-tenant Cloud M3
 
 <kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/architecture-with-econnectbase.png"></kbd>
 
@@ -91,6 +92,7 @@
 - IDM can now work without eConnect
 
 [Go to Top](#table-of-contents)
+
 
 # IMS
 
