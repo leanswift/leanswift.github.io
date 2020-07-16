@@ -7,8 +7,8 @@
 
 - [1.0 System Overview](#10-system-overview)
     - [Architecture](#architecture)
-      - [New in this version](#new-in-this-version)
-        -[Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
+    - [New in this version](#new-in-this-version)
+      - [Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
     - [Transactions](#transactions)
     - [User Interface](#user-interface)
     - [Validated Versions](#validated-versions)
