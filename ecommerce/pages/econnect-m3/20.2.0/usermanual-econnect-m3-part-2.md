@@ -8,6 +8,7 @@
 - [1.0 System Overview](#10-system-overview)
     - [Architecture](#architecture)
       - [New in this version](#new-in-this-version)
+        -[Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
     - [Transactions](#transactions)
     - [User Interface](#user-interface)
     - [Validated Versions](#validated-versions)
@@ -86,7 +87,7 @@
 - IDM can now work without eConnect
 
 #### New in this version
-**Architecture with IMS for multi-tenant Cloud M3**
+#### Architecture with IMS for multi-tenant Cloud M3
 
 
 <kbd><img alt="architecture-withebase" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/architecture-with-econnectbase.png"></kbd>
@@ -296,7 +297,7 @@ The Customer registration feature was specifically added to cater for a B2B scen
 
 The functionality is enabled via LS > econnect-ION > Configuration > Customer General Configuration > Create Customer On Registration:
 
-<kbd><img alt="Customer general configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/create-customer-on-reg-ims.png.png"></kbd>
+<kbd><img alt="Customer general configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/create-customer-on-reg-ims.png.png"></kbd>
 
 If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed.
 
@@ -383,9 +384,9 @@ _01\_DELIVERY_: The shipping address from &#39;Customer. Connect Addresses&#39; 
 - **ERP Address ID** contains the actual sequence#/ID for the address in question as defined within M3 (also in &#39;Customer. Connect Addresses&#39; – OIS002).
 Account information tab saves the Variation ID, BOD Timestamp and BOD ID for future reference.
 
-<kbd><img alt="Synchronization process addresstype1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/sync-process.png"></kbd>
+<kbd><img alt="Synchronization process addresstype1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address1-magento.png"></kbd>
 
-<kbd><img alt="Synchronization process addresstype3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/sync-process2.png"></kbd>
+<kbd><img alt="Synchronization process addresstype3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address2-magento.png"></kbd>
 
 
 ### Manual Sync Process
