@@ -547,7 +547,7 @@ In order to ensure that the solution can deal with the flexibility and complexit
 
 As the most common scenario faced is that your M3 instance will contain far more items than you wish to have available in your webshop, eConnect comes with the ability to provide configurable criteria for selecting which items to include from M3.
 
-<kbd><img alt="item addition condition" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/item-addition-condition.png"></kbd>
+<kbd><img alt="item addition condition" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/item-addition-condition.png"></kbd>
 
 In Addition to this, we also have the option to choose if it is &#39;Any/All&#39; of all conditions.
 
@@ -806,7 +806,7 @@ This feature enables to import the data from M3.
 
 Each of this section has a set of fields that allows to choose date range and conditions for the data to be imported.
 
-<kbd><img alt="import customers" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/import-customers.png"></kbd>
+<kbd><img alt="import customers" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/import-customers.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
