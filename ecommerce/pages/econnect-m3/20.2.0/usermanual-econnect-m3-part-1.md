@@ -7,9 +7,10 @@
 
 - [GENERAL INFORMATION](#general-information)
   - [System Overview](#system-overview)
-  - [Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
-- [eConnect-base v2.0.0](#econnect-base-v200)
-- [IMS](#ims)
+  - [New in this version](#new-in-this-version)
+    - [Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
+    - [eConnect-base v3.0.0](#econnect-base-v300)
+    - [IMS](#ims)
   - [Transactions](#transactions)
   - [User Interface](#user-interface)
   - [Points of Contact](#points-of-contact)
@@ -24,18 +25,20 @@
 - [eConnect-base](#econnect-base)
   - [Import History](#import-history)
   - [Connectivity](#connectivity)
-  - [Service Configuration](#service-configuration)
+    - [Service Configuration](#service-configuration)
     - [Basic Data Configuration (M3 connection protocol - ION)](#basic-data-configuration-m3-connection-protocol---ion)
-  - [Authentication](#authentication)
-  - [IMS Configuration](#ims-configuration)
-  - [Cron](#cron)
-  - [IMS Report](#ims-report)
+    - [Authentication](#authentication)
+    - [New in this version](#new-in-this-version)
+      - [IMS Configuration](#ims-configuration)
+      - [Cron](#cron)
+      - [IMS Report](#ims-report)
 - [eConnect-General](#econnect-general)
   - [General Configuration](#general-configuration)
 - [eConnect-ION](#econnect-ion)
   - [Basic Data Configuration](#basic-data-configuration)
   - [Shipping Method](#shipping-method)
   - [Manual Sync Configuration](#manual-sync-configuration)
+- [New in this version](#new-in-this-version)
   - [Customer General Configuration](#customer-general-configuration)
     - [Create Customer On Registration](#create-customer-on-registration)
     - [Create Customer On Placing Order](#create-customer-on-placing-order)
@@ -59,6 +62,7 @@
 - [Magento Standard Functionality](#magento-standard-functionality)
 - [Exit System](#exit-system)
 
+
 # GENERAL INFORMATION
 
 ## System Overview
@@ -79,7 +83,7 @@
 [Go to Top](#table-of-contents)
 
 
-# eConnect-base v2.0.0
+### eConnect-base v3.0.0
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 - Acts as the communication layer for RabbitMQ Message consumption
@@ -94,7 +98,7 @@
 [Go to Top](#table-of-contents)
 
 
-# IMS
+### IMS
 
 ION Messaging Service (also known as Infor Application Connector in latest MT instances) is a loosely coupled connector that allows applications to integrate with ION through REST/JSON APIs.
 
@@ -249,7 +253,7 @@ The Connectivity section of eConnect-base has the following configurations.
 <kbd><img alt="econnect ebase config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/econnect-base-configurations.png"></kbd>
   
 
-## Service Configuration
+### Service Configuration
 
 <kbd><img alt="service config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/service-configurations.png"></kbd>
 
@@ -286,7 +290,7 @@ The default company within M3. Setting can be defined on Default or Store level.
 
 The default division within M3. Setting can be defined on Default or Store level.
 
-## Authentication
+### Authentication
 
 The **Authentication** group contains the settings related to the web service authentication using the OAuth2.0 standard that eConnect employs.
 
@@ -303,7 +307,8 @@ The M3 User is the user with which we connect to ION APIs
 
 We have a &#39;Test connection&#39; button to verify if connection is up.
 
-## IMS Configuration
+### New in this version
+#### IMS Configuration
 
 <kbd><img alt="IMS Configuration Part1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/imsconfig1.png"></kbd>
 
@@ -353,7 +358,7 @@ This indicates the Label to suggest from where the request is being sent to ION.
 
 This is the Prefix for Message Id in request.
 
-## Cron
+#### Cron
 
 **Clear inbound BODs**
 
@@ -364,7 +369,7 @@ This cron is used to clear inbound IMS BODs
 [Go to Top](#table-of-contents)
 
 
-## IMS Report
+#### IMS Report
 
 <kbd><img alt="ims report" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/ims-report.png"></kbd>
 
@@ -470,9 +475,9 @@ There is a maximum limit of 200 beyond which manual sync cannot be done.
 
 [Go to Top](#table-of-contents)
 
+# New in this version
 
 ## Customer General Configuration
-
 
 <kbd><img alt="general config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/create-customer-on-placing-order-ims.png"></kbd>
 
