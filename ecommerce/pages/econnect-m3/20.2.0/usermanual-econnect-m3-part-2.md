@@ -5,9 +5,9 @@
 
 # Table of contents
 
-
 - [1.0 System Overview](#10-system-overview)
     - [Architecture](#architecture)
+      - [New in this version](#new-in-this-version)
     - [Transactions](#transactions)
     - [User Interface](#user-interface)
     - [Validated Versions](#validated-versions)
@@ -25,7 +25,8 @@
   - [Inventory](#inventory)
     - [Inventory Value Selection](#inventory-value-selection)
     - [Inventory Sync](#inventory-sync)
-  - [Customer Registration](#customer-registration)
+  - [New in this version](#new-in-this-version)
+    - [Customer Registration](#customer-registration)
   - [Customer Addition/Synchronization](#customer-additionsynchronization)
   - [Customer Information Sync](#customer-information-sync)
     - [Transaction Overview](#transaction-overview)
@@ -34,7 +35,8 @@
   - [Order Creation](#order-creation)
     - [Transaction Overview](#transaction-overview)
     - [Order Creation–B2B](#order-creationb2b)
-    - [Order Creation–B2C](#order-creationb2c)
+    - [New in this version](#new-in-this-version)
+      - [Order Creation–B2C](#order-creationb2c)
     - [Shipcomplete](#shipcomplete)
     - [Gift Wrapping](#gift-wrapping)
     - [Credit Card Management](#credit-card-management)
@@ -63,13 +65,11 @@
 
 ### Architecture
 
- The part of eConnect functionality dealing with connectivity to Infor OS and data processing has been moved out of eConnect extension into a new extension named,
+ The part of eConnect functionality dealing with connectivity to Infor OS and data processing has been moved out of eConnect extension into a new extension named, **eConnect-base**.
 
- **eConnect-base**.
+ eConnect 20.2.0 is compatible with eConnect-base 3.0.0.
 
- eConnect 20.2.0 is compatible with eConnect-base 2.0.0.
-
-**eConnect-base v2.0.0**
+**eConnect-base v3.0.0**
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 
@@ -85,11 +85,11 @@
 
 - IDM can now work without eConnect
 
-
+#### New in this version
 **Architecture with IMS for multi-tenant Cloud M3**
 
 
-<kbd><img alt="architecture-withebase" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/architecture-withebase.png"></kbd>
+<kbd><img alt="architecture-withebase" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/architecture-with-econnectbase.png"></kbd>
 
 
 ### Transactions
@@ -199,7 +199,7 @@ With this transaction it is possible to keep in sync discrete values within M3&#
 
 This feature enables manual sync of Products with M3. We can choose multiple products that require sync with M3 and choose &#39;Sync Items with M3&#39;. Clicking on Manual sync triggers &#39;Show&#39; BODs. Once the BOD reaches Magento, the information gets updated in respective tables in the DB. Multiple products can be chosen to sync with M3.
 
-<kbd><img alt="product set up information" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-process.png"></kbd>
+<kbd><img alt="manual sync product" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-product.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -289,14 +289,14 @@ When there is an Add/Update/delete in stock for an item in M3, Sync.LS\_ItemStoc
 
 [Go to Top](#table-of-contents)
 
-  
-## Customer Registration
+## New in this version  
+### Customer Registration
 
 The Customer registration feature was specifically added to cater for a B2B scenario where new customer sign-ups are accepted from the front-end.
 
-The functionality is enabled via LS > econnect-ION > Configuration > Customer General Configuration > ERP Customer Registration:
+The functionality is enabled via LS > econnect-ION > Configuration > Customer General Configuration > Create Customer On Registration:
 
-<kbd><img alt="Customer general configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-general-configuration.png"></kbd>
+<kbd><img alt="Customer general configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/create-customer-on-reg-ims.png.png"></kbd>
 
 If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed.
 
@@ -356,7 +356,7 @@ The following information is available to synchronize between M3 &amp; Magento:
 
 1. Any customer address defined in &#39;Customer. Connect Addresses&#39;(OIS002). Note that only address type 1 and 3 will be synced
 
-<kbd><img alt="Customer address" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address.png"></kbd>
+<kbd><img alt="Customer address" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address-m3.png"></kbd>
 
     
 ### Synchronization Process
@@ -392,7 +392,7 @@ Account information tab saves the Variation ID, BOD Timestamp and BOD ID for fut
 
 This feature enables manual sync of customer with M3. We can choose multiple customers that require sync with M3 and choose &#39;Sync customers with M3&#39;. Clicking on Manual sync triggers &#39;Show&#39; BODs. Once the BOD reaches Magento, the information gets updated in respective tables in the DB.
 
-<kbd><img alt="Manual Sync Customers" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-process2.png"></kbd>
+<kbd><img alt="Manual Sync Customers" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-customer.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -431,7 +431,7 @@ The verification message displayed to the user also contains a wealth of informa
 
 To schedule order creation via the background jobs, make sure to configure the following cron job to run with appropriate intervals under LS > eConnect ION > Configuration >  Cron:
 
-<kbd><img alt="cron setting to send ERP" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/cron.png"></kbd>
+<kbd><img alt="cron setting to send ERP" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/send-orders-cron.png"></kbd>
 
     
 ### Order Creation–B2B
@@ -486,7 +486,8 @@ The temporary (batch) order number ( **Temp Order #** ) is brought back from M3 
 If the order creation progresses successfully [as in the example above], the final customer order number from M3 is also populated and displayed right in the order grid in the **Final Ord #** field.
 
     
-### Order Creation–B2C
+### New in this version
+#### Order Creation–B2C
 
 Order creation in a B2C environment can be handled in two different ways within eConnect, and they differ with regards to how the Customer is managed from an M3 perspective.
 
@@ -506,8 +507,7 @@ For this scenario, the **Create Customer On Placing Order** parameter is then se
 
 In the Discrete Customer scenario, eConnect always as a first step validates whether the customer has placed an order previously. If so, the already existing customer# is used.
 
-Besides the customer creation step when discrete customer is used in a B2C scenario, the additional parts of the order creation process are the same as for the B2B scenario.
-
+**NOTE: In this case the first order has to be synced twice. During the first sync ERP number is generated, and for the next sync order will be sent to m3.**
    
 ### Shipcomplete
 
@@ -520,7 +520,7 @@ This functionality is enabled in LS > eConnect-ION > Configuration > Sales, by s
 
 This will with the correct setup in M3 (parameter 290 in &#39;Dispatch Policy. Open&#39; – MWS010/G must be set to &#39;1&#39;) ensure that a picking list isn&#39;t released for the order until all of the lines are fully allocated. To enable this, eConnect will ensure each order line is created with the same &quot;Joint Delivery Code&quot; value:
 
-<kbd><img alt="Joint delivery code added in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/joint-delivery-code.png"></kbd>
+<kbd><img alt="Joint delivery code added in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/joint-delivery-code-m3.png"></kbd>
 
     
 ### Gift Wrapping
@@ -553,7 +553,7 @@ Furthermore, at least one Gift Wrap needs to be defined for the website under St
 
 To illustrate the functionality, an order is placed for two test items.
 
-<kbd><img alt="Gift wrap" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-chargeanditem-.png"></kbd>
+<kbd><img alt="Gift wrap item charge" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-item-charge.png"></kbd>
 
 In the &#39;View and Edit cart&#39; page, we can choose the gift options:
 
@@ -563,7 +563,7 @@ Magento offers the ability to gift wrap the entire order and/or individual items
 
 For this example, we&#39;ll add gift wrapping to both the entire order as well as one product on the order:
 
-<kbd><img alt="Giftwrap header and line level charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-chargeatheadandline.png"></kbd>
+<kbd><img alt="Giftwrap header and line level charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrapcharge-head-line.png"></kbd>
 
 
 Once the Gift options is chosen, click on &#39;Update&#39; button for changes to reflect on the order. On the Order Review panel, a summary of the order is provided – where the Gift Wrapping for the order and items are shown.
@@ -587,13 +587,13 @@ Order is manually synchronized with M3:
 
 A review of the order in M3 validates that the $26.00 order level gift wrap charge, as well as the $26.00 line gift wrap charge for the  line item are both in place correctly. The name of the Gift wrap charge is also transferred to the name of the corresponding charge.
 
-<kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-charges.png"></kbd>
+<kbd><img alt="Giftwrap head Charges m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-headcharge-m3.png"></kbd>
 
-<kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwarp-linecharge.png"></kbd>
+<kbd><img alt="Giftwrap line Charges m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwarp-linecharge-m3.png"></kbd>
 
 Should eConnect have been configured to instead use non-stock items, the result in M3 would instead have been the following:
 
-<kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem.png"></kbd>
+<kbd><img alt="Giftwrap non stock Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem-m3.png"></kbd>
 
 The current logic places the non-stock item for each line-related gift-wrapping charge right after the line it belongs to, and the order total gift wrapping item at the very bottom.
 
@@ -665,7 +665,7 @@ The following order provides an example of where these two charges are present w
 
 <kbd><img alt="Giftwrap magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-magento.png"></kbd>
 
-<kbd><img alt="Giftwrap m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem.png"></kbd>
+<kbd><img alt="Giftwrap m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem-m3.png"></kbd>
 
 
 **Sales Tax**
@@ -912,7 +912,7 @@ Invoice information/Details are available in Sync.Invoice Bod and in Sync.Receiv
 
 <kbd><img alt="Invoice tab in Orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-order.png"></kbd>
 
-<kbd><img alt="Invoice display in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-display.png"></kbd>
+<kbd><img alt="Invoice display in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-display-m3.png"></kbd>
 
 <kbd><img alt="Invoice history in orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoicehistory-order.png"></kbd>
 
