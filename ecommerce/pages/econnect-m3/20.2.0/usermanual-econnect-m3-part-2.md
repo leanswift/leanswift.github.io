@@ -86,7 +86,7 @@
 
 - IDM can now work without eConnect
 
-#### New in this version
+### New in this version
 #### Architecture with IMS for multi-tenant Cloud M3
 
 
@@ -297,7 +297,7 @@ The Customer registration feature was specifically added to cater for a B2B scen
 
 The functionality is enabled via LS > econnect-ION > Configuration > Customer General Configuration > Create Customer On Registration:
 
-<kbd><img alt="Customer general configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/create-customer-on-reg-ims.png.png"></kbd>
+<kbd><img alt="Customer general configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/create-customer-on-reg-ims.PNG"></kbd>
 
 If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed.
 
