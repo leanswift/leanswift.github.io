@@ -25,9 +25,11 @@
   - [Import History](#import-history)
   - [Connectivity](#connectivity)
   - [Service Configuration](#service-configuration)
+    - [Basic Data Configuration (M3 connection protocol - ION)](#basic-data-configuration-m3-connection-protocol---ion)
   - [Authentication](#authentication)
   - [IMS Configuration](#ims-configuration)
   - [Cron](#cron)
+  - [IMS Report](#ims-report)
 - [eConnect-General](#econnect-general)
   - [General Configuration](#general-configuration)
 - [eConnect-ION](#econnect-ion)
@@ -35,7 +37,15 @@
   - [Shipping Method](#shipping-method)
   - [Manual Sync Configuration](#manual-sync-configuration)
   - [Customer General Configuration](#customer-general-configuration)
+    - [Create Customer On Registration](#create-customer-on-registration)
+    - [Create Customer On Placing Order](#create-customer-on-placing-order)
+    - [Create Customer via IMS](#create-customer-via-ims)
+    - [User-defined Fields](#user-defined-fields)
   - [Product Addition/ Synchronization](#product-addition-synchronization)
+    - [Product attribute mapping](#product-attribute-mapping)
+    - [Product Synchronization - Item Disabling](#product-synchronization---item-disabling)
+    - [Product Synchronization - AttributeSet Mapping](#product-synchronization---attributeset-mapping)
+    - [Product Synchronization - Category Mapping](#product-synchronization---category-mapping)
   - [Customer Addition/ Synchronization](#customer-addition-synchronization)
   - [Sales](#sales)
   - [Order Charges](#order-charges)
@@ -345,7 +355,7 @@ This is the Prefix for Message Id in request.
 
 **Clear inbound BODs**
 
-This cron is used to clear inbound BODs 
+This cron is used to clear inbound IMS BODs 
 
 <kbd><img alt="clear inbound cron" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/clear-inbound-cron.png"></kbd>
 
@@ -354,14 +364,16 @@ This cron is used to clear inbound BODs
 
 ## IMS Report
 
-<kbd><img alt="clear inbound cron" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/ims-report.png"></kbd>
+<kbd><img alt="ims report" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/ims-report.png"></kbd>
+
+During Customer Registration, BODs are dynamically generated and sent to ION via IMS. This is a report of those BODs sent to ION via IMS
 
 
 # eConnect-General
 
 The General section contains a number of basic settings that are generic for this instance of eConnect.
 
-<kbd><img alt="econnect general" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/common-customer.png"></kbd>
+<kbd><img alt="econnect general" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/econnect-general.png"></kbd>
 
 ## General Configuration
 
@@ -438,8 +450,6 @@ To add an additional mapping entry, simply press the &#39;Add&#39; button, and s
 
 Then, in the right two columns (M3 Delivery Method &amp; M3 Delivery Term) – key in the M3 values to which the Shipping method should be mapped:
 
-<kbd><img alt="shipping method" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/shipping-method.png"></kbd>
-
 Following this, remember to save the configuration by pressing &#39;Save Config&#39; at the top of the page.
 
 <kbd><img alt="save config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/save-config.png"></kbd>
@@ -497,11 +507,13 @@ This parameter is intended to be used for B2C sites where a choice needs to be m
 
 If **Create Customer On Placing Order** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed. 
 
+**NOTE: In this case the first order has to be synced twice. During the first sync ERP number is generated, and for the next sync order will be sent to m3**
+
 If **Create Customer On Placing Order** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;No&#39;, the customer template mentioned under **Customer Template Id** will be used to create a new customer number within M3 for each order being placed.
 
 If a registered user is signed in, and as such already has a Magento customer# - a verification is always first performed to see whether there&#39;s a value on External Customer # or not. If not new customer# will be created in M3.
 
-If **Create Customer On Placing Orderr** is set to &#39;No&#39;, then the same Customer template mentioned under **Common Customer Id** is used for each order created within M3. 
+If **Create Customer On Placing Order** is set to &#39;No&#39;, then the same Customer template mentioned under **Common Customer Id** is used for each order created within M3. 
 
 <kbd><img alt="customer general config2" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/common-customer-ims.png"></kbd>
 
@@ -509,6 +521,7 @@ If **Create Customer On Placing Orderr** is set to &#39;No&#39;, then the same C
 
 If **Create Customer via IMS** is set to &#39;Yes&#39;, IMS is used to send customer information via BODs to ION
 If **Create Customer via IMS** is set to &#39;No&#39;, the regular ION workflow is enabled.
+When **Create Customer via IMS** is set to &#39;Yes&#39;, the prefix mentioned in the field **ERP Customer Number Prefix** is used when creating new customer in ERP system via IMS
 
 ### User-defined Fields
 
