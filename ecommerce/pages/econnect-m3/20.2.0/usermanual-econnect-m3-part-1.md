@@ -63,7 +63,7 @@
 
 ## Architecture with IMS for multi-tenant Cloud M3
 
-<kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/architecture-withebase.png"></kbd>
+<kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/architecture-with-econnectbase.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -293,9 +293,9 @@ We have a &#39;Test connection&#39; button to verify if connection is up.
 
 ## IMS Configuration
 
-<kbd><img alt="IMS Configuration Part1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/IMSconfig1.png"></kbd>
+<kbd><img alt="IMS Configuration Part1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/imsconfig1.png"></kbd>
 
-<kbd><img alt="IMS Configuration Part2" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/Imsconfig2.png"></kbd>
+<kbd><img alt="IMS Configuration Part2" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/imsconfig2.png"></kbd>
 
 **Debug/log data**
 
@@ -361,7 +361,7 @@ This cron is used to clear inbound BODs
 
 The General section contains a number of basic settings that are generic for this instance of eConnect.
 
-<kbd><img alt="econnect general" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/econnect-general.png"></kbd>
+<kbd><img alt="econnect general" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/common-customer.png"></kbd>
 
 ## General Configuration
 
@@ -462,7 +462,7 @@ There is a maximum limit of 200 beyond which manual sync cannot be done.
 ## Customer General Configuration
 
 
-<kbd><img alt="general config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/customer-general-config.png"></kbd>
+<kbd><img alt="general config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/create-customer-on-placing-order-ims.png"></kbd>
 
 
 This section now contains the key parameters for how to handle customer creation, both for a B2B and a B2C site.
@@ -475,7 +475,7 @@ is set to &#39;Yes&#39;, Customer creation is done via IMS, else the regular eco
 
 This feature is intended for a B2B setup where new customers are allowed to register themselves on the front-end.
 
- <kbd><img alt="customer general config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/customer-general-configuration3.png"></kbd>
+ <kbd><img alt="customer general config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/create-customer-on-reg-ims.png"></kbd>
 
 If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed.
 
@@ -489,7 +489,7 @@ A manual process is assumed within M3, where a Customer service/Accounting respo
 
 Setting **Create Customer On Registration** to &#39;No&#39; disables the registration feature completely, which then in turn enables the Create Customer On Placing Order:
 
-<kbd><img alt="customer general config1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/customer-general-config.png"></kbd>
+<kbd><img alt="customer general config1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/create-customer-on-placing-order-ims.png"></kbd>
 
 ### Create Customer On Placing Order
 
@@ -503,7 +503,7 @@ If a registered user is signed in, and as such already has a Magento customer# -
 
 If **Create Customer On Placing Orderr** is set to &#39;No&#39;, then the same Customer template mentioned under **Common Customer Id** is used for each order created within M3. 
 
-<kbd><img alt="customer general config2" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/customer-general-config2.png"></kbd>
+<kbd><img alt="customer general config2" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/common-customer-ims.png"></kbd>
 
 ### Create Customer via IMS
 
@@ -678,7 +678,7 @@ The **Order Charges** group contains the settings related to how various additio
 
 When **Tax Transfer** is set to &#39;Yes&#39;, the **Tax Charge** field is visible:
 
-<kbd><img alt="taxcode" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/order-charges-taxcode.png"></kbd>
+<kbd><img alt="taxcode" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/order-charges-taxcode.png"></kbd>
 
 The drop-down for Tax Charge code provides dynamic values from M3 to enable an easy selection and reduce the risk for erroneous entry:
 
