@@ -5,13 +5,12 @@
 
 # Table of contents
 
-- [TABLE OF CONTENTS](#table-of-contents)
-
 - [GENERAL INFORMATION](#general-information)
   - [System Overview](#system-overview)
-  - [Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
-- [eConnect-base v2.0.0](#econnect-base-v200)
-- [IMS](#ims)
+  - [New in this version](#new-in-this-version)
+    - [Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
+    - [eConnect-base v3.0.0](#econnect-base-v300)
+    - [IMS](#ims)
   - [Transactions](#transactions)
   - [User Interface](#user-interface)
   - [Points of Contact](#points-of-contact)
@@ -26,18 +25,30 @@
 - [eConnect-base](#econnect-base)
   - [Import History](#import-history)
   - [Connectivity](#connectivity)
-  - [Service Configuration](#service-configuration)
-  - [Authentication](#authentication)
-  - [IMS Configuration](#ims-configuration)
-  - [Cron](#cron)
+    - [Service Configuration](#service-configuration)
+    - [Basic Data Configuration (M3 connection protocol - ION)](#basic-data-configuration-m3-connection-protocol---ion)
+    - [Authentication](#authentication)
+    - [New in this version](#new-in-this-version)
+      - [IMS Configuration](#ims-configuration)
+      - [Cron](#cron)
+      - [IMS Report](#ims-report)
 - [eConnect-General](#econnect-general)
   - [General Configuration](#general-configuration)
 - [eConnect-ION](#econnect-ion)
   - [Basic Data Configuration](#basic-data-configuration)
   - [Shipping Method](#shipping-method)
   - [Manual Sync Configuration](#manual-sync-configuration)
+- [New in this version](#new-in-this-version)
   - [Customer General Configuration](#customer-general-configuration)
+    - [Create Customer On Registration](#create-customer-on-registration)
+    - [Create Customer On Placing Order](#create-customer-on-placing-order)
+    - [Create Customer via IMS](#create-customer-via-ims)
+    - [User-defined Fields](#user-defined-fields)
   - [Product Addition/ Synchronization](#product-addition-synchronization)
+    - [Product attribute mapping](#product-attribute-mapping)
+    - [Product Synchronization - Item Disabling](#product-synchronization---item-disabling)
+    - [Product Synchronization - AttributeSet Mapping](#product-synchronization---attributeset-mapping)
+    - [Product Synchronization - Category Mapping](#product-synchronization---category-mapping)
   - [Customer Addition/ Synchronization](#customer-addition-synchronization)
   - [Sales](#sales)
   - [Order Charges](#order-charges)
@@ -51,6 +62,7 @@
 - [Magento Standard Functionality](#magento-standard-functionality)
 - [Exit System](#exit-system)
 
+
 # GENERAL INFORMATION
 
 ## System Overview
@@ -63,14 +75,15 @@
 
 [Go to Top](#table-of-contents)
 
-## Architecture with IMS for multi-tenant Cloud M3
+## New in this version
+### Architecture with IMS for multi-tenant Cloud M3
 
-<kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/architecture-with-ebase.png"></kbd>
+<kbd><img alt="Architecture with elink" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/architecture-with-econnectbase.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
 
-# eConnect-base v2.0.0
+### eConnect-base v3.0.0
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 - Acts as the communication layer for RabbitMQ Message consumption
@@ -84,7 +97,8 @@
 
 [Go to Top](#table-of-contents)
 
-# IMS
+
+### IMS
 
 ION Messaging Service (also known as Infor Application Connector in latest MT instances) is a loosely coupled connector that allows applications to integrate with ION through REST/JSON APIs.
 
@@ -113,9 +127,6 @@ eConnect 20.2.0 includes the following set of standard transactions like its pre
 - Invoice History
 - BOD Mapping
 - Initial Load / Import
-- Manual Sync for Customer
-- Manual Sync for Product
-- Manual Sync for Order
 
 These transactions can, if necessary, be modified and new transactions can be added to fulfill specific customer requirements.
 
@@ -123,15 +134,13 @@ These transactions can, if necessary, be modified and new transactions can be ad
 
 ## User Interface
 
-
 During setup, the Magento Admin panel is used to configure which transactions should be used and how they should function.There is also additional background configuration within the Connector.
 
 **Validated versions**
 
 - Magento Commerce 2.3.5
-- Magento Open Source 2.3.4
+- Magento Open Source 2.3.5
 - Infor M3 16.1
-- LeanSwift eLink 7.6.3
 - RabbitMQ 3.8.3
 - Infor ION Grid 12.0.2.0.20180308-135417.2
 - ION Desk 12.0.0
@@ -140,7 +149,7 @@ During setup, the Magento Admin panel is used to configure which transactions sh
 
 ## Points of Contact
 
-This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at [http://www.leanswift.com](http://www.leanswift.com/)or email info@leanswift.com
+This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at [http://www.leanswift.com](http://www.leanswift.com/) or email info@leanswift.com
 
 [Go to Top](#table-of-contents)
 
@@ -149,9 +158,9 @@ This document and the software it describes are provided by LeanSwift Solutions 
 
 This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation, though the general workflow is similar.
 
-This manual describes the configuration of LeanSwift eConnect for Infor M3 with ION. For a detailed description of the standard transactions, please refer to **Part II of the User Manual - LeanSwift eConnect for M3**  **20.2.0**.
+This manual describes the configuration of LeanSwift eConnect for Infor M3 with ION. For a detailed description of the standard transactions, please refer to **[Part II of the User Manual - LeanSwift eConnect for M3](https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/pages/econnect-m3/20.2.0/usermanual-econnect-m3-part-2.md)**  **20.2.0**.
 
- **Section 2** in this manual includes the configuration required within LeanSwift eConnect Magento extension via the Magento Admin panel.
+ This manual includes the configuration required within LeanSwift eConnect Magento extension via the Magento Admin panel.
  
 [Go to Top](#table-of-contents)
 
@@ -161,10 +170,8 @@ This manual describes the configuration of LeanSwift eConnect for Infor M3 with 
 
 - ERP – Enterprise Resource Planning
 - B2B – Business to Business
-- Business to Consumer
-- RMA – Return Materials Authorization
-
-
+- B2C – Business to Consumer
+- IMS – ION Messaging Service
 
 
 # CONFIGURATION
@@ -175,7 +182,7 @@ To support the use of LeanSwift eConnect for Infor M3, configuration is required
 
 Log in to Magento Admin Panel using the URL provided to you and the applicable user credentials.
 
-<kbd><img alt="Magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/magento.png"></kbd>
+<kbd><img alt="Magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/magento.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -187,11 +194,11 @@ Log in to Magento Admin Panel using the URL provided to you and the applicable u
 
 - To access the LeanSwift Configuration, click the **Leanswift** tab, and select the **Configuration** option under **econnect-ION**.
 
-<kbd><img alt="Configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/configuration.png"></kbd>
+<kbd><img alt="Configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/configuration.png"></kbd>
 
 Also pay attention to which configuration scope you&#39;re working under.
 
-<kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/configuration-scope.png"></kbd>
+<kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/configuration-scope.png"></kbd>
 
 For further information about _Configuration scope_ in Magento, please refer to the following article:
 
@@ -205,7 +212,7 @@ Navigate to the **LeanSwift Solutions** sub-menu down in the left-hand side conf
 
 Here, there will be several sections under the LeanSwift sub-menu.
 
-<kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/leanswift-tabs.png"></kbd>
+<kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/leanswift-tabs.png"></kbd>
 
 
 
@@ -216,7 +223,7 @@ The **eConnect-ION**  section contains the vast majority of the settings for bas
 
 The following sections are included in the eConnect configuration:
 
-<kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/configuration-ion.png"></kbd>
+<kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/configuration-ion.png"></kbd>
 
 
 
@@ -227,7 +234,7 @@ The eConnect-base section contains settings to connect with eLink/ION/M3, some o
 
 eConnect-base has 2 sections
 
-<kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-base.png"></kbd>
+<kbd><img alt="Configuration-scope" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/econnect-base.png"></kbd>
 
 
 ## Import History
@@ -236,19 +243,19 @@ Whenever an initial load API(EVS002MI/Initiate) call gets triggered, that reques
  Entity Name can be customer, address, order, shipment, invoice, product, inventory, atp.
  To trigger the Initial load BOD, we pass Entity Name, From Date, To Date, No. of Actions, Search Query as input and the result will be the Job ID.
  
- <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/import-history.png"></kbd>
+ <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/import-history.png"></kbd>
 
 
 ## Connectivity
 
 The Connectivity section of eConnect-base has the following configurations.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-base-configurations.png"></kbd>
+<kbd><img alt="econnect ebase config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/econnect-base-configurations.png"></kbd>
   
 
-## Service Configuration
+### Service Configuration
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/service-configurations.png"></kbd>
+<kbd><img alt="service config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/service-configurations.png"></kbd>
 
 
 **M3 Connection Protocol**
@@ -273,7 +280,7 @@ This is to log data to check request and response data, specially when developin
 
 ### Basic Data Configuration (M3 connection protocol - ION)
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/basicdata-configuration.png"></kbd>
+<kbd><img alt="basicdata config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/basicdata-configuration.png"></kbd>
 
 **Company**
 
@@ -283,7 +290,7 @@ The default company within M3. Setting can be defined on Default or Store level.
 
 The default division within M3. Setting can be defined on Default or Store level.
 
-## Authentication
+### Authentication
 
 The **Authentication** group contains the settings related to the web service authentication using the OAuth2.0 standard that eConnect employs.
 
@@ -292,7 +299,7 @@ This section is configured by LeanSwift during product installation.
 
 **Authentication (M3 connection protocol - ION)**
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/ebase-authentication.png"></kbd>
+<kbd><img alt="ebase authentication" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/ebase-authentication.png"></kbd>
 
 To ensure the security of eConnect, OAuth2.0 is always enabled by default.
 
@@ -300,9 +307,12 @@ The M3 User is the user with which we connect to ION APIs
 
 We have a &#39;Test connection&#39; button to verify if connection is up.
 
-## IMS Configuration
+### New in this version
+#### IMS Configuration
 
-Insert image here
+<kbd><img alt="IMS Configuration Part1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/imsconfig1.png"></kbd>
+
+<kbd><img alt="IMS Configuration Part2" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/imsconfig2.png"></kbd>
 
 **Debug/log data**
 
@@ -348,21 +358,29 @@ This indicates the Label to suggest from where the request is being sent to ION.
 
 This is the Prefix for Message Id in request.
 
-## Cron
+#### Cron
 
 **Clear inbound BODs**
 
-This cron is used to clear inbound BODs 
+This cron is used to clear inbound IMS BODs 
+
+<kbd><img alt="clear inbound cron" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/clear-inbound-cron.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
+
+#### IMS Report
+
+<kbd><img alt="ims report" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/ims-report.png"></kbd>
+
+During Customer Registration, BODs are dynamically generated and sent to ION via IMS. This is a report of those BODs sent to ION via IMS
 
 
 # eConnect-General
 
 The General section contains a number of basic settings that are generic for this instance of eConnect.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-general.png"></kbd>
+<kbd><img alt="econnect general" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/econnect-general.png"></kbd>
 
 ## General Configuration
 
@@ -396,7 +414,7 @@ In this case, the invoice history from Magento is always displayed by default.
 
 The **Basic Data Configuration** section of the configuration contains a number of key settings needed for the various transactions within LeanSwift eConnect.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/basicdata-configuration.png"></kbd>
+<kbd><img alt="basicdata config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/basicdata-configuration.png"></kbd>
 
 **Facility**
 
@@ -433,17 +451,15 @@ The default order type to use for Order creation. This setting can be managed on
 
 This section manages the mapping between the Shipping methods that have been enabled within Magento (_Leanswift &gt; eConnect-ION Configuration &gt; Sales &gt; Shipping Methods) and the Delivery method and term within M3.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/shipping-method.png"></kbd>
+<kbd><img alt="shipping method" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/shipping-method.png"></kbd>
 
 To add an additional mapping entry, simply press the &#39;Add&#39; button, and select the Magento Shipping Method value to map
 
 Then, in the right two columns (M3 Delivery Method &amp; M3 Delivery Term) – key in the M3 values to which the Shipping method should be mapped:
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/shipping-method.png"></kbd>
-
 Following this, remember to save the configuration by pressing &#39;Save Config&#39; at the top of the page.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/save-config.png"></kbd>
+<kbd><img alt="save config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/save-config.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -453,17 +469,17 @@ Following this, remember to save the configuration by pressing &#39;Save Config&
 
 Maximum number of records that can be selected at a time for manual sync can be configured here. There are separate configurations to set limit for Product, Customer and Order modules.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/manual-sync-configuration.png"></kbd>
+<kbd><img alt="manual sync config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/manual-sync-configuration.png"></kbd>
 
 There is a maximum limit of 200 beyond which manual sync cannot be done.
 
 [Go to Top](#table-of-contents)
 
+# New in this version
 
 ## Customer General Configuration
 
-
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config.png"></kbd>
+<kbd><img alt="general config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/create-customer-on-placing-order-ims.png"></kbd>
 
 
 This section now contains the key parameters for how to handle customer creation, both for a B2B and a B2C site.
@@ -476,7 +492,7 @@ is set to &#39;Yes&#39;, Customer creation is done via IMS, else the regular eco
 
 This feature is intended for a B2B setup where new customers are allowed to register themselves on the front-end.
 
- <kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config3.png"></kbd>
+ <kbd><img alt="customer general config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/create-customer-on-reg-ims.png"></kbd>
 
 If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed.
 
@@ -490,7 +506,7 @@ A manual process is assumed within M3, where a Customer service/Accounting respo
 
 Setting **Create Customer On Registration** to &#39;No&#39; disables the registration feature completely, which then in turn enables the Create Customer On Placing Order:
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config.png"></kbd>
+<kbd><img alt="customer general config1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/create-customer-on-placing-order-ims.png"></kbd>
 
 ### Create Customer On Placing Order
 
@@ -498,18 +514,21 @@ This parameter is intended to be used for B2C sites where a choice needs to be m
 
 If **Create Customer On Placing Order** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed. 
 
+**NOTE: In this case the first order has to be synced twice. During the first sync ERP number is generated, and for the next sync order will be sent to m3**
+
 If **Create Customer On Placing Order** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;No&#39;, the customer template mentioned under **Customer Template Id** will be used to create a new customer number within M3 for each order being placed.
 
 If a registered user is signed in, and as such already has a Magento customer# - a verification is always first performed to see whether there&#39;s a value on External Customer # or not. If not new customer# will be created in M3.
 
-If **Create Customer On Placing Orderr** is set to &#39;No&#39;, then the same Customer template mentioned under **Common Customer Id** is used for each order created within M3. 
+If **Create Customer On Placing Order** is set to &#39;No&#39;, then the same Customer template mentioned under **Common Customer Id** is used for each order created within M3. 
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-general-config2.png"></kbd>
+<kbd><img alt="customer general config2" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/common-customer-ims.png"></kbd>
 
 ### Create Customer via IMS
 
 If **Create Customer via IMS** is set to &#39;Yes&#39;, IMS is used to send customer information via BODs to ION
 If **Create Customer via IMS** is set to &#39;No&#39;, the regular ION workflow is enabled.
+When **Create Customer via IMS** is set to &#39;Yes&#39;, the prefix mentioned in the field **ERP Customer Number Prefix** is used when creating new customer in ERP system via IMS
 
 ### User-defined Fields
 
@@ -536,23 +555,23 @@ The New product status should be set to No to ensure the products do not appear 
 
 &#39;Style SKUs as Configurable Products&#39; can be set to Yes if we want style items and can be set to No to save them as simple items
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/product-addition-sync.png"></kbd>
+<kbd><img alt="product addition" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/product-addition-sync.png"></kbd>
 
 ### Product attribute mapping
 
 In order to ensure that the solution can deal with the flexibility and complexity of M3, the configuration allows you to specify what values from M3 should be mapped to the attributes which you have defined in magento. A Default field is provided to map a default value to any of the M3 fields.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/m3-attribute-mapping.png"></kbd>
+<kbd><img alt="attribute mapping m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/m3-attribute-mapping.png"></kbd>
 
 **Product Addition conditions:**
 
 As the most common scenario faced is that your M3 instance will contain far more items than you wish to have available in your webshop, eConnect comes with the ability to provide configurable criteria for selecting which items to include from M3.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/item-addition-condition.png"></kbd>
+<kbd><img alt="item addition condition" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/item-addition-condition.png"></kbd>
 
 In Addition to this, we also have the option to choose if it is &#39;Any/All&#39; of all conditions.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/condition-true.png"></kbd>
+<kbd><img alt="condition true" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/condition-true.png"></kbd>
 
 The main product tables are MITMAS, MITBAL and MITFAC.
 
@@ -562,13 +581,13 @@ Configuration is provided to Enable or Disable the products in Magento.
 
 Set yes to Disable the product status and map the required conditions.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/item-disabling.png"></kbd>
+<kbd><img alt="item disabling" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/item-disabling.png"></kbd>
 
 ### Product Synchronization - AttributeSet Mapping
 
 Magento uses the concept of attributes sets which allows products with similar features to be grouped and share a common set of attributes. Shoes for example would maybe need different attributes than the rental heavy equipment item. In order to ensure that items are imported and synced to Magento using the correct set of attributes, configuration is provided to assist in defining what M3 values indicate the product attribute set which the item will belong to.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/attributeset-mapping.png"></kbd>
+<kbd><img alt="attribute mapping" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/attributeset-mapping.png"></kbd>
 
 Similar to category mapping, a feature has been provided to define the behavior for attribute sets which have changed or those which do have a matching M3 value as has been defined.
 
@@ -578,7 +597,7 @@ To enable this feature &#39;Change AttributeSet for existing products&#39;is set
 
 When items are imported into Magento, they will need to have at least one product category to which they will be associated with. When this information is available in M3, this can be used to avoid duplication of record maintained.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/category-mapping.png"></kbd>
+<kbd><img alt="category mapping" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/category-mapping.png"></kbd>
 
 The category mapping is flexible enough to allow for more than one field in M3 to define which category it should belong to in Magento. The first step is to define the order and which fields in M3 will indicate category. The M3 Category source value should be entered in one continuous string.
 
@@ -608,7 +627,7 @@ Customer Addition/Synchronizationcontains all settings related to fetching Custo
 - Customer master and Financial Data is synchronized.
 - Address data is synchronized
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/customer-addition.png"></kbd>
+<kbd><img alt="customer addition" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/customer-addition.png"></kbd>
 
 
 
@@ -652,7 +671,7 @@ The mapping is done in the same way as for Shipping methods and Product Sync for
 
 The &#39;Sales&#39; section contains three key settings related to the sales order process from Magento to M3.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/sales.png"></kbd>
+<kbd><img alt="sales" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/sales.png"></kbd>
 
 **Enable order comments**
 
@@ -675,15 +694,15 @@ The **Order Charges** group contains the settings related to how various additio
 
 **Tax Transfer &amp; Tax Charge code:** If Tax Transferis set to &#39;No&#39;, then dynamically the Tax Chargefield is not displayed as it doesn&#39;t apply:
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/order-charges.png"></kbd>
+<kbd><img alt="order charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/order-charges.png"></kbd>
 
 When **Tax Transfer** is set to &#39;Yes&#39;, the **Tax Charge** field is visible:
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/order-charges-taxcode.png"></kbd>
+<kbd><img alt="taxcode" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/order-charges-taxcode.png"></kbd>
 
 The drop-down for Tax Charge code provides dynamic values from M3 to enable an easy selection and reduce the risk for erroneous entry:
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/order-charges-taxcode-dropdown.png"></kbd>
+<kbd><img alt="taxcode dropdown" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/order-charges-taxcode-dropdown.png"></kbd>
 
 **Shipping/Freight Fee Charge Type**
 
@@ -691,14 +710,14 @@ This setting provides the option to determine whether to in M3 handle the Shippi
 
 There exists an option to enable/disable, with which one can control whether to send the shipping charge to M3 or not,the parameter offers the user a simple selection between the two options:
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/order-charges-shipping.png"></kbd>
+<kbd><img alt="order charges shipping" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/order-charges-shipping.png"></kbd>
 
 
 Depending on the selection, the following setting is dynamically adjusted. When &#39;Non-stock item&#39; is selected as in the screen shot above, the user can select Shipping/Freight Fee Item Number in the field below. The selection is also here dynamic against M3 so that it provides the user with a simple drop-down of applicable items from M3.
 
 If &#39;Charges&#39; is selected, the following field provides selection of &#39;Shipping/Freight Fee Charge Code&#39;, and also in this case the list of available Charge ID&#39;s is dynamically retrieved from M3:
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/order-charges-shipping-dropdown.png"></kbd>
+<kbd><img alt="Order charges shipping dropdown" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/order-charges-shipping-dropdown.png"></kbd>
 
 
 **Gift Wrap Transfer**
@@ -716,7 +735,7 @@ If **Gift Wrap Transfer** is set to &#39;Yes&#39; – all of the above-mentioned
 
 Setting the parameter to &#39;Yes&#39;, will also in this case dynamically open up a number of additional fields on the screen:
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/order-charges-giftwrap.png"></kbd>
+<kbd><img alt="gift wrap charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/order-charges-giftwrap.png"></kbd>
 
 The **Gift Wrap Charge Type** parameter controls whether the Gift Wrapping related costs in Magento should be transferred over to M3 as Charges (Order- and/or Line) or Non-stock items.
 
@@ -726,7 +745,7 @@ As in the previous screen shot – if **Gift Wrap Charge Type** is set to &#39;N
 
 If instead the **Gift Wrap Charge Type** parameter is set to &#39;Charges&#39; – the following two parameters are dynamically adjusted to **Gift Wrap Order Charge Code** &amp; **Gift Wrap Line Charge Code** , offering a selection of Order-level and Line-level charge codes in M3 to handle Order-level Gift wrapping costs and Line-level Gift Wrapping costs.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/oder-charges-giftwrap-charges.png"></kbd>
+<kbd><img alt="giftwrap charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/oder-charges-giftwrap-charges.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -735,7 +754,7 @@ If instead the **Gift Wrap Charge Type** parameter is set to &#39;Charges&#39; �
 
 The Payments group contains the configuration related to credit-card integration, payment terms &amp; methods mapping, invoice fees etc.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/payments.png"></kbd>
+<kbd><img alt="payments" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/payments.png"></kbd>
 
 **Re-authorization Amount (Credit Cards)**
 
@@ -749,7 +768,7 @@ The mapping within this setup provides the link between Magento Payment Method v
 
 Invoice fees that can be imposed by certain payment providers can via this setting be handled two different ways in M3 – either as a non-stock item or as a [order header] charge.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/invoice-fee-type.png"></kbd>
+<kbd><img alt="invoice fee type" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/invoice-fee-type.png"></kbd>
 
 The selection made on this parameter will control which of the two values &#39;Invoice Fee Charge Code&#39; or &#39;Invoice Fee Charge Item no&#39; in the mapping below that will be used
 
@@ -768,7 +787,7 @@ In the example here, a fee of $2.00 would be added to each order as a non-stock 
 
 The Price Synchronization settings have been added to provide an option to enable or disable the real-time customer/item specific price call, as well as provide an option to increase site performance when needed.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/price-sync.png"></kbd>
+<kbd><img alt="price sync" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/price-sync.png"></kbd>
 
 
 **Enable**
@@ -791,7 +810,7 @@ When his setting is turned On, Customer special price is displayed in the backen
 
 This setting provides an option for which stock to invoke when stock is updated in M3.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/inventory-sync.png"></kbd>
+<kbd><img alt="inventory sync" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/inventory-sync.png"></kbd>
 
 **ERP Inventory Attribute**
 Allows admin to choose between On-Hand/Available Inventory/Allocatable Net.
@@ -803,18 +822,18 @@ Allows admin to choose between On-Hand/Available Inventory/Allocatable Net.
 
 This feature enables to import the data from M3.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/load-import.png"></kbd>
+<kbd><img alt="load import" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/load-import.png"></kbd>
 
 Each of this section has a set of fields that allows to choose date range and conditions for the data to be imported.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/import-customers.png"></kbd>
+<kbd><img alt="import customers" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/import-customers.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
 
 ## BOD Mapping
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/bod-mapping.png"></kbd>
+<kbd><img alt="BOD mapping" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/bod-mapping.png"></kbd>
 
 Bod Mapping can be used when we need additional M3 attributes( which are not available in standard BODs ) to save Magento attributes. This option can be given to save the custom attribute or override the existing attribute value with Xpath from BOD
 
@@ -830,7 +849,7 @@ The setup will vary from customer to customer depending on a number of factors s
 
 This section should always be reviewed within the project, and with the help of the LeanSwift Services team be adjusted to best fit each customer&#39;s environment.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/cron-settings.png"></kbd>
+<kbd><img alt="Cron Settings" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/cron-settings.png"></kbd>
 
 
 [Go to Top](#table-of-contents)
@@ -840,7 +859,7 @@ This section should always be reviewed within the project, and with the help of 
 
 This last section provides information related to the version of the LeanSwift Magento extension that&#39;s installed.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/version-info.png"></kbd>
+<kbd><img alt="Version Info" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/version-info.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -856,7 +875,7 @@ The ERP connector does not override or impact any other functionality in Magento
 
 Log out from Magento admin using the link at the top right.
 
-<kbd><img alt="import history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/manual-sync-configuraton.png"></kbd>
+<kbd><img alt="Exit System" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part1/Logout.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
