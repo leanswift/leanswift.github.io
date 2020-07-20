@@ -1,5 +1,5 @@
 
-#  User Manual - eConnect for M3 - v20.2.0
+#  User Manual Part I - eConnect for M3 - v20.2.0
 
 ![eConnect bnner](../../../../images/banner-econnect-m3.jpg)
 
