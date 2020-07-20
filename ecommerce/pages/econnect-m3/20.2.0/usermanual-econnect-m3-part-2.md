@@ -1,6 +1,6 @@
-#  User Manual - eConnect and ION Messaging Service- V20.2.0
+#  User Manual Part II - eConnect for M3 - v20.2.0
 
-![eConnect bnner](../../../../images/banner-econnect-m3.jpg)
+![eConnect banner](../../../../images/banner-econnect-m3.jpg)
 
 
 # Table of contents
