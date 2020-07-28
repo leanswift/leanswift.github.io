@@ -20,6 +20,7 @@
   - [Get item head details](#item-head)
   - [Get item unit of measures details](#uom)
   - [Get line item's balance ID](#balanceid)
+  - [Process line item for getting picked](#process-item)
   - [Confirm delivery](#confirm)
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
   - [Settings](#settings)
@@ -131,9 +132,9 @@ User Entry in the line item field values will be validated with the default valu
 
 Now on slide to report the line item will get picked via reporting number.
 
-To process line item for getting picked:
+### <a name="process-item"></a>Process line item for getting picked
 
-API:MHS850MI/AddPickViaRepNo
+**API:**MHS850MI/AddPickViaRepNo
 
 Input field required:
 
@@ -172,7 +173,7 @@ Input field required:
 
 Initially the Pick Reporting module settings will be opened to get message type and partner type.
 
-<img src="../images/settings.png" style="zoom:40%;" />
+<img src="../images/PR/settings.png" style="zoom:40%;" />
 
 
 
@@ -182,13 +183,13 @@ Either the provided message type or partner type can be entered or for Message t
 
 Pick reporting can be done in Move or Issue mode.
 
-![2_PR_move](../images/2_PR_move.gif)
+![2_PR_move](../images/PR/2_PR_move.gif)
 
 
 
 ### <a name="del-field"></a>Delivery # Field:
 
-![1_delivery_field](../images/1_delivery_field.gif)
+![1_delivery_field](../images/PR/1_delivery_field.gif)
 
 
 
@@ -200,7 +201,7 @@ Delivery item can be manually entered using keyboard, scanned using inbuilt came
 
 On selecting a delivery item, suffix selection will be required from user. On selecting the suffic the pick line items under the delivery item for the suffix will be shown.
 
-![3_PLSX_CONFIRM](../images/3_PLSX_CONFIRM.gif)
+![3_PLSX_CONFIRM](../images/PR/3_PLSX_CONFIRM.gif)
 
 
 
@@ -212,13 +213,13 @@ After opening a line item it can be confirmed by three modes
 
 #### <a name="default"></a>Default  entry
 
-![5_PR_Default_values](../images/5_PR_Default_values.gif)
+![5_PR_Default_values](../images/PR/5_PR_Default_values.gif)
 
 #### <a name="manual"></a>Manual entry using keyboard
 
 This can be done by double tapping the field which needs to be edited.
 
-![6_PR_double_tap](../images/6_PR_double_tap.gif)
+![6_PR_double_tap](../images/PR/6_PR_double_tap.gif)
 
 #### <a name="scan-lookup"></a>Scan field / Look up selection
 
@@ -226,7 +227,7 @@ The bottom scanner can be used to scan any field value on tapping a field and th
 
 look up options allows to view the balance id's fetched from [BalanceID](#balanceid).
 
-​	![7_PR_lookup](../images/7_PR_lookup.gif)	
+​	![7_PR_lookup](../images/PR/7_PR_lookup.gif)	
 
 ### <a name="report-item"></a>Report Pick Item
 
@@ -234,7 +235,7 @@ After entering the details for the line item it can be reported using slide to c
 
 But all the entered data will be validated against the line item and reported.
 
-![8_slidetoconfirm](../images/8_slidetoconfirm.gif)
+![8_slidetoconfirm](../images/PR/8_slidetoconfirm.gif)
 
 ### <a name="confirm-demo"></a>Confirm Delivery Item
 
@@ -242,7 +243,7 @@ On reporting all or partial line items the delivery item can be confirmed by tap
 
 The completed line item will have a tick mark in the completed column. 
 
-![9_tick_icon_last](../images/9_tick_icon_last.gif)
+![9_tick_icon_last](../images/PR/9_tick_icon_last.gif)
 
 Delivery item will be confirmed in M3 using [Confirm](#confirm)
 
