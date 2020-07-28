@@ -124,7 +124,7 @@ Query: MUALUN,MUDCCD,MUCOFA,MUDMCF,MUITNO from MITAUN where MUITNO = '%@' and MU
 
 ### <a name="balanceid"></a>Get line item's balance ID
 
-**API:**EXPORTMI/Select
+**API:** EXPORTMI/Select
 
 Query: MLCONO, MLITNO,MLWHLO,MLWHSL,MLBANO,MLSTQT,MLALQT,MLCAMU from MITLOC where MLITNO = '%@' and MLWHLO = '%@' and MLALOC = '1' and MLSTAS = '2'
 
@@ -134,7 +134,7 @@ Now on slide to report the line item will get picked via reporting number.
 
 ### <a name="process-item"></a>Process line item for getting picked
 
-**API:**MHS850MI/AddPickViaRepNo
+**API:** MHS850MI/AddPickViaRepNo
 
 Input field required:
 
@@ -156,7 +156,7 @@ Finally on clicking tick button in the line items screen the complete delivery w
 
 ### <a name="confirm"></a> Confirm delivery
 
-**API:**MWS420MI/Confirm
+**API:** MWS420MI/Confirm
 
 Input field required:
 

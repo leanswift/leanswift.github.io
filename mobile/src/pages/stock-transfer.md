@@ -43,7 +43,7 @@ When the Initial launch of the stock transfer module there is message type and p
 
 ### <a name="balanceid"></a>Get Item Warehouse Balance 
 
-**API:**MMS200MI/GetItmWhsBal
+**API:** MMS200MI/GetItmWhsBal
 
 Input field required:
 
@@ -88,7 +88,7 @@ After Successful retrieving of item details and UOM. User will be allowed to ent
 
 ### <a name="retr-loc"></a>Validate From Location
 
-**API:**MMS060MI/Get
+**API:** MMS060MI/Get
 
 Input field required:
 
@@ -104,7 +104,7 @@ Input field required:
 
 ### <a name="trn-stock"></a>Transfer Stock
 
-**API:**MMS850MI/AddMove
+**API:** MMS850MI/AddMove
 
 Input field required:
 

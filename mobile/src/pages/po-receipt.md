@@ -109,7 +109,7 @@ Input field required:
 
 ### <a name="balanceid"></a>Get Item Warehouse Balance
 
-**API:**MMMS235MI/GetItmLot
+**API:** MMMS235MI/GetItmLot
 
 Input field required:
 
@@ -120,7 +120,7 @@ Input field required:
 
 ### <a name="retr-loc"></a>Validate Put-Away Location
 
-**API:**MMS010MI/GetLocation
+**API:** MMS010MI/GetLocation
 
 Input field required:
 
@@ -132,7 +132,7 @@ Input field required:
 
 ### <a name="pckg-stock"></a>Get Package in Stock
 
-**API:**MMS470MI/GetPackageStk
+**API:** MMS470MI/GetPackageStk
 
 Input field required:
 
@@ -144,7 +144,7 @@ Input field required:
 
 ### <a name="add-pckg"></a>Add Package in Stock
 
-**API:**MMS470MI/AddPackStk
+**API: **MMS470MI/AddPackStk
 
 Input field required:
 
@@ -158,7 +158,7 @@ Input field required:
 
 ### <a name="receipt"></a>PO Receipt
 
-**API:**PPS310MI/QualityInspPO
+**API:** PPS310MI/QualityInspPO
 
 Input field required:
 

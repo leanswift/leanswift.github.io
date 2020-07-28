@@ -127,7 +127,7 @@ Input field required:
 
 ### <a name="balanceid"></a>Get Item Warehouse Balance 
 
-**API:**MMS200MI/GetItmBasic
+**API:** MMS200MI/GetItmBasic
 
 Input field required:
 
@@ -138,7 +138,7 @@ Input field required:
 
 ### <a name="retr-loc"></a>Retrive Put-Away Location
 
-**API:**MMS160MI/RtvPutAwayLoc
+**API:** MMS160MI/RtvPutAwayLoc
 
 Input field required:
 
@@ -155,7 +155,7 @@ Input field required:
 
 ### <a name="putaway-po"></a>Put-Away PO
 
-**API:**PPS320MI/PutawayPO
+**API:** PPS320MI/PutawayPO
 
 Input field required:
 
@@ -172,7 +172,7 @@ Input field required:
 
 ### <a name="2putaway-list"></a>Get Two Step Put-away List
 
-**API:**MWS460MI/LstPutAwayTask
+**API:** MWS460MI/LstPutAwayTask
 
 Input field required:
 
@@ -185,7 +185,7 @@ Input field required:
 
 ### <a name="process-2po"></a> Process Two Step Putaway
 
-**API:**MHS850MI/AddPutAwayConf
+**API:** MHS850MI/AddPutAwayConf
 
 Input field required:
 

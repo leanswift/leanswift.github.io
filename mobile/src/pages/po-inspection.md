@@ -102,7 +102,7 @@ Input field required:
 
 ### <a name="reject-reasons"></a>Get Reject Reasons
 
-**API:**CRS175MI/LstGeneralCode
+**API:** CRS175MI/LstGeneralCode
 
 Input field required:
 
@@ -112,7 +112,7 @@ Input field required:
 
 ### <a name="retr-loc"></a>Validate Location
 
-**API:**MMS010MI/GetLocation
+**API:** MMS010MI/GetLocation
 
 Input field required:
 
@@ -123,7 +123,7 @@ Input field required:
 
 ### <a name="inspect"></a>PO Inspection
 
-**API:**PPS310MI/QualityInspPO
+**API:** PPS310MI/QualityInspPO
 
 Input field required:
 
