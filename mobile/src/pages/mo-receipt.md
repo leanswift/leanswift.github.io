@@ -10,7 +10,7 @@
   - [Intended Audience](#intended-audience)
     - [MO Receipt standard functionality](#std-func)
 - **[Technical details](#tech-details)**
-- [Get item head details](#item-head)
+  - [Get item head details](#item-head)
   - [Get MO List by Facility](#item-by-facility)
   - [Get MO List by Product Number](#item-by-prd)
   - [Submit Report](#report-receipt)
