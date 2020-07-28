@@ -1,6 +1,6 @@
 
 
-# User Guide - PO Inspection Configuration
+# User Guide - PO Inspection
 
 <img src="/Users/tamilselvan/Documents/Docs/MFCEDOCS/Docs/images/banner-mobilefirst-cloudsuite.jpg" alt="banner" style="zoom:100%;" />
 

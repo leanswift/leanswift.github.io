@@ -8,7 +8,7 @@
 
 - ## Net Change / Release Notes
 
-- ## User Guide - MO Creation 
+- ## [User Guide - MO Creation](mo-creation.md)
 
 - ## User Guide - MO Receipt 
 

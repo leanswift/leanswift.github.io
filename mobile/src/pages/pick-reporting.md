@@ -1,6 +1,6 @@
 
 
-# User Guide - Pick Reporting Configuration
+# User Guide - Pick Reporting
 
 <img src="../../../images/banner-mobilefirst-cloudsuite.jpg" alt="banner" style="zoom:100%;" />
 
