@@ -2,7 +2,7 @@
 
 # User Guide - PO Receipt
 
-<img src="/Users/tamilselvan/Documents/Docs/MFCEDOCS/Docs/images/banner-mobilefirst-cloudsuite.jpg" alt="banner" style="zoom:100%;" />
+<img src="../../../images/banner-mobilefirst-cloudsuite.jpg" alt="banner" style="zoom:100%;" />
 
 
 
