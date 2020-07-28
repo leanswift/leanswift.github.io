@@ -10,7 +10,6 @@
 
   - [Intended Audience](#intended-audience)
     - [MO Creation standard functionality](#std-func)
-      - [Features include](#ftrs)
 
 - **[Technical details, Workflow & Screen Layouts](#tech-details)**
 
