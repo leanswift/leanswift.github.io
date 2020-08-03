@@ -11,17 +11,8 @@
 - **[About this guide](#about-this-guide)**
   - [Intended Audience](#intended-audience)
     - [PO Receipt standard functionality](#std-func)
-- **[Technical details](#tech-details)**
-  - [List Warehouse](#list-whsl)
-  - [Validate PO #](#validate-po)
-  - [Get Line Items](#line-items)
-  - [Get Line Details](#line-details)
-  - [Get Container Info](#container-info)
-  - [Get Item Warehouse Balance](#balanceid)
-  - [Validate Put-Away Location](#retr-loc)
-  - [Get Package in Stock](#pckg-stock)
-  - [Add Package in Stock](#add-pckg)
-  - [PO Receipt](#receipt)
+- **[M3 Setup](#m3-setup)**
+  - [Set Pick Team](#set-pick-team)
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
   - [Settings](#settings)
   - [Purchase order number](#po)
@@ -44,139 +35,13 @@ MobileFirst Configuration User Guide provides guidance for LeanSwift customers a
 
 The purchase order receipt for Infor M3 provides the ability to receive purchase order into a warehouse.
 
-# **<a name="tech-details"></a>Technical details**
 
-### <a name="list-whsl"></a>List Warehouse
 
-**API:** MMS005MI/LstWarehouses
+# **<a name="wrk"></a>M3Setup**
 
-Input field required:
+### <a name="set-pick-team"></a>Set Pick Team
 
-| Field | Description    |
-| ----- | -------------- |
-| CONO  | Company        |
-| FWHL  | From Warehouse |
-| TWHL  | To Warehouse   |
-| DCIN  | DC info        |
-| LMTS  | Time Stamp     |
-
-### <a name="validate-po"></a>Validate PO #
-
-**API:** PPS200MI/GetHead
-
-Input field required:
-
-| Field | Description    |
-| ----- | -------------- |
-| CONO  | Company        |
-| PUNO  | Purchase Order |
-
-### <a name="line-items"></a>Get Line Items
-
-**API:** PPS200MI/LstLine
-
-Input field required:
-
-| Field | Description    |
-| ----- | -------------- |
-| PUNO  | Purchase Order |
-| CONO  | Company        |
-
-Select the line item from the list. Depending on the PO's order type the items will be under single put away or two step put away.
-
-### <a name="line-details"></a>Get Line Item Details
-
-**API:** MMS200MI/Get
-
-Input field required:
-
-| Field | Description |
-| ----- | ----------- |
-| ITNO  | Item Number |
-| LNCD  | Language    |
-
-### <a name="container-info"></a>Get Container Info
-
-**API:** MMS200MI/GetItmWhsBasic
-
-Input field required:
-
-| **Field** | **Description**              |
-| --------- | ---------------------------- |
-| ITNO      | Purchase Order's Item Number |
-| WHLO      | Purchase Order warehouse     |
-| CONO      | Company                      |
-
-### <a name="balanceid"></a>Get Item Warehouse Balance
-
-**API:** MMMS235MI/GetItmLot
-
-Input field required:
-
-| **Field** | **Description** |
-| --------- | --------------- |
-| ITNO      | Item number     |
-| BANO      | Lot Number      |
-
-### <a name="retr-loc"></a>Validate Put-Away Location
-
-**API:** MMS010MI/GetLocation
-
-Input field required:
-
-| **Field** | **Description** |
-| --------- | --------------- |
-| WHLO      | Warehouse       |
-| WHSL      | Warehouse       |
-| CONO      | Company         |
-
-### <a name="pckg-stock"></a>Get Package in Stock
-
-**API:** MMS470MI/GetPackageStk
-
-Input field required:
-
-| **Field** | **Description** |
-| --------- | --------------- |
-| PANR      | Package number  |
-| SSCC      | SSCC Number     |
-| CONO      | Company         |
-
-### <a name="add-pckg"></a>Add Package in Stock
-
-**API: **MMS470MI/AddPackStk
-
-Input field required:
-
-| **Field** | **Description** |
-| --------- | --------------- |
-| WHLO      | Warehouse       |
-| PANR      | Package number  |
-| SSCC      | SSCC Number     |
-| PACT      | Packaging       |
-| CONO      | Company         |
-
-### <a name="receipt"></a>PO Receipt
-
-**API:** PPS310MI/QualityInspPO
-
-Input field required:
-
-| **Field** | **Description**              |
-| --------- | ---------------------------- |
-| CONO      | Company                      |
-| TRDT      | Transaction date             |
-| RESP      | Responsible                  |
-| PUNO      | Purchase order number        |
-| PNLI      | Purchase order number line   |
-| RVQA      | Received quantity            |
-| WHSL      | Location                     |
-| BANO      | Lot number                   |
-| CAMU      | Container number             |
-| PNLS      | Purchase order number status |
-| OEND      | Finish mark                  |
-| SUDO      | Delivery note                |
-| PRDT      | Manufacturing date           |
+<!-- Setting up HPTEAM for the users -->
 
 
 

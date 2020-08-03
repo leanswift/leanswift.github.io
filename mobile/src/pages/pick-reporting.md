@@ -12,16 +12,8 @@
   - [Intended Audience](#intended-audience)
     - [Pick reporting standard functionality](#std-func)
       - [Features include](#ftrs)
-- **[Technical details](#tech-details)**
-  - [Get Pick Team](#get-pick-team)
-  - [Get Delivery list](#del-list)
-  - [Get list pick header](#list-pick-hd)
-  - [Get pick line items list](#pick-line-items)
-  - [Get item head details](#item-head)
-  - [Get item unit of measures details](#uom)
-  - [Get line item's balance ID](#balanceid)
-  - [Process line item for getting picked](#process-item)
-  - [Confirm delivery](#confirm)
+- **[M3 Setup](#m3-setup)**
+  - [Set Pick Team](#set-pick-team)
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
   - [Settings](#settings)
   - [Pick Reporting mode](#pick-mode)
@@ -58,114 +50,13 @@ MobileFirst Pick reporting for Infor M3 makes it possible to provide support for
 5. Look from Balance ID’s and fill up the item pick quantity.
 6. Delivery Items picking completion. 
 
-# **<a name="tech-details"></a>Technical details**
-
-### <a name="get-pick-team"></a>Get Pick Team
-
-**API:** *EXPORTMI/Select*
-
-Input field required:
-
-Query: HPTEAM from MITPIC where HPWHLO = '%@' and HPPICK = '%@'
-
-### <a name="del-list"></a>Get Delivery list
-
-**API:** MWS420MI/LstPickList
-
-Input field required:
-
-| Field | Description         |
-| ----- | ------------------- |
-| WHLO  | Warehouse           |
-| FPIS  | From Picking status |
-| TPIS  | To Picking status   |
-| TEAM  | Pick Team           |
-
-Select the delivery item from the list or manually enter the delivery number using keyboard or scan a delivery number by tapping scan button.
-
-### <a name="list-pick-hd"></a>Get list pick header
-
-**API:** MWS420MI/LstPickHeader
-
-Input field required:
-
-| Field | Description         |
-| ----- | ------------------- |
-| DLIX  | Delivery number     |
-| PLSX  | Picking list suffix |
-
-### <a name="pick-line-items"></a>Get pick line items list
-
-**API:** MWS420MI/LstPLViaPckLst
-
-Input field required:
-
-| Field | Description      |
-| ----- | ---------------- |
-| CONO  | Company          |
-| RIDI  | Delivery number  |
-| PLSX  | Pick list suffix |
-
-### <a name="item-head"></a>Get item head details
-
-**API:** MMS200MI/Get
-
-Input field required:
-
-| **Field** | **Description** |
-| --------- | --------------- |
-| ITNO      | Item number     |
-
-### <a name="uom"></a>Get item unit of measures details:
-
-**API:** EXPORTMI/Select
-
-Query: MUALUN,MUDCCD,MUCOFA,MUDMCF,MUITNO from MITAUN where MUITNO = '%@' and MUAUTP = '1'
-
-### <a name="balanceid"></a>Get line item's balance ID
-
-**API:** EXPORTMI/Select
-
-Query: MLCONO, MLITNO,MLWHLO,MLWHSL,MLBANO,MLSTQT,MLALQT,MLCAMU from MITLOC where MLITNO = '%@' and MLWHLO = '%@' and MLALOC = '1' and MLSTAS = '2'
-
-User Entry in the line item field values will be validated with the default values and quantities will be undergo basic validation like less than or equal to default value and the entry done on alternate or standard unit of measures.
-
-Now on slide to report the line item will get picked via reporting number.
-
-### <a name="process-item"></a>Process line item for getting picked
-
-**API:** MHS850MI/AddPickViaRepNo
-
-Input field required:
-
-| **Field** | **Description**  |
-| --------- | ---------------- |
-| CONO      | Company          |
-| WHLO      | warehouse        |
-| PRMD      | Process flag     |
-| E0PA      | partner type     |
-| E065      | message type     |
-| PLRN      | Reporting number |
-| QTYP      | picked quantity  |
-| WHSL      | Location         |
-| BANO      | Lot number       |
-| TWSL      | To Location      |
-| ISMD      | Issue/Move mode  |
-
-Finally on clicking tick button in the line items screen the complete delivery will be confirmed
-
-### <a name="confirm"></a> Confirm delivery
-
-**API:** MWS420MI/Confirm
-
-Input field required:
-
-| Field | Description      |
-| ----- | ---------------- |
-| DLIX  | Delivery number  |
-| PLSX  | Pick list suffix |
 
 
+# **<a name="wrk"></a>M3Setup**
+
+### <a name="set-pick-team"></a>Set Pick Team
+
+<!-- Setting up HPTEAM for the users -->
 
 # **<a name="wrk"></a>Workflow, Screen Layouts & API Logic**
 
@@ -193,7 +84,7 @@ Pick reporting can be done in Move or Issue mode.
 
 
 
-By default the Delivery list will list all deliveries available under the selected warehouse and pick team fetched from [Get Pick Team](#get-pick-team) for the user.
+By default the Delivery list will list all deliveries available under the selected warehouse and pick team fetched from M3 for the user.
 
 Delivery item can be manually entered using keyboard, scanned using inbuilt camera or selected from the list.
 
@@ -225,7 +116,7 @@ This can be done by double tapping the field which needs to be edited.
 
 The bottom scanner can be used to scan any field value on tapping a field and the scanner can fill the scanned data into that tapped field.
 
-look up options allows to view the balance id's fetched from [BalanceID](#balanceid).
+look up options allows to view the balance id's fetched from M3.
 
 ​	![7_PR_lookup](../images/PR/7_PR_lookup.gif)	
 
@@ -245,7 +136,7 @@ The completed line item will have a tick mark in the completed column.
 
 ![9_tick_icon_last](../images/PR/9_tick_icon_last.gif)
 
-Delivery item will be confirmed in M3 using [Confirm](#confirm)
+Delivery item will be confirmed in M3.s
 
 
 

@@ -9,19 +9,18 @@
 - **[About this guide](#about-this-guide)**
   - [Intended Audience](#intended-audience)
     - [MO Receipt standard functionality](#std-func)
-- **[Technical details](#tech-details)**
-  - [Get item head details](#item-head)
-  - [Get MO List by Facility](#item-by-facility)
-  - [Get MO List by Product Number](#item-by-prd)
-  - [Submit Report](#report-receipt)
+- **[M3 Setup](#m3-setup)**
+
+  - [Set Pick Team](#set-pick-team)
 
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
+  
   - [Settings](#settings)
   - [Item #](#itno)
   - [Select Order](#order)
   - [Report details](#report-details)
-  - [Reporting Receipt](#submit-scr)
-
+- [Reporting Receipt](#submit-scr)
+  
 - **[M3 sample workflow](#m3sample)**
 
   - [Create customer order PMS001](#crt-pms)
@@ -40,56 +39,13 @@ The intended use of this app is for a user to be reporting receipts against Manu
 
 Using PO Receipt module in MobileFirst Orders can be searched by providing order number and product number. They can also input only product number and list all orders containing the product and choose from the list.The receipt report can be done by tapping the orders in the list and on selecting valid location and manufactured quantity that order can be reported using slide to confirm at the end.
 
-# <a name="tech-details"></a>Technical details
 
-### <a name="item-head"></a>Get item head details
 
-**API:** MMS200MI/Get
+# **<a name="wrk"></a>M3Setup**
 
-Input field required:
+### <a name="set-pick-team"></a>Set Pick Team
 
-| **Field** | **Description** |
-| --------- | --------------- |
-| ITNO      | Item number     |
-| LNCD      | Language        |
-
-### <a name="item-by-facility"></a>Get MO List by Facility
-
-**API:** ExportMI/Select
-
-Query: VHWHST,VHWHHS,VHWHLO,VHFACI,VHPRNO,VHMFNO,VHMAQT,VHORQT,VHORQA,VHOROA,VHMAUN,VHWHSL,VHREND,VHBANO from MWOHED where VHFACI = '%@' and VHPRNO = '%@'
-
-### <a name="item-by-prd"></a>Get MO List by Product Number
-
-**API:** PMS100MI/Get
-
-Input field required:
-
-| Field | Description         |
-| ----- | ------------------- |
-| CONO  | Company             |
-| PRNO  | Product Number      |
-| FACI  | Facility            |
-| MFNO  | Manufacturing Order |
-
-### <a name="report-receipt"></a>Submit Report
-
-**API:** PMS050MI/RptReceipt
-
-Input field required:
-
-| **Field** | **Description**                                |
-| --------- | ---------------------------------------------- |
-| CONO      | Company                                        |
-| PRNO      | Product number                                 |
-| MFNO      | Manufaturing Order Number                      |
-| RPQA      | Reported Quantity in alternate unit of measure |
-| MAUN      | Unit of measure                                |
-| WHSL      | Location                                       |
-| REND      | Flagged as Complete                            |
-| STAS      | Status - balance id                            |
-| BANO      | Lot Number                                     |
-| FACI      | Facility                                       |
+<!-- Setting up HPTEAM for the users -->
 
 
 
