@@ -16,7 +16,7 @@
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
   
   - [Settings](#settings)
-  - [Item #](#itno)
+  - [Item Entry](#itno)
   - [Reporting Receipt](#submit-scr)
   
 - **[M3 sample workflow](#m3sample)**
@@ -57,7 +57,7 @@ Initially the MO Receipt module settings can be opened to choose warehouse and f
 
 
 
-### <a name="itno"></a>Item #
+### <a name="itno"></a>Item Entry #
 
 In the Item number field enter manually using keyboard or scan from inbuilt camera. Item Number and Order Number can be entered or scanned from inbuilt camera.
 

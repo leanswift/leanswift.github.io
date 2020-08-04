@@ -11,16 +11,15 @@
   - [Intended Audience](#intended-audience)
     - [MO Creation standard functionality](#std-func)
 
-- **[Technical details, Workflow & Screen Layouts](#tech-details)**
-
-  - [Get Facility list](#get-facility)
-  - [Get Warehouse list](#get-warehouse)
-  - [Get item basic](#item-basic)
-  - [Get item warehouse basic data](#whs-basic)
-  - [Get item basic details](#item-details)
-  - [Create manufacturing order](#crt-mo)
-
+- **[Workflow & Screen Layouts](#tech-details)**
+- [MO Details For Creation](#mo-creation)
   
+
+
+
+
+
+
 
 # <a name="about-this-guide"></a>About this guide
 
@@ -34,108 +33,19 @@ MobileFirst Configuration User Guide provides guidance for LeanSwift customers a
 
 The intended use of this app is for a user to be able to quickly and simply create a Manufacturing Order (MO) from an iOS device. The application is not intended to re-create all of the options available to the user within M3 but be a quick on-the-go option to create missing/additional Manufacturing orders manually.
 
-# <a name="tech-details"></a>Technical details, Workflow & Screen Layouts
+# <a name="tech-details"></a>Workflow & Screen Layouts
 
-This section provides details on the desired workflow within the applications, rough screen layouts as well as details on back-end API/SQL logic to apply for each step.
+This section provides details on the desired workflow within the applications and sample screen animation.
 
-The Warehouse field and Location field auto filled with logged in user’s default warehouse and location. 
+Upon navigating into MO Creation, the current logged in user's warehouse and facility will be selected under warehouse and facility fields. If the current user has no default warehouse assigned the field will be empty and user can select the warehouse from the list of warehouse by tapping the field.
 
-The user Id will be fetched from MNS150MI/GetUserInfo using the user id the user data will be fetched from MNS150MI/GetUserData. 
+### <a name="mo-creation"></a>MO details For Creation
 
-This will happen once the user logs in. In the MO Creation module, the user facility and warehouse will be selected from the list of warehouse and facility fetched from MMS005MI/LstWarehouses and CRS008MI/ListFacility respectively. 
+After selection of warehouse and facility, product number has to be entered in the product field. This product number will be validated against M3 and upon valid product number the item details will be fetched and the product structure type will be auto populated in the product structure type field.
 
-### <a name="get-facility"></a>Get Facility list
+For creating an manufacturing order the quantity, status, pick date has to be provided. These fields has to be entered by the user.
 
-**API:** CRS008MI/ListFacility
+On entering all valid values the slider controll will appear. Using this slide to confirm the MO creation will be done in the M3 and the order creation result success / failure message will be dispalyed with the order number.
 
-Input field required:
 
-| Field | Description |
-| ----- | ----------- |
-| CONO  | Company     |
-| FACI  | Facility    |
-
-### <a name="get-warehouse"></a>Get Warehouse list
-
-**API:** MMS005MI/LstWarehouses
-
-Input field required:
-
-| Field | Description    |
-| ----- | -------------- |
-| CONO  | Company        |
-| FWHL  | From Warehouse |
-| TWHL  | To Warehouse   |
-| DCIN  | DC info        |
-| LMTS  | Time Stamp     |
-
-/*image*/
-
-Enter the Product number in the product Field.
-
-Product numbers can be found in MMS001, on submitting a valid item number the product structure type will be fetched and auto populated.
-
-### <a name="item-basic"></a>Get item basic
-
-**API:** MMS200MI/GetItmBasic
-
-Input field required:
-
-| Field | Description |
-| ----- | ----------- |
-| CONO  | Company     |
-| ITNO  | Item number |
-
-### <a name="whs-basic"></a>Get item warehouse basic data
-
-**API:** MMS200MI/GetItmWhsBasic
-
-Input field required:
-
-| Field | Description |
-| ----- | ----------- |
-| CONO  | Company     |
-| ITNO  | Item number |
-| WHLO  | Warehouse   |
-
-### <a name="item-details"></a>Get item basic details
-
-API: PDS001MI/List
-
-Input field required:
-
-| **Field** | **Description** |
-| --------- | --------------- |
-| CONO      | Company         |
-| PRNO      | Item number     |
-| FACI      | Facility        |
-
-After Successful retrieving of product structure type add required quantity and choose the pick date and select the status.
-
-### <a name="crt-mo"></a>Create manufacturing order
-
-**API:** PMS001MI/CrtMO
-
-Input field required:
-
-| **Field** | **Description**                                 |
-| --------- | ----------------------------------------------- |
-| CONO      | Company                                         |
-| PRNO      | Item number                                     |
-| STRT      | Structure type                                  |
-| ORTY      | Order type                                      |
-| MAUN      | Unit of measure                                 |
-| DSP1      | Warning - Date is earlier than today's          |
-| DSP2      | Warning - Start date may be  earlier than       |
-| DSP3      | Warning - Finish date &1  gives earliest finish |
-| DSP5      | Warning - Alternative routing identity          |
-| DSP6      | Warning - Ignore order multiple                 |
-| WHST      | Status                                          |
-| ORQA      | Order quantity                                  |
-| STDT      | Start date                                      |
-| FIDT      | Finish date                                     |
-
-On slide to report the create manufacturing order call will be made and respective success/failure message will be thrown.
-
-/*image*/
 

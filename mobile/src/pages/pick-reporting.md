@@ -136,7 +136,7 @@ The completed line item will have a tick mark in the completed column.
 
 ![9_tick_icon_last](../images/PR/9_tick_icon_last.gif)
 
-Delivery item will be confirmed in M3.s
+Delivery item will be confirmed in M3.
 
 
 
