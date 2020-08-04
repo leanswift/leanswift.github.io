@@ -51,7 +51,7 @@ Using PO Receipt module in MobileFirst Orders can be searched by providing order
 
 ### <a name="settings"></a>Settings
 
-Initially the MO Receipt module settings can be opened to choose warehouse and facility.
+​		Initially, the MO Receipt module settings can be opened to choose the warehouse and facility.
 
 <img src="../images/MORE/1.gif" style="zoom:100%;" />
 
@@ -59,7 +59,7 @@ Initially the MO Receipt module settings can be opened to choose warehouse and f
 
 ### <a name="itno"></a>Item Entry #
 
-In the Item number field enter manually using keyboard or scan from inbuilt camera. Item Number and Order Number can be entered or scanned from inbuilt camera.
+Item Number and Order Number can be entered or scanned from the inbuilt camera.
 
 <img src="../images/MORE/2.gif" style="zoom:100%;" />
 
@@ -67,17 +67,17 @@ Entered details will be validated against M3 services.
 
 ### <a name="submit-scr"></a>Reporting Receipt
 
-On successfull retrival of head info data for the item number. User can select a order and can be reported.
+On successful retrieval of head info data for the item number. Users can select an order and can be reported.
 
-After selecting an line item in the order. Enter the location and manufactured quantity.
+After selecting a line item in the order. Enter the location and manufactured quantity.
 
-All entered details will be validated and if the data were valid the slider will be shown. On slide to confirm the order receipt will be reported.
+All the entered details will be validated and if the data were valid the slider will be shown. On slide to confirm the order receipt will be reported.
 
 <img src="../images/MORE/3.gif" style="zoom:100%;" />
 
 # <a name="m3sample"></a>M3 Sample Flow
 
-This section describes the MO Receipt workflow in M3 to create purchase order. The current warehouse and facility selection can be made using the search icon on the top right corner of the screen.
+This section describes the MO Receipt workflow in M3 to create the purchase order. The current warehouse and facility selection can be made using the search icon on the top right corner of the screen.
 
 ### <a name="crt-pms"></a>Create customer order PMS001
 

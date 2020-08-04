@@ -35,11 +35,11 @@
 
 ### <a name="intended-audience"></a>Intended Audience
 
-MobileFirst Configuration User Guide provides guidance for LeanSwift customers and consultants regarding understanding the basic concept, functionality and configuration of the Pick reporting Standard App. Further information about MobileFirst standard applications can be found at [www.inform3marketplace.com](http://www.inform3marketplace.com). 
+MobileFirst Configuration User Guide provides guidance for LeanSwift customers and consultants regarding understanding the basic concept, functionality, and configuration of the Pick reporting Standard App. Further information about MobileFirst standard applications can be found at [www.inform3marketplace.com](http://www.inform3marketplace.com).
 
 #### **<a name="std-func"></a>Pick reporting standard functionality**
 
-MobileFirst Pick reporting for Infor M3 makes it possible to provide support for quick and easy reporting of picking lists in your warehouse or distribution center.When the Initial launch of the pick reporting module there is message type and partner type fields will be required. If there is a message type and partner type specified that can be used. If not for message type WS and for partner type WMS can be used.
+MobileFirst Pick reporting for Infor M3 makes it possible to provide support for quick and easy reporting of picking lists in your warehouse or distribution center. When the Initial launch of the pick reporting module there is the message type and partner type fields that will be required. If there is a message type and partner type specified that can be used. If not for message type WS and for partner type WMS can be used.
 
 #### <a name="ftrs"></a>Features include
 
@@ -62,13 +62,13 @@ MobileFirst Pick reporting for Infor M3 makes it possible to provide support for
 
 ### <a name="settings"></a>Settings:
 
-Initially the Pick Reporting module settings will be opened to get message type and partner type.
+Initially, the Pick Reporting module settings will be opened to get message type and partner type.
 
 <img src="../images/PR/settings.png" style="zoom:40%;" />
 
 
 
-Either the provided message type or partner type can be entered or for Message type WS and partner type WMS can be used. On entering these details and saved using tick button persent on top right corner the settings will be saved. This is one time user can always change this settings from top right corner setting button.
+Either the provided message type or partner type can be entered or for Message type WS and partner type WMS can be used. On entering these details and saved using the tick button present on the top right corner the settings will be saved. This is a one-time change, user can always change these settings from the top right corner setting button.
 
 ### <a name="pick-mode"></a>Pick Reporting mode:
 
@@ -84,19 +84,19 @@ Pick reporting can be done in Move or Issue mode.
 
 
 
-By default the Delivery list will list all deliveries available under the selected warehouse and pick team fetched from M3 for the user.
+By default, the Delivery list will list all deliveries available under the selected warehouse and pick the team fetched from M3 for the user.
 
-Delivery item can be manually entered using keyboard, scanned using inbuilt camera or selected from the list.
+Delivery items can be manually entered using a keyboard, scanned using an inbuilt camera, or selected from the list.
 
 ### <a name="pick-lines"></a>Pick Line Items:
 
-On selecting a delivery item, suffix selection will be required from user. On selecting the suffic the pick line items under the delivery item for the suffix will be shown.
+On selecting a delivery item, suffix selection will be required from the user. On selecting the suffix, the pick line items under the delivery item for the suffix will be shown.
 
 ![3_PLSX_CONFIRM](../images/PR/3_PLSX_CONFIRM.gif)
 
 
 
-The line items details can be viewed by scrolling horiozontally and the line items can be sorted based on the item#,Location,Completed flag etc.
+The line items details can be viewed by scrolling horizontally and the line items can be sorted based on the item#, Location, Completed flag, etc.
 
 ### <a name="confirm-details"></a>Confirming Line Item Details:
 
@@ -108,7 +108,7 @@ After opening a line item it can be confirmed by three modes
 
 #### <a name="manual"></a>Manual entry using keyboard
 
-This can be done by double tapping the field which needs to be edited.
+This can be done by double-tapping the field which needs to be edited.
 
 ![6_PR_double_tap](../images/PR/6_PR_double_tap.gif)
 
@@ -116,13 +116,13 @@ This can be done by double tapping the field which needs to be edited.
 
 The bottom scanner can be used to scan any field value on tapping a field and the scanner can fill the scanned data into that tapped field.
 
-look up options allows to view the balance id's fetched from M3.
+lookup options allow us to view the balance id's fetched from M3.
 
 ​	![7_PR_lookup](../images/PR/7_PR_lookup.gif)	
 
 ### <a name="report-item"></a>Report Pick Item
 
-After entering the details for the line item it can be reported using slide to confirm slider action.
+After entering the details for the line item it can be reported using a slide to confirm slider action.
 
 But all the entered data will be validated against the line item and reported.
 
@@ -136,13 +136,13 @@ The completed line item will have a tick mark in the completed column.
 
 ![9_tick_icon_last](../images/PR/9_tick_icon_last.gif)
 
-Delivery item will be confirmed in M3.
+The delivery item will be confirmed in M3.
 
 
 
 # **<a name="m3sample"></a>M3 sample workflow**
 
-This section describes the Pick Reporting workflow in M3 to create customer order. The workflow can have variations depending on your current order processing- and dispatch settings.
+This section describes the Pick Reporting workflow in M3 to create a custom order. The workflow can have variations depending on your current order processing- and dispatch settings.
 
 ### <a name="crt-ois"></a>Create customer order OIS300
 

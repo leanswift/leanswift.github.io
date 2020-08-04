@@ -27,11 +27,11 @@
 
 ### <a name="intended-audience"></a>Intended Audience
 
-MobileFirst Configuration User Guide provides guidance for LeanSwift customers and consultants regarding understanding the basic concept, functionality and configuration of the PO Inspection Standard App. Further information about MobileFirst standard applications can be found at [www.inform3marketplace.com](http://www.inform3marketplace.com).
+MobileFirst Configuration User Guide provides guidance for LeanSwift customers and consultants regarding understanding the basic concept, functionality, and configuration of the PO Inspection Standard App. Further information about MobileFirst standard applications can be found at [www.inform3marketplace.com](http://www.inform3marketplace.com).
 
 #### **<a name="std-func"></a>PO Inspection standard functionality**
 
-The PO Inpsection for Infor M3 provides for the ability to inspect the items received via M3 Purchase Orders into a warehouse. In M3 terms, it is the ability to inspect a PO.
+The PO Inspection for Infor M3 provides for the ability to inspect the items received via M3 Purchase Orders into a warehouse. In M3 terms, it is the ability to inspect a PO.
 
 
 
@@ -45,11 +45,11 @@ The PO Inpsection for Infor M3 provides for the ability to inspect the items rec
 
 ### <a name="po-num"></a>PO Number:
 
-The current warehouse selection can be made using the settings icon on top right corner of the screen.
+The current warehouse selection can be made using the settings icon on the top right corner of the screen.
 
-On Entering/Scanning number it will be validated from M3. If the PO's status is greater that 50 and the goods receiving methods specifed is of Quality Inspect type then the PO is valid to proceed to get line items.
+On Entering/Scanning number it will be validated from M3. If the PO's status is greater than 50 and the goods receiving methods specified are of Quality Inspect type then the PO is valid to proceed to get line items.
 
-The List of line items will be fetched from M3. Item details can be viewed by scrolling horiozontally.
+The List of line items will be fetched from M3. Item details can be viewed by scrolling horizontally.
 
 <img src="../images/PI/1.gif" alt="settings" style="zoom:100%;" />
 
@@ -57,45 +57,45 @@ The List of line items will be fetched from M3. Item details can be viewed by sc
 
 ### <a name="qi-res"></a>Inspecting Line Item & Choosing QI Result
 
-After tapping on a line item it can be inspected by providing required values for the attributes like, loaction, rejected reason, reject location lot number etc.
+After tapping on a line item it can be inspected by providing required values for the attributes like location, rejected reason, reject location lot number, etc.
 
 QI results can be chosen from the available options:-
 
 - Partially reported approved quantity.
 - Fully approved.
 - Approved with remarks.
-- Partailly rejected.
+- Partially rejected.
 - Rejected.
 
 <img src="../images/PI/2.gif" alt="settings" style="zoom:100%;" />
 
-Each QI options will have different details required for submitting the inspection.
+Each QI option will have different details required for submitting the inspection.
 
 ### <a name="confirm-demo"></a>Submit the Inpection
 
-Choose the location code for approved quantiy from the drop down, enter/scan approved quantity and enter the remarks.
+Choose the location code for the approved quantity from the drop-down, enter/scan approved quantity, and enter the remarks.
 
-If all details were entered a slider will be shown, on slide to confirm the item inspection details will be submitted via [M3 inspect](#inspect).
+If all details have entered a slider will be shown, on the slide to confirm the item inspection details will be submitted in M3.
 
 <img src="../images/PI/3.gif" alt="settings" style="zoom:100%;" />
 
 # **<a name="m3sample"></a>M3 sample workflow**
 
-- This section describes the Pick Reporting workflow in M3 to create purchase order. The workflow can have variations depending on your current order processing- and dispatch settings.
+This section describes the Pick Reporting workflow in M3 to create a purchase order. The workflow can have variations depending on your current order processing- and dispatch settings.
 
-  The current warehouse selection can be made using the settings icon on top right corner of the screen.
+The current warehouse selection can be made using the settings icon on the top right corner of the screen.
 
-  ### <a name="crt-po"></a>Create Purchase order PPS200
+- ### <a name="crt-po"></a>Create Purchase order PPS200
 
   - Purchase order can be created in PPS200 by clicking [+] button.
-  - Enter supplier, order type and Req delivery date.
+- Enter supplier, order type and Req delivery date.
   - Supplier will be defined in CRS620 and customer will be defined in CRS610
-  - Add line items for the order and specify the item quantity, price and goods receiving method
+- Add line items for the order and specify the item quantity, price and goods receiving method
   - Complete the order creation. It will be in status 15 - ready to send
-
+  
   The Goods Receving methods will be defined in PPS345, Select Method type having quality inspect.
-
-  ### <a name="receive-po"></a>Receive the order in PPS300
+  
+- ### <a name="receive-po"></a>Receive the order in PPS300
 
   - Enter the created purchase order number in the PPS300 panel.
   - Listed line items have to be received enter the received quantity and receive the items.
