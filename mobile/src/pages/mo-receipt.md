@@ -17,9 +17,7 @@
   
   - [Settings](#settings)
   - [Item #](#itno)
-  - [Select Order](#order)
-  - [Report details](#report-details)
-- [Reporting Receipt](#submit-scr)
+  - [Reporting Receipt](#submit-scr)
   
 - **[M3 sample workflow](#m3sample)**
 
@@ -55,7 +53,7 @@ Using PO Receipt module in MobileFirst Orders can be searched by providing order
 
 Initially the MO Receipt module settings can be opened to choose warehouse and facility.
 
-<img src="../images/MORE/settings.png" style="zoom:40%;" />
+<img src="../images/MORE/1.gif" style="zoom:100%;" />
 
 
 
@@ -63,29 +61,19 @@ Initially the MO Receipt module settings can be opened to choose warehouse and f
 
 In the Item number field enter manually using keyboard or scan from inbuilt camera. Item Number and Order Number can be entered or scanned from inbuilt camera.
 
-/*Image*/
+<img src="../images/MORE/2.gif" style="zoom:100%;" />
 
-Entered details will be validated against M3 services like [Get Head](#item-head), [Get by Facility](#item-by-prd) or [Get by Order](#item-by-prd)
-
-### <a name="order"></a>Select Order
-
-On successfull retrival of head info data for the item number. User can select a order and can be reported.
-
-/*Image*/
-
-Select any line item to do the report.
-
-### <a name="report-details"></a>Report details
-
-After selecting an line item in the order. Enter the location and manufactured quantity.
-
-/*Image*/
+Entered details will be validated against M3 services.
 
 ### <a name="submit-scr"></a>Reporting Receipt
 
+On successfull retrival of head info data for the item number. User can select a order and can be reported.
+
+After selecting an line item in the order. Enter the location and manufactured quantity.
+
 All entered details will be validated and if the data were valid the slider will be shown. On slide to confirm the order receipt will be reported.
 
-/*Image*/
+<img src="../images/MORE/3.gif" style="zoom:100%;" />
 
 # <a name="m3sample"></a>M3 Sample Flow
 

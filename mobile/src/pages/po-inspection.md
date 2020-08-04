@@ -14,12 +14,8 @@
 - **[M3 Setup](#m3-setup)**
   - [Set Pick Team](#set-pick-team)
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
-  - [Settings](#settings)
-  - [Purchase Order](#po)
-  - [Line Items](#lines)
-  - [Inspecting Line Item](#line-details)
-  - [Choosing QI Result](#qi-res)
-  - [Fill Required Details](#fill-details)
+  - [PO Number](#po-num)
+  - [Inspecting Line Item & Choosing QI Result](#qi-res)
   - [Submit the Inpection](#confirm-demo)
 - **[M3 sample workflow](#m3sample)**
   - [Create Purchase order PPS200](#crt-po)
@@ -47,35 +43,21 @@ The PO Inpsection for Infor M3 provides for the ability to inspect the items rec
 
 # **<a name="wrk"></a>Workflow, Screen Layouts & API Logic**
 
-### <a name="settings"></a>Settings:
+### <a name="po-num"></a>PO Number:
 
 The current warehouse selection can be made using the settings icon on top right corner of the screen.
 
-<img src="../images/PI/settings.png" alt="settings" style="zoom:50%;" />
+On Entering/Scanning number it will be validated from M3. If the PO's status is greater that 50 and the goods receiving methods specifed is of Quality Inspect type then the PO is valid to proceed to get line items.
+
+The List of line items will be fetched from M3. Item details can be viewed by scrolling horiozontally.
+
+<img src="../images/PI/1.gif" alt="settings" style="zoom:100%;" />
 
 
 
-### <a name="po"></a>Purchase Order #:
-
-/*Image*/
-
-On Entering/Scanning number it will be validated using [GetHeadMI](#validate-po). If the PO's status is greater that 50 and the goods receiving methods specifed is of Quality Inspect type then the PO is valid to proceed to get line items.
-
-### <a name="lines"></a>Line Items:
-
-The List of line items will be fetched from [Get Line](#line-items).
-
-/*Image*/
-
-The line items details can be viewed by scrolling horiozontally.
-
-### <a name="line-details"></a>Inspecting Line Item:
+### <a name="qi-res"></a>Inspecting Line Item & Choosing QI Result
 
 After tapping on a line item it can be inspected by providing required values for the attributes like, loaction, rejected reason, reject location lot number etc.
-
-/*Image*/
-
-### <a name="qi-res"></a>Choosing QI Result
 
 QI results can be chosen from the available options:-
 
@@ -85,21 +67,17 @@ QI results can be chosen from the available options:-
 - Partailly rejected.
 - Rejected.
 
-/*Image*/
+<img src="../images/PI/2.gif" alt="settings" style="zoom:100%;" />
 
 Each QI options will have different details required for submitting the inspection.
 
-### <a name="fill-details"></a>Fill Required Details
+### <a name="confirm-demo"></a>Submit the Inpection
 
 Choose the location code for approved quantiy from the drop down, enter/scan approved quantity and enter the remarks.
 
-/*Image*/
-
-### <a name="confirm-demo"></a>Submit the Inpection
-
 If all details were entered a slider will be shown, on slide to confirm the item inspection details will be submitted via [M3 inspect](#inspect).
 
-/*Image*/
+<img src="../images/PI/3.gif" alt="settings" style="zoom:100%;" />
 
 # **<a name="m3sample"></a>M3 sample workflow**
 
