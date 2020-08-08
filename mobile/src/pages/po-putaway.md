@@ -63,67 +63,57 @@ When the Initial launch of the PO Put Away module there is message type and part
 
 ### <a name="settings"></a>Settings:
 
-Initially the PO Put Away module settings will be opened to get message type and partner type.
+Initially, the PO Put Away module settings will be opened to get the message type and partner type.
 
-<img src="../images/POPUT/settings.png" style="zoom:40%;" />
-
-
-
-Either the provided message type or partner type can be entered or for Message type WS and partner type WMS can be used. On entering these details and saved using tick button persent on top right corner the settings will be saved. This is one time user can always change this settings from top right corner setting button.
+Either the provided message type or partner type can be entered or for Message type WS and partner type WMS can be used. On entering these details and saved using the tick button present on the top right corner the settings will be saved. This is a one-time process user can always change these settings from the top right corner setting button.
 
 ### <a name="po"></a>Purchase #:
 
-In the Purchase order number field enter manually using keyboard or scan from inbuilt camera.
+In the purchase order number field user enters manually using a keyboard or scan from the inbuilt camera.
 
-/*Image*/
+The PO number entered will be sent to M3 and head details will be retrieved. If the PO items have the goods receiving method as direct put away the one-step option will be shown or the method's type as two-step put away then two-step put away will be shown.
 
-PO number entered will be sent to M3 to [head Info](#validate-po) and head details will be retrived. If the PO items hav goods receiving method as direct put away the one step option will be shown or the methods type as two step put away then two step put away will be shown.
+![purchase](../images/POPUT/1.gif))
+
+
 
 ### <a name="lines"></a>Line Items:
 
-On successfull retrival of head info data for the PO. we need to get [line items](#line-items).
+On successful retrieval of head info data for the PO. Line item details will be fetched for the PO.
 
-/*Image*/
-
-Select any line item to do the put away.
+Select any line item to do the put-away.
 
 ### <a name="single-put"></a>Single Put Away
 
-After selecting an line item in single put away. Enter the details like location, stored quantity and remarks.
+After selecting a line item in single put away. Enter the details like location, stored quantity, and remarks.
 
-/*Image*/
+Location entry can be made by either selecting for all location list available when the field is tapped or it can be selected by tapping the lookup button to select the retrieve put away location.
 
-Location entry can be made by either selecting for all location list avaliable when the field is tapped or it can be selected by tapping the lookup button to select the [retrieve put away location](#retr-loc).
+![lineItemLookup](../images/POPUT/2.gif)
 
 ### <a name="submit-single"></a>Submit Single Put Away
 
 All entered details will be validated and if the data were valid the slider will be shown. On slide to confirm the item will be put awayed.
 
-/*Image*/
+![singleSuumbit](../images/POPUT/3.gif)
 
 ### <a name="continue-two"></a>Continue with two step Put-Away
 
-If the submission is successful there will be a notification banner on top to proceed with two step or skip.
+If the submission is successful there will be a notification banner on top to proceed with two-step or skip.
 
+If a two-step put away is selected in the banner the two-step screen will be shown. if the skipped the initial screen will be shown for the user to search for another PO.
 
-
-/*Image*/
-
-If two step put away is selected in the banner the two step screen will be shown. if the skipped the intial screen will be shown for user to search for other PO.
+![continueTwoStep](../images/POPUT/4.gif)
 
 #### <a name="two"></a>Two step Put-Away
 
-Enter the details like location, new quantity and if the entered values are valid then use the slide to confirm to do [two step Put away](#process-2po).
-
-/*Image*/
+Enter the details like location, new quantity and if the entered values are valid then use the slide to confirm to do two-step put away.
 
 
 
 # **<a name="m3sample"></a>M3 sample workflow**
 
-This section describes the Pick Reporting workflow in M3 to create purchase order. The workflow can have variations depending on your current order processing- and dispatch settings.
-
-The current warehouse selection can be made using the settings icon on top right corner of the screen.
+This section describes the Pick Reporting workflow in M3 to create a purchase order. The workflow can have variations depending on your current order processing- and dispatch settings.
 
 ### <a name="crt-po"></a>Create Purchase order PPS200
 
@@ -146,7 +136,7 @@ The current warehouse selection can be made using the settings icon on top right
 ### <a name="two-step"></a>Two step Put-Away
 
 - For Two step Put Away the goods receiving method should be two step put-away.
-- So, after creating the order with above goods receiving method, and receiving in PPS300.
+- After creating the order with above goods receiving method, and receiving in PPS300.
 - Look for receiving number in the PPS330 for the purchase order.
 - Open PPS310 and enter the complete quantity and do the put-away.
 - Open PPS320 and enter the partial quantity and do the put-away.

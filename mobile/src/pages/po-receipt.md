@@ -51,45 +51,35 @@ The purchase order receipt for Infor M3 provides the ability to receive purchase
 
 The current warehouse can be selected from tapping the settings icon on top right corner.
 
-<img src="../images/PORE/settings.png" style="zoom:40%;" />
-
-
-
 By default the logged in user default warehouse will be selected.
 
 ### <a name="po"></a>Purchase #:
 
 In the Purchase order number field enter manually using keyboard or scan from inbuilt camera.
 
-/*Image*/
+​	![purchase order](../images/PORE/1.gif)
 
-PO number entered will be sent to M3 to [head Info](#validate-po) and head details will be retrieved.
+PO number entered will be sent to M3 and head details will be retrieved.
 
 ### <a name="lines"></a>Line Items:
 
-On valid PO its line items will be fetched from [get line Items](#line-items).
-
-/*Image*/	
+On valid PO its line items will be fetched from M3.
 
 ### <a name="line-details"></a>Line Item Details:
 
-On selecting a line item from the list its details will be fetched from [details](#line-details) and also line will be checked for container controller from [container Info](#container-info) or lot controllerd and the lot details will be fetched from [lot info](#balanceid).
-
-/*Image*/
+On selecting a line item from the list its details will be fetched and also line will be checked for container controlled or lot controllerd and the lot details will also be fetched.
 
 ### <a name="fill-details"></a>Fill details:
 
-The location can be entered and this will be validated against M3 using [valid location](#retr-loc). The quantity can be either scanned or entered manually using key board.
+The location will be can be entered and this will be validated against M3. The quantity can be either scanned or entered manually using key board.
 
-/*Image*/
+![purchase order](../images/PORE/2.gif)
 
 ### <a name="confirm-details"></a>Submit for Receipt
 
-All the entered values will be validated and in case of container methods item then the packaging is checked using [get package](#pckg-stock) and if there is no package then the item will be added to a package using [add pack](#add-pckg).
+All the entered values will be validated and in case of container methods item then the packaging is checked and if there is no package then the item will be added to a package.
 
-/*Image*/
-
-Finally the PO item will be reported for receipt using [receipt](#receipt) Service in M3.
+Finally the PO item will be reported for receipt in M3. The success/failure message will be shown.
 
 
 

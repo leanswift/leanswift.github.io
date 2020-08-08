@@ -75,7 +75,7 @@ Each QI option will have different details required for submitting the inspectio
 
 Choose the location code for the approved quantity from the drop-down, enter/scan approved quantity, and enter the remarks.
 
-If all details have entered a slider will be shown, on the slide to confirm the item inspection details will be submitted in M3.
+If all details have entered a slider will be shown, on sliding the slide to confirm the item inspection details will be submitted in M3.
 
 <img src="../images/PI/3.gif" alt="settings" style="zoom:100%;" />
 

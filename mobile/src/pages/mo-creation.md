@@ -12,8 +12,7 @@
     - [MO Creation standard functionality](#std-func)
 
 - **[Workflow & Screen Layouts](#tech-details)**
-- [MO Details For Creation](#mo-creation)
-  
+  - [Creation of a MO](#mo-creation)
 
 
 
@@ -39,13 +38,14 @@ This section provides details on the desired workflow within the applications an
 
 Upon navigating into MO Creation, the current logged in user's warehouse and facility will be selected under warehouse and facility fields. If the current user has no default warehouse assigned the field will be empty and user can select the warehouse from the list of warehouse by tapping the field.
 
-### <a name="mo-creation"></a>MO details For Creation
+### <a name="mo-creation"></a>Creation of a MO
 
-After selection of warehouse and facility, product number has to be entered in the product field. This product number will be validated against M3 and upon valid product number the item details will be fetched and the product structure type will be auto populated in the product structure type field.
+After the selection of a warehouse and facility, the product number has to be entered in the product field. This product number will be validated against M3 and upon valid product number the item details will be fetched and the product structure type will be auto-populated in the product structure type field.
 
-For creating an manufacturing order the quantity, status, pick date has to be provided. These fields has to be entered by the user.
+For creating a manufacturing order the quantity, status, pick date has to be provided. These fields have to be entered by the user.
 
-On entering all valid values the slider controll will appear. Using this slide to confirm the MO creation will be done in the M3 and the order creation result success / failure message will be dispalyed with the order number.
+On entering all valid values the slider control will appear. Using this slide to confirm the MO creation will be done in the M3 and the order creation result success/failure message will be displayed with the order number.
 
 
 
+![MOCreation](../images/MOC/1.gif)
