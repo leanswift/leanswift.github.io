@@ -44,15 +44,22 @@
 This is a patch release and contains all the standard features of 20.1.0
 
 -My Account
+
 -Purchase Orders
+
 -Forecasts
+
 -Performance Metrics
+
 
 ## **Highlights**
 
 -Theme based pages will be displayed during Registration and Forgot passowrd
+
 -On-time Delivery metrics to display correct data for monthly chart
+
 -Document upload done in frontend will now be mapped against the registered Supplier PO in IDM
+
 -Forecast to pull orders whose status is less than 60 during first time login and subsequent changes are based on last modified date field
 
 
