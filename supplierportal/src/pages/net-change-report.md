@@ -2,9 +2,9 @@
 
 # Supplier Portal-Net Change Report
 
-**20.1.0**
+## 20.1.0
 
-**Features:**
+### Features:
 
 LeanSwift Supplier Portal for Infor M3 CloudSuite is a supplier self-service portal that enables efficient online communication with vendors. It is seamlessly integrated with Infor M3 Cloudsuite via ION. Supplier Portal helps automate the entire purchase-to-pay process for the customer.
 
@@ -33,14 +33,14 @@ Performance Metrics
 - View Delivery Performance metrics
 - View Purchase Price Variance metrics
 
-**20.1.1**
+## 20.1.1
 
-**Enhancement:**
+### Enhancement:
 
-1. Forecast to pull orders whose status is less than 60 during first time login and subsequent changes are pulled based on last modified date field
+- Forecast to pull orders whose status is less than 60 during first time login and subsequent changes are pulled based on last modified date field
 
-**Fixes:**
+### Fixes:
 
-1. Theme based pages will be displayed during Registration and Forgot password
-2. On-time Delivery metrics to display correct data for monthly chart
-3. Document upload done in frontend will now be mapped against the registered Supplier PO in IDM
+- Theme based pages will be displayed during Registration and Forgot password
+- On-time Delivery metrics to display correct data for monthly chart
+- Document upload done in frontend will now be mapped against the registered Supplier PO in IDM
