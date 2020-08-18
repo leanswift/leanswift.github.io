@@ -2,6 +2,26 @@
 
 # Supplier Portal-Net Change Report
 
+# Table of contents
+
+  - [20.1.1](#2011)
+    - [Enhancement:](#enhancement)
+    - [Fixes:](#fixes)
+  - [20.1.0](#2010)
+    - [Features:](#features)
+
+## 20.1.1
+
+### Enhancement:
+
+- Forecast to pull orders whose status is less than 60 during first time login and subsequent changes are pulled based on last modified date field
+
+### Fixes:
+
+- Theme based pages will be displayed during Registration and Forgot password
+- On-time Delivery metrics to display correct data for monthly chart
+- Document upload done in frontend will now be mapped against the registered Supplier PO in IDM
+
 ## 20.1.0
 
 ### Features:
@@ -33,14 +53,4 @@ Performance Metrics
 - View Delivery Performance metrics
 - View Purchase Price Variance metrics
 
-## 20.1.1
 
-### Enhancement:
-
-- Forecast to pull orders whose status is less than 60 during first time login and subsequent changes are pulled based on last modified date field
-
-### Fixes:
-
-- Theme based pages will be displayed during Registration and Forgot password
-- On-time Delivery metrics to display correct data for monthly chart
-- Document upload done in frontend will now be mapped against the registered Supplier PO in IDM
