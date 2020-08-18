@@ -2,13 +2,14 @@
 
 # Supplier Portal-Net Change Report
 
-# Table of contents
+## Table of contents
 
   - [20.1.1](#2011)
     - [Enhancement:](#enhancement)
     - [Fixes:](#fixes)
   - [20.1.0](#2010)
     - [Features:](#features)
+#
 
 ## 20.1.1
 
