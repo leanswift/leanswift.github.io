@@ -15,8 +15,7 @@
 - **[M3 Setup](#m3-setup)**
   - [Set Pick Team](#set-pick-team)
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
-  - [Settings](#settings)
-  - [Pick Reporting mode](#pick-mode)
+  - [Settings & Pick Reporting mode](#pick-mode)
   - [Delivery # Field](#del-field)
   - [Pick Line Items](#pick-lines)
   - [Confirming Line Item Details](#confirm-details)
@@ -56,21 +55,23 @@ MobileFirst Pick reporting for Infor M3 makes it possible to provide support for
 
 ### <a name="set-pick-team"></a>Set Pick Team
 
-<!-- Setting up HPTEAM for the users -->
+For All Delivery orders after release for Picking , the order should have a plan pickers set.
+
+Locate the customer order in M3 OIS300 and browse for the order.
+
+Select the order and check the order has executed release for picking process.
+
+In the related options of the delivery order choose plan pickers
+
+Choose option change to set a pick team for the order.
+
+Note: The pick team can be created and connected to the pickers in MWS039.
 
 # **<a name="wrk"></a>Workflow, Screen Layouts & API Logic**
 
-### <a name="settings"></a>Settings:
+### <a name="pick-mode"></a>Settings and Pick Reporting mode:
 
-Initially, the Pick Reporting module settings will be opened to get message type and partner type.
-
-<img src="../images/PR/settings.png" style="zoom:40%;" />
-
-
-
-Either the provided message type or partner type can be entered or for Message type WS and partner type WMS can be used. On entering these details and saved using the tick button present on the top right corner the settings will be saved. This is a one-time change, user can always change these settings from the top right corner setting button.
-
-### <a name="pick-mode"></a>Pick Reporting mode:
+Initially, the Pick Reporting module settings will be opened to get message type and partner type. Either the provided message type or partner type can be entered or for Message type WS and partner type WMS can be used. Warehouse can also be selected. On entering these details and saved using the tick button present on the top right corner the settings will be saved. This is a one-time change, user can always change these settings from the top right corner setting button.
 
 Pick reporting can be done in Move or Issue mode.
 
