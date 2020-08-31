@@ -12,11 +12,9 @@
   - [Intended Audience](#intended-audience)
     - [Put Away standard functionality](#std-func)
       - [Features include](#ftrs)
-- **[M3 Setup](#m3-setup)**
-  - [Set Pick Team](#set-pick-team)
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
   - [Settings](#settings)
-  - [Purchase #](#po)
+  - [Purchase #/Receiving Number](#po)
   - [Line Items](#lines)
   - [Single Put Away](#single-put)
   - [Submit Single Put Away](#submit-single)
@@ -51,14 +49,6 @@ When the Initial launch of the PO Put Away module there is message type and part
 
 
 
-# **<a name="wrk"></a>M3Setup**
-
-### <a name="set-pick-team"></a>Set Pick Team
-
-<!-- Setting up HPTEAM for the users -->
-
-
-
 # **<a name="wrk"></a>Workflow, Screen Layouts & API Logic**
 
 ### <a name="settings"></a>Settings:
@@ -67,11 +57,11 @@ Initially, the PO Put Away module settings will be opened to get the message typ
 
 Either the provided message type or partner type can be entered or for Message type WS and partner type WMS can be used. On entering these details and saved using the tick button present on the top right corner the settings will be saved. This is a one-time process user can always change these settings from the top right corner setting button.
 
-### <a name="po"></a>Purchase #:
+### <a name="po"></a>Purchase #/Receiving Number:
 
-In the purchase order number field user enters manually using a keyboard or scan from the inbuilt camera.
+In the purchase order number/receiving number field user enters manually using a keyboard or scan from the inbuilt camera.
 
-The PO number entered will be sent to M3 and head details will be retrieved. If the PO items have the goods receiving method as direct put away the one-step option will be shown or the method's type as two-step put away then two-step put away will be shown.
+The PO number/receiving number entered will be sent to M3 and head details will be retrieved. If the PO items have the goods receiving method as direct put away the one-step option will be shown or the method's type as two-step put away then two-step put away will be shown.
 
 ![purchase](../images/POPUT/1.gif))
 

@@ -11,10 +11,8 @@
 - **[About this guide](#about-this-guide)**
   - [Intended Audience](#intended-audience)
     - [PO Inspection standard functionality](#std-func)
-- **[M3 Setup](#m3-setup)**
-  - [Set Pick Team](#set-pick-team)
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
-  - [PO Number](#po-num)
+  - [PO Number/Receiving Number](#po-num)
   - [Inspecting Line Item & Choosing QI Result](#qi-res)
   - [Submit the Inpection](#confirm-demo)
 - **[M3 sample workflow](#m3sample)**
@@ -35,15 +33,9 @@ The PO Inspection for Infor M3 provides for the ability to inspect the items rec
 
 
 
-# **<a name="wrk"></a>M3Setup**
-
-### <a name="set-pick-team"></a>Set Pick Team
-
-
-
 # **<a name="wrk"></a>Workflow, Screen Layouts & API Logic**
 
-### <a name="po-num"></a>PO Number:
+### <a name="po-num"></a>PO Number/Receiving Number:
 
 The current warehouse selection can be made using the settings icon on the top right corner of the screen.
 
@@ -89,6 +81,7 @@ The current warehouse selection can be made using the settings icon on the top r
 
   - Purchase order can be created in PPS200 by clicking [+] button.
 - Enter supplier, order type and Req delivery date.
+  
   - Supplier will be defined in CRS620 and customer will be defined in CRS610
 - Add line items for the order and specify the item quantity, price and goods receiving method
   - Complete the order creation. It will be in status 15 - ready to send

@@ -9,10 +9,6 @@
 - **[About this guide](#about-this-guide)**
   - [Intended Audience](#intended-audience)
     - [MO Receipt standard functionality](#std-func)
-- **[M3 Setup](#m3-setup)**
-
-  - [Set Pick Team](#set-pick-team)
-
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
   
   - [Settings](#settings)
@@ -36,14 +32,6 @@ MobileFirst Configuration User Guide provides guidance for LeanSwift customers a
 The intended use of this app is for a user to be reporting receipts against Manufacturing orders (MOs) with a trimmed down way to quickly and easily report quantity produced.
 
 Using PO Receipt module in MobileFirst Orders can be searched by providing order number and product number. They can also input only product number and list all orders containing the product and choose from the list.The receipt report can be done by tapping the orders in the list and on selecting valid location and manufactured quantity that order can be reported using slide to confirm at the end.
-
-
-
-# **<a name="wrk"></a>M3Setup**
-
-### <a name="set-pick-team"></a>Set Pick Team
-
-<!-- Setting up HPTEAM for the users -->
 
 
 

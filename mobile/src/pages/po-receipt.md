@@ -11,8 +11,6 @@
 - **[About this guide](#about-this-guide)**
   - [Intended Audience](#intended-audience)
     - [PO Receipt standard functionality](#std-func)
-- **[M3 Setup](#m3-setup)**
-  - [Set Pick Team](#set-pick-team)
 - **[Workflow, Screen Layouts & API Logic](#wrk)**
   - [Settings](#settings)
   - [Purchase order number](#po)
@@ -34,14 +32,6 @@ MobileFirst Configuration User Guide provides guidance for LeanSwift customers a
 #### **<a name="std-func"></a>PO Receipt standard functionality**
 
 The purchase order receipt for Infor M3 provides the ability to receive purchase order into a warehouse.
-
-
-
-# **<a name="wrk"></a>M3Setup**
-
-### <a name="set-pick-team"></a>Set Pick Team
-
-<!-- Setting up HPTEAM for the users -->
 
 
 
