@@ -22,6 +22,8 @@
 - Theme based pages will be displayed during Registration and Forgot password
 - On-time Delivery metrics to display correct data for monthly chart
 - Document upload done in frontend will now be mapped against the registered Supplier PO in IDM
+- Names of message queue which are used for supplier portal are modified
+
 
 ## 20.1.0
 
