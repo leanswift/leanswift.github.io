@@ -36,6 +36,7 @@
 | ION Desk | 12.0.0 |
 | Infor M3 | 16.1 |
 | Infor ION Grid | 12.0.2.0.20180308-135417.2 |
+| ION Package Number | SupplierPortal-ION-1.0.1 |
 
 
 
@@ -61,6 +62,8 @@ This is a patch release and contains all the standard features of 20.1.0
 - Document upload done in frontend will now be mapped against the registered Supplier PO in IDM
 
 - Forecast to pull orders whose status is less than 60 during first time login and subsequent changes are pulled based on last modified date field
+
+- Names of message queue which are used for supplier portal are modified.
 
 
 
