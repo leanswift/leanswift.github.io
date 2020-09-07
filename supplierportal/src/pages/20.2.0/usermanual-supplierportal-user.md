@@ -282,6 +282,39 @@ When Confirm All Lines is selected , all the purhase order lines in a PO is conf
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/confirm-all-lines.png"></kbd>
 
+### New in this version
+#### Reconfirm PO
+
+Users can confirm a PO line that is already confirmed (that is, reconfirm). Order lines with status ‘Confirmed’ (Status 35) are applicable for this irrespective of whether the previous confirmation was done with or without changes to the original request. The reconfirmation can be done any number of times as long as the lines satisfy the above requirements.
+
+Image
+
+Choose eligible PO lines and click Confirm Button.
+For reconfirmation ‘Conf Date’ can be changed and ‘Confirmed Qty’ (Conf Qty)can be reduced but not increased. ‘Confirmed price’ (Conf price)  cannot be modified.
+
+Users can also add comments.
+
+Image
+
+‘You are about to re-confirm an already confirmed order line’ message appears when the user edits the Qty or date field.
+
+
+Once the Confirm button is clicked for reconfirmation, the process indicator changes to ‘Request is Processing’ or ‘Confirmation awaiting approval’ based on how the portal is set up to process PO confirm requests. 
+
+
+Image
+
+Once re-confirmation is done the process indicator changes to ‘Confirmed without changes’ (if ‘Activate approval process for Confirm PO’ is set to No’) or ‘Confirmed with changes’ (if ‘Activate approval process for Confirm PO’ is set to Yes’)
+
+Image
+
+For more information about process indicator changes refer version 1.0 of the User Manual (https://github.com/leanswift/leanswift.github.io/blob/master/supplierportal/src/pages/20.1.0/usermanual-supplierportal-user.md#confirm-po-line)
+
+The comments added during re-confirm can be seen below the PO line
+
+Image
+
+
 
 ### Upload to IDM
 
@@ -336,8 +369,12 @@ Currently there are three types of graphs supported, they are :
 - Purchase Price Variance.
 Graph can be viewed either as bar or line chart (selected from dropdown in right corner). The graph can also be plotted for **Monthly** , **Quarterly** or **Yearly** based on the options selected.
 
+
 <kbd><img alt="My Accounts" src="../../images/usermanual/my-performance-metrics.png" ></kbd>
 
+
+#### New in this version
+Performance Metrics chart can be exported as PDF or PNG
 
 ### On-Time Delivery %
 
