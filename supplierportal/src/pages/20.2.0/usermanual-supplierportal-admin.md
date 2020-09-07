@@ -80,7 +80,10 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 - Download Purchase Orders Information.
 - Upload documents into IDM against Purchase Orders.
 > This is available only if additional functionality for IDM integration is included as part of license
->
+- Whats New in this version
+ - Reconfirm Purchase Orders. 
+ - Advise/Advise All Purchase Orders. 
+ - Notify/Notify All Purchase Orders. 
 
 ### Purchase Proposals/Forecasts
 - View Purchase Forecasts.
@@ -305,7 +308,7 @@ Provide an option to select request approver.
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 </div>
-    
+  
 
 #### Metrics Display
 
