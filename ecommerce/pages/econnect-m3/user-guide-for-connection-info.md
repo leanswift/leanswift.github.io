@@ -1,6 +1,13 @@
-**Table of contents**
-
-[TOC]
+<h2>Table of contents</h2>
+- [**For Multi-tenant/Cloud suite environment**](#--for-multi-tenant-cloud-suite-environment--)
+    + [ION API Service URL](#ion-api-service-url)
+    + [OAuth Token URL and Credentials](#oauth-token-url-and-credentials)
+    + [Logical Id](#logical-id)
+    + [M3 User](#m3-user)
+    + [Basic Data](#basic-data)
+- [**Infor Document Management**](#--infor-document-management--)
+    + [IDM ION API Service URL](#idm-ion-api-service-url)
+- [**For Single-tenant/On-Premise environment**](#--for-single-tenant-on-premise-environment--)
 
 # **For Multi-tenant/Cloud suite environment**
 
