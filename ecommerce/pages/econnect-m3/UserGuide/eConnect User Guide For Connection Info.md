@@ -1,8 +1,8 @@
-# 					User Guide For Connection Info
+# 									User Guide For Connection Info
 
-## 												eConnect 
+## 										eConnect 
 
-### 											 For Infor M3 & Magento
+### 									 For Infor M3 & Magento
 
 
 
