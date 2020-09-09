@@ -1,18 +1,12 @@
-# 									User Guide For Connection Info
+**Table of contents**
 
-## 										eConnect 
+[TOC]
 
-### 									 For Infor M3 & Magento
-
-
-
-
-
-### **For Multi-tenant/Cloud suite environment:**
+## **For Multi-tenant/Cloud suite environment**
 
 Login to your Multi-tenant environment to get the following details:
 
-**ION API Service URL:**
+#### ION API Service URL
 
 Sample URL: https://mingle-ionapi.inforcloudsuite.com/LEANSWIFT_TST/M3/m3api-rest/v2/execute
 
@@ -26,15 +20,13 @@ Click on “Available APIs” and search for “Infor M3” in the search text b
 
 ![img](https://lh3.googleusercontent.com/O0oSrJ3HTlacLBc3K6QbHeD6dJozFRtcwtQ8MaI3jxzD2TYOJ5yEr1ufaPVOX-clw54IrkoJLF07lHsnWBSaRLZRJ6wra8lS5GH2vp8EUmaGJYC30lvMvypow9eMVBscXcwLSOzD)
 
-
 Search for “Infor M3 MI v2” in the Description Box. Click on the arrow mark under the Details column as shown below.
 ![img](https://lh3.googleusercontent.com/__vHsoQopX6I51yd2fVFh8mTnEUrWc9EsM0azQvXIk5AlOB96LUc3TgZ_4of-eQU_im7PFYuAKNTsEHB016gTE1IVwPfCc-j-KkbEtRp9pLtiNFgLBGw6Tpsgu3V3Tppp50RPdRW)
 
 
 Refer to the below image and note down the ION API Service URL.![img](https://lh4.googleusercontent.com/nFXhcfAu4_WBLVY9QMtcr8NABQ49LKDYnRm27m7eFkB8Isq_P7SVBDNQdYzWg9EDymOx3aiXNBzeWwamOb1mDMI11EVyBYEFmkAb4lXz8Q0PEh_cvuWXErDXgE0roFulI3r7J94I)
 
-
-**To get the OAuth token URL and credentials:**
+#### OAuth Token URL and Credentials
 
 Go to the Infor ION API menu, Click on the “Authorized Apps” then click on the “+” icon as shown in the below image.![img](https://lh4.googleusercontent.com/cQB40fpt2MnLqjdGOFHMwv263EGa8kQfNRTjv0WHPKSFGsn_Nr492VwOryY3sIhmJ3m6orZqAUc5hgkywJUxYwdagF_bUvvNQCtQUfWa9IofZ638VhHuBtW5x-uHUu-MV4lZ8ppw)
 
@@ -56,7 +48,7 @@ On clicking “Download”, “ionapi” file will get downloaded. Open the file
 
 ![img](https://lh4.googleusercontent.com/lYLI3vxvlbIYbFMtSKB2nCYUgkc4Lig77sSoupMxXaUWZGFXYFjy1foLorAfSG1P6sc41vjThoL8XTsN6q74kE83TeKbcThRb8aHLbkXdtJxIyyhx0pT6n0pdgH8l4ofRle__gkp)
 
-**Logical Id:**
+#### Logical Id
 
 Click on the “User Icon” and Go to “Admin Settings”.
 
@@ -68,7 +60,7 @@ After being redirected to the “Manage Applications” page, Double click on th
 Double click on “Infor M3” will bring the “Application Details” page. There you can get the “Logical Id”.
 ![img](https://lh5.googleusercontent.com/qEfGvdO6W-kzpRnnhrI7eMCPbr2snILQZ1gCWYzDkP-f78rEqtJOCqqEkcKyIeNFQlPJWBe8tbI0b1DKoPrmEAZEWacWh7iOW2fzMlNEHI8KGT04wsEH3KCpfHZoEWpJEK48bCJ1)
 
-**M3 User:****
+#### M3 User
 
 Go to “App Menu” and click on “Infor M3”.
 
@@ -80,16 +72,16 @@ Click on CTRL + R, Type “MNS150” and click “Enter”.
 
 ![img](https://lh4.googleusercontent.com/V6l4IGymO_pgiRG4xggU9sgPpCjLsjIkZ9BDYYhzCuppb3mrDDw-w9qM_4CqPAMB0vtYtRNM7p2lU9U0Vfdkn_ASERSGMfk94f-hfwEd529ygLyTCtiRLSIcIM9NcUQaWA36HeEm)
 
-**Basic Company, Division, Facility:**
+#### Basic Data
 
 Add the user with the Company, Division, and Facility details.
 ![img](https://lh3.googleusercontent.com/XoO5rCuT23yMHbcpYihiVMJh1bi0XhpJm2oH0M-z2uNJL3Z8nnIMRcN7HSmm1PqUWc5rqIHtvb-av4OXJSYSrAB6utynPwDKM0mFtn30Fr2PCivXW3xH7Rb7h2bClf4mYE6_Y_Cn)
 
 
 
-### Infor Document Management:
+### **Infor Document Management**
 
-**IDM ION API Service URL:**
+#### IDM ION API Service URL
 
 Sample URL: https://mingle-ionapi.inforcloudsuite.com/LEANSWIFT_TST/IDM/api
 
@@ -109,4 +101,4 @@ Click on “Infor Document Management”. From the Grid, Get the ION API Service
 
 
 
-### For Single-tenant/On-Premise environment:
+## **For Single-tenant/On-Premise environment**
