@@ -95,8 +95,6 @@ Basic Data includes
 
 ### IDM ION API Service URL
 
-Sample URL: https://mingle-ionapi.inforcloudsuite.com/LEANSWIFT_TST/IDM/api
-
 Click on “App Menu” and choose “Infor ION API”.
 
 <kbd><img alt="Infor ION API Menu" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/MT/Infor_IONAPI_Menu.png"></kbd>
