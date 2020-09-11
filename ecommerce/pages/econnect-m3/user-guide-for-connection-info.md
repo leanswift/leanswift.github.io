@@ -11,7 +11,7 @@ Click on “App Menu” and choose “Infor ION API”
 
 Click on “Available APIs” and search for “Infor M3” in the search text box. Then click on “Infor M3” from the search result.
 
-<kbd><img alt="Search for Infor M3" style="width: 100%" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/Search_InforM3.pngg"></kbd>
+<kbd><img alt="Search for Infor M3" style="width: 100%" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/Search_InforM3.png"></kbd>
 
 Search for “Infor M3 MI v2” in the Description Box. Click on the arrow mark under the Details column as shown below.
 
