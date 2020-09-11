@@ -31,14 +31,15 @@ Go to the Infor ION API menu, Click on the “Authorized Apps” then click on t
 Mention the Name, Description, choose the Type as “Backend Service” and click on Save.![img](https://lh6.googleusercontent.com/cOPKxp8y_YAO5u_yk65uyMdAIRpYHw84KdjjdfEcKkvbxdKJaA6OU3OCEsbSh9mnM5Ge-oQSjWSL_7LBVAVXWt--zCwogoj7Uf5uiJEkmNrJUN2lTV9yKCUYirQLVWPi5D9Ed9Vl)
 
 After clicking on “Save”, Click on the “Download Credentials” button.
-![img](https://lh4.googleusercontent.com/mc9Sd9-y23qLBwqjCr6_AZqGr8Qbhzy0KT4vNNXSkirKZ4waP0xp9RlI666RP1VsmCkmoRGFTM50FvTlqlbQSDOSJ9ds-uC-q1jDqdCLERjKPD4IHh4vjNOGB-hbpcmjC6lsmP08)
 
+![](C:\Users\LeanSwift\Desktop\UserGuide-eConnect\eConnect-SaveIONAPICredentials.png)
 
 Clicking on “Download Credentials will open the below dialog box.
 		Enable “Create Service Account”.
 		Choose “User Name”.
 		Click on “Download”.
-![img](https://lh4.googleusercontent.com/Blc6mJgOwPgo_Exbmo6ah4mrJ6pKz4_EdPGFaQVO3FSoNNJcef8DNsYPXiUDklVoXzju-8LQ3m0S9jGuMIClXXTHf-BEJL_ePhHpfgHCjOuS9EAyhRetyOly6GpVQmo86DTGK9Ap)
+
+![](C:\Users\LeanSwift\Desktop\UserGuide-SP\SP-DownloadCredentials.png)
 
 
 On clicking “Download”, “ionapi” file will get downloaded. Open the file with a text editor and get the credential details with the below image as a reference.
@@ -71,8 +72,16 @@ Click on CTRL + R, Type “MNS150” and click “Enter”.
 
 ### Basic Data
 
-Add the user with the Company, Division, and Facility details.
-![img](https://lh3.googleusercontent.com/XoO5rCuT23yMHbcpYihiVMJh1bi0XhpJm2oH0M-z2uNJL3Z8nnIMRcN7HSmm1PqUWc5rqIHtvb-av4OXJSYSrAB6utynPwDKM0mFtn30Fr2PCivXW3xH7Rb7h2bClf4mYE6_Y_Cn)
+Basic Data includes 
+
+- Company
+- Division
+- Facility
+- Warehouse
+- Price Code
+- Currency Code
+- Order Type
+- Document Class
 
 
 
