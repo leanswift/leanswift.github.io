@@ -1,7 +1,7 @@
 
-# **For Multi-tenant/Cloud suite environment**
+# **For Multi-tenant/CloudSuite environment**
 
-Login into your Multi-tenant cloud environment to get the following details:
+Login into your Multi-tenant CloudSuitevironment to get the following details:
 
 ### ION API Service URL
 
