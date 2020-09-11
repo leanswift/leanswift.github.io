@@ -1,13 +1,9 @@
 
 # **For Multi-tenant/Cloud suite environment**
 
-Login to your Multi-tenant environment to get the following details:
+Login into your Multi-tenant cloud environment to get the following details:
 
 ### ION API Service URL
-
-Sample URL: https://mingle-ionapi.inforcloudsuite.com/LEANSWIFT_TST/M3/m3api-rest/v2/execute
-
-Please follow the below steps to get the ION API Service URL.
 
 Click on “App Menu” and choose “Infor ION API”
 
@@ -24,6 +20,7 @@ Search for “Infor M3 MI v2” in the Description Box. Click on the arrow mark 
 Refer to the below image and note down the ION API Service URL.
 
 <kbd><img alt="Infor ION API Service Url" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ION_API_Service_URL.png"></kbd>
+
 
 ### OAuth Token URL and Credentials
 
@@ -50,6 +47,7 @@ On clicking “Download”, an “ionapi” file will get downloaded. Open the f
 
 <kbd><img alt="IONAPI File Details" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/eConnect-ionapi-file.png"></kbd>
 
+
 ### Logical Id
 
 Click on the “User Icon” and Go to “Admin Settings”.
@@ -64,6 +62,7 @@ Double click on “Infor M3” will bring the “Application Details” page. Th
 
 <kbd><img alt="M3 Logical ID" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/M3LogicalId.png"></kbd>
 
+
 ### M3 User
 
 Go to “App Menu” and click on “Infor M3”.
@@ -73,6 +72,7 @@ Go to “App Menu” and click on “Infor M3”.
 Click on CTRL + R, Type “MNS150” and click “Enter”.
 
 <kbd><img alt="MNS150 Program" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/MNS150.png"></kbd>
+
 
 ### Basic Data
 
@@ -86,6 +86,7 @@ Basic Data includes
 - Currency Code
 - Order Type
 - Document Class
+
 
 
 # **Infor Document Management**
