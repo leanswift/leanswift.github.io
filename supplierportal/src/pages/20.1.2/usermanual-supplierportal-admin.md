@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 20.1.0 - User Manual - Admin User
+# Version 20.1.2 - User Manual - Admin User
 
 To view the user manual for Portal Users click [here](usermanual-supplierportal-user.md).
 
