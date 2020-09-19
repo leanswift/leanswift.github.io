@@ -1,3 +1,15 @@
+## Table of Contents
+
+- [**For Multi-tenant/CloudSuite environment**](#--for-multi-tenant-cloudsuite-environment--)
+    + [ION API Service URL](#ion-api-service-url)
+    + [OAuth Token URL and Credentials](#oauth-token-url-and-credentials)
+    + [Logical Id](#logical-id)
+    + [M3 User](#m3-user)
+    + [Basic Data](#basic-data)
+    - [**Infor Document Management**](#--infor-document-management--)
+        + [IDM ION API Service URL](#idm-ion-api-service-url)
+
+- [**For Single-tenant/On-Premise environment**](#--for-single-tenant-on-premise-environment--)
 
 # **For Multi-tenant/CloudSuite environment**
 
