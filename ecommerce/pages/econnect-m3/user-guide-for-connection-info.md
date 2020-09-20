@@ -1,3 +1,22 @@
+## Table of Contents
+
+- [**For Multi-tenant/CloudSuite environment**](#--for-multi-tenant-cloudsuite-environment--)
+    + [ION API Service URL](#ion-api-service-url)
+    + [OAuth Token URL and Credentials](#oauth-token-url-and-credentials)
+    + [Logical Id](#logical-id)
+    + [M3 User](#m3-user)
+    + [Basic Data](#basic-data)
+    - [**Infor Document Management**](#--infor-document-management--)
+        + [IDM - ION API Service URL](#idm-ion-api-service-url)
+- [**For Single-tenant/On-Premise environment**](#--for-single-tenant-on-premise-environment--)
+    + [ION API Service URL](#ion-api-service-url-1)
+    + [OAuth Token URL and Credentials](#oauth-token-url-and-credentials-1)
+    + [Logical Id](#logical-id-1)
+    + [M3 User](#m3-user-1)
+    + [Basic Data](#basic-data-1)
+    - [**Infor Document Management**](#--infor-document-management---1)
+        + [IDM - ION API Service URL](#idm-ion-api-service-url-1)
+
 # **For Multi-tenant/CloudSuite environment**
 
 Login into your Multi-tenant CloudSuite environment to get the following details:
@@ -92,7 +111,7 @@ Basic Data includes
 
 # **Infor Document Management**
 
-### IDM ION API Service URL
+### IDM - ION API Service URL
 
 Click on “App Menu” and choose “Infor ION API”.
 
@@ -190,7 +209,7 @@ Basic Data includes
 
 # **Infor Document Management**
 
-### IDM ION API Service URL
+### IDM - ION API Service URL
 
 Click on “App Menu” and choose “Infor ION API”.
 
