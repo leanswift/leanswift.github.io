@@ -6,11 +6,19 @@ Login into your Multi-tenant CloudSuite environment to get the following details
 
 Click on “App Menu” and choose “Infor ION API”.
 
-<kbd><img alt="Infor ION API" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/MT/Infor_IONAPI_Menu.png"></kbd>
+<kbd><img alt="Infor ION API" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/ST/Infor_IONAPI_Menu.png"></kbd>
 
-Search for “SX API REST Service” in the description box. Refer to the below image and note down the ION API Service URL.
+Click on the “Available APIs” and search for "Infor Distribution SX.e" in the search text box. You will get the two similar results but with different source. Click on the one which has the source as "Infor Provisioned" as shown in the image.
 
-<kbd><img alt="Infor ION API Service Url" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/MT/ION_API_Service_URL.png"></kbd>
+<kbd><img alt="Infor ION API" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/ST/Search_InforDistributionSXe.png"></kbd>
+
+Search for "SX API REST Service" in the description box. Then click on the arrow mark under the Details column in the row which has description as "SX API REST Service".
+
+<kbd><img alt="Search for Infor M3" style="width: 100%" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/MT/Search_SXAPIRESTService.png"></kbd>
+
+Refer to the below image and note down the ION API Service URL.
+
+<kbd><img alt="Infor ION API Service Url" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/MT/ION_API_ENDPOINT_URL.png"></kbd>
 
 
 ### OAuth Token URL and Credentials
@@ -69,7 +77,11 @@ Click on “App Menu” and choose “Infor ION API”.
 
 <kbd><img alt="Infor ION API" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/ST/Infor_IONAPI_Menu.png"></kbd>
 
-Click on “Available APIs” and search for “Infor M3” in the search text box. Then click on “Infor M3” from the search result.
+Click on the “Available APIs” and search for "Infor Distribution SX.e" in the search text box. You will get the two similar results but with different source. Click on the one which has the source as "Infor Provisioned" as shown in the image.
+
+<kbd><img alt="Infor ION API" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/ST/Search_InforDistributionSXe.png"></kbd>
+
+Search for "SX API REST Service" in the 
 
 <kbd><img alt="Search for Infor M3" style="width: 100%" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/ST/Search_InforM3.png"></kbd>
 
