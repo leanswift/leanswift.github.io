@@ -8,7 +8,7 @@ Click on “App Menu” and choose “Infor ION API”.
 
 <kbd><img alt="Infor ION API" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/MT/Infor_IONAPI_Menu.png"></kbd>
 
-Click on the “Available APIs” and search for "Infor Distribution SX.e" in the search text box. You will get the two similar results but with different source. Click on the one which has the source as "Infor Provisioned" as shown in the image.
+Click on the “Available APIs” menu from the left side menus and search for "Infor Distribution SX.e" in the search text box. You will get the two similar results but with different source. Click on the one which has the source as "Infor Provisioned" as shown in the image.
 
 <kbd><img alt="Infor ION API" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/MT/Search_InforDistributionSXe.png"></kbd>
 
