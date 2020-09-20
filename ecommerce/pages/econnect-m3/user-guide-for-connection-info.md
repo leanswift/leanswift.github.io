@@ -188,9 +188,9 @@ Basic Data includes
 
 
 
-#### **Infor Document Management**
+### **Infor Document Management**
 
-##### IDM ION API Service URL
+#### IDM ION API Service URL
 
 Click on “App Menu” and choose “Infor ION API”.
 
