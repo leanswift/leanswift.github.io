@@ -1,3 +1,4 @@
+![LeanSwift Supplier Portal](../../../images/banner-supplier-portal.jpg)
 
 # **For Multi-tenant/CloudSuite environment**
 
