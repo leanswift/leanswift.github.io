@@ -1,5 +1,3 @@
-![LeanSwift Supplier Portal](../../../images/banner-supplier-portal.jpg)
-
 # **For Multi-tenant/CloudSuite environment**
 
 Login into your Multi-tenant CloudSuitevironment to get the following details:
