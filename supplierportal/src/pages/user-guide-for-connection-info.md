@@ -86,9 +86,9 @@ Basic Data includes
 
 
 
-# **Infor Document Management**
+### **Infor Document Management**
 
-### IDM ION API Service URL
+#### IDM ION API Service URL
 
 Click on “App Menu” and choose “Infor ION API”.
 
@@ -176,17 +176,12 @@ Basic Data includes
 - Company
 - Division
 - Facility
-- Warehouse
-- Price Code
-- Currency Code
-- Order Type
-- Document Class
 
 
 
-# **Infor Document Management**
+### **Infor Document Management**
 
-### IDM ION API Service URL
+#### IDM ION API Service URL
 
 Click on “App Menu” and choose “Infor ION API”.
 
