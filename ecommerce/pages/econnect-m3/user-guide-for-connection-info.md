@@ -51,6 +51,10 @@ On clicking “Download”, an “ionapi” file will get downloaded. Open the f
 
 ### Logical Id
 
+There are two ways to find the M3 Logical Id.
+
+**Step 1:**
+
 Click on the “User Icon” and Go to “Admin Settings”.
 
 <kbd><img alt="Admin Settings" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/MT/AdminSettings.png"></kbd>
@@ -62,6 +66,26 @@ After being redirected to the “Manage Applications” page, Double click on th
 Double click on “Infor M3” will bring the “Application Details” page. There you can get the “Logical Id”.
 
 <kbd><img alt="M3 Logical ID" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/MT/M3LogicalId.png"></kbd>
+
+**Step 2:**
+
+Go to “App Menu” and click on “ION Desk”.
+
+<kbd><img alt="ION Desk Menu" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/MT/IONDESK_Menu.png"></kbd>
+
+Click on "Connect" menu and select "Data Flows".
+
+<kbd><img alt="Data Flows Menu" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/MT/DataFlows_Menu.png"></kbd>
+
+From the list of Data Flows or Document Flows, Click on any DF, which uses "M3" as the application. 
+
+Click on the "M3" Application. Select the checkbox and then click on the "Details" icon as marked in the image.
+
+<kbd><img alt="Edit_M3Application" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/MT/Edit_M3Application.png"></kbd>
+
+Note down the M3 Logical Id as shown below.
+
+<kbd><img alt="M3_Logical_Id" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/MT/IonDesk_M3_LogicalID.png"></kbd>
 
 
 ### M3 User
@@ -153,17 +177,23 @@ On clicking “Download”, an “ionapi” file will get downloaded. Open the f
 
 ### Logical Id
 
-Click on the “User Icon” and Go to “Admin Settings”.
+Go to “App Menu” and click on “ION Desk”.
 
-<kbd><img alt="Admin Settings" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/AdminSettings.png"></kbd>
+<kbd><img alt="ION Desk Menu" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/IONDESK_Menu.png"></kbd>
 
-After being redirected to the “Manage Applications” page, Double click on the “Infor M3”.
+Click on "Connect" menu and select "Data Flows".
 
-<kbd><img alt="Infor M3 Details" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/DoubleClickOnInforM3.png"></kbd>
+<kbd><img alt="Data Flows Menu" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/DataFlows_Menu.png"></kbd>
 
-Double click on “Infor M3” will bring the “Application Details” page. There you can get the “Logical Id”.
+From the list of Data Flows or Document Flows, Click on any DF, which uses "M3" as the application. 
 
-<kbd><img alt="M3 Logical ID" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/M3LogicalId.png"></kbd>
+Click on the "M3" Application. Select the checkbox and then click on the "Details" icon as marked in the image.
+
+<kbd><img alt="Edit_M3Application" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/Edit_M3Application.png"></kbd>
+
+Note down the M3 Logical Id as shown below.
+
+<kbd><img alt="M3_Logical_Id" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/IonDesk_M3_LogicalID.png"></kbd>
 
 
 ### M3 User
