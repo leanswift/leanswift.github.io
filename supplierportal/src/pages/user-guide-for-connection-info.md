@@ -134,7 +134,7 @@ After clicking on “Save”, Click on the “Download Credentials” button.
 
 In the “Download Credentials" dialog box, do the below steps.
 
-- Enable “Create Service Account”
+- Enable “Create Service Account” to get the Username and Password in the ".ionapi" file
 - Choose “User Name”
 - Click on “Download”
   	
