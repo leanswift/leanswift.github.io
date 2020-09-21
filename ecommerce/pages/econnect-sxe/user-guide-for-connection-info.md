@@ -64,3 +64,25 @@ Basic Data includes
 - M3 Customer # TEMPLATE
 - Charge ID
 - Freight
+
+
+
+
+
+# **For Single-tenant/On-Premise environment**
+
+Login into your SX.e SoapUI tool.
+
+### SX.e Connection String
+
+### SX.e Location URL
+
+Click on the `Navigator`. 
+
+Go to `Projects -> SXAPI -> BasicHttpBinding_IService`. 
+
+Expand any API and Double click on the `Request 1`.
+
+Note down the Location URL as shown below.
+
+<kbd><img alt="Location URL" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-sxe-connection-info/ST/LocationURL.png"></kbd>
