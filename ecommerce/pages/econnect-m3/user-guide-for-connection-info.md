@@ -177,15 +177,19 @@ On clicking “Download”, an “ionapi” file will get downloaded. Open the f
 
 ### Logical Id
 
+There are two ways to find the Logical ID.
+
+**Step 1:**
+
 Go to “App Menu” and click on “ION Desk”.
 
 <kbd><img alt="ION Desk Menu" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/IONDESK_Menu.png"></kbd>
 
-Click on "Connect" menu and select "Data Flows".
+Click on "Connect" menu and select "Document Flows".
 
-<kbd><img alt="Data Flows Menu" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/DataFlows_Menu.png"></kbd>
+<kbd><img alt="Data Flows Menu" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/DocumentFlows_Menu.png"></kbd>
 
-From the list of Data Flows or Document Flows, Click on any DF, which uses "M3" as the application. 
+From the list of Data Flows or Document Flows, Click on anything which uses "M3" as the application. 
 
 Click on the "M3" Application. Select the checkbox and then click on the "Details" icon as marked in the image.
 
@@ -194,6 +198,14 @@ Click on the "M3" Application. Select the checkbox and then click on the "Detail
 Note down the M3 Logical Id as shown below.
 
 <kbd><img alt="M3_Logical_Id" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/IonDesk_M3_LogicalID.png"></kbd>
+
+**Step 2:**
+
+Login into your Partner Administrator tool. Under the `Agreement View` Tab, you will find the list of Partner Agreements.
+
+Click on the Partner Agreement `M3BOD` `-> M3BODs_xxxxx` and note down the value of "ionFromLogicalId" from the Control Properties section as shown in the image.
+
+<kbd><img alt="M3_Logical_Id" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/ecommerce/images/econnect-m3-connection-info/ST/ST_PA_M3_LogicalID.png"></kbd>
 
 
 ### M3 User
