@@ -197,7 +197,7 @@ Note down the M3 Logical Id as shown below.
 
 Login into your Partner Administrator tool. Under the `Agreement View` Tab, you will find the list of Partner Agreements.
 
-Click on the Partner Agreement `M3BOD` `-> M3BODs_xxxxx` and note down the value of "ionFromLogicalId" from the Control Properties section as shown in the image.
+Click on the Partner Agreement `M3BOD -> M3BODs_xxxxx` and note down the value of "ionFromLogicalId" from the Control Properties section as shown in the image.
 
 <kbd><img alt="M3_Logical_Id" src="https://github.com/leanswift/leanswift.github.io/blob/UserGuide/supplierportal/src/images/supplierportal-m3-connection-info/ST/ST_PA_M3_LogicalID.png"></kbd>
 
