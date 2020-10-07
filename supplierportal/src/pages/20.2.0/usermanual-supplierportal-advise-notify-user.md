@@ -82,3 +82,20 @@ Once the line/lines are Notified/Notified All, the process indicator is updated 
 
 Image
 
+# Notify Transportation By Delivery Note number
+
+Notify option appears in the frontend( based on the configuration setting.)
+
+On clicking, &quot;Notify Transportation By Delivery Note&quot;, following input text fields should be displayed
+
+1. Delivery Note Number
+2. Carrier Name
+3. Forwarding Agent
+4. Bill of Lading
+5. Departure Date
+6. Arrival Date
+
+Note that all the above except &#39;Delivery Note Number&#39; are optional input attributes.
+
+User can enter the Delivery note number and click on Notify. This will notify all the lines with the given Delivery note number.
+
