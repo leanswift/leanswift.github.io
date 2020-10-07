@@ -45,4 +45,15 @@ If &quot;Yes&quot; is selected, API calls are processed realtime. If &quot;No&qu
 ### Cron setting to send notify PO requests to M3:
 Set an expression for CRON to send requests to M3 at fixed intervals
 
+# Notify Transportation By Delivery Note number
+
+This Add-on is used to Notify POs using Delivery Note Number and has to be used along with Supplier Portal.
+
+### Enable : 
+If &quot;Yes&quot; is selected, Notify Transportation by delivery number is Enabled. If &quot;No&quot; is selected, Notify Transportation by delivery number is Disabled.
+
+### Realtime API call for notify PO:
+If &quot;Yes&quot; is selected, API calls are processed realtime. If &quot;No&quot; is selected, API calls are processed via CRON.
+
+Prerequisite: Supplier should have Shipment Advice (SHAC) value as !=0 or \&gt;0, that is, it can be 1 or 2.
 
