@@ -1,6 +1,3 @@
-
-![LeanSwift Supplier Portal](../../../images/banner-supplier-portal.jpg)
-
 ![LeanSwift Supplier Portal](../../../images/banner-supplier-portal.jpg)
 
 - ## [Product Overview](20.1.0/overview-supplier-portal.md)
