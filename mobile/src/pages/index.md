@@ -8,9 +8,9 @@
 
 - ## Net Change / Release Notes
 
-- ## User Guide - MO Creation 
+- ## [User Guide - MO Creation](mo-creation.md)
 
-- ## User Guide - MO Receipt 
+- ## [User Guide - MO Receipt](mo-receipt.md)
 
 - ## [User Guide - PO Inspection](po-inspection.md)
 
