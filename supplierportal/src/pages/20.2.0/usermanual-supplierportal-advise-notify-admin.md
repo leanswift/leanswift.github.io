@@ -6,7 +6,10 @@
 This Add-on is used to Advise and/or Notify PO lines and should be used along with Supplier Portal
 
 # Advise
-Image
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/advise_po_setting.png">
+</kbd>
 
 ### Can Advise PO before confirm: 
 If &quot;Yes&quot; is selected, Advise PO can be done before Confirm PO.
@@ -25,7 +28,9 @@ Set an expression for CRON to send requests to M3 at fixed intervals
 
 This Add-on is used to Notify PO lines and has to be used along with Supplier Portal and Advise PO.
 
-Image
+<kbd>
+<img alt="Exit system" src="../../images/usermanual/admin-logout.png">
+</kbd>
 
 ### Allow Notify Transportation before Advise:
 If &quot;Yes&quot; is selected, Notify PO can be done before advise.If &quot;No&quot; is selected, Notify PO cannot be done before advise.
