@@ -131,7 +131,7 @@ Registration Page is used to register the user as supplier. Supplier portal regi
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
-</div>
+</div> 
 
 ## Log in
 
