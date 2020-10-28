@@ -6,27 +6,27 @@
 
 **Table of Contents**
 
-**[Overview](#_heading=h.1fob9te) 3**
+**[Overview](#_heading=h.1fob9te) 
 
-**[Environment Details](#_heading=h.3znysh7) 3**
+**[Environment Details](#_heading=h.3znysh7) 
 
-**[Standard Features](#_heading=h.2et92p0) 3**
+**[Standard Features](#_heading=h.2et92p0) 
 
-**[Account](#_heading=h.tyjcwt) 3**
+**[Account](#_heading=h.tyjcwt) 
 
-**[JIRA References](#_heading=h.3dy6vkm) 3**
+**[JIRA References](#_heading=h.3dy6vkm) 
 
-**[Notes](#_heading=h.1t3h5sf) 4**
+**[Notes](#_heading=h.1t3h5sf) 
 
-**Validated Versions 4**
+**Validated Versions 
 
-**[GitHub Link](#_heading=h.2s8eyo1) 5**
+**[GitHub Link](#_heading=h.2s8eyo1) 
 
-**[TestRail Link](#_heading=h.17dp8vu) 5**
+**[TestRail Link](#_heading=h.17dp8vu) 
 
-**[Documentation](#_heading=h.3rdcrjn) 5**
+**[Documentation](#_heading=h.3rdcrjn) 
 
-**[Point of Contact](#_heading=h.26in1rg) 5**
+**[Point of Contact](#_heading=h.26in1rg) 
 
 ##
 
@@ -40,8 +40,8 @@
 
 | _ **Software Name** _ | _ **Version** _ |
 | --- | --- |
-| Magento Open Source | 2.3.4 |
-| eConnect Base Module Version | 2.0.0 |
+| Magento Open Source | 2.3.5 |
+| eConnect Base Module Version | 3.0.0 |
 | IDM Module version | 3.0.0 |
 | RabbitMQ | 3.8.3 |
 | ION Desk | 12.0.0 |
@@ -95,11 +95,11 @@ when the SHAC is disabled for the same supplier and I advise a line with same de
 
 ## **TestRail Link**
 
-[https://leanswift.testrail.net/index.php?/projects/overview/24](https://leanswift.testrail.net/index.php?/projects/overview/24)
+https://leanswift.testrail.net/index.php?/runs/view/264&group_by=cases:section_id&group_order=asc&group_id=2650
 
 ## **Documentation**
 
-All relevant documentation regarding release 20.1.2 are available on [LeanSwift&#39;s Intranet](https://sites.google.com/a/leanswift.com/leanswiftinfo/products) and on [LeanSwift&#39;s Google Drive](https://drive.google.com/drive/folders/1HSdOA2C8dMBNRVkoCEWpnFrWXsOdphHx)
+All relevant documentation regarding release 20.2.0 are available on [LeanSwift&#39;s Intranet](https://sites.google.com/a/leanswift.com/leanswiftinfo/products) and on [LeanSwift&#39;s Google Drive](https://drive.google.com/drive/folders/1HSdOA2C8dMBNRVkoCEWpnFrWXsOdphHx)
 
 ## **Point of Contact**
 
