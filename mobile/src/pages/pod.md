@@ -47,7 +47,7 @@ The driver's name and signature are captured on this screen. This is a one-time 
 
 On Entering name and signature the press the tick button to save the details and proceed.
 
-<img src="../images/Pod/pod1.gif" alt="settings" style="zoom:100%;" />
+<img src="../images/POD/POD1.gif" alt="settings" style="zoom:100%;" />
 
 
 
@@ -59,7 +59,7 @@ The Truck number is represented with the warehouse and the agreement number. Eac
 
 The selection of the truck is saved and it will be the default selection whenever the module launches, in case of switching to a different truck tap the back button from the delivery list and select a new truck from the truck list
 
-<img src="../images/Pod/pod2.gif" alt="settings" style="zoom:100%;" />
+<img src="../images/POD/POD2.gif" alt="settings" style="zoom:100%;" />
 
 Each truck will have different deliveries mapped to it. Each delivery is displayed with all the basic delivery details. The delivery list can be sorted based on its departure date.
 
@@ -69,7 +69,7 @@ After choosing the delivery all the Line items under the delivery were listed, t
 
 Users can accept the delivery by tapping the accept button on the top right corner or in case of any issue with the delivered items they can edit the delivered quantities and if the delivered quantity is less than the ordered quantity the comments should be mandatory if not it’s optional.
 
-<img src="../images/Pod/pod3.gif" alt="settings" style="zoom:100%;" />
+<img src="../images/POD/POD3.gif" alt="settings" style="zoom:100%;" />
 
 ### <a name="editDetail"></a>Capture damaged items
 
@@ -77,7 +77,7 @@ The damaged items image can be captured by tapping the capture button provided n
 
 It is recommended that capturing less than 6 images for reporting damaged items. Since the these images will be attached with the signed ticket and archived in IDM.
 
-<img src="../images/Pod/pod4.gif" alt="settings" style="zoom:100%;" />
+<img src="../images/POD/POD4.gif" alt="settings" style="zoom:100%;" />
 
 
 
@@ -89,7 +89,7 @@ The delivery will be accepted or in case of any change in quantity those will be
 
 This signed document will get uploaded to IDM and archived for future reference. The delivery confirmation is shown finally.
 
-<img src="../images/Pod/pod5.gif" alt="settings" style="zoom:100%;" />
+<img src="../images/POD/POD5.gif" alt="settings" style="zoom:100%;" />
 
 Tapping delivery success Tick / Fail button to return back to the Delivery list page. In case of Ship ticket missing in IDM users will be asked to capture ship ticket if available in the delivery location or they can proceed without ship ticket IDM upload.
 
