@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 20.1.0 - User Manual - Supplier User
+# Version 20.2.0 - User Manual - Supplier User
 
 # Table of contents
 
@@ -26,6 +26,8 @@
     - [Download as CSV](#download-as-csv)
     - [Confirm PO Line](#confirm-po-line)
     - [Confirm All Lines](#confirm-all-lines)
+   - [New in this version](#new-in-this-version)
+     - [ReConfirm](#reconfirm)
     - [Upload to IDM](#upload-to-idm)
   - [My Forecast](#my-forecast)
     - [Paginate](#paginate)
