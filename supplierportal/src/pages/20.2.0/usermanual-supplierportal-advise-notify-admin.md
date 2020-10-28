@@ -20,21 +20,7 @@
 - [Notify Transportation By Delivery Note number](#notify-transportation-by-delivery-note-number)
     - [Enable :](#enable-)
     - [Realtime API call for notify PO:](#realtime-api-call-for-notify-po)
-- [Version 20.2.0 - Advise/Notify User Manual - Admin](#version-2020---advisenotify-user-manual---admin)
-- [Advise](#advise)
-    - [Enable:](#enable)
-    - [Can Advise PO before confirm:](#can-advise-po-before-confirm)
-    - [Realtime API call for advise PO:](#realtime-api-call-for-advise-po)
-    - [Cron setting to send Advise PO requests to M3:](#cron-setting-to-send-advise-po-requests-to-m3)
-- [Notify](#notify)
-    - [Enable:](#enable)
-    - [Allow Notify Transportation before Advise:](#allow-notify-transportation-before-advise)
-    - [Allow Notify Transportation before Confirm:](#allow-notify-transportation-before-confirm)
-    - [Realtime API call for notify PO:](#realtime-api-call-for-notify-po)
-    - [Cron setting to send notify PO requests to M3:](#cron-setting-to-send-notify-po-requests-to-m3)
-- [Notify Transportation By Delivery Note number](#notify-transportation-by-delivery-note-number)
-    - [Enable :](#enable-)
-    - [Realtime API call for notify PO:](#realtime-api-call-for-notify-po)
+
 
 This Add-on is used to Advise and/or Notify PO lines and should be used along with Supplier Portal
 
@@ -66,6 +52,11 @@ If &quot;Yes&quot; is selected, API calls will be made in real time. If &quot;No
 ### Cron setting to send Advise PO requests to M3:
 Set an expression for CRON to send requests to M3 at fixed intervals
 
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
 
 # Notify
@@ -104,6 +95,12 @@ If &quot;Yes&quot; is selected, API calls are processed realtime. If &quot;No&qu
 ### Cron setting to send notify PO requests to M3:
 Set an expression for CRON to send requests to M3 at fixed intervals
 
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
 # Notify Transportation By Delivery Note number
 
 This Add-on is used to Notify POs using Delivery Note Number and has to be used along with Supplier Portal.
@@ -126,4 +123,10 @@ If &quot;Yes&quot; is selected, API calls are processed realtime. If &quot;No&qu
 </kbd>
 
 Prerequisite: Supplier should have Shipment Advice (SHAC) value as !=0 or \&gt;0, that is, it can be 1 or 2.
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
