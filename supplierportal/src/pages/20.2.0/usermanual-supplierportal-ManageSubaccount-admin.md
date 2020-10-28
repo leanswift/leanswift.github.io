@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 20.1.0 - User Manual - Admin 
+# Version 20.2.0 - Manage Sub-Account User Manual - Admin 
 
 This is a separate Add-on which can be used with Supplier Portal and any other extension.
 
