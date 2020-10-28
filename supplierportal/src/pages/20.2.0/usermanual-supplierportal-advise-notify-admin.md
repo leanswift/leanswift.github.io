@@ -11,6 +11,11 @@ This Add-on is used to Advise and/or Notify PO lines and should be used along wi
 <img alt="metrics display" src="../../images/usermanual/advise_po_setting.png"> 
 </kbd>
 
+### Enable:
+If &quot;Yes&quot; is selected, Advise option is enabled.
+
+If &quot;No&quot; is selected, Advise option is disabled.
+
 ### Can Advise PO before confirm: 
 If &quot;Yes&quot; is selected, Advise PO can be done before Confirm PO.
 
@@ -21,8 +26,14 @@ When the above setting is &quot;No&quot;, PO Lines which are in READY/PRINTED st
 ### Realtime API call for advise PO:
 If &quot;Yes&quot; is selected, API calls will be made in real time. If &quot;No&quot; is selected, API calls are processed via a background job (CRON).
 
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/cron-advise-settings.png"> 
+</kbd>
+
 ### Cron setting to send Advise PO requests to M3:
 Set an expression for CRON to send requests to M3 at fixed intervals
+
+
 
 # Notify
 
@@ -31,6 +42,12 @@ This Add-on is used to Notify PO lines and has to be used along with Supplier Po
 <kbd>
 <img alt="Exit system" src="../../images/usermanual/notify_po_setting.png">
 </kbd>
+
+### Enable:
+If &quot;Yes&quot; is selected, Notify option is enabled.
+
+If &quot;No&quot; is selected, Notify option is disabled.
+ 
 
 ### Allow Notify Transportation before Advise:
 If &quot;Yes&quot; is selected, Notify PO can be done before advise.If &quot;No&quot; is selected, Notify PO cannot be done before advise.
@@ -47,6 +64,10 @@ When the above setting is No, POs which are in READY/PRINTED status i.e PO statu
 ### Realtime API call for notify PO:
 If &quot;Yes&quot; is selected, API calls are processed realtime. If &quot;No&quot; is selected, API calls are processed via CRON.
 
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/cron-notify-settings.png"> 
+</kbd>
+
 ### Cron setting to send notify PO requests to M3:
 Set an expression for CRON to send requests to M3 at fixed intervals
 
@@ -60,10 +81,16 @@ This Add-on is used to Notify POs using Delivery Note Number and has to be used 
 
 
 ### Enable : 
-If &quot;Yes&quot; is selected, Notify Transportation by delivery number is Enabled. If &quot;No&quot; is selected, Notify Transportation by delivery number is Disabled.
+If &quot;Yes&quot; is selected, Notify Transportation by delivery number is Enabled. 
+
+If &quot;No&quot; is selected, Notify Transportation by delivery number is Disabled.
 
 ### Realtime API call for notify PO:
 If &quot;Yes&quot; is selected, API calls are processed realtime. If &quot;No&quot; is selected, API calls are processed via CRON.
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/cron-notifyByDel-settings.png.png"> 
+</kbd>
 
 Prerequisite: Supplier should have Shipment Advice (SHAC) value as !=0 or \&gt;0, that is, it can be 1 or 2.
 
