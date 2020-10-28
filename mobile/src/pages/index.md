@@ -22,6 +22,8 @@
 
 - ## [User Guide - Pick Reporting](pick-reporting.md)
 
+- ## [User Guide - Proof Of Delivery](pod.md)
+
 </br>
 </br>
 
