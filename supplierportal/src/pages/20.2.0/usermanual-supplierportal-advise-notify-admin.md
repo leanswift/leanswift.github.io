@@ -3,6 +3,39 @@
 
 # Version 20.2.0 - Advise/Notify User Manual - Admin
 
+# Table of contents
+
+
+- [Advise](#advise)
+    - [Enable:](#enable)
+    - [Can Advise PO before confirm:](#can-advise-po-before-confirm)
+    - [Realtime API call for advise PO:](#realtime-api-call-for-advise-po)
+    - [Cron setting to send Advise PO requests to M3:](#cron-setting-to-send-advise-po-requests-to-m3)
+- [Notify](#notify)
+    - [Enable:](#enable)
+    - [Allow Notify Transportation before Advise:](#allow-notify-transportation-before-advise)
+    - [Allow Notify Transportation before Confirm:](#allow-notify-transportation-before-confirm)
+    - [Realtime API call for notify PO:](#realtime-api-call-for-notify-po)
+    - [Cron setting to send notify PO requests to M3:](#cron-setting-to-send-notify-po-requests-to-m3)
+- [Notify Transportation By Delivery Note number](#notify-transportation-by-delivery-note-number)
+    - [Enable :](#enable-)
+    - [Realtime API call for notify PO:](#realtime-api-call-for-notify-po)
+- [Version 20.2.0 - Advise/Notify User Manual - Admin](#version-2020---advisenotify-user-manual---admin)
+- [Advise](#advise)
+    - [Enable:](#enable)
+    - [Can Advise PO before confirm:](#can-advise-po-before-confirm)
+    - [Realtime API call for advise PO:](#realtime-api-call-for-advise-po)
+    - [Cron setting to send Advise PO requests to M3:](#cron-setting-to-send-advise-po-requests-to-m3)
+- [Notify](#notify)
+    - [Enable:](#enable)
+    - [Allow Notify Transportation before Advise:](#allow-notify-transportation-before-advise)
+    - [Allow Notify Transportation before Confirm:](#allow-notify-transportation-before-confirm)
+    - [Realtime API call for notify PO:](#realtime-api-call-for-notify-po)
+    - [Cron setting to send notify PO requests to M3:](#cron-setting-to-send-notify-po-requests-to-m3)
+- [Notify Transportation By Delivery Note number](#notify-transportation-by-delivery-note-number)
+    - [Enable :](#enable-)
+    - [Realtime API call for notify PO:](#realtime-api-call-for-notify-po)
+
 This Add-on is used to Advise and/or Notify PO lines and should be used along with Supplier Portal
 
 # Advise
