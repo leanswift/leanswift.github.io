@@ -28,14 +28,13 @@ MobileFirst Configuration User Guide provides guidance for LeanSwift customers a
 
 #### **<a name="std-func"></a>Proof of delivery standard functionality**
 
-The Proof of delivery for Infor M3 and make it possible for your customers to sign for deliveries electronically on a mobile device. The signed confirmation will be emailed or directly archived in IDM.
+The Proof of delivery for Infor M3 and make it possible for your customers to sign for deliveries electronically on a mobile device. The signed confirmation will be directly archived in IDM.
 
 ##### Features Included:-
 
 - Retrieve and display the status of a delivery
 - Capture user signature
 - Generate a PDF that includes items and quantities delivered
-- Delivery confirmation email support
 - Infor Document Management archiving support
 
 
