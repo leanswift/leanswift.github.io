@@ -22,9 +22,11 @@
     - [Realtime API call for notify PO:](#realtime-api-call-for-notify-po)
 
 
-This Add-on is used to Advise and/or Notify PO lines and should be used along with Supplier Portal
 
 # Advise
+
+This Add-on is used to Advise PO lines and should be used along with Supplier Portal
+
 
 <kbd>
 <img alt="metrics display" src="../../images/usermanual/advise_po_setting.png"> 
