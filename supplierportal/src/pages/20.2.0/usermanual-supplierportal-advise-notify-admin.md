@@ -29,7 +29,7 @@ Set an expression for CRON to send requests to M3 at fixed intervals
 This Add-on is used to Notify PO lines and has to be used along with Supplier Portal and Advise PO.
 
 <kbd>
-<img alt="Exit system" src="../../images/usermanual/admin-logout.png">
+<img alt="Exit system" src="../../images/usermanual/notify_po_setting.png">
 </kbd>
 
 ### Allow Notify Transportation before Advise:
@@ -53,6 +53,11 @@ Set an expression for CRON to send requests to M3 at fixed intervals
 # Notify Transportation By Delivery Note number
 
 This Add-on is used to Notify POs using Delivery Note Number and has to be used along with Supplier Portal.
+
+<kbd>
+<img alt="Exit system" src="../../images/usermanual/notify_tranport_by_delivery.png">
+</kbd>
+
 
 ### Enable : 
 If &quot;Yes&quot; is selected, Notify Transportation by delivery number is Enabled. If &quot;No&quot; is selected, Notify Transportation by delivery number is Disabled.
