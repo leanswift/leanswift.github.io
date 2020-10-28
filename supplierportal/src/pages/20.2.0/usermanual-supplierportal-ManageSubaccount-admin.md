@@ -12,25 +12,25 @@ This Supplier will have options to
 2. Edit/Delete Sub Accounts
 3. Manage permissions to his Sub Accounts
 
-The list of Permissions available can be configured in the Configuration. Below are the list of permissions available:
+The list of Permissions available can be configured in the Configuration under User Management > Permissions. Below are the list of permissions available:
 
-1. View My Account
-2. View Supplier Documents
-3. Upload Supplier Document
-4. View My Performance Metrics
-5. Export My Performance Metrics
-6. View My Purchase Orders
-7. View My Forecast
-8. Download My Forecast
-9. View My Invoices
-10. Download My Invoices
-11. Confirm My Purchase Orders
-12. Download My Purchase Orders
-13. View PO Documents
-14. Upload PO Document
-15. Allow User Settings
+1. Account - Upload Documents
+2. Deliveries - Download
+3. Deliveries - View
+4. Forecasts - Download
+5. Forecasts - View
+6. Invoices - Download
+7. Invoices - View
+8. Performance Metrics - View
+9. Purchase Orders - Advise
+10. Purchase Orders - Confirm
+11. Purchase Orders - Download
+12. Purchase Orders - Notify
 
-Image
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/user-permission-list.png"> 
+</kbd>
 
 Supplier Admin can group permissions under different categories and label them as required.
 
@@ -38,10 +38,14 @@ Supplier and list of users can be viewed under the Customer Grid page in the bac
 
 Supplier Admin will have the &#39;Sub Account&#39; option&#39; enabled and Sub accounts will have that option disabled.
 
-Image
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/supplier-subaccount-list.png"> 
+</kbd>
 
 There is another tab called &#39;Manage Sub accounts&#39;. Here it will display the &#39;customer id&#39; and its &#39;parent id&#39;
 
 The &#39;customer id&#39; is the subaccount id and &#39;parent id&#39; is the supplier id.
 
-Image
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/user-permission-list.png"> 
+</kbd>
