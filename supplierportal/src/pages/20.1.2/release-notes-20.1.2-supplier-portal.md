@@ -3,7 +3,7 @@
 
 # **Supplier Portal**
 
-# **20.1.1**
+# **20.1.2**
 
 ## **Release Notes**
 
@@ -42,7 +42,7 @@
 
 
 ## **Features**
-This is a patch release and contains all the standard features of 20.1.0
+This is a patch release and contains all the standard features of 20.1.0 and 20.1.1
 
 - My Account
 
@@ -52,19 +52,8 @@ This is a patch release and contains all the standard features of 20.1.0
 
 - Performance Metrics
 
-
 ## **Highlights**
 
-- Theme based pages will be displayed during Registration and Forgot passowrd
+- When the Supplier email is not a valid hostname or when the Email is already registered, page redirects to LUMA theme. This is modified to retain the supplier portal theme.
 
-- On-time Delivery metrics to display correct data for monthly chart
-
-- Document upload done in frontend will now be mapped against the registered Supplier PO in IDM
-
-- Forecast to pull orders whose status is less than 60 during first time login and subsequent changes are pulled based on last modified date field
-
-- Names of message queue which are used for supplier portal are modified.
-
-
-
-
+- Company (CONO) is sent as parameter in ION Buyer approval request so that approval will be sent to the buyer (M3 user )irrespective of default company of the M3 user.

@@ -4,12 +4,21 @@
 
 ## Table of contents
 
+  - [20.1.2](#2012)
+    - [Fixes:](#fixes)
   - [20.1.1](#2011)
     - [Enhancement:](#enhancement)
     - [Fixes:](#fixes)
   - [20.1.0](#2010)
     - [Features:](#features)
 #
+
+## 20.1.2
+
+### Fixes:
+
+- When the Supplier email is not a valid hostname or when the Email is already registered, page redirects to LUMA theme. This is modified to retain the supplier portal theme.
+- Company (CONO) is sent as parameter in ION Buyer approval request so that approval will be sent to the buyer (M3 user )irrespective of default company of the M3 user.
 
 ## 20.1.1
 
@@ -22,6 +31,8 @@
 - Theme based pages will be displayed during Registration and Forgot password
 - On-time Delivery metrics to display correct data for monthly chart
 - Document upload done in frontend will now be mapped against the registered Supplier PO in IDM
+- Names of message queue which are used for supplier portal are modified
+
 
 ## 20.1.0
 
