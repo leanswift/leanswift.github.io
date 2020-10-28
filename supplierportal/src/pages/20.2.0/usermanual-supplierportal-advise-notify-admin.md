@@ -8,7 +8,7 @@ This Add-on is used to Advise and/or Notify PO lines and should be used along wi
 # Advise
 
 <kbd>
-<img alt="metrics display" src="../../images/usermanual/advise_po_setting.png">
+<img alt="metrics display" src="../../images/usermanual/advise_po_setting.png"> 
 </kbd>
 
 ### Can Advise PO before confirm: 
