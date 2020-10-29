@@ -47,5 +47,5 @@ There is another tab called &#39;Manage Sub accounts&#39; and is available only 
 The &#39;customer id&#39; is the subaccount id and &#39;parent id&#39; is the supplier id.
 
 <kbd>
-<img alt="metrics display" src="../../images/usermanual/supplier-subaccount-list.png"> 
+<img alt="metrics display" src="../../images/usermanual/subaccount-admin-mapping.png"> 
 </kbd>
