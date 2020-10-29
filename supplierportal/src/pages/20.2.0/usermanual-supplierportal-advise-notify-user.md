@@ -9,7 +9,7 @@
 To Advise PO lines, Select PO lines from the list of POs that are either in Printed or Confirmed status (Based on the settings made in the Magento configuration) and click on &#39;Advise&#39;
 
 <kbd>
-<img alt="metrics display" src="../../images/usermanual/advise-po-lines.png"> 
+<img alt="advise-po-lines" src="../../images/usermanual/advise-po-lines.png"> 
 </kbd>
 
 All the PO lines under a PO can be advised at a time during which &#39;AdviseAll&#39; option is used
