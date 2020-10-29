@@ -2,6 +2,8 @@
 
 # Version 20.2.0 - Deliveries User Manual - User
 
+My Deliveries displays all the Delivery notes (of order status > 50)
+
 The Delivery head contains the following:
 
 1. Delivery Note Number
@@ -32,7 +34,9 @@ Deliveries can be filtered based on the above options
 
 There is a &#39;Download&#39; option which downloads the entire list of filtered data on this page in CSV format.
 
-Image
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/deliveries-download.png"> 
+</kbd>
 
 _Note:_
 - _When Delivery date is different but the delivery number is the same , a new record with the same delivery number and a different delivery date is added._
