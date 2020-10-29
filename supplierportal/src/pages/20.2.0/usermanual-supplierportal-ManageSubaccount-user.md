@@ -1,8 +1,7 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 20.2.0 - User Manual - Manage Sub-account - Admin
+# Version 20.2.0 - User Manual - Manage Sub-account - User
 
-This is an Add-on which can be used along side Supplier to manage its users.
 
 **Create/Edit/Delete new user**
 
@@ -32,7 +31,7 @@ The newly created users appear below with all the details
 <img alt="metrics display" src="../../images/usermanual/new-subaccountg.png"> 
 </kbd>
 
-Note: Newly created Sub-account by default will have Purchase Order page view permission along with My Account and My Documents.
+_Note: Newly created Sub-account by default will have Purchase Order page view permission along with My Account and My Documents._
 
 Once the user is created, it can also be edited by clicking on the &#39;Edit&#39; option. On clicking the &#39;Edit&#39; option, the user details are pre populated. Admin can make changes to the details and save. Once it is saved a success message will be displayed and new changes will be applicable.
 
