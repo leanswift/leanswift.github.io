@@ -22,13 +22,13 @@ By Default, newly added users get added in active state. Admin can switch the to
 Success message appears on top once new user is created
 
 <kbd>
-<img alt="metrics display" src="../../images/usermanual/subaccount-success-message.png.png"> 
+<img alt="metrics display" src="../../images/usermanual/subaccount-success-message.png"> 
 </kbd>
 
 The newly created users appear below with all the details
 
 <kbd>
-<img alt="metrics display" src="../../images/usermanual/new-subaccountg.png"> 
+<img alt="metrics display" src="../../images/usermanual/new-subaccount.png"> 
 </kbd>
 
 _Note: Newly created Sub-account by default will have Purchase Order page view permission along with My Account and My Documents._
