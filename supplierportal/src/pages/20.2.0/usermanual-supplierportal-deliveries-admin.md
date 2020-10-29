@@ -1,3 +1,7 @@
+![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+
+# Version 20.2.0 - Deliveries User Manual - Admin
+
 This is a separate add-on and has to be used alongside Supplier Portal.
 
 
