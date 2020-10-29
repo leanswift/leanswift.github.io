@@ -15,4 +15,10 @@ The Date format must be YYYY/MM/DD. If no date is chosen, default date will be 1
 
 _Note that Logged in User must have permission to view Invoices_
 
+The list of filter options can be configured under Leanswift > Supplier Portal > Design/Display > Invoice
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/invoice-filter-settings.png"> 
+</kbd>
+
 
