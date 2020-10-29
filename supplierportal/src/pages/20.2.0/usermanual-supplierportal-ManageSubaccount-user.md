@@ -1,7 +1,8 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 20.1.0 - User Manual - User
+# Version 20.2.0 - User Manual - Manage Sub-account - Admin
 
+This is an Add-on which can be used along side Supplier to manage its users.
 
 **Create/Edit/Delete new user**
 
