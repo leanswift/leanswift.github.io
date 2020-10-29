@@ -2,6 +2,15 @@
 
 # Version 20.2.0 - Advise/Notify User Manual - User
 
+# Table of contents
+
+- [Version 20.2.0 - Advise/Notify User Manual - User](#version-2020---advisenotify-user-manual---user)
+- [Advise](#advise)
+  - [Advise a PO Line](#advise-a-po-line)
+- [Notify](#notify)
+  - [Notify a PO Line](#notify-a-po-line)
+- [Notify Transportation By Delivery Note number](#notify-transportation-by-delivery-note-number)
+
 # Advise
 
 ## Advise a PO Line
@@ -56,6 +65,12 @@ Once the line/lines are Advised/Advised All, the process indicator is updated an
 <kbd>
 <img alt="metrics display" src="../../images/usermanual/advise-info.png"> 
 </kbd>
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
 # Notify
 
@@ -118,6 +133,11 @@ Clicking on notify, changes process indicator to &#39;Request is Processing&#39;
 
 Once the line/lines are Notified/Notified All, the process indicator is updated and the &#39;Notified Transportation&#39; icon is displayed along with all the information filled in the &#39;Transport Notification&#39; window below each line.
 
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
 # Notify Transportation By Delivery Note number
 
@@ -139,4 +159,10 @@ On clicking, &quot;Notify&quot; button on top, &quot;Notify Transportation by&qu
 Note that all the above except &#39;Delivery Note Number&#39; are optional input attributes.
 
 User can enter the Delivery note number and click on Notify. This will notify all the lines with the given Delivery note number.
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
