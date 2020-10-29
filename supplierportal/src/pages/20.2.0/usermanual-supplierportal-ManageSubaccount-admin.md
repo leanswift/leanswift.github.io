@@ -42,10 +42,10 @@ Supplier Admin will have the &#39;Sub Account&#39; option&#39; enabled and Sub a
 <img alt="metrics display" src="../../images/usermanual/supplier-subaccount-list.png"> 
 </kbd>
 
-There is another tab called &#39;Manage Sub accounts&#39;. Here it will display the &#39;customer id&#39; and its &#39;parent id&#39;
+There is another tab called &#39;Manage Sub accounts&#39; and is available only for Admin and not Sub-account. Here it will display the &#39;customer id&#39; and its &#39;parent id&#39;
 
 The &#39;customer id&#39; is the subaccount id and &#39;parent id&#39; is the supplier id.
 
 <kbd>
-<img alt="metrics display" src="../../images/usermanual/user-permission-list.png"> 
+<img alt="metrics display" src="../../images/usermanual/supplier-subaccount-list.png"> 
 </kbd>
