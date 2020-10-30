@@ -5,10 +5,13 @@
 # Table of contents
 
 - [Version 20.2.0 - Advise/Notify User Manual - User](#version-2020---advisenotify-user-manual---user)
+- [Table of contents](#table-of-contents)
 - [Advise](#advise)
   - [Advise a PO Line](#advise-a-po-line)
+  - [Advise Multiple POs](#advise-multiple-pos)
 - [Notify](#notify)
   - [Notify a PO Line](#notify-a-po-line)
+  - [Notify Multiple POs](#notify-multiple-pos)
 - [Notify Transportation By Delivery Note number](#notify-transportation-by-delivery-note-number)
 
 # Advise
@@ -71,6 +74,43 @@ Once the line/lines are Advised/Advised All, the process indicator is updated an
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 </div>
+
+## Advise Multiple POs
+
+This can be used when multiple POs are to be advised.
+
+Click on the Global Advise button on top right.
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/global-advise.png"> 
+</kbd>
+
+Similar to Advise functionality, &#39;Advise Shipment Selected POs&#39; (All Lines) window opens up with the following options:
+
+1. Planned Pickup Date (past date is not allowed)
+2. Departure Date (past date is not allowed)
+3. Forwarding Agent
+4. Bill of Lading
+5. Delivery Note Number
+6. Carrier Name
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/advise-multiple-po.png"> 
+</kbd>
+
+All the above are optional input fields.
+
+Additionally there is a &#39;Search PO&#39; dropdown. Users can search order numbers and choose from the dropdown. Only eligible POs will be displayed in the dropdown (POs that can be advised based on the backend configuration).If user searches for a PO and that PO is not eligible for Advise, or if PO number search does not match any results, User is displayed with a message &#39;No results found&#39;.
+As the user select’s PO from dropdown, it appears on the top with a &#39;x&#39; mark beside it. Users can select multiple POs and can choose to remove it by clicking on the &#39;x&#39; mark.
+
+_Note that by choosing the PO, all eligible lines of the PO gets advised._
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
 
 # Notify
 
@@ -138,6 +178,39 @@ Once the line/lines are Notified/Notified All, the process indicator is updated 
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 </div>
+
+## Notify Multiple POs
+
+This can be used when multiple POs are to be advised.
+Click on the Global Notify button on top right.
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/global-advise.png"> 
+</kbd>
+
+Similar to Notify functionality, &#39;Notify Transportation By&#39; [PO#/Deliver Note#]  window opens up with the following options:
+
+1. Departure Date (same as Carrier Departure Date in M3, must be valid date, past date is not allowed)
+2. Forwarding Agent
+3. Delivery Note Number
+4. Carrier Name 
+5. Arrival Date
+6. Bill of Lading
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/notify-multiple-pos.png"> 
+</kbd>
+
+Additionally there is a &#39;Search PO&#39; dropdown. Users can search order numbers and choose from the dropdown. Only eligible POs will be displayed in the dropdown (POs that can be Notified based on the backend configuration).If user searches for a PO and that PO is not eligible for Notify, or if PO number search does not match any results, User is displayed with a message &#39;No results found&#39;.
+As the user selects PO from dropdown, it appears on the top with a &#39;x&#39; mark beside it. Users can select multiple POs and can choose to remove it by clicking on the &#39;x&#39; mark.
+Note that by choosing the PO, all eligible lines of the PO get notified.
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
 
 # Notify Transportation By Delivery Note number
 
