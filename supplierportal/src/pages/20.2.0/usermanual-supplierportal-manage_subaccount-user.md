@@ -44,4 +44,5 @@ Created users can also be deleted by clicking on the &#39;Delete&#39; option. A 
  Once the user clicks OK button user will get deleted and the success message will be displayed. &#39;Supplier sub-account deleted successfully&#39;.
 
 Once a new user is created, a reset password email is sent to their mail id. Users can click the reset password link and enter a new password. Once a user sets his password he can login into the frontend using the email address and password. The list of available menus and pages are based on the permissions provided to the user. The sub accounts created by Supplier will have the Supplier ID mapped in the backend. 
+If the number of user registered exceed the set limit, admin user will be intimated via mail.
 
