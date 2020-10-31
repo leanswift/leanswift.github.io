@@ -2,16 +2,31 @@
 
 # Version 20.2.0 - Advise/Notify User Manual - User
 
+# Table of contents
+
+- [Version 20.2.0 - Advise/Notify User Manual - User](#version-2020---advisenotify-user-manual---user)
+- [Table of contents](#table-of-contents)
+- [Advise](#advise)
+  - [Advise a PO Line](#advise-a-po-line)
+  - [Advise Multiple POs](#advise-multiple-pos)
+- [Notify](#notify)
+  - [Notify a PO Line](#notify-a-po-line)
+  - [Notify Multiple POs](#notify-multiple-pos)
+- [Notify Transportation By Delivery Note number](#notify-transportation-by-delivery-note-number)
+
 # Advise
 
 ## Advise a PO Line
 
 To Advise PO lines, Select PO lines from the list of POs that are either in Printed or Confirmed status (Based on the settings made in the Magento configuration) and click on &#39;Advise&#39;
-Image
+
+<kbd>
+<img alt="advise-po-lines" src="../../images/usermanual/advise-po-lines.png"> 
+</kbd>
+
 All the PO lines under a PO can be advised at a time during which &#39;AdviseAll&#39; option is used
-Image
-When &#39;AdviseAll&#39; option is chosen, a Confirmation dialogue box appears on the top
-Image
+
+
 Once Advise/Advise All is chosen, &#39;Advise Shipment&#39; window opens at the top, where user can fill in the below information:
 1. Planned Pickup Date (past date is not allowed)
 2. Departure Date (past date is not allowed)
@@ -21,18 +36,81 @@ Once Advise/Advise All is chosen, &#39;Advise Shipment&#39; window opens at the 
 6. Delivery Note Number
 7. Carrier Name
 
+<kbd>
+<img alt="advise-shipment" src="../../images/usermanual/advise-shipment.png"> 
+</kbd>
+
 All the above are optional input fields.
 
 Planned Pickup, Departure Date are prefilled with current Date and Quantity to Advise is prefilled with Confirmed Quantity. Quantity to Advise can be changed to a lesser value in case of Partial Advise during which a new Subline number will be created below the actual line.
-Image
+
+When &#39;Advise&#39; option is chosen, a Confirmation dialogue box appears on the top
+
+<kbd>
+<img alt="advise-confirmation-dialog-box.png" src="../../images/usermanual/advise-confirmation-dialog-box.png"> 
+</kbd>
+
 The information submitted above for Advise is viewable for each Advised PO Line
-Image
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/subline-advise.png"> 
+</kbd>
+
+
 Clicking on Advise, changes process indicator to &#39;Request is Processing&#39;
-Image
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/process-indicator-advise.png"> 
+</kbd>
 
 Once the line/lines are Advised/Advised All, the process indicator is updated and the &#39;Advised Shipment&#39; icon is displayed along with all the information filled in the &#39;Advise Shipment&#39; window below each line.
 
-Image
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/advise-info.png"> 
+</kbd>
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
+## Advise Multiple POs
+
+This can be used when multiple POs are to be advised.
+
+Click on the Global Advise button on top right.
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/global-advise.png"> 
+</kbd>
+
+Similar to Advise functionality, &#39;Advise Shipment Selected POs&#39; (All Lines) window opens up with the following options:
+
+1. Planned Pickup Date (past date is not allowed)
+2. Departure Date (past date is not allowed)
+3. Forwarding Agent
+4. Bill of Lading
+5. Delivery Note Number
+6. Carrier Name
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/advise-multiple-po.png"> 
+</kbd>
+
+All the above are optional input fields.
+
+Additionally there is a &#39;Search PO&#39; dropdown. Users can search order numbers and choose from the dropdown. Only eligible POs will be displayed in the dropdown (POs that can be advised based on the backend configuration).If user searches for a PO and that PO is not eligible for Advise, or if PO number search does not match any results, User is displayed with a message &#39;No results found&#39;.
+As the user select’s PO from dropdown, it appears on the top with a &#39;x&#39; mark beside it. Users can select multiple POs and can choose to remove it by clicking on the &#39;x&#39; mark.
+
+_Note that by choosing the PO, all eligible lines of the PO gets advised._
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
 
 # Notify
 
@@ -40,15 +118,12 @@ Image
 
 To notify PO lines, Select PO lines from the list of POs that are either in Printed or Confirmed status (Based on the settings made in the Magento configuration) and click on &#39;notify&#39;
 
-Image
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/notify-po.png"> 
+</kbd>
 
 All PO lines can be notified at once during which &#39;notifyAll&#39; option is used
 
-Image
-
-When &#39;NotifyAll&#39; option is chosen, a Confirmation dialogue box appears on the top
-
-Image
 
 Once notify/notify All is chosen, &#39;notify Shipment&#39; window opens at the top, where user can fill in the below information:
 
@@ -60,33 +135,88 @@ Once notify/notify All is chosen, &#39;notify Shipment&#39; window opens at the 
 6. Arrival Date
 7. Bill of Lading
 
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/transport-notification.png"> 
+</kbd>
+
 All the above are optional input fields.
 
 If data for above fields is already available by &quot;Advised&quot; before, the data is pre-populated and shown here in editable form. Otherwise, empty editable fields are displayed.
 
 Departure Date and Arrival Date are prefilled with current Date and Quantity to Transport is prefilled with available Qty.
 
+When &#39;NotifyAll&#39; option is chosen, a Confirmation dialogue box appears on the top
+
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/notify-confirmation.png"> 
+</kbd>
+
+
 Quantity to Notify can be changed to a lesser value in case of Partial Notify during which a new Subline number will be created below the actual line.
 
-Image
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/notify-subline.png"> 
+</kbd>
 
 The information submitted above for notify is viewable for each Notified PO Line
 
-Image
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/notify-info.png"> 
+</kbd>
 
 Clicking on notify, changes process indicator to &#39;Request is Processing&#39;
 
-Image
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/notify-process-indicator.png"> 
+</kbd>
 
 Once the line/lines are Notified/Notified All, the process indicator is updated and the &#39;Notified Transportation&#39; icon is displayed along with all the information filled in the &#39;Transport Notification&#39; window below each line.
 
-Image
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
+## Notify Multiple POs
+
+This can be used when multiple POs are to be advised.
+Click on the Global Notify button on top right.
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/global-advise.png"> 
+</kbd>
+
+Similar to Notify functionality, &#39;Notify Transportation By&#39; [PO#/Deliver Note#]  window opens up with the following options:
+
+1. Departure Date (same as Carrier Departure Date in M3, must be valid date, past date is not allowed)
+2. Forwarding Agent
+3. Delivery Note Number
+4. Carrier Name 
+5. Arrival Date
+6. Bill of Lading
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/notify-multiple-pos.png"> 
+</kbd>
+
+Additionally there is a &#39;Search PO&#39; dropdown. Users can search order numbers and choose from the dropdown. Only eligible POs will be displayed in the dropdown (POs that can be Notified based on the backend configuration).If user searches for a PO and that PO is not eligible for Notify, or if PO number search does not match any results, User is displayed with a message &#39;No results found&#39;.
+As the user selects PO from dropdown, it appears on the top with a &#39;x&#39; mark beside it. Users can select multiple POs and can choose to remove it by clicking on the &#39;x&#39; mark.
+Note that by choosing the PO, all eligible lines of the PO get notified.
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
+
 
 # Notify Transportation By Delivery Note number
 
 Notify option appears in the frontend( based on the configuration setting.)
 
-On clicking, &quot;Notify Transportation By Delivery Note&quot;, following input text fields should be displayed
+On clicking, &quot;Notify&quot; button on top, &quot;Notify Transportation by&quot; window opens with following input text fields
 
 1. Delivery Note Number
 2. Carrier Name
@@ -95,7 +225,17 @@ On clicking, &quot;Notify Transportation By Delivery Note&quot;, following input
 5. Departure Date
 6. Arrival Date
 
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/notify-by-del-num.png"> 
+</kbd>
+
 Note that all the above except &#39;Delivery Note Number&#39; are optional input attributes.
 
 User can enter the Delivery note number and click on Notify. This will notify all the lines with the given Delivery note number.
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
