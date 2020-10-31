@@ -39,7 +39,8 @@
   - [My Performance Metrics](#my-performance-metrics)
     - [On-Time Delivery %](#on-time-delivery-)
     - [Quality - Rejected Inventory](#quality---rejected-inventory)
-    - [Purchase Price Variance](#purchase-price-variance)
+    - [Purchase Price Variance](#purchase-price-variance)   
+  - [Bell and Email Notifications](#bell-and-email-notifications)
   - [Log out](#log-out)
     
 # System Overview
@@ -385,8 +386,7 @@ Graph can be viewed either as bar or line chart (selected from dropdown in right
 <kbd><img alt="My Accounts" src="../../images/usermanual/my-performance-metrics.png" ></kbd>
 
 
-#### New in this version
-Performance Metrics chart can be exported as PDF or PNG
+
 
 ### On-Time Delivery %
 
@@ -411,6 +411,27 @@ This metric records the difference between the actual price paid to buy an item 
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 </div>
+
+## New in this version
+
+## Bell and Email Notifications
+
+Bell Notificaiton is used to display all the latest changes or additions of POs and it is available globally next to the settings icon. 
+
+<kbd><img alt="bell notification" src="../../images/usermanual/bell-notification.png"></kbd>
+
+The bell icon has a red-dot which indicates that there are unread notifications (once all notifications are read, red dot is removed ).The notification is highlighted in bold initially, once it is clicked bold is removed symbolising that the message is read.
+
+<kbd><img alt="bell notification dropdown" src="../../images/usermanual/bell-notification-dropdown.png"></kbd>
+
+Email notifications are sent to the Supplier and Sub accounts (Based on sub-account users if they have permissions to the respective screens) when the following events occur:
+- When a new Purchase Order is added
+- When Conf Date (and/or) Conf Quantity (and/or) Conf Price is changed(Any changes to PO upto status 35 is triggered and mail is sent to supplier)
+- When a new Purchase Forecast is added
+- When a Forecast is updated in the portal
+
+Email templates are available in the configuration, the details of which can be referred from here(https://github.com/leanswift/leanswift.github.io/blob/dev/supplierportal/src/pages/20.1.0/usermanual-supplierportal-admin.md#email-templates)
+
 
 ## Log out
 
