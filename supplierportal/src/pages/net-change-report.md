@@ -3,7 +3,8 @@
 # Supplier Portal-Net Change Report
 
 ## Table of contents
-
+  - [20.2.0](#2020)
+    - [Features:](#features)
   - [20.1.2](#2012)
     - [Fixes:](#fixes)
   - [20.1.1](#2011)
@@ -12,6 +13,33 @@
   - [20.1.0](#2010)
     - [Features:](#features)
 #
+
+## 20.2.0
+
+### Features : 
+
+- Advise / Advise All 
+- Notify / Notify All
+- Notify by Delivery Number
+- Confirm, Advise and Notify multiple PO
+- IDM upload for suppliers
+- My Deliveries
+- User Management 
+- Bell Notification
+- Email Notifications
+- My Invoices
+- User Tracking
+- Refresh button on ‘My Purchase Orders’ page 
+
+### Enhancements : 
+
+- Forecast: 
+  My Forecast will display only the Planned purchase orders that don't have status as Auto-Error 00 or Auto- Warning 05. Also, the Status column is removed from display.
+- Confirm PO:
+  Confirmed Purchase order line can be re-confirmed by modifying confirmed quantity or confirmed date any number of times as long as the status is 35 
+- My Documents
+  The Purchase order  Upload column is now modified as My Documents and supports both upload and download of documents. This makes it possible to fetch the document uploaded in   m3 for the particular PO using refresh icon.
+  
 
 ## 20.1.2
 
