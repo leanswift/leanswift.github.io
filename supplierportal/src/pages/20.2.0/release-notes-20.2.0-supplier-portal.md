@@ -126,13 +126,11 @@ This Add-on is to configure the allowed number of Registrations (supplier admin 
 
 ## **Add-ons**
 
-- Invoices - Supplier Invoices_
-- Deliveries - Supplier Deliveries
 - Advise/Notify - Advise/Notify Supplier PO`s
 - My Invoices - Supplier Invoices
 - My Deliveries - Supplier Deliveries
-- User Management - User Management
-- User Tracking - User Tracking
+
+In addition econnect-base, IDM, User Management and User Tracking are supporting modules.
 
 ## **Enhancements**
 
