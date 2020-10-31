@@ -1,3 +1,5 @@
+![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+
 # **Supplier Portal**
 
 # **20. 2 .0**
@@ -6,31 +8,27 @@
 
 **Table of Contents**
 
-**[Overview](#_heading=h.1fob9te) 
+- [Overview](#overview)
 
-**[Environment Details](#_heading=h.3znysh7) 
+- [Environment Details](#environment-details)
 
-**[Standard Features](#_heading=h.2et92p0) 
+- [Standard Features](#standard-features)
 
-**[Account](#_heading=h.tyjcwt) 
+- [New Features](#new-features)
 
-**[JIRA References](#_heading=h.3dy6vkm) 
+- [Add-ons](#add-ons)
 
-**[Notes](#_heading=h.1t3h5sf) 
+- [Enhancements](#enhancements)
 
-**Validated Versions 
+- [Limitations](#limitations)
 
-**[GitHub Link](#_heading=h.2s8eyo1) 
+- [Known Issues](#known-issues)
 
-**[TestRail Link](#_heading=h.17dp8vu) 
+- [Validated Versions](#validated-versions)
 
-**[Documentation](#_heading=h.3rdcrjn) 
+- [Point of Contact](#point-of-contact)
 
-**[Point of Contact](#_heading=h.26in1rg) 
 
-##
-
-##
 
 ## **Overview**
 
@@ -41,65 +39,132 @@
 | _ **Software Name** _ | _ **Version** _ |
 | --- | --- |
 | Magento Open Source | 2.3.5 |
-| eConnect Base Module Version | 3.0.0 |
-| IDM Module version | 3.0.0 |
+| eConnect Base Module Version | 4.0.0 |
+| IDM Module version | 3.2.0 |
 | RabbitMQ | 3.8.3 |
 | ION Desk | 12.0.0 |
 | Infor M3 | 16.1 |
-| Infor ION Grid | 12.0.2.0.20180308-135417.2 |
+| Infor ION Grid | 2020-10.135425.10 |
 
-##
+
 
 ## **Standard Features**
 
-- **Purchase Orders**
-  - Re-Confirm PO line
-  - Confirm multiple POs
-  - Advise PO line , PO(all lines) , Multiple POs
-  - Notify PO line , PO(all lines) , Multiple POs
-  - Notify PO via Delivery Note number
+This version includes all the standard features from 20.1.2 as mentioned below:
 
-- **Upload supplier-specific docs into IDM**
-- **View open and pending invoices**
-- **View delivery notes**
-- **Supplier Admin to manage users/roles**
-- **Email notifications on new orders/changes to existing orders**
+**Account**
+  - Registration and Login
+  - View Supplier Information
+  - User Date Format Setting
 
-## **JIRA References**
+**Purchase Orders**
+  - View Purchase Orders
+  - Search/Filter/Sort on Purchase Orders
+  - Confirm Purchase Orders 
+  - Download Purchase Orders Information
+  - Upload documents into IDM against Purchase Orders
+  - This is available ONLY if additional functionality for IDM integration is included as part of license
+  
+**Purchase Proposals/Forecasts**
+  - View Purchase Forecasts
+  - Search/Filter/Sort on Purchase Forecasts
+  
+**Performance Metrics**
+  - View Quality metrics based on rejected quantity
+  - View Delivery Performance metrics
+  - View Purchase Price Variance metrics
 
-[**All**](https://leanswift.atlassian.net/issues/?jql=project%20%3D%20SP%20AND%20fixVersion%20in%20(unreleasedVersions()%2C%2020.2.0)%20order%20by%20created%20DESC)
+## **New Features**
 
-[**User Stories/Tasks**](https://leanswift.atlassian.net/issues/?jql=project%20%3D%20SP%20AND%20issuetype%20in%20(Change%2C%20Story%2C%20Task)%20AND%20fixVersion%20in%20(unreleasedVersions()%2C%2020.2.0%2C%20%22SP%2020.2.0%22)%20order%20by%20created%20DESC)
+From Supplier Portal 20.2.0 , the following features will be available
 
-[**Bugs Identified/Fixed/Closed**](https://leanswift.atlassian.net/issues/?jql=project%20%3D%20SP%20AND%20issuetype%20%3D%20Bug%20AND%20fixVersion%20in%20(unreleasedVersions()%2C%2020.2.0%2C%20%22SP%2020.2.0%22)%20order%20by%20created%20DESC)
+**Advise / Advise All** 
 
-## **Notes**
+This Add-on is used to Advise PO on line level or header level (status 40 ) and should be used along with Supplier Portal.
 
-- When SHAC is kept as 2 , and Automatic dely note generation is enabled , advise and notify is done for a delivery note number PPS360 / TransNotifyHead is called .
+**Notify / Notify All**
 
-when the SHAC is disabled for the same supplier and I advise a line with same delivery note number ( line is not added in PPS360 ) but since the delivery note number is available in pps360 during notify the PPS360 / TransNotifyHead is called and the PPS001MI/NotifyDelNot is not called. This causes the line to remain in processing state
+This Add-on is used to Notify PO on line level or header level (status 45 ) and should be used along with Supplier Portal.
 
-- filters that it works with ltd conditions
+**Notify by Delivery Number**
 
-- During Advise All, if some error message is displayed Ex. Delivery number must be entered, Click refresh button for the input to be cleared before choosing another order to Advise
+This Add-on is used to Notify PO lines of different purchase orders based on the delivery number and should be used along with Supplier Portal.
+
+**Confirm, Advise and Notify multiple PO**
+
+This feature is to confirm or advise or notify multiple purchase orders. Separate buttons are available at global level in My Purchase Orders page.
+
+**IDM upload for suppliers**
+
+Upload or fetch supplier specific documents into IDM on the ‘My Documents’ section in the ‘My Accounts’ page.
+
+**My Deliveries**
+
+This Add-on is used to display deliveries and corresponding invoice matching status for all the lines that are goods received.
+
+**User Management**
+
+This Add-on is to manage sub-accounts (users) and their roles and permissions.
+
+**Bell Notification**
+
+This feature is to notify both supplier admin and users about the new updates on purchase order lines or forecast.
+
+**Email Notifications**
+
+Email is sent to supplier admin and the sub-accounts (based on user permissions) when a new PO / forecast is added or an existing purchase order / forecast is modified.
+
+**My Invoices**
+
+This Add-on is used to display all the  invoices associated with the supplier's PO  and also other details such as outstanding amount, due date and open/paid.
+
+**User Tracking**
+
+This Add-on is to configure the allowed number of Registrations (supplier admin ) and allowed sub-account users per supplier admin. 
+
+**Refresh button on ‘My Purchase Orders’ page**
+
+## **Add-ons**
+
+- Invoices - Supplier Invoices
+- Deliveries - Supplier Deliveries
+- Advise/Notify - Advise/Notify Supplier PO`s
+- My Invoices - Supplier Invoices
+- My Deliveries - Supplier Deliveries
+- User Management - User Management
+- User Tracking - User Tracking
+
+## **Enhancements**
+
+- Forecast: 
+  My Forecast will display only the Planned purchase orders that don't have status as Auto-Error 00 or Auto- Warning 05. Also, the Status column is removed from display.
+- Confirm PO:
+  Confirmed Purchase order line can be re-confirmed by modifying confirmed quantity or confirmed date any number of times as long as the status is 35. 
+- My Documents :
+  The Purchase order  Upload column is now modified as My Documents and supports both upload and download of documents. This makes it possible to fetch the document uploaded in   m3 for the particular PO using refresh icon.
+  
+## **Limitations**
+ 
+ - Enter more than 3 characters in search field for appropriate results in PO page.
+ - If multiple(more than 5) conditions are added or removed in a non-sequential manner, Filters may not fetch appropriate results.
+ - During Advise All, if some error message is displayed Ex. Delivery number must be entered, Click refresh button for the input to be cleared before choosing another order to     Advise.
+ - Similarly Input entered in Advise/Notify window gets cleared only if the action is complete or page is refreshed. 
+ - Upload/Download Documents work only when IDM is Enabled
+ - Order type ADN (Automatic Deliverynote Generation) flag value saved in Magento only once during reg ( assuming Order type configurations will not be changed in m3 ).
+
+## **Known Issues**
+
+- When SHAC is kept as 2 , and Automatic dely note generation is enabled , advise and notify is done  for a delivery note number  PPS360 / TransNotifyHead is called .
+  when the SHAC is disabled for the same supplier and I advise a line with same delivery note number ( line is not added in PPS360 ) but since the delivery note number is         available  in pps360 during notify  the PPS360 / TransNotifyHead is called and the PPS001MI/NotifyDelNot is not called. This causes the line to remain in processing state.
+
+- When one line of PO is advised  with a delivery note number (where Automatic dely note generation is enabled ) and  Advise all / Advise multiple po’s is tried for same PO       with delivery note number ,error message ‘Shipment advice is not allowed - the order is already advised with delivery note' is displayed.
+
 
 ## **Validated Versions**
 
-- Microsoft Edge 44.18362.449.0
-- Chrome Version 83.0.4103.61
-- Internet Explorer 11.836.18362.0
+- Chrome Version 86.0.4240.111
+- Firefox Version 80.0.1 
 
-## **GitHub Link**
-
-[https://github.com/leanswift/supplier-portal/releases/tag/20.1.0](https://github.com/leanswift/supplier-portal/releases/tag/20.1.0)
-
-## **TestRail Link**
-
-https://leanswift.testrail.net/index.php?/runs/view/264&group_by=cases:section_id&group_order=asc&group_id=2650
-
-## **Documentation**
-
-All relevant documentation regarding release 20.2.0 are available on [LeanSwift&#39;s Intranet](https://sites.google.com/a/leanswift.com/leanswiftinfo/products) and on [LeanSwift&#39;s Google Drive](https://drive.google.com/drive/folders/1HSdOA2C8dMBNRVkoCEWpnFrWXsOdphHx)
 
 ## **Point of Contact**
 
