@@ -2,9 +2,9 @@
 
 # **Supplier Portal**
 
-# **20. 2 .0**
+# **20.2.0**
 
-## **Internal Release Notes**
+## **Release Notes**
 
 **Table of Contents**
 
@@ -126,7 +126,7 @@ This Add-on is to configure the allowed number of Registrations (supplier admin 
 
 ## **Add-ons**
 
-- Invoices - Supplier Invoices
+- Invoices - Supplier Invoices_
 - Deliveries - Supplier Deliveries
 - Advise/Notify - Advise/Notify Supplier PO`s
 - My Invoices - Supplier Invoices
