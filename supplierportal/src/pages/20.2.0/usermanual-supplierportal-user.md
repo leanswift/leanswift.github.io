@@ -26,6 +26,8 @@
     - [Download as CSV](#download-as-csv)
     - [Confirm PO Line](#confirm-po-line)
     - [Confirm All Lines](#confirm-all-lines)
+    - [Confirm Multiple POs](#confirm-multiple-pos)
+    - [Reconfirm PO](#reconfirm-po)
     - [Upload to IDM](#upload-to-idm)
   - [My Forecast](#my-forecast)
     - [Paginate](#paginate)
@@ -282,37 +284,46 @@ When Confirm All Lines is selected , all the purhase order lines in a PO is conf
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/confirm-all-lines.png"></kbd>
 
-### New in this version
-#### Reconfirm PO
+## New in this version
+### Confirm Multiple POs
 
-Users can confirm a PO line that is already confirmed (that is, reconfirm). Order lines with status ‘Confirmed’ (Status 35) are applicable for this irrespective of whether the previous confirmation was done with or without changes to the original request. The reconfirmation can be done any number of times as long as the lines satisfy the above requirements.
 
-Image
+Users can confirm multiple POs together using the Confirm button available on top of 'My Purchase Orders' page. This can also be used to re-confirm mutiple POs with confirmed date change. ‘Confirm Selected POs (All Lines)’ window opens with ‘Date’ field which is prefilled with today’s date.
+
+<kbd><img alt="confirm-multiplepo" src="../../images/usermanual/confirm-multiple-pos.png"></kbd>
+
+Additionally there is a 'Search PO' dropdown. Users can search order numbers and choose from the dropdown. Only eligible POs will be displayed in the dropdown (POs that are within the confirmed status).If user searches for a PO and that PO is not eligible for Confirm, or if PO number search does not match any results, User is displayed with a message 'No results found'. As the user select’s PO from dropdown, it appears on the top with a 'x' mark beside it. Users can select multiple POs and can choose to remove it by clicking on the 'x' mark.
+
+<kbd><img alt="confirm-multiple-po-dropdown" src="../../images/usermanual/confirm-multiple-pos-dropdown.png"></kbd>
+
+
+## New in this version
+## Reconfirm PO
+
+Users can confirm a PO line that is already confirmed (that is, reconfirm). Order lines with status ‘Confirmed’ (Status 35) are applicable for this irrespective of whether the previous confirmation was done with or without changes to the original request. The reconfirmation can be done any number of times as long as the lines satisfy the above requirements.‘You are about to re-confirm an already confirmed order line’ message appears when the user edits the Qty or date field.
+
+<kbd><img alt="re-confirm-message" src="../../images/usermanual/re-confirm_message.png"></kbd>
 
 Choose eligible PO lines and click Confirm Button.
-For reconfirmation ‘Conf Date’ can be changed and ‘Confirmed Qty’ (Conf Qty)can be reduced but not increased. ‘Confirmed price’ (Conf price)  cannot be modified.
+For reconfirmation ‘Conf Date’ can be changed and ‘Confirmed Qty’ (Conf Qty)can be reduced but not increased. ‘Confirmed price’ (Conf price) cannot be modified.
 
 Users can also add comments.
 
-Image
-
-‘You are about to re-confirm an already confirmed order line’ message appears when the user edits the Qty or date field.
-
+<kbd><img alt="re-confirm-comments-textbox" src="../../images/usermanual/re-confirm_comments.png"></kbd>
 
 Once the Confirm button is clicked for reconfirmation, the process indicator changes to ‘Request is Processing’ or ‘Confirmation awaiting approval’ based on how the portal is set up to process PO confirm requests. 
 
+<kbd><img alt="re-confirm-processindicator-without-activateapproval" src="../../images/usermanual/re-confirm_with_aprroval_disabled.png"></kbd>
 
-Image
 
 Once re-confirmation is done the process indicator changes to ‘Confirmed without changes’ (if ‘Activate approval process for Confirm PO’ is set to No’) or ‘Confirmed with changes’ (if ‘Activate approval process for Confirm PO’ is set to Yes’)
 
-Image
+<kbd><img alt="re-confirm-processindicator-with-activateapproval" src="../../images/usermanual/re-confirm_with_approval_enabled.png"></kbd>
 
 For more information about process indicator changes refer version 1.0 of the User Manual (https://github.com/leanswift/leanswift.github.io/blob/master/supplierportal/src/pages/20.1.0/usermanual-supplierportal-user.md#confirm-po-line)
 
 The comments added during re-confirm can be seen below the PO line
 
-Image
 
 
 
@@ -352,14 +363,15 @@ Functionality is similar to Search in **My Purchase Order** section. Refer [Sear
 
 Functionality is similar to Filter in **My Purchase Order** section. Refer [Filter](#filter).
 
-### Filter on Status
-
-Functionality is similar to Filter on Status in **My Purchase Order** section. Refer [Filter on Status](#filter-on-status).
 
 ### Download as CSV
 
 Functionality is similar to Download as CSV in **My Purchase Order** section. Refer [Download as CSV](#download-as-csv).
 
+### Enhancements
+
+- Status column is removed from My Forecast page
+- Forecast is filtered to display planned purchase orders without auto-warning or auto-error.Refer [Enhancements](#enhancements)
 
 ## My Performance Metrics
 
