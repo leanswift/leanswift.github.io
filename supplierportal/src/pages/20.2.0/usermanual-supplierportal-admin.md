@@ -1,13 +1,13 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 20.1.0 - User Manual - Admin User
+# Version 20.2.0 - User Manual - Admin User
 
 To view the user manual for Portal Users click [here](usermanual-supplierportal-user.md).
 
 
 # Table of contents
 
-- [Version 20.1.0 - User Manual - Admin User](#version-2010---user-manual---admin-user)
+- [Version 20.2.0 - User Manual - Admin User](#version-2010---user-manual---admin-user)
 - [Table of contents](#table-of-contents)
 - [Overview](#overview)
   - [Organization of the Manual](#organization-of-the-manual)
@@ -72,6 +72,8 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 - Registration and Login
 - View Supplier Information
 - User Date Format Setting
+### New in this version
+ - My Documents
 
 ### Purchase Orders 
 - View Purchase Orders.
@@ -80,11 +82,13 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 - Download Purchase Orders Information.
 - Upload documents into IDM against Purchase Orders.
 > This is available only if additional functionality for IDM integration is included as part of license
-- Whats New in this version
- - Reconfirm Purchase Orders. 
+### New in this version
+ - Reconfirm Purchase Orders.
+ - Confirm Multiple Purchase Orders. 
  - Advise/Advise All Purchase Orders. 
- - Notify/Notify All Purchase Orders. 
-
+ - Notify/Notify All Purchase Orders.
+ - Advise/Notify Multiple Purchase Orders. 
+ 
 ### Purchase Proposals/Forecasts
 - View Purchase Forecasts.
 - Search/Filter/Sort on Purchase Forecasts.
@@ -93,6 +97,13 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 - View Quality metrics based on rejected quantity.
 - View Delivery Performance metrics.
 - View Purchase Price Variance metrics.
+
+### New in this version
+ #### My Invoices
+  - View and download supplier Invoices
+ #### My Deliveries
+  -  View and download supplier Deliveries
+
 
 
 ## Point of Contact
