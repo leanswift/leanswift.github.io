@@ -65,25 +65,30 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 
 ## Features
 
-- Account
+### Account
   - Registration and Login
   - View Supplier Information
   - User Date Format Setting
-- Purchase Orders 
+  #### New in this version
+  - My Documents
+### Purchase Orders 
   - View Purchase Orders
   - Search/Filter/Sort on Purchase Orders
   - Confirm Purchase Orders 
   - Download Purchase Orders Information
   - Upload documents into IDM against Purchase Orders
     - This is available ONLY if additional functionality for IDM integration is included as part of license
-- Purchase Proposals/Forecasts
+    #### New in this version
+    - Reconfirm Purchase Orders.
+    - Confirm Multiple Purchase Orders. 
+### Purchase Proposals/Forecasts
   - View Purchase Forecasts
   - Search/Filter/Sort on Purchase Forecasts
-- Performance Metrics 
+### Performance Metrics 
   - View Quality metrics based on rejected quantity
   - View Delivery Performance metrics
   - View Purchase Price Variance metrics
-- Admin
+### Admin
   - Settings and Configuration for Portal and M3 Connection 
 
 
@@ -197,6 +202,16 @@ The different types of supplier's address such as *Postal Address*, *Street Addr
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 </div>
+
+### New in this version
+
+## My Documents
+
+My Document section is used to upload Documents. These are available in IDM which are mapped against the same supplier.
+
+<kbd><img alt="My Accounts" src="../../images/usermanual/my-documents.png"></kbd>
+
+Fetch button fetches all the documents from IDM for that supplier
 
 
 ## My Purchase Orders
@@ -329,7 +344,6 @@ The comments added during re-confirm can be seen below the PO line
 
 
 
-
 ### Upload to IDM
 
 To add / view  notes or extra information related to a purchase order, one can upload/download IDM document. To upload a IDM document, click on the select option under Upload secion and upload a document. Document type that can be uploaded is configured in the backend. 
@@ -416,7 +430,7 @@ This metric records the difference between the actual price paid to buy an item 
 
 ## New in this version
 
-## Bell and Email Notifications
+### Bell and Email Notifications
 
 Bell Notificaiton is used to display all the latest changes or additions of POs and it is available globally next to the settings icon. 
 
