@@ -4,7 +4,6 @@
 
 To view the user manual for Portal Users click [here](usermanual-supplierportal-user.md).
 
-
 # Table of contents
 
 - [Version 20.2.0 - User Manual - Admin User](#version-2020---user-manual---admin-user)
@@ -45,7 +44,7 @@ To view the user manual for Portal Users click [here](usermanual-supplierportal-
   - [Additional Functionality](#additional-functionality)
     - [IDM](#idm)
   - [ION Workflows](#ion-workflows)
-    
+  
 # Overview
 
 LeanSwift Supplier Portal is a supplier self-service web portal that enables efficient online communication with vendors. It is seamlessly integrated with Infor M3 Cloudsuite via ION. Supplier Portal helps automate the entire purchase-to-pay process for the customer.
@@ -406,21 +405,43 @@ The setup will vary from customer to customer depending on a number of factors s
  of changing purchase order etc.This section should always be reviewed within the project, and with the help of the
   LeanSwift Services team be adjusted to best fit each customer’s environment.
 
+**Send to M3**
 **Cron setting to send confirm PO requests to M3**
 
 The Setting facilitate to send confirmed Purchase orders to supplier.
 
+<kbd>
+<img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/po-cron.png">
+</kbd>
+
 > Setting is useful only when we disable the Realtime API call for Confirm PO.
 
-
+**Get form M3**
 **Cron setting to get forecast PO from M3**
 
 The settings used to pull the forecast purchase order's from M3.
 
 <kbd>
-<img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/cron.png">
+<img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/forecast-cron.png">
 </kbd>
 
+**Database Cleanup**
+**Cron setting to cleanup the forecast**
+This is to clear the Planned Purchase Orders from portal that are released from PPS170.
+
+<kbd>
+<img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/cleanup-forecast.png">
+</kbd>
+
+**Database Record Cleanup**
+This is to clear the bell notifications. Based on the number given, the messages until X days before the last login gets cleared when this cron is run.
+If left blank, it is assumed to be 7 days.
+
+<kbd>
+<img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/bell-notifications-cleanup.png">
+</kbd
+  
+  
 <br/>
 <div align="right">
 <b>
