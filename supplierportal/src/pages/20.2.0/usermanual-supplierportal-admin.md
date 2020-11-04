@@ -406,6 +406,7 @@ The setup will vary from customer to customer depending on a number of factors s
   LeanSwift Services team be adjusted to best fit each customer’s environment.
 
 **Send to M3**
+
 **Cron setting to send confirm PO requests to M3**
 
 The Setting facilitate to send confirmed Purchase orders to supplier.
@@ -417,6 +418,7 @@ The Setting facilitate to send confirmed Purchase orders to supplier.
 > Setting is useful only when we disable the Realtime API call for Confirm PO.
 
 **Get form M3**
+
 **Cron setting to get forecast PO from M3**
 
 The settings used to pull the forecast purchase order's from M3.
@@ -426,6 +428,7 @@ The settings used to pull the forecast purchase order's from M3.
 </kbd>
 
 **Database Cleanup**
+
 **Cron setting to cleanup the forecast**
 This is to clear the Planned Purchase Orders from portal that are released from PPS170.
 
