@@ -412,7 +412,7 @@ The setup will vary from customer to customer depending on a number of factors s
 The Setting facilitate to send confirmed Purchase orders to supplier.
 
 <kbd>
-<img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/po-cron.png">
+<img alt="CRON Configuration" src="../../images/usermanual/po-cron.png">
 </kbd>
 
 > Setting is useful only when we disable the Realtime API call for Confirm PO.
@@ -424,24 +424,26 @@ The Setting facilitate to send confirmed Purchase orders to supplier.
 The settings used to pull the forecast purchase order's from M3.
 
 <kbd>
-<img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/forecast-cron.png">
+<img alt="CRON Configuration" src="../../images/usermanual/forecast-cron.png">
 </kbd>
 
 **Database Cleanup**
 
 **Cron setting to cleanup the forecast**
+
 This is to clear the Planned Purchase Orders from portal that are released from PPS170.
 
 <kbd>
-<img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/cleanup-forecast.png">
+<img alt="CRON Configuration" src="../../images/usermanual/cleanup-forecast.png">
 </kbd>
 
 **Database Record Cleanup**
+
 This is to clear the bell notifications. Based on the number given, the messages until X days before the last login gets cleared when this cron is run.
 If left blank, it is assumed to be 7 days.
 
 <kbd>
-<img alt="CRON Configuration" src="../../images/usermanual/supplier-settings/bell-notifications-cleanup.png">
+<img alt="CRON Configuration" src="../../images/usermanual/bell-notifications-cleanup.png">
 </kbd
   
   
