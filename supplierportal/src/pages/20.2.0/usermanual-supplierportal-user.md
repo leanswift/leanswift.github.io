@@ -111,12 +111,12 @@ During setup, the Magento Admin panel is used to configure the portal. Some of t
 
 Versions of various software components used in Supplier Portal:
 
-- Magento Open Source: 2.3.4
-- eConnect Base Module: 2.0.0
+- Magento Open Source: 2.3.5
+- eConnect Base Module: 4.0.0
 - RabbitMQ: 3.8.3
 
 IDM functionality was validated using 
-- IDM Module: 3.0.0
+- IDM Module: 3.2.0
 
 
 ## Point of Contact
@@ -200,7 +200,8 @@ Date Format can be modified in this section. The selected date format will be di
 
 ## My Account
 
-My Accounts section contains Account information and communication information of the supplier as well as general information of the buyer.
+My Accounts is now having 2 sections &#39;My Information&#39; and &#39;My Documents&#39;.
+My Information contains Account information and communication information of the supplier as well as general information of the buyer.
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/my-accounts.png"></kbd>
 
@@ -317,11 +318,15 @@ When Confirm All Lines is selected , all the purhase order lines in a PO is conf
 ### Confirm Multiple POs
 
 
-Users can confirm multiple POs together using the Confirm button available on top of 'My Purchase Orders' page. This can also be used to re-confirm mutiple POs with confirmed date change. ‘Confirm Selected POs (All Lines)’ window opens with ‘Date’ field which is prefilled with today’s date.
+Users can confirm multiple POs together using the Confirm button available on top of 'My Purchase Orders' page.
+
+This can also be used to re-confirm mutiple POs with confirmed date change. ‘Confirm Selected POs (All Lines)’ window opens with ‘Date’ field which is prefilled with today’s date.
 
 <kbd><img alt="confirm-multiplepo" src="../../images/usermanual/confirm-multiple-pos.png"></kbd>
 
-Additionally there is a 'Search PO' dropdown. Users can search order numbers and choose from the dropdown. Only eligible POs will be displayed in the dropdown (POs that are within the confirmed status).If user searches for a PO and that PO is not eligible for Confirm, or if PO number search does not match any results, User is displayed with a message 'No results found'. As the user select’s PO from dropdown, it appears on the top with a 'x' mark beside it. Users can select multiple POs and can choose to remove it by clicking on the 'x' mark.
+Additionally there is a 'Search PO' dropdown. Users can search order numbers and choose from the dropdown. Only eligible POs will be displayed in the dropdown (POs that are within the confirmed status).
+
+If user searches for a PO and that PO is not eligible for Confirm, or if PO number search does not match any results, User is displayed with a message 'No results found'. As the user select’s PO from dropdown, it appears on the top with a 'x' mark beside it. Users can select multiple POs and can choose to remove it by clicking on the 'x' mark.
 
 <kbd><img alt="confirm-multiple-po-dropdown" src="../../images/usermanual/confirm-multiple-pos-dropdown.png"></kbd>
 
@@ -329,7 +334,9 @@ Additionally there is a 'Search PO' dropdown. Users can search order numbers and
 ## New in this version
 ## Reconfirm PO
 
-Users can confirm a PO line that is already confirmed (that is, reconfirm). Order lines with status ‘Confirmed’ (Status 35) are applicable for this irrespective of whether the previous confirmation was done with or without changes to the original request. The reconfirmation can be done any number of times as long as the lines satisfy the above requirements.‘You are about to re-confirm an already confirmed order line’ message appears when the user edits the Qty or date field.
+Users can confirm a PO line that is already confirmed (that is, reconfirm). Order lines with status ‘Confirmed’ (Status 35) are applicable for this irrespective of whether the previous confirmation was done with or without changes to the original request. 
+
+The reconfirmation can be done any number of times as long as the lines satisfy the above requirements.‘You are about to re-confirm an already confirmed order line’ message appears when the user edits the Qty or date field.
 
 <kbd><img alt="re-confirm-message" src="../../images/usermanual/re-confirm_message.png"></kbd>
 
@@ -372,34 +379,35 @@ To view the document attached for a particular PO, click on the plus symbol. A p
 </div>
 
 ## My Forecast
-
 My Forecast page list the Planned purchase orders created via **delivery schedules**. The Forecast page has the functionalities such as,
 
-### Paginate
-
+#### Paginate
 Functionality is similar to Pagination in **My Purchase Order** section. Refer [Paginate](#paginate).
 
-### Sort
-
+#### Sort
 Functionality is similar to Sort in **My Purchase Order** section. Refer [Sort](#sort).
 
-### Search
-
+#### Search
 Functionality is similar to Search in **My Purchase Order** section. Refer [Search](#search).
 
-### Filter
-
+#### Filter
 Functionality is similar to Filter in **My Purchase Order** section. Refer [Filter](#filter).
 
-
-### Download as CSV
-
+#### Download as CSV
 Functionality is similar to Download as CSV in **My Purchase Order** section. Refer [Download as CSV](#download-as-csv).
 
-### Enhancements
+#### Enhancements
 
 - Status column is removed from My Forecast page
-- Forecast is filtered to display planned purchase orders without auto-warning or auto-error.Refer [Enhancements](#enhancements)
+- Forecast is filtered to display planned purchase orders without auto-warning or auto-error.Refer 
+
+<kbd><img alt="My Accounts" src="../../images/usermanual/forecast.png"></kbd>
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>
 
 ## My Performance Metrics
 
@@ -443,7 +451,9 @@ This metric records the difference between the actual price paid to buy an item 
 
 ### Bell and Email Notifications
 
-Bell Notificaiton is used to display all the latest changes or additions of POs and it is available globally next to the settings icon. 
+#### Bell Notificaiton
+
+It is used to display all the latest changes or additions of POs and it is available globally next to the settings icon. 
 
 <kbd><img alt="bell notification" src="../../images/usermanual/bell-notification.png"></kbd>
 
@@ -451,13 +461,13 @@ The bell icon has a red-dot which indicates that there are unread notifications 
 
 <kbd><img alt="bell notification dropdown" src="../../images/usermanual/bell-notification-dropdown.png"></kbd>
 
-Email notifications are sent to the Supplier and Sub accounts (Based on sub-account users if they have permissions to the respective screens) when the following events occur:
+#### Email notifications
+
+Emails are sent to the Supplier and Sub accounts (Based on sub-account users if they have permissions to the respective screens) when the following events occur:
 - When a new Purchase Order is added
 - When Conf Date (and/or) Conf Quantity (and/or) Conf Price is changed(Any changes to PO upto status 35 is triggered and mail is sent to supplier)
 - When a new Purchase Forecast is added
 - When a Forecast is updated in the portal
-
-Email templates are available in the configuration, the details of which can be referred from here(https://github.com/leanswift/leanswift.github.io/blob/dev/supplierportal/src/pages/20.1.0/usermanual-supplierportal-admin.md#email-templates)
 
 
 ## Log out
