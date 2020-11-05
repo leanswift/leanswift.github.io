@@ -424,7 +424,7 @@ The Setting facilitate to send confirmed Purchase orders to supplier.
 The settings used to pull the forecast purchase order's from M3.
 
 <kbd>
-<img alt="CRON Configuration" src="../../images/usermanual/forecast-cron.png">
+<img alt="CRON Configuration" src="../../images/usermanual/forecast-po.png">
 </kbd>
 
 **Database Cleanup**
