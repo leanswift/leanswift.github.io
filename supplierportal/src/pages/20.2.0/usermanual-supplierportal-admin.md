@@ -444,8 +444,14 @@ If left blank, it is assumed to be 7 days.
 
 <kbd>
 <img alt="CRON Configuration" src="../../images/usermanual/bell-notifications-cleanup.png">
-</kbd
+</kbd>
   
+The cron expression to run this cron can be set here.
+ 
+<kbd>
+<img alt="CRON Configuration" src="../../images/usermanual/customer-notifications.png">
+</kbd>
+
   
 <br/>
 <div align="right">
