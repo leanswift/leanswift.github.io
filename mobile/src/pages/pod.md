@@ -17,6 +17,9 @@
   - [Delivery Line Items Details](#deliDetail)
   - [Capture damaged items](#editDetail)
   - [Receive Delivery](#ReceiveDel)
+    - [Deliver Approval](#delApprove)
+    - [Emailing POD Document](#emailPOD)
+    - [Return Order](#returnOrder)
 
 
 
@@ -83,15 +86,29 @@ It is recommended that capturing less than 6 images for reporting damaged items.
 
 ### <a name="ReceiveDel"></a>Receive Delivery
 
-On accepting the delivery line items press accept to proceed to receive the delivery, Enter the receiver name and the receiver signature. Slide to confirm receiving the delivery.
+On accepting the delivery line items press accept to proceed to receive the delivery, Enter the receiver name and the receiver signature. Slide to confirm receiving the delivery. The final process of Proof of delivery contains three major tasks.
 
-The delivery will be accepted or in case of any change in quantity those will be reported back to M3. Using the driver and receiver details a signed ticket will be created mentioning the order details with any damaged items images if captured will get attached and also this signed ticket document will get appended with the ship ticket provided by the company.
+#### <a name="delApprove"></a>Delivery Approval
 
-This signed document will get uploaded to IDM and archived for future reference. The delivery confirmation is shown finally.
+When slide to confirm is done. whenever the deliver line items has change in quantites delivered the changes is notified to M3 and then the Delivey approval is called from mobile.
+
+#### <a name="emailPOD"></a>Emailing POD Document
+
+The executed delivery order with its line items, comments and attached images comprosing of these items a PDF document will be created. Both the driver and receiver signature will be digitally signed. A mail composer screen will be shown with the customer mail as To Address and POD document as attachement. User can edit all the information presented or proceed by tapping send button to send the email confirmation. This signed document will get uploaded to IDM and archived for future reference.
+
+#### <a name="returnOrder"></a>Return Order
+
+If the delivery approved with discrepancy in the line items quantites, Return order will be created for such line items. A Customer order is created in M3 with the line items which has shorted quantites.
+
+
 
 <img src="../images/POD/POD5.gif" alt="settings" style="zoom:100%;" />
 
-Tapping delivery success Tick / Fail button to return back to the Delivery list page. In case of Ship ticket missing in IDM users will be asked to capture ship ticket if available in the delivery location or they can proceed without ship ticket IDM upload.
+
+
+On completion of all above process the final screen shows all the details of the executed process which shows the delivery completion status, the return order details and the Email confirmation status.
+
+Tapping delivery success Tick / Fail button to return back to the Delivery list page. In case of Ship ticket missing in IDM, users will be asked to capture ship ticket if available in the delivery location or they can skip IDM process.
 
 
 
