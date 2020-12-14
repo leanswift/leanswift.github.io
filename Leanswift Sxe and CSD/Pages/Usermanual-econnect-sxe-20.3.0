@@ -3,15 +3,15 @@
 # **USER MANUAL**
 
 
-## _ **LeanSwift eConnect** _
+##  **LeanSwift eConnect** 
 
-_ **for** _
+ **for** 
 
-_ **Infor Distribution SX.e** _
+**Infor Distribution SX.e**
 
-_ **&amp;** _
+**and**
 
-_ **Magento** _
+**Magento**
 
 
 **Product Version 20.3.0**
@@ -189,19 +189,22 @@ _ **Magento** _
 
 # System Overview
 
-**LeanSwift eConnect for Infor Distribution SX.e** provides a seamless integration between Magento eCommerce and Infor Distribution SX.e ERP. The product consists of a base Magento extension and optional add-on extensions. APIs exposed by SX.e are used to manage the communication with Infor Distribution SX.e from Magento.
+**LeanSwift eConnect for Infor Distribution SX.e** provides a seamless integration between Magento eCommerce and Infor Distribution SX.e ERP. 
+The product consists of a base Magento extension and optional add-on extensions.
+APIs exposed by SX.e are used to manage the communication with Infor Distribution SX.e from Magento.
 
 <kbd>
 <img alt ="sxe architecture" src="../../Leanswift Sxe and CSD/Images/sxe_architecture.png">
 
 **Transaction**
 
-Version 20.3.0 includes the following functionality for SX.e versions 6.x to 11.x as well as for Infor CloudSuite Distribution, the multi-tenant cloud solution for SX.e. These versions provide external application connection to SX.e via SOAP APIs and to CloudSuite via ION REST APIs.
+Version 20.3.0 includes the following functionality for SX.e versions 6.x to 11.x as well as for Infor CloudSuite Distribution, the multi-tenant cloud solution for SX.e.
+These versions provide external application connection to SX.e via SOAP APIs and to CloudSuite via ION REST APIs.
 
 Current version (20.3.0) is released on **Magento Open Source 2.4.0**
 
 - Inventory Synchronization
-  - Real-time Stock Fetch &amp; Synchronization
+  - Real-time Stock Fetch and Synchronization
   - Background Synchronization
   - Manual Synchronization
 - Price Synchronization
@@ -209,9 +212,9 @@ Current version (20.3.0) is released on **Magento Open Source 2.4.0**
     - Background Synchronization
     - Manual Synchronization
   - Customer Specific Price
-    - Real-time Price Fetch &amp; Synchronization
+    - Real-time Price Fetch and Synchronization
 - Customer Address Synchronization
-  - Billing Address &amp; Shipping Addresses
+  - Billing Address and Shipping Addresses
     - Background Synchronization
     - Manual Synchronization
 - Customer Accounts Receivable Information Synchronization
@@ -224,7 +227,7 @@ Current version (20.3.0) is released on **Magento Open Source 2.4.0**
     - Background Synchronization
     - Manual Synchronization
   - Order Status
-    - Shipment &amp; Invoice Creation
+    - Shipment and Invoice Creation
     - Background Synchronization
     - Manual Synchronization
   - Order History
@@ -238,7 +241,8 @@ These above transactions can, if necessary, be modified and new transactions can
 
 ## User Interface
 
-During setup, the Magento Admin panel is used to configure transactions that should be used and how they should function. There is also additional background configuration specific to eConnect.
+During setup, the Magento Admin panel is used to configure transactions that should be used and how they should function.
+There is also additional background configuration specific to eConnect.
 
 ## Validated Versions
 
@@ -248,13 +252,15 @@ During setup, the Magento Admin panel is used to configure transactions that sho
 
 # Point of Contact
 
-This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at [https://www.leanswift.com/contact](https://www.leanswift.com/contact/)or email info@leanswift.com
+This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. 
+please contact LeanSwift Solutions Inc. via contact form at [https://www.leanswift.com/contact](https://www.leanswift.com/contact/)or email info@leanswift.com
 
 # Organization of the Manual
 
 This manual describes the configuration of LeanSwift eConnect for Infor Distribution SX.e and also provides a description of standard transactions.
 
-This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation, though the general workflow is similar.
+This manual is not intended to cover any standard Magento functionality or user experience. 
+The Magento user experience is customized and slightly different in each eCommerce implementation, though the general workflow is similar.
 
 
 # STANDARD TRANSACTIONS
@@ -264,7 +270,7 @@ This manual is not intended to cover any standard Magento functionality or user 
 ### List of Transactions
 
 - Inventory Synchronization
-  - Real-time Stock Fetch &amp; Synchronization
+  - Real-time Stock Fetch and Synchronization
   - Background Synchronization
   - Manual Synchronization
 - Price Synchronization
@@ -272,9 +278,9 @@ This manual is not intended to cover any standard Magento functionality or user 
     - Background Synchronization
     - Manual Synchronization
   - Customer Specific Price
-    - Real-time Price Fetch &amp; Synchronization
+    - Real-time Price Fetch and Synchronization
 - Customer Address Synchronization
-  - Billing Address &amp; Shipping Addresses
+  - Billing Address and Shipping Addresses
     - Background Synchronization
     - Manual Synchronization
 - Customer Accounts Receivable Information Synchronization
@@ -287,7 +293,7 @@ This manual is not intended to cover any standard Magento functionality or user 
     - Background Synchronization
     - Manual Synchronization
   - Order Status
-    - Shipment &amp; Invoice Creation
+    - Shipment and Invoice Creation
     - Background Synchronization
     - Manual Synchronization
   - Order History
@@ -297,7 +303,7 @@ This manual is not intended to cover any standard Magento functionality or user 
 
 ### Customers
 
-Synchronization of Customer Billing &amp; Shipping Addresses with customer data in SX.e.
+Synchronization of Customer Billing and Shipping Addresses with customer data in SX.e.
 
 ### Pricing
 
@@ -317,9 +323,9 @@ Supports creation of sales orders in SX.e for every order placed via Magento web
 
 Synchronization of the status of a customer order within SX.e with the corresponding order in Magento.
 
-### Shipments &amp; Invoices
+### Shipments and Invoices
 
-Shipments &amp; Invoices in SX.e are reflected within Magento according to order status in SX.e.
+Shipments and Invoices in SX.e are reflected within Magento according to order status in SX.e.
 
 Delivery tracking numbers associated to an order in SX.e are also synchronized.
 
@@ -341,13 +347,16 @@ LeanSwift uses two key principles as guiding lights when new features are includ
 
 1. Infor Distribution SX.e is the system of record.
 2. Always adhere to Magento's core standard functionality wherever possible.
-3. There is no limit enforced for Manual Synchronization option on the grids in Admin panel such as for Customers, Orders and Products. Manual Synchronization of a very large number of Customers, Orders or Products may be slow and admin users will have to stay on the same page until the operation is complete.
+3. There is no limit enforced for Manual Synchronization option on the grids in Admin panel such as for Customers, Orders and Products. 
+
+Manual Synchronization of a very large number of Customers, Orders or Products may be slow and admin users will have to stay on the same page until the operation is complete.
 
 # CONFIGURATION
 
 # Magento Configuration
 
-To support the use of LeanSwift eConnect for Infor Distribution SX.e, configuration is required within Magento and SX.e ERP. This section covers the configuration within Magento.
+To support the use of LeanSwift eConnect for Infor Distribution SX.e, configuration is required within Magento and SX.e ERP. 
+This section covers the configuration within Magento.
 
 Log in to Magento Admin Panel using the URL provided to you and the applicable user credentials.
 
@@ -448,7 +457,8 @@ Example: [http://24.89.159.5/sxapi/Service.svc](http://24.89.159.5/sxapi/Service
 
 **Enable Bulk API**
 
-If BULK API option is enabled , then BULK API ICGetWhseProductListV3 is used to update the products based on the warehouse. The warehouse is a request param and list of products will be returned in warehouse and product price and qty got updated in Magento.
+If BULK API option is enabled , then BULK API ICGetWhseProductListV3 is used to update the products based on the warehouse.
+The warehouse is a request param and list of products will be returned in warehouse and product price and qty got updated in Magento.
 
 If the option is disabled then the product price and stock is updated using below APIs where the list of products are sent as a batch and will get updated in Magento.
 
@@ -481,13 +491,14 @@ If selected SX.e Version is 11, this field should have the URL to retrive OAuth 
 
 This field refers to the retrieval of customer order history from SX.e from Magento front-end.
 
-Select "Yes" to retrieve &amp; display order history from SX.e when user selects _Order History_ in _My Account_. This will make order information synchronize seamlessly between Magento and SX.e and any order status change in SX.e will be displayed in Magento instantly.
+Select "Yes" to retrieve and display order history from SX.e when user selects _Order History_ in _My Account_. 
+This will make order information synchronize seamlessly between Magento and SX.e and any order status change in SX.e will be displayed in Magento instantly.
 
 Select "No" to only use the order history from Magento when the user selects _Order History in My Account_.
 
 ### Show 'My Accounts Receivable'
 
-Select "Yes" to retrieve &amp; display accounts receivable information from SX.e when user selects _My Accounts Receivable_ section in _My Account_. This will make accounts receivable information synchronize seamlessly between Magento and SX.e.
+Select "Yes" to retrieve and display accounts receivable information from SX.e when user selects _My Accounts Receivable_ section in _My Account_. This will make accounts receivable information synchronize seamlessly between Magento and SX.e.
 
 ### Debug/log data Accounts Receivable data
 
@@ -619,9 +630,9 @@ Product sync can be run manually from the product grid. There is also a cron job
 
 The **Customer Synchronization** group contains all settings related to synchronizing Customer data. In this version, the following limitations apply:
 
-- Sync only applies to existing customers (i.e. customer exist in both SX.e &amp; Magento)
+- Sync only applies to existing customers (i.e. customer exist in both SX.e and Magento)
 - Address data is synchronized; Billing and Ship-to Addresses.
-- Address data sync is one-way: SX.e --\&gt; Magento
+- Address data sync is one-way: SX.e --> Magento
 
 <kbd>
 <img alt ="customer synchronization attributes " src="../../Leanswift Sxe and CSD/Images/customerattribute_sync.png">
@@ -713,7 +724,7 @@ Log out from Magento admin using the link at the top right.
 <kbd>
 <img alt ="Exit Configuration" src="../../Leanswift Sxe and CSD/Images/exit_config.png">
 
-# PRODUCT SETUP &amp; INFORMATION
+# PRODUCT SETUP and INFORMATION
 
 <kbd>
 <img alt ="product setup and information" src="../../Leanswift Sxe and CSD/Images/product_manualsync.png">
@@ -724,7 +735,7 @@ From a product perspective, eConnect relies on the 'SX.e Product Number'. This v
 
 The Product Synchronizationtransaction offers the ability to sync base sales price of product in SX.e to Magento's Product Price attribute. **Mapping of a Magento Product to an SX.e Product is a manual process and must be done before Product Synchronization transaction can be performed.**
 
-The synchronization can be initiated manually via the Product Catalogue grid (_Products\&gt; Catalog_) within the Magento Admin panel and also via a separate cron (background) job.
+The synchronization can be initiated manually via the Product Catalogue grid (_Products> Catalog_) within the Magento Admin panel and also via a separate cron (background) job.
 
 ## PRICE
 
@@ -780,7 +791,7 @@ available and final Checkout isn't possible.
 
 #
 
-# CUSTOMER SETUP &amp; INFORMATION
+# CUSTOMER SETUP and INFORMATION
 
 #
 
@@ -794,7 +805,7 @@ available and final Checkout isn't possible.
 From a customer perspective, eConnect relies on the 'SX.e Customer Number'. This value provides mapping between a Magento Customer and an SX.e Customer. It must be equal to the corresponding SX.e customer number in order for all of the eConnect transactions to function as they should. **Mapping of a Magento Customer to an SX.e Customer is a manual process and must be done before Customer Address Synchronization transaction can be performed**.
 
 
-This functionality enables customer addresses to be synced over to Magento from SX.e. In this version, the functionality assumes that the Customer exists in both M3 &amp; Magento as active &amp; approved customers. With this pre-requisite fulfilled, any type of customer address that's defined within SX.e can be synchronized over to Magento. Customer Billing Address and Shipping Addresses (also known as Ship-Tos) are the information synchronized from SX.e to Magento.
+This functionality enables customer addresses to be synced over to Magento from SX.e. In this version, the functionality assumes that the Customer exists in both M3 and Magento as active and approved customers. With this pre-requisite fulfilled, any type of customer address that's defined within SX.e can be synchronized over to Magento. Customer Billing Address and Shipping Addresses (also known as Ship-Tos) are the information synchronized from SX.e to Magento.
 
 ## Synchronization Process
 
@@ -803,7 +814,7 @@ The synchronization of the customer information can be handled in two different 
 
 # ORDER CREATION
 
-Alongside Price &amp; Inventory, the Order Creation transaction is one of the core transactions within eConnect. Fundamentally, the transaction leverages the standard API transactions available in SX.e for adding customer sales orders.
+Alongside Price and Inventory, the Order Creation transaction is one of the core transactions within eConnect. Fundamentally, the transaction leverages the standard API transactions available in SX.e for adding customer sales orders.
 
 Order Comments and Magento Order Number are passed to SX.e while creating order.
 
@@ -865,7 +876,7 @@ Magento only supports order statuses on order head level (not order line level).
 <img alt ="version info" src="../../Leanswift Sxe and CSD/Images/magento_status.png">
 
 
-#### **Magento &amp; SX.e Order Status Relation **
+#### **Magento and SX.e Order Status Relation **
 
 <kbd>
 <img alt ="version info" src="../../Leanswift Sxe and CSD/Images/magento_state.png">
@@ -887,7 +898,7 @@ This section provides an overview of the various Cron (background) jobs within M
 
 The cron job configuration can be found within the LeanSwift extension configuration under
 
-_Stores \&gt; Configuration \&gt; eConnect \&gt; Cron_:
+_Stores > Configuration > eConnect > Cron_:
 
 **Cron settings for send orders to ERP**
 
