@@ -534,7 +534,9 @@ Select a value from the drop-down list of warehouses in the company. In order to
 
 These settings provide options for when to invoke inventory pull from SX.e.
 
-![](RackMultipart20201214-4-1e0w9tk_html_e44c32dab543eedf.jpg)
+<kbd>
+<img alt ="Inventory synchronisation" src="../../Leanswift Sxe and CSD/Images/inventory_sync.png">
+
 
 ### Sync on Product Load
 
@@ -554,21 +556,6 @@ Enabling this option ensures a real-time inventory call is performed during the 
 
 Select &quot;Yes&quot; to log additional information about Inventory transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to &quot;No&quot; in production to improve performance. This setting overrides the global setting available in the &quot;_General_&quot; section of configuration.
 
-#
-
-#
-
-##
-
-##
-
-##
-
-##
-
-##
-
-##
 
 ## Price Synchronization
 
@@ -576,7 +563,8 @@ Select &quot;Yes&quot; to log additional information about Inventory transaction
 
 The Price Synchronization settings have been added to provide an option to enable or disable the real-time customer/item specific price call, as well as provide an option to increase site performance when needed.
 
-![](RackMultipart20201214-4-1e0w9tk_html_cc7c7b60c0bc6981.png)
+<kbd>
+<img alt ="Customer price sync" src="../../Leanswift Sxe and CSD/Images/customerprice_sync.png">
 
 ### Sync on Product Load
 
@@ -604,7 +592,8 @@ This section contains settings on how to manage the synchronization of product d
 
 The Magento product attribute is mapped to a field from SX.e SOAP response using the field tag name. A default value can be given for results which do not contain a value. In this version, **only Base Price** among Product information is supported for synchronization.
 
-![](RackMultipart20201214-4-1e0w9tk_html_1cc09b0484b575af.jpg)
+<kbd>
+<img alt ="product synchronization attributes" src="../../Leanswift Sxe and CSD/Images/product_sync.png">
 
 ### Enable
 
@@ -624,7 +613,8 @@ This section controls how Product Synchronization should behave. The Magento att
 
 Product sync can be run manually from the product grid. There is also a cron job available to run the product synchronization in the background.
 
-![](RackMultipart20201214-4-1e0w9tk_html_7eb1c7aff5359b8f.png)
+<kbd>
+<img alt ="product manual synchronization" src="../../Leanswift Sxe and CSD/Images/product_manualsync.png">
 
 ##
 
@@ -636,17 +626,26 @@ The **Customer Synchronization** group contains all settings related to synchron
 - Address data is synchronized; Billing and Ship-to Addresses.
 - Address data sync is one-way: SX.e --\&gt; Magento
 
-### ![](RackMultipart20201214-4-1e0w9tk_html_9f5774d00ffa50f9.jpg) Update Customer Data On Login
+<kbd>
+<img alt ="customer synchronization attributes " src="../../Leanswift Sxe and CSD/Images/customerattribute_sync.png">
+
+### Update Customer Data On Login
 
 This setting provides the option to in real-time initiate an update of the address data that&#39;s been mapped for synchronization from SX.e within the **Customer Synchronization** section.
 
 ### Billing Address Mapping
+
+<kbd>
+<img alt ="customer billing address" src="../../Leanswift Sxe and CSD/Images/customer_billingaddress.png">
 
 This section controls how the Billing Address for the customer in Magento is to be created based on the address details in SX.e. Usually, every customer has only one Billing Address in SX.e.
 
 The mapping is done in the same way as for Product Sync, for example. The Magento address attribute to map is selected from the drop-down list in the &#39;Magento Attribute&#39; column. This SX.e attribute should be mapped to the value in the &#39;SX.e Field Name&#39; column.
 
 ### Shipping Address Mapping
+
+<kbd>
+<img alt ="customer shipping address" src="../../Leanswift Sxe and CSD/Images/customer_shippingaddress.png">
 
 This section controls how the Shipping (Ship-to) Addresses for the customer in Magento is to be created based on the address details in SX.e. Usually, every customer in SX.e can have no or any number of Shipping Addresses in SX.e. If Shipping Address is not available for a customer during synchronization, then the Billing Address is set as Shipping Address as well in Magento.
 
@@ -656,41 +655,13 @@ The mapping is done in the same way as for Product Sync and Billing Address, for
 
 Select &quot;Yes&quot; to log additional information about Customer Address transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to &quot;No&quot; in production to improve performance. This setting overrides the global setting available in the &quot;_General_&quot; section of configuration.
 
-##
-
-##
-
-##
-
-##
-
-##
-
-##
-
-##
-
-##
-
-##
-
-##
-
-##
-
-##
-
-##
-
-##
-
-##
 
 ## Sales
 
 The &#39;Sales&#39; section contains three settings related to the sales order process from Magento to SX.e.
 
-![](RackMultipart20201214-4-1e0w9tk_html_738d993757c2d367.png)
+<kbd>
+<img alt ="sales config" src="../../Leanswift Sxe and CSD/Images/sales_config.png">
 
 ### Enable order comments
 
@@ -712,7 +683,11 @@ The setup will vary from customer to customer depending on a number of factors s
 
 This section should always be reviewed within the project, and with the help of the LeanSwift Services team be adjusted to best fit each customer&#39;s environment.
 
-![](RackMultipart20201214-4-1e0w9tk_html_537ec302ae60fd97.png)
+<kbd>
+<img alt ="cron setting part 1" src="../../Leanswift Sxe and CSD/Images/cron_settings1.png">
+
+<kbd>
+<img alt ="cron setting part 2" src="../../Leanswift Sxe and CSD/Images/cron_settings2.png">
 
 #
 
@@ -720,13 +695,15 @@ This section should always be reviewed within the project, and with the help of 
 
 This last section provides information related to the version of the LeanSwift Magento extension that&#39;s installed, as well as the version of eLink ERP Connector being used
 
-![](RackMultipart20201214-4-1e0w9tk_html_1472483ab3934d3.png)
+<kbd>
+<img alt ="version info" src="../../Leanswift Sxe and CSD/Images/version_info.png">
 
 ## Save Configuration
 
 Following the above, remember to save the configuration by pressing &#39;Save Config&#39; at the top of the page.
 
-![](RackMultipart20201214-4-1e0w9tk_html_85b758fd272e5f13.png)
+<kbd>
+<img alt ="save configuration" src="../../Leanswift Sxe and CSD/Images/save_config.png">
 
 # MAGENTO STANDARD FUNCTIONALITY
 
@@ -736,11 +713,13 @@ The extension does not override or impact any other functionality in Magento. Co
 
 Log out from Magento admin using the link at the top right.
 
-![](RackMultipart20201214-4-1e0w9tk_html_4b1b67a3809d6b55.png)
+<kbd>
+<img alt ="Exit Configuration" src="../../Leanswift Sxe and CSD/Images/exit_config.png">
 
 # PRODUCT SETUP &amp; INFORMATION
 
-![](RackMultipart20201214-4-1e0w9tk_html_6dddc2b25e483b84.png)
+<kbd>
+<img alt ="product setup and information" src="../../Leanswift Sxe and CSD/Images/product_manualsync.png">
 
 ## Transaction Overview
 
@@ -808,33 +787,22 @@ available and final Checkout isn&#39;t possible.
 
 #
 
-![](RackMultipart20201214-4-1e0w9tk_html_7a671b8b37e5873c.png)
+<kbd>
+<img alt ="customer setup information" src="../../Leanswift Sxe and CSD/Images/customer_manualsync.png">
 
-##
-
-##
-
-##
-
-##
 
 ## Transaction Overview
 
-##
 
 From a customer perspective, eConnect relies on the &#39;SX.e Customer Number&#39;. This value provides mapping between a Magento Customer and an SX.e Customer. It must be equal to the corresponding SX.e customer number in order for all of the eConnect transactions to function as they should. **Mapping of a Magento Customer to an SX.e Customer is a manual process and must be done before Customer Address Synchronization transaction can be performed**.
 
-##
 
 This functionality enables customer addresses to be synced over to Magento from SX.e. In this version, the functionality assumes that the Customer exists in both M3 &amp; Magento as active &amp; approved customers. With this pre-requisite fulfilled, any type of customer address that&#39;s defined within SX.e can be synchronized over to Magento. Customer Billing Address and Shipping Addresses (also known as Ship-Tos) are the information synchronized from SX.e to Magento.
-
-##
 
 ## Synchronization Process
 
 The synchronization of the customer information can be handled in two different ways – manually via the Customer grid or automatically via a cron (background) job.
 
-#
 
 # ORDER CREATION
 
@@ -842,39 +810,13 @@ Alongside Price &amp; Inventory, the Order Creation transaction is one of the co
 
 Order Comments and Magento Order Number are passed to SX.e while creating order.
 
-#
-
-#
-
-#
-
-#
-
-#
-
-#
-
-#
-
-#
-
-#
-
-#
-
-#
-
-#
-
-#
 
 # ORDER INFORMATION
 
-![](RackMultipart20201214-4-1e0w9tk_html_e6b7021ade9297c3.png)
+<kbd>
+<img alt ="order information" src="../../Leanswift Sxe and CSD/Images/order_manualsync.png">
 
-##
 
-##
 
 ## Transaction Overview
 
@@ -922,43 +864,25 @@ All orders have an order status that is associated with a stage in the order pro
 
 Magento only supports order statuses on order head level (not order line level).
 
-| **Order State** | **Order Status** |
-| --- | --- |
-| New | Processing |
-| Pending Payment | Pending Payment |
-| Processing | Suspected Fraud |
-| Complete | Payment Review |
-| Closed | Pending |
-| Canceled | On Hold |
-| On Hold | Complete |
-| Payment Review | Closed |
-|
- | Canceled |
-|
- | Pending PayPal |
+<kbd>
+<img alt ="version info" src="../../Leanswift Sxe and CSD/Images/magento_status.png">
+
 
 #### **Magento &amp; SX.e Order Status Relation **
 
-| **SX.e Status** | **Magento Status (Custom)** | **Magento State** |
-| --- | --- | --- |
-| 1 | Ordered | Processing |
-| 2 | Picked | Processing |
-| 3 | Shipped | Processing |
-| 4 | Invoiced | Complete |
-| 5 | Paid | Complete |
-| 9 | Cancelled | Canceled |
+<kbd>
+<img alt ="version info" src="../../Leanswift Sxe and CSD/Images/magento_state.png">
 
 #
 
 # ACCOUNTS RECEIVABLE
 
-#
 
 This page has 5 tabs: Period Balances, Credit Balances, Ordering Information, Taxing Information
 
-![](RackMultipart20201214-4-1e0w9tk_html_e197a2e815366796.png)
+<kbd>
+<img alt ="my accounts receivable" src="../../Leanswift Sxe and CSD/Images/my_accountsreceivable.png">
 
-#
 
 # CRON JOBS
 
