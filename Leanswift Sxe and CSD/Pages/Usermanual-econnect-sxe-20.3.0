@@ -1,14 +1,7 @@
-![](RackMultipart20201214-4-1e0w9tk_html_f5f7f63ec5d1a8b9.gif)
 
-![](RackMultipart20201214-4-1e0w9tk_html_5749ee4c7fdc9cd3.png)
 
-# **U**
+# **USER MANUAL**
 
-# **SER**
-
-# **M**
-
-# **ANUAL**
 
 ## _ **LeanSwift eConnect** _
 
@@ -30,125 +23,120 @@ _ **Magento** _
 
 # TABLE OF CONTENTS
 
-Page #
 
-Table of Contents
+[GENERAL INFORMATION](#general-information)
 
-[**TABLE OF CONTENTS 2**](#_heading=h.gjdgxs)
+[System Overview](#system-overview)
 
-[**GENERAL INFORMATION 5**](#_heading=h.1fob9te)
+[Transactions](#transactions)
 
-[**System Overview 5**](#_heading=h.3znysh7)
+[User Interface](#user-interface)
 
-[**Transactions 6**](#_heading=h.2et92p0)
+[Validated Versions](#validated-versions)
 
-[**User Interface 7**](#_heading=h.tyjcwt)
+[Point of Contact](#point-of-contact)
 
-[**Validated Versions 7**](#_heading=h.3dy6vkm)
+[Organization of the Manual](#organization-of-the-manual)
 
-[**Point of Contact 7**](#_heading=h.1t3h5sf)
+[STANDARD TRANSACTIONS](#standard-transactions)
 
-[**Organization of the Manual 7**](#_heading=h.4d34og8)
+[Summary](#summary)
 
-[**STANDARD TRANSACTIONS 8**](#_heading=h.2s8eyo1)
+[List of Transactions](#list-of-transactions)
 
-[**Summary 8**](#_heading=h.17dp8vu)
+[Customers](#customers)
 
-[List of Transactions 8](#_heading=h.3rdcrjn)
+[Pricing](#pricing)
 
-[Customers 8](#_heading=h.26in1rg)
+[Inventory](#inventory)
 
-[Pricing 8](#_heading=h.lnxbz9)
+[Sales Orders](#sales-orders)
 
-[Inventory 9](#_heading=h.35nkun2)
+[Shipments And Invoices](#shipments-and-invoices)
 
-[Sales Orders 9](#_heading=h.1ksv4uv)
+[Order History](#order-history)
 
-[Shipments &amp; Invoices 9](#_heading=h.44sinio)
+[Accounts Receivable](#accounts-receivable)
 
-[Order History 9](#_heading=h.2jxsxqh)
+[Assumptions/Limitations](#assumptions-limitations)
 
-[Accounts Receivable 9](#_heading=h.z337ya)
+[CONFIGURATION](#configuration)
 
-[**Assumptions/Limitations 9**](#_heading=h.3j2qqm3)
+[Magento Configuration](#magento-configuration)
 
-[**CONFIGURATION 10**](#_heading=h.2xcytpi)
+[System Menu](#system-menu)
 
-[**Magento Configuration 10**](#_heading=h.3whwml4)
+[Configuration](#configuration)
 
-[**System Menu 11**](#_heading=h.qsh70q)
+[Configuration/LeanSwift](#configuration-leanswift)
 
-[**Configuration 11**](#_heading=h.3as4poj)
+[Configuration/LeanSwift/eConnect](#configuration-leanswift-econnect)
 
-[**Configuration/LeanSwift 12**](#_heading=h.1pxezwc)
+[General Configuration](#general-configuration)
 
-[**Configuration/LeanSwift/eConnect 13**](#_heading=h.49x2ik5)
+[Email](#email)
 
-[**General Configuration 14**](#_heading=h.2p2csry)
+[Error email send frequency](#error-email-send-frequency)
 
-[Email 14](#_heading=h.147n2zr)
+[SX.e Version](#sxe-version)
 
-[Error email send frequency 14](#_heading=h.3o7alnk)
+[SX.e Connection String](#sxe-connection-string)
 
-[SX.e Version 14](#_heading=h.23ckvvd)
+[Location URL](#location-url)
 
-[SX.e Connection String 15](#_heading=h.ihv636)
+[Use ERP order history](#use-erp-order-history)
 
-[Location URL 15](#_heading=h.32hioqz)
+[Show My Accounts Receivable](#show-my-accounts-receivable)
 
-[Use ERP order history 15](#_heading=h.1hmsyys)
+[Debug/log data](#debug-log-data)
 
-[Show &#39;My Accounts Receivable&#39; 15](#_heading=h.41mghml)
+[Basic Data Configuration](#basic-data-configuration)
 
-[Debug/log data 15](#_heading=h.2grqrue)
+[Company](#company)
 
-[**Basic Data Configuration 16**](#_heading=h.vx1227)
+[Operator Initials](#operator-initials)
 
-[Company 16](#_heading=h.3fwokq0)
+[Operator Password](#operator-password)
 
-[Operator Initials 16](#_heading=h.1v1yuxt)
+[Warehouse](#warehouse)
 
-[Operator Password 16](#_heading=h.4f1mdlm)
+[Inventory Synchronization](#inventory-synchronization)
 
-[Warehouse 16](#_heading=h.2u6wntf)
+[Sync on Product Load](#sync-on-product-load)
 
-[**Inventory Synchronization 17**](#_heading=h.19c6y18)
+[Sync on Add to Cart](#sync-on-add-to-cart)
 
-[Sync on Product Load 17](#_heading=h.3tbugp1)
+[Sync on Checkout](#sync-on-checkout)
 
-[Sync on Add to Cart 17](#_heading=h.28h4qwu)
+[Debug/log data](#debug-log-data)
 
-[Sync on Checkout 17](#_heading=h.nmf14n)
+[Price Synchronization](#price-synchronization)
 
-[Debug/log data 17](#_heading=h.37m2jsg)
+[Sync on Product Load](#sync-on-product-load)
 
-[**Price Synchronization 18**](#_heading=h.1mrcu09)
+[Sync on Product List Load](#sync-on-product-list-load)
 
-[Sync on Product Load 18](#_heading=h.46r0co2)
+[Cache Hours](#cache-hours)
 
-[Sync on Product List Load 18](#_heading=h.2lwamvv)
+[Debug/log data](#debug-log-data)
 
-[Cache Hours 18](#_heading=h.111kx3o)
+[Product Synchronization](#product-synchronization)
 
-[Debug/log data 18](#_heading=h.3l18frh)
+[Enable](#enable)
 
-[**Product Synchronization 19**](#_heading=h.206ipza)
+[Batch Size](#batch-size)
 
-[Enable 19](#_heading=h.4k668n3)
+[Debug/log data](#debug-log-data)
 
-[Batch Size 19](#_heading=h.2zbgiuw)
+[SX.e Product Attribute Mapping](#sxe-product-attribute-mapping)
 
-[Debug/log data 19](#_heading=h.1egqt2p)
+[Customer Synchronization](#customer-synchronization)
 
-[SX.e Product Attribute Mapping](#_heading=h.3ygebqi)
+[Update Customer Data On Login](#update-customer-data-on-login)
 
-[Customer Synchronization](#_heading=h.2dlolyb)
+[Billing Address Mapping](#billing-address-mapping)
 
-[Update Customer Data On Login](#_heading=h.sqyw64)
-
-[Billing Address Mapping](#_heading=h.3cqmetx)
-
-[Shipping Address Mapping](#_heading=h.1rvwp1q)
+[Shipping Address Mapping](#shipping-address-mapping)
 
 [Sales](#sales)
 
