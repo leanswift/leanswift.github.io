@@ -194,11 +194,14 @@ _ **Magento** _
 
 **LeanSwift eConnect for Infor Distribution SX.e** provides a seamless integration between Magento eCommerce and Infor Distribution SX.e ERP. The product consists of a base Magento extension and optional add-on extensions. APIs exposed by SX.e are used to manage the communication with Infor Distribution SX.e from Magento.
 
-## ![](RackMultipart20201214-4-1e0w9tk_html_f3f9e3d6f86b936d.jpg) Transactions
+<kbd>
+<img alt ="sxe architecture" src="../../Leanswift Sxe and CSD/Images/sxe_architecture.png">
+
+**Transaction**
 
 Version 20.3.0 includes the following functionality for SX.e versions 6.x to 11.x as well as for Infor CloudSuite Distribution, the multi-tenant cloud solution for SX.e. These versions provide external application connection to SX.e via SOAP APIs and to CloudSuite via ION REST APIs.
 
-Current version (20.3.0) is released on **Magento Open Source 2.**** 4.0**
+Current version (20.3.0) is released on **Magento Open Source 2.4.0**
 
 - Inventory Synchronization
   - Real-time Stock Fetch &amp; Synchronization
@@ -235,13 +238,6 @@ Current version (20.3.0) is released on **Magento Open Source 2.**** 4.0**
 
 These above transactions can, if necessary, be modified and new transactions can be added to fulfill specific customer requirements.
 
-##
-
-##
-
-##
-
-##
 
 ## User Interface
 
@@ -263,11 +259,10 @@ This manual describes the configuration of LeanSwift eConnect for Infor Distribu
 
 This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation, though the general workflow is similar.
 
+
 # STANDARD TRANSACTIONS
 
 ## Summary
-
-##
 
 ### List of Transactions
 
@@ -302,7 +297,6 @@ This manual is not intended to cover any standard Magento functionality or user 
     - Background Synchronization
     - Manual Synchronization
 
-#
 
 ### Customers
 
@@ -360,7 +354,9 @@ To support the use of LeanSwift eConnect for Infor Distribution SX.e, configurat
 
 Log in to Magento Admin Panel using the URL provided to you and the applicable user credentials.
 
-![](RackMultipart20201214-4-1e0w9tk_html_da205daf987e04e1.png)
+
+<kbd>
+<img alt ="magento login" src="../../Leanswift Sxe and CSD/Images/magento_login.png">
 
 # System Menu
 
@@ -370,11 +366,13 @@ To access the LeanSwift Configuration, click the **Stores** tab (1), and select 
 
 option (2).
 
-![](RackMultipart20201214-4-1e0w9tk_html_f1a2a1ac77ede98c.jpg)
+<kbd>
+<img alt ="configuration" src="../../Leanswift Sxe and CSD/Images/configuration.png">
 
 Also pay attention to which configuration scope you&#39;re working under.
 
-![](RackMultipart20201214-4-1e0w9tk_html_80b7dfcea0fb5171.jpg)
+<kbd>
+<img alt ="dashboard" src="../../Leanswift Sxe and CSD/Images/dashboard_scope.png">
 
 For further information about _Configuration scope_ in Magento, please refer to the following article:
 
@@ -390,7 +388,8 @@ There could be a number of other sections under the LeanSwift Solutionssub-menu.
 
 Configuration related to the add-ons to eConnect, if any, would be covered within their specific user manuals.
 
-![](RackMultipart20201214-4-1e0w9tk_html_3dea6d985051ead6.png)
+<kbd>
+<img alt ="leanswift sxe" src="../../Leanswift Sxe and CSD/Images/leanswift_sxe.png">
 
 ## Configuration/LeanSwift/eConnect
 
@@ -398,19 +397,10 @@ The **eConnect SX.e** section contains the vast majority of the settings for bas
 
 The following picture shows the sections that are included in base eConnect configuration.
 
-![](RackMultipart20201214-4-1e0w9tk_html_116a22878226a00b.jpg)
+<kbd>
+<img alt ="sxe configuration" src="../../Leanswift Sxe and CSD/Images/sxe_configuration.png">
 
-#
 
-#
-
-#
-
-#
-
-#
-
-#
 
 ## General Configuration
 
@@ -418,9 +408,8 @@ The following picture shows the sections that are included in base eConnect conf
 
 The **General** section contains a number of basic settings that are generic for this instance of eConnect.
 
-![](RackMultipart20201214-4-1e0w9tk_html_23556f289a5aeb15.png)
-
-###
+<kbd>
+<img alt ="general configuration" src="../../Leanswift Sxe and CSD/Images/general_config.png">
 
 ###
 
@@ -517,7 +506,9 @@ Select &quot;Yes&quot; to log additional information in Magento. This setting is
 
 The **Basic Data** section of the configuration contains a number of key settings needed for the various transactions within LeanSwift eConnect.
 
-![](RackMultipart20201214-4-1e0w9tk_html_db82772de6b23bff.jpg)
+<kbd>
+<img alt ="basicdata configuration" src="../../Leanswift Sxe and CSD/Images/basicdata_config.png">
+
 
 ### Company
 
