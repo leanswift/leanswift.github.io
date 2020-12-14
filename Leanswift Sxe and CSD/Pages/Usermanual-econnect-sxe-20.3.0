@@ -13,9 +13,6 @@ _ **&amp;** _
 
 _ **Magento** _
 
-#
-
-#
 
 **Product Version 20.3.0**
 
@@ -234,7 +231,7 @@ Current version (20.3.0) is released on **Magento Open Source 2.4.0**
     - Background Synchronization
     - Manual Synchronization
 
-**Note:** In v20.2.x, product synchronization has list price synchronization only.
+**Note:** In v20.3.x, product synchronization has list price synchronization only.
 
 These above transactions can, if necessary, be modified and new transactions can be added to fulfill specific customer requirements.
 
@@ -328,13 +325,13 @@ Delivery tracking numbers associated to an order in SX.e are also synchronized.
 
 ### Order History
 
-Easy access for customers to view all orders placed through Magento as well as those placed in SX.e directly via &quot;My Orders&quot; page.
+Easy access for customers to view all orders placed through Magento as well as those placed in SX.e directly via "My Orders" page.
 
 View order details and reorder.
 
 ### Accounts Receivable
 
-Easy access for customers to view accounts receivable information via &quot;My Accounts Receivable&quot; page.
+Easy access for customers to view accounts receivable information via "My Accounts Receivable" page.
 
 View period balances, credit balances, ordering and taxing information.
 
@@ -343,7 +340,7 @@ View period balances, credit balances, ordering and taxing information.
 LeanSwift uses two key principles as guiding lights when new features are included in eConnect.
 
 1. Infor Distribution SX.e is the system of record.
-2. Always adhere to Magento&#39;s core standard functionality wherever possible.
+2. Always adhere to Magento's core standard functionality wherever possible.
 3. There is no limit enforced for Manual Synchronization option on the grids in Admin panel such as for Customers, Orders and Products. Manual Synchronization of a very large number of Customers, Orders or Products may be slow and admin users will have to stay on the same page until the operation is complete.
 
 # CONFIGURATION
@@ -369,7 +366,7 @@ option (2).
 <kbd>
 <img alt ="configuration" src="../../Leanswift Sxe and CSD/Images/configuration.png">
 
-Also pay attention to which configuration scope you&#39;re working under.
+Also pay attention to which configuration scope you're working under.
 
 <kbd>
 <img alt ="dashboard" src="../../Leanswift Sxe and CSD/Images/dashboard_scope.png">
@@ -435,7 +432,7 @@ Versions 6-10 support SOAP web services to access SX.e whereas versions 11+ for 
 
 ### SX.e Connection String
 
-If selected SX.e Version is 6-10, this field should have the connection string (URL) to connect to SX.e&#39;s SOAP services.
+If selected SX.e Version is 6-10, this field should have the connection string (URL) to connect to SX.e's SOAP services.
 
 ###
 
@@ -445,7 +442,7 @@ Example: [appserver://localhost:5162/sxapiappsrv](about:blank)
 
 ### Location URL
 
-If selected SX.e Version is 6-10, this field should have the SOAP location URL to access it&#39;s SVC file.
+If selected SX.e Version is 6-10, this field should have the SOAP location URL to access it's SVC file.
 
 Example: [http://24.89.159.5/sxapi/Service.svc](http://24.89.159.5/sxapi/Service.svc)
 
@@ -470,7 +467,7 @@ The stock is updated in different CRON it will be working only when the BULK API
 
 ###
 
-If selected SX.e Version is 11, this field should have the REST endpoint (URL) to connect to SX.e&#39;s ION web services.
+If selected SX.e Version is 11, this field should have the REST endpoint (URL) to connect to SX.e's ION web services.
 
 ###
 
@@ -478,27 +475,27 @@ If selected SX.e Version is 11, this field should have the REST endpoint (URL) t
 
 ###
 
-If selected SX.e Version is 11, this field should have the URL to retrive OAuth Token to be able to access SX.e&#39;s ION web services.
+If selected SX.e Version is 11, this field should have the URL to retrive OAuth Token to be able to access SX.e's ION web services.
 
 ### Use ERP order history
 
 This field refers to the retrieval of customer order history from SX.e from Magento front-end.
 
-Select &quot;Yes&quot; to retrieve &amp; display order history from SX.e when user selects _Order History_ in _My Account_. This will make order information synchronize seamlessly between Magento and SX.e and any order status change in SX.e will be displayed in Magento instantly.
+Select "Yes" to retrieve &amp; display order history from SX.e when user selects _Order History_ in _My Account_. This will make order information synchronize seamlessly between Magento and SX.e and any order status change in SX.e will be displayed in Magento instantly.
 
-Select &quot;No&quot; to only use the order history from Magento when the user selects _Order History in My Account_.
+Select "No" to only use the order history from Magento when the user selects _Order History in My Account_.
 
-### Show &#39;My Accounts Receivable&#39;
+### Show 'My Accounts Receivable'
 
-Select &quot;Yes&quot; to retrieve &amp; display accounts receivable information from SX.e when user selects _My Accounts Receivable_ section in _My Account_. This will make accounts receivable information synchronize seamlessly between Magento and SX.e.
+Select "Yes" to retrieve &amp; display accounts receivable information from SX.e when user selects _My Accounts Receivable_ section in _My Account_. This will make accounts receivable information synchronize seamlessly between Magento and SX.e.
 
 ### Debug/log data Accounts Receivable data
 
-Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in the Test/Staging environment but should be set to &quot;No&quot; in production to improve performance.
+Select "Yes" to log additional information in Magento. This setting is recommended in the Test/Staging environment but should be set to "No" in production to improve performance.
 
 ### Debug/log data
 
-Select &quot;Yes&quot; to log additional information in Magento. This setting is recommended in the Test/Staging environment but should be set to &quot;No&quot; in production to improve performance.
+Select "Yes" to log additional information in Magento. This setting is recommended in the Test/Staging environment but should be set to "No" in production to improve performance.
 
 ## Basic Data Configuration
 
@@ -526,7 +523,7 @@ The operator password in SX.e to connect with. This is mandatory to establish co
 
 ### Warehouse
 
-Select a value from the drop-down list of warehouses in the company. In order to retrieve this list from SX.e, user should fill in company number in _Company_ field stated above, save the configuration and then click on &quot;_Retrieve Warehouse List_&quot; button.
+Select a value from the drop-down list of warehouses in the company. In order to retrieve this list from SX.e, user should fill in company number in _Company_ field stated above, save the configuration and then click on "_Retrieve Warehouse List_" button.
 
 ## Inventory Synchronization
 
@@ -554,7 +551,7 @@ Enabling this option ensures a real-time inventory call is performed during the 
 
 ### Debug/log data
 
-Select &quot;Yes&quot; to log additional information about Inventory transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to &quot;No&quot; in production to improve performance. This setting overrides the global setting available in the &quot;_General_&quot; section of configuration.
+Select "Yes" to log additional information about Inventory transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
 
 
 ## Price Synchronization
@@ -568,21 +565,21 @@ The Price Synchronization settings have been added to provide an option to enabl
 
 ### Sync on Product Load
 
-Setting this parameter to &#39;Yes&#39; enables the real-time price call transaction. Only if this parameter is enabled will the system in real-time retrieve the customer/item specific price from SX.e upon _ **product detail page** _ load. &#39;No&#39; disables the real-time price call from being performed for the applicable configuration scope.
+Setting this parameter to 'Yes' enables the real-time price call transaction. Only if this parameter is enabled will the system in real-time retrieve the customer/item specific price from SX.e upon _ **product detail page** _ load. 'No' disables the real-time price call from being performed for the applicable configuration scope.
 
 ### Sync on Product List Load
 
-Setting this parameter to &#39;Yes&#39; enables the real-time price call transaction for the _ **product list page** _. Only if this parameter is enabled will the system in real-time retrieve the customer/item specific price from SX.e for each product listed on the page. &#39;No&#39; disables the real-time price call from being performed for the applicable configuration scope.
+Setting this parameter to 'Yes' enables the real-time price call transaction for the _ **product list page** _. Only if this parameter is enabled will the system in real-time retrieve the customer/item specific price from SX.e for each product listed on the page. 'No' disables the real-time price call from being performed for the applicable configuration scope.
 
 ### Cache Hours
 
-Leaving this value blank ensures that the price retrieved from SX.e is stored locally within a Magento extension table for 8 hrs. A value of &#39;1&#39; or greater (integer) ensures that the price retrieved from SX.e is stored locally within a Magento extension table, and won&#39;t be refreshed (no real-time call would be made) for as many hours.
+Leaving this value blank ensures that the price retrieved from SX.e is stored locally within a Magento extension table for 8 hrs. A value of '1' or greater (integer) ensures that the price retrieved from SX.e is stored locally within a Magento extension table, and won't be refreshed (no real-time call would be made) for as many hours.
 
 ###
 
 ### Debug/log data
 
-Select &quot;Yes&quot; to log additional information about Price transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to &quot;No&quot; in production to improve performance. This setting overrides the global setting available in the &quot;_General_&quot; section of configuration.
+Select "Yes" to log additional information about Price transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
 
 ## Product Synchronization
 
@@ -597,7 +594,7 @@ The Magento product attribute is mapped to a field from SX.e SOAP response using
 
 ### Enable
 
-Setting this parameter to &#39;Yes&#39; enables product synchronization.
+Setting this parameter to 'Yes' enables product synchronization.
 
 ### Batch Size
 
@@ -605,11 +602,11 @@ This refers to the number of products that are synchronized with SX.e at a given
 
 ### Debug/log data
 
-Select &quot;Yes&quot; to log additional information about Product sync transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to &quot;No&quot; in production to improve performance. This setting overrides the global setting available in the &quot;_General_&quot; section of configuration.
+Select "Yes" to log additional information about Product sync transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
 
 ### SX.e Product Attribute Mapping
 
-This section controls how Product Synchronization should behave. The Magento attribute to map is selected from the drop-down list in the &quot;Magento Attribute&quot; column. The &quot;SX.e Field Name&quot; provided would be mapped to the selected &quot;Magento Attribute&quot; on the drop-down list. When no data is available in SX.e to synchronize, default value provided will be mapped to the selected attribute. Currently &quot;Use On&quot; is always &quot;Both&quot;, meaning that the mapping holds good for both Product Addition and Modification(Sync) operations.
+This section controls how Product Synchronization should behave. The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. The "SX.e Field Name" provided would be mapped to the selected "Magento Attribute" on the drop-down list. When no data is available in SX.e to synchronize, default value provided will be mapped to the selected attribute. Currently "Use On" is always "Both", meaning that the mapping holds good for both Product Addition and Modification(Sync) operations.
 
 Product sync can be run manually from the product grid. There is also a cron job available to run the product synchronization in the background.
 
@@ -631,7 +628,7 @@ The **Customer Synchronization** group contains all settings related to synchron
 
 ### Update Customer Data On Login
 
-This setting provides the option to in real-time initiate an update of the address data that&#39;s been mapped for synchronization from SX.e within the **Customer Synchronization** section.
+This setting provides the option to in real-time initiate an update of the address data that's been mapped for synchronization from SX.e within the **Customer Synchronization** section.
 
 ### Billing Address Mapping
 
@@ -640,7 +637,7 @@ This setting provides the option to in real-time initiate an update of the addre
 
 This section controls how the Billing Address for the customer in Magento is to be created based on the address details in SX.e. Usually, every customer has only one Billing Address in SX.e.
 
-The mapping is done in the same way as for Product Sync, for example. The Magento address attribute to map is selected from the drop-down list in the &#39;Magento Attribute&#39; column. This SX.e attribute should be mapped to the value in the &#39;SX.e Field Name&#39; column.
+The mapping is done in the same way as for Product Sync, for example. The Magento address attribute to map is selected from the drop-down list in the 'Magento Attribute' column. This SX.e attribute should be mapped to the value in the 'SX.e Field Name' column.
 
 ### Shipping Address Mapping
 
@@ -649,31 +646,31 @@ The mapping is done in the same way as for Product Sync, for example. The Magent
 
 This section controls how the Shipping (Ship-to) Addresses for the customer in Magento is to be created based on the address details in SX.e. Usually, every customer in SX.e can have no or any number of Shipping Addresses in SX.e. If Shipping Address is not available for a customer during synchronization, then the Billing Address is set as Shipping Address as well in Magento.
 
-The mapping is done in the same way as for Product Sync and Billing Address, for example. The Magento address attribute to map is selected from the drop-down list in the &#39;Magento Attribute&#39; column. This SX.e attribute should be mapped to the value in the &#39;SX.e Field Name&#39; column.
+The mapping is done in the same way as for Product Sync and Billing Address, for example. The Magento address attribute to map is selected from the drop-down list in the 'Magento Attribute' column. This SX.e attribute should be mapped to the value in the 'SX.e Field Name' column.
 
 ### Debug/log data
 
-Select &quot;Yes&quot; to log additional information about Customer Address transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to &quot;No&quot; in production to improve performance. This setting overrides the global setting available in the &quot;_General_&quot; section of configuration.
+Select "Yes" to log additional information about Customer Address transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
 
 
 ## Sales
 
-The &#39;Sales&#39; section contains three settings related to the sales order process from Magento to SX.e.
+The 'Sales' section contains three settings related to the sales order process from Magento to SX.e.
 
 <kbd>
 <img alt ="sales config" src="../../Leanswift Sxe and CSD/Images/sales_config.png">
 
 ### Enable order comments
 
-If set to &#39;Yes&#39;, this enables sending header-level comments [entered in the last step of the Checkout process] for the entire order to M3.
+If set to 'Yes', this enables sending header-level comments [entered in the last step of the Checkout process] for the entire order to M3.
 
 ### Send order reference
 
-If set to &#39;Yes&#39;, the web order number (Magento order number) will be sent to SX.e in the order. This number will be saved in the &quot;Reference&quot; field of the sales order created in SX.e.
+If set to 'Yes', the web order number (Magento order number) will be sent to SX.e in the order. This number will be saved in the "Reference" field of the sales order created in SX.e.
 
 ### Debug/log data
 
-Select &quot;Yes&quot; to log additional information about Order transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to &quot;No&quot; in production to improve performance. This setting overrides the global setting available in the &quot;_General_&quot; section of configuration.
+Select "Yes" to log additional information about Order transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
 
 ## CRON Settings
 
@@ -681,7 +678,7 @@ This section contains the basic setup for how often the LeanSwift specific backg
 
 The setup will vary from customer to customer depending on a number of factors such as basic data volumes, ordering processes etc.
 
-This section should always be reviewed within the project, and with the help of the LeanSwift Services team be adjusted to best fit each customer&#39;s environment.
+This section should always be reviewed within the project, and with the help of the LeanSwift Services team be adjusted to best fit each customer's environment.
 
 <kbd>
 <img alt ="cron setting part 1" src="../../Leanswift Sxe and CSD/Images/cron_settings1.png">
@@ -693,14 +690,14 @@ This section should always be reviewed within the project, and with the help of 
 
 ## Version Info
 
-This last section provides information related to the version of the LeanSwift Magento extension that&#39;s installed, as well as the version of eLink ERP Connector being used
+This last section provides information related to the version of the LeanSwift Magento extension that's installed, as well as the version of eLink ERP Connector being used
 
 <kbd>
 <img alt ="version info" src="../../Leanswift Sxe and CSD/Images/version_info.png">
 
 ## Save Configuration
 
-Following the above, remember to save the configuration by pressing &#39;Save Config&#39; at the top of the page.
+Following the above, remember to save the configuration by pressing 'Save Config' at the top of the page.
 
 <kbd>
 <img alt ="save configuration" src="../../Leanswift Sxe and CSD/Images/save_config.png">
@@ -723,9 +720,9 @@ Log out from Magento admin using the link at the top right.
 
 ## Transaction Overview
 
-From a product perspective, eConnect relies on the &#39;SX.e Product Number&#39;. This value provides mapping between a Magento Product and an SX.e Product. It must be equal to the corresponding SX.e item or product number in order for all of the eConnect transactions to function as they should.
+From a product perspective, eConnect relies on the 'SX.e Product Number'. This value provides mapping between a Magento Product and an SX.e Product. It must be equal to the corresponding SX.e item or product number in order for all of the eConnect transactions to function as they should.
 
-The Product Synchronizationtransaction offers the ability to sync base sales price of product in SX.e to Magento&#39;s Product Price attribute. **Mapping of a Magento Product to an SX.e Product is a manual process and must be done before Product Synchronization transaction can be performed.**
+The Product Synchronizationtransaction offers the ability to sync base sales price of product in SX.e to Magento's Product Price attribute. **Mapping of a Magento Product to an SX.e Product is a manual process and must be done before Product Synchronization transaction can be performed.**
 
 The synchronization can be initiated manually via the Product Catalogue grid (_Products\&gt; Catalog_) within the Magento Admin panel and also via a separate cron (background) job.
 
@@ -767,19 +764,19 @@ The user has an option to enable real-time inventory sync at three different poi
 
 1) During load of a product detail page
 
-An inventory result where the selected quantity value in SX.e is less than or equal to &#39;0&#39; will lead to the product showing as &#39;Out of Stock&#39;
+An inventory result where the selected quantity value in SX.e is less than or equal to '0' will lead to the product showing as 'Out of Stock'
 
 2) At the Add-to-Cart stage
 
-The end-user is presented with an error message that the requested quantity isn&#39;t
+The end-user is presented with an error message that the requested quantity isn't
 
-available and Add-to-Cart isn&#39;t possible
+available and Add-to-Cart isn't possible
 
 3) At the Complete Order (or) Checkout stage
 
-The end-user is presented with an error message that the requested quantity isn&#39;t
+The end-user is presented with an error message that the requested quantity isn't
 
-available and final Checkout isn&#39;t possible.
+available and final Checkout isn't possible.
 
 #
 
@@ -794,10 +791,10 @@ available and final Checkout isn&#39;t possible.
 ## Transaction Overview
 
 
-From a customer perspective, eConnect relies on the &#39;SX.e Customer Number&#39;. This value provides mapping between a Magento Customer and an SX.e Customer. It must be equal to the corresponding SX.e customer number in order for all of the eConnect transactions to function as they should. **Mapping of a Magento Customer to an SX.e Customer is a manual process and must be done before Customer Address Synchronization transaction can be performed**.
+From a customer perspective, eConnect relies on the 'SX.e Customer Number'. This value provides mapping between a Magento Customer and an SX.e Customer. It must be equal to the corresponding SX.e customer number in order for all of the eConnect transactions to function as they should. **Mapping of a Magento Customer to an SX.e Customer is a manual process and must be done before Customer Address Synchronization transaction can be performed**.
 
 
-This functionality enables customer addresses to be synced over to Magento from SX.e. In this version, the functionality assumes that the Customer exists in both M3 &amp; Magento as active &amp; approved customers. With this pre-requisite fulfilled, any type of customer address that&#39;s defined within SX.e can be synchronized over to Magento. Customer Billing Address and Shipping Addresses (also known as Ship-Tos) are the information synchronized from SX.e to Magento.
+This functionality enables customer addresses to be synced over to Magento from SX.e. In this version, the functionality assumes that the Customer exists in both M3 &amp; Magento as active &amp; approved customers. With this pre-requisite fulfilled, any type of customer address that's defined within SX.e can be synchronized over to Magento. Customer Billing Address and Shipping Addresses (also known as Ship-Tos) are the information synchronized from SX.e to Magento.
 
 ## Synchronization Process
 
@@ -898,23 +895,23 @@ This job controls how often new orders are sent to SX.e from Magento.
 
 **Cron settings for getting ERP Orders**
 
-This job controls how often the Order history that&#39;s visible for the customer when logged in from the Magento front-end is updated.
+This job controls how often the Order history that's visible for the customer when logged in from the Magento front-end is updated.
 
 **Cron settings for getting Customer Account Balances**
 
-This job controls how often the customer account balance information that&#39;s visible for the customer when logged in from the Magento front-end is updated.
+This job controls how often the customer account balance information that's visible for the customer when logged in from the Magento front-end is updated.
 
 **Cron settings for Inventory Sync**
 
-This job controls how often the inventory synchronization is run. The background inventory synchronization will each time it runs update the &#39;Qty&#39; value within the product Every product that in Magento has status &#39;Enabled&#39; and has a valid SX.e item number value associated will be included in the update each time.
+This job controls how often the inventory synchronization is run. The background inventory synchronization will each time it runs update the 'Qty' value within the product Every product that in Magento has status 'Enabled' and has a valid SX.e item number value associated will be included in the update each time.
 
 **Cron settings for ERP order synchronization**
 
-This job looks for all the Magento orders in &#39;processing&#39; state. The main idea behind this job is to sync all necessary order related information between Magento and SX.e. This job normally isn&#39;t run as frequent as the &#39;Send orders to ERP&#39; cron.
+This job looks for all the Magento orders in 'processing' state. The main idea behind this job is to sync all necessary order related information between Magento and SX.e. This job normally isn't run as frequent as the 'Send orders to ERP' cron.
 
 **Cron settings for Product List Price Sync**
 
-This job synchronizes Item Price from SX.e to Magento. Every product that in Magento has status &#39;Enabled&#39; and has a valid SX.e item number value associated will be included in the update each time.
+This job synchronizes Item Price from SX.e to Magento. Every product that in Magento has status 'Enabled' and has a valid SX.e item number value associated will be included in the update each time.
 
 **Cron settings for Customer Sync**
 
