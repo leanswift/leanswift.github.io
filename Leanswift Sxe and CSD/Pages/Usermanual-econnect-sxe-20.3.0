@@ -140,67 +140,65 @@ Table of Contents
 
 [Debug/log data 19](#_heading=h.1egqt2p)
 
-[SX.e Product Attribute Mapping 19](#_heading=h.3ygebqi)
+[SX.e Product Attribute Mapping](#_heading=h.3ygebqi)
 
-[**Customer Synchronization 20**](#_heading=h.2dlolyb)
+[Customer Synchronization](#_heading=h.2dlolyb)
 
-[Update Customer Data On Login 22](#_heading=h.sqyw64)
+[Update Customer Data On Login](#_heading=h.sqyw64)
 
-[Billing Address Mapping 22](#_heading=h.3cqmetx)
+[Billing Address Mapping](#_heading=h.3cqmetx)
 
-[Shipping Address Mapping 22](#_heading=h.1rvwp1q)
+[Shipping Address Mapping](#_heading=h.1rvwp1q)
 
-[Debug/log data 22](#_heading=h.4bvk7pj)
+[Sales](#sales)
 
-[**Sales 23**](#_heading=h.2r0uhxc)
+[Enable order comments](#enable-order-comments)
 
-[Enable order comments 23](#_heading=h.1664s55)
+[Send order reference](#send-order-reference)
 
-[Send order reference 23](#_heading=h.3q5sasy)
+[Debug/log data](#debug-log-data)
 
-[Debug/log data 23](#_heading=h.25b2l0r)
+[CRON Settings](#cron-settings)
 
-[**CRON Settings 23**](#_heading=h.kgcv8k)
+[Version Info](#version-info)
 
-[**Version Info 24**](#_heading=h.34g0dwd)
+[Save Configuration](#save-configuration)
 
-[**Save Configuration 24**](#_heading=h.1jlao46)
+[MAGENTO STANDARD FUNCTIONALITY](#magento-standard-functionality)
 
-[**MAGENTO STANDARD FUNCTIONALITY 25**](#_heading=h.2iq8gzs)
+[Exit System](#exit-system)
 
-[Exit System 25](#_heading=h.3hv69ve)
+[PRODUCT SETUP and INFORMATION](#product-setup-and-information)
 
-[**PRODUCT SETUP &amp; INFORMATION 26**](#_heading=h.1x0gk37)
+[Transaction Overview](#transaction-overview)
 
-[**Transaction Overview 26**](#_heading=h.4h042r0)
+[PRICE](#price)
 
-[**PRICE 26**](#_heading=h.2w5ecyt)
+[INVENTORY](#inventory)
 
-[**INVENTORY 26**](#_heading=h.1baon6m)
+[Synchronization Process](#synchronization-process)
 
-[**Synchronization Process 26**](#_heading=h.3vac5uf)
+[Background Sync](#background-sync)
 
-[Background Sync 26](#_heading=h.2afmg28)
+[Real time Sync](#real-time-sync)
 
-[Real-time Sync 27](#_heading=h.pkwqa1)
+[CUSTOMER SETUP and INFORMATION](#customer-setup-and-information)
 
-[**CUSTOMER SETUP &amp; INFORMATION 27**](#_heading=h.39kk8xu)
+[Transaction Overview](#transaction-overview)
 
-[**Transaction Overview 28**](#_heading=h.1opuj5n)
+[Synchronization Process](#synchronization-process)
 
-[**Synchronization Process 28**](#_heading=h.48pi1tg)
+[ORDER CREATION](#order-creation)
 
-[**ORDER CREATION 28**](#_heading=h.2nusc19)
+[ORDER INFORMATION](#order-information)
 
-[**ORDER INFORMATION 28**](#_heading=h.1302m92)
+[Transaction Overview](#transaction-overview)
 
-[**Transaction Overview 29**](#_heading=h.3mzq4wv)
+[Order Status Relation](#order-status-relation)
 
-[**Order Status Relation 29**](#_heading=h.2250f4o)
+[ACCOUNTS RECEIVABLE](#accounts-receivable)
 
-[**ACCOUNTS RECEIVABLE 31**](#_heading=h.haapch)
-
-[**CRON JOBS 31**](#_heading=h.319y80a)
+[CRON JOBS](#cron-jobs)
 
 # GENERAL INFORMATION
 
