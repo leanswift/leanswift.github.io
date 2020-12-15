@@ -6,14 +6,6 @@
 
 ## **Release Notes**
 
-**Table of Contents**
-
-- [Environment Details](#environment-details)
-- [Enhancements](#enhancements)
-- [Known Issues](#known-issues)
-- [Metrics](#metrics)
-- [Points of Contact](#points-of-contact)
-
 
 ## Environment Details
 
