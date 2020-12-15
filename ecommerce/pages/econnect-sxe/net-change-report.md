@@ -6,7 +6,7 @@
 
 ## 20.3.0
 
-### Enhancements
+#### Enhancements
 
 - Added a new section in the Magento Backend to add the extra fields to be sent while creating an order(Applicable for normal and CenPOS orders)
 
@@ -35,7 +35,7 @@
 - Sensitive information like passwords and URLs are hidden in the log
 
 
-### Known Issues
+#### Known Issues
 
 - Checkout sidebar is not getting updated when changing the quantity in mini cart from checkout page
 
