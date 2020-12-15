@@ -3,7 +3,6 @@
 ## Table of contents
   - [20.3.0](#2020)
     - [Enhancements:](#enhancements)
-#
 
 ## 20.3.0
 
@@ -32,6 +31,8 @@
 - Authentication details will now be auto-populated in the Authentication section after uploading an ionapi file
 
 - Reorganized the Cron section by grouping the Order, Customer and Product Cron.
+
+- Sensitive information like passwords and URLs are hidden in the log
 
 
 ## Known Issues
