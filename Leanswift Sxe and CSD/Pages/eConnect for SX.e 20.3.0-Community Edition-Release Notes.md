@@ -33,7 +33,7 @@
 
 - Provided option in the Magento Backend to mention the transaction type/order type value
 
-- Order request information are shown in the backend sales order view section
+- Order request information is shown in the backend sales order view section
 
 - ERP order number and customer number are shown in the backend sales order view section
 
@@ -45,7 +45,7 @@
 
 - Category synchronization is now supported for product
 
-- Provided support to upgraded version of Stock APIs
+- Provided support to an upgraded version of Stock APIs
 
 - Authentication details will now be auto-populated in the Authentication section after uploading an ionapi file
 
