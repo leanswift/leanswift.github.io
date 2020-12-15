@@ -15,6 +15,7 @@
 
   <kbd>
   <img alt ="simple webpay" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/cenpos_simplewebpay.png"></kbd>
+  
 
     - Log into the Simple Webpay Admin panel to retrieve the encrypted Merchant ID and secret key values
 
@@ -39,5 +40,8 @@
   <img alt ="cenpos order type" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/cenpos_ordertype.png"></kbd>
 
 
+
 _Note:_
 - _All the fields mentioned under the configuration section is case sensitive_
+
+
