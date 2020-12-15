@@ -3,8 +3,7 @@
 ![eConnect for Infor SX.e / Infor CloudSuite Distribution](../../../../images/banner-econnect-sxe.jpg)
 
 # **eConnect for SX.e** 
-# **20.3.0** 
-# **Community Edition**
+# **20.3.0 - Community Edition** 
 
 
 # **Release Notes**
