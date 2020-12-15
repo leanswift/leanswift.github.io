@@ -1,18 +1,6 @@
-
 # Version 3.0.0 - CenPOS Addon for eConnect SX.e/CSD
 
 ## Release notes
-
-
-
-## Table of contents
-
-- Environment Details
-- Standard Features
-- Highlights
-- Documentation
-- Points of contact
-
 
 ## Environment Details
 
