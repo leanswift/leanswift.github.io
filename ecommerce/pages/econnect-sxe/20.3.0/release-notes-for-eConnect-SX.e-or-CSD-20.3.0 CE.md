@@ -92,28 +92,10 @@
   https://docs.google.com/document/d/1q6F9qDYb6NQ3SD7_atTA6AeGYoBQjKAz6f5ExAiKACo/edit
 
 
-## JIRA References
-
-All
-User Stories/Tasks
-Bugs Identified/Fixed/Closed 
-
-## GitHub Link
-
-
-## Documentation
-
-All relevant documentation regarding release 20.3.0 are available on LeanSwift’s Intranet 
-
 
 ## Points of Contact
 
 - nanthini.muralidaran@leanswift.com
 - srinidhi.narayanan@leanswift.com
 - nrithya.rajagopalan@leanswift.com
-
-
-
-
-
 
