@@ -5,7 +5,7 @@
 # **Community Edition**
 
 
-# **Internal Release Notes**
+# **Release Notes**
 
 - Table of Contents
 - Environment Details	
@@ -18,16 +18,11 @@
 
 ## Environment Details
 
-Software Name
-Version
-Magento Open Source
-2.3.5
-Infor SX.e 
-6.1.091
-Infor Cloudsuite Distribution
-11.20.1
-Php version
-7.2.24
+| Software Name | Version | 
+| Magento Open Source| 2.4.0 |
+| Infor SX.e  | 6.1.091 |
+| Infor Cloudsuite Distribution | 11.20.1 |
+| Php version | 7.2.24 |
 
 
 
@@ -46,40 +41,28 @@ Enhanced Product sync to support more attributes from following APIs
 - sxapiICGetWhseProductDataTaxingv2
 
 
-
 ## Issues faced
 
-
+Checkout sidebar is not getting updated when changing the quantity in mini cart from checkout page]
+CenPOS order comments will not work
+Point to note: Customer cron will take long time to run (depending on the size of customers to be synced )since concurrent api call could not be made.
 
 ## Metrics
 
 The metrics taken for 50k products and its response to update in magento in the local system for  Batch Size - 50.
 
-Type
-Time taken(Minutes)
-Stock(3 sources)
-3.3
-Stock with indexer(3 sources)
-6.8
-Products
-20.98
-Products with indexer
-25.30
-Stock and products with indexer
-29
+| Type | Time taken(Seconds) |
 
+| Product with bulk | 462.45355701447 |
+| Product without bulk | 289.18326210976|
 
+The metrics taken for 10k customers and its response to update in magento via cron is as below 
 
-For updating 2L products with sending products request in batches takes below time
+| Type | Time taken(Seconds) |
 
+| Customer sync | 4minutes |
 
-Type
-Time taken(Minutes)
-Stock with indexer
-60
-Product with indexer
-80
-
+The metrics taken for Order creation and sync in CSD for a quanitiy of 100 orders in cron is 407.21320414543 (in seconds)
 
 ## Product Generation
 
@@ -99,7 +82,6 @@ Bugs Identified/Fixed/Closed
 
 ## GitHub Link
 
-https://github.com/leanswift/eConnect-SXe/releases/tag/20.2.0
 
 ## Documentation
 
