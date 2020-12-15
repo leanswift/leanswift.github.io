@@ -42,6 +42,6 @@
 
 
 _Note:_
-- _All the fields mentioned under the configuration section is case sensitive_
+- _All the fields mentioned under the configuration section are case sensitive_
 
 
