@@ -22,20 +22,24 @@
 
 ## Environment Details
 
+| Software Name | Version | 
+| --- | --- |
+| Magento Open Source| 2.4.0 |
+| Infor SX.e  | 6.1.091 |
+| Infor Cloudsuite Distribution | 11.20.1 |
+| PHP version | 7.4.12 |
+| LeanSwift eConnect for SX.e/CSD | 20.3.0 |
+| CenPOS SimpleWebpay - Magento Extension | 1.4.2 |
 
-Software name
-Version
-Magento open source
-2.4.0
-Infor Distribution SX.e 
-6.1.091
-Infor Cloudsuite Distribution 
-11.20.1
-LeanSwift eConnect for SX.e
-20.1.0 CE
-CenPOS Simple Webpay Magento Extension
-1.4.0
-	
+
+
+## Enhancements
+
+Added a new section in the Magento Backend to add the extra fields to be sent while creating an order. This same section can be used for SX.e and CSD CenPOS orders.
+
+Provided an option in the Magento Backend to specify CenPOS Order type and Transaction type.
+
+
 
 ## Standard Features
 
