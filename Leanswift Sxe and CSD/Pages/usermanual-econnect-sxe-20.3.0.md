@@ -64,9 +64,9 @@
 
 [Configuration](#configuration)
 
-[Configuration/LeanSwift](#configuration-leanswift)
+[Configuration/LeanSwift](#configuration/leanswift)
 
-[Configuration/LeanSwift/eConnect](#configuration-leanswift-econnect)
+[Configuration/LeanSwift/eConnect](#configuration/leanswift/econnect)
 
 [General Configuration](#general-configuration)
 
@@ -84,7 +84,7 @@
 
 [Show My Accounts Receivable](#show-my-accounts-receivable)
 
-[Debug or log data](#debug-log-data)
+[Debug or log data](#debug-or-log-data)
 
 [Basic Data Configuration](#basic-data-configuration)
 
@@ -104,7 +104,7 @@
 
 [Sync on Checkout](#sync-on-checkout)
 
-[Debug or log data](#debug-log-data)
+[Debug or log data](#debug-or-log-data)
 
 [Price Synchronization](#price-synchronization)
 
@@ -114,7 +114,7 @@
 
 [Cache Hours](#cache-hours)
 
-[Debug or log data](#debug-log-data)
+[Debug or log data](#debug-or-log-data)
 
 [Product Synchronization](#product-synchronization)
 
@@ -122,7 +122,7 @@
 
 [Batch Size](#batch-size)
 
-[Debug or log data](#debug-log-data)
+[Debug or log data](#debug-or-log-data)
 
 [SX.e Product Attribute Mapping](#sxe-product-attribute-mapping)
 
@@ -140,7 +140,7 @@
 
 [Send order reference](#send-order-reference)
 
-[Debug or log data](#debug-log-data)
+[Debug or log data](#debug-or-log-data)
 
 [CRON Settings](#cron-settings)
 
@@ -195,7 +195,7 @@ APIs exposed by SX.e are used to manage the communication with Infor Distributio
 <kbd>
 <img alt ="sxe architecture" src="../../Leanswift Sxe and CSD/Images/sxe_architecture.png"></kbd>
 
-**Transaction**
+## Transaction
 
 Version 20.3.0 includes the following functionality for SX.e versions 6.x to 11.x as well as for Infor CloudSuite Distribution, the multi-tenant cloud solution for SX.e.
 These versions provide external application connection to SX.e via SOAP APIs and to CloudSuite via ION REST APIs.
