@@ -87,15 +87,15 @@ Php version
 
 Added a new section in the admin to add the extra fields to be sent while creating an order. This same section can be used for SX.e and CSD.
 Added support to sync more customer fields from the following APIs
-sxapiARGetCustomerDataGeneralV2
-sxapiARGetCustomerDataGeneralRest
-sxapiARGetCustomerDataOrdering
-sxapiARGetCustomerDataOrderingRest
-sxapiARGetCustomerDataTaxing
+- sxapiARGetCustomerDataGeneralV2
+- sxapiARGetCustomerDataGeneralRest
+- sxapiARGetCustomerDataOrdering
+- sxapiARGetCustomerDataOrderingRest
+- sxapiARGetCustomerDataTaxing
 Enhanced Product sync to support more attributes from following APIs 
-sxapiICGetWhseProductDataGeneralV3
-sxapiICGetProductDataGeneralV4
-sxapiICGetWhseProductDataTaxingv2
+- sxapiICGetWhseProductDataGeneralV3
+- sxapiICGetProductDataGeneralV4
+- sxapiICGetWhseProductDataTaxingv2
 
 
 
@@ -164,9 +164,9 @@ All relevant documentation regarding release 20.3.0 are available on LeanSwiftâ€
 
 ## Points of Contact
 
-nanthini.muralidaran@leanswift.com
-srinidhi.narayanan@leanswift.com
-nrithya.rajagopalan@leanswift.com
+- nanthini.muralidaran@leanswift.com
+- srinidhi.narayanan@leanswift.com
+- nrithya.rajagopalan@leanswift.com
 
 
 
