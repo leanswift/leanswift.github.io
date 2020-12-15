@@ -54,23 +54,23 @@
 
 ## Known Issues
 
-Checkout sidebar is not getting updated when changing the quantity in mini cart from checkout page
+- Checkout sidebar is not getting updated when changing the quantity in mini cart from checkout page
 
-CenPOS order comments will not work
+- CenPOS order comments will not work
 
-Point to note: Customer cron will take long time to run (depending on the size of customers to be synced and the APIs configured in the Backend Mapping section).
+- Point to note: Customer cron will take long time to run (depending on the size of customers to be synced and the APIs configured in the Backend Mapping section).
 
 ## Metrics
 
-The metrics taken for Order creation and sync in CSD for a quanitiy of 100 orders with 2 or 3 lines in cron is 407.21320414543 (in seconds)
+- The metrics taken for Order creation and sync in CSD for 100 orders with 2 or 3 lines in cron is 407.21320414543 (in seconds)
 
-The metrics taken for 10k customers and its response to update in magento in the local system for Batch Size - 100
+- The metrics taken for 10k customers and its response to update in magento in the local system for Batch Size - 100.
 
 | Type | Time taken(Minutes) |
 | --- | --- | 
 | Customer sync | 4 to 5 minutes for each batch |
 
-The metrics taken for 50k products(with 14 attributes configured in the mapping section) and its response to update in magento in the local system for Batch Size - 50.
+- The metrics taken for 50k products(with 14 attributes configured in the mapping section) and its response to update in magento in the local system for Batch Size - 50.
 
 | Type | Time taken(Minutes) |
 | --- | --- |
@@ -79,12 +79,12 @@ The metrics taken for 50k products(with 14 attributes configured in the mapping 
 | Product without Bulk API enabled (with reindex)| 7 |
 | Product without Bulk API enabled (without reindex) | 4 |
 
-## Product Generation
+**Product Generation**
 
 https://docs.google.com/document/d/1UVBOFmWBvb7gjMYaM1kCoSiXysMILLVxTwWy8Wmvj14/edit#heading=h.d3mplszcczxv
 
 
-## Bulk update magento
+**Bulk update magento** 
 
 https://docs.google.com/document/d/1q6F9qDYb6NQ3SD7_atTA6AeGYoBQjKAz6f5ExAiKACo/edit
 
