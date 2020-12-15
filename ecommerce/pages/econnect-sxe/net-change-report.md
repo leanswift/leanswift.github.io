@@ -35,7 +35,7 @@
 - Sensitive information like passwords and URLs are hidden in the log
 
 
-## Known Issues
+### Known Issues
 
 - Checkout sidebar is not getting updated when changing the quantity in mini cart from checkout page
 
