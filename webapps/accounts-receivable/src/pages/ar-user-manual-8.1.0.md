@@ -23,7 +23,7 @@
      - [Default Payer from Customer](#default-payer-from-customer)
      - [Payer](#payer)
      - [Rolling Date](#rolling-date)
-      - [New in this version](#new-in-this-version)
+     - [New in this version](#new-in-this-version)
      - [Invoices](#invoices)
      - [Payments](#payments)
      - [Payment Details](#payment-details)
@@ -203,7 +203,7 @@ Default is 12 months, which is usually enough, but you can increase this as you 
 
 > ##### Note. A common mistake when you&#39;re not seeing a particular invoice is that the invoice date in M3 is out of your selected date range in the application.
 
-##### New in this version
+#### New in this version
 
 The rolling period has an additional option which is 3 months.
 
