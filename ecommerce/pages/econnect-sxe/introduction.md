@@ -13,15 +13,15 @@
 
 - ## User Manual
 
-- [User Manual - SX.e and CSD](20.3.0/usermanual-for-eConnect-SX.e-or-CSD-20.3.0.md)
+- [eConnect SX.e/CSD](20.3.0/usermanual-for-eConnect-SX.e-or-CSD-20.3.0.md)
 
-- [User Manual - CenPOS](Add-ons/CenPOS/usermanual%20for%20CenPOS-3.0.0.md)
+- [CenPOS](Add-ons/CenPOS/usermanual%20for%20CenPOS-3.0.0.md)
 
 - ## Release Notes
 
-- [Release Notes - SX.e](20.3.0/release-notes-for-eConnect-SX.e-or-CSD-20.3.0%20CE.md)
+- [eConnect SX.e/CSD](20.3.0/release-notes-for-eConnect-SX.e-or-CSD-20.3.0%20CE.md)
 
-- [Release Notes - CenPOS](Add-ons/CenPOS/CenPOS%20Payment%203.0.0-Release%20Notes.md)
+- [CenPOS](Add-ons/CenPOS/CenPOS%20Payment%203.0.0-Release%20Notes.md)
 
 ---
 
