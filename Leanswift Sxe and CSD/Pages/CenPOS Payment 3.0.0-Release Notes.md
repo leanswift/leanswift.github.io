@@ -35,26 +35,25 @@
 
 ## Enhancements
 
-Added a new section in the Magento Backend to add the extra fields to be sent while creating an order. This same section can be used for SX.e and CSD CenPOS orders.
+- Added a new section in the Magento Backend to add the extra fields to be sent while creating an order. This same section can be used for SX.e and CSD CenPOS orders.
 
-Provided an option in the Magento Backend to specify CenPOS Order type and Transaction type.
+- Provided an option in the Magento Backend to specify CenPOS Order type and Transaction type.
 
 
 
 ## Standard Features
 
-Add-on CenPOS Payment 3.0.0 includes the following functionalities.
+- Add-on CenPOS Payment 3.0.0 includes the following functionalities.
 
-Leverages Magento’s standard Credit Card Payment functionality and provides integration with CenPOS payment processing platform.
+- Leverages Magento’s standard Credit Card Payment functionality and provides integration with CenPOS payment processing platform.
 Order Creation in Infor Distribution SX.e for the orders placed with CenPOS credit card payment. 
 
 
 
 ## Highlights
 
-This is the third version of integration between Magento and Infor SX.e with CenPOS payment option.
-In this version, in addition to support for Infor SX.e v6.x, support for Infor Cloudsuite Distribution via ION APIs is available. 
-Enables Secure and PCI compliant integration with SX.e.
+- This is the third version of integration between Magento and Infor SX.e/CSD with CenPOS payment option.
+- Enables Secure and PCI compliant integration with SX.e.
 
 
 
@@ -70,6 +69,6 @@ https://drive.google.com/file/d/17t_Y5uehU_bf9mv2nn77GXipg13nPVne/view
 
 ## Points of contact
 
-nanthini.muralidaran@leanswift.com
-srinidhi.narayanan@leanswift.com
-Nrithya.Rajagopalan@leanswift.com
+- nanthini.muralidaran@leanswift.com
+- srinidhi.narayanan@leanswift.com
+- nrithya.rajagopalan@leanswift.com
