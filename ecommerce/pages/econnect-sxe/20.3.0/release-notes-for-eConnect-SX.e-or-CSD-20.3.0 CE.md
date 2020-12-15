@@ -1,20 +1,18 @@
-
-
 ![eConnect for Infor SX.e / Infor CloudSuite Distribution](../../../../images/banner-econnect-sxe.jpg)
 
-# **eConnect for SX.e** 
+# **eConnect for SX.e/CSD** 
 # **20.3.0 - Community Edition** 
 
 
-# **Release Notes**
+## **Release Notes**
 
-- Table of Contents
-- Environment Details	
-- Enhancements	
-- JIRA References
-- GitHub Link
-- Documentation
-- Points of Contact
+**Table of Contents**
+
+- [Environment Details](#environment-details)
+- [Enhancements](#enhancements)
+- [Known Issues](#known-issues)
+- [Metrics](#metrics)
+- [Points of Contact](#points-of-contact)
 
 
 ## Environment Details
