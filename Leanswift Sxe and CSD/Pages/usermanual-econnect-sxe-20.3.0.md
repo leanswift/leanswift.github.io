@@ -602,12 +602,31 @@ Select "Yes" to log additional information about Product sync transactions in eC
 
 ### SX.e Product Attribute Mapping
 
-This section controls how Product Synchronization should behave. The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. The "SX.e Field Name" provided would be mapped to the selected "Magento Attribute" on the drop-down list. When no data is available in SX.e to synchronize, default value provided will be mapped to the selected attribute. Currently "Use On" is always "Both", meaning that the mapping holds good for both Product Addition and Modification(Sync) operations.
+This section controls how Product Synchronization should behave. The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. The "SX.e Field Name" provided would be mapped to the selected "Magento Attribute" on the drop-down list. When no data is available in SX.e to synchronize, default value provided will be mapped to the selected attribute. Currently "Use On" is always "Both", meaning that the mapping holds good for both Product Addition and Modification(Sync) operations. In addition, API field can be configured with one of the below
+- Bulk [Useful only when the “Enable Bulk API” option under General Configuration section is set to Yes]
+- General
+- Price
+- Tax
 
 Product sync can be run manually from the product grid. There is also a cron job available to run the product synchronization in the background.
 
 <kbd>
 <img alt ="product manual synchronization" src="../../Leanswift Sxe and CSD/Images/product_manualsync.png"></kbd>
+
+## Category Synchronization
+
+This section controls how the Category of product is synchronized.
+
+<kbd>
+<img alt ="Category sync" src="../../Leanswift Sxe and CSD/Images/category_sync.png"></kbd>
+
+### Sync Category (Yes/No)
+
+This setting is in global scope and when set to 'Yes', enables the category to be synced to the product in magento.
+
+### Default Fallback Category Id
+
+When no category is available in Sxe / CSD for the product, the product is synced with value selected in 'Default Fallback Category Id'
 
 
 ## Customer Synchronization
