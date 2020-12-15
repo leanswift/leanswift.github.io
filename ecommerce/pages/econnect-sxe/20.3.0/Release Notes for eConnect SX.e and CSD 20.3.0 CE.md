@@ -1,6 +1,6 @@
 
 
-![eConnect for Infor SX.e / Infor CloudSuite Distribution](../../../images/banner-econnect-sxe.jpg)
+![eConnect for Infor SX.e / Infor CloudSuite Distribution](../../../../images/banner-econnect-sxe.jpg)
 
 # **eConnect for SX.e** 
 # **20.3.0** 
