@@ -1,3 +1,7 @@
+
+
+![eConnect for Infor SX.e / Infor CloudSuite Distribution](../../../images/banner-econnect-sxe.jpg)
+
 # eConnect for SX.e/CSD - Net Change Report
 
 ## Table of contents
