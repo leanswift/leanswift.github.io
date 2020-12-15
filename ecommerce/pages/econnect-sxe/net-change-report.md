@@ -2,11 +2,12 @@
 
 ## Table of contents
   - [20.3.0](#2020)
-    - [Enhancements:](#enhancements)
+    - [Enhancements](#enhancements)
+    - [Known Issues](#known issues)
 
 ## 20.3.0
 
-### Enhancements : 
+### Enhancements
 
 - Added a new section in the Magento Backend to add the extra fields to be sent while creating an order(Applicable for normal and CenPOS orders)
 
