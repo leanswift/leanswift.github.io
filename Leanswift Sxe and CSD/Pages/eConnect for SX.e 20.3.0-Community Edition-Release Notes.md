@@ -29,19 +29,27 @@
 
 ## Enhancements
 
-Added a new section in the Magento Backend to add the extra fields to be sent while creating an order. This same section can be used for SX.e and CSD.
+- Added a new section in the Magento Backend to add the extra fields to be sent while creating an order
 
-Added support to sync more customer fields from the following APIs(API version might differ for SX.e and CSD)
-- sxapiARGetCustomerDataGeneralV2
-- sxapiARGetCustomerDataGeneralRest
-- sxapiARGetCustomerDataOrdering
-- sxapiARGetCustomerDataOrderingRest
-- sxapiARGetCustomerDataTaxing
+- Provided option in the Magento Backend to mention the transaction type/order type value
 
-Enhanced Product sync to support more attributes from the following APIs(API version might differ for SX.e and CSD)
-- sxapiICGetWhseProductDataGeneralV3
-- sxapiICGetProductDataGeneralV4
-- sxapiICGetWhseProductDataTaxingv2
+- Order request information are shown in the backend sales order view section
+
+- ERP order number and customer number are shown in the backend sales order view section
+
+- Added support to show all the three lines of ShipTo address in Infor SX.e/CSD
+
+- Added support to synchronize more customer fields
+
+- Added support to synchronize more product fields
+
+- Category synchronization is now supported for product
+
+- Provided support to upgraded version of Stock APIs
+
+- Authentication details will now be auto-populated in the Authentication section after uploading an ionapi file
+
+- Reorganized the Cron section by grouping the Order, Customer and Product Cron.
 
 
 ## Known Issues
