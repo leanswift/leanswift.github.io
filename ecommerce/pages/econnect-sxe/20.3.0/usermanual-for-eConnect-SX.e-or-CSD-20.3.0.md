@@ -1,194 +1,179 @@
+![eConnect for Infor SX.e / Infor CloudSuite Distribution](../../../../images/banner-econnect-sxe.jpg)
 
-
-# **USER MANUAL**
-
-
-##  **LeanSwift eConnect** 
-
-##  **for** 
-
-##  **Infor Distribution SX.e**
-
-##  **and**
-
-##  **Magento**
-
-
-##  **Product Version 20.3.0**
-
+# Version 20.3.0 - User Manual
 
 # TABLE OF CONTENTS
 
 
-[GENERAL INFORMATION](#general-information)
+- [GENERAL INFORMATION](#general-information)
 
-[System Overview](#system-overview)
+- [System Overview](#system-overview)
 
-[Transactions](#transactions)
+- [Transactions](#transactions)
 
-[User Interface](#user-interface)
+- [User Interface](#user-interface)
 
-[Validated Versions](#validated-versions)
+- [Validated Versions](#validated-versions)
 
-[Point of Contact](#point-of-contact)
+- [Point of Contact](#point-of-contact)
 
-[Organization of the Manual](#organization-of-the-manual)
+- [Organization of the Manual](#organization-of-the-manual)
 
-[STANDARD TRANSACTIONS](#standard-transactions)
+- [STANDARD TRANSACTIONS](#standard-transactions)
 
-[Summary](#summary)
+- [Summary](#summary)
 
-[List of Transactions](#list-of-transactions)
+- [List of Transactions](#list-of-transactions)
 
-[Customers](#customers)
+- [Customers](#customers)
 
-[Pricing](#pricing)
+- [Pricing](#pricing)
 
-[Inventory](#inventory)
+- [Inventory](#inventory)
 
-[Sales Orders](#sales-orders)
+- [Sales Orders](#sales-orders)
 
-[Shipments And Invoices](#shipments-and-invoices)
+- [Shipments And Invoices](#shipments-and-invoices)
 
-[Order History](#order-history)
+- [Order History](#order-history)
 
-[Accounts Receivable](#accounts-receivable)
+- [Accounts Receivable](#accounts-receivable)
 
-[Assumptions/Limitations](#assumptions-limitations)
+- [Assumptions/Limitations](#assumptions-limitations)
 
-[CONFIGURATION](#configuration)
+- [CONFIGURATION](#configuration)
 
-[Magento Configuration](#magento-configuration)
+- [Magento Configuration](#magento-configuration)
 
-[System Menu](#system-menu)
+- [System Menu](#system-menu)
 
-[Configuration](#configuration)
+- [Configuration](#configuration)
 
-[Configuration/LeanSwift](#configuration/leanswift)
+- [Configuration/LeanSwift](#configuration/leanswift)
 
-[Configuration/LeanSwift/eConnect](#configuration/leanswift/econnect)
+- [Configuration/LeanSwift/eConnect](#configuration/leanswift/econnect)
 
-[General Configuration](#general-configuration)
+- [General Configuration](#general-configuration)
 
-[Email](#email)
+  - [Email](#email)
 
-[Error email send frequency](#error-email-send-frequency)
+  - [Error email send frequency](#error-email-send-frequency)
 
-[SX.e Version](#sxe-version)
+  - [SX.e Version](#sxe-version)
 
-[SX.e Connection String](#sxe-connection-string)
+  - [SX.e Connection String](#sxe-connection-string)
 
-[Location URL](#location-url)
+  - [Location URL](#location-url)
+  
+  - [Use ERP order history](#use-erp-order-history)
 
-[Use ERP order history](#use-erp-order-history)
+  - [Show My Accounts Receivable](#show-my-accounts-receivable)
 
-[Show My Accounts Receivable](#show-my-accounts-receivable)
+  - [Debug or log data](#debug-or-log-data)
 
-[Debug or log data](#debug-or-log-data)
+- [Basic Data Configuration](#basic-data-configuration)
 
-[Basic Data Configuration](#basic-data-configuration)
+  - [Company](#company)
 
-[Company](#company)
+  - [Operator Initials](#operator-initials)
 
-[Operator Initials](#operator-initials)
+  - [Operator Password](#operator-password)
 
-[Operator Password](#operator-password)
+  - [Warehouse](#warehouse)
 
-[Warehouse](#warehouse)
+-[Inventory Synchronization](#inventory-synchronization)
 
-[Inventory Synchronization](#inventory-synchronization)
+  - [Sync on Product Load](#sync-on-product-load)
 
-[Sync on Product Load](#sync-on-product-load)
+  - [Sync on Add to Cart](#sync-on-add-to-cart)
 
-[Sync on Add to Cart](#sync-on-add-to-cart)
+  - [Sync on Checkout](#sync-on-checkout)
 
-[Sync on Checkout](#sync-on-checkout)
+  - [Debug or log data](#debug-or-log-data)
 
-[Debug or log data](#debug-or-log-data)
+- [Price Synchronization](#price-synchronization)
 
-[Price Synchronization](#price-synchronization)
+  - [Sync on Product Load](#sync-on-product-load)
 
-[Sync on Product Load](#sync-on-product-load)
+  - [Sync on Product List Load](#sync-on-product-list-load)
 
-[Sync on Product List Load](#sync-on-product-list-load)
+  - [Cache Hours](#cache-hours)
 
-[Cache Hours](#cache-hours)
+  - [Debug or log data](#debug-or-log-data)
 
-[Debug or log data](#debug-or-log-data)
+- [Product Synchronization](#product-synchronization)
 
-[Product Synchronization](#product-synchronization)
+  - [Enable](#enable)
 
-[Enable](#enable)
+  - [Batch Size](#batch-size)
 
-[Batch Size](#batch-size)
+  - [Debug or log data](#debug-or-log-data)
 
-[Debug or log data](#debug-or-log-data)
+  - [SX.e Product Attribute Mapping](#sxe-product-attribute-mapping)
 
-[SX.e Product Attribute Mapping](#sxe-product-attribute-mapping)
+- [Customer Synchronization](#customer-synchronization)
 
-[Customer Synchronization](#customer-synchronization)
+  - [Update Customer Data On Login](#update-customer-data-on-login)
 
-[Update Customer Data On Login](#update-customer-data-on-login)
+  - [Billing Address Mapping](#billing-address-mapping)
 
-[Billing Address Mapping](#billing-address-mapping)
+  - [Shipping Address Mapping](#shipping-address-mapping)
 
-[Shipping Address Mapping](#shipping-address-mapping)
+- [Sales](#sales)
 
-[Sales](#sales)
+  - [Enable order comments](#enable-order-comments)
 
-[Enable order comments](#enable-order-comments)
+  - [Send order reference](#send-order-reference)
 
-[Send order reference](#send-order-reference)
+  - [Debug or log data](#debug-or-log-data)
 
-[Debug or log data](#debug-or-log-data)
+- [CRON Settings](#cron-settings)
 
-[CRON Settings](#cron-settings)
+- [Version Info](#version-info)
 
-[Version Info](#version-info)
+- [Save Configuration](#save-configuration)
 
-[Save Configuration](#save-configuration)
+- [MAGENTO STANDARD FUNCTIONALITY](#magento-standard-functionality)
 
-[MAGENTO STANDARD FUNCTIONALITY](#magento-standard-functionality)
+- [Exit System](#exit-system)
 
-[Exit System](#exit-system)
+- [PRODUCT SETUP and INFORMATION](#product-setup-and-information)
 
-[PRODUCT SETUP and INFORMATION](#product-setup-and-information)
+- [Transaction Overview](#transaction-overview)
 
-[Transaction Overview](#transaction-overview)
+- [PRICE](#price)
 
-[PRICE](#price)
+- [INVENTORY](#inventory)
 
-[INVENTORY](#inventory)
+- [Synchronization Process](#synchronization-process)
 
-[Synchronization Process](#synchronization-process)
+- [Background Sync](#background-sync)
 
-[Background Sync](#background-sync)
+- [Real time Sync](#real-time-sync)
 
-[Real time Sync](#real-time-sync)
+- [CUSTOMER SETUP and INFORMATION](#customer-setup-and-information)
 
-[CUSTOMER SETUP and INFORMATION](#customer-setup-and-information)
+- [Transaction Overview](#transaction-overview)
 
-[Transaction Overview](#transaction-overview)
+- [Synchronization Process](#synchronization-process)
 
-[Synchronization Process](#synchronization-process)
+- [ORDER CREATION](#order-creation)
 
-[ORDER CREATION](#order-creation)
+- [ORDER INFORMATION](#order-information)
 
-[ORDER INFORMATION](#order-information)
+- [Transaction Overview](#transaction-overview)
 
-[Transaction Overview](#transaction-overview)
+- [Order Status Relation](#order-status-relation)
 
-[Order Status Relation](#order-status-relation)
+- [ACCOUNTS RECEIVABLE](#accounts-receivable)
 
-[ACCOUNTS RECEIVABLE](#accounts-receivable)
-
-[CRON JOBS](#cron-jobs)
+- [CRON JOBS](#cron-jobs)
 
 # GENERAL INFORMATION
 
 # System Overview
 
-**LeanSwift eConnect for Infor Distribution SX.e** provides a seamless integration between Magento eCommerce and Infor Distribution SX.e ERP. 
+**LeanSwift eConnect for Infor Distribution SX.e** provides a seamless integration between Magento eCommerce and Infor Distribution SX.e/CSD. 
 The product consists of a base Magento extension and optional add-on extensions.
 APIs exposed by SX.e are used to manage the communication with Infor Distribution SX.e from Magento.
 
@@ -513,7 +498,6 @@ The default company in SX.e to connect with. This is mandatory to establish conn
 ### Operator Initials
 
 The operator initials in SX.e to connect with. This is mandatory to establish connection.
-
 
 
 ### Operator Password
