@@ -66,18 +66,18 @@
 
 - The metrics taken for 10k customers and its response to update in magento in the local system for Batch Size - 100.
 
-| Type | Time taken(Minutes) |
-| --- | --- | 
-| Customer sync | 4 to 5 minutes for each batch |
+  | Type | Time taken(Minutes) |
+  | --- | --- | 
+  | Customer sync | 4 to 5 minutes for each batch |
 
 - The metrics taken for 50k products(with 14 attributes configured in the mapping section) and its response to update in magento in the local system for Batch Size - 50.
 
-| Type | Time taken(Minutes) |
-| --- | --- |
-| Product with Bulk API enabled (with reindex)| 7 |
-| Product with Bulk API enabled (without reindex) | 5 |
-| Product without Bulk API enabled (with reindex)| 7 |
-| Product without Bulk API enabled (without reindex) | 4 |
+  | Type | Time taken(Minutes) |
+  | --- | --- |
+  | Product with Bulk API enabled (with reindex)| 7 |
+  | Product with Bulk API enabled (without reindex) | 5 |
+  | Product without Bulk API enabled (with reindex)| 7 |
+  | Product without Bulk API enabled (without reindex) | 4 |
 
 **Product Generation**
 
