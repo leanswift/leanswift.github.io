@@ -49,8 +49,11 @@
 
 - Authentication details will now be auto-populated in the Authentication section after uploading an ionapi file
 
-- Reorganized the Cron section by grouping the Order, Customer and Product Cron.
+- Reorganized the Cron section by grouping the Order, Customer and Product Cron
 
+- Reorganized the Cron section by grouping the Order, Customer and Product Cron
+
+- Sensitive information like passwords and URLs are hidden in the log
 
 ## Known Issues
 
