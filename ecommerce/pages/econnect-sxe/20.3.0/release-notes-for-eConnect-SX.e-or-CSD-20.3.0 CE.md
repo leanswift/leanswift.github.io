@@ -20,9 +20,11 @@
 
 ## Enhancements
 
-- Added a new section in the Magento Backend to add the extra fields to be sent while creating an order
+- Added a new section in the Magento Backend to add the extra fields to be sent while creating an order(both normal and CenPOS orders)
 
 - Provided option in the Magento Backend to mention the transaction type/order type value
+
+- Provided an option in the Magento Backend to specify CenPOS Order type and Transaction type.
 
 - Order request information is shown in the backend sales order view section
 
@@ -49,6 +51,8 @@
 ## Known Issues
 
 - Checkout sidebar is not getting updated when changing the quantity in mini cart from checkout page
+
+- CenPOS order comments won't appear in Infor SX.e/CSD.
 
 - Point to note: Customer cron will take long time to run (depending on the size of customers to be synced and the APIs configured in the Backend Mapping section).
 
