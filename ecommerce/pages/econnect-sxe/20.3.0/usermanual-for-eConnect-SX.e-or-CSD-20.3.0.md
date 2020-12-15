@@ -218,8 +218,6 @@ Current version (20.3.0) is released on **Magento Open Source 2.4.0**
     - Background Synchronization
     - Manual Synchronization
 
-**Note:** In v20.3.x, product synchronization has list price synchronization only.
-
 These above transactions can, if necessary, be modified and new transactions can be added to fulfill specific customer requirements.
 
 
