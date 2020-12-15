@@ -43,10 +43,10 @@
 
 ## Standard Features
 
-- Add-on CenPOS Payment 3.0.0 includes the following functionalities.
+Add-on CenPOS Payment 3.0.0 includes the following functionalities.
 
 - Leverages Magento’s standard Credit Card Payment functionality and provides integration with CenPOS payment processing platform.
-Order Creation in Infor Distribution SX.e for the orders placed with CenPOS credit card payment. 
+- Order Creation in Infor Distribution SX.e/Cloudsuite Distribution for the orders placed with CenPOS credit card payment. 
 
 
 
