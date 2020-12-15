@@ -602,7 +602,7 @@ Select "Yes" to log additional information about Product sync transactions in eC
 
 ### SX.e Product Attribute Mapping
 
-This section controls how Product Synchronization should behave. The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. The "SX.e Field Name" provided would be mapped to the selected "Magento Attribute" on the drop-down list. When no data is available in SX.e to synchronize, default value provided will be mapped to the selected attribute. Currently "Use On" is always "Both", meaning that the mapping holds good for both Product Addition and Modification(Sync) operations. In addition, API field can be configured with one of the below
+This section controls how Product Synchronization should behave. The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. The Default value for the attribute can be configured in "Default" field. Currently "Use On" is always "Both", meaning that the mapping holds good for both Product Addition and Modification(Sync) operations. In addition, API field can be configured with one of the below
 - Bulk [Useful only when the “Enable Bulk API” option under General Configuration section is set to Yes]
 - General
 - Price
