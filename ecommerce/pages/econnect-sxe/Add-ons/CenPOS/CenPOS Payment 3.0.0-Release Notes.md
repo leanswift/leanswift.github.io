@@ -9,7 +9,7 @@
 | Magento Open Source| 2.4.0 |
 | Infor SX.e  | 6.1.091 |
 | Infor Cloudsuite Distribution | 11.20.1 |
-| PHP version | 7.4.12 |
+| PHP | 7.4.12 |
 | LeanSwift eConnect for SX.e/CSD | 20.3.0 |
 | CenPOS SimpleWebpay - Magento Extension | 1.4.2 |
 
