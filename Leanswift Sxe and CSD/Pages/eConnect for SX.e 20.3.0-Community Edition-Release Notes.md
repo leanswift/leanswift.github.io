@@ -30,40 +30,44 @@
 ## Enhancements
 
 Added a new section in the admin to add the extra fields to be sent while creating an order. This same section can be used for SX.e and CSD.
+
 Added support to sync more customer fields from the following APIs
 - sxapiARGetCustomerDataGeneralV2
 - sxapiARGetCustomerDataGeneralRest
 - sxapiARGetCustomerDataOrdering
 - sxapiARGetCustomerDataOrderingRest
 - sxapiARGetCustomerDataTaxing
+
 Enhanced Product sync to support more attributes from following APIs 
 - sxapiICGetWhseProductDataGeneralV3
 - sxapiICGetProductDataGeneralV4
 - sxapiICGetWhseProductDataTaxingv2
 
 
-## Issues faced
+## Known Issues
 
 Checkout sidebar is not getting updated when changing the quantity in mini cart from checkout page]
 CenPOS order comments will not work
-Point to note: Customer cron will take long time to run (depending on the size of customers to be synced )since concurrent api call could not be made.
+Point to note: Customer cron will take long time to run (depending on the size of customers to be synced)since concurrent api call could not be made.
 
 ## Metrics
 
-The metrics taken for 50k products and its response to update in magento in the local system for  Batch Size - 50.
+The metrics taken for 50k products and its response to update in magento in the local system for Batch Size - 50.
 
-| Type | Time taken(Seconds) |
+| Type | Time taken(Minutes) |
 | --- | --- |
-| Product with bulk | 462.45355701447 |
-| Product without bulk | 289.18326210976|
+| Product with Bulk API enabled (with reindex)| 7 |
+| Product with Bulk API enabled (without reindex) | 5|
+| Product without Bulk API enabled (with reindex)| 7 |
+| Product without Bulk API enabled (without reindex) | 4|
 
-The metrics taken for 10k customers and its response to update in magento via cron is as below 
+The metrics taken for 10k customers and its response to update in magento in the local system for Batch Size - 100
 
-| Type | Time taken(Seconds) |
+| Type | Time taken(Minutes) |
 | --- | --- | 
-| Customer sync | 4minutes |
+| Customer sync | 4 to 5 minutes for each batch |
 
-The metrics taken for Order creation and sync in CSD for a quanitiy of 100 orders in cron is 407.21320414543 (in seconds)
+The metrics taken for Order creation and sync in CSD for a quanitiy of 100 orders with 2 or 3 lines in cron is 407.21320414543 (in seconds)
 
 ## Product Generation
 
