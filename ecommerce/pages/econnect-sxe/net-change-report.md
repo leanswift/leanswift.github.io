@@ -3,7 +3,7 @@
 ## Table of contents
   - [20.3.0](#2020)
     - [Enhancements](#enhancements)
-    - [Known Issues](#known issues)
+    - [Known Issues](##known-issues)
 
 ## 20.3.0
 
