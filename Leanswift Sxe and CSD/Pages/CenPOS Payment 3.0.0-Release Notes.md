@@ -63,7 +63,7 @@ https://drive.google.com/file/d/1MVuH_VDPCbt1tcICTAoJIzz1yLA4TAXa/view?usp=shari
 
 ## Additional Information
 
-Sandbox CenPos portal has certain result codes and amounts which cannot be used for order processing. These result codes and corresponding error messages are mentioned in the below link
+- Sandbox CenPos portal has certain result codes and amounts which cannot be used for order processing. These result codes and corresponding error messages are mentioned in the below link
 https://drive.google.com/file/d/17t_Y5uehU_bf9mv2nn77GXipg13nPVne/view
 
 
