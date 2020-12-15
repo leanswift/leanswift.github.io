@@ -4,11 +4,6 @@
 
 # eConnect for SX.e/CSD - Net Change Report
 
-## Table of contents
-  - [20.3.0](#2030)
-    - [Enhancements](#enhancements)
-    - [Known Issues](#known-issues)
-
 ## 20.3.0
 
 ### Enhancements
