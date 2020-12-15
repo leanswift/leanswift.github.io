@@ -13,7 +13,16 @@
 
 - ## User Manual
 
+- [User Manual - SX.e and CSD](leanswift.github.io/ecommerce/pages/econnect-sxe/20.3.0/usermanual-econnect-SX.e&CSD-20.3.0.md)
+
+- [User Manual - CenPOS](leanswift.github.io/ecommerce/pages/econnect-sxe/Add-ons/CenPOS/usermanual for CenPOS-3.0.0.md)
+
+
 - ## Release Notes
+
+- [Release Notes - SX.e](leanswift.github.io/ecommerce/pages/econnect-sxe/20.3.0/release-notes-for-eConnect-SX.e-or-CSD-20.3.0 CE.md)
+
+- [Release Notes - CenPOS](leanswift.github.io/ecommerce/pages/econnect-sxe/Add-ons/CenPOS/CenPOS Payment 3.0.0-Release Notes.md)
 
 ---
 
