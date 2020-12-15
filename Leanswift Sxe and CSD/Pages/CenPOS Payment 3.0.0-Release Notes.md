@@ -33,14 +33,6 @@
 
 
 
-## Enhancements
-
-- Added a new section in the Magento Backend to add the extra fields to be sent while creating an order. This same section can be used for SX.e and CSD CenPOS orders.
-
-- Provided an option in the Magento Backend to specify CenPOS Order type and Transaction type.
-
-
-
 ## Standard Features
 
 Add-on CenPOS Payment 3.0.0 includes the following functionalities.
@@ -53,7 +45,22 @@ Add-on CenPOS Payment 3.0.0 includes the following functionalities.
 ## Highlights
 
 - This is the third version of integration between Magento and Infor SX.e/CSD with CenPOS payment option.
+
 - Enables Secure and PCI compliant integration with SX.e.
+
+
+
+## Enhancements
+
+- Added a new section in the Magento Backend to add the extra fields to be sent while creating an order. This same section can be used for SX.e and CSD CenPOS orders.
+
+- Provided an option in the Magento Backend to specify CenPOS Order type and Transaction type.
+
+
+
+## Known Issues
+
+- CenPOS order comments won't appear in Infor SX.e/CSD.
 
 
 
