@@ -1,5 +1,7 @@
 # Version 3.0.0 - CenPOS Addon for eConnect SX.e/CSD
 
+## User Manual
+
 - Payment using CenPOS is developed as a separate Add-on to the eConnect extension. CenPOS’s Magento Extension SimpleWebpay is a prerequisite for this Add-on and we use the following GitHub link to download this extension.
 
   - https://github.com/mastercelta/SimpleWebpay/blob/master/composer.json
