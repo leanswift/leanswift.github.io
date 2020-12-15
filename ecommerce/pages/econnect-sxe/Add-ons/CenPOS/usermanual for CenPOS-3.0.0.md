@@ -8,7 +8,7 @@
 
 - So the version number of SX.e that eConnect is integrated with, has to be configured in the admin panel when this add-on is activated. If version is 6.1.091 or higher and SimpleWebPay module configuration is also available, then CC payment mode will be activated at “checkout” and order in SX.e will be created via SFOEOrderTotLoadV4 API. Otherwise order in SX.e will be created via OEFullOrderMntV6 API.
 
-## Payment Configuration
+## SimpleWebpay Configuration
 
   - Go to Stores > Configuration > Sales > Payment Methods > Other Payment Methods and look for Simple Webpay.
 
