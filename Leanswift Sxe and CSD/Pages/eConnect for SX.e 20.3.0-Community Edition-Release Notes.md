@@ -1,41 +1,11 @@
 
 
-
-
-
 # **eConnect for SX.e** 
 # **20.3.0** 
 # **Community Edition**
 
 
-
-
-
 # **Internal Release Notes**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 - Table of Contents
 - Environment Details	
@@ -44,28 +14,6 @@
 - GitHub Link
 - Documentation
 - Points of Contact
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Environment Details
@@ -103,12 +51,9 @@ Enhanced Product sync to support more attributes from following APIs
 
 
 
-
-
 ## Metrics
 
 The metrics taken for 50k products and its response to update in magento in the local system for  Batch Size - 50.
-
 
 Type
 Time taken(Minutes)
@@ -159,7 +104,6 @@ https://github.com/leanswift/eConnect-SXe/releases/tag/20.2.0
 ## Documentation
 
 All relevant documentation regarding release 20.3.0 are available on LeanSwift’s Intranet 
-
 
 
 ## Points of Contact
