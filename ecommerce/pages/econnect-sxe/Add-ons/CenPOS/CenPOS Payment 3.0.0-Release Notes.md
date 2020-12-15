@@ -1,11 +1,5 @@
 
-# CenPOS Payment
-
-## Community Edition
-
-## Add-on for eConnect for SX.e/CSD
-
-## Version 3.0.0 
+# Version 3.0.0 - CenPOS Addon for eConnect SX.e/CSD
 
 ## Release notes
 
@@ -38,6 +32,7 @@
 Add-on CenPOS Payment 3.0.0 includes the following functionalities.
 
 - Leverages Magento’s standard Credit Card Payment functionality and provides integration with CenPOS payment processing platform.
+
 - Order Creation in Infor Distribution SX.e/Cloudsuite Distribution for the orders placed with CenPOS credit card payment. 
 
 
@@ -64,14 +59,11 @@ Add-on CenPOS Payment 3.0.0 includes the following functionalities.
 
 
 
-## Documentation
+## References Links
 
-https://drive.google.com/file/d/1MVuH_VDPCbt1tcICTAoJIzz1yLA4TAXa/view?usp=sharing
-
-## Additional Information
-
-- Sandbox CenPos portal has certain result codes and amounts which cannot be used for order processing. These result codes and corresponding error messages are mentioned in the below link
-https://drive.google.com/file/d/17t_Y5uehU_bf9mv2nn77GXipg13nPVne/view
+  - https://drive.google.com/file/d/1vl9CaGhkZeR6-tLiMqXZHyKYWZECmI3p/view
+  - https://drive.google.com/file/d/1MVuH_VDPCbt1tcICTAoJIzz1yLA4TAXa/view
+  - https://drive.google.com/file/d/1DwuJWAmHwvzDUqmguSYvJg952KJqNV84/view
 
 
 ## Points of contact
