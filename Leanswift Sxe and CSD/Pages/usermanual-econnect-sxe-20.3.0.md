@@ -84,7 +84,7 @@
 
 [Show My Accounts Receivable](#show-my-accounts-receivable)
 
-[Debug/log data](#debug-log-data)
+[Debug or log data](#debug-log-data)
 
 [Basic Data Configuration](#basic-data-configuration)
 
@@ -104,7 +104,7 @@
 
 [Sync on Checkout](#sync-on-checkout)
 
-[Debug/log data](#debug-log-data)
+[Debug or log data](#debug-log-data)
 
 [Price Synchronization](#price-synchronization)
 
@@ -114,7 +114,7 @@
 
 [Cache Hours](#cache-hours)
 
-[Debug/log data](#debug-log-data)
+[Debug or log data](#debug-log-data)
 
 [Product Synchronization](#product-synchronization)
 
@@ -122,7 +122,7 @@
 
 [Batch Size](#batch-size)
 
-[Debug/log data](#debug-log-data)
+[Debug or log data](#debug-log-data)
 
 [SX.e Product Attribute Mapping](#sxe-product-attribute-mapping)
 
@@ -140,7 +140,7 @@
 
 [Send order reference](#send-order-reference)
 
-[Debug/log data](#debug-log-data)
+[Debug or log data](#debug-log-data)
 
 [CRON Settings](#cron-settings)
 
@@ -489,11 +489,11 @@ Select "No" to only use the order history from Magento when the user selects _Or
 
 Select "Yes" to retrieve and display accounts receivable information from SX.e when user selects _My Accounts Receivable_ section in _My Account_. This will make accounts receivable information synchronize seamlessly between Magento and SX.e.
 
-### Debug/log data Accounts Receivable data
+### Debug or log data Accounts Receivable data
 
 Select "Yes" to log additional information in Magento. This setting is recommended in the Test/Staging environment but should be set to "No" in production to improve performance.
 
-### Debug/log data
+### Debug or log data
 
 Select "Yes" to log additional information in Magento. This setting is recommended in the Test/Staging environment but should be set to "No" in production to improve performance.
 
@@ -546,7 +546,7 @@ Enabling this option ensures a real-time inventory call is performed when a prod
 Enabling this option ensures a real-time inventory call is performed during the final stage of the Checkout process (when the order is confirmed by the customer).
 
 
-### Debug/log data
+### Debug or log data
 
 Select "Yes" to log additional information about Inventory transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
 
@@ -572,7 +572,7 @@ Setting this parameter to 'Yes' enables the real-time price call transaction for
 Leaving this value blank ensures that the price retrieved from SX.e is stored locally within a Magento extension table for 8 hrs. A value of '1' or greater (integer) ensures that the price retrieved from SX.e is stored locally within a Magento extension table, and won't be refreshed (no real-time call would be made) for as many hours.
 
 
-### Debug/log data
+### Debug or log data
 
 Select "Yes" to log additional information about Price transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
 
@@ -594,7 +594,7 @@ Setting this parameter to 'Yes' enables product synchronization.
 
 This refers to the number of products that are synchronized with SX.e at a given point of time. Default batch size is 100. The number has to be \&lt;1000.
 
-### Debug/log data
+### Debug or log data
 
 Select "Yes" to log additional information about Product sync transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
 
@@ -671,7 +671,7 @@ This section controls how the Shipping (Ship-to) Addresses for the customer in M
 
 The mapping is done in the same way as for Product Sync and Billing Address, for example. The Magento address attribute to map is selected from the drop-down list in the 'Magento Attribute' column. This SX.e attribute should be mapped to the value in the 'SX.e Field Name' column.
 
-### Debug/log data
+### Debug or log data
 
 Select "Yes" to log additional information about Customer Address transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
 
@@ -683,6 +683,41 @@ The 'Sales' section contains three settings related to the sales order process f
 <kbd>
 <img alt ="sales config" src="../../Leanswift Sxe and CSD/Images/sales_config.png"></kbd>
 
+### Extra fields for Order Creation
+
+Using this mapping section
+- Extra fields can be sent in Order Creation request. 
+- We can also overwrite the existing request values.
+
+**Magento Field Name **
+
+Magento Attribute code -  [When entity is Customer/Customer-Billing/Customer-Shipping/Product],
+Column Name => [When entity is Order],
+XML config path[When the entity is Config-Store/Website/Global] => For example, "econnectSXE/basic_data/order_type"]
+
+**SX.e Field Name(case sensitive)** 
+This is Order creation request’s node/element name
+- ShipVia(SX.e)
+- shipVia(CSD)
+
+**SX.e Section(case sensitive)** 
+This is Order creation request’s section name
+- Initem(SX.e) 
+- sxt_itemv4(CSD)
+
+**Default Value**
+The value given here will only be taken if the entity is chosen as "static"
+
+**Entity**
+
+Static => The value provided in "Default Value" will be taken. If any existing static value of the Order Request has to be changed then this will be useful. No need to specify “Magento Field Name” when choosing this option
+Customer => Values of Customer attributes[Can be custom or default attribute]
+Customer - Billing => Values of Customer Billing address attributes[Can be custom or default attribute]
+Customer - Shipping => Values of Customer Shipping address attributes[Can be custom or default attribute]
+Order => Values of Order Object only
+Product => Values of Product attributes.[Note: We can fetch the product information only from the order items of the order object. So, any product attribute(custom or default) can be added but only to the order item section]
+Config - Store, Website, Global => Value will be taken using the configuration path value given in "Magento Field Name" and the chosen entity
+
 ### Enable order comments
 
 If set to 'Yes', this enables sending header-level comments [entered in the last step of the Checkout process] for the entire order to M3.
@@ -691,7 +726,7 @@ If set to 'Yes', this enables sending header-level comments [entered in the last
 
 If set to 'Yes', the web order number (Magento order number) will be sent to SX.e in the order. This number will be saved in the "Reference" field of the sales order created in SX.e.
 
-### Debug/log data
+### Debug or log data
 
 Select "Yes" to log additional information about Order transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
 
