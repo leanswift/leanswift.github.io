@@ -5,18 +5,17 @@
 
 ##  **LeanSwift eConnect** 
 
- **for** 
+##  **for** 
 
-**Infor Distribution SX.e**
+##  **Infor Distribution SX.e**
 
-**and**
+##  **and**
 
-**Magento**
+##  **Magento**
 
 
-**Product Version 20.3.0**
+##  **Product Version 20.3.0**
 
-**USER MANUAL**
 
 # TABLE OF CONTENTS
 
@@ -410,7 +409,6 @@ The following picture shows the sections that are included in base eConnect conf
 
 ## General Configuration
 
-##
 
 The **General** section contains a number of basic settings that are generic for this instance of eConnect.
 
@@ -637,8 +635,19 @@ The **Customer Synchronization** group contains all settings related to synchron
 - Address data is synchronized; Billing and Ship-to Addresses.
 - Address data sync is one-way: SX.e --> Magento
 
+### Customer Mapping
+
 <kbd>
 <img alt ="customer synchronization attributes " src="../../Leanswift Sxe and CSD/Images/customerattribute_sync.png"></kbd>
+
+This section controls how Customer attribute Synchronization should behave. The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. In addition, API field can be configured with one of the below
+
+- Tax
+- General - Rest
+- General - V2
+- Ordering
+- Ordering - Rest
+
 
 ### Update Customer Data On Login
 
