@@ -79,14 +79,14 @@
   | Product without Bulk API enabled (with reindex)| 7 |
   | Product without Bulk API enabled (without reindex) | 4 |
 
-**Product Generation**
+  **Reference document to generate sample products**
 
-https://docs.google.com/document/d/1UVBOFmWBvb7gjMYaM1kCoSiXysMILLVxTwWy8Wmvj14/edit#heading=h.d3mplszcczxv
+  https://docs.google.com/document/d/1UVBOFmWBvb7gjMYaM1kCoSiXysMILLVxTwWy8Wmvj14/edit#heading=h.d3mplszcczxv
 
 
-**Bulk update magento** 
+  **Reference document to generate mock response** 
 
-https://docs.google.com/document/d/1q6F9qDYb6NQ3SD7_atTA6AeGYoBQjKAz6f5ExAiKACo/edit
+  https://docs.google.com/document/d/1q6F9qDYb6NQ3SD7_atTA6AeGYoBQjKAz6f5ExAiKACo/edit
 
 
 ## JIRA References
