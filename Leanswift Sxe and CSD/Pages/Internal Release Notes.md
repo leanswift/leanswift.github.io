@@ -37,13 +37,13 @@
 
 
 
-Table of Contents
-Environment Details	3
-Enhancements	3
-JIRA References	3
-GitHub Link	3
-Documentation	3
-Points of Contact	3
+- Table of Contents
+- Environment Details	
+- Enhancements	
+- JIRA References
+- GitHub Link
+- Documentation
+- Points of Contact
 
 
 
@@ -68,7 +68,7 @@ Points of Contact	3
 
 
 
-Environment Details
+## Environment Details
 
 Software Name
 Version
@@ -83,7 +83,7 @@ Php version
 
 
 
-Enhancements
+## Enhancements
 
 Added a new section in the admin to add the extra fields to be sent while creating an order. This same section can be used for SX.e and CSD.
 Added support to sync more customer fields from the following APIs
@@ -99,13 +99,13 @@ sxapiICGetWhseProductDataTaxingv2
 
 
 
-Issues faced
+## Issues faced
 
 
 
 
 
-Metrics
+## Metrics
 
 The metrics taken for 50k products and its response to update in magento in the local system for  Batch Size - 50.
 
@@ -136,35 +136,33 @@ Product with indexer
 80
 
 
-Product Generation
+## Product Generation
 
 https://docs.google.com/document/d/1UVBOFmWBvb7gjMYaM1kCoSiXysMILLVxTwWy8Wmvj14/edit#heading=h.d3mplszcczxv
 
 
-
-Bulk update magento
+## Bulk update magento
 
 https://docs.google.com/document/d/1q6F9qDYb6NQ3SD7_atTA6AeGYoBQjKAz6f5ExAiKACo/edit
 
 
-JIRA References
+## JIRA References
 
 All
 User Stories/Tasks
 Bugs Identified/Fixed/Closed 
 
-GitHub Link
+## GitHub Link
 
 https://github.com/leanswift/eConnect-SXe/releases/tag/20.2.0
 
-Documentation
+## Documentation
 
 All relevant documentation regarding release 20.3.0 are available on LeanSwift’s Intranet 
 
 
 
-Points of Contact
-
+## Points of Contact
 
 nanthini.muralidaran@leanswift.com
 srinidhi.narayanan@leanswift.com
