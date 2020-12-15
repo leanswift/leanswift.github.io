@@ -62,7 +62,7 @@ The metrics taken for 10k customers and its response to update in magento in the
 | --- | --- | 
 | Customer sync | 4 to 5 minutes for each batch |
 
-The metrics taken for 50k products and its response to update in magento in the local system for Batch Size - 50.
+The metrics taken for 50k products(with 14 attributes configured in the mapping section) and its response to update in magento in the local system for Batch Size - 50.
 
 | Type | Time taken(Minutes) |
 | --- | --- |
