@@ -50,7 +50,7 @@
 
 - Checkout sidebar is not getting updated when changing the quantity in mini cart from checkout page
 
-- Point to note: Customer cron will take long time to run (depending on the size of customers to be synced and the APIs configured in the Backend Mapping section).
+- Point to note: Customer cron will take a long time to run (depending on the size of customers to be synced and the APIs configured in the Backend Mapping section).
 
 ## Metrics
 
