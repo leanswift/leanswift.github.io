@@ -19,6 +19,7 @@
 ## Environment Details
 
 | Software Name | Version | 
+| --- | --- |
 | Magento Open Source| 2.4.0 |
 | Infor SX.e  | 6.1.091 |
 | Infor Cloudsuite Distribution | 11.20.1 |
@@ -52,14 +53,14 @@ Point to note: Customer cron will take long time to run (depending on the size o
 The metrics taken for 50k products and its response to update in magento in the local system for  Batch Size - 50.
 
 | Type | Time taken(Seconds) |
-
+| --- | --- |
 | Product with bulk | 462.45355701447 |
 | Product without bulk | 289.18326210976|
 
 The metrics taken for 10k customers and its response to update in magento via cron is as below 
 
 | Type | Time taken(Seconds) |
-
+| --- | --- | 
 | Customer sync | 4minutes |
 
 The metrics taken for Order creation and sync in CSD for a quanitiy of 100 orders in cron is 407.21320414543 (in seconds)
