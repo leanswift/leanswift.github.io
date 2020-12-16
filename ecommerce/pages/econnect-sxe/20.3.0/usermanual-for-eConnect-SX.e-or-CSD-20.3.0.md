@@ -208,7 +208,7 @@ Has two options in the dropdown, namely
 
 (1) 6-10
 
-(2) 11
+(2) CSD
 
 Versions 6-10 support SOAP web services to access SX.e whereas versions 11+ for CloudSuite Distribution support ION REST APIs. One of the two options **must** be selected.
 
@@ -229,15 +229,15 @@ Example: [http://24.89.159.5/sxapi/Service.svc](http://24.89.159.5/sxapi/Service
 
 **Enable Bulk API**
 
-If BULK API option is enabled , then BULK API ICGetWhseProductListV3 is used to update the products based on the warehouse.
-The warehouse is a request param and list of products will be returned in warehouse and product price and qty got updated in Magento.
+If "Enable Bulk API" option is set to "Yes", then the BULK API(ICGetWhseProductListV3) is used to update the products based on the warehouse.
+The warehouse is a request param and list of warehouse products will be returned and the attribuites of product such as price and others and qty got updated in Magento.
 
 If the option is disabled then the product price and stock is updated using below APIs where the list of products are sent as a batch and will get updated in Magento.
 
-- Product price: ICGetWhseProductDataGeneralV2
+- Product price: ICGetWhseProductDataGeneral
+- Product general: ICGetProductDataGeneral
+- Product tax: ICGetWhseProductDataTaxing
 - Product inventory: ICGetWhseProductDataQuantity
-
-The stock is updated in different CRON it will be working only when the BULK API option is disabled.
 
 
 **For CloudSuite Distribution**
@@ -246,13 +246,13 @@ The stock is updated in different CRON it will be working only when the BULK API
 ### SX.e ION REST API Service URL
 
 
-If selected SX.e Version is 11, this field should have the REST endpoint (URL) to connect to SX.e's ION web services.
+If selected SX.e Version is CSD, this field should have the REST endpoint (URL) to connect to SX.e's ION web services.
 
 
 ### Token URL
 
 
-If selected SX.e Version is 11, this field should have the URL to retrive OAuth Token to be able to access SX.e's ION web services.
+If selected SX.e Version is CSD, this field should have the URL to retrive OAuth Token to be able to access SX.e's ION web services.
 
 ### Use ERP order history
 
@@ -286,16 +286,19 @@ The **Basic Data** section of the configuration contains a number of key setting
 
 ### Company
 
-The default company in SX.e to connect with. This is mandatory to establish connection.
+The default company in SX.e/CSD to connect with. This is mandatory to establish connection.
 
 ### Operator Initials
 
 The operator initials in SX.e to connect with. This is mandatory to establish connection.
 
-
 ### Operator Password
 
 The operator password in SX.e to connect with. This is mandatory to establish connection.
+
+### Type
+
+To mention the type of order/transaction type.
 
 ### Warehouse
 
@@ -367,6 +370,24 @@ The Magento product attribute is mapped to a field from SX.e SOAP response using
 
 Setting this parameter to 'Yes' enables product synchronization.
 
+### SX.e Product Attribute Mapping
+
+This section controls how Product Synchronization should behave. 
+  The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. 
+  The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. 
+  Default value for the attribute can be configured in "Default" field. 
+  Use On - Synchronization/Both
+  In addition, API field can be configured with one of the below
+    - Bulk [Useful only when the “Enable Bulk API” option under General Configuration section is set to Yes]
+    - General
+    - Price
+    - Tax
+
+Product sync can be run manually from the product grid. There is also a cron job available to run the product synchronization in the background.
+
+<kbd>
+<img alt ="product manual synchronization" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/product_manualsync.png"></kbd>
+
 ### Batch Size
 
 This refers to the number of products that are synchronized with SX.e at a given point of time. Default batch size is 100. The number has to be \&lt;1000.
@@ -374,19 +395,6 @@ This refers to the number of products that are synchronized with SX.e at a given
 ### Debug or log data
 
 Select "Yes" to log additional information about Product sync transactions in eConnect. This setting is recommended in Test/Staging environment but should be set to "No" in production to improve performance. This setting overrides the global setting available in the "_General_" section of configuration.
-
-### SX.e Product Attribute Mapping
-
-This section controls how Product Synchronization should behave. The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. The Default value for the attribute can be configured in "Default" field. Currently "Use On" is always "Both", meaning that the mapping holds good for both Product Addition and Modification(Sync) operations. In addition, API field can be configured with one of the below
-- Bulk [Useful only when the “Enable Bulk API” option under General Configuration section is set to Yes]
-- General
-- Price
-- Tax
-
-Product sync can be run manually from the product grid. There is also a cron job available to run the product synchronization in the background.
-
-<kbd>
-<img alt ="product manual synchronization" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/product_manualsync.png"></kbd>
 
 ## Category Synchronization
 
@@ -401,14 +409,20 @@ This setting is in global scope and when set to 'Yes', enables the category to b
 
 ### Default Fallback Category Id
 
-When no category is available in Sxe / CSD for the product, the product is synced with value selected in 'Default Fallback Category Id'
+When no category is available in Sx.e/CSD for the product, the product is synced with value selected in 'Default Fallback Category Id'
 
 
 ## Customer Synchronization
 
+
+### Update Customer Data On Login
+
+This setting provides the option to in real-time initiate an update of the address data that's been mapped for synchronization from SX.e within the **Customer Synchronization** section.
+
 The **Customer Synchronization** group contains all settings related to synchronizing Customer data. In this version, the following limitations apply:
 
 - Sync only applies to existing customers (i.e. customer exist in both SX.e and Magento)
+- Customer data is synchronized; General, Order, Tax
 - Address data is synchronized; Billing and Ship-to Addresses.
 - Address data sync is one-way: SX.e --> Magento
 
@@ -417,18 +431,15 @@ The **Customer Synchronization** group contains all settings related to synchron
 <kbd>
 <img alt ="customer synchronization attributes " src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/customerattribute_sync.png"></kbd>
 
-This section controls how Customer attribute Synchronization should behave. The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. In addition, API field can be configured with one of the below
-
-- Tax
-- General - Rest
-- General - V2
-- Ordering
-- Ordering - Rest
-
-
-### Update Customer Data On Login
-
-This setting provides the option to in real-time initiate an update of the address data that's been mapped for synchronization from SX.e within the **Customer Synchronization** section.
+This section controls how Customer attribute Synchronization should behave. 
+  The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. 
+  The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. 
+  In addition, API field can be configured with one of the below
+    - Tax
+    - General - Rest
+    - General - V2
+    - Ordering
+    - Ordering - Rest
 
 ### Billing Address Mapping
 
@@ -466,34 +477,46 @@ Using this mapping section
 - Extra fields can be sent in Order Creation request. 
 - We can also overwrite the existing request values.
 
-**Magento Field Name **
+  **Magento Field Name **
+    Magento Attribute code -  [When entity is Customer/Customer-Billing/Customer-Shipping/Product],
+    Column Name => [When entity is Order],
+    XML config path[When the entity is Config-Store/Website/Global] => For example, "econnectSXE/basic_data/order_type"]
 
-Magento Attribute code -  [When entity is Customer/Customer-Billing/Customer-Shipping/Product],
-Column Name => [When entity is Order],
-XML config path[When the entity is Config-Store/Website/Global] => For example, "econnectSXE/basic_data/order_type"]
+  **SX.e Field Name(case sensitive)** 
+    This is Order creation request’s node/element name
+    - ShipVia(SX.e)
+    - shipVia(CSD)
 
-**SX.e Field Name(case sensitive)** 
-This is Order creation request’s node/element name
-- ShipVia(SX.e)
-- shipVia(CSD)
+  **SX.e Section(case sensitive)** 
+  This is Order creation request’s section name
+  - Initem(SX.e) 
+  - sxt_itemv4(CSD)
 
-**SX.e Section(case sensitive)** 
-This is Order creation request’s section name
-- Initem(SX.e) 
-- sxt_itemv4(CSD)
+  **Default Value**
+  The value given here will only be taken if the entity is chosen as "static"
 
-**Default Value**
-The value given here will only be taken if the entity is chosen as "static"
+  **Entity**
+  Static
+    The value provided in "Default Value" will be taken. If any existing static value of the Order Request has to be changed then this will be useful. No need to specify “Magento Field Name” when choosing this option
+  Customer
+    Values of Customer attributes[Can be custom or default attribute]
+  Customer - Billing
+    Values of Customer Billing address attributes[Can be custom or default attribute]
+  Customer - Shipping
+    Values of Customer Shipping address attributes[Can be custom or default attribute]
+  Order
+    Values of Order Object only
+  Product
+    Values of Product attributes.[Note: We can fetch the product information only from the order items of the order object. So, any product attribute(custom or default) can be added but only to the order item section]
+  Config - Store, Website, Global 
+    Value will be taken using the configuration path value given in "Magento Field Name" and the chosen entity
+    
+   **Note:** Since we have few limitations to the above method when comes to Order and Product Entities, I have provided a method where the additional required data can be passed and which will be automatically updated in the required section.
 
-**Entity**
-
-Static => The value provided in "Default Value" will be taken. If any existing static value of the Order Request has to be changed then this will be useful. No need to specify “Magento Field Name” when choosing this option
-Customer => Values of Customer attributes[Can be custom or default attribute]
-Customer - Billing => Values of Customer Billing address attributes[Can be custom or default attribute]
-Customer - Shipping => Values of Customer Shipping address attributes[Can be custom or default attribute]
-Order => Values of Order Object only
-Product => Values of Product attributes.[Note: We can fetch the product information only from the order items of the order object. So, any product attribute(custom or default) can be added but only to the order item section]
-Config - Store, Website, Global => Value will be taken using the configuration path value given in "Magento Field Name" and the chosen entity
+      Method Name - setExtraFields() or getExtraFields() under Helper/Order.php
+      Param should have the format of: 
+      ['section' => array('FieldName' => 'FieldValue')]
+      Example: ['sxt_itemV4' => array('ordertype' => Value)]
 
 ### Enable order comments
 
