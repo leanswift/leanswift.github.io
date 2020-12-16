@@ -512,19 +512,26 @@ Using this mapping section
   **Entity**
   
   - Static
+      
       The value provided in "Default Value" will be taken. If any existing static value of the Order Request has to be changed then this will be useful. No need to specify “Magento Field Name” when choosing this option
   - Customer
+      
       Values of Customer attributes[Can be custom or default attribute]
   - Customer - Billing
-      Values of Customer Billing address attributes[Can be custom or default attribute]
+     
+     Values of Customer Billing address attributes[Can be custom or default attribute]
   - Customer - Shipping
-      Values of Customer Shipping address attributes[Can be custom or default attribute]
+     
+     Values of Customer Shipping address attributes[Can be custom or default attribute]
   - Order
-      Values of Order Object only
+     
+     Values of Order Object only
   - Product
-      Values of Product attributes.[Note: We can fetch the product information only from the order items of the order object. So, any product attribute(custom or default) can be added but only to the order item section]
+     
+     Values of Product attributes.[Note: We can fetch the product information only from the order items of the order object. So, any product attribute(custom or default) can be added but only to the order item section]
   - Config - Store, Website, Global 
-      Value will be taken using the configuration path value given in "Magento Field Name" and the chosen entity
+     
+     Value will be taken using the configuration path value given in "Magento Field Name" and the chosen entity
     
    **Note:** Since we have few limitations to the above method when comes to Order and Product Entities, I have provided a method where the additional required data can be passed and which will be automatically updated in the required section.
 
