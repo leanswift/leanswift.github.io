@@ -190,8 +190,16 @@ The following picture shows the sections that are included in base eConnect conf
 
 The **General** section contains a number of basic settings that are generic for this instance of eConnect.
 
+**For SX.e version - 6 to 10**
+
 <kbd>
 <img alt ="general configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/general_config.png"></kbd>
+
+
+**For SX.e version - CSD**
+
+<kbd>
+<img alt ="leanswift sxe" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/ion_configuration.png"></kbd>
 
 
 ### Email
@@ -238,12 +246,6 @@ If the option is disabled then the product price and stock is updated using belo
 - Product general: ICGetProductDataGeneral
 - Product tax: ICGetWhseProductDataTaxing
 - Product inventory: ICGetWhseProductDataQuantity
-
-
-**For CloudSuite Distribution**
-
-<kbd>
-<img alt ="leanswift sxe" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/ion_configuration.png"></kbd>
 
 
 ### SX.e ION REST API Service URL
@@ -381,10 +383,12 @@ This section controls how Product Synchronization should behave.
   Default value for the attribute can be configured in "Default" field. 
   Use On - Synchronization/Both
   In addition, API field can be configured with one of the below
-    - Bulk [Useful only when the “Enable Bulk API” option under General Configuration section is set to Yes]
-    - General
-    - Price
-    - Tax
+    - Bulk (ICGetWhseProductListV3) [Useful only when the “Enable Bulk API” option under General Configuration section is set to Yes]
+    - General (sxapiICGetProductDataGeneralV4)
+    - Price (sxapiICGetWhseProductDataGeneralV3)
+    - Tax (sxapiICGetWhseProductDataTaxingv2)
+      
+      Note: API version might differ for SX.e and CSD
 
 Product sync can be run manually from the product grid. There is also a cron job available to run the product synchronization in the background.
 
@@ -438,11 +442,13 @@ This section controls how Customer attribute Synchronization should behave.
   The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. 
   The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. 
   In addition, API field can be configured with one of the below
-    - Tax
-    - General - Rest
-    - General - V2
-    - Ordering
-    - Ordering - Rest
+    - Tax (sxapiARGetCustomerDataTaxing)
+    - General - Rest (sxapiARGetCustomerDataGeneralRest)
+    - General - V2 (sxapiARGetCustomerDataGeneralV2)
+    - Ordering (sxapiARGetCustomerDataOrdering)
+    - Ordering - Rest (sxapiARGetCustomerDataOrderingRest)
+      
+      Note: API version might differ for SX.e and CSD
 
 ### Billing Address Mapping
 
