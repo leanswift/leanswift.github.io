@@ -242,6 +242,9 @@ If the option is disabled then the product price and stock is updated using belo
 
 **For CloudSuite Distribution**
 
+<kbd>
+<img alt ="leanswift sxe" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/ion_configuration.png"></kbd>
+
 
 ### SX.e ION REST API Service URL
 
@@ -648,7 +651,7 @@ This functionality enables customer addresses to be synced over to Magento from 
 
 ## Synchronization Process
 
-The synchronization of the customer information can be handled in two different ways – manually via the Customer grid or automatically via a cron (background) job.
+The synchronization of the customer information can be handled in two different ways – manually via the Customer grid, during the customer frontend login or automatically via a cron (background) job.
 
 
 # ORDER CREATION
@@ -740,30 +743,60 @@ _Stores > Configuration > eConnect > Cron_:
 <kbd>
 <img alt ="Cron Section" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/cron_section.png"></kbd>
 
+## Order
+
 **Cron settings for send orders to ERP**
 
 This job controls how often new orders are sent to SX.e from Magento.
-
-**Cron settings for getting ERP Orders**
-
-This job controls how often the Order history that's visible for the customer when logged in from the Magento front-end is updated.
-
-**Cron settings for getting Customer Account Balances**
-
-This job controls how often the customer account balance information that's visible for the customer when logged in from the Magento front-end is updated.
-
-**Cron settings for Inventory Sync**
-
-This job controls how often the inventory synchronization is run. The background inventory synchronization will each time it runs update the 'Qty' value within the product Every product that in Magento has status 'Enabled' and has a valid SX.e item number value associated will be included in the update each time.
 
 **Cron settings for ERP order synchronization**
 
 This job looks for all the Magento orders in 'processing' state. The main idea behind this job is to sync all necessary order related information between Magento and SX.e. This job normally isn't run as frequent as the 'Send orders to ERP' cron.
 
+**Cron settings for getting ERP Orders**
+
+This job controls how often the Order history that's visible for the customer when logged in from the Magento front-end is updated.
+
+## Customer
+
+**Cron settings for getting Customer Account Balances**
+
+This job controls how often the customer account balance information that's visible for the customer when logged in from the Magento front-end is updated.
+
+**Cron settings for Customer Sync**
+
+This cron job manages the synchronization from SX.e/CSD to Magento of Customer information and customer address information.
+
+## Product
+
+**Cron settings for Product Sync**
+
+- This job synchronizes product attributes from SX.e/CSD to Magento. Every product that in Magento has status 'Enabled' and has a valid SX.e item number value associated will be included in the update each time.  
+- In the SX.e/CSD product attributes mapping section, all the attributes mapped to General and Tax API will be synced and the attributes mapped to Bulk API will not be synced.
+
+Note: This will work only when the "Enable Bulk API" option is set to "No". 
+
 **Cron settings for Product List Price Sync**
 
 This job synchronizes Item Price from SX.e to Magento. Every product that in Magento has status 'Enabled' and has a valid SX.e item number value associated will be included in the update each time.
 
-**Cron settings for Customer Sync**
+During this cron,
+  1. When "Enable Bulk API" is set to "Yes", the following data will be synced using the Bulk API call [ICGetWhseProductListV3].
+      - Price
+      - Inventory(if "Enable in CRON" is set to "Yes" under "Inventory Synchronization"),
+      - Product attributes(Only when the API is chosen as ‘Bulk’ and not General and Tax)
 
-This cron job manages the synchronization from SX.e to Magento of Customer information.
+  2. When Enable Bulk API is set to No, the following data will be synced using the normal price API call
+      - Price
+        Following will be synced via separate CRON
+        - Inventory(if "Enable in CRON" is set to "Yes" under "Inventory Synchronization"),
+        - Product attributes
+
+**Cron settings for Inventory Sync**
+
+- This job controls how often the inventory synchronization is run. The background inventory synchronization will each time it runs update the 'Qty' value within the product Every product that in Magento has status 'Enabled' and has a valid SX.e item number value associated will be included in the update each time. 
+- Inventory data can be synced only when "Enable in CRON" is set to "Yes" under "Inventory Synchronization". 
+
+Note: This will work only when the "Enable Bulk API" option is set to "No"
+
+
