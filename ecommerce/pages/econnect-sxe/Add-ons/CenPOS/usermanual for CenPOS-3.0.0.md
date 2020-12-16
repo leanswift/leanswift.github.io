@@ -16,7 +16,7 @@
 
 
   <kbd>
-  <img alt ="simple webpay" src="/../../../ecommerce/images/eConnect-Sxe/cenpos_simplewebpay.png"></kbd>
+  <img alt ="simple webpay" src="../../../../ecommerce/images/eConnect-Sxe/cenpos_simplewebpay.png"></kbd>
   
 
     - Log into the Simple Webpay Admin panel to retrieve the encrypted Merchant ID and secret key values
@@ -39,7 +39,7 @@
   - Change the CenPOS Order type and Transaction type under sales configuration if necessary. By default, "O" will be mentioned under CenPOS Order type and "LSF" will be mentioned under CenPOS Transaction type.
 
   <kbd>
-  <img alt ="cenpos order type" src="/../../../ecommerce/images/eConnect-Sxe/cenpos_ordertype.png"></kbd>
+  <img alt ="cenpos order type" src="../../../../ecommerce/images/eConnect-Sxe/cenpos_ordertype.png"></kbd>
 
 
 
