@@ -9,7 +9,7 @@
 **LeanSwift eConnect for SX.e/CSD** provides a seamless integration between Magento eCommerce and Infor Distribution SX.e/CSD. The product consists of a base Magento extension and optional add-on extensions. SOAP APIs exposed by SX.e and ION REST APIs exposed by cloudsuite distribution are used to manage the communication with Infor Distribution SX.e/CSD from Magento.
 
 <kbd>
-<img alt ="sxe architecture" src="../../../../images/eConnect-Sxe/sxe_architecture.png"></kbd>
+<img alt ="sxe architecture" src="../../../../ecommerce/images/eConnect-Sxe/sxe_architecture.png"></kbd>
 
 ## User Interface
 
@@ -145,7 +145,7 @@ Log in to Magento Admin Panel using the URL provided to you and the applicable u
 
 
 <kbd>
-<img alt ="magento login" src="../../../../images/eConnect-Sxe/magento_login.png"></kbd>
+<img alt ="magento login" src="../../../../ecommerce/images/eConnect-Sxe/magento_login.png"></kbd>
 
 # System Menu
 
@@ -154,12 +154,12 @@ Log in to Magento Admin Panel using the URL provided to you and the applicable u
 To access the LeanSwift Configuration, click the **LeanSwift** tab (1), and select the **Configuration**
 
 <kbd>
-<img alt ="configuration" src="../../../../images/eConnect-Sxe/LeanSwiftMenu.png"></kbd>
+<img alt ="configuration" src="../../../../ecommerce/images/eConnect-Sxe/LeanSwiftMenu.png"></kbd>
 
 Also pay attention to which configuration scope you're working under.
 
 <kbd>
-<img alt ="dashboard" src="../../../../images/eConnect-Sxe/dashboard_scope.png"></kbd>
+<img alt ="dashboard" src="../../../../ecommerce/images/eConnect-Sxe/dashboard_scope.png"></kbd>
 
 For further information about _Configuration scope_ in Magento, please refer to the following article:
 
@@ -172,7 +172,7 @@ There could be a number of other sections under the LeanSwift Solutions sub-menu
 Configuration related to the add-ons to eConnect, if any, would be covered within their specific user manuals.
 
 <kbd>
-<img alt ="leanswift sxe" src="../../../../images/eConnect-Sxe/configurationmenu.png"></kbd>
+<img alt ="leanswift sxe" src="../../../../ecommerce/images/eConnect-Sxe/configurationmenu.png"></kbd>
 
 ## LeanSwift/eConnect for SX.e/CSD
 
@@ -181,7 +181,7 @@ This section contains the vast majority of the settings for base eConnect, and t
 The following picture shows the sections that are included in base eConnect configuration.
 
 <kbd>
-<img alt ="sxe configuration" src="../../../../images/eConnect-Sxe/overall_configuration.png"></kbd>
+<img alt ="sxe configuration" src="../../../../ecommerce/images/eConnect-Sxe/overall_configuration.png"></kbd>
 
 
 
@@ -193,13 +193,13 @@ The **General** section contains a number of basic settings that are generic for
 **For SX.e version - 6 to 10**
 
 <kbd>
-<img alt ="general configuration" src="../../../../images/eConnect-Sxe/general_config.png"></kbd>
+<img alt ="general configuration" src="../../../../ecommerce/images/eConnect-Sxe/general_config.png"></kbd>
 
 
 **For SX.e version - CSD**
 
 <kbd>
-<img alt ="leanswift sxe" src="../../../../images/eConnect-Sxe/ion_configuration.png"></kbd>
+<img alt ="leanswift sxe" src="../../../../ecommerce/images/eConnect-Sxe/ion_configuration.png"></kbd>
 
 
 ### Email
@@ -287,7 +287,7 @@ Select "Yes" to log additional information in Magento. This setting is recommend
 The **Basic Data** section of the configuration contains a number of key settings needed for the various transactions within LeanSwift eConnect.
 
 <kbd>
-<img alt ="basicdata configuration" src="../../../../images/eConnect-Sxe/basicdata_config.png"></kbd>
+<img alt ="basicdata configuration" src="../../../../ecommerce/images/eConnect-Sxe/basicdata_config.png"></kbd>
 
 
 ### Company
@@ -316,7 +316,7 @@ Select a value from the drop-down list of warehouses in the company. In order to
 These settings provide options for when to invoke inventory pull from SX.e.
 
 <kbd>
-<img alt ="Inventory synchronisation" src="../../../../images/eConnect-Sxe/inventory_sync.png"></kbd>
+<img alt ="Inventory synchronisation" src="../../../../ecommerce/images/eConnect-Sxe/inventory_sync.png"></kbd>
 
 
 ### Sync on Product Load
@@ -343,7 +343,7 @@ Select "Yes" to log additional information about Inventory transactions in eConn
 The Price Synchronization settings have been added to provide an option to enable or disable the real-time customer/item specific price call, as well as provide an option to increase site performance when needed.
 
 <kbd>
-<img alt ="Customer price sync" src="../../../../images/eConnect-Sxe/customerprice_sync.png"></kbd>
+<img alt ="Customer price sync" src="../../../../ecommerce/images/eConnect-Sxe/customerprice_sync.png"></kbd>
 
 ### Sync on Product Load
 
@@ -365,7 +365,7 @@ Select "Yes" to log additional information about Price transactions in eConnect.
 ## Product Synchronization
 
 <kbd>
-<img alt ="product synchronization attributes" src="../../../../images/eConnect-Sxe/product_sync.png"></kbd>
+<img alt ="product synchronization attributes" src="../../../../ecommerce/images/eConnect-Sxe/product_sync.png"></kbd>
 
 This section contains settings on how to manage the synchronization of product data from SX.e to Magento.
 
@@ -394,7 +394,7 @@ This section controls how Product Synchronization should behave.
 Product sync can be run manually from the product grid. There is also a cron job available to run the product synchronization in the background.
 
 <kbd>
-<img alt ="product manual synchronization" src="../../../../images/eConnect-Sxe/product_manualsync.png"></kbd>
+<img alt ="product manual synchronization" src="../../../../ecommerce/images/eConnect-Sxe/product_manualsync.png"></kbd>
 
 ### Batch Size
 
@@ -409,7 +409,7 @@ Select "Yes" to log additional information about Product sync transactions in eC
 This section controls how the Category of product is synchronized.
 
 <kbd>
-<img alt ="Category sync" src="../../../../images/eConnect-Sxe/category_sync.png"></kbd>
+<img alt ="Category sync" src="../../../../ecommerce/images/eConnect-Sxe/category_sync.png"></kbd>
 
 ### Sync Category (Yes/No)
 
@@ -437,7 +437,7 @@ The **Customer Synchronization** group contains all settings related to synchron
 ### Customer Mapping
 
 <kbd>
-<img alt ="customer synchronization attributes " src="../../../../images/eConnect-Sxe/customerattribute_sync.png"></kbd>
+<img alt ="customer synchronization attributes " src="../../../../ecommerce/images/eConnect-Sxe/customerattribute_sync.png"></kbd>
 
 This section controls how Customer attribute Synchronization should behave. 
   - The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. 
@@ -454,7 +454,7 @@ This section controls how Customer attribute Synchronization should behave.
 ### Billing Address Mapping
 
 <kbd>
-<img alt ="customer billing address" src="../../../../images/eConnect-Sxe/customer_billingaddress.png"></kbd>
+<img alt ="customer billing address" src="../../../../ecommerce/images/eConnect-Sxe/customer_billingaddress.png"></kbd>
 
 This section controls how the Billing Address for the customer in Magento is to be created based on the address details in SX.e. Usually, every customer has only one Billing Address in SX.e.
 
@@ -463,7 +463,7 @@ The mapping is done in the same way as for Product Sync, for example. The Magent
 ### Shipping Address Mapping
 
 <kbd>
-<img alt ="customer shipping address" src="../../../../images/eConnect-Sxe/customer_shippingaddress.png"></kbd>
+<img alt ="customer shipping address" src="../../../../ecommerce/images/eConnect-Sxe/customer_shippingaddress.png"></kbd>
 
 This section controls how the Shipping (Ship-to) Addresses for the customer in Magento is to be created based on the address details in SX.e. Usually, every customer in SX.e can have no or any number of Shipping Addresses in SX.e. If Shipping Address is not available for a customer during synchronization, then the Billing Address is set as Shipping Address as well in Magento.
 
@@ -479,7 +479,7 @@ Select "Yes" to log additional information about Customer Address transactions i
 The 'Sales' section contains three settings related to the sales order process from Magento to SX.e. From this version, all the three lines of shpipping address will appear in SX.e/CSD if given.
 
 <kbd>
-<img alt ="sales config" src="../../../../images/eConnect-Sxe/sales_config.png"></kbd>
+<img alt ="sales config" src="../../../../ecommerce/images/eConnect-Sxe/sales_config.png"></kbd>
 
 ### Extra fields for Order Creation
 
@@ -549,10 +549,10 @@ The setup will vary from customer to customer depending on a number of factors s
 This section should always be reviewed within the project, and with the help of the LeanSwift Services team be adjusted to best fit each customer's environment.
 
 <kbd>
-<img alt ="cron setting part 1" src="../../../../images/eConnect-Sxe/cron_settings1.png"></kbd>
+<img alt ="cron setting part 1" src="../../../../ecommerce/images/eConnect-Sxe/cron_settings1.png"></kbd>
 
 <kbd>
-<img alt ="cron setting part 2" src="../../../../images/eConnect-Sxe/cron_settings2.png"></kbd>
+<img alt ="cron setting part 2" src="../../../../ecommerce/images/eConnect-Sxe/cron_settings2.png"></kbd>
 
 
 ## Version Info
@@ -560,14 +560,14 @@ This section should always be reviewed within the project, and with the help of 
 This last section provides information related to the version of the LeanSwift Magento extension that's installed, as well as the version of eLink ERP Connector being used
 
 <kbd>
-<img alt ="version info" src="../../../../images/eConnect-Sxe/version_info.png"></kbd>
+<img alt ="version info" src="../../../../ecommerce/images/eConnect-Sxe/version_info.png"></kbd>
 
 ## Save Configuration
 
 Following the above, remember to save the configuration by pressing 'Save Config' at the top of the page.
 
 <kbd>
-<img alt ="save configuration" src="../../../../images/eConnect-Sxe/save_config.png"></kbd>
+<img alt ="save configuration" src="../../../../ecommerce/images/eConnect-Sxe/save_config.png"></kbd>
 
 # MAGENTO STANDARD FUNCTIONALITY
 
@@ -578,12 +578,12 @@ The extension does not override or impact any other functionality in Magento. Co
 Log out from Magento admin using the link at the top right.
 
 <kbd>
-<img alt ="Exit Configuration" src="../../../../images/eConnect-Sxe/exit_config.png"></kbd>
+<img alt ="Exit Configuration" src="../../../../ecommerce/images/eConnect-Sxe/exit_config.png"></kbd>
 
 # PRODUCT SETUP and INFORMATION
 
 <kbd>
-<img alt ="product setup and information" src="../../../../images/eConnect-Sxe/product_manualsync.png"></kbd>
+<img alt ="product setup and information" src="../../../../ecommerce/images/eConnect-Sxe/product_manualsync.png"></kbd>
 
 ## Transaction Overview
 
@@ -645,7 +645,7 @@ available and final Checkout isn't possible.
 
 
 <kbd>
-<img alt ="customer setup information" src="../../../../images/eConnect-Sxe/customer_manualsync.png"></kbd>
+<img alt ="customer setup information" src="../../../../ecommerce/images/eConnect-Sxe/customer_manualsync.png"></kbd>
 
 
 ## Transaction Overview
@@ -671,7 +671,7 @@ Order Comments and Magento Order Number are passed to SX.e while creating order.
 # ORDER INFORMATION
 
 <kbd>
-<img alt ="order information" src="../../../../images/eConnect-Sxe/order_manualsync.png"></kbd>
+<img alt ="order information" src="../../../../ecommerce/images/eConnect-Sxe/order_manualsync.png"></kbd>
 
 
 
@@ -721,13 +721,13 @@ All orders have an order status that is associated with a stage in the order pro
 Magento only supports order statuses on order head level (not order line level).
 
 <kbd>
-<img alt ="version info" src="../../../../images/eConnect-Sxe/magento_status.png"></kbd>
+<img alt ="version info" src="../../../../ecommerce/images/eConnect-Sxe/magento_status.png"></kbd>
 
 
 #### **Magento and SX.e Order Status Relation **
 
 <kbd>
-<img alt ="version info" src="../../../../images/eConnect-Sxe/magento_state.png"></kbd>
+<img alt ="version info" src="../../../../ecommerce/images/eConnect-Sxe/magento_state.png"></kbd>
 
 
 # ACCOUNTS RECEIVABLE
@@ -736,7 +736,7 @@ Magento only supports order statuses on order head level (not order line level).
 This page has 5 tabs: Period Balances, Credit Balances, Ordering Information, Taxing Information
 
 <kbd>
-<img alt ="my accounts receivable" src="../../../../images/eConnect-Sxe/my_accountsreceivable.png"></kbd>
+<img alt ="my accounts receivable" src="../../../../ecommerce/images/eConnect-Sxe/my_accountsreceivable.png"></kbd>
 
 
 # CRON JOBS
@@ -748,7 +748,7 @@ The cron job configuration can be found within the LeanSwift extension configura
 _LeanSwift > Configuration > eConnect SX.e/CSD > Cron_:
 
 <kbd>
-<img alt ="Cron Section" src="../../../../images/eConnect-Sxe/cron_section.png"></kbd>
+<img alt ="Cron Section" src="../../../../ecommerce/images/eConnect-Sxe/cron_section.png"></kbd>
 
 ## Order
 
