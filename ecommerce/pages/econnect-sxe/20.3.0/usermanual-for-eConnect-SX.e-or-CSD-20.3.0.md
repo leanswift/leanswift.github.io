@@ -238,6 +238,7 @@ Example: [http://24.89.159.5/sxapi/Service.svc](http://24.89.159.5/sxapi/Service
 **Enable Bulk API**
 
 If "Enable Bulk API" option is set to "Yes", then the BULK API(ICGetWhseProductListV3) is used to update the products based on the warehouse.
+
 The warehouse is a request param and list of warehouse products will be returned and the attribuites of product such as price and others and qty got updated in Magento.
 
 If the option is disabled then the product price and stock is updated using below APIs where the list of products are sent as a batch and will get updated in Magento.
@@ -378,15 +379,15 @@ Setting this parameter to 'Yes' enables product synchronization.
 ### SX.e Product Attribute Mapping
 
 This section controls how Product Synchronization should behave. 
-  The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. 
-  The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. 
-  Default value for the attribute can be configured in "Default" field. 
-  Use On - Synchronization/Both
-  In addition, API field can be configured with one of the below
-    - Bulk (ICGetWhseProductListV3) [Useful only when the “Enable Bulk API” option under General Configuration section is set to Yes]
-    - General (sxapiICGetProductDataGeneralV4)
-    - Price (sxapiICGetWhseProductDataGeneralV3)
-    - Tax (sxapiICGetWhseProductDataTaxingv2)
+  - The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. 
+  - The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. 
+  - Default value for the attribute can be configured in "Default" field. 
+  - Use On - Synchronization/Both
+  - In addition, API field can be configured with one of the below
+      - Bulk (ICGetWhseProductListV3) [Useful only when the “Enable Bulk API” option under General Configuration section is set to Yes]
+      - General (sxapiICGetProductDataGeneralV4)
+      - Price (sxapiICGetWhseProductDataGeneralV3)
+      - Tax (sxapiICGetWhseProductDataTaxingv2)
       
       Note: API version might differ for SX.e and CSD
 
@@ -439,16 +440,16 @@ The **Customer Synchronization** group contains all settings related to synchron
 <img alt ="customer synchronization attributes " src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/customerattribute_sync.png"></kbd>
 
 This section controls how Customer attribute Synchronization should behave. 
-  The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. 
-  The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. 
-  In addition, API field can be configured with one of the below
-    - Tax (sxapiARGetCustomerDataTaxing)
-    - General - Rest (sxapiARGetCustomerDataGeneralRest)
-    - General - V2 (sxapiARGetCustomerDataGeneralV2)
-    - Ordering (sxapiARGetCustomerDataOrdering)
-    - Ordering - Rest (sxapiARGetCustomerDataOrderingRest)
+  - The Magento attribute to map is selected from the drop-down list in the "Magento Attribute" column. 
+  - The "SX.e/CSD Field Name" (Case sensitive) is to be mapped with field name from APIs. 
+  - In addition, API field can be configured with one of the below
+      - Tax (sxapiARGetCustomerDataTaxing)
+      - General - Rest (sxapiARGetCustomerDataGeneralRest)
+      - General - V2 (sxapiARGetCustomerDataGeneralV2)
+      - Ordering (sxapiARGetCustomerDataOrdering)
+      - Ordering - Rest (sxapiARGetCustomerDataOrderingRest)
       
-      Note: API version might differ for SX.e and CSD
+       Note: API version might differ for SX.e and CSD
 
 ### Billing Address Mapping
 
