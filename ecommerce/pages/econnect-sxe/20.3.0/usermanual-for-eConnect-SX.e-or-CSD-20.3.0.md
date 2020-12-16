@@ -476,7 +476,7 @@ Select "Yes" to log additional information about Customer Address transactions i
 
 ## Sales
 
-The 'Sales' section contains three settings related to the sales order process from Magento to SX.e.
+The 'Sales' section contains three settings related to the sales order process from Magento to SX.e. From this version, all the three lines of shpipping address will appear in SX.e/CSD if given.
 
 <kbd>
 <img alt ="sales config" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/sales_config.png"></kbd>
