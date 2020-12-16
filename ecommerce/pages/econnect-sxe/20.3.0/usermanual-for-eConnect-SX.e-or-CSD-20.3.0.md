@@ -237,16 +237,16 @@ Example: [http://24.89.159.5/sxapi/Service.svc](http://24.89.159.5/sxapi/Service
 
 **Enable Bulk API**
 
-If "Enable Bulk API" option is set to "Yes", then the BULK API(ICGetWhseProductListV3) is used to update the products based on the warehouse.
+- If "Enable Bulk API" option is set to "Yes", then the BULK API(ICGetWhseProductListV3) is used to update the products based on the warehouse.
 
-The warehouse is a request param and list of warehouse products will be returned and the attribuites of product such as price and others and qty got updated in Magento.
+- The warehouse is a request param and list of warehouse products will be returned and the attribuites of product such as price and others and qty got updated in Magento.
 
-If the option is disabled then the product price and stock is updated using below APIs where the list of products are sent as a batch and will get updated in Magento.
+- If the option is disabled then the product price and stock is updated using below APIs where the list of products are sent as a batch and will get updated in Magento.
 
-- Product price: ICGetWhseProductDataGeneral
-- Product general: ICGetProductDataGeneral
-- Product tax: ICGetWhseProductDataTaxing
-- Product inventory: ICGetWhseProductDataQuantity
+  - Product price: ICGetWhseProductDataGeneral
+  - Product general: ICGetProductDataGeneral
+  - Product tax: ICGetWhseProductDataTaxing
+  - Product inventory: ICGetWhseProductDataQuantity
 
 
 ### SX.e ION REST API Service URL
@@ -262,12 +262,12 @@ If selected SX.e Version is CSD, this field should have the URL to retrive OAuth
 
 ### Use ERP order history
 
-This field refers to the retrieval of customer order history from SX.e from Magento front-end.
+- This field refers to the retrieval of customer order history from SX.e from Magento front-end.
 
-Select "Yes" to retrieve and display order history from SX.e when user selects _Order History_ in _My Account_. 
+- Select "Yes" to retrieve and display order history from SX.e when user selects _Order History_ in _My Account_. 
 This will make order information synchronize seamlessly between Magento and SX.e and any order status change in SX.e will be displayed in Magento instantly.
 
-Select "No" to only use the order history from Magento when the user selects _Order History in My Account_.
+- Select "No" to only use the order history from Magento when the user selects _Order History in My Account_.
 
 ### Show 'My Accounts Receivable'
 
@@ -364,13 +364,13 @@ Select "Yes" to log additional information about Price transactions in eConnect.
 
 ## Product Synchronization
 
+<kbd>
+<img alt ="product synchronization attributes" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/product_sync.png"></kbd>
 
 This section contains settings on how to manage the synchronization of product data from SX.e to Magento.
 
-The Magento product attribute is mapped to a field from SX.e SOAP response using the field tag name. A default value can be given for results which do not contain a value. In this version, **only Base Price** among Product information is supported for synchronization.
+The Magento product attribute is mapped to a field from SX.e/CSD API responses using the field tag name. A default value can be given for results which do not contain a value.
 
-<kbd>
-<img alt ="product synchronization attributes" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/product_sync.png"></kbd>
 
 ### Enable
 
