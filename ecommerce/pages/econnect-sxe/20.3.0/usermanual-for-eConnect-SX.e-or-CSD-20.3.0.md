@@ -569,7 +569,7 @@ This section should always be reviewed within the project, and with the help of 
 
 ## Version Info
 
-This last section provides information related to the version of the LeanSwift Magento extension that's installed, as well as the version of eLink ERP Connector being used
+This last section provides information related to the version of the LeanSwift eConnect for SX.e/CSD extension that's installed, as well as the version of CenPOS addon being used
 
 <kbd>
 <img alt ="version info" src="../../../../ecommerce/images/eConnect-Sxe/version_info.png"></kbd>
