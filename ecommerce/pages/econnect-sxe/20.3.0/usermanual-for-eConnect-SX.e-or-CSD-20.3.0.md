@@ -1,203 +1,63 @@
 ![eConnect for Infor SX.e / Infor CloudSuite Distribution](../../../../images/banner-econnect-sxe.jpg)
 
-# Version 20.3.0 - User Manual
-
-# TABLE OF CONTENTS
-
-
-- [GENERAL INFORMATION](#general-information)
-
-- [System Overview](#system-overview)
-
-- [Transactions](#transactions)
-
-- [User Interface](#user-interface)
-
-- [Validated Versions](#validated-versions)
-
-- [Point of Contact](#point-of-contact)
-
-- [Organization of the Manual](#organization-of-the-manual)
-
-- [STANDARD TRANSACTIONS](#standard-transactions)
-
-- [Summary](#summary)
-
-- [List of Transactions](#list-of-transactions)
-
-- [Customers](#customers)
-
-- [Pricing](#pricing)
-
-- [Inventory](#inventory)
-
-- [Sales Orders](#sales-orders)
-
-- [Shipments And Invoices](#shipments-and-invoices)
-
-- [Order History](#order-history)
-
-- [Accounts Receivable](#accounts-receivable)
-
-- [Assumptions/Limitations](#assumptions-limitations)
-
-- [CONFIGURATION](#configuration)
-
-- [Magento Configuration](#magento-configuration)
-
-- [System Menu](#system-menu)
-
-- [Configuration](#configuration)
-
-- [Configuration/LeanSwift](#configuration/leanswift)
-
-- [Configuration/LeanSwift/eConnect](#configuration/leanswift/econnect)
-
-- [General Configuration](#general-configuration)
-
-  - [Email](#email)
-
-  - [Error email send frequency](#error-email-send-frequency)
-
-  - [SX.e Version](#sxe-version)
-
-  - [SX.e Connection String](#sxe-connection-string)
-
-  - [Location URL](#location-url)
-  
-  - [Use ERP order history](#use-erp-order-history)
-
-  - [Show My Accounts Receivable](#show-my-accounts-receivable)
-
-  - [Debug or log data](#debug-or-log-data)
-
-- [Basic Data Configuration](#basic-data-configuration)
-
-  - [Company](#company)
-
-  - [Operator Initials](#operator-initials)
-
-  - [Operator Password](#operator-password)
-
-  - [Warehouse](#warehouse)
-
--[Inventory Synchronization](#inventory-synchronization)
-
-  - [Sync on Product Load](#sync-on-product-load)
-
-  - [Sync on Add to Cart](#sync-on-add-to-cart)
-
-  - [Sync on Checkout](#sync-on-checkout)
-
-  - [Debug or log data](#debug-or-log-data)
-
-- [Price Synchronization](#price-synchronization)
-
-  - [Sync on Product Load](#sync-on-product-load)
-
-  - [Sync on Product List Load](#sync-on-product-list-load)
-
-  - [Cache Hours](#cache-hours)
-
-  - [Debug or log data](#debug-or-log-data)
-
-- [Product Synchronization](#product-synchronization)
-
-  - [Enable](#enable)
-
-  - [Batch Size](#batch-size)
-
-  - [Debug or log data](#debug-or-log-data)
-
-  - [SX.e Product Attribute Mapping](#sxe-product-attribute-mapping)
-
-- [Customer Synchronization](#customer-synchronization)
-
-  - [Update Customer Data On Login](#update-customer-data-on-login)
-
-  - [Billing Address Mapping](#billing-address-mapping)
-
-  - [Shipping Address Mapping](#shipping-address-mapping)
-
-- [Sales](#sales)
-
-  - [Enable order comments](#enable-order-comments)
-
-  - [Send order reference](#send-order-reference)
-
-  - [Debug or log data](#debug-or-log-data)
-
-- [CRON Settings](#cron-settings)
-
-- [Version Info](#version-info)
-
-- [Save Configuration](#save-configuration)
-
-- [MAGENTO STANDARD FUNCTIONALITY](#magento-standard-functionality)
-
-- [Exit System](#exit-system)
-
-- [PRODUCT SETUP and INFORMATION](#product-setup-and-information)
-
-- [Transaction Overview](#transaction-overview)
-
-- [PRICE](#price)
-
-- [INVENTORY](#inventory)
-
-- [Synchronization Process](#synchronization-process)
-
-- [Background Sync](#background-sync)
-
-- [Real time Sync](#real-time-sync)
-
-- [CUSTOMER SETUP and INFORMATION](#customer-setup-and-information)
-
-- [Transaction Overview](#transaction-overview)
-
-- [Synchronization Process](#synchronization-process)
-
-- [ORDER CREATION](#order-creation)
-
-- [ORDER INFORMATION](#order-information)
-
-- [Transaction Overview](#transaction-overview)
-
-- [Order Status Relation](#order-status-relation)
-
-- [ACCOUNTS RECEIVABLE](#accounts-receivable)
-
-- [CRON JOBS](#cron-jobs)
+# Version 20.3.0 - User Manual for eConnect for SX.e/CSD CE
 
 # GENERAL INFORMATION
 
 # System Overview
 
-**LeanSwift eConnect for Infor Distribution SX.e** provides a seamless integration between Magento eCommerce and Infor Distribution SX.e/CSD. 
-The product consists of a base Magento extension and optional add-on extensions.
-APIs exposed by SX.e are used to manage the communication with Infor Distribution SX.e from Magento.
+**LeanSwift eConnect for SX.e/CSD** provides a seamless integration between Magento eCommerce and Infor Distribution SX.e/CSD. The product consists of a base Magento extension and optional add-on extensions. SOAP APIs exposed by SX.e and ION REST APIs exposed by cloudsuite distribution are used to manage the communication with Infor Distribution SX.e/CSD from Magento.
 
 <kbd>
 <img alt ="sxe architecture" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/sxe_architecture.png"></kbd>
 
-## Transaction
+## User Interface
 
-Version 20.3.0 includes the following functionality for SX.e versions 6.x to 11.x as well as for Infor CloudSuite Distribution, the multi-tenant cloud solution for SX.e.
-These versions provide external application connection to SX.e via SOAP APIs and to CloudSuite via ION REST APIs.
+During setup, the Magento Admin panel is used to configure transactions that should be used and how they should function.
+There is also additional background configuration specific to eConnect.
 
-Current version (20.3.0) is released on **Magento Open Source 2.4.0**
+## Validated Versions
+
+- Magento Open Source 2.4.0
+- Infor SX.e 6.1.19
+- Infor CloudSuite Distribution 11.20.1
+- PHP 7.4.12
+
+# Point of Contact
+
+This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. 
+please contact LeanSwift Solutions Inc. via contact form at [https://www.leanswift.com/contact](https://www.leanswift.com/contact/)or email info@leanswift.com
+
+# Organization of the Manual
+
+This manual describes the configuration of LeanSwift eConnect for Infor Distribution SX.e/Cloudsuite Distribution and also provides a description of standard transactions.
+
+This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation, though the general workflow is similar.
+
+
+# STANDARD TRANSACTIONS
+
+## Summary
+
+### List of Transactions
 
 - Inventory Synchronization
   - Real-time Stock Fetch and Synchronization
   - Background Synchronization
   - Manual Synchronization
+- Product & Category Synchronization
+   - Background Synchronization
+   - Manual Synchronization
 - Price Synchronization
   - List Price
     - Background Synchronization
     - Manual Synchronization
   - Customer Specific Price
     - Real-time Price Fetch and Synchronization
-- Customer Address Synchronization
+- Customer Synchronization
+  - Customer Master Information
+    - Background Synchronization
+    - Manual Synchronization
   - Billing Address and Shipping Addresses
     - Background Synchronization
     - Manual Synchronization
@@ -220,72 +80,15 @@ Current version (20.3.0) is released on **Magento Open Source 2.4.0**
 
 These above transactions can, if necessary, be modified and new transactions can be added to fulfill specific customer requirements.
 
+### Inventory
 
-## User Interface
+Real-time inventory synchronization to ensure accurate stock display to customers.
 
-During setup, the Magento Admin panel is used to configure transactions that should be used and how they should function.
-There is also additional background configuration specific to eConnect.
+Synchronization can be performed multiple times through the various ordering stages such as, while viewing product details, while adding to cart and on checkout.
 
-## Validated Versions
+### Product and Category
 
-- Magento Open Source 2.4.0
-- Infor SX.e 6.1.19
-- Infor CloudSuite Distribution 11.20.1
-
-# Point of Contact
-
-This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. 
-please contact LeanSwift Solutions Inc. via contact form at [https://www.leanswift.com/contact](https://www.leanswift.com/contact/)or email info@leanswift.com
-
-# Organization of the Manual
-
-This manual describes the configuration of LeanSwift eConnect for Infor Distribution SX.e and also provides a description of standard transactions.
-
-This manual is not intended to cover any standard Magento functionality or user experience. 
-The Magento user experience is customized and slightly different in each eCommerce implementation, though the general workflow is similar.
-
-
-# STANDARD TRANSACTIONS
-
-## Summary
-
-### List of Transactions
-
-- Inventory Synchronization
-  - Real-time Stock Fetch and Synchronization
-  - Background Synchronization
-  - Manual Synchronization
-- Price Synchronization
-  - List Price
-    - Background Synchronization
-    - Manual Synchronization
-  - Customer Specific Price
-    - Real-time Price Fetch and Synchronization
-- Customer Address Synchronization
-  - Billing Address and Shipping Addresses
-    - Background Synchronization
-    - Manual Synchronization
-- Customer Accounts Receivable Information Synchronization
-  - Period Balances
-  - Credit Balances
-  - Ordering Information
-  - Taxing Information
-- Order Synchronization
-  - Order Creation
-    - Background Synchronization
-    - Manual Synchronization
-  - Order Status
-    - Shipment and Invoice Creation
-    - Background Synchronization
-    - Manual Synchronization
-  - Order History
-    - Background Synchronization
-    - Manual Synchronization
-
-
-### Customers
-
-Synchronization of Customer Billing and Shipping Addresses with customer data in SX.e.
+Synchronization of Product information such as General and Tax which includes category.
 
 ### Pricing
 
@@ -293,11 +96,15 @@ Synchronization of Product Base Price for all types of Products in Magento.
 
 Real-time fetch and synchronization of Customer Specific Price.
 
-### Inventory
+### Customers
 
-Real-time inventory synchronization to ensure accurate stock display to customers.
+Synchronization of Customer information such as General, Order and Tax and address information such as Billing and Shipping with customer data in SX.e/CSD.
 
-Synchronization can be performed multiple times through the various ordering stages such as, while viewing product details, while adding to cart and on checkout.
+### Accounts Receivable
+
+Easy access for customers to view accounts receivable information via "My Accounts Receivable" page.
+
+View period balances, credit balances, ordering and taxing information.
 
 ### Sales Orders
 
@@ -317,12 +124,6 @@ Easy access for customers to view all orders placed through Magento as well as t
 
 View order details and reorder.
 
-### Accounts Receivable
-
-Easy access for customers to view accounts receivable information via "My Accounts Receivable" page.
-
-View period balances, credit balances, ordering and taxing information.
-
 ## Assumptions/Limitations
 
 LeanSwift uses two key principles as guiding lights when new features are included in eConnect.
@@ -337,7 +138,7 @@ Manual Synchronization of a very large number of Customers, Orders or Products m
 
 # Magento Configuration
 
-To support the use of LeanSwift eConnect for Infor Distribution SX.e, configuration is required within Magento and SX.e ERP. 
+To support the use of LeanSwift eConnect for Infor SX.e/CSD, configuration is required within Magento and SX.e ERP. 
 This section covers the configuration within Magento.
 
 Log in to Magento Admin Panel using the URL provided to you and the applicable user credentials.
@@ -350,12 +151,10 @@ Log in to Magento Admin Panel using the URL provided to you and the applicable u
 
 ## Configuration
 
-To access the LeanSwift Configuration, click the **Stores** tab (1), and select the **Configuration**
-
-option (2).
+To access the LeanSwift Configuration, click the **LeanSwift** tab (1), and select the **Configuration**
 
 <kbd>
-<img alt ="configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/configuration.png"></kbd>
+<img alt ="configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/LeanSwiftMenu.png"></kbd>
 
 Also pay attention to which configuration scope you're working under.
 
@@ -366,27 +165,23 @@ For further information about _Configuration scope_ in Magento, please refer to 
 
 [http://www.magentocommerce.com/knowledge-base/entry/understanding-store-scopes](http://www.magentocommerce.com/knowledge-base/entry/understanding-store-scopes)
 
-## Configuration/LeanSwift
+Here, the section that is always included in the base LeanSwift configuration is **eConnect SX.e/CSD** This is covered in detail in the following sections.
 
-Navigate to the **LeanSwift Solutions** sub-menu down in the left-hand side configuration menu.
-
-Here, the section that is always included in the base LeanSwift configuration is **eConnect SX.e.** This is covered in detail in the following sections.
-
-There could be a number of other sections under the LeanSwift Solutionssub-menu. Exactly which sections are visible depends on how many add-ons are installed in the environment.
+There could be a number of other sections under the LeanSwift Solutions sub-menu. Exactly which sections are visible depends on how many add-ons are installed in the environment.
 
 Configuration related to the add-ons to eConnect, if any, would be covered within their specific user manuals.
 
 <kbd>
-<img alt ="leanswift sxe" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/leanswift_sxe.png"></kbd>
+<img alt ="leanswift sxe" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/configurationmenu.png"></kbd>
 
-## Configuration/LeanSwift/eConnect
+## LeanSwift/eConnect for SX.e/CSD
 
-The **eConnect SX.e** section contains the vast majority of the settings for base eConnect, and the details of each group is covered in the following sections of this document.
+This section contains the vast majority of the settings for base eConnect, and the details of each group is covered in the following sections of this document.
 
 The following picture shows the sections that are included in base eConnect configuration.
 
 <kbd>
-<img alt ="sxe configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/sxe_configuration.png"></kbd>
+<img alt ="sxe configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/overall_configuration.png"></kbd>
 
 
 
