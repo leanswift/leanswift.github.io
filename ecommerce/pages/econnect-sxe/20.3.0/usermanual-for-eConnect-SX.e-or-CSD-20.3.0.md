@@ -398,7 +398,7 @@ Product sync can be run manually from the product grid. There is also a cron job
 
 ### Batch Size
 
-This refers to the number of products that are synchronized with SX.e at a given point of time. Default batch size is 100. The number has to be \&lt;1000.
+This refers to the number of products that are synchronized with SX.e at a given point of time. Default batch size is 100. The number has to be must not exceed 1000.
 
 ### Debug or log data
 
@@ -745,7 +745,7 @@ This section provides an overview of the various Cron (background) jobs within M
 
 The cron job configuration can be found within the LeanSwift extension configuration under
 
-_Stores > Configuration > eConnect > Cron_:
+_LeanSwift > Configuration > eConnect SX.e/CSD > Cron_:
 
 <kbd>
 <img alt ="Cron Section" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/eConnect-Sxe/cron_section.png"></kbd>
