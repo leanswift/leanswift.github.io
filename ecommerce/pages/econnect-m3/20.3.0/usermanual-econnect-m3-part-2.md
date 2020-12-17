@@ -88,7 +88,7 @@
 
 ### Architecture with Magento API
 
-<kbd>![Architecture Diagram](images/ARCHITECTURE.jpg)</kbd>
+<kbd><img alt="eConnect Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1575/ecommerce/pages/econnect-m3/20.3.0/images/ARCHITECTURE.jpg"></kbd>
 
 ## New in this version
 
@@ -211,7 +211,7 @@ No additional charges (such as Freight) are added within M3 once the order has b
 
 From a product perspective, eConnect relies on the &#39;External Item#&#39; value. This value must be equal to the corresponding M3 item number for all of the eConnect transactions to function as they should.
 
-<kbd><img alt="product set up information" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/product-setup-information.png"></kbd>
+<kbd><img alt="product set up information" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/product-setup-information.png"></kbd>
 
 The Product Information transaction offers the ability to sync select fields from the M3 Item master (MMS001/MITMAS) to Magento&#39;s Product attributes.
 
@@ -225,7 +225,7 @@ With this transaction it is possible to keep in sync discrete values within M3&#
 
 This feature enables manual sync of Products with M3. We can choose multiple products that require sync with M3 and choose &#39;Sync Items with M3&#39;. Clicking on Manual sync triggers &#39;Show&#39; BODs. Once the BOD reaches Magento, the information gets updated in respective tables in the DB. Multiple products can be chosen to sync with M3.
 
-<kbd><img alt="manual sync product" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-product.png"></kbd>
+<kbd><img alt="manual sync product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-product.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -246,18 +246,18 @@ A different M3 price list can be defined for each website View via Magento Admin
 
 The _Price list_ &amp; _Currency_ that should be used are defined [per website View or on Default Config] within the **Basic Data** section of the eConnect configuration.
 
-<kbd><img alt="product set up information" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/single-price-list.png"></kbd>
+<kbd><img alt="product set up information" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/single-price-list.png"></kbd>
 
 
 The item price in M3 for this example in price list &#39;02&#39; is $59.00:
 
-<kbd><img alt="Price list in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/single-price-m3.png"></kbd>
+<kbd><img alt="Price list in m3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/single-price-m3.png"></kbd>
 
 Whenever there is an Addition/Update/deletion of price in M3, Sync.LS\_ItemMasterDetails BOD gets triggered and the same gets updated in magento.
 
 Once the information is received, the correct price from M3 is also displayed within Magento Admin.
 
-<kbd><img alt="Price in magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/single-price-magento.png"></kbd>
+<kbd><img alt="Price in magento" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/single-price-magento.png"></kbd>
 
     
 ### Customer Specific Price
@@ -266,7 +266,7 @@ The customer specific price transaction is normally used in a B2B scenario, when
 
 Whether or not to enable this transaction is controlled within the LeanSwift Magento extension LS > eConenct_ION > Configuration > Price Synchronization
 
-<kbd><img alt="Price Synchronization" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/price-synchronisation.png"></kbd>
+<kbd><img alt="Price Synchronization" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/price-synchronisation.png"></kbd>
 
 1. Setting &#39;Enable&#39; to &#39;Yes&#39; enables the Customer specific price transaction in frontend
 2. Setting &#39;Enable in Admin&#39; to &#39;Yes&#39; enables the Customer specific price transaction in backend.
@@ -279,7 +279,7 @@ For a Customer specific price, the price displayed on the product detail page is
 
 User can choose to send or not, Price to M3
 
-<kbd><img alt="Sales" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/sales.png"></kbd>
+<kbd><img alt="Sales" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/sales.png"></kbd>
 
 When the &#39;Allow Item Price&#39; is set to Yes, Price will be sent to M3 from magento
 
@@ -297,7 +297,7 @@ Inventory synchronization with M3 is done via Sync.LS\_ItemStock BOD.
 
 eConnect now offers a possibility to select which quantity value from M3 should be used as &#39;Quantity&#39;. The setting can be found under the &#39;Inventory Synchronization&#39; section of the eConnect configuration:
 
-<kbd><img alt="Inventory Synchronization" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/inventory-syncronization.png"></kbd>
+<kbd><img alt="Inventory Synchronization" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/inventory-syncronization.png"></kbd>
 
 The available options are:
 
@@ -322,7 +322,7 @@ The Customer registration feature was specifically added to cater for a B2B scen
 
 The functionality is enabled via LS > econnect-ION > Configuration > Customer General Configuration > Create Customer On Registration:
 
-<kbd><img alt="Customer general configuration" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/create-customer-on-reg-ims.PNG"></kbd>
+<kbd><img alt="Customer general configuration" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/create-customer-on-reg-ims.PNG"></kbd>
 
 If **Create Customer On Registration** is set to &#39;Yes&#39;, and if **Create Customer via IMS** is set to &#39;Yes&#39;, the customer template **IONCUST** will be used to create a new customer number within M3 for each order being placed.
 
@@ -345,7 +345,7 @@ The Customer Addition feature is designed to fetch the customers from M3 into Ma
 
 The functionality is enabled via LS > eConnect-ION > Configuration > Customer Addition/Synchronization:
 
-<kbd><img alt="Customer addition/synchronization" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-addition-sync.png"></kbd>
+<kbd><img alt="Customer addition/synchronization" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-addition-sync.png"></kbd>
 
 1. &#39;Enable&#39; set to &#39;Yes&#39; enables the Module.
 2. &#39;Enable Customer sync&#39; set to &#39;Yes&#39; to enable Customer Sync
@@ -378,11 +378,11 @@ The following information is available to synchronize between M3 &amp; Magento:
 
 1. Basic&amp; financial customer details from &#39;Customer. Open&#39;(CRS610):
 
-<kbd><img alt="Transaction overview" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customerdetail-crs610.png"></kbd>
+<kbd><img alt="Transaction overview" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/customerdetail-crs610.png"></kbd>
 
 1. Any customer address defined in &#39;Customer. Connect Addresses&#39;(OIS002). Note that only address type 1 and 3 will be synced
 
-<kbd><img alt="Customer address" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address-m3.png"></kbd>
+<kbd><img alt="Customer address" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address-m3.png"></kbd>
 
     
 ### Synchronization Process
@@ -409,16 +409,16 @@ _01\_DELIVERY_: The shipping address from &#39;Customer. Connect Addresses&#39; 
 - **ERP Address ID** contains the actual sequence#/ID for the address in question as defined within M3 (also in &#39;Customer. Connect Addresses&#39; – OIS002).
 Account information tab saves the Variation ID, BOD Timestamp and BOD ID for future reference.
 
-<kbd><img alt="Synchronization process addresstype1" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address1-magento.png"></kbd>
+<kbd><img alt="Synchronization process addresstype1" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address1-magento.png"></kbd>
 
-<kbd><img alt="Synchronization process addresstype3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address2-magento.png"></kbd>
+<kbd><img alt="Synchronization process addresstype3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/customer-address2-magento.png"></kbd>
 
 
 ### Manual Sync Process
 
 This feature enables manual sync of customer with M3. We can choose multiple customers that require sync with M3 and choose &#39;Sync customers with M3&#39;. Clicking on Manual sync triggers &#39;Show&#39; BODs. Once the BOD reaches Magento, the information gets updated in respective tables in the DB.
 
-<kbd><img alt="Manual Sync Customers" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-customer.png"></kbd>
+<kbd><img alt="Manual Sync Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/manual-sync-customer.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -438,7 +438,7 @@ The order creation process can be initiated in a number of different ways – bo
 
 To manually initiate the order creation in M3 following the creation of an order from the Magento front-end (or from within Admin), the action &#39;Sync Order with M3&#39; should be used. This option can be found within the Sales order grid (Sales > Orders).
 
-<kbd><img alt="Transaction overview" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/sync-order-with-m3.png"></kbd>
+<kbd><img alt="Transaction overview" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/sync-order-with-m3.png"></kbd>
 
 **Sync Order with M3**
 
@@ -457,7 +457,7 @@ The verification message displayed to the user also contains a wealth of informa
 
 To schedule order creation via the background jobs, make sure to configure the following cron job to run with appropriate intervals under LS > eConnect ION > Configuration >  Cron:
 
-<kbd><img alt="cron setting to send ERP" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/send-orders-cron.png"></kbd>
+<kbd><img alt="cron setting to send ERP" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/send-orders-cron.png"></kbd>
 
     
 ### Order Creation–B2B
@@ -476,36 +476,36 @@ Please note that orders normally are synchronized between Magento &amp; M3 via t
 
 In this example, a test customer with e-mail ID [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@leanswift.com) is used. This customer is associated to a test B2B site and to M3 customer# **LEAN000399** :
 
-<kbd><img alt="Customer details" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry.png"></kbd>
+<kbd><img alt="Customer details" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry.png"></kbd>
 
 
 After logging in on the front-end, and order is placed for 1 EA of item Roller Bearing is added to cart. The customer specific price is already applied at this point (based on 1 EA of the item in question):
 
-<kbd><img alt="order addition" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-pdt-addtion.png"></kbd>
+<kbd><img alt="order addition" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-pdt-addtion.png"></kbd>
 
 Proceeding to checkout we at the last step get to order summary information regarding subtotal for items, Shipping &amp; Handling and Tax:
 
-<kbd><img alt="order Placement" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-place-order.png"></kbd>
+<kbd><img alt="order Placement" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-place-order.png"></kbd>
 
 In this example, eConnect has been configured to transfer Sales tax, and a line charge &#39;TAX1&#39; will be used. In the same way, Shipping &amp; Handling should be added as an order header charge using charge ID &#39;SHIP&#39;.
 
-<kbd><img alt="order charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-charges.png"></kbd>
+<kbd><img alt="order charges" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/order-charges.png"></kbd>
 
 After pressing &#39;Place Order&#39; at the final step of the checkout process, a confirmation is received detailing the Magento order#.
 
-<kbd><img alt="order placed" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-orderplaced.png"></kbd>
+<kbd><img alt="order placed" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-orderplaced.png"></kbd>
 
 In Magento Admin, the order can now be found in the Order grid (Sales > Orders), and the most recent order is at the top of the list.
 
-<kbd><img alt="orders page" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-order.png"></kbd>
+<kbd><img alt="orders page" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-order.png"></kbd>
 
 To manually initiate the order sync, select the order/orders (1) and under **Actions** on the upper right hand side of the grid header select &#39;Sync Orders with M3&#39;.
 
-<kbd><img alt="orders page" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-order-sync.png"></kbd>
+<kbd><img alt="orders page" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-order-sync.png"></kbd>
 
 Once a manual synchronization is complete, the user is presented with a confirmation message in the header of the order grid. The confirmation contains information on temporary- &amp; final order numbers as well as whether any shipments or invoices were added to Magento (more details on the Shipment and Invoice sync can be found in respective sections).
 
-<kbd><img alt="Temp order number generated" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-temp-order.png"></kbd>
+<kbd><img alt="Temp order number generated" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/order-entry-temp-order.png"></kbd>
 
 The temporary (batch) order number ( **Temp Order #** ) is brought back from M3 as soon as the order has been successfully sent to M3. If some validation fails in M3 that leads to the final order not being fully created, this can be related to missing/incorrect information within M3. As such, the temporary order number is displayed in Magento along with a message to the user to review the errors in M3&#39;s batch order entry (OIS275).
 
@@ -518,12 +518,12 @@ The Ship Complete functionality offers customers an option to allow end-customer
 
 This functionality is enabled in LS > eConnect-ION > Configuration > Sales, by setting **Enable Ship Complete** to &#39;Yes&#39;. If this has been enabled, the customers on the site/store in question will have the option to during the checkout process select &#39;Ship Complete&#39; for their order:
 
-<kbd><img alt="Enable ship complete" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/ship-complete.png"></kbd>
+<kbd><img alt="Enable ship complete" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/ship-complete.png"></kbd>
 
 
 This will with the correct setup in M3 (parameter 290 in &#39;Dispatch Policy. Open&#39; – MWS010/G must be set to &#39;1&#39;) ensure that a picking list isn&#39;t released for the order until all of the lines are fully allocated. To enable this, eConnect will ensure each order line is created with the same &quot;Joint Delivery Code&quot; value:
 
-<kbd><img alt="Joint delivery code added in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/joint-delivery-code-m3.png"></kbd>
+<kbd><img alt="Joint delivery code added in m3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/joint-delivery-code-m3.png"></kbd>
 
     
 ### Gift Wrapping
@@ -548,59 +548,59 @@ Pre-requisites
 
 For the example in this section, eConnect has been configured to use order header &amp; line charges to represent the Gift Wrapping within M3.
 
-<kbd><img alt="Gift wrap configurations" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-charges-gift-wrap.png"></kbd>
+<kbd><img alt="Gift wrap configurations" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/order-charges-gift-wrap.png"></kbd>
 
 Furthermore, at least one Gift Wrap needs to be defined for the website under Stores > Gift Wrapping:
 
-<kbd><img alt="Gift wrap" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/gift-wrapping.png"></kbd>
+<kbd><img alt="Gift wrap" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/gift-wrapping.png"></kbd>
 
 To illustrate the functionality, an order is placed for two test items.
 
-<kbd><img alt="Gift wrap item charge" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-item-charge.png"></kbd>
+<kbd><img alt="Gift wrap item charge" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-item-charge.png"></kbd>
 
 In the &#39;View and Edit cart&#39; page, we can choose the gift options:
 
-<kbd><img alt="Gift wrap" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftcard-cart.png"></kbd>
+<kbd><img alt="Gift wrap" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftcard-cart.png"></kbd>
 
 Magento offers the ability to gift wrap the entire order and/or individual items only, as well as send a gift receipt and include a printed card with the order. As noted earlier – if the Printed card setup in Magento carries a cost, this cost will in this version not be reflected in M3.
 
 For this example, we&#39;ll add gift wrapping to both the entire order as well as one product on the order:
 
-<kbd><img alt="Giftwrap header and line level charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrapcharge-head-line.png"></kbd>
+<kbd><img alt="Giftwrap header and line level charges" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrapcharge-head-line.png"></kbd>
 
 
 Once the Gift options is chosen, click on &#39;Update&#39; button for changes to reflect on the order. On the Order Review panel, a summary of the order is provided – where the Gift Wrapping for the order and items are shown.
 
 
-<kbd><img alt="Giftwrap viewcart" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-items.png"></kbd>
+<kbd><img alt="Giftwrap viewcart" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-items.png"></kbd>
 
 Click on &#39;Go to Checkout&#39;, choose the shipping address and shipping method and click &#39;Next&#39;. Choose the payment option and press &#39;PLACE ORDER&#39; in the checkout page yields the confirmation panel with the Magento order#.
 
-<kbd><img alt="Giftwrap viewcart" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-ordernumber.png"></kbd>
+<kbd><img alt="Giftwrap viewcart" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-ordernumber.png"></kbd>
 
 Validation of the order within Magento Admin reflects the correct situation as well:
 
-<kbd><img alt="Giftwrap magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-magento.png"></kbd>
+<kbd><img alt="Giftwrap magento" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-magento.png"></kbd>
 
 Order is manually synchronized with M3:
 
-<kbd><img alt="Giftwrap ordersync" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-ordersync.png"></kbd>
+<kbd><img alt="Giftwrap ordersync" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-ordersync.png"></kbd>
 
-<kbd><img alt="Giftwrap temporder" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-temporder.png"></kbd>
+<kbd><img alt="Giftwrap temporder" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-temporder.png"></kbd>
 
 A review of the order in M3 validates that the $26.00 order level gift wrap charge, as well as the $26.00 line gift wrap charge for the  line item are both in place correctly. The name of the Gift wrap charge is also transferred to the name of the corresponding charge.
 
-<kbd><img alt="Giftwrap head Charges m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-headcharge-m3.png"></kbd>
+<kbd><img alt="Giftwrap head Charges m3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-headcharge-m3.png"></kbd>
 
-<kbd><img alt="Giftwrap line Charges m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwarp-linecharge-m3.png"></kbd>
+<kbd><img alt="Giftwrap line Charges m3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwarp-linecharge-m3.png"></kbd>
 
 Should eConnect have been configured to instead use non-stock items, the result in M3 would instead have been the following:
 
-<kbd><img alt="Giftwrap non stock Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem-m3.png"></kbd>
+<kbd><img alt="Giftwrap non stock Charges" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem-m3.png"></kbd>
 
 The current logic places the non-stock item for each line-related gift-wrapping charge right after the line it belongs to, and the order total gift wrapping item at the very bottom.
 
-<kbd><img alt="Giftwrap Charges" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem-details.png"></kbd>
+<kbd><img alt="Giftwrap Charges" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem-details.png"></kbd>
 
    
 ### Credit Card Management
@@ -617,7 +617,7 @@ This means that the standard M3 credit card functionality is not utilized.
 
 The single credit card related configuration option within the Lean Swift extension can be found under LS > eConnect-ION > Configuration > Sales-Capture Payment online
 
-<kbd><img alt="Credit card management-sales" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/creditcard-management.png"></kbd>
+<kbd><img alt="Credit card management-sales" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/creditcard-management.png"></kbd>
 
 The authorization of the customer&#39;s card takes place as usual upfront when the order is placed.
 
@@ -643,7 +643,7 @@ The configuration for which charge ID (defined in &#39;CO Charge. Open&#39; – 
 
 User can choose to send or not, the shipping charges to M3, which is controlled by a Yes/No option
 
-<kbd><img alt="Freight charge" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/freight.png"></kbd>
+<kbd><img alt="Freight charge" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/freight.png"></kbd>
 
 The freight (Shipping &amp; Handling) amount within Magento is always invoiced in full on the first invoice issued for the order in question. M3 offers different configuration options for how to invoice freight (and other charges) to for example repeatedly invoice the same freight charge multiple times. Please note that if a configuration within M3 is used that would invoice the same freight charge more than once – the invoice amount in M3 will not correspond to the invoice amount in Magento. The Shipping information/details are available in Sync.SalesOrder BOD.
 
@@ -666,9 +666,9 @@ Base eConnect comes with support for two types of order line charges:
 
 The following order provides an example of where these two charges are present within Magento, and how they are represented within M3:
 
-<kbd><img alt="Giftwrap magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-magento.png"></kbd>
+<kbd><img alt="Giftwrap magento" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-magento.png"></kbd>
 
-<kbd><img alt="Giftwrap m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem-m3.png"></kbd>
+<kbd><img alt="Giftwrap m3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/giftwrap-nonstockitem-m3.png"></kbd>
 
 
 **Sales Tax**
@@ -706,13 +706,13 @@ A Magento order has a _state_. The order _state_ is what defines the position of
 
 The state is used to define/drive Magento functionality and new states cannot be added using simple configuration.
 
-<kbd><img alt="Order Management in Magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/order-management-magento.png"></kbd>
+<kbd><img alt="Order Management in Magento" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/order-management-magento.png"></kbd>
 
 **Source** : Magento via [www.magentocommerce.com](http://www.magentocommerce.com/)
 
 The following Magento states &amp; statuses exist in a new standard installation (Statuses &amp; States listed independently):
 
-<kbd><img alt="Statuses in Magento" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/magento-status.png"></kbd>
+<kbd><img alt="Statuses in Magento" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/magento-status.png"></kbd>
 
 **Initial Load/ Import**
 
@@ -726,11 +726,11 @@ This feature allows to import data from M3 into Magento. Data can be imported fo
 - Order (Show.SalesOrder)
 - Invoice (Show.invoice, Show.ReceivableTransaction)
 
-<kbd><img alt="Initial load/import" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/initial-load-import.png"></kbd>
+<kbd><img alt="Initial load/import" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/initial-load-import.png"></kbd>
 
 Import can be based on certain filter conditions.
 
-<kbd><img alt="Import Invoices" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/import-invoices.png"></kbd>
+<kbd><img alt="Import Invoices" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/import-invoices.png"></kbd>
 
 **From Date:**
 Date from which data has to be imported
@@ -747,7 +747,7 @@ Any conditions can be mentioned here. Once import is done, the last imported dat
 **Import History**
 This displays the history of imports done in the system. Clicking on this will navigate to a page that displays information on which module was imported and the corresponding conditions that were used.
 
-<kbd><img alt="Import History" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/import-history.png"></kbd>
+<kbd><img alt="Import History" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/import-history.png"></kbd>
 
 **M3**
 
@@ -843,15 +843,15 @@ The Shipment synchronization is the second key within eConnect to within Magento
 
 Each Magento order can have multiple shipments associated with it.
 
-<kbd><img alt="Shipments" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipments.png"></kbd>
+<kbd><img alt="Shipments" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/shipments.png"></kbd>
 
 Each shipment can have several tracking numbers associated to it.
 
-<kbd><img alt="Shipment Handling Information" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipping-handling-info.png"></kbd>
+<kbd><img alt="Shipment Handling Information" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/shipping-handling-info.png"></kbd>
 
 Click on Track order to view the tracking info.
 
-<kbd><img alt="Shipment Tracking Info" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipment-trackinginfo.png"></kbd>
+<kbd><img alt="Shipment Tracking Info" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/shipment-trackinginfo.png"></kbd>
 
 The shipment includes delivery address and items delivered. When creating the delivery, only items on the order can be selected. Order comments can be added. A new shipment can automatically generate an email notification to the customer.
 
@@ -879,7 +879,7 @@ eConnect is also prepared to also synchronize any tracking numbers that are ente
 
 A single tracking number can be entered for the entire delivery on detail panel F of the delivery in &#39;Delivery. Open Toolbox&#39; (MWS410).
 
-<kbd><img alt="Shipment Tracking Info in M3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipment-trackinginfo-m3.png"></kbd>
+<kbd><img alt="Shipment Tracking Info in M3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/shipment-trackinginfo-m3.png"></kbd>
 
 **Package Tracking#**
 
@@ -890,9 +890,9 @@ eConnect will search for tracking numbers in both of these places, starting with
 Once shipment is created, shipment BOD updates the information into magento and order gets updated with the information, each delivery that is created within M3 will be synchronized over to Magento, and pegged with the M3 delivery number as a reference within the &#39;Shipment History&#39; section.
 
 
-<kbd><img alt="Shipments" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipments.png"></kbd>
+<kbd><img alt="Shipments" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/shipments.png"></kbd>
 
- <kbd><img alt="Shipment history" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/shipment-history.png"></kbd>
+ <kbd><img alt="Shipment history" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/shipment-history.png"></kbd>
 
 The synchronization of the M3 delivery is possible only following pick reporting, i.e. after the quantity on the delivery has been issued (at corresponding status moved to &#39;6&#39; in M3) and the delivery appears in &#39;CO Delivery.Open&#39; (OIS150).
 
@@ -913,11 +913,11 @@ Each invoice in Magento references the corresponding invoice in M3 within the &#
 
 Invoice information/Details are available in Sync.Invoice Bod and in Sync.ReceivableTransaction BODs.
 
-<kbd><img alt="Invoice tab in Orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-order.png"></kbd>
+<kbd><img alt="Invoice tab in Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-order.png"></kbd>
 
-<kbd><img alt="Invoice display in m3" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-display-m3.png"></kbd>
+<kbd><img alt="Invoice display in m3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-display-m3.png"></kbd>
 
-<kbd><img alt="Invoice history in orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoicehistory-order.png"></kbd>
+<kbd><img alt="Invoice history in orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/invoicehistory-order.png"></kbd>
 
 Invoice information is carried by Sync.Invoice BOD and Sync.ReceivableTransaction BOD.
 
@@ -932,21 +932,21 @@ In the case where a common customer number is used in a B2C setup, the functiona
 
 For a B2C or B2B configuration where individual (discrete) customer numbers are used, the Order History is accessed via the &#39;My Orders&#39; link in the menu on the left on the account home page after a user has logged in to the Magento front-end.
 
-<kbd><img alt="Order history recent orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-recentorders.png"></kbd>
+<kbd><img alt="Order history recent orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-recentorders.png"></kbd>
 
-<kbd><img alt="Order history my orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-myorders.png"></kbd>
+<kbd><img alt="Order history my orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-myorders.png"></kbd>
 
 The new Order History view presents the users with two pre-defined views (1) _ERP Orders_ and
 
 1. _Magento Orders_. There&#39;re also additional optional filters (3) that can be applied in the _ERP Orders_view.
 
-<kbd><img alt="Order history erp orders" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-erporders.png"></kbd>
+<kbd><img alt="Order history erp orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-erporders.png"></kbd>
 
 When the _ERP Orders_ view is selected, every sales order in M3 for the M3 customer number that the Magento user logged in is associated with is displayed.
 
 The following Additional filter capabilities are available within the _ERP Orders_ view:
 
-<kbd><img alt="Order history Filters" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-filters.png"></kbd>
+<kbd><img alt="Order history Filters" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/orderhistory-filters.png"></kbd>
 
   1. Search for a specific Magento order number
   2. Search for a specific M3 order number
@@ -960,11 +960,11 @@ The following Additional filter capabilities are available within the _ERP Order
 
 The invoice history view is accessed via the customer&#39;s &#39;My Account&#39; view on the front-end.
 
-<kbd><img alt="Invoice History" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-history.png"></kbd>
+<kbd><img alt="Invoice History" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-history.png"></kbd>
 
 Some filter capabilities exist also for the &#39;My Invoice&#39; view.
 
-<kbd><img alt="Invoice Filters" src="https://github.com/leanswift/leanswift.github.io/blob/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-filters.png"></kbd>
+<kbd><img alt="Invoice Filters" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part2/invoice-filters.png"></kbd>
 
 1. A specific Invoice Number can be searched out
 2. A specific M3 order number can be searched out
