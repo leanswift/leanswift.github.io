@@ -5,12 +5,16 @@
 
 # Table of contents
 
+# Table of contents
+
 - [GENERAL INFORMATION](#general-information)
   - [System Overview](#system-overview)
+    - [Architecture with Magento API](#architecture-with-magento-api)
+    - [eConnect-base v5.0.0](#econnect-base-v500)
   - [New in this version](#new-in-this-version)
-    - [Architecture with IMS for multi-tenant Cloud M3](#architecture-with-ims-for-multi-tenant-cloud-m3)
-    - [eConnect-base v5.0.0](#econnect-base-v300)
-    - [IMS](#ims)
+    - [LeanSwift AMQP Connection](#leanswift-amqp-connection)
+    - [Enterprise connector Removal](#enterprise-connector-removal)
+    - [Additional Entity Attribute Mapping](#additional-entity-attribute-mapping)
   - [Transactions](#transactions)
   - [User Interface](#user-interface)
   - [Points of Contact](#points-of-contact)
@@ -29,16 +33,15 @@
     - [Basic Data Configuration (M3 connection protocol - ION)](#basic-data-configuration-m3-connection-protocol---ion)
     - [Authentication](#authentication)
     - [New in this version](#new-in-this-version)
-      - [IMS Configuration](#ims-configuration)
-      - [Cron](#cron)
-      - [IMS Report](#ims-report)
+      - [Message Queue Configuration](#message-queue-configuration)
+      - [Authentication](#authentication)
+      - [eConnect M3 Connectivity](#econnect-m3-connectivity)
 - [eConnect-General](#econnect-general)
   - [General Configuration](#general-configuration)
 - [eConnect-ION](#econnect-ion)
   - [Basic Data Configuration](#basic-data-configuration)
   - [Shipping Method](#shipping-method)
   - [Manual Sync Configuration](#manual-sync-configuration)
-- [New in this version](#new-in-this-version)
   - [Customer General Configuration](#customer-general-configuration)
     - [Create Customer On Registration](#create-customer-on-registration)
     - [Create Customer On Placing Order](#create-customer-on-placing-order)
@@ -75,7 +78,6 @@
 
 [Go to Top](#table-of-contents)
 
-## New in this version
 ### Architecture with Magento API
 
 <kbd><img alt="eConnect Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1575/ecommerce/pages/econnect-m3/20.3.0/images/ARCHITECTURE.jpg"></kbd>
@@ -465,8 +467,6 @@ Maximum number of records that can be selected at a time for manual sync can be 
 There is a maximum limit of 200 beyond which manual sync cannot be done.
 
 [Go to Top](#table-of-contents)
-
-# New in this version
 
 ## Customer General Configuration
 
