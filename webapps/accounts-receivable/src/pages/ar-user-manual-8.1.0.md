@@ -1,4 +1,4 @@
-# User Manual - Accounts Receivable - Version 8.0.0
+# User Manual - Accounts Receivable - Version 8.1.0
 
 ![Accounts Receivable](../../../../images/banner-accounts-receivable.jpg)
 
