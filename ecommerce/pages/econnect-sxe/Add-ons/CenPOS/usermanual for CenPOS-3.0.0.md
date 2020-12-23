@@ -2,7 +2,12 @@
 
 ## User Manual
 
-- Payment using CenPOS is developed as a separate Add-on to the eConnect extension. CenPOS’s Magento Extension SimpleWebpay is a prerequisite for this Add-on and we use the following GitHub link to download this extension.
+
+- CenPOS Addon is supported for both Community and Enterprise version of Magento.
+
+- Payment using CenPOS is developed as a separate Add-on to the eConnect extension.
+
+- CenPOS’s Magento Extension SimpleWebpay is a prerequisite for this Add-on and we use the following GitHub link to download this extension.
 
   - https://github.com/mastercelta/SimpleWebpay/blob/master/composer.json
 

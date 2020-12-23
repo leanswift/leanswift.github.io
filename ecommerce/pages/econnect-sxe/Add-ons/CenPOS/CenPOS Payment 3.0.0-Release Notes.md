@@ -7,6 +7,7 @@
 | Software Name | Version | 
 | --- | --- |
 | Magento Open Source| 2.4.0 |
+| Magento Open Source| 2.4.1 |
 | Infor SX.e  | 6.1.091 |
 | Infor Cloudsuite Distribution | 11.20.1 |
 | PHP | 7.4.12 |
@@ -27,7 +28,7 @@ Add-on CenPOS Payment 3.0.0 includes the following functionalities.
 
 ## Highlights
 
-- This is the third version of integration between Magento and Infor SX.e/CSD with CenPOS payment option.
+- This is the first version of integration between Magento Enterprise edition and Infor SX.e/CSD with CenPOS payment option.
 
 - Enables Secure and PCI compliant integration with SX.e.
 
