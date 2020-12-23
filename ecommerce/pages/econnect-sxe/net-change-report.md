@@ -6,6 +6,11 @@
 
 ## 20.3.0
 
+
+### Highlights
+
+- This is the first version of integration between Magento Enterprise edition and Infor SX.e/CSD.
+
 ### Enhancements
 
 - Added a new section in the Magento Backend to add the extra fields to be sent while creating an order(Applicable for normal and CenPOS orders)
