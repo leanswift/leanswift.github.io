@@ -7,7 +7,7 @@
 | Software Name | Version | 
 | --- | --- |
 | Magento Open Source| 2.4.0 |
-| Magento Open Source| 2.4.1 |
+| Magento Commerce| 2.4.1 |
 | Infor SX.e  | 6.1.091 |
 | Infor Cloudsuite Distribution | 11.20.1 |
 | PHP | 7.4.12 |
