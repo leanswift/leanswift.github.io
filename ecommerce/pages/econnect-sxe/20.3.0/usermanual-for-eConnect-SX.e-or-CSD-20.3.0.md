@@ -6,7 +6,7 @@
 
 # System Overview
 
-**LeanSwift eConnect for SX.e/CSD** provides a seamless integration between Magento eCommerce and Infor Distribution SX.e/CSD. The product consists of a base Magento extension and optional add-on extensions. SOAP APIs exposed by SX.e and ION REST APIs exposed by cloudsuite distribution are used to manage the communication with Infor Distribution SX.e/CSD from Magento.
+**LeanSwift eConnect for SX.e/CSD** provides a seamless integration between Magento(Community & Enterprise) and Infor Distribution SX.e/CSD. The product consists of a base Magento extension and optional add-on extensions. SOAP APIs exposed by SX.e and ION REST APIs exposed by cloudsuite distribution are used to manage the communication with Infor Distribution SX.e/CSD from Magento.
 
 <kbd>
 <img alt ="sxe architecture" src="../../../../ecommerce/images/eConnect-Sxe/sxe_architecture.png"></kbd>
@@ -19,6 +19,7 @@ There is also additional background configuration specific to eConnect.
 ## Validated Versions
 
 - Magento Open Source 2.4.0
+- Magento Commerce 2.4.1
 - Infor SX.e 6.1.19
 - Infor CloudSuite Distribution 11.20.1
 - PHP 7.4.12
@@ -542,7 +543,7 @@ Using this mapping section
 
 ### Enable order comments
 
-If set to 'Yes', this enables sending header-level comments [entered in the last step of the Checkout process] for the entire order to M3.
+If set to 'Yes', this enables sending header-level comments [entered in the last step of the Checkout process] for the entire order to SX.e/CSD.
 
 ### Send order reference
 
@@ -666,7 +667,7 @@ available and final Checkout isn't possible.
 From a customer perspective, eConnect relies on the 'SX.e Customer Number'. This value provides mapping between a Magento Customer and an SX.e Customer. It must be equal to the corresponding SX.e customer number in order for all of the eConnect transactions to function as they should. **Mapping of a Magento Customer to an SX.e Customer is a manual process and must be done before Customer Address Synchronization transaction can be performed**.
 
 
-This functionality enables customer addresses to be synced over to Magento from SX.e. In this version, the functionality assumes that the Customer exists in both M3 and Magento as active and approved customers. With this pre-requisite fulfilled, any type of customer address that's defined within SX.e can be synchronized over to Magento. Customer Billing Address and Shipping Addresses (also known as Ship-Tos) are the information synchronized from SX.e to Magento.
+This functionality enables customer addresses to be synced over to Magento from SX.e. In this version, the functionality assumes that the Customer exists in both SX.e/CSD and Magento as active and approved customers. With this pre-requisite fulfilled, any type of customer address that's defined within SX.e can be synchronized over to Magento. Customer Billing Address and Shipping Addresses (also known as Ship-Tos) are the information synchronized from SX.e to Magento.
 
 ## Synchronization Process
 
