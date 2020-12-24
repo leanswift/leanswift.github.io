@@ -1,6 +1,6 @@
 ![eConnect for Infor SX.e / Infor CloudSuite Distribution](../../../../images/banner-econnect-sxe.jpg)
 
-# Version 20.3.0 - User Manual for eConnect for SX.e/CSD CE
+# Version 20.3.0 - User Manual for eConnect for SX.e/CSD
 
 # GENERAL INFORMATION
 
