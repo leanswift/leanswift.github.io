@@ -72,6 +72,8 @@ Uploading the .ionapi file will automatically populate the authentication detail
 
 Provided option to choose which field can be Item Price - MMSAPR / ODSAPR
 
+Note : The base price that updates for an item based on odsapr setting will work on website scope by picking the price list and currency based on website scope but customer specific price will update based on latest price bod 
+
 # **Highlights**
 
 - _maxReturnedRecords_ option in the API requestis now configurable
