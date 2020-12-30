@@ -115,8 +115,46 @@ Connector.
 
 ### Additional Entity Attribute Mapping
 
-The feature allows administrator to configure API based on the entity type. API triggered when corresponding BOD 
+The feature allows administrator to configure API based on the entity type. API is triggered when corresponding BOD 
 received.This allows removal of Custom BOD for the Product, Customer and Order.
+
+To Configure or view APIs go to Leanswift > eConnect-ION > Additional Entity Attribute Mapping. Configured API details are displayed in tabular format with details such as ID, Program, Transaction, Entity, Query, Comment and Action. 'Select' and 'Edit' are two actions that can be performed with the configured APIs.
+
+<kbd><img alt="Additional Entity Attribute Mapping" src="https://leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/Attribute_mapping.png"></kbd>
+
+When a new Api needs to be configured, click on Add Program
+
+<kbd><img alt="Attribute Mapping Configuration" src="https://leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/attribute_mapping_apiconfig1.png"></kbd>
+
+**Program**
+
+The API program name needs to entered here.
+
+**Transaction**
+
+The transaction (such as select, get or add )specific to the program is configured in this field.
+
+**Entity**
+
+This dropdown is to select if the API entity is Customer, Product or Other.
+
+**Query**
+
+Query text field is applicable only for ExportMI (Select Transaction). 
+
+**Comment**
+
+Any comments or important notes can be mentioned in Comments text field such as 'System generated program. Delete action was restricted'.
+
+<kbd><img alt="Attribute Mapping Configuration2" src="https://leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/attribute_mapping_apiconfig2.png"></kbd>
+
+**Input Rows**
+
+The API input needs to be configured here. The Input includes 'Magento Field' which is a dropdown, Corresponding 'M3 field', 'Default' value for the api field, Action (with bin symbol ) to delete the configured field if required.
+
+**Output Rows**
+
+The API output needs to be configured here. The Output includes 'Magento Field' which is a dropdown, Corresponding 'M3 field', 'Default' value for the api field if the output field is empty, Action (with bin symbol ) to delete the configured field if required.
 
 ---
 **NOTE**
