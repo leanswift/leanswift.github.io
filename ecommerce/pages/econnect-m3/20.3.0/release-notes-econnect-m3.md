@@ -82,11 +82,11 @@ Note : The base price that updates for an item based on odsapr setting will work
 
 - Customer Default Address from the CustomerPartyMaster BOD are now added to Magento
 
-- Support for overriding standard Xpath from the configuration has been provided
+- Support for overriding standard Xpath from the configuration has been provided.
 
 - Dispatching 'catalog_product_import_bunch_save_after' event for product and 'ls_catalog_product_stock_bunch_save_after' event for stock resolves synchronize problem on third-    party integration.
 
-- Bug fixes made to fetch only the active shipping and payment methods in econnect configuration.
+- Bug fixes are made to fetch only the active shipping and payment methods in econnect configuration.
 
 - Performance improvement done for item manual sync. Added additional check before performing the shipment creation.
 
@@ -99,6 +99,12 @@ Note : The base price that updates for an item based on odsapr setting will work
 - Removed LS extension specific attributes such as Variation ID from checkout page.
 
 - New Configuration 'Item Price' is added in admin. Based on selection item base price will update by calling the API.
+
+- Fixes for Undefined offset error during customer registration (when supplier portal was also installed & used in the same instance ).
+
+- When 'M3 AttributeSet Source' is invalid , product is now mapped to 'Default/Fallback AttributeSet' configured.
+
+- Error handling in checkout page when shipping methods are enabled.
 
 # **Note** 
 
