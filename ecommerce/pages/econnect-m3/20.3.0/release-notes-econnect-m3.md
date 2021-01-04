@@ -13,6 +13,8 @@
     - [**Authentication File Upload Option**](#authentication-file-upload-option)
     - [**Update on item price**](#update-on-item-price)
 - [**Highlights**](#highlights)
+- [**Bug Fixes**](#bug-fixes)
+- [**Note**](#note)
 - [**Point of Contact**](#point-of-contact)
 
 
@@ -86,7 +88,17 @@ Note : The base price that updates for an item based on odsapr setting will work
 
 - Bug fixes made to fetch only the active shipping and payment methods in econnect configuration.
 
-- Performance improvement done for item manual sync.
+- Performance improvement done for item manual sync. Added additional check before performing the shipment creation.
+
+- Factory pattern class is used to load the object for required entities, collection factory is used whererver possible inorder to rectify memory issue in order creation via  cron.
+
+- Sort, filter and issues in CSV file is fixed in 'My Orders' page. Fixes are also applied to properly update status, shipment and payment information on 'My Orders' page.
+
+- Fixes done (check if Location ID is empty in Receivable transaction BOD) to update invoice amount in 'My Invoices' page.
+
+- Removed LS extension specific attributes such as Variation ID from checkout page.
+
+- New Configuration 'Item Price' is added in admin. Based on selection item base price will update by calling the API.
 
 # **Note** 
 
