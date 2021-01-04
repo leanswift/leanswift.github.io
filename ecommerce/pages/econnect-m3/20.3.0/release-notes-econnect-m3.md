@@ -4,8 +4,6 @@
 
 # Table of contents
 
-- [**eConnect 20.3.0**](#econnect-2030)
-  - [**Internal Release Notes**](#internal-release-notes)
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
 - [**New Features/Enhancements**](#new-featuresenhancements)
@@ -15,8 +13,6 @@
     - [**Authentication File Upload Option**](#authentication-file-upload-option)
     - [**Update on item price**](#update-on-item-price)
 - [**Highlights**](#highlights)
-- [**JIRA References**](#jira-references)
-- [**GitHub Links**](#github-links)
 - [**Point of Contact**](#point-of-contact)
 
 
@@ -27,9 +23,7 @@
 | Magento version | 2.4.1 |
 | PHP version | 7.4.12 |
 | RabbitMQ | 3.8.3 |
-| Infor M3 (ST) | 13.4 |
 | Infor M3 (MT) | 16.1 |
-| ION Desk | 12.0.0 |
 
 # **Standard Features**
 
@@ -76,15 +70,19 @@ Note : The base price that updates for an item based on odsapr setting will work
 
 # **Highlights**
 
-- _maxReturnedRecords_ option in the API requestis now configurable
-
-- Customer Default Address from the CustomerPartyMaster BOD are now added to Magento
+- _maxReturnedRecords_ option in the API request is now configurable
 
 - Table creation and Attribute creation will be done as per Magento standard
 
 - Usage of mixins in javascript instead of _map_
 
+# **Bug Fixes**
 
+- Customer Default Address from the CustomerPartyMaster BOD are now added to Magento
+
+# **Note** 
+
+ This version is supported only in MT.
 
 # **Point of Contact**
 
