@@ -1,12 +1,12 @@
 ![eConnect for Infor SX.e / Infor CloudSuite Distribution](../../../../images/banner-econnect-sxe.jpg)
 
-# Version 20.3.0 - User Manual for eConnect for SX.e/CSD CE
+# Version 20.3.0 - User Manual for eConnect for SX.e/CSD
 
 # GENERAL INFORMATION
 
 # System Overview
 
-**LeanSwift eConnect for SX.e/CSD** provides a seamless integration between Magento eCommerce and Infor Distribution SX.e/CSD. The product consists of a base Magento extension and optional add-on extensions. SOAP APIs exposed by SX.e and ION REST APIs exposed by cloudsuite distribution are used to manage the communication with Infor Distribution SX.e/CSD from Magento.
+**LeanSwift eConnect for SX.e/CSD** provides a seamless integration between Magento(Community & Enterprise) and Infor Distribution SX.e/CSD. The product consists of a base Magento extension and optional add-on extensions. SOAP APIs exposed by SX.e and ION REST APIs exposed by cloudsuite distribution are used to manage the communication with Infor Distribution SX.e/CSD from Magento.
 
 <kbd>
 <img alt ="sxe architecture" src="../../../../ecommerce/images/eConnect-Sxe/sxe_architecture.png"></kbd>
@@ -19,6 +19,7 @@ There is also additional background configuration specific to eConnect.
 ## Validated Versions
 
 - Magento Open Source 2.4.0
+- Magento Commerce 2.4.1
 - Infor SX.e 6.1.19
 - Infor CloudSuite Distribution 11.20.1
 - PHP 7.4.12
@@ -487,39 +488,51 @@ Using this mapping section
 - Extra fields can be sent in Order Creation request. 
 - We can also overwrite the existing request values.
 
-  **Magento Field Name **
-    Magento Attribute code -  [When entity is Customer/Customer-Billing/Customer-Shipping/Product],
-    Column Name => [When entity is Order],
-    XML config path[When the entity is Config-Store/Website/Global] => For example, "econnectSXE/basic_data/order_type"]
+  **Magento Field Name**
+    
+     Magento Attribute code -  [When entity is Customer/Customer-Billing/Customer-Shipping/Product],
+     Column Name => [When entity is Order],
+     XML config path[When the entity is Config-Store/Website/Global] => For example, "econnectSXE/basic_data/order_type"]
 
   **SX.e Field Name(case sensitive)** 
+    
     This is Order creation request’s node/element name
     - ShipVia(SX.e)
     - shipVia(CSD)
 
   **SX.e Section(case sensitive)** 
+  
   This is Order creation request’s section name
   - Initem(SX.e) 
   - sxt_itemv4(CSD)
 
   **Default Value**
+  
   The value given here will only be taken if the entity is chosen as "static"
 
   **Entity**
-  Static
-    The value provided in "Default Value" will be taken. If any existing static value of the Order Request has to be changed then this will be useful. No need to specify “Magento Field Name” when choosing this option
-  Customer
-    Values of Customer attributes[Can be custom or default attribute]
-  Customer - Billing
-    Values of Customer Billing address attributes[Can be custom or default attribute]
-  Customer - Shipping
-    Values of Customer Shipping address attributes[Can be custom or default attribute]
-  Order
-    Values of Order Object only
-  Product
-    Values of Product attributes.[Note: We can fetch the product information only from the order items of the order object. So, any product attribute(custom or default) can be added but only to the order item section]
-  Config - Store, Website, Global 
-    Value will be taken using the configuration path value given in "Magento Field Name" and the chosen entity
+  
+  - Static
+      
+      The value provided in "Default Value" will be taken. If any existing static value of the Order Request has to be changed then this will be useful. No need to specify “Magento Field Name” when choosing this option
+  - Customer
+      
+      Values of Customer attributes[Can be custom or default attribute]
+  - Customer - Billing
+     
+     Values of Customer Billing address attributes[Can be custom or default attribute]
+  - Customer - Shipping
+     
+     Values of Customer Shipping address attributes[Can be custom or default attribute]
+  - Order
+     
+     Values of Order Object only
+  - Product
+     
+     Values of Product attributes.[Note: We can fetch the product information only from the order items of the order object. So, any product attribute(custom or default) can be added but only to the order item section]
+  - Config - Store, Website, Global 
+     
+     Value will be taken using the configuration path value given in "Magento Field Name" and the chosen entity
     
    **Note:** Since we have few limitations to the above method when comes to Order and Product Entities, I have provided a method where the additional required data can be passed and which will be automatically updated in the required section.
 
@@ -530,7 +543,7 @@ Using this mapping section
 
 ### Enable order comments
 
-If set to 'Yes', this enables sending header-level comments [entered in the last step of the Checkout process] for the entire order to M3.
+If set to 'Yes', this enables sending header-level comments [entered in the last step of the Checkout process] for the entire order to SX.e/CSD.
 
 ### Send order reference
 
@@ -557,7 +570,7 @@ This section should always be reviewed within the project, and with the help of 
 
 ## Version Info
 
-This last section provides information related to the version of the LeanSwift Magento extension that's installed, as well as the version of eLink ERP Connector being used
+This last section provides information related to the version of the LeanSwift eConnect for SX.e/CSD extension that's installed, as well as the version of CenPOS addon being used
 
 <kbd>
 <img alt ="version info" src="../../../../ecommerce/images/eConnect-Sxe/version_info.png"></kbd>
@@ -654,7 +667,7 @@ available and final Checkout isn't possible.
 From a customer perspective, eConnect relies on the 'SX.e Customer Number'. This value provides mapping between a Magento Customer and an SX.e Customer. It must be equal to the corresponding SX.e customer number in order for all of the eConnect transactions to function as they should. **Mapping of a Magento Customer to an SX.e Customer is a manual process and must be done before Customer Address Synchronization transaction can be performed**.
 
 
-This functionality enables customer addresses to be synced over to Magento from SX.e. In this version, the functionality assumes that the Customer exists in both M3 and Magento as active and approved customers. With this pre-requisite fulfilled, any type of customer address that's defined within SX.e can be synchronized over to Magento. Customer Billing Address and Shipping Addresses (also known as Ship-Tos) are the information synchronized from SX.e to Magento.
+This functionality enables customer addresses to be synced over to Magento from SX.e. In this version, the functionality assumes that the Customer exists in both SX.e/CSD and Magento as active and approved customers. With this pre-requisite fulfilled, any type of customer address that's defined within SX.e can be synchronized over to Magento. Customer Billing Address and Shipping Addresses (also known as Ship-Tos) are the information synchronized from SX.e to Magento.
 
 ## Synchronization Process
 

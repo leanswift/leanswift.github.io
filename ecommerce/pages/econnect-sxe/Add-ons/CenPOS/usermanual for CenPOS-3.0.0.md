@@ -2,7 +2,12 @@
 
 ## User Manual
 
-- Payment using CenPOS is developed as a separate Add-on to the eConnect extension. CenPOS’s Magento Extension SimpleWebpay is a prerequisite for this Add-on and we use the following GitHub link to download this extension.
+
+- CenPOS Addon is supported for both Community and Enterprise version of Magento.
+
+- Payment using CenPOS is developed as a separate Add-on to the eConnect extension.
+
+- CenPOS’s Magento Extension SimpleWebpay is a prerequisite for this Add-on and we use the following GitHub link to download this extension.
 
   - https://github.com/mastercelta/SimpleWebpay/blob/master/composer.json
 
@@ -16,7 +21,7 @@
 
 
   <kbd>
-  <img alt ="simple webpay" src="../../../../ecommerce/images/eConnect-Sxe/cenpos_simplewebpay.png"></kbd>
+  <img alt ="simple webpay" src="/../../../ecommerce/images/eConnect-Sxe/cenpos_simplewebpay.png"></kbd>
   
 
     - Log into the Simple Webpay Admin panel to retrieve the encrypted Merchant ID and secret key values
@@ -39,7 +44,7 @@
   - Change the CenPOS Order type and Transaction type under sales configuration if necessary. By default, "O" will be mentioned under CenPOS Order type and "LSF" will be mentioned under CenPOS Transaction type.
 
   <kbd>
-  <img alt ="cenpos order type" src="../../../../ecommerce/images/eConnect-Sxe/cenpos_ordertype.png"></kbd>
+  <img alt ="cenpos order type" src="/../../../ecommerce/images/eConnect-Sxe/cenpos_ordertype.png"></kbd>
 
 
 
