@@ -80,6 +80,14 @@ Note : The base price that updates for an item based on odsapr setting will work
 
 - Customer Default Address from the CustomerPartyMaster BOD are now added to Magento
 
+- Support for overriding standard Xpath from the configuration has been provided
+
+- Dispatching 'catalog_product_import_bunch_save_after' event for product and 'ls_catalog_product_stock_bunch_save_after' event for stock resolves synchronize problem on third-    party integration.
+
+- Bug fixes made to fetch only the active shipping and payment methods in econnect configuration.
+
+- Performance improvement done for item manual sync.
+
 # **Note** 
 
  This version is supported only in MT.
