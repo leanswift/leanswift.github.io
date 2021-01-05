@@ -108,7 +108,9 @@ Note : The base price that updates for an item based on odsapr setting will work
 
 # **Note** 
 
- This version is supported only in MT.
+ - This version is supported only in MT.
+ 
+ - LSItemMasterDetails , LSSalesOrderDetails and LSCustomerDetails are no more supported from 2.3.0 onwards.
 
 # **Point of Contact**
 
