@@ -4,8 +4,6 @@
 
 # Table of contents
 
-- [**eConnect 20.3.0**](#econnect-2030)
-  - [**Internal Release Notes**](#internal-release-notes)
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
 - [**New Features/Enhancements**](#new-featuresenhancements)
@@ -15,8 +13,8 @@
     - [**Authentication File Upload Option**](#authentication-file-upload-option)
     - [**Update on item price**](#update-on-item-price)
 - [**Highlights**](#highlights)
-- [**JIRA References**](#jira-references)
-- [**GitHub Links**](#github-links)
+- [**Bug Fixes**](#bug-fixes)
+- [**Note**](#note)
 - [**Point of Contact**](#point-of-contact)
 
 
@@ -27,9 +25,7 @@
 | Magento version | 2.4.1 |
 | PHP version | 7.4.12 |
 | RabbitMQ | 3.8.3 |
-| Infor M3 (ST) | 13.4 |
 | Infor M3 (MT) | 16.1 |
-| ION Desk | 12.0.0 |
 
 # **Standard Features**
 
@@ -76,15 +72,45 @@ Note : The base price that updates for an item based on odsapr setting will work
 
 # **Highlights**
 
-- _maxReturnedRecords_ option in the API requestis now configurable
-
-- Customer Default Address from the CustomerPartyMaster BOD are now added to Magento
+- _maxReturnedRecords_ option in the API request is now configurable
 
 - Table creation and Attribute creation will be done as per Magento standard
 
 - Usage of mixins in javascript instead of _map_
 
+# **Bug Fixes**
 
+- Customer Default Address from the CustomerPartyMaster BOD are now added to Magento
+
+- Support for overriding standard Xpath from the configuration has been provided.
+
+- Dispatching 'catalog_product_import_bunch_save_after' event for product and 'ls_catalog_product_stock_bunch_save_after' event for stock resolves synchronize problem on third-    party integration.
+
+- Bug fixes are made to fetch only the active shipping and payment methods in econnect configuration.
+
+- Performance improvement done for item manual sync. Added additional check before performing the shipment creation.
+
+- Factory pattern class is used to load the object for required entities, collection factory is used whererver possible inorder to rectify memory issue in order creation via  cron.
+
+- Sort, filter and issues in CSV file is fixed in 'My Orders' page. Fixes are also applied to properly update status, shipment and payment information on 'My Orders' page.
+
+- Fixes done (check if Location ID is empty in Receivable transaction BOD) to update invoice amount in 'My Invoices' page.
+
+- Removed LS extension specific attributes such as Variation ID from checkout page.
+
+- New Configuration 'Item Price' is added in admin. Based on selection item base price will update by calling the API.
+
+- Fixes for Undefined offset error during customer registration (when supplier portal was also installed & used in the same instance ).
+
+- When 'M3 AttributeSet Source' is invalid , product is now mapped to 'Default/Fallback AttributeSet' configured.
+
+- Error handling in checkout page when shipping methods are enabled.
+
+# **Note** 
+
+ - This version is supported only in MT.
+ 
+ - LSItemMasterDetails , LSSalesOrderDetails and LSCustomerDetails are no more supported from 2.3.0 onwards.
 
 # **Point of Contact**
 

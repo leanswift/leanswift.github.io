@@ -3,9 +3,9 @@
 ![eConnect for Infor SX.e / Infor CloudSuite Distribution](../../../images/banner-econnect-sxe.jpg)
 
 
-# [Product Overview](overview-econnect-sxe.md)
+# [Product Overview](ecommerce/pages/econnect-sxe/overview-econnect-sxe.md)
 
-# [Net Changes](netchanges-econnect-sxe.md)
+# [Net Changes](ecommerce/pages/econnect-sxe/net-change-report.md)
 
 ---
 
