@@ -3,15 +3,16 @@
 
 # **Material Plan**
 
-
-
 ## **Version 4.1.0**
 
 ## **Release Notes**
 
 **Table of Contents**
 
-
+- [**Overview**](#overview)
+- [**Environment Details**](#environment-details)
+- [**Standard Features**](#standard-features)
+- [**Bugfix**](#bugfix)
 
 ## **Overview**
 
@@ -36,16 +37,13 @@ Extends standard Magento functionality and offers several transactions to ensure
 ## **Standard Features**
 
 All the features of Material Plan 3.1.0 remain the same in this version
-
 Provides customers with information about current available inventory, ATP quantity and the next available date per productfrom M3
 
 For Simple Products, ATP is displayed in,
-
 - Product Detail Page
 - Cart Page
 
 For Configurable and Grouped Products, ATP is displayed in,
-
 - Cart Page only
 
 ## **Bugfix**
