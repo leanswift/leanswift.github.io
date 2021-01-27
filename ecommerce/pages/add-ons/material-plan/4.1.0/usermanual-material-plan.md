@@ -1,5 +1,5 @@
 # **Eonnect User Manual – Material Plan**
-![econnect_banner](../../../../images/banner-econnect-m3.jpg)
+![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
 

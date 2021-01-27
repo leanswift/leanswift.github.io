@@ -13,7 +13,7 @@
 
 ## Sales Representative
 
-## Material Plan
+# [Material Plan](pages/add-ons/material-plan/material-plan.md)
 
 ## Multiwarehouse
 
