@@ -69,7 +69,7 @@ The new version will coexist with the older version of eConnect which uses LeanS
 
 
 
-<kbd>![elink Architecture](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/architecture-with-leanSwift-eLink.jpg)</kbd>
+<kbd>![elink Architecture](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/architecture-with-leanSwift-eLink.jpg)</kbd>
 
 
 
@@ -77,7 +77,7 @@ The new version will coexist with the older version of eConnect which uses LeanS
 
 
 
-<kbd>![ION Architecture](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/architecture-with-ION-for-multi-tenant-cloud-M3.jpg)</kbd>
+<kbd>![ION Architecture](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/architecture-with-ION-for-multi-tenant-cloud-M3.jpg)</kbd>
 
 The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
 
@@ -145,7 +145,7 @@ ATP details are supported only in the cart page for configurable and grouped pro
 
 The Material Plan setting can be found under LEANSWIFT SOLUTIONS menu
 
-<kbd>![MagentoConfig](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/material-plan-configuration.png)</kbd>
+<kbd>![MagentoConfig](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/material-plan-configuration.png)</kbd>
 
 The options enables us to control MP visibility in the frontend. We can either choose to display only on Detail page or Cart page or both. User can also control the interval at which real time calls to M3 can be made.
 
@@ -166,7 +166,7 @@ Sync Real Time and Cache hours option are removed in ION.
 Once the BODs for ATP are received, the ATP will be updated and will be displayed in the frontend.
 We also have an additional functionality which is importing ATP config using import option unlike the cron option in elink version
 
-<kbd>![Import_ATP](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/import-ATP.png)</kbd>
+<kbd>![Import_ATP](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/import-ATP.png)</kbd>
 
 
 Number of Actions: This restricts the number of ATP records imported from M3.
@@ -179,19 +179,19 @@ Once user clicks on Import button, ATP configuration will be imported from M3.
 
 Here in M3, Purchase order is being created in PPS200.
 
-<kbd>![M3_PurchaseOrder](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/pps200.png)</kbd>
+<kbd>![M3_PurchaseOrder](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/pps200.png)</kbd>
 
 To confirm the created Purchase order, Go to PPS250 and filter by your Po no. Then Confirm your order where the status moves from &#39;15&#39; to &#39;35&#39;.
 
-<kbd>![M3_ConfirmOrder](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/pps250.png)</kbd>
+<kbd>![M3_ConfirmOrder](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/pps250.png)</kbd>
 
 Once order is created and Confirmed, ATP is recalculated. This can be found in MMS080. Enter the item number and press enter. Look for the order whose status is 35 and latest Next available date( **PI dt** ) and its corresponding stock. **AvailableToPromiseCumulative** field from the BOD will be displayed as ATP value in the frontend.
 
 Note: Stock available at date =\&gt; current date only gets displayed in Magento frontend
 
-<kbd>![ATP_BOD](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/atp-bod.png)</kbd>
+<kbd>![ATP_BOD](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/atp-bod.png)</kbd>
 
-<kbd>![M3_MP](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/mms080.png)</kbd>
+<kbd>![M3_MP](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/mms080.png)</kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -207,11 +207,11 @@ In Detail page setting: Set Display in Product Detail Page to &#39;Yes&#39;.
 
 Now when the product for which order is created in PPS 200 is browsed in the frontend, ATP details along with date and stock is displayed when the quantity box is hovered with the mouse.
 
-<kbd>![ATP_DetailPAGE](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/atp-in-detail-page.png)</kbd>
+<kbd>![ATP_DetailPAGE](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/atp-in-detail-page.png)</kbd>
 
 If there is no ATP available for that product, this is how it appears:
 
-<kbd>![NoATP_DetailPage](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/no-atp-in-detail-page.png)</kbd>
+<kbd>![NoATP_DetailPage](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/no-atp-in-detail-page.png)</kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -221,7 +221,7 @@ In Cart page setting: Set Display in Cart Page to &#39;Yes&#39;.
 
 Now when the product for which order is created in PPS200 is added to cart in the frontend, ATP details along with date and stock is displayed in the cart page.
 
-<kbd>![ATP_CartPage](https://github.com/leanswift/leanswift.github.io/blob/ECNT-1734/ecommerce/images/add-ons/material-plan/atp-in-cart-page.png)</kbd>
+<kbd>![ATP_CartPage](https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/atp-in-cart-page.png)</kbd>
 
 [Go to Top](#table-of-contents)
 
