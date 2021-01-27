@@ -49,7 +49,7 @@ For Configurable and Grouped Products, ATP is displayed in,
 ## **Bugfix**
 
 - Cart page becomes blank if ATP value is empty
-- Date fields comparision (Planning date and current date) is now done in Date format
+- Date fields comparison (Planning date and current date) is now done in Date format
 
 ### **Point of Contact**
 
