@@ -1,4 +1,4 @@
-![eConnect for Infor M3](../../../images/banner-econnect-m3.jpg)
+![eConnect for Infor M3](../../../../images/banner-econnect-m3.jpg)
 
 # Version 4.1.0
 
