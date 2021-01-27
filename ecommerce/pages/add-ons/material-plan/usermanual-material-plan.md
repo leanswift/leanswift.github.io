@@ -1,75 +1,52 @@
+# **ECONNECT USER MANUAL – Material Plan**
 
-# USER MANUAL
 
-###
-_### **LeanSwift eConnect for Infor M3 &amp; Magento** _
+## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
-**Material Plan Add-on**
 
-**Product Version**  **4.1.**** 0**
+**Product Version**  **4.1.0**
+** eConnect version 20.3.0**
 
-_for eConnect version 20.3.0_
-
-**ECONNECT USER MANUAL – Material Plan**
 
 **TABLE OF CONTENTS**
 
-Page #
+- [GENERAL INFORMATION](#general-information)
+  - [1.1 System Overview](#11-system-overview)
+  - [Architecture](#architecture)
+    - [eConnect-base v5.0.0](#econnect-base-v500)
+    - [Architecture with LeanSwift eLink](#architecture-with-leanswift-elink)
+    - [Architecture with ION for multi-tenant Cloud M3](#architecture-with-ion-for-multi-tenant-cloud-m3)
+  - [1.2 Points of Contact](#12-points-of-contact)
+    - [1.2.1 Information](#121-information)
+  - [1.3 Organization of the Manual](#13-organization-of-the-manual)
+  - [1.4 Acronyms and Abbreviations](#14-acronyms-and-abbreviations)
+  - [MATERIAL PLAN ADD-ON](#material-plan-add-on)
+    - [2.0.1 Summary](#201-summary)
+    - [2.0.2 Assumptions/Limitations](#202-assumptionslimitations)
+  - [2.1 CONFIGURATION](#21-configuration)
+    - [2.1.1 Magento Configuration-ION](#211-magento-configuration-ion)
+    - [2.1.2 M3 Configuration](#212-m3-configuration)
+  - [2.2 PROCESS](#22-process)
+    - [2.2.1 ATP in Detail page](#221-atp-in-detail-page)
+    - [2.2.2 ATP in Cart page](#222-atp-in-cart-page)
 
-[1.0GENERAL INFORMATION 3](#_Toc62629713)
 
-[1.1System Overview 3](#_Toc62629714)
 
-[Architecture 3](#_Toc62629715)
 
-[eConnect-base v5.0.0 3](#_Toc62629716)
-
-[Architecture with LeanSwift eLink 4](#_Toc62629717)
-
-[Architecture with ION for multi-tenant Cloud M3 4](#_Toc62629718)
-
-[1.2Points of Contact 5](#_Toc62629719)
-
-[1.2.1Information 5](#_Toc62629720)
-
-[1.3Organization of the Manual 5](#_Toc62629721)
-
-[1.4Acronyms and Abbreviations 5](#_Toc62629722)
-
-[2.0MATERIAL PLAN ADD-ON 6](#_Toc62629723)
-
-[2.0.1Summary 6](#_Toc62629724)
-
-[2.0.2Assumptions/Limitations 6](#_Toc62629725)
-
-[2.1CONFIGURATION 7](#_Toc62629726)
-
-[2.1.1 Magento Configuration-ION 7](#_Toc62629727)
-
-[2.1.2 M3 Configuration 9](#_Toc62629728)
-
-[2.2PROCESS 12](#_Toc62629729)
-
-[2.2.1ATP in Detail page 12](#_Toc62629730)
-
-[2.2.2ATP in Cart page 13](#_Toc62629731)
-
-1.
 # GENERAL INFORMATION
 
 ## 1.1 System Overview
 
-_ **LeanSwift eConnect for Infor M3** _ provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
+ **LeanSwift eConnect for Infor M3**  provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
 
-_ **LeanSwift eConnect for Infor M3** _ is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
+ **LeanSwift eConnect for Infor M3**  is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 
-_ **LeanSwift eConnect for Infor M3** _ employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
+ **LeanSwift eConnect for Infor M3** employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
 
 ## Architecture
 
-#
 
-With 20.3.0, BODs will be sent to Magento, which inturns sends them to RabbitMQ unlike the previous version which sends them to rabbitmq directly.
+With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
 
 ### eConnect-base v5.0.0
 
@@ -85,19 +62,18 @@ With 20.3.0, BODs will be sent to Magento, which inturns sends them to RabbitMQ 
 
 The new version will coexist with the older version of eConnect which uses LeanSwift eLink and all new installations of eConnect have the ability to choose the connection protocol to M3, that is, either eLink or ION.
 
-###
 
 ### Architecture with LeanSwift eLink
 
-###
+
 
 ![](RackMultipart20210127-4-7gt9qf_html_aa3e621d5e06587e.jpg)
 
-###
+
 
 ### Architecture with ION for multi-tenant Cloud M3
 
-###
+
 
 ![](RackMultipart20210127-4-7gt9qf_html_9a02ad5752d954ce.jpg)
 
@@ -135,8 +111,8 @@ MP – Material Plan
 
 BOD – Business Object Document
 
-1.
-# MATERIAL PLAN ADD-ON
+
+## MATERIAL PLAN ADD-ON
 
 ### 2.0.1 Summary
 
@@ -148,7 +124,6 @@ Material Plan helps us discover the stock on next available date. Within eConnec
 
 Depending on the Stock availability, ATP gets updated and is displayed in frontend
 
-###
 
 
 ### 2.0.2 Assumptions/Limitations
@@ -157,7 +132,7 @@ ATP details are supported only in the cart page for configurable and grouped pro
 
 ## 2.1 CONFIGURATION
 
-    1.
+    
 ### 2.1.1 Magento Configuration-ION
 
 The Material Plan setting can be found under LEANSWIFT SOLUTIONS menu
@@ -181,20 +156,16 @@ The options enables us to control MP visibility in the frontend. We can either c
 Sync Real Time and Cache hours option are removed in ION.
 
 Once the BODs for ATP are received, the ATP will be updated and will be displayed in the frontend.
-
 We also have an additional functionality which is importing ATP config using import option unlike the cron option in elink version
 
 ![](RackMultipart20210127-4-7gt9qf_html_73488cfad6cd04f.png)
 
-.
 
 Number of Actions: This restricts the number of ATP records imported from M3.
-
 Query: Any conditions can be entered here in the form of query (IES format)
-
 Once user clicks on Import button, ATP configuration will be imported from M3.
 
-    1.
+    
 ### 2.1.2 M3 Configuration
 
 Here in M3, Purchase order is being created in PPS200.
@@ -239,4 +210,3 @@ Now when the product for which order is created in PPS200 is added to cart in th
 
 ![](RackMultipart20210127-4-7gt9qf_html_2dd8e9f9d22279cf.png)
 
-**User Manual Page 6**
