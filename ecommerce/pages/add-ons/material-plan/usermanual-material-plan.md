@@ -1,4 +1,4 @@
-# **ECONNECT USER MANUAL – Material Plan**
+# **Eonnect User Manual – Material Plan**
 
 
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
@@ -42,6 +42,8 @@
  **LeanSwift eConnect for Infor M3**  is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 
  **LeanSwift eConnect for Infor M3** employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
+ 
+ [Go to Top](#table-of-contents)
 
 ## Architecture
 
@@ -81,6 +83,8 @@ The add-ons for LeanSwift eConnect provide extended functionality over the stand
 
 These add-ons can, if necessary, be modified, and new add-ons can be added to fulfill specific customer requirements.
 
+[Go to Top](#table-of-contents)
+
 **User interface**
 
 During setup, the Magento Admin panel is used to configure which transactions that should be used and how they should function. There is also additional configuration within the Connector to support the transactions.
@@ -111,6 +115,8 @@ MP – Material Plan
 
 BOD – Business Object Document
 
+[Go to Top](#table-of-contents)
+
 
 ## MATERIAL PLAN ADD-ON
 
@@ -129,6 +135,8 @@ Depending on the Stock availability, ATP gets updated and is displayed in fronte
 ### 2.0.2 Assumptions/Limitations
 
 ATP details are supported only in the cart page for configurable and grouped products.
+
+[Go to Top](#table-of-contents)
 
 ## 2.1 CONFIGURATION
 
@@ -165,6 +173,7 @@ Number of Actions: This restricts the number of ATP records imported from M3.
 Query: Any conditions can be entered here in the form of query (IES format)
 Once user clicks on Import button, ATP configuration will be imported from M3.
 
+[Go to Top](#table-of-contents)
     
 ### 2.1.2 M3 Configuration
 
@@ -184,6 +193,8 @@ Note: Stock available at date =\&gt; current date only gets displayed in Magento
 
 ![](RackMultipart20210127-4-7gt9qf_html_eab60c5f4a2f5dde.png)
 
+[Go to Top](#table-of-contents)
+
 ## 2.2 PROCESS
 
 Once the setup described in the previous section has been completed, the MP functionality is ready to use from within Magento.
@@ -202,6 +213,8 @@ If there is no ATP available for that product, this is how it appears:
 
 ![](RackMultipart20210127-4-7gt9qf_html_5904440dc89ba507.png)
 
+[Go to Top](#table-of-contents)
+
 ### 2.2.2 ATP in Cart page
 
 In Cart page setting: Set Display in Cart Page to &#39;Yes&#39;.
@@ -209,4 +222,6 @@ In Cart page setting: Set Display in Cart Page to &#39;Yes&#39;.
 Now when the product for which order is created in PPS200 is added to cart in the frontend, ATP details along with date and stock is displayed in the cart page.
 
 ![](RackMultipart20210127-4-7gt9qf_html_2dd8e9f9d22279cf.png)
+
+[Go to Top](#table-of-contents)
 
