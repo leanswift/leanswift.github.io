@@ -1,6 +1,6 @@
 ![](RackMultipart20210127-4-1nc7bvj_html_bfb8e04537ed5a6.png)
 
-**# USER MANUAL**
+# USER MANUAL
 
 ## **LeanSwift eConnect for Infor M3 &amp; Magento**
 
@@ -8,7 +8,7 @@
 
 **Product Version**  **2.5.0**
 
-for eConnect version 20.3.0
+**for eConnect version 20.3.0**
 
 **ECONNECT USER MANUAL – ORDER GRID ADD-ON**
 
@@ -16,13 +16,11 @@ for eConnect version 20.3.0
 **TABLE OF CONTENTS**
 
 
-[**GENERAL INFORMATION**]
-
 [System Overview](#system-overview)
 
 [Architecture](#architecture)
 
-[Architecture with LeanSwift eLink](#architecture-with-leanSwift-eLink)
+[Architecture with LeanSwift eLink](#architecture-with-leanswift-elink)
 
 [Architecture with ION for multi-tenant Cloud M3](#architecture-with-ion-for-multi-tenant-cloud-m3)
 
@@ -55,7 +53,7 @@ for eConnect version 20.3.0
 [Backorder](#backorder)
 
 
-# GENERAL INFORMATION
+## GENERAL INFORMATION
 
 ## System Overview
 
@@ -115,30 +113,29 @@ During setup, the Magento Admin panel is used to configure which transactions th
 
 **Validated versions**
 
-Magento Community 2.3.1
+Magento Community 2.5.0
 
-Magento Enterprise 2.3.1
+Magento Enterprise 2.5.0
 
 Infor M3 13.x
 
-## 1.2 Points of Contact
+## Points of Contact
 
-### 1.2.1 Information
+### Information
 
 This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc via contact form at [http://www.leanswift.com](http://www.leanswift.com/)or email info@leanswift.com
 
-## 1.3 Organization of the Manual
+## Organization of the Manual
 
 This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation – though the general workflow is similar.
 
-## 1.4 Acronyms and Abbreviations
+## Acronyms and Abbreviations
 
 ERP – Enterprise Resource Planning
 
-1.
-# ORDER GRID ADD-ON
+## ORDER GRID ADD-ON
 
-### 2.0.1 Summary
+### Summary
 
 The _Grid_ module extends the standard Magento functionality for displaying products based on selected attributes along with stock and price details and provides full integration to Infor M3 ERP.
 
@@ -146,14 +143,14 @@ Order Grid enables users to add multiple associated products (SKUs) of a Magento
 
 The process remains the same irrespective of whether connection protocol selected in the configuration page is eLink or ION.
 
-### 2.0.2 Assumptions/Limitations
+### Assumptions/Limitations
 
 1. Grid is available only for Configurable products.
 2. Up to 3 attributes can be configured to display in the frontend.
 
-## 2.1 CONFIGURATION
+## CONFIGURATION
 
-### 2.1.1 Add-on Configuration
+### Add-on Configuration
 
 The Configurable Order Grid setting can be found under LEANSWIFT SOLUTIONS menu.
 
@@ -175,7 +172,7 @@ User can 'Enable' or 'Disable' Grid view in the settings. When enabled, Grid app
 
 Note: Enable order grid in product level is deprecated (From eConnect 17.2.1 version).
 
-### 2.1.2 Magento Configuration
+### Magento Configuration
 
 In order for attributes to appear in the X/Y axis dropdown, the attributes must be of type 'Dropdown' or 'Visual swatch' or 'Text swatch'
 
@@ -192,13 +189,13 @@ Once attribute is created by choosing type to be 'Dropdown' or 'Visual swatch' o
 
 It will appear in the Grid configuration page in the X/Y axis dropdown.
 
-## 2.2 PROCESS
+## PROCESS
 
 Once the setup described in the previous section has been completed, the Grid functionality is ready to use from within Magento.
 
 The following sections covers Order grid display in detail page for configurable product
 
-### 2.2.1 Grid for 2-attribute-product
+### Grid for 2-attribute-product
 
 In this example, I have chosen Color in the X axis and Size in the Y axis. I have also enabled Stock and Price to be displayed in the frontend. When the product is loaded in Magento frontend, this is how it would look:
 
@@ -207,21 +204,21 @@ In this example, I have chosen Color in the X axis and Size in the Y axis. I hav
 
 User can switch to display Qty/Price from the dropdown.
 
-### 2.2.2 Grid for 3-attribute-product
+### Grid for 3-attribute-product
 
 In this example, I have chosen Color in X axis and Size in Y axis. So my 3rd attribute which is 'Material' in this case is displayed in Z axis. User can click the dropdown and switch between different attribute values. I have also enabled Stock and Price to be displayed in the frontend. When the product is loaded in Magento frontend, this is how it would look:
 
 <kbd>
 <img alt ="ion architecture" src="ecommerce/images/ordergrid/grid_for_3attribute_pdt.png"></kbd>
 
-### 2.2.3 Backorder
+### Backorder
 
 This is another feature in Magento that allows user to place an order for products that are 'Out of stock'. When this feature is disabled, the grid becomes grayed which means user cannot add products to cart.
 
 This feature can be found _Stores \&gt; Configuration \&gt; Catalog\&gt; Inventory_ Under Product Stock Options.
 
 <kbd>
-<img alt ="ion architecture" src="ecommerce/images/ordergrid/backorder_config.png"></kbd>
+<img alt ="ion architecture" src= "ecommerce/images/ordergrid/backorder_config.png"></kbd>
 
 The above setting is applied at global level. To control this setting individually for a product, Open a product detail page in the admin, Click on Advanced Inventory
 
@@ -247,4 +244,3 @@ When user chooses option 'Allow Quantity below 0 and Notify customer', The custo
 <kbd>
 <img alt ="ion architecture" src="ecommerce/images/ordergrid/shopping_cart.png"></kbd>
 
-**User Manual Page** 5
