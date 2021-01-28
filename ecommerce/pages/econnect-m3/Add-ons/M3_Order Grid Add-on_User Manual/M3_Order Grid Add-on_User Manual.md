@@ -12,6 +12,7 @@ for eConnect version 20.3.0
 
 **ECONNECT USER MANUAL – ORDER GRID ADD-ON**
 
+
 **TABLE OF CONTENTS**
 
 
@@ -56,26 +57,26 @@ for eConnect version 20.3.0
 
 # GENERAL INFORMATION
 
-## 1.1 System Overview
+## System Overview
 
-_ **LeanSwift eConnect for Infor M3** _ provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
+- **LeanSwift eConnect for Infor M3** provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
 
-_ **LeanSwift eConnect for Infor M3** _ is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
+- **LeanSwift eConnect for Infor M3** is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 
-_ **LeanSwift eConnect for Infor M3** _ employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
+- **LeanSwift eConnect for Infor M3** employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
 
-### Architecture
 
+## Architecture
 
 With 20.1.0, the part of eConnect functionality dealing with connectivity to eLink and Infor OS and data processing has been moved out of eConnect extension into a new extension named
 
-**eConnect-base**.
+## eConnect-base
 
 From 20.1.0 onward, eConnect will require the eConnect-base extension to function. eConnect 20.1.0 is compatible with eConnect-base 2.0.0. Similarly IDM 3.0.0 requires the eConnect-base extension to function and is compatible with eConnect-base 2.0.0.
 
 For configuration details for eConnect-base, please refer to configuration section in [**LeanSwift eConnect for M3 20.1.0\_User Manual\_Part 1.docx**](https://docs.google.com/document/d/1WdRaZPywCGHdzo0oyYU5xZ6flvYoPPqQ/edit#heading=h.p1tjc9105a9h)
 
-### eConnect-base v2.0.0
+## eConnect-base v2.0.0
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 - Acts as the communication layer for RabbitMQ Message consumption
@@ -87,13 +88,11 @@ For configuration details for eConnect-base, please refer to configuration secti
 
 - IDM can now work without eConnect
 
-###
 
 #### Architecture with LeanSwift eLink
 
-###
-
-![](RackMultipart20210127-4-1nc7bvj_html_aa3e621d5e06587e.jpg)
+<kbd>
+<img alt ="elink architecture" src="ecommerce/images/ordergrid/elink_arch.png"></kbd>
 
 ###
 
@@ -101,7 +100,8 @@ For configuration details for eConnect-base, please refer to configuration secti
 
 ###
 
-![](RackMultipart20210127-4-1nc7bvj_html_1a380fb028ca706a.jpg)
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/ion_m3_arch.png"></kbd>
 
 ###
 
@@ -157,11 +157,15 @@ The process remains the same irrespective of whether connection protocol selecte
 
 The Configurable Order Grid setting can be found under LEANSWIFT SOLUTIONS menu.
 
-User can &#39;Enable&#39; or &#39;Disable&#39; Grid view in the settings. When enabled, Grid appears for configurable products. When disabled, default Magento view appears to the user.
+User can 'Enable' or 'Disable' Grid view in the settings. When enabled, Grid appears for configurable products. When disabled, default Magento view appears to the user.
 
-![](RackMultipart20210127-4-1nc7bvj_html_95342dc55262fce7.png)
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/order_grid_config.png"></kbd>
 
 **General Configuration:** This section includes
+
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/product_attribute.png"></kbd>
 
 1. **Enable Order Grid:** User can enable or disable Grid
 2. **Select X Axis attribute:** Attribute configured here will appear in X axis
@@ -173,17 +177,18 @@ Note: Enable order grid in product level is deprecated (From eConnect 17.2.1 ver
 
 ### 2.1.2 Magento Configuration
 
-In order for attributes to appear in the X/Y axis dropdown, the attributes must be of type &#39;Dropdown&#39; or &#39;Visual swatch&#39; or &#39;Text swatch&#39;
+In order for attributes to appear in the X/Y axis dropdown, the attributes must be of type 'Dropdown' or 'Visual swatch' or 'Text swatch'
 
 To create attributes, Go to _Stores \&gt; Attributes \&gt; Products_
 
-![](RackMultipart20210127-4-1nc7bvj_html_8c1675264f2da77e.png)
 
-New attribute can be created by clicking on &#39;Add New Attribute&#39;. This will take you to a page similar to this:
 
-![](RackMultipart20210127-4-1nc7bvj_html_1895d4c1aed16830.png)
+New attribute can be created by clicking on 'Add New Attribute'. This will take you to a page similar to this:
 
-Once attribute is created by choosing type to be &#39;Dropdown&#39; or &#39;Visual swatch&#39; or &#39;Text swatch&#39;
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/new_product_attribute.png"></kbd>
+
+Once attribute is created by choosing type to be 'Dropdown' or 'Visual swatch' or 'Text swatch'
 
 It will appear in the Grid configuration page in the X/Y axis dropdown.
 
@@ -197,44 +202,49 @@ The following sections covers Order grid display in detail page for configurable
 
 In this example, I have chosen Color in the X axis and Size in the Y axis. I have also enabled Stock and Price to be displayed in the frontend. When the product is loaded in Magento frontend, this is how it would look:
 
-![](RackMultipart20210127-4-1nc7bvj_html_500fcbae0c4e12ca.png)
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/frontend_pdt.png"></kbd>
 
 User can switch to display Qty/Price from the dropdown.
 
 ### 2.2.2 Grid for 3-attribute-product
 
-In this example, I have chosen Color in X axis and Size in Y axis. So my 3rd attribute which is &#39;Material&#39; in this case is displayed in Z axis. User can click the dropdown and switch between different attribute values. I have also enabled Stock and Price to be displayed in the frontend. When the product is loaded in Magento frontend, this is how it would look:
+In this example, I have chosen Color in X axis and Size in Y axis. So my 3rd attribute which is 'Material' in this case is displayed in Z axis. User can click the dropdown and switch between different attribute values. I have also enabled Stock and Price to be displayed in the frontend. When the product is loaded in Magento frontend, this is how it would look:
 
-![](RackMultipart20210127-4-1nc7bvj_html_3e0fcea738f936d.png)
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/grid_for_3attribute_pdt.png"></kbd>
 
 ### 2.2.3 Backorder
 
-This is another feature in Magento that allows user to place an order for products that are &#39;Out of stock&#39;. When this feature is disabled, the grid becomes grayed which means user cannot add products to cart.
+This is another feature in Magento that allows user to place an order for products that are 'Out of stock'. When this feature is disabled, the grid becomes grayed which means user cannot add products to cart.
 
 This feature can be found _Stores \&gt; Configuration \&gt; Catalog\&gt; Inventory_ Under Product Stock Options.
 
-![](RackMultipart20210127-4-1nc7bvj_html_37bcfdcf146ede7e.png)
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/backorder_config.png"></kbd>
 
 The above setting is applied at global level. To control this setting individually for a product, Open a product detail page in the admin, Click on Advanced Inventory
 
-![](RackMultipart20210127-4-1nc7bvj_html_7fb4b7562e2f36f7.png)
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/product_page_quantity.png"></kbd>
 
-![](RackMultipart20210127-4-1nc7bvj_html_99f2eec2a1b4efba.png)
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/backorder_productpage.png"></kbd>
 
-When backorder is set to &#39;No Backorders&#39; The product grid looks like this :
+When backorder is set to 'No Backorders' The product grid looks like this :
 
-![](RackMultipart20210127-4-1nc7bvj_html_bc18533b0d9e4528.png)
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/pdt_outofstock.png"></kbd>
 
-The grid remains disabled showing a text &#39;Out of stock&#39;
+The grid remains disabled showing a text 'Out of stock'
 
-If Backorder is set to &#39;Allow Qty below 0&#39;, the out of stock products are enabled letting the user add the product to cart. In this case, the field says &#39;Backorder&#39; and looks like this:
+If Backorder is set to 'Allow Qty below 0', the out of stock products are enabled letting the user add the product to cart. In this case, the field says 'Backorder' and looks like this:
 
-![](RackMultipart20210127-4-1nc7bvj_html_fb65703b49e2abcb.png)
+Note: Stock status must be 'In Stock' in order for Backorder to work.
 
-Note: Stock status must be &#39;In Stock&#39; in order for Backorder to work.
+When user chooses option 'Allow Quantity below 0 and Notify customer', The customer would get a notification message in the cart page when a backorder product is added to cart.
 
-When user chooses option &#39;Allow Quantity below 0 and Notify customer&#39;, The customer would get a notification message in the cart page when a backorder product is added to cart.
-
-![](RackMultipart20210127-4-1nc7bvj_html_cf9b6cc28755c09.png)
+<kbd>
+<img alt ="ion architecture" src="ecommerce/images/ordergrid/shopping_cart.png"></kbd>
 
 **User Manual Page** 5
