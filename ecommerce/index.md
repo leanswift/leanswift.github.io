@@ -19,7 +19,7 @@
 
 ## Order Edit
 
-## [Order Grid](pages/add-ons/order-grid/usermanual-order-grid.md)
+## [Order Grid](pages/add-ons/order-grid/order-grid.md)
 
 ## RMA
 
