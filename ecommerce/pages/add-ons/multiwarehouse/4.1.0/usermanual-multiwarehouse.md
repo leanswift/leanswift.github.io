@@ -68,14 +68,13 @@ The new version will coexist with the older version of eConnect which uses LeanS
 ### Architecture with LeanSwift eLink
 
 
-
-<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/blob/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/elink_Architecture.jpg"></kbd>
+<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/elink_Architecture.jpg"></kbd>
 
 
 ### Architecture with ION for multi-tenant Cloud M3
 
 
-<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/architecture-with-ION-for-multi-tenant-cloud-M3.jpg"></kbd>
+<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/ION_Architecture.jpg"></kbd>
 
 The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
 
@@ -146,10 +145,14 @@ We can add multiple warehouses and stock zone and this information will appear f
 The MWH setting can be found under LEANSWIFT SOLUTIONS > eConnect
 The options enable us to control MWH stock visibility in the backend and frontend.
 
+<kbd><img alt="Magento_elink_Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_elink_Config.PNG"></kbd>
+
 
 [Go to Top](#table-of-contents)
 
 ### 2.1.2 Magento Configuration-ION
+
+<kbd><img alt="Magento_ION_Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_ION_Config.PNG"></kbd>
 
 The only difference is ‘Sync’ option is removed.
 When stock bods are received, stock gets updated in Magento.
@@ -157,18 +160,23 @@ When stock bods are received, stock gets updated in Magento.
 
 To enable creation of warehouse on POS, Go to Sales>Point of sales>User permission and select permission to admin.
 
+<kbd><img alt="Magento_Permission" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_Permission.PNG"></kbd>
 
 Once necessary permissions are provided, warehouses can be created from Sales> Manage POS/WH
 
+<kbd><img alt="Magento_Create_WH" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_Create_WH.PNG"></kbd>
 
 Click on the Create New Point of Sale / Warehouse to create warehouses. Under General Information, enter the necessary details.
 
+<kbd><img alt="Magento_WH_General" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_WH_General.PNG"></kbd>
 
 Make sure necessary Customer groups are selected.
 
+<kbd><img alt="Magento_WH_Customer" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_WH_Customer.PNG"></kbd>
 
 Fill up the Inventory settings as required.
 
+<kbd><img alt="Magento_WH_Inventory" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_WH_Inventory.PNG"></kbd>
 
 Once all the tabs are filled with required information, Warehouse will now be available in the dropdown under eConnect configuration.
 
@@ -179,16 +187,14 @@ Once all the tabs are filled with required information, Warehouse will now be av
 
 Stock zone can be viewed/created in program MMS040
 
-
+<kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/M3_MMS040.PNG"></kbd>
 
 These are the available stock zones for the logged in Comp/Div.
-
-
 
 To know the product details based on warehouse, it can be viewed/created in program MMS002
 where the stock zone is available in panel G
 
-
+<kbd><img alt="M3_MMS002" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/M3_MMS002.PNG"></kbd>
 
 Note: To know stock based on zone, Program MWS060 with sort order (30) by zone can be chosen.
 
@@ -208,18 +214,21 @@ The following sections cover MWH display in detail page.
 
 Browse the product in the frontend and click on the product to view the product detail page.
 
-
+<kbd><img alt="Frontend_Stock" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Frontend_Stock.png"></kbd>
 
 This is where the stock based on warehouses can be seen.
 
 Similar split up can be viewed in the admin section on Catalog> Products
 
+<kbd><img alt="Magento_Product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_Product.PNG"></kbd>
 
 Open the product, and click on ‘Advanced Inventory’ hyperlink
 
+<kbd><img alt="Magento_AdvancedInventory" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_AdvancedInventory.PNG"></kbd>
 
 Set Manage Local Stocks to yes to see the stock split up
 
+<kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_Wyomind.PNG"></kbd>
 
 
 [Go to Top](#table-of-contents)
