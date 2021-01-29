@@ -20,7 +20,7 @@
     - [1.2.1 Information](#121-information)
   - [1.3 Organization of the Manual](#13-organization-of-the-manual)
   - [1.4 Acronyms and Abbreviations](#14-acronyms-and-abbreviations)
-  - [2.0	MULTI-WAREHOUSE ADD-ON](#multi-warehouse-add-on)
+  - [2.0 MULTIWAREHOUSE ADD-ON](#20multiwarehouse-add-on)
     - [2.0.1 Summary](#201-summary)
     - [2.0.2 Assumptions/Limitations](#202-assumptionslimitations)
   - [2.1 CONFIGURATION](#21-configuration)
@@ -113,7 +113,7 @@ MWH– Multi-Warehouse
 [Go to Top](#table-of-contents)
 
 
-## 2.0	MULTI-WAREHOUSE ADD-ON
+## 2.0	MULTIWAREHOUSE ADD-ON
 
 ### 2.0.1 Summary
 
