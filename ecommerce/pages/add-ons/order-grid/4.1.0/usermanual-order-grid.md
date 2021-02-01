@@ -215,7 +215,7 @@ In this example, I have chosen Color in X axis and Size in Y axis. So my 3rd att
 
 This is another feature in Magento that allows user to place an order for products that are 'Out of stock'. When this feature is disabled, the grid becomes grayed which means user cannot add products to cart.
 
-This feature can be found _Stores \&gt; Configuration \&gt; Catalog\&gt; Inventory_ Under Product Stock Options.
+This feature can be found _Stores > Configuration > Catalog > Inventory_ Under Product Stock Options.
 
 <kbd>
 <img alt ="backorder configuration" src= "https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/backorder_config.png"></kbd>
