@@ -1,4 +1,4 @@
-# **Eonnect User Manual – Multi-Warehouse**
+# **Eonnect User Manual – Sales-Rep**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
@@ -32,7 +32,7 @@
     - [2.1.3 Process Changes](#213-process-changes)
       - [2.1.3.1 Login](#2131-login)
       - [2.1.3.2 Customer Management & Order Creation](#2132-customer-management&order-creation)
-      - [2.1.3.3 Sales Management](#2131-sales-management)
+      - [2.1.3.3 Sales Management](#2133-sales-management)
       
       
 # GENERAL INFORMATION
