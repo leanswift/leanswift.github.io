@@ -90,7 +90,7 @@ For configuration details for eConnect-base, please refer to configuration secti
 #### Architecture with LeanSwift eLink
 
 <kbd>
-<img alt ="elink architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/elink_arch.png"></kbd>
+<img alt ="elink architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/elink_arch.png"></kbd>
 
 ###
 
@@ -99,7 +99,7 @@ For configuration details for eConnect-base, please refer to configuration secti
 ###
 
 <kbd>
-<img alt ="ion architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/ion_m3_arch.png"></kbd>
+<img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/ion_m3_arch.png"></kbd>
 
 ###
 
@@ -157,12 +157,12 @@ The Configurable Order Grid setting can be found under LEANSWIFT SOLUTIONS menu.
 User can 'Enable' or 'Disable' Grid view in the settings. When enabled, Grid appears for configurable products. When disabled, default Magento view appears to the user.
 
 <kbd>
-<img alt ="ion architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/order_grid_config.png"></kbd>
+<img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/order_grid_config.png"></kbd>
 
 **General Configuration:** This section includes
 
 <kbd>
-<img alt ="ion architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/product_attribute.png"></kbd>
+<img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/product_attribute.png"></kbd>
 
 1. **Enable Order Grid:** User can enable or disable Grid
 2. **Select X Axis attribute:** Attribute configured here will appear in X axis
@@ -183,7 +183,7 @@ To create attributes, Go to _Stores \&gt; Attributes \&gt; Products_
 New attribute can be created by clicking on 'Add New Attribute'. This will take you to a page similar to this:
 
 <kbd>
-<img alt ="ion architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/new_product_attribute.png"></kbd>
+<img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/new_product_attribute.png"></kbd>
 
 Once attribute is created by choosing type to be 'Dropdown' or 'Visual swatch' or 'Text swatch'
 
@@ -200,7 +200,7 @@ The following sections covers Order grid display in detail page for configurable
 In this example, I have chosen Color in the X axis and Size in the Y axis. I have also enabled Stock and Price to be displayed in the frontend. When the product is loaded in Magento frontend, this is how it would look:
 
 <kbd>
-<img alt ="ion architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/frontend_pdt.png"></kbd>
+<img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/frontend_pdt.png"></kbd>
 
 User can switch to display Qty/Price from the dropdown.
 
@@ -209,7 +209,7 @@ User can switch to display Qty/Price from the dropdown.
 In this example, I have chosen Color in X axis and Size in Y axis. So my 3rd attribute which is 'Material' in this case is displayed in Z axis. User can click the dropdown and switch between different attribute values. I have also enabled Stock and Price to be displayed in the frontend. When the product is loaded in Magento frontend, this is how it would look:
 
 <kbd>
-<img alt ="ion architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/grid_for_3attribute_pdt.png"></kbd>
+<img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/grid_for_3attribute_pdt.png"></kbd>
 
 ### Backorder
 
@@ -218,20 +218,20 @@ This is another feature in Magento that allows user to place an order for produc
 This feature can be found _Stores \&gt; Configuration \&gt; Catalog\&gt; Inventory_ Under Product Stock Options.
 
 <kbd>
-<img alt ="ion architecture" src= "https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/backorder_config.png"></kbd>
+<img alt ="ion architecture" src= "https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/backorder_config.png"></kbd>
 
 The above setting is applied at global level. To control this setting individually for a product, Open a product detail page in the admin, Click on Advanced Inventory
 
 <kbd>
-<img alt ="ion architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/product_page_quantity.png"></kbd>
+<img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/product_page_quantity.png"></kbd>
 
 <kbd>
-<img alt ="ion architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/backorder_productpage.png"></kbd>
+<img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/backorder_productpage.png"></kbd>
 
 When backorder is set to 'No Backorders' The product grid looks like this :
 
 <kbd>
-<img alt ="ion architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/pdt_outofstock.png"></kbd>
+<img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/pdt_outofstock.png"></kbd>
 
 The grid remains disabled showing a text 'Out of stock'
 
@@ -242,5 +242,5 @@ Note: Stock status must be 'In Stock' in order for Backorder to work.
 When user chooses option 'Allow Quantity below 0 and Notify customer', The customer would get a notification message in the cart page when a backorder product is added to cart.
 
 <kbd>
-<img alt ="ion architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/ordergrid/shopping_cart.png"></kbd>
+<img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/shopping_cart.png"></kbd>
 
