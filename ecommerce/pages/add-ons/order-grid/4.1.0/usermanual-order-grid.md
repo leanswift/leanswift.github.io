@@ -6,7 +6,7 @@
 
 **Order Grid Add-on**
 
-**Product Version**  **2.5.0**
+**Product Version**  **4.1.0**
 
 **for eConnect version 20.3.0**
 
@@ -15,42 +15,43 @@
 
 **TABLE OF CONTENTS**
 
+[General Information](#general-information)
 
-[System Overview](#system-overview)
+- [System Overview](#system-overview)
 
-[Architecture](#architecture)
+  - [Architecture](#architecture)
 
-[Architecture with LeanSwift eLink](#architecture-with-leanswift-elink)
+    - [Architecture with LeanSwift eLink](#architecture-with-leanswift-elink)
 
-[Architecture with ION for multi-tenant Cloud M3](#architecture-with-ion-for-multi-tenant-cloud-m3)
+    - [Architecture with ION for multi-tenant Cloud M3](#architecture-with-ion-for-multi-tenant-cloud-m3)
 
-[Points of Contact](#points-of-contact)
+- [Points of Contact](#points-of-contact)
 
-[Information](#information)
+  - [Information](#information)
 
-[Organization of the Manual](#organization-of-the-manual)
+- [Organization of the Manual](#organization-of-the-manual)
 
-[Acronyms and Abbreviations](#acronyms-and-abbreviations)
+- [Acronyms and Abbreviations](#acronyms-and-abbreviations)
 
 [ORDER GRID ADD-ON](#order-grid-add-on)
 
-[Summary](#summary)
+  - [Summary](#summary)
 
-[Assumptions/Limitations](#assumptions-limitations)
+  - [Assumptions/Limitations](#assumptions-limitations)
 
-[CONFIGURATION](#configuration)
+- [CONFIGURATION](#configuration)
 
-[Add-on Configuration](#add-on-configuration)
+  - [Add-on Configuration](#add-on-configuration)
 
-[Magento Configuration](#magento-configuration)
+  - [Magento Configuration](#magento-configuration)
 
-[PROCESS](#process)
+- [PROCESS](#process)
 
-[Grid for 2-attribute-product](#grid-for-2-attribute-product)
+  - [Grid for 2-attribute-product](#grid-for-2-attribute-product)
 
-[Grid for 3-attribute-product](#grid-for-3-attribute-product)
+  - [Grid for 3-attribute-product](#grid-for-3-attribute-product)
 
-[Backorder](#backorder)
+  - [Backorder](#backorder)
 
 
 ## GENERAL INFORMATION
@@ -66,15 +67,10 @@
 
 ## Architecture
 
-With 20.1.0, the part of eConnect functionality dealing with connectivity to eLink and Infor OS and data processing has been moved out of eConnect extension into a new extension named
+With 20.3.0, the part of eConnect functionality dealing with connectivity to eLink and Infor OS and data processing has been moved out of eConnect extension into a new extension named
 
-## eConnect-base
 
-From 20.1.0 onward, eConnect will require the eConnect-base extension to function. eConnect 20.1.0 is compatible with eConnect-base 2.0.0. Similarly IDM 3.0.0 requires the eConnect-base extension to function and is compatible with eConnect-base 2.0.0.
-
-For configuration details for eConnect-base, please refer to configuration section in [**LeanSwift eConnect for M3 20.1.0\_User Manual\_Part 1.docx**](https://docs.google.com/document/d/1WdRaZPywCGHdzo0oyYU5xZ6flvYoPPqQ/edit#heading=h.p1tjc9105a9h)
-
-## eConnect-base v2.0.0
+## eConnect-base v5.0.0
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 - Acts as the communication layer for RabbitMQ Message consumption
@@ -117,7 +113,9 @@ Magento Community 2.5.0
 
 Magento Enterprise 2.5.0
 
-Infor M3 13.x
+Infor M3 16.x
+
+[Go to Top](#table-of-contents)
 
 ## Points of Contact
 
@@ -244,3 +242,4 @@ When user chooses option 'Allow Quantity below 0 and Notify customer', The custo
 <kbd>
 <img alt ="ion architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/shopping_cart.png"></kbd>
 
+[Go to Top](#table-of-contents)
