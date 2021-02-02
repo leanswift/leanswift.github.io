@@ -320,7 +320,7 @@ This is done by pressing the &#39;Login as Customer&#39; button in the header of
 #### New in this version
 
 From Magento 2.4.1 onwards, there is a &#39;Login as Customer&#39; option provided by magento itself. (Earlier it was part of Salesrep).
-For this to work,  &#39;Allow remote shopping assistance&#39; must be enabled and this will happen automatically when a customer is mapped with Salesrep
+For this to work,  &#39;Allow remote shopping assistance&#39; must be enabled and this will happen automatically when &#39;Cron settings for import sales rep&#39; gets executed
 
 ----------------insert image------------
 
