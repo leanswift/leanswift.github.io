@@ -54,7 +54,6 @@ Every Sales Representative can, for their respective customers,
 
 # **New Features**
 
-
 - &#39;Login as Customer&#39; now comes with Magento by default.
 - For this to work, &#39;Allow remote shopping assistance&#39; must be enabled and this will happen automatically when &#39;Cron settings for import sales rep&#39; gets executed
 
@@ -62,11 +61,10 @@ Every Sales Representative can, for their respective customers,
 
 - Sales rep roles will be automatically assigned during Sales rep installation
 
--
 
 # **Bug Fixes**
 
--
+- When no email is configured for salesrep in M3, empty response is handled to auto generate default email.
 
 # **Pre-requisites**
 
@@ -77,9 +75,11 @@ Every Sales Representative can, for their respective customers,
 
 # **Limitations**
 
-1. eConnect and hence the Sales Rep add-on, can be set to work with only ONE of the two options, exclusively
+- For Shipment and Invoice tabs to be visible for an order in order detail page, extra permissions to 'Archive' section has to be provided.
+_Note: This is applicable only for Magento Commerce._
 
-(1) LeanSwift eLink or
+- Orders associated to multiple customers may get displayed in the Sales Rep Login, If Multiwarehouse Add-on is also installed along with Salesrep
+  To overcome this, Install v7.7.6 version of Wyomind or disable the Multiwarehouse extension.
 
 
 
