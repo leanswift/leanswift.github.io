@@ -3,13 +3,12 @@
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
 
-**Product Version**  **4.0.0**
+### **Product Version**  **4.0.0**
 
 **eConnect version 20.3.0**
 
 
-**TABLE OF CONTENTS**
-
+**Table of contents**
 
 - [**Eonnect User Manual – Sales-Rep**](#eonnect-user-manual--sales-rep)
   - [**LeanSwift eConnect for Infor M3 &amp; Magento**](#leanswift-econnect-for-infor-m3-amp-magento)
@@ -33,6 +32,14 @@
     - [2.1.2.1 Magento Configuration-eLink](#2121-magento-configuration-elink)
     - [2.1.2.2 Magento Configuration-ION](#2122-magento-configuration-ion)
     - [2.1.2.3 Additional Configuration](#2123-additional-configuration)
+    - [Role Setup](#role-setup)
+      - [New in this version](#new-in-this-version)
+  - [2.1.3	Process Changes](#213-process-changes)
+    - [2.1.3.1 Login](#2131-login)
+    - [2.1.3.2 Customer Management & Order Creation](#2132-customer-management--order-creation)
+      - [New in this version](#new-in-this-version)
+    - [2.1.3.3 Sales Management](#2133-sales-management)
+    - [Note](#note)
     - [Role Setup](#role-setup)
       - [New in this version](#new-in-this-version)
   - [2.1.3	Process Changes](#213-process-changes)
@@ -365,6 +372,11 @@ And the complete list of Shipments for all their customers together can be acces
 
 <kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_Shipment.png"></kb>
 
+### Note
 
+- For Shipment and Invoice tabs to be visible for an order in order detail page, extra permissions to 'Archive' section has to be provided.
+_Note: This is applicable only for Magento Commerce 2.4.1._
 
+- Orders associated to multiple customers may get displayed in the Sales Rep Login, If Multiwarehouse Add-on is also installed along with Salesrep
+  To overcome this, Install v7.7.6 version of Wyomind or disable the Multiwarehouse extension.
 
