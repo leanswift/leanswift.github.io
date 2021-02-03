@@ -23,13 +23,13 @@
   - [1.4 Acronyms and Abbreviations](#14-acronyms-and-abbreviations)
   - [2.0 IDM ADD-ON](#20-idm-add-on)
     - [2.0.1 Summary](#201-summary)
-    - [2.0.2 Assumptions/Limitations](#202-assumptions/limitations)
+    - [2.0.2	Assumptions/Limitations](#202-assumptionslimitations)
   - [2.1 CONFIGURATION](#21-configuration)
     - [2.1.1 Upload Configuration](#211-upload-configuration)
     - [2.1.2 Download Configuration](#212-download-configuration)
     - [2.1.3 Search Configuration](#213-search-configuration)
     - [2.1.4 Mapping](#214-mapping)
-  - [2.2 MyInvoices Frontend - IDM Download](#22-myinvoices-frontend-idm-download)
+  - [2.2 My Invoices Frontend – IDM Download](#22-my-invoices-frontend--idm-download)
   - [2.3 Code Snippet](#23-code-snippet)
    
 
