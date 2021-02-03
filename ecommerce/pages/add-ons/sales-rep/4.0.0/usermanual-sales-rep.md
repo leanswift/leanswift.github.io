@@ -1,4 +1,4 @@
-# **Eonnect User Manual – Sales-Rep**
+# **eConnect User Manual – Sales-Rep**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
