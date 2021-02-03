@@ -1,4 +1,4 @@
-# **Eonnect User Manual – IDM**
+# **EConnect User Manual – IDM**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
