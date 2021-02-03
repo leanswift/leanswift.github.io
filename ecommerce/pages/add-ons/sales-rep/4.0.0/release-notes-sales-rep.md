@@ -7,10 +7,7 @@
 
 **Table of Contents**
 
-- [**Sales Representative**](#sales-representative)
-- [Add-on for eConnect for M3](#add-on-for-econnect-for-m3)
-  - [**Version 4.0.0**](#version-400)
-- [**Release Notes**](#release-notes)
+
 - [**Overview**](#overview)
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
