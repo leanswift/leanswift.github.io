@@ -1,4 +1,4 @@
-# **Eonnect User Manual – Sales-Rep**
+# **Eonnect User Manual – IDM**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
@@ -140,7 +140,7 @@ Note: All settings are defined only on the Global level and not on the Store lev
 
   ●	Clears the uploaded files to IDM – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/upload/ folder periodically based on cron expression. It’s good practice to configure suitable cron expressions here to manage disk space.
 
-<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/Upload_Configuration.png"></kbd>
+<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/IDM_UploadConfig.PNG"></kbd>
 
 
 ### 2.1.2 Download Configuration
@@ -197,13 +197,13 @@ Note: All settings are defined only on the Global level and not on the Store lev
 
 For ION version we have an additional field which is the service URL for ion:
 
-  <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/ION_Version.png"></kbd>
+  <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/ION_GeneralConfig.PNG"></kbd>
 
 We also have an additional functionality which is importing IDM configuration using import option unlike the cron option in elink version
 
 Once user clicks on Import button, IDM configuration will be imported from M3.
 
-  <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/Import_IDM.png"></kbd>
+  <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/IDM_ImportConfig.PNG"></kbd>
 
 [Go to Top](#table-of-contents)
 
