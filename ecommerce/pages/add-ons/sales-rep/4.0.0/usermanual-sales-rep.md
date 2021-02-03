@@ -10,8 +10,7 @@
 
 **Table of contents**
 
-- [**Eonnect User Manual – Sales-Rep**](#eonnect-user-manual--sales-rep)
-  - [**LeanSwift eConnect for Infor M3 &amp; Magento**](#leanswift-econnect-for-infor-m3-amp-magento)
+
 - [GENERAL INFORMATION](#general-information)
   - [1.1 System Overview](#11-system-overview)
   - [Architecture](#architecture)
