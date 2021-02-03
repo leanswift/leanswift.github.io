@@ -65,7 +65,7 @@ Every Sales Representative can, for their respective customers,
 
 # **Pre-requisites**
 
-- LeanSwift eConnect 19.1.0 must be installed on Magento 2.3.1 or greater
+- LeanSwift eConnect 20.3.0 must be installed on Magento 2.4.1 or greater
 - If &quot;ION&quot; is selected as M3 Connection protocol must ensure that Salesrep data for customers from CustomerPartyMaster BOD is imported before using the add-on
   - Save field mappings for &quot;SalesPersonReference/ID&quot;, &quot;SalesPersonReference/Name&quot; and &quot;SalesPersonReference/SalesPersonRole
   - Execute &quot;Initial Load&quot; to fetch Customer Data from M3 to Magento
