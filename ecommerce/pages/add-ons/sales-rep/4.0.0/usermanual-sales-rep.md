@@ -311,6 +311,7 @@ The only parts of Magento Admin that are available for the Sales Rep is Sales an
 ### 2.1.3.2 Customer Management & Order Creation
 Under the Customers section, the only part that’s available to access for the Sales Rep is the Manage Customers subsection. Selecting this is what brings up the Customer’s grid displayed above.
 
+<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_CustomerMenu.PNG"></kb>
 
 Once a Sales rep has opened the details of a Customer record, they can access all the key information in there related to that customer and also edit the customer record. 
 
@@ -320,12 +321,14 @@ It’s also from there that the Sales Rep has the option to login on-behalf-of t
 
 This is done by pressing the &#39;Login as Customer&#39; button in the header of the Customer record.
 
+<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_CustomerView.PNG"></kb>
+
 #### New in this version
 
 From Magento 2.4.1 onwards, there is a &#39;Login as Customer&#39; option provided by magento itself. (Earlier it was part of Salesrep).
 For this to work,  &#39;Allow remote shopping assistance&#39; must be enabled and this will happen automatically when &#39;Cron settings for import sales rep&#39; gets executed
 
-----------------insert image------------
+<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/AllowRemoteLogin.PNG"></kb>
 
 The rest of the behaviour is same as previous versions.
 
@@ -338,7 +341,7 @@ Pressing &#39;Login as Customer&#39; will log the Sales Rep in as that particula
 ### 2.1.3.3 Sales Management 
 The final feature of the Sales Rep add-on relates to the various parts of the Sales section within Magento Admin the Sales Rep can access.
 
-
+<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_SalesMenu.PNG"></kb>
 
 From within Magento Admin, the Sales Rep can view existing orders, Invoices & Shipments (some of which then of course can also be accessed via the front-end).
 
@@ -352,7 +355,7 @@ Order grid overview:
 
 Order detail view, including access from within the order to related Invoices, Credit Memos, Shipments, RMA’s as well as the Comments History of the order in question:
 
-
+<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_OrderView.png"></kb>
 
 Optionally, the Sales rep can go in and review all Invoices and Shipments together across all of their customers. The Invoices are accessed via Sales > Invoices:
 
@@ -360,7 +363,7 @@ Optionally, the Sales rep can go in and review all Invoices and Shipments togeth
 
 And the complete list of Shipments for all their customers together can be accessed in a single list via Sales > Shipments:
 
-
+<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_Shipment.png"></kb>
 
 
 
