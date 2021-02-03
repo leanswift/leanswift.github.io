@@ -11,7 +11,7 @@
 
 ## IDM
 
-## Sales Representative
+# [Sales Representative](pages/add-ons/sales-rep/sales-rep.md)
 
 # [Material Plan](pages/add-ons/material-plan/material-plan.md)
 
