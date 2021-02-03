@@ -278,8 +278,11 @@ This is handled under the Role Resources tab in System > Permissions > User Role
 
 LeanSwift enables the following roles for SalesRep role as below with regards to the Role Resources.
 
------------instert image---------------------------------
+<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Rolesetup1.PNG"></kb>
 
+<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Rolesetup2.PNG"></kb>
+
+<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Rolesetup3.PNG"></kb>
 
 [Go to Top](#table-of-contents)
 
