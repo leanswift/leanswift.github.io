@@ -377,6 +377,8 @@ And the complete list of Shipments for all their customers together can be acces
 - For Shipment and Invoice tabs to be visible for an order in order detail page, extra permissions to 'Archive' section has to be provided.
 _Note: This is applicable only for Magento Commerce 2.4.1._
 
+<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_ArchivePermission.PNG"></kb>
+
 - Orders associated to multiple customers may get displayed in the Sales Rep Login. If Multiwarehouse and Order Edit Add-ons are also installed along with Salesrep
   To overcome this, We need to disable those Add-ons.
   
