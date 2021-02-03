@@ -23,7 +23,7 @@
   - [1.4 Acronyms and Abbreviations](#14-acronyms-and-abbreviations)
   - [2.0 IDM ADD-ON](#20-idm-add-on)
     - [2.0.1 Summary](#201-summary)
-    - [2.0.2	Assumptions/Limitations](#202-assumptionslimitations)
+    - [2.0.2	Assumptions/Limitations](#202-assumptions/limitations)
   - [2.1 CONFIGURATION](#21-configuration)
     - [2.1.1 Upload Configuration](#211-upload-configuration)
     - [2.1.2 Download Configuration](#212-download-configuration)
