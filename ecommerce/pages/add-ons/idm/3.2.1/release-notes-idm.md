@@ -18,13 +18,13 @@
   
 ## **Overview**
 
-_ **LeanSwift eConnect for Infor M3** _ is a Magento extension that provides simple yet powerful integration between Magento eCommerce platform and Infor M3.
+ **LeanSwift eConnect for Infor M3** is a Magento extension that provides simple yet powerful integration between Magento eCommerce platform and Infor M3.
 
 Extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP.
 
-_ **LeanSwift eConnect for Infor M3** _ is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
+ **LeanSwift eConnect for Infor M3** is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 
-_ **Add-on IDM** _ for eConnect provides capability to upload, download or search documents in Infor Document Management that can be leveraged in the web front-end.
+ **Add-on IDM** for eConnect provides capability to upload, download or search documents in Infor Document Management that can be leveraged in the web front-end.
 
 ## **Environment Details**
 
