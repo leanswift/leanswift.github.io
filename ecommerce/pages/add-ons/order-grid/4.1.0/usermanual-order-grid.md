@@ -148,12 +148,16 @@ User can 'Enable' or 'Disable' Grid view in the settings. When enabled, Grid app
 
 **General Configuration:** This section includes
 
-<kbd>
-<img alt ="product attribute" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/product_attribute.png"></kbd>
+
 
 1. **Enable Order Grid:** User can enable or disable Grid
 2. **Select X Axis attribute:** Attribute configured here will appear in X axis
 3. **Select Y Axis attribute:** Attribute configured here will appear in the Y axis. If there is a third attribute for a product, it appears in Z axis
+
+<kbd>
+<img alt ="product attribute" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/product_attribute.png"></kbd>
+
+
 4. **Enable Stock:** When set to Yes, Stock is displayed on the Grid
 5. **Enable Price:** When set to Yes, the Price is displayed on the Grid
 
@@ -186,8 +190,6 @@ It will appear in the Grid configuration page in the X/Y axis dropdown.
 Once the setup described in the previous section has been completed, the Grid functionality is ready to use from within Magento.
 
 The following sections covers Order grid display in detail page for configurable product
-
-[Go to Top](#table-of-contents)
 
 
 ### 2.2.1 Grid for 2-attribute-product
