@@ -15,7 +15,7 @@
 
 # [Material Plan](pages/add-ons/material-plan/material-plan.md)
 
-## Multiwarehouse
+# [Multiwarehouse](pages/add-ons/multiwarehouse/multiwarehouse.md)
 
 ## Order Edit
 
