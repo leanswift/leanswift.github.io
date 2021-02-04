@@ -1,4 +1,4 @@
-# **Eonnect User Manual – Multi-Warehouse**
+# **eConnect User Manual – Multi-Warehouse**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
@@ -22,14 +22,16 @@
   - [1.4 Acronyms and Abbreviations](#14-acronyms-and-abbreviations)
   - [2.0 MULTIWAREHOUSE ADD-ON](#20multiwarehouse-add-on)
     - [2.0.1 Summary](#201-summary)
-    - [2.0.2 Assumptions/Limitations](#202-assumptionslimitations)
+    - [2.0.2 Limitations](#202-limitations)
   - [2.1 CONFIGURATION](#21-configuration)
     - [2.1.1 Magento configuration-eLink](#211-magento-configuration-elink)
     - [2.1.2 Magento Configuration-ION](#212-magento-configuration-ion)
     - [2.1.3 M3 Configuration](#213-m3-configuration)
   - [2.2 PROCESS](#22-process)
     - [2.2.1 MWH in Product detail page](#221-mwh-in-product-detail-page)
-
+      - [2.2.1.1 Simple Prodcut](#2211-simple-product)
+      - [2.2.1.2 Grouped Prodcut](#2212-grouped-product)
+      - [2.2.1.3 Configurable Prodcut](#2213-configurable-product)
 
 
 
@@ -124,17 +126,17 @@ MWH helps us discover the available stock based on the warehouse, stock zone, co
 We can add multiple warehouses and stock zone and this information will appear for each product in the frontend.
 
 
-### 2.0.2 Assumptions/Limitations
+### 2.0.2 Limitations
 
-1.	This add-on requires Wyoming’s Advanced Inventory Magento extension to be installed. This is a pre-requisite. 
+1.	This add-on requires Wyoming’s Advanced Inventory Magento extension to be installed. This is a pre-requisite
 
-2.	The RMA add-on requires LeanSwift eConnect Magento extension
+2.	Stock display is only available in product detail page and not in list page or cart page
 
-3.	Stock display is only available in product detail page and not in list page or cart page.
+3.	Only swatches are supported for configurable items wrt MWH
 
-4.	Only swatches are supported for configurable items wrt MWH
+4.	For Configurable product, cumulative stock from all stock zones is displayed for each child item. This will be displayed only with Order Grid extension
      
-5.	The warehouse created from Sales> POS must be assigned to customer groups in order for Add to cart option to be available and for Stock to be displayed in frontend
+5.	The warehouse created from Sales-> POS must be assigned to customer groups in order for Add to cart option to be available and for Stock to be displayed in frontend
 
 [Go to Top](#table-of-contents)
 
@@ -180,6 +182,18 @@ Fill up the Inventory settings as required.
 
 Once all the tabs are filled with required information, Warehouse will now be available in the dropdown under eConnect configuration.
 
+When multiple Stock zones are configured for the same warehouse like below:
+
+
+
+When the stock is updated in stock zone YB, a BOD gets generated with value in YB which gets updated in eConnect.
+
+When the stock is updated in stock zone Y9, a BOD gets generated with the value from MMS002’s ‘On-hand approve’ (YB+Y9). This value will get updated in eConnect in the Y9 zone
+
+Now if YB is again updated with stock, ((new value in Y9) +YB) gets updated in the Y9 zone in econnect and so on.
+
+NOTE: This might be based on StockZone-Location settings in M3. If only one stock zone-warehouse is configured, the value that comes in BOD for that respective stock zone gets updated.
+
 
 [Go to Top](#table-of-contents)
 
@@ -196,6 +210,11 @@ where the stock zone is available in panel G
 
 <kbd><img alt="M3_MMS002" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/M3_MMS002.PNG"></kbd>
 
+MMS010 displays the Location-Stock Zone mapping
+
+
+
+
 Note: To know stock based on zone, Program MWS060 with sort order (30) by zone can be chosen.
 
 
@@ -211,6 +230,8 @@ The following sections cover MWH display in detail page.
 
 
 ### 2.2.1 MWH in Product detail page
+
+### 2.2.1.1 Simple Product
 
 Browse the product in the frontend and click on the product to view the product detail page.
 
@@ -229,6 +250,26 @@ Open the product, and click on ‘Advanced Inventory’ hyperlink
 Set Manage Local Stocks to yes to see the stock split up
 
 <kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_Wyomind.PNG"></kbd>
+
+
+### 2.2.1.2 Grouped Products
+
+When Grouped Products are browsed in frontend and product details page appears as below.
+
+
+
+To view multiple warehouse stock items for each product click ‘Know More’
+
+
+### 2.2.1.3 Configurable Products
+
+When configurable product is browsed in the front end, Price and Quantity are displayed in the grid, where quantity value will be cumulative of all stock zones. (Value that is displayed in Qty field in product detail page)
+
+Note: Qty is displayed for child items only if Order Grid extension is installed.
+
+
+Price and Quantity can be switched from Dropdown grid.
+
 
 
 [Go to Top](#table-of-contents)
