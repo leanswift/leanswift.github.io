@@ -178,19 +178,7 @@ Note: All settings are defined only on the Global level and not on the Store lev
 
 [Go to Top](#table-of-contents)
 
-
-## 2.2 My Invoices Frontend – IDM Download 
-
-  ●	Invoice template in LeanSwift eConnect has been overwritten in IDM Module to support download of invoice documents from IDM
-
-  ●	Clicking on PDF Icon will download the document for the invoice from IDM
-
-  ●	If Download option is set to Real-time in backend, then on clicking the PDF icon, file will be downloaded immediately and opened in new tab
-
-  ●	If Download option is set to Cron, a message “File will be downloaded via cron” will be displayed. Download of document will happen in the background as per the scheduled      cron and will be available for viewing in the frontend afterwards. 
-
-  <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/Invoice_Download.png"></kbd>
-
+### 2.1.4 General Configuration
 #### New in this version
 
 **ION version:**
@@ -210,6 +198,7 @@ For ION version we have an additional fields
 
  Based on this, we will form the download URL with or without including pub in the URL.
 
+### 2.1.5 Import
 
 We also have an additional functionality which is importing IDM configuration using import option unlike the cron option in elink version
 
@@ -218,6 +207,21 @@ Once user clicks on Import button, IDM configuration will be imported from M3.
   <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/IDM_ImportConfig.PNG"></kbd>
 
 [Go to Top](#table-of-contents)
+
+
+
+## 2.2 My Invoices Frontend – IDM Download 
+
+  ●	Invoice template in LeanSwift eConnect has been overwritten in IDM Module to support download of invoice documents from IDM
+
+  ●	Clicking on PDF Icon will download the document for the invoice from IDM
+
+  ●	If Download option is set to Real-time in backend, then on clicking the PDF icon, file will be downloaded immediately and opened in new tab
+
+  ●	If Download option is set to Cron, a message “File will be downloaded via cron” will be displayed. Download of document will happen in the background as per the scheduled      cron and will be available for viewing in the frontend afterwards. 
+
+  <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/Invoice_Download.png"></kbd>
+
 
 
 ## 2.3 Code Snippet
