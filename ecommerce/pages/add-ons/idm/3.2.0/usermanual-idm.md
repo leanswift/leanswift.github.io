@@ -1,4 +1,4 @@
-# **EConnect User Manual – IDM**
+# **eConnect User Manual – IDM**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
@@ -23,7 +23,7 @@
   - [1.4 Acronyms and Abbreviations](#14-acronyms-and-abbreviations)
   - [2.0 IDM ADD-ON](#20-idm-add-on)
     - [2.0.1 Summary](#201-summary)
-    - [2.0.2	Assumptions/Limitations](#202-assumptions/limitations)
+    - [2.0.2	Assumptions/Limitations](#202-assumptions-/-limitations)
   - [2.1 CONFIGURATION](#21-configuration)
     - [2.1.1 Upload Configuration](#211-upload-configuration)
     - [2.1.2 Download Configuration](#212-download-configuration)
@@ -165,6 +165,13 @@ Note: All settings are defined only on the Global level and not on the Store lev
   ●	Configurable Options to Search – Select the Document Type, required Attribute Type, Operation, Offset and Limit
 
   <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/Search_Configuration.png"></kbd>
+  
+#### New in this version
+
+A backend config “Document Root is Pub” with “Yes” or “No” option is added. 
+- Choosing “Yes” denotes index.php file under pub folder is set as root for Magento
+- Choosing “No” denotes index.php file under root folder is set as root for Magento.
+ Based on this, we will form the download URL with or without including pub in the URL.
 
 
 ### 2.1.4 Mapping
