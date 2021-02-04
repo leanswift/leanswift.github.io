@@ -9,7 +9,7 @@
 
 ## eConnect Base
 
-## IDM
+# [IDM](pages/add-ons/idm/idm.md)
 
 # [Sales Representative](pages/add-ons/sales-rep/sales-rep.md)
 
