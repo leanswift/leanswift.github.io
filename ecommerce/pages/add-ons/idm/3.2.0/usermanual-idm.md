@@ -195,9 +195,13 @@ Note: All settings are defined only on the Global level and not on the Store lev
 
 **ION version:**
 
-For ION version we have an additional field which is the service URL for ion:
+For ION version we have an additional fields 
 
-  <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/ION_GeneralConfig.PNG"></kbd>
+1. Service URL for ION
+
+2. Document Root is Pub or Not
+
+  <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/ION_GeneralConfig.png"></kbd>
 
 We also have an additional functionality which is importing IDM configuration using import option unlike the cron option in elink version
 
