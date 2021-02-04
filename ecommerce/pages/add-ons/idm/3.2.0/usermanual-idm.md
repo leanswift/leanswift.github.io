@@ -27,8 +27,10 @@
     - [2.1.2 Download Configuration](#212-download-configuration)
     - [2.1.3 Search Configuration](#213-search-configuration)
     - [2.1.4 Mapping](#214-mapping)
-  - [2.2 My Invoices Frontend – IDM Download](#22-my-invoices-frontend--idm-download)
+    - [2.1.5 General Configuration](#215-general-configuration)
       - [New in this version](#new-in-this-version)
+    - [2.1.6 Import](#216-import)
+  - [2.2 My Invoices Frontend – IDM Download](#22-my-invoices-frontend--idm-download)
   - [2.3 Code Snippet](#23-code-snippet)
    
 
@@ -178,7 +180,7 @@ Note: All settings are defined only on the Global level and not on the Store lev
 
 [Go to Top](#table-of-contents)
 
-### 2.1.4 General Configuration
+### 2.1.5 General Configuration
 #### New in this version
 
 **ION version:**
@@ -198,7 +200,7 @@ For ION version we have an additional fields
 
  Based on this, we will form the download URL with or without including pub in the URL.
 
-### 2.1.5 Import
+### 2.1.6 Import
 
 We also have an additional functionality which is importing IDM configuration using import option unlike the cron option in elink version
 
