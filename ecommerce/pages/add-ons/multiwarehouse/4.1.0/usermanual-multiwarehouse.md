@@ -29,9 +29,9 @@
     - [2.1.3 M3 Configuration](#213-m3-configuration)
   - [2.2 PROCESS](#22-process)
     - [2.2.1 MWH in Product detail page](#221-mwh-in-product-detail-page)
-      - [2.2.1.1 Simple Prodcut](#2211-simple-product)
-      - [2.2.1.2 Grouped Prodcut](#2212-grouped-product)
-      - [2.2.1.3 Configurable Prodcut](#2213-configurable-product)
+      - [2.2.1.1 Simple Product](#2211-simple-product)
+      - [2.2.1.2 Grouped Product](#2212-grouped-product)
+      - [2.2.1.3 Configurable Product](#2213-configurable-product)
 
 
 
@@ -184,7 +184,9 @@ Once all the tabs are filled with required information, Warehouse will now be av
 
 When multiple Stock zones are configured for the same warehouse like below:
 
+<kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Inventory_SameWH1.PNG"></kbd>
 
+<kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Inventory_SameWH2.PNG"></kbd>
 
 When the stock is updated in stock zone YB, a BOD gets generated with value in YB which gets updated in eConnect.
 
@@ -212,7 +214,10 @@ where the stock zone is available in panel G
 
 MMS010 displays the Location-Stock Zone mapping
 
+<kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/MMS010.PNG"></kbd>
 
+
+<kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/MM010_StockZone.PNG"></kbd>
 
 
 Note: To know stock based on zone, Program MWS060 with sort order (30) by zone can be chosen.
@@ -252,23 +257,28 @@ Set Manage Local Stocks to yes to see the stock split up
 <kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Magento_Wyomind.PNG"></kbd>
 
 
-### 2.2.1.2 Grouped Products
+### 2.2.1.2 Grouped Product
 
 When Grouped Products are browsed in frontend and product details page appears as below.
 
-
+<kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/GroupProducts.PNG"></kbd>
 
 To view multiple warehouse stock items for each product click ‘Know More’
 
+<kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/GroupedProduct_StockDetails.PNG"></kbd>
 
-### 2.2.1.3 Configurable Products
+
+### 2.2.1.3 Configurable Product
 
 When configurable product is browsed in the front end, Price and Quantity are displayed in the grid, where quantity value will be cumulative of all stock zones. (Value that is displayed in Qty field in product detail page)
 
 Note: Qty is displayed for child items only if Order Grid extension is installed.
 
+<kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/ConfigPdt_Details.PNG"></kbd>
 
 Price and Quantity can be switched from Dropdown grid.
+
+<kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1748/ecommerce/images/add-ons/multiwarehouse/Configpdt_Quantity.PNG"></kbd>
 
 
 
