@@ -9,9 +9,7 @@
 
 **eConnect version 20.3.0**
 
-
-# **Table of contents**
-
+# Table of contents
 
 - [GENERAL INFORMATION](#general-information)
   - [1.1 System Overview](#11-system-overview)
@@ -23,13 +21,14 @@
   - [1.4 Acronyms and Abbreviations](#14-acronyms-and-abbreviations)
   - [2.0 IDM ADD-ON](#20-idm-add-on)
     - [2.0.1 Summary](#201-summary)
-    - [2.0.2	Assumptions/Limitations](#202-assumptions-/-limitations)
+    - [2.0.2	Limitations](#202-limitations)
   - [2.1 CONFIGURATION](#21-configuration)
     - [2.1.1 Upload Configuration](#211-upload-configuration)
     - [2.1.2 Download Configuration](#212-download-configuration)
     - [2.1.3 Search Configuration](#213-search-configuration)
     - [2.1.4 Mapping](#214-mapping)
   - [2.2 My Invoices Frontend – IDM Download](#22-my-invoices-frontend--idm-download)
+      - [New in this version](#new-in-this-version)
   - [2.3 Code Snippet](#23-code-snippet)
    
 
@@ -111,7 +110,7 @@ The LeanSwift IDM extension for Infor M3 provides the ability to upload, downloa
 
 Note: All settings are defined only on the Global level and not on the Store level. 
 
-### 2.0.2	Assumptions/Limitations
+### 2.0.2	Limitations
 
   ❖	A functional instance of IDM with access to its REST API is assumed to exist.
 
@@ -166,13 +165,6 @@ Note: All settings are defined only on the Global level and not on the Store lev
 
   <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/Search_Configuration.png"></kbd>
   
-#### New in this version
-
-A backend config “Document Root is Pub” with “Yes” or “No” option is added. 
-- Choosing “Yes” denotes index.php file under pub folder is set as root for Magento
-- Choosing “No” denotes index.php file under root folder is set as root for Magento.
- Based on this, we will form the download URL with or without including pub in the URL.
-
 
 ### 2.1.4 Mapping
 
@@ -199,16 +191,25 @@ A backend config “Document Root is Pub” with “Yes” or “No” option is
 
   <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/Invoice_Download.png"></kbd>
 
+#### New in this version
 
 **ION version:**
 
 For ION version we have an additional fields 
 
 1. Service URL for ION
-
 2. Document Root is Pub or Not
 
   <kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1736/ecommerce/images/add-ons/idm/ION_GeneralConfig.png"></kbd>
+  
+  A backend config “Document Root is Pub” with “Yes” or “No” option is added.
+  
+- Choosing “Yes” denotes index.php file under pub folder is set as root for Magento
+
+- Choosing “No” denotes index.php file under root folder is set as root for Magento.
+
+ Based on this, we will form the download URL with or without including pub in the URL.
+
 
 We also have an additional functionality which is importing IDM configuration using import option unlike the cron option in elink version
 
