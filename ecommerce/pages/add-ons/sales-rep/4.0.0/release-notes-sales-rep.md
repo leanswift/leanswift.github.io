@@ -59,7 +59,7 @@ Every Sales Representative can, for their respective customers,
 - With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn     sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
 - Sales rep roles will be automatically assigned during Sales rep installation.
 
-
+_Note: This version is tested only on M3-Multi-tenant_
 
 # **Bug Fixes**
 
