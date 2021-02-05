@@ -54,6 +54,8 @@ Options available for both scheduled as well as real-time access to IDM.
 
 - Added a backend configuration to form the IDM Upload/Download URL
 
+_Note: This version is tested only on M3-Multi-tenant_
+
 ## **Pre-requisites**
 
 - LeanSwift eConnect Base 5.0.0 must be installed on Magento 2.4.1 or greater
