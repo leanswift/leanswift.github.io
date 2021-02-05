@@ -36,6 +36,7 @@ Extends standard Magento functionality and offers several transactions to ensure
 | Rabbitmq | 3.8.3 |
 | ION Desk | 12.0 |
 | PHP | 7.4.12 |
+| ION-BOD package | 3.0.0 |
 
 ## **Standard Features**
 
@@ -53,7 +54,8 @@ Functionality remains the same as in the previous version.
 
 ## **Pre-requisites**
 
-- LeanSwift eConnect 20.3.0 must be installed on Magento 2.4.1 or greater.
+- LeanSwift eConnect 20.3.0-p1 must be installed on Magento open source 2.4.1.
+- For MAgento Commerce, Leanswift 20.3.0 can be installed.
 - Wyomind Advanced Inventory extension for Magento 2 Version 7.7.6
 Wyomind extension will support only with default source and not with multiple sources.
 
