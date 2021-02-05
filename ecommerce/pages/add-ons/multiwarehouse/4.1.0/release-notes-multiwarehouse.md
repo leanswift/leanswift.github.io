@@ -52,9 +52,11 @@ Functionality remains the same as in the previous version.
 
 - With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
 
+_Note: Tested only on M3-Multi-tenant_
+
 ## **Pre-requisites**
 
-- LeanSwift eConnect 20.3.0-p1 must be installed on Magento open source 2.4.1.
+- **LeanSwift eConnect 20.3.0-p1 must be installed on Magento open source 2.4.1.**
 - For MAgento Commerce, Leanswift 20.3.0 can be installed.
 - Wyomind Advanced Inventory extension for Magento 2 Version 7.7.6
 Wyomind extension will support only with default source and not with multiple sources.
