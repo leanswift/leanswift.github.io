@@ -74,7 +74,7 @@ The new version will coexist with the older version of eConnect which uses LeanS
 
 ### Architecture with ION for multi-tenant Cloud M3
 
-
+<kbd><img alt ="ION architecture" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1735/ecommerce/images/add-ons/order-grid/ION_Architecture.jpg"></kbd>
 
 
 
@@ -238,11 +238,12 @@ The grid remains disabled showing a text 'Out of stock'
 
 If Backorder is set to 'Allow Qty below 0', the out of stock products are enabled letting the user add the product to cart. In this case, the field says 'Backorder' and looks like this:
 
-
+<kbd><img alt ="ION architecture" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1735/ecommerce/images/add-ons/order-grid/ConfigPrdt_Backorders.PNG"></kbd>
 
 Note: Stock status must be 'In Stock' in order for Backorder to work.
 
 When user chooses option 'Allow Quantity below 0 and Notify customer', The customer would get a notification message in the cart page when a backorder product is added to cart.
 
+<kbd><img alt ="ION architecture" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1735/ecommerce/images/add-ons/order-grid/ConfigPrdt_NotifyCustomer.PNG"></kbd>
 
 [Go to Top](#table-of-contents)
