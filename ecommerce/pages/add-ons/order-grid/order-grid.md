@@ -1,7 +1,7 @@
 ![eConnect for Infor M3](../../../../images/banner-econnect-m3.jpg)
 
-# Version 4.1.0
+# Version 2.5.1
 
-- ## [User Manual](4.1.0/usermanual-order-grid.md)
+- ## [User Manual](2.5.1/usermanual-order-grid.md)
 
-- ## [Release Notes](4.1.0/release-notes-order-grid.md)
+- ## [Release Notes](2.5.1/release-notes-order-grid.md)
