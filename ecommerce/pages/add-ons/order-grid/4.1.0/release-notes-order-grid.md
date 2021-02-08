@@ -68,8 +68,9 @@ _Note: This version is tested only on M3-Multi-tenant_
 •	Up to 3 attributes can be configured to display in the frontend
 
 •	eConnect and hence the Order Grid add-on, can be set to work with only ONE of the two options, exclusively 
-  (1) LeanSwift eLink or 
+
+    (1) LeanSwift eLink or 
   
-  (2) ION Document Flows and ION APIs
+    (2) ION Document Flows and ION APIs
 
 
