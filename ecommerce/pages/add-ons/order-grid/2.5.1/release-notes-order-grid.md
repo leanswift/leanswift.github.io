@@ -12,6 +12,7 @@
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
 - [**Enhancements**](#enhancements)
+- [**Bug Fixes**](#bug-fixes)
 - [**Pre-requisites**](#pre-requisites)
 - [**Limitations**](#limitations)
 
@@ -59,7 +60,7 @@ _Note: This version is tested only on M3-Multi-tenant_
 # **Bug Fixes**
 
 - Based on Price Sync(Yes/No), customer specific price gets updated in frontend.
-- Order sync with M3 for configurable products is  fixed ( Issue only in CE).
+- Order sync with M3 for configurable products is  fixed(Issue only in CE).
 
 # **Pre-requisites**
 
