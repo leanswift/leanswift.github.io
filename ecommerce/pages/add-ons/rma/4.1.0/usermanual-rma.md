@@ -98,12 +98,12 @@ The new version will coexist with the older version of eConnect which uses LeanS
 ### Architecture with LeanSwift eLink
 
 
-<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/architecture-with-leanSwift-eLink.jpg"></kbd>
+<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/architecture-with-leanSwift-eLink.jpg"></kbd>
 
 
 ### Architecture with ION for multi-tenant Cloud M3
 
-<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/architecture-with-ION-for-multi-tenant-cloud-M3.jpg"></kbd>
+<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/architecture-with-ION-for-multi-tenant-cloud-M3.jpg"></kbd>
 
 The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
 
@@ -206,11 +206,11 @@ The configuration for RMAs is made up of two parts – the standard Magento setu
 
 The general standard Magento configuration can be found under Stores > Configuration > Sales > Sales.
 
-<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/"></kbd>
+<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/standard_magento_config.png"></kbd>
 
 The options include whether or not RMAs should be possible to create from the front-end, whether RMAs are enabled on product level and whether or not to use the address for the store for RMAs. If the last setting is set to 'No', the address to use must be filled in:
 
-<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/"></kbd>
+<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/rma_setting.png"></kbd>
 
 ### 2.1.2 Standard Magento Configuration – RMA Item Attributes
 
@@ -218,7 +218,7 @@ Another key setup for the RMA process is the definition of what Magento refers t
 
 The RMA Item Attribute configuration can be accessed via _Stores \&gt; Attributes \&gt; Returns_
 
-<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/"></kbd>
+<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/returns_attributes.png"></kbd>
 
 With the installation of LeanSwift's Magento RMA Add-on, the required Attribute codes &amp; values are added to your Magento installation. The following Attribute codes &amp; values are added:
 
@@ -231,15 +231,15 @@ With the installation of LeanSwift's Magento RMA Add-on, the required Attribute 
 
 The key setting for each product is whether RMAs are enabled for the product in question. The options are 'Yes', 'No' or to use the general configuration mentioned in section 2.1.1.
 
-<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/"></kbd>
+<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/enable_rma.png"></kbd>
 
 ### 2.1.4 LeanSwift Extension Configuration – RMA
 
 The LeanSwift specific settings related to RMA can be found under _LeanSwift \&gt;Add-ons\&gt; Returns_.
 
-<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/"></kbd>
+<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/add_ons.png"></kbd>
 
-<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/"></kbd>
+<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/returns_addon.png"></kbd>
 
 The four groups of RMA parameters are covered in the following four sections.
 
@@ -247,7 +247,7 @@ The four groups of RMA parameters are covered in the following four sections.
 
 This group contains settings to define the valid RMA period, and for which M3 customer order type that should be used for each type of RMA.
 
-<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/"></kbd>
+<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/general_config_rma.png"></kbd>
 
 **Valid RMA Period**
 
@@ -277,7 +277,7 @@ The M3 customer order type to be used when _RMA type_ **Exchange** is selected. 
 
 This group allows for a mapping to be created that will ensure a different warehouse for the RMA transaction is used depending on which country the original order was delivered to( **CHECK** ).
 
-![](RackMultipart20210209-4-1hab68o_html_eb084bcbabc4dddd.png)
+<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/warehouse_rma.png"></kbd>
 
 #### 2.1.4.3 LeanSwift Extension Configuration – Reason Codes
 
@@ -287,7 +287,7 @@ Please note that this mapping affects the front-end behavior only in the way tha
 
 The values on 'RMA Code' are dynamically (for each session) retrieved [and cached for each session] from '' (CRS103) in M3.
 
-![](RackMultipart20210209-4-1hab68o_html_2398da34dcc9f35c.png)
+<kbd><img alt="Magento Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/reason_code_rma.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
