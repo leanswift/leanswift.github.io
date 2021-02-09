@@ -41,6 +41,18 @@ Extends standard Magento functionality and offers several transactions to ensure
 
 # **Standard Features**
 
+Functionality remains the same as in the previous version. 
+
+Leverages Return Merchandise Authorization in Magento Commerce and synchronizes Customer Returns with M3.
+
+  ●	Initiate RMA transactions from Magento and complete processing them in M3
+
+  ●	Manage Returns, Claims, and Exchanges
+
+  ●	Generate Credit Memos within Magento based on credit invoices issued in M3
+
+The M3 OIS390 functionality is not used as it does not automatically provide for 
+Return header creation (or) the association of header and line charges.
 
 
 # **New Features**
