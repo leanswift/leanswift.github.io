@@ -32,7 +32,7 @@ Extends standard Magento functionality and offers several transactions to ensure
 | --- | --- |
 | Magento Open source | 2.4.1 |
 | Magento Community | 2.4.1 |
-| eConnect | 20.3.0 |
+| eConnect | 20.3.1 |
 | eConnect Base | 5.0.0 |
 | Rabbitmq | 3.8.3 |
 | ION Desk | 12.0 |
@@ -64,7 +64,7 @@ _Note: This version is tested only on M3-Multi-tenant_
 
 # **Pre-requisites**
 
-•	LeanSwift eConnect 20.3.0 must be installed on Magento 2.4.1 or greater
+•	LeanSwift eConnect 20.3.1 must be installed on Magento 2.4.1 or greater
 
 # **Limitations**
 
