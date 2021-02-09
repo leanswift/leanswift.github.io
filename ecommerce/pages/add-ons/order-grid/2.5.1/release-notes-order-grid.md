@@ -56,6 +56,10 @@ The module extends the standard Magento functionality for displaying products ba
 
 _Note: This version is tested only on M3-Multi-tenant_
 
+# **Bug Fixes**
+
+- Based on Price Sync(Yes/No), customer specific price gets updated in frontend.
+- Order sync with M3 for configurable products is  fixed ( Issue only in CE).
 
 # **Pre-requisites**
 
