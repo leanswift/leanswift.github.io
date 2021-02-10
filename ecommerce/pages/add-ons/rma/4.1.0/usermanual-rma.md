@@ -462,49 +462,47 @@ Auto Level: 3 – Pick list reporting
 
 With the setup described above, the Return transaction is in M3 created and stopped in a status '44' (Out to pick). For a Return, this signifies that the Return is pending receipt.
 
-![](RackMultipart20210209-4-1hab68o_html_aeee3e28f5aceae1.png)
+<kbd><img alt="customer order open" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/rma_m31.png"></kbd>
 
 To illustrate the capabilities of eConnect's RMA sync, this Return will in this example be processed in two steps. The business scenario here being that the customer (for size reasons for example) had to ship the two products that are being returned in different packages. With this in mind, an RMA must be possible to process in multiple steps.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **Please note!**
 
 The pick reporting (receipt) of each individual picking list line must be complete, and not left partially open as M3 allows. This should in most instances make perfect business sense in that if a customer says they will return 3 EA of an item, and only 1 EA is received – then for whatever reason they decided to only return 1 EA instead of 3 EA and someone would reach out to the customer and confirm. If it's then found that additional units are on the way – the RMA line should not be reported until the full quantity expected has been received.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 This is the original picking list, where 2 EA of both products are expected to be returned:
 
-![](RackMultipart20210209-4-1hab68o_html_9eeb24e0c41a3dfb.png)
+<kbd><img alt="customer order open" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/rma_m32.png"></kbd>
 
 The first pass at receipt reporting
 
-![](RackMultipart20210209-4-1hab68o_html_5d1f7d2294390adc.png)
+<kbd><img alt="customer order open" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/rma_m33.png"></kbd>
 
 The above action will receive 1 of 2 EA for the first line and close it for further processing (signified by '1' in the Com (_Complete_) field).
 
 Following the _Confirm All_ action, the order will look as follows [once M3's auto jobs have finished processing], meaning that the second line (product 200200) is then still expected to be received at at later time:
 
-![](RackMultipart20210209-4-1hab68o_html_d4ca0d48107debaa.png)
+<kbd><img alt="customer order open" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/rma_m34.png"></kbd>
 
 A sync with Magento and verification of the RMA transaction in Magento shows it as 'Return Partially Received':
 
-![](RackMultipart20210209-4-1hab68o_html_7e09ae2d9778aec1.png)
+<kbd><img alt="return partially received" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/partially_received.png"></kbd>
 
 Looking at the RMA lines, this is then simply due to the fact that one line at this point has been completely returned (status 'Return Received') and the second line hasn't been received at all.
 
-![](RackMultipart20210209-4-1hab68o_html_91bd2216ed684720.png)
+<kbd><img alt="return received" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/return_received.png"></kbd>
+
 
 As a final step, the complete receipt of the second line is performed within M3:
 
-![](RackMultipart20210209-4-1hab68o_html_716b158c8d1f2059.png)
+<kbd><img alt="return received" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/rma_m35.png"></kbd>
 
 Once this has been completed and the RMA synced again in Magento, the final result of the complete receipt reporting can be seen:
 
-![](RackMultipart20210209-4-1hab68o_html_1cd55c2cdaf73068.png)
+<kbd><img alt="return fully received" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/order_fully_received.png"></kbd>
 
-![](RackMultipart20210209-4-1hab68o_html_86ef9422d64fd055.png)
 
 Once the order in M3 is invoiced and synced again in Magento, the final result and status is received:
 
@@ -522,31 +520,29 @@ The overall process to create any type of RMA from a Magento front-end is very s
 
 An RMA of type _Exchange_ can just like the _Return_ from within Magento Admin be initiated in two different ways. In this section, the Exchange is created from within the original order – which is displayed below. A new RMA of the type Exchange is created in the same as the Return – by pressing the 'Create RMA' button in the upper left corner.
 
-![](RackMultipart20210209-4-1hab68o_html_629c61c06d0c6e61.png)
+<kbd><img alt="exchanges order page" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/create_returns_orderpage.png"></kbd>
 
 In the step that follows, move to the 'RMA Items' section on the left and press 'Add Products' in the upper right-hand corner.
 
-![](RackMultipart20210209-4-1hab68o_html_9324f27364939623.png)
+<kbd><img alt="exchanges add product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchanges_add_product.png"></kbd>
 
 On the following screen displayed below, select all the products that should be included in the Exchange. Press '+Add Selected Product(s) to RMA' when done.
 
-![](RackMultipart20210209-4-1hab68o_html_3b16e6706f35f3dc.png)
+<kbd><img alt="exchanges add selected product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchanges_add_selected_pdt.png"></kbd>
 
 In the next step is really where the determination of what kind of RMA this transaction will become is done (please refer to screen shot below). Enter how many of each product that should be included on this RMA in the 'Requested Qty' field **(1)**, what the reason for the return is in the 'Reason to Return' field **(2)** – and finally what the requested resolution (i.e. type of RMA) is in the 'Resolution' field **(3)**.
 
-Please note! That the above information must be entered for all products that are listed on this screen. If one of the fields are left blank – Magento will require input and the following message is displayed to the user:
-
-![](RackMultipart20210209-4-1hab68o_html_9f298cd7229268cb.png)
+Please note! That the above information must be entered for all products that are listed on this screen. If one of the fields are left blank – Magento will require input and the following message is displayed to the user: 'This is a required field'
 
 If at this point the customer would change their mind and not want to include one or several of the products on the RMA – simply use the 'Delete' option to the right of the applicable line to remove it from the RMA.
 
 Once all this information has been entered – press 'Submit RMA' **(4)** to complete the RMA creation.
 
-![](RackMultipart20210209-4-1hab68o_html_bede398957127df4.png)
+<kbd><img alt="exchanges add selected product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchange_newreturns_steps.png"></kbd>
 
 The new RMA will show up in the RMA grid that's displayed as the next step, and the initial status prior to synchronization is 'Pending'.
 
-![](RackMultipart20210209-4-1hab68o_html_27b85f0022e5bb8a.png)
+<kbd><img alt="exchanges request submit" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchange_request_submit.png"></kbd>
 
 #### 2.2.2.2 RMA Synchronization
 
@@ -554,11 +550,11 @@ The Exchange RMA transaction can in the same way as the Return be synchronized M
 
 The manual sync is also for the Exchange performed directly from within the RMA grid. Mark the selected transaction/transactions to be synced, select 'Sync with ERP' as _Action_ and press 'Submit':
 
-![](RackMultipart20210209-4-1hab68o_html_27b85f0022e5bb8a.png)
+<kbd><img alt="exchanges request submit2" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchange_request_submit2.png"></kbd>
 
 A confirmation is received, in this example that the order was successfully created in M3 – and the _Status_ is also updated accordingly. If the RMA was successfully added in M3, the actual M3 order number will also be displayed in the 'Final Ord #' field.
 
-![](RackMultipart20210209-4-1hab68o_html_c08edddd001f57fa.png)
+<kbd><img alt="exchanges request submit2" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchange_return_request.png"></kbd>
 
 For further details on the final order# and other fields on this screen, please refer to section [**2.2.1.2**](#_heading=h.3whwml4) earlier in this document.
 
@@ -576,11 +572,13 @@ With regards to Exchanges, a few things are specifically worth mentioning. Also 
 
 With the M3 setup for this example, the resulting Debit order in M3 is created in a status '44' (i.e. &quot;Pending receipt):
 
-![](RackMultipart20210209-4-1hab68o_html_1c2036d0336b046c.png) To process through the receipt in this case, a 'Confirm Issues' is performed for the applicable number of units (just one in this example). Please note that also here it is possible to receive fewer that expected, as long as the delivery line is closed.
+<kbd><img alt="exchanges m3 part1" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchange_rma_m3_1.png"></kbd>
+
+To process through the receipt in this case, a 'Confirm Issues' is performed for the applicable number of units (just one in this example). Please note that also here it is possible to receive fewer that expected, as long as the delivery line is closed.
 
 The Exchange will move to a status of '66' (Received) after this.
 
-![](RackMultipart20210209-4-1hab68o_html_825b9310a1c2d66c.png)
+<kbd><img alt="exchanges m3 part2" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchange_rma_m3_2.png"></kbd>
 
 The final step [for any RMA in M3] is Invoicing. This can be done in a number of different ways, normally in batch and scheduled to run with a certain frequency. It's also possible to have the order automatically invoice right after it reaches a received (66) status.
 
@@ -588,17 +586,17 @@ To describe the complete process for an Exchange, it's crucial that this step is
 
 If manually performed, invoicing is initiated from 'CO Invoice. Print' (OIS180). Enter in the sales order number in both the 'From' and 'To' CO no fields and press _ENTER/NEXT_. The [Credit] Exchange order in M3 will move to status '77' (Invoiced).
 
-![](RackMultipart20210209-4-1hab68o_html_1ae7e39bf3b5747f.png)
+<kbd><img alt="exchanges m3 part3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchange_rma_m3_3.png"></kbd>
 
 Perform one final synchronization (manually in this example, but this would normally be handled automatically by the associated cron job in Magento):
 
 And once the RMA in Magento has reached a 'Processed &amp; Closed' status, the final Debit order to ship out the replacement product in M3 has been generated.
 
-![](RackMultipart20210209-4-1hab68o_html_af81f089cc7741e4.png)
+<kbd><img alt="processed and closed" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchanges_returns_processednclosed.png"></kbd>
 
 The Debit order can be found by looking for one of the last &quot;normal&quot; sales orders based on the applicable number sequence defined in M3. In this case, no additional sales orders have been processed since the one used to initiate this example – so it will be the next number following the original sale orders (which was 0001113237) i.e. **0001113238**.
 
-![](RackMultipart20210209-4-1hab68o_html_de767a36090ebb6d.png)
+<kbd><img alt="exchanges m3 part4" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/exchange_rma_m3_4.png"></kbd>
 
 This then concludes the Exchange process. The Debit order will be processed following whatever routines are configured for that order type in M3, which [since it's a separate order type] can be different from other types of sales orders.
 
@@ -609,6 +607,5 @@ In order to properly handle the case where only a part of an RMA should be recei
 
 LeanSwift's synchronization within eConnect ensures that that the RMA line status is updated correctly based on the M3 order line status, and the RMA header status is then updated appropriately by Magento.
 
-![](RackMultipart20210209-4-1hab68o_html_21709e6ec9569183.jpg)
 
 [Go to Top](#table-of-contents)
