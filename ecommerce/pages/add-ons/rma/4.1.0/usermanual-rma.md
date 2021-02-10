@@ -156,8 +156,8 @@ RMAs can be defined in several different ways. Within eConnect the following ter
 
 **Claim** – Generally these can be defined as some damage has occurred to purchased products. However, 2 types of claims need to be supported:
 
-    - Stock to be returned
-    - Stock not to be returned
+- Stock to be returned
+- Stock not to be returned
 
 **Exchange** – could be either a Return or Claim, but on top of bringing back one product - a new sales order to ship out the exact same product as a replacement would be created
 
