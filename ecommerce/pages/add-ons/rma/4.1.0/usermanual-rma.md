@@ -607,5 +607,6 @@ In order to properly handle the case where only a part of an RMA should be recei
 
 LeanSwift's synchronization within eConnect ensures that that the RMA line status is updated correctly based on the M3 order line status, and the RMA header status is then updated appropriately by Magento.
 
+<kbd><img alt="statuses" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/statuses_sync.png"></kbd>
 
 [Go to Top](#table-of-contents)
