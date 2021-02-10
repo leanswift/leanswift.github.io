@@ -98,12 +98,12 @@ The new version will coexist with the older version of eConnect which uses LeanS
 ### Architecture with LeanSwift eLink
 
 
-<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/architecture-with-leanSwift-eLink.jpg"></kbd>
+<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/elink_arch.png"></kbd>
 
 
 ### Architecture with ION for multi-tenant Cloud M3
 
-<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/architecture-with-ION-for-multi-tenant-cloud-M3.jpg"></kbd>
+<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/ion_m3_arch.png"></kbd>
 
 The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
 
@@ -309,7 +309,7 @@ Once all of the above is fulfilled, the following steps make up the RMA process 
 
 In the following example, the original sales order below is used as the basis:
 
-![](RackMultipart20210209-4-1hab68o_html_b83e09c20dbb6e04.png)
+<kbd><img alt="Returns order summary" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/returns_order_summary.png"></kbd>
 
 #### 2.2.1.1 RMA Creation – Magento Admin
 
@@ -319,13 +319,13 @@ An RMA can from within Magento Admin be initiated in two different ways.
 
 Opening up the details of the original sales order reveals a '' button in the upper left corner:
 
-![](RackMultipart20210209-4-1hab68o_html_8ffee67341be2f64.png)
+<kbd><img alt="create Returns order" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/create_returns_orderpage.png"></kbd>
 
 **From RMA Grid**
 
 The RMA grid is accessed via _Sales \&gt; Operations \&gt; Returns_. In the upper right-hand corner of the RMA grid, the 'New RMA Request' button can be found.
 
-![](RackMultipart20210209-4-1hab68o_html_820e3b3d49a634f.png)
+<kbd><img alt="New return request" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/new_return_request.png"></kbd>
 
 From within Magento Admin, both of the above options brings the user to the same starting point for creating a new RMA transaction.
 
@@ -337,23 +337,23 @@ The first panel contains general information that applies to the entire RMA.
 2. The Customer's shipping address.
 3. The return address per the configuration in Magento.
 
-![](RackMultipart20210209-4-1hab68o_html_1e07f0736177cb83.png)
+<kbd><img alt="New return general information" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/new_returns_general_info.png"></kbd>
 
 **RMA Items**
 
 The detailed panel is where the actual products to be returned are added. This is done via the ''+Add Products' button in the upper right-hand corner.
 
-![](RackMultipart20210209-4-1hab68o_html_4bee6b42cde6ddfb.png)
+<kbd><img alt="New return add product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/new_returns_add_product.png"></kbd>
 
 This action reveals a list of products eligible to be added to the RMA.
 
-![](RackMultipart20210209-4-1hab68o_html_7e2da22f0351b9ab.png)
+<kbd><img alt="New return add selected product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/new_returns_add_selected_pdt.png"></kbd>
 
 **1)** Check the selection boxes for each product that should be added to the RMA (information to the right indicates the SKU, sold price and quantity that remains possible to return).
 
 **2)** Pressing the '+Add Selected Product(s) to RMA' will bring up the next panel where the final details for the RMA can be completed.
 
-![](RackMultipart20210209-4-1hab68o_html_48a8cbcf3948c12a.png)
+<kbd><img alt="New return empty fields" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/new_return_details.png"></kbd>
 
 **1)**_Requested Qty_ refers to the quantity per line item that the customer is requesting to add to this RMA transaction.
 
@@ -367,7 +367,7 @@ This action reveals a list of products eligible to be added to the RMA.
 
 The same screen with all the completed information necessary to create the RMA:
 
-![](RackMultipart20210209-4-1hab68o_html_c976ffa191668f0a.png)
+<kbd><img alt="New return highlights" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/new_returns_product_highlighted.png"></kbd>
 
 Once the RMA has been submitted, the user is returned to the RMA grid with a confirmation message that the RMA has been successfully created, and the first transaction in the list is the latest RMA added.
 
@@ -375,7 +375,7 @@ The status of a new RMA is always 'Pending'.
 
 As part of the LeanSwift RMA add-on, two new columns have been added to the RMA grid – 'Temp Order#' and 'Final Order#'. The 'Temp Order#' is the batch order number from M3 (OIS275), and the 'Final Order#' is the actual [final] customer order number assigned by M3 once the transaction has been successfully added.
 
-![](RackMultipart20210209-4-1hab68o_html_931321dcc3353162.png)
+<kbd><img alt="rma request submitted" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/request_submitted.png"></kbd>
 
 #### 2.2.1.2 RMA Synchronization
 
@@ -385,7 +385,7 @@ The create RMA can [just like a sales order] be synchronized over to M3 in two d
 
 The manual sync is initiated via the RMA transaction grid:
 
-![](RackMultipart20210209-4-1hab68o_html_27b85f0022e5bb8a.png)
+<kbd><img alt="rma manual sync" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/returns_manualsync.png"></kbd>
 
 Once the synchronization has completed, the result is indicated by the message at the top of the screen (1). The RMA transaction is also updated:
 
@@ -395,13 +395,12 @@ Once the synchronization has completed, the result is indicated by the message a
 
 **Status** : The RMA status is always updated to 'Authorized' once the RMA has been fully synchronized over initially to M3. For further details on the Status values, please refer to the Appendix of this document.
 
-![](RackMultipart20210209-4-1hab68o_html_cfaf35abbeaa4ea3.png)
 
 **Cron Sync**
 
 The synchronization via the available cron job works exactly the same way as the Manual Sync described above. The RMA Sync cron is configured following the same standard Linux rules as any of the other cron jobs.
 
-![](RackMultipart20210209-4-1hab68o_html_e4a10631d8c8a8eb.png)
+<kbd><img alt="rma cron sync" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/cron_setting_rma.png"></kbd>
 
 **ION version:**
 
@@ -409,7 +408,7 @@ The difference between ION &amp; eLink version is that, order have to be synced 
 
 We also have an additional functionality which is importing RMA config using import option unlike the cron option in elink version
 
-![](RackMultipart20210209-4-1hab68o_html_1b0db46c5febf848.png)
+<kbd><img alt="import config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/import_config.png"></kbd>
 
 .
 
