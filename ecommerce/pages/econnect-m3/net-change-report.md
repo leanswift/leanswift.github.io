@@ -2,8 +2,7 @@
 
 # **20.3.0-p2-CE**
 
-
-# **Bug Fixes**
+## **Bug Fixes**
 
 - Product sync will work even if there are multiple "Item Id" nodes in the BOD
 
@@ -14,16 +13,14 @@
 
 # **20.3.0-p1-CE**
 
-
-# **Bug Fixes**
+## **Bug Fixes**
 
 - Product detail page works properly without going 404
 
 
 # **20.3.0**
 
-
-# **New Features**
+## **New Features**
 
 - Separate amqp-leanswift connection to connect RabbitMQ
 - Additional-Entity API programs are more flexible and configurable to support Product, Customer, and Order.
@@ -32,7 +29,7 @@
 - API maxReturnedRecords option is now configurable.
 - New configuration section to provide the RabbitMQ credentials for amqp-leanswift connection.
 
-# **Enhancements**
+## **Enhancements**
 
 - Implement mixins for Javascript to prevent interference with other modules
 - Implement declarative schema for the database tables.
@@ -40,7 +37,7 @@
 - Adding the customer default address from CustomerPartyMaster BOD
 
 
-# **Bug Fixes**
+## **Bug Fixes**
 
 - Customer Default Address from the CustomerPartyMaster BOD are now added to Magento
 - Support for overriding standard Xpath from the configuration has been provided.
