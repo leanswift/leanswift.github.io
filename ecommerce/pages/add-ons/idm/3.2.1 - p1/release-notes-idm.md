@@ -64,7 +64,7 @@ Options available for both scheduled as well as real-time access to IDM.
 
 ## **Bug Fix**
 
-- Clicking on 'download' will work even if there are multiple stores per website.
+- Downloading IDM files by clicking on 'download' will work even if there are multiple stores per website.
 
 ## **Points of Contact**
 
