@@ -31,7 +31,8 @@ Extends standard Magento functionality and offers several transactions to ensure
 | --- | --- |
 | Magento Open source | 2.4.1 |
 | Magento Community | 2.4.1 |
-| eConnect | 2.3.0 |
+| eConnect-Community | 20.3.0-p1 |
+| eConnect-Commerce | 20.3.0 |
 | eConnect Base | 5.0.0 |
 | Rabbitmq | 3.8.3 |
 | ION Desk | 12.0 |
@@ -57,7 +58,7 @@ _Note: Tested only on M3-Multi-tenant_
 ## **Pre-requisites**
 
 - **LeanSwift eConnect 20.3.0-p1 must be installed on Magento open source 2.4.1.**
-- For MAgento Commerce, Leanswift 20.3.0 can be installed.
+- For Magento Commerce, Leanswift 20.3.0 can be installed.
 - Wyomind Advanced Inventory extension for Magento 2 Version 7.7.6
 Wyomind extension will support only with default source and not with multiple sources.
 

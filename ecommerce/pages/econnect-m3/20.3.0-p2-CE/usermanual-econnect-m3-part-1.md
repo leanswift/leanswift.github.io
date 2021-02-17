@@ -1,0 +1,1 @@
+**Same as previous version** - <a href="https://leanswift.github.io/ecommerce/pages/econnect-m3/20.3.0/usermanual-econnect-m3-part-1.html">Link</a>

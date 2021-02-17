@@ -1,5 +1,25 @@
 ![](RackMultipart20201224-4-dzt8sl_html_390ba5139005650c.png)
 
+# **20.3.0-p2-CE**
+
+
+# **Bug Fixes**
+
+- Product sync will work even if there are multiple "Item Id" nodes in the BOD
+
+- Categories will get created successfully even if "Item Hierarchy" is given as part of catgeory source
+
+- Instructions under 'M3 Category Source' are updated with the proper details
+
+
+# **20.3.0-p1-CE**
+
+
+# **Bug Fixes**
+
+- Product detail page works properly without going 404
+
+
 # **20.3.0**
 
 
