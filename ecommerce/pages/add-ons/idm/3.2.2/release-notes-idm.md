@@ -68,7 +68,7 @@ Options available for both scheduled as well as real-time access to IDM.
 
 ## **Bug Fix**
 
-- Updated the column size of eConnect configuration table to store the intial configuration data of IDM without fail
+- Updated the column size of eConnect configuration table to store the initial configuration data of IDM without fail
 
 ## **Points of Contact**
 
