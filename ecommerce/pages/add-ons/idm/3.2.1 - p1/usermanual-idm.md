@@ -3,7 +3,7 @@
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
 
-### **Product Version**  **3.2.1**
+### **Product Version**  **3.2.1-p1**
 
 **eConnect-base version 5.0.0**
 
