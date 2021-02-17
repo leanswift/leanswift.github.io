@@ -112,7 +112,7 @@ The LeanSwift IDM extension for Infor M3 provides the ability to upload, downloa
 
 Note: All settings are defined only on the Global level and not on the Store level. 
 
-### 2.0.2	Limitations
+### 2.0.2 Limitations
 
   ❖	A functional instance of IDM with access to its REST API is assumed to exist.
 
@@ -238,7 +238,7 @@ Once user clicks on Import button, IDM configuration will be imported from M3.
     
   ●	To include the download in custom template included in below code
 
-    //give custom template if needed another template   
+    //Give custom template if needed another template   
     $downloadData['documentName'] = $dynamicNumber;   
     //used in configured in backend should be given as document type   
     $downloadData['documentType'] = $documentType;    
@@ -250,7 +250,7 @@ Once user clicks on Import button, IDM configuration will be imported from M3.
     
   ●	To include the upload in custom template included in below code
 
-    //give custom template if needed another template    
+    //Give custom template if needed another template    
     //used in configured in backend should be given as document type   
     $uploadData['documentType'] = $documentType;   
     $uploadData['documentName'] = $dynamicNumber;   

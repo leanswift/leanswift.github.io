@@ -2,7 +2,7 @@
 
 # **IDM**
 
-## **Version 3.2.1**
+## **Version 3.2.2**
 
 
 ## Table of contents
@@ -50,12 +50,6 @@ Provides integration to Infor Document Management and allows access to attribute
 Download Invoices from IDM on the &quot;My Invoices&quot; page.
 Options available for both scheduled as well as real-time access to IDM.
 
-## **Highlights**
-
-- Added a backend configuration to form the IDM Upload/Download URL
-
-_Note: This version is tested only on M3-Multi-tenant_
-
 ## **Pre-requisites**
 
 - LeanSwift eConnect Base 5.0.0 must be installed on Magento 2.4.1 or greater
@@ -68,9 +62,13 @@ _Note: This version is tested only on M3-Multi-tenant_
 - ION Document Flows and ION APIs
 - In the eLink version, everytime user clicks on download, it downloads all the files.
 
+## **Improvement**
+
+- Creation or Updation of database tables as per Magento Standard
+
 ## **Bug Fix**
 
-- Updated the path to clear the downloaded files
+- Updated the column size of eConnect configuration table to store the initial configuration data of IDM without fail
 
 ## **Points of Contact**
 

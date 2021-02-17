@@ -5,3 +5,16 @@
 - ## [User Manual](3.2.1/usermanual-idm.md)
 
 - ## [Release Notes](3.2.1/release-notes-idm.md)
+
+# Version 3.2.1-p1
+
+- ## [User Manual](3.2.1-p1/usermanual-idm.md)
+
+- ## [Release Notes](3.2.1-p1/release-notes-idm.md)
+
+# Version 3.2.2
+
+- ## [User Manual](3.2.2/usermanual-idm.md)
+
+- ## [Release Notes](3.2.2/release-notes-idm.md)
+
