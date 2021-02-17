@@ -5,6 +5,28 @@
 
 ---
 
+# Version 20.3.0-p2 CE
+
+- ## [User Manual - Part 1](20.3.0-p2-CE/usermanual-econnect-m3-part-1.md)
+
+- ## [User Manual - Part 2](20.3.0-p2-CE/usermanual-econnect-m3-part-2.md)
+
+- ## [Release Notes](20.3.0-p2-CE/release-notes-econnect-m3.md)
+
+---
+
+
+# Version 20.3.0-p1 CE
+
+- ## [User Manual - Part 1](20.3.0-p1-CE/usermanual-econnect-m3-part-1.md)
+
+- ## [User Manual - Part 2](20.3.0-p1-CE/usermanual-econnect-m3-part-2.md)
+
+- ## [Release Notes](20.3.0-p1-CE/release-notes-econnect-m3.md)
+
+---
+
+
 # Version 20.3.0
 
 - ## [User Manual - Part 1](20.3.0/usermanual-econnect-m3-part-1.md)
@@ -12,8 +34,6 @@
 - ## [User Manual - Part 2](20.3.0/usermanual-econnect-m3-part-2.md)
 
 - ## [Release Notes](20.3.0/release-notes-econnect-m3.md)
-
----
 
 ---
 
