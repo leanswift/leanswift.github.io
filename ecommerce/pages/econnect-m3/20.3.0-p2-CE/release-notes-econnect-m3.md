@@ -49,7 +49,7 @@ All the standard functionalities of core eConnect are supported in v20.3.0, whic
 
 - Product sync will work even if there are multiple "Item Id" nodes in the BOD
 
-- Categories will get created successfully even if "Item Hierarchy" is given as part of catgeory source
+- Categories will get created successfully even if "Item Hierarchy" is given as part of category source
 
 - Instructions under 'M3 Category Source' are updated with the proper details
 
