@@ -14,10 +14,6 @@
 
 - [Standard Features](#standard-features)
 
-- [Limitations](#limitations)
-
-- [Known Issues](#known-issues)
-
 - [Validated Versions](#validated-versions)
 
 - [Point of Contact](#point-of-contact)
@@ -65,11 +61,20 @@ This version includes all the standard features from 20.1.2 as mentioned below:
   - View Quality metrics based on rejected quantity
   - View Delivery Performance metrics
   - View Purchase Price Variance metrics
+
+## **New Features**
+
+- **LeanSwift AMQP Connection**
+  - New AMQP connection to handle the eConnect related BODs in RabbitMQ.
+  - Provided the option in the Backend for the same to give the RabbitMQ credentials.
+  - 
+- **Enterprise Connector Removal**
+  - No more Enterprise Connector. All the eConnect BODs from ION will now contact eConnect REST API directly instead of sending to rabbitmq.
   
 
 ## **Validated Versions**
 
-
+ Chrome 88.0.4324.190
 
 
 ## **Point of Contact**
