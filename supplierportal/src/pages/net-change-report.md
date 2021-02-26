@@ -20,7 +20,11 @@
 
 ### Features :
 
-
+- **LeanSwift AMQP Connection**
+  - New AMQP connection to handle the eConnect related BODs in RabbitMQ.
+  - Provided the option in the Backend for the same to give the RabbitMQ credentials.
+- **Enterprise Connector Removal**
+  -No more Enterprise Connector. All the eConnect BODs from ION will now contact eConnect REST API directly instead of sending to rabbitmq.
 
 ## 20.2.0
 
