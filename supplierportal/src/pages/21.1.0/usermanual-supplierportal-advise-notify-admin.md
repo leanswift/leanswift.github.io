@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 21.1.0 - Advise/Notify User Manual
+# Version 21.1.0 - Advise/Notify User Manual - Admin
 
 User Manual for 21.1.0 is same as 20.2.0. 
 
