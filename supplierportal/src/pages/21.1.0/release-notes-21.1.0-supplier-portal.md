@@ -29,6 +29,7 @@
 | Magento Open Source | 2.4.1 |
 | eConnect Base Module Version | 5.0.0 |
 | IDM Module version | 3.2.2 |
+| ION Package | 2.0.0|
 | RabbitMQ | 3.8.3 |
 | ION Desk | 12.0.0 |
 | Infor M3 | 16.1 |
