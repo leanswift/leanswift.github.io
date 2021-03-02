@@ -13,6 +13,19 @@
 
 - ## [Release Notes](21.1.0/release-notes-21.1.0-supplier-portal.md)
 
+- ## [User Manual - Advise-Notify-Admin](21.1.0/usermanual-supplierportal-advise-notify-admin.md)
+
+- ## [User Manual - Advise-Notify-User](21.1.0/usermanual-supplierportal-advise-notify-user.md)
+
+- ## [User Manual - Deliveries-Admin](21.1.0/usermanual-supplierportal-deliveries-admin.md)
+
+- ## [User Manual - Deliveries-User](21.1.0/usermanual-supplierportal-deliveries-user.md)
+
+- ## [User Manual - Invoice-Admin](21.1.0/usermanual-supplierportal-invoice-admin.md)
+
+- ## [User Manual - Invoice-User](21.1.0/usermanual-supplierportal-invoice-user.md)
+
+
 # Version 20.2.0
 
 - ## Solution Summary
