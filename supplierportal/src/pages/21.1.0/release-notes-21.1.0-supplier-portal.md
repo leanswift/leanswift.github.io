@@ -24,7 +24,7 @@
 
 ## **Environment Details**
 
-| _ **Software Name** _ | _ **Version** _ |
+|  **Software Name**  |  **Version**  |
 | --- | --- |
 | Magento Open Source | 2.4.1 |
 | eConnect Base Module Version | 5.0.0 |
