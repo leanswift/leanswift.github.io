@@ -71,27 +71,6 @@ This version includes all the standard features from 20.1.2 as mentioned below:
   - 
 - **Enterprise Connector Removal**
   - No more Enterprise Connector. All the eConnect BODs from ION will now contact eConnect REST API directly instead of sending to rabbitmq.
-
-
-## **Load Testing Metrics**
-
-**1000 Purchase orders with 3lines**
-
-- Time taken for sending purchase order API: 35.99594783783
-- Total time taken for rabbitmq processing : 12.22 mins
-- Bods/sec time :  1.6/sec - 2.0/sec
-
-**1000 purchase orders with 1000 lines(with batch)** 
-
-- Time taken for sending purchase order API:  .(1614681393.4272-1614681392.4035) for pushing one batch with 10 purchase orders 
-- Total time taken for rabbitmq processing : 31 minutes 20 secs
-- Bods/sec time : 0.4/sec
-
-**100 purchase orders with 1000 lines(without batch)**
-
-- Time taken for sending purchase order API: 42.4717841
-- Total time taken for rabbitmq processing : 3.10 mins
-- Bods/sec time : 0.4/sec - 0.6/sec
   
 
 ## **Validated Versions**
