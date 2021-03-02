@@ -3,6 +3,8 @@
 # Supplier Portal-Net Change Report
 
 ## Table of contents
+  - [21.1.0](#2110)
+    - [Features:](#features)
   - [20.2.0](#2020)
     - [Features:](#features)
   - [20.1.2](#2012)
@@ -13,6 +15,16 @@
   - [20.1.0](#2010)
     - [Features:](#features)
 #
+
+## 21.1.0
+
+### Features :
+
+- **LeanSwift AMQP Connection**
+  - New AMQP connection to handle the eConnect related BODs in RabbitMQ.
+  - Provided the option in the Backend for the same to give the RabbitMQ credentials.
+- **Enterprise Connector Removal**
+  -No more Enterprise Connector. All the eConnect BODs from ION will now contact eConnect REST API directly instead of sending to rabbitmq.
 
 ## 20.2.0
 
