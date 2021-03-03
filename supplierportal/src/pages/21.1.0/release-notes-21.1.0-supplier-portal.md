@@ -39,7 +39,7 @@
 
 ## **Standard Features**
 
-This version includes all the standard features from 20.1.2 as mentioned below:
+This version includes all the standard features from 20.2.0 as mentioned below:
 
 **Account**
   - Registration and Login
@@ -65,12 +65,12 @@ This version includes all the standard features from 20.1.2 as mentioned below:
 
 ## **New Features**
 
-- **LeanSwift AMQP Connection**
-  - New AMQP connection to handle the eConnect related BODs in RabbitMQ.
-  - Provided the option in the Backend for the same to give the RabbitMQ credentials.
-  - 
-- **Enterprise Connector Removal**
-  - No more Enterprise Connector. All the eConnect BODs from ION will now contact eConnect REST API directly instead of sending to rabbitmq.
+With 21.1.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by Supplier Portal. In the previous versions, ION sends BODs to RabbitMQ directly.
+
+**LeanSwift AMQP Connection**
+- Separate AMQP connection to handle standard M3 BODs necessary for Supplier Portal in RabbitMQ.
+- Provided the RabbitMQ section in the Magento admin to configure the credentials.
+
   
 
 ## **Validated Versions**
