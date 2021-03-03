@@ -18,6 +18,8 @@
 
 - [Point of Contact](#point-of-contact)
 
+- [Limitation and Known Issues](#limitation-and-known-issues)
+
 ## **Overview**
 
 **LeanSwift Supplier Portal** for Infor M3 CloudSuite is a supplier self-service portal that enables efficient online communication with vendors. It is seamlessly integrated with Infor M3 Cloudsuite via ION. Supplier Portal helps automate the entire purchase-to-pay process for the customer.
