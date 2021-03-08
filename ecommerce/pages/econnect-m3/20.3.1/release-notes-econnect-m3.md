@@ -11,7 +11,7 @@
 
 # **Environment Details**
 
-| _ **Software Name** _ | _ **Version** _ |
+| **Software Name** | **Version** |
 | --- | --- |
 | Magento version | 2.4.1 |
 | PHP version | 7.4.12 |
