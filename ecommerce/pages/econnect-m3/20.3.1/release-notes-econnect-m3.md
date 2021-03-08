@@ -1,5 +1,3 @@
-![](RackMultipart20201224-4-dzt8sl_html_390ba5139005650c.png)
-
 # **eConnect 20.3.1**
 
 # Table of contents
