@@ -1,6 +1,6 @@
 ![](RackMultipart20201224-4-dzt8sl_html_390ba5139005650c.png)
 
-# **eConnect 20.3.0**
+# **eConnect 20.3.1**
 
 # Table of contents
 
@@ -29,7 +29,7 @@
 
 # **Standard Features**
 
-All the standard functionalities of core eConnect are supported in v20.3.0, which includes the following:
+All the standard functionalities of core eConnect are supported in v20.3.1, which includes the following:
 
 - Product Addition
 - Product Synchronization
