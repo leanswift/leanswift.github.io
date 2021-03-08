@@ -1,5 +1,25 @@
 ![](RackMultipart20201224-4-dzt8sl_html_390ba5139005650c.png)
 
+# **20.3.1**
+
+## **Bug Fixes**
+
+- Order total was not saved in order history table
+
+- Duplicate customers getting created via IMS
+
+- Product detail page goes to 404 due to MWH
+
+- Emtpy table validation during Customer price call
+
+- Shipment bod update when status is 'Shipped'
+
+- Errors on running "setup:di:compile"
+
+- Issue in Max records set during API call for econnect
+
+- Issue while saving product in admin
+
 # **20.3.0-p2-CE**
 
 ## **Bug Fixes**
