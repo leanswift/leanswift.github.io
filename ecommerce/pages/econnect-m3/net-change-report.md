@@ -2,6 +2,10 @@
 
 # **20.3.1**
 
+## **Enhancements**
+
+-IMS architecure updated to support econnect 20.3.0 architecture where BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
+
 ## **Bug Fixes**
 
 - Order total was not saved in order history table
