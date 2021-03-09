@@ -37,6 +37,7 @@ Extends standard Magento functionality and offers several transactions to ensure
 | Rabbitmq | 3.8.3 |
 | ION Desk | 12.0 |
 | PHP | 7.4.12 |
+| ION-BOD package | 3.0.0 |
 
 # **Standard Features**
 
