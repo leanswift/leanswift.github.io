@@ -64,9 +64,9 @@ _Note: Tested only on M3-Multi-tenant_
 ## **Pre-requisites**
 
 - **LeanSwift eConnect 20.3.1 must be installed on Magento open source 2.4.1.**
-- 
+
 - Wyomind Advanced Inventory extension for Magento 2 Version 7.7.6
-- 
+
 _Wyomind extension will support only with default source and not with multiple sources._
 
 **Note :**
