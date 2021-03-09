@@ -12,6 +12,7 @@
   - [**Environment Details**](#environment-details)
   - [**Standard Features**](#standard-features)
   - [**Enhancement**](#enhancement)
+  - [**Bugfix**](#bugfix)
   - [**Pre-requisites**](#pre-requisites)
   - [**Point of Contacts**](#point-of-contacts)
 
@@ -54,6 +55,11 @@ Functionality remains the same as in the previous version.
 - In the Multi warehouse module, EXPORTMI to MITLOC table is used to fetch Allocatable Net and OnHandBalance stock values based on StockZone + Warehouse + Company + Item Number.
 
 _Note: Tested only on M3-Multi-tenant_
+
+## **Bugfix**
+
+- Errors on running setup:di:compile has been fixed.
+
 
 ## **Pre-requisites**
 
