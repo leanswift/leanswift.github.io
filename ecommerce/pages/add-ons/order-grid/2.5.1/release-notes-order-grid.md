@@ -61,7 +61,7 @@ _Note: This version is tested only on M3-Multi-tenant_
 # **Bug Fixes**
 
 - Based on Price Sync(Yes/No), customer specific price gets updated in frontend.
-- Order sync with M3 for configurable products is  fixed(Issue only in CE).
+- Issue in Visibility of configurable product when signed in
 
 # **Pre-requisites**
 
