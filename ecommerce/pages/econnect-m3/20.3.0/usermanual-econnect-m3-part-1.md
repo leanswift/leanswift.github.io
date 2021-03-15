@@ -587,7 +587,25 @@ The New product status should be set to No to ensure the products do not appear 
 
 &#39;Style SKUs as Configurable Products&#39; can be set to Yes if we want style items and can be set to No to save them as simple items
 
-<kbd><img alt="product addition" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/product-addition-sync.png"></kbd>
+### New in this version
+
+<kbd><img alt="product addition" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/product-addition-sync1.png">
+<img alt="product addition" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/product-addition-sync2.png"></kbd>
+
+#### Item price
+
+Admin can now choose to sync price between MMSAPR and ODSAPR. 
+
+If **MMSAPR** is chosen, Price available for a product in MMS001 will get updated in product detail page of magento.
+When ever price is added/updated in MMS001 in M3, Item master BOD gets generated. When an item master bod gets generated, MMS200MI/GetItmPrice gets triggered ( which can be seen in ION.log) and the same gets updated.
+
+
+If **ODSAPR** is chosen, Price available for a product in MMS017 will get updated in product detail page of magento.
+When ever price is added/updated in OIS017 ( For the Price list and currency mapped in Basic Data configuration, provided there is no customer mapped ) in M3, LSPriceList BOD gets generated during which MMS200MI/GetBasePrice API gets triggered and the price gets updated.
+
+
+_Note: If multi-website is enabled, Price can be set to work on website level or global. If **Item price** is set to different configurations in different website then Price has to be set to website scope. Otherwise Price from the configuration on the last website will be overriden to all websites._
+
 
 ### Product attribute mapping
 
