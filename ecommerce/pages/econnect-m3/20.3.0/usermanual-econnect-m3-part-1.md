@@ -5,8 +5,9 @@
 
 # Table of contents
 
-# Table of contents
-
+- [User Manual Part I - eConnect for M3 - v20.3.0](#user-manual-part-i---econnect-for-m3---v2030)
+- [Table of contents](#table-of-contents)
+- [Table of contents](#table-of-contents)
 - [GENERAL INFORMATION](#general-information)
   - [System Overview](#system-overview)
     - [Architecture with Magento API](#architecture-with-magento-api)
@@ -48,6 +49,8 @@
     - [Create Customer via IMS](#create-customer-via-ims)
     - [User-defined Fields](#user-defined-fields)
   - [Product Addition/ Synchronization](#product-addition-synchronization)
+    - [New in this version](#new-in-this-version)
+      - [Item price](#item-price)
     - [Product attribute mapping](#product-attribute-mapping)
     - [Product Synchronization - Item Disabling](#product-synchronization---item-disabling)
     - [Product Synchronization - AttributeSet Mapping](#product-synchronization---attributeset-mapping)
