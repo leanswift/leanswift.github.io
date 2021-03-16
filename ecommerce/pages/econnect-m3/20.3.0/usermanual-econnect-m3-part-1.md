@@ -108,7 +108,7 @@
 
 Provided new amqp Connection type Configuration for handling the eConnect related BOD in separate rabbitmq. After saving the configurations the command php bin/magento setup:leanswift-amqp needs to be run. The Configuration are in global scope and has the following fields, Host, Port, User, Password and VirtualHost.
 
-<kbd><img alt="AMQP Connection" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/leanSwif_AMQP_connection.png"></kbd>
+<kbd><img alt="AMQP Connection" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/econnect-user-manual-ion-part1/leanSwif_AMQP_connection.png"></kbd>
 
 
 ### Enterprise connector Removal
@@ -123,11 +123,11 @@ received.This allows removal of Custom BOD for the Product, Customer and Order.
 
 To Configure or view APIs go to Leanswift > eConnect-ION > Additional Entity Attribute Mapping. Configured API details are displayed in tabular format with details such as ID, Program, Transaction, Entity, Query, Comment and Action. 'Select' and 'Edit' are two actions that can be performed with the configured APIs.
 
-<kbd><img alt="Additional Entity Attribute Mapping" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/Attribute_mapping.png"></kbd>
+<kbd><img alt="Additional Entity Attribute Mapping" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/econnect-user-manual-ion-part1/Attribute_mapping.png"></kbd>
 
 When a new Api needs to be configured, click on Add Program
 
-<kbd><img alt="Attribute Mapping Configuration" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/attribute_mapping_apiconfig1.png"></kbd>
+<kbd><img alt="Attribute Mapping Configuration" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/econnect-user-manual-ion-part1/attribute_mapping_apiconfig1.png"></kbd>
 
 **Program**
 
@@ -149,7 +149,7 @@ Query text field is applicable only for ExportMI (Select Transaction).
 
 Any comments or important notes can be mentioned in Comments text field such as 'System generated program. Delete action was restricted'.
 
-<kbd><img alt="Attribute Mapping Configuration2" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/attribute_mapping_apiconfig2.png"></kbd>
+<kbd><img alt="Attribute Mapping Configuration2" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/econnect-user-manual-ion-part1/attribute_mapping_apiconfig2.png"></kbd>
 
 **Input Rows**
 
@@ -589,9 +589,9 @@ The New product status should be set to No to ensure the products do not appear 
 
 ### New in this version
 
-<kbd><img alt="product addition" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/product-addition-sync1.png"></kbd>
+<kbd><img alt="product addition" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/econnect-user-manual-ion-part1/product-addition-sync1.png"></kbd>
 
-<kbd><img alt="product addition" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/product-addition-sync2.png"></kbd>
+<kbd><img alt="product addition" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/econnect-user-manual-ion-part1/product-addition-sync2.png"></kbd>
 
 #### Item price
 
