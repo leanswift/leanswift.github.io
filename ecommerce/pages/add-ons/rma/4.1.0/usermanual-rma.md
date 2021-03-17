@@ -98,12 +98,12 @@ The new version will coexist with the older version of eConnect which uses LeanS
 ### Architecture with LeanSwift eLink
 
 
-<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/elink_arch.png"></kbd>
+<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/elink_Architecture.png"></kbd>
 
 
 ### Architecture with ION for multi-tenant Cloud M3
 
-<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/ion_m3_arch.png"></kbd>
+<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/ION_Architecture.png"></kbd>
 
 The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
 
@@ -323,7 +323,7 @@ Opening up the details of the original sales order reveals a '' button in the up
 
 **From RMA Grid**
 
-The RMA grid is accessed via _Sales \&gt; Operations \&gt; Returns_. In the upper right-hand corner of the RMA grid, the 'New RMA Request' button can be found.
+The RMA grid is accessed via _Sales> Operations> Returns_. In the upper right-hand corner of the RMA grid, the 'New RMA Request' button can be found.
 
 <kbd><img alt="New return request" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/new_return_request.png"></kbd>
 
@@ -341,7 +341,7 @@ The first panel contains general information that applies to the entire RMA.
 
 **RMA Items**
 
-The detailed panel is where the actual products to be returned are added. This is done via the ''+Add Products' button in the upper right-hand corner.
+The detailed panel is where the actual products to be returned are added. This is done via the '+Add Products' button in the upper right-hand corner.
 
 <kbd><img alt="New return add product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/new_returns_add_product.png"></kbd>
 
@@ -607,5 +607,6 @@ In order to properly handle the case where only a part of an RMA should be recei
 
 LeanSwift's synchronization within eConnect ensures that that the RMA line status is updated correctly based on the M3 order line status, and the RMA header status is then updated appropriately by Magento.
 
+<kbd><img alt="statuses" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/rma/statuses_sync.png"></kbd>
 
 [Go to Top](#table-of-contents)
