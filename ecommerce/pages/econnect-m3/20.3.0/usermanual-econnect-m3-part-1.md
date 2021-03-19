@@ -636,7 +636,6 @@ Set yes to Disable the product status and map the required conditions.
 
 <kbd><img alt="item disabling" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/item-disabling.png"></kbd>
 
-_Note: Once a product is disabled, it cannot be enabled via sync again. Product can only be enabled manually._
 
 ### Product Synchronization - AttributeSet Mapping
 
