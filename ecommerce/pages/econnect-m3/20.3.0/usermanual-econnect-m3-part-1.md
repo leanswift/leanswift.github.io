@@ -910,6 +910,8 @@ This section should always be reviewed within the project, and with the help of 
 **Cron settings for send orders to ERP**: 
 Cron expression to send ordes to M3 from eConnect
 
+### New in this version
+
 **Order API Configuration**:
 Cron expression to intiate Order API's configured in 'Additional Entity Attribute Mapping'
 
@@ -917,8 +919,7 @@ Cron expression to intiate Order API's configured in 'Additional Entity Attribut
 Cron expression to intiate Product API's configured in 'Additional Entity Attribute Mapping'
 
 
-**Customer API Configuration**
-
+**Customer API Configuration**:
 Cron expression to intiate Customer API's configured in 'Additional Entity Attribute Mapping'
 
 
