@@ -631,11 +631,13 @@ The main product tables are MITMAS, MITBAL and MITFAC.
 
 ### Product Synchronization - Item Disabling
 
-Configuration is provided to Enable or Disable the products in Magento.
+Configuration is provided to Disable the products in Magento.
 
 Set yes to Disable the product status and map the required conditions.
 
 <kbd><img alt="item disabling" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/item-disabling.png"></kbd>
+
+_Note: Once a product is disabled, it cannot be enabled via sync again. Product can only be enabled manually._
 
 ### Product Synchronization - AttributeSet Mapping
 
@@ -904,6 +906,22 @@ The setup will vary from customer to customer depending on a number of factors s
 This section should always be reviewed within the project, and with the help of the LeanSwift Services team be adjusted to best fit each customer&#39;s environment.
 
 <kbd><img alt="Cron Settings" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/cron-settings.png"></kbd>
+
+**Cron settings for send orders to ERP	**
+
+Cron expression to send ordes to M3 from eConnect
+
+**Order API Configuration**
+
+Cron expression to intiate Order API's configured in 'Additional Entity Attribute Mapping'
+
+**Product API Configuration**
+Cron expression to intiate Product API's configured in 'Additional Entity Attribute Mapping'
+
+
+**Customer API Configuration**
+
+Cron expression to intiate Customer API's configured in 'Additional Entity Attribute Mapping'
 
 
 [Go to Top](#table-of-contents)
