@@ -598,7 +598,11 @@ The section contains the filter limit, filter label mapping for the filter attri
 
 ##### Forecast Filter Mapping
 
-The section contains the filter limit, filter label mapping for the filter attribute and filter operations for forecast.
+The section contains the filter limit, filter label mapping for the filter attribute and filter operations for forecast. The filter limit is to restrict the number of filters that can be applied.
+Filter Mapping has three configurable fields
+- 'Filter Atribute' which is a dropdown having attributes with which forecast data can be filtered
+- 'Filter Operation' which determines the condition with which attribute is filtered.
+- The third field 'Filter Type' is to determine the field type such as number or text.
 
 <kbd>
 <img alt="Forecast filter mapping" src="../../images/usermanual/supplier-design/filter-forecast.png">
@@ -638,7 +642,7 @@ The configurable options available for IDM add-on can be separated as three part
 
 **Upload Configuration**
 
-- Enable Upload - Option can be set to Yes or No.
+- Enable Upload - Option can be set to Yes or No. This setting is to enable or disable the upload functionality.
 
 - Allowed File Types – File extensions that are allowed to be uploaded to IDM. This field is not mandatory.
 
@@ -655,7 +659,7 @@ The configurable options available for IDM add-on can be separated as three part
 
 **Download Configuration**
 
-- Enable Download - Option can be set to Yes or No
+- Enable Download - Option can be set to Yes or No. This setting is to enable or disable the download functionality
 
 - Cron / Real-time – Documents will be downloaded from IDM based on this option. If cron is chosen, cron expression should be given to     download the files from IDM on a periodic basis.
 
