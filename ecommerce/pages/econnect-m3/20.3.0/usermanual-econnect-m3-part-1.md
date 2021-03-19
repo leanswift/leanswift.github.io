@@ -3,11 +3,9 @@
 
 ![eConnect banner](../../../../images/banner-econnect-m3.jpg)
 
+
 # Table of contents
 
-- [User Manual Part I - eConnect for M3 - v20.3.0](#user-manual-part-i---econnect-for-m3---v2030)
-- [Table of contents](#table-of-contents)
-- [Table of contents](#table-of-contents)
 - [GENERAL INFORMATION](#general-information)
   - [System Overview](#system-overview)
     - [Architecture with Magento API](#architecture-with-magento-api)
@@ -64,6 +62,7 @@
   - [Initial Load/ Import](#initial-load-import)
   - [BOD Mapping](#bod-mapping)
   - [Cron Settings](#cron-settings)
+    - [New in this version](#new-in-this-version)
 - [Version Info](#version-info)
 - [Magento Standard Functionality](#magento-standard-functionality)
 - [Exit System](#exit-system)
