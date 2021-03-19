@@ -907,15 +907,13 @@ This section should always be reviewed within the project, and with the help of 
 
 <kbd><img alt="Cron Settings" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/dev/ecommerce/images/econnect-user-manual-ion-part1/cron-settings.png"></kbd>
 
-**Cron settings for send orders to ERP	**
-
+**Cron settings for send orders to ERP**: 
 Cron expression to send ordes to M3 from eConnect
 
-**Order API Configuration**
-
+**Order API Configuration**:
 Cron expression to intiate Order API's configured in 'Additional Entity Attribute Mapping'
 
-**Product API Configuration**
+**Product API Configuration**:
 Cron expression to intiate Product API's configured in 'Additional Entity Attribute Mapping'
 
 
