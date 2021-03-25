@@ -24,15 +24,15 @@
     - [2.0.1 Summary](#201-summary)
     - [2.0.2 Assumptions/Limitations](#202-assumptions-limitations)
   - [2.1 CONFIGURATION](#21-configuration)
-    - [2.1.1 Standard Magento Configuration-General](#211-standard-magento-configuration-general)
+    - [2.1.1 Standard Magento Configuration -General](#211-standard-magento-configuration-general)
       - [2.1.1.1 Gift Card Email Settings](#2111-gift-card-email-settings)
       - [2.1.1.2 Gift Card General Settings](#2112-gift-card-general-settings)
       - [2.1.1.3 Email Sent from Gift Card Account Management](#2113-email-sent-from-gift-card-account-management)
       - [2.1.1.4 Gift Card Account General Settings](#2114-gift-card-account-general-settings)
-    - [2.1.2 Standard Magento Configuration-Product](#212-standard-magento-configuration-product)
+    - [2.1.2 Standard Magento Configuration -Product](#212-standard-magento-configuration-product)
       - [2.1.2.1 Gift Card Pricing](#2121-gift-card-pricing)
       - [2.1.2.2 Gift Card Information](#2122-gift-card-information)
-    - [2.1.3 LeanSwift eConnect Configuration–Gift Card](#213-leanswift-econnect-configuration-gift-card)    
+    - [2.1.3 LeanSwift eConnect Configuration –Gift Card](#213-leanswift-econnect-configuration-gift-card)    
   - [2.2 PROCESS](#22-process)
     - [2.2.1 Gift Card Sales](#221-gift-card-sales)
    
@@ -260,11 +260,11 @@ The process of selling gift cards is in this section described by using an examp
 
 In this example, a Physical gift card is being ordered (i.e. a Magento product that follows the same Checkout process as a Simple product for example). Accessing the product detail page reveals the unique options for a gift card, that will vary depending on the configuration of the corresponding product in Magento.
 
-![](RackMultipart20210323-4-14tsl8n_html_776b5d28f9758e31.png)
+<kbd><img alt ="giftcard frontend" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-giftcard.PNG"></kbd>
 
 In this example, selecting the drop-down to choose an amount reveals the following options:
 
-![](RackMultipart20210323-4-14tsl8n_html_55f5dfae014d0379.png)
+<kbd><img alt ="giftcard amount" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-ammount.png"></kbd>
 
 This means that both a so called &quot;open amount&quot; as well as two different fixed amounts ($100 and $300 in this case) are allowed. Selecting one of the fixed amounts will assign that value to the gift card.
 
@@ -272,21 +272,22 @@ Selecting &#39;Other Amount&#39; enables manual input of the value to be assigne
 
 For this purpose, a gift card with a value of $450 will be purchased by entering this value in the &#39;Amount in USD&#39; field, keep the quantity at &#39;1&#39; and press &#39;Add to Cart&#39;.
 
-![](RackMultipart20210323-4-14tsl8n_html_cf5685a9bd2daf09.png)
+
+<kbd><img alt ="giftcard details" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-giftcard-details.PNG"></kbd>
 
 The cart page will show the associated information entered for the gift card product.
 
-![](RackMultipart20210323-4-14tsl8n_html_2a033dfd123b9aa4.png)
+<kbd><img alt ="giftcard cart" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-cart.PNG"></kbd>
 
 The remaining part of the checkout process is identical to any other physical product being shipped.
 
-![](RackMultipart20210323-4-14tsl8n_html_8bf141e5e932412e.png)
+<kbd><img alt ="giftcard payment" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-payment.PNG"></kbd>
 
-![](RackMultipart20210323-4-14tsl8n_html_423fd3a4032a848b.png)
+<kbd><img alt ="giftcard completeorder" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-completeorder.PNG"></kbd>
 
 The order in Magento Admin looks similar to other product orders
 
-![](RackMultipart20210323-4-14tsl8n_html_df03c1700e5a0ca3.png)
+<kbd><img alt ="giftcard salesorder" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/magento-salesorder.PNG"></kbd>
 
 _Note: To allow placing orders for multiple Gift Cards in a single order, necessary M3 setting must be configured._
 
