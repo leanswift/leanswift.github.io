@@ -1,7 +1,7 @@
 ![eConnect for Infor M3](../../../../images/banner-econnect-m3.jpg)
 
-# Version 2.6.0
+# Version 2.5.0
 
-- ## [User Manual](2.6.0/usermanual-gift-card.md)
+- ## [User Manual](2.5.0/usermanual-gift-card.md)
 
-- ## [Release Notes](2.6.0/release-notes-gift-card.md)
+- ## [Release Notes](2.5.0/release-notes-gift-card.md)

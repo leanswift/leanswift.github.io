@@ -1,7 +1,7 @@
 # **User Manual – Gift Card Add-on for eConnect**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 
-**Product Version**  **2.6.0**
+**Product Version**  **2.5.0**
 
 **eConnect version 20.3.1**
 
@@ -287,4 +287,5 @@ The order in Magento Admin looks similar to other product orders
 <kbd><img alt ="giftcard salesorder" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/magento-salesorder.PNG"></kbd>
 
 _Note: To allow placing orders for multiple Gift Cards in a single order, necessary M3 setting must be configured._
+
 
