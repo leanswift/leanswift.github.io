@@ -1,7 +1,5 @@
-# **eConnect User Manual – Gift Card**
+# **User Manual – Gift Card Add-on for eConnect**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
-## **LeanSwift eConnect for Infor M3 &amp; Magento**
-
 
 **Product Version**  **2.6.0**
 
@@ -101,7 +99,7 @@ Magento OpenSource 2.4.1
 
 Magento Commerce 2.4.1
 
-Infor M3 16x
+Infor M3 CloudSuite
 
 ## 1.2 Points of Contact
 
@@ -136,7 +134,7 @@ The _Gift Card_ module extends the standard Magento Enterprise functionality for
 
 The configuration for Gift Cards is made up of two parts – the standard Magento setup and the LeanSwift-specific setup to support eConnect.
 
-### 2.1.1 Standard Magento Configuration - General
+### 2.1.1 Standard Magento Configuration -General
 
 The general standard Magento configuration can be found under Stores > Configuration > Sales > Gift Cards_.
 
@@ -189,7 +187,7 @@ This group contains a number of details setup to control exactly how the Gift Ca
 
 [Go to Top](#table-of-contents)
 
-### 2.1.2 Standard Magento Configuration – Product
+### 2.1.2 Standard Magento Configuration –Product
 
 Each Gift Card is in Magento defined as a product with a product type of &#39;Gift Card&#39; which is further classified as physical, virtual and combined. This separate product type enables a number of unique settings within the product details.
 
@@ -231,7 +229,7 @@ The additional settings in this group have been covered in section 2.1.1.2 above
 
 [Go to Top](#table-of-contents)
 
-### 2.1.3 LeanSwift eConnect Configuration – Gift Cards
+### 2.1.3 LeanSwift eConnect Configuration –Gift Cards
 
 The LeanSwift-specific settings related to Gift Cards can be found under _Stores> Configuration > LeanSwift Solutions> Gift Cards_.
 
