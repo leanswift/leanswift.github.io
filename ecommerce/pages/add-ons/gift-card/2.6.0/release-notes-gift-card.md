@@ -63,7 +63,11 @@ _Note: This version is tested only on M3-Multi-tenant_
 
 # **Limitations**
 
-eConnect and hence the Gift Card add-on, can be set to work with only ONE of the two options, exclusively 
-  (1) LeanSwift eLink or 
-  
-  (2) ION Document Flows and ION APIs
+1. eConnect and hence the Gift Card add-on, can be set to work with only ONE of the two options, exclusively
+
+    (1) LeanSwift eLink or   
+    (2) ION Document Flows and ION APIs
+    
+2.	Gift Card requires Magento Commerce.
+3.	Up to 4 Gift coupons can be used for redemption per order
+
