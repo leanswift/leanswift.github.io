@@ -11,9 +11,8 @@
 - [**Overview**](#overview)
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
-- [**New Features**](#new-features)
 - [**Enhancements**](#enhancements)
-- [**Bug Fixes**](#bug-fixes)
+- [**Known Issues**](#known-issues)
 - [**Pre-requisites**](#pre-requisites)
 - [**Limitations**](#limitations)
 
@@ -55,28 +54,19 @@ The M3 OIS390 functionality is not used as it does not automatically provide for
 Return header creation (or) the association of header and line charges.
 
 
-# **New Features**
-
-
-
 # **Enhancements**
 
 - With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
 
 _Note: This version is tested only on M3-Multi-tenant_
 
-# **Bug Fixes**
+# **Known Issues**
 
+ERP Final Order number will not be updated in Magento when different Order Type is configured in Global and Website level. Order BOD's are validated against global settings so order from website level are ignored.
 
 # **Pre-requisites**
 
 - LeanSwift eConnect 20.3.1 must be installed on Magento 2.4.1 or greater
-
-
-# **Limitations**
-
-
-
 
 
 
