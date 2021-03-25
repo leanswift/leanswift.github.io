@@ -14,7 +14,6 @@
 - [**Enhancements**](#enhancements)
 - [**Known Issues**](#known-issues)
 - [**Pre-requisites**](#pre-requisites)
-- [**Limitations**](#limitations)
 
 # **Overview**
 
