@@ -31,7 +31,6 @@ Extends standard Magento functionality and offers several transactions to ensure
 
 | **Environment** | **Version** |
 | --- | --- |
-| Magento Open source | 2.4.1 |
 | Magento Community | 2.4.1 |
 | eConnect | 20.3.1 |
 | eConnect Base | 5.0.0 |
