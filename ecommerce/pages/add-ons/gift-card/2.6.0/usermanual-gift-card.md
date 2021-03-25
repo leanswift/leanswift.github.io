@@ -1,7 +1,7 @@
 # **User Manual – Gift Card Add-on for eConnect**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 
-**Product Version**  **2.6.0**
+**Product Version**  **2.5.0**
 
 **eConnect version 20.3.1**
 
