@@ -11,7 +11,6 @@
 - [**Overview**](#overview)
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
-- [**Enhancements**](#enhancements)
 - [**Pre-requisites**](#pre-requisites)
 - [**Limitations**](#limitations)
 
@@ -35,7 +34,7 @@ Extends standard Magento functionality and offers several transactions to ensure
 | Rabbitmq | 3.8.3 |
 | ION Desk | 12.0 |
 | PHP | 7.4.12 |
-| ION-BOD package | 3.0.0 |
+| LeanSwift ION-BOD package | 3.0.0 |
 
 
 # **Standard Features**
@@ -45,13 +44,6 @@ Functionality remains the same as in the previous version.
 •	Record and process Gift Cards purchase and redemption in M3
 
 •	Supports Physical, Virtual & Combined Gift Cards in Magento
-
-
-# **Enhancements**
-
-- With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn     sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
-
-_Note: This version is tested only on M3-Multi-tenant_
 
 
 # **Pre-requisites**
