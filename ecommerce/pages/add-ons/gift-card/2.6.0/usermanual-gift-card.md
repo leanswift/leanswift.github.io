@@ -8,22 +8,87 @@
 **eConnect version 20.3.1**
 
 
-**TABLE OF CONTENTS**
+# TABLE OF CONTENTS
 
+- [GENERAL INFORMATION](#general-information)
+  - [1.1 System Overview](#11-system-overview)
+  - [Architecture](#architecture)
+    - [eConnect-base v5.0.0](#econnect-base-v500)
+    - [Architecture with LeanSwift eLink](#architecture-with-leanswift-elink)
+    - [Architecture with ION for multi-tenant Cloud M3](#architecture-with-ion-for-multi-tenant-cloud-m3)
+  - [1.2 Points of Contact](#12-points-of-contact)
+    - [1.2.1 Information](#121-information)
+  - [1.3 Organization of the Manual](#13-organization-of-the-manual)
+  - [1.4 Acronyms and Abbreviations](#14-acronyms-and-abbreviations)
+  - [2.0 GIFT CARD ADD-ON](#20-gift-card-add-on)
+    - [2.0.1 Summary](#201-summary)
+    - [2.0.2 Assumptions/Limitations](#202-assumptions-limitations)
+  - [2.1 CONFIGURATION](#21-configuration)
+    - [2.1.1 Standard Magento Configuration-General](#211-standard-magento-configuration-general)
+      - [2.1.1.1 Gift Card Email Settings](#2111-gift-card-email-settings)
+      - [2.1.1.2 Gift Card General Settings](#2112-gift-card-general-settings)
+      - [2.1.1.3 Email Sent from Gift Card Account Management](#2113-email-sent-from-gift-card-account-management)
+      - [2.1.1.4 Gift Card Account General Settings](#2114-gift-card-account-general-settings)
+    - [2.1.2 Standard Magento Configuration-Product](#212-standard-magento-configuration-product)
+      - [2.1.2.1 Gift Card Pricing](#2121-gift-card-pricing)
+      - [2.1.2.2 Gift Card Information](#2122-gift-card-information)
+    - [2.1.3 LeanSwift eConnect Configuration–Gift Card](#213-leanswift-econnect-configuration-gift-card)    
+  - [2.2 PROCESS](#22-process)
+    - [2.2.1 Gift Card Sales](#221-gift-card-sales)
+   
 
 # GENERAL INFORMATION
 
 ## 1.1 System Overview
 
-LeanSwift eConnect for Infor M3 provides a seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension as well as a number of optional add-on extensions, and a Tomcat based server application called LeanSwift eLink that manages the communication with the M3 ERP system.
+- **LeanSwift eConnect for Infor M3** provides a powerful, seamless integration between Magento and Infor M3 ERP. The product consists of a base Magento extension that extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP. There exist a number of optional add-on extensions too for additional functionality
 
-LeanSwift eConnect for Infor M3 employs a layered architecture to allow more flexibility in supporting different versions of Magento and Infor M3, and to allow independent upgrades. The two components are versioned individually to more easily adapt to different M3 &amp; Magento versions.
+- **LeanSwift eConnect for Infor M3** is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 
-![](RackMultipart20210323-4-14tsl8n_html_a47b2c239d934845.jpg)
+- **LeanSwift eConnect for Infor M3** employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
+
+
+[Go to Top](#table-of-contents)
+ 
+## Architecture
+
+With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
+
+### eConnect-base v5.0.0
+
+- It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
+- Acts as the communication layer for RabbitMQ Message consumption
+- Acts as a core module for following LeanSwift Magento Extensions
+  - eConnect
+  - IDM
+  - Supplier Portal
+- eConnect add-ons depend on both eConnect-base and eConnect. eConnect and its Add-ons works only with eConnect-base configured
+
+- IDM can now work without eConnect
+
+The new version will coexist with the older version of eConnect which uses LeanSwift eLink and all new installations of eConnect have the ability to choose the connection protocol to M3, that is, either eLink or ION.
+
+
+
+### Architecture with LeanSwift eLink
+
+<kbd>
+<img alt ="elink architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/elink_arch.png"></kbd>
+
+
+
+### Architecture with ION for multi-tenant Cloud M3
+
+<kbd><img alt ="ION architecture" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1735/ecommerce/images/add-ons/order-grid/ION_Architecture.jpg"></kbd>
+
+
 
 The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
 
 These add-ons can, if necessary, be modified, and new add-ons can be added to fulfill specific customer requirements.
+
+
+[Go to Top](#table-of-contents)
 
 **User interface**
 
@@ -51,8 +116,9 @@ This manual is not intended to cover any standard Magento functionality or user 
 
 ERP – Enterprise Resource Planning
 
+[Go to Top](#table-of-contents)
 
-# GIFT CARD ADD-ON
+## 2.0 GIFT CARD ADD-ON
 
 ### 2.0.1 Summary
 
@@ -62,6 +128,8 @@ The _Gift Card_ module extends the standard Magento Enterprise functionality for
 
 - Gift Card requires Magento Commerce.
 - Up to 4 Gift coupons can be used for redemption per order
+- 
+[Go to Top](#table-of-contents)
 
 ## 2.1 CONFIGURATION
 
@@ -115,6 +183,8 @@ This group contains a number of details setup to control exactly how the Gift Ca
 
 ![](RackMultipart20210323-4-14tsl8n_html_77a374f2604e323b.png)
 
+[Go to Top](#table-of-contents)
+
 ### 2.1.2 Standard Magento Configuration – Product
 
 Each Gift Card is in Magento defined as a product with a product type of &#39;Gift Card&#39; which is further classified as physical, virtual and combined. This separate product type enables a number of unique settings within the product details.
@@ -155,6 +225,8 @@ Defines whether the Gift Card product is &#39;Virtual&#39;, &#39;Physical&#39; o
 
 The additional settings in this group have been covered in section 2.1.1.2 above, and Magento here offers the choice to override the global settings for these 4 parameters individually per product.
 
+[Go to Top](#table-of-contents)
+
 ### 2.1.3 LeanSwift eConnect Configuration – Gift Cards
 
 The LeanSwift-specific settings related to Gift Cards can be found under _Stores> Configuration > LeanSwift Solutions> Gift Cards_.
@@ -172,6 +244,8 @@ The values of the Gift Card Line Charge ID are retrieved dynamically from &#39;O
 **Gift Card Header Charge ID (Redeem)**
 
 The header charge is used to hold any gift card amount that a customer redeems on an order. The total gift card amount is added to the order in M3 with this header charge, and the amount as a negative value.
+
+[Go to Top](#table-of-contents)
 
 ## 2.2 PROCESS
 
