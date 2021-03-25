@@ -1,0 +1,69 @@
+# Add-on for eConnect for M3
+
+# **Gift Card**
+
+## **Version 2.5.1**
+
+
+**Table of Contents**
+
+
+- [**Overview**](#overview)
+- [**Environment Details**](#environment-details)
+- [**Standard Features**](#standard-features)
+- [**Enhancements**](#enhancements)
+- [**Bug Fixes**](#bug-fixes)
+- [**Pre-requisites**](#pre-requisites)
+- [**Limitations**](#limitations)
+
+# **Overview**
+
+ **LeanSwift eConnect for Infor M3** is a Magento extension that provides simple yet powerful integration between Magento eCommerce platform and Infor M3.
+
+Extends standard Magento functionality and offers several transactions to ensure your eCommerce websites contain up-to-date information from your M3 ERP.
+
+ **LeanSwift eConnect for Infor M3** is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
+
+ **Add-on Gift Card** for eConnect leverages standard Gift Card functionality in Magento to record and process the purchase and redemption of Gift Cards in M3.
+
+# **Environment Details**
+
+| **Environment** | **Version** |
+| --- | --- |
+| Magento Open source | 2.4.1 |
+| Magento Community | 2.4.1 |
+| eConnect | 20.3.1 |
+| eConnect Base | 5.0.0 |
+| Rabbitmq | 3.8.3 |
+| ION Desk | 12.0 |
+| PHP | 7.4.12 |
+| ION-BOD package | 3.0.0 |
+
+
+# **Standard Features**
+
+Functionality remains the same as in the previous version. 
+
+•	Record and process Gift Cards purchase and redemption in M3
+•	Supports Physical, Virtual & Combined Gift Cards in Magento
+
+
+# **Enhancements**
+
+- With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn     sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
+
+_Note: This version is tested only on M3-Multi-tenant_
+
+# **Bug Fixes**
+
+
+# **Pre-requisites**
+
+•	LeanSwift eConnect 20.3.1 must be installed on Magento 2.4.1 or greater
+
+# **Limitations**
+
+eConnect and hence the Gift Card add-on, can be set to work with only ONE of the two options, exclusively 
+  (1) LeanSwift eLink or 
+  
+  (2) ION Document Flows and ION APIs
