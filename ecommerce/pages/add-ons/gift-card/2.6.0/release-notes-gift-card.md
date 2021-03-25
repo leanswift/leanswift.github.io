@@ -48,7 +48,7 @@ Functionality remains the same as in the previous version.
 
 # **Pre-requisites**
 
-•	LeanSwift eConnect 20.3.1 must be installed on Magento 2.4.1 or greater
+	LeanSwift eConnect 20.3.1 must be installed on Magento 2.4.1 or greater
 
 # **Limitations**
 
