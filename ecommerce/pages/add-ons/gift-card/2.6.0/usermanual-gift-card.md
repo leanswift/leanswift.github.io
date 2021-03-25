@@ -1,4 +1,4 @@
-# **eConnect User Manual – Order Grid**
+# **eConnect User Manual – Gift Card**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento**
 
@@ -73,13 +73,13 @@ The new version will coexist with the older version of eConnect which uses LeanS
 ### Architecture with LeanSwift eLink
 
 <kbd>
-<img alt ="elink architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/elink_arch.png"></kbd>
+<img alt ="elink architecture" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/elink_Architecture.jpg"></kbd>
 
 
 
 ### Architecture with ION for multi-tenant Cloud M3
 
-<kbd><img alt ="ION architecture" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1735/ecommerce/images/add-ons/order-grid/ION_Architecture.jpg"></kbd>
+<kbd><img alt ="ION architecture" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/ION_Architecture.jpg"></kbd>
 
 
 
@@ -139,19 +139,20 @@ The configuration for Gift Cards is made up of two parts – the standard Magent
 
 The general standard Magento configuration can be found under Stores > Configuration > Sales > Gift Cards_.
 
-![](RackMultipart20210323-4-14tsl8n_html_3be5d1da938c5da6.png)
+<kbd><img alt ="giftcard general" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-general.png"></kbd>
+
 
 #### 2.1.1.1 Gift Card Email Settings
 
 This group contains the settings related to which e-mail sender within Magento should be used for the e-mail notifications to customers related to Gift Cards, as well as which e-mail template should be applied.
 
-![](RackMultipart20210323-4-14tsl8n_html_a957ded0b557ca05.png)
+<kbd><img alt ="giftcard email" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-email-setting.png"></kbd>
 
 #### 2.1.1.2 Gift Card General Settings
 
 This group contains key general settings defining the behavior of Gift Cards. Some of these settings can be overridden on Product level (see further details under section **2.1.2** ).
 
-![](RackMultipart20210323-4-14tsl8n_html_a70ccde6b2dec244.png)
+<kbd><img alt ="giftcard general settings" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-general-settings.PNG"></kbd>
 
 **Redeemable**
 
@@ -177,11 +178,13 @@ Controls at what point in the sales process that the Gift Card Account should be
 
 Contains additional details for e-mail generation for the Gift Card Accounts.
 
+<kbd><img alt ="giftcard account management" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-account-management.png"></kbd>
+
 #### 2.1.1.4 Gift Card Account General Settings
 
 This group contains a number of details setup to control exactly how the Gift Card Accounts within Magento should be generated up.
 
-![](RackMultipart20210323-4-14tsl8n_html_77a374f2604e323b.png)
+<kbd><img alt ="giftcard account general" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-account-general.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -189,7 +192,7 @@ This group contains a number of details setup to control exactly how the Gift Ca
 
 Each Gift Card is in Magento defined as a product with a product type of &#39;Gift Card&#39; which is further classified as physical, virtual and combined. This separate product type enables a number of unique settings within the product details.
 
-![](RackMultipart20210323-4-14tsl8n_html_b811f49746ed27ee.png)
+<kbd><img alt ="card type" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/cardtype.png"></kbd>
 
 The setup for products can in Magento be found under _Catalog > Products_.
 
@@ -197,11 +200,11 @@ The setup for products can in Magento be found under _Catalog > Products_.
 
 Gift cards can be searched out by filtering on Product Type &#39;Gift Card&#39;:
 
-![](RackMultipart20210323-4-14tsl8n_html_b88138bd865ee4a6.png)
+<kbd><img alt ="type gift card" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/type-giftcard.png"></kbd>
 
 The first part of the product details that are different from other product types is the pricing setup, which can be found under _Product Details_
 
-![](RackMultipart20210323-4-14tsl8n_html_dc5a4bc1f181ab75.png)
+<kbd><img alt ="gift card ammount" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-amount.png"></kbd>
 
 The layout of the Pricing section is different from a normal product, and offers some specific information related to Gift Cards.
 
@@ -217,7 +220,7 @@ This option defines whether or not a customer can assign their own amount to the
 
 The specific Gift Card settings for a product can be found under _Catalog > Manage Products > Product Information > Gift Card Information_.
 
-![](RackMultipart20210323-4-14tsl8n_html_fcc025af12ae2e86.png)
+<kbd><img alt ="card information" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-information.PNG"></kbd>
 
 **Card Type**
 
@@ -231,9 +234,9 @@ The additional settings in this group have been covered in section 2.1.1.2 above
 
 The LeanSwift-specific settings related to Gift Cards can be found under _Stores> Configuration > LeanSwift Solutions> Gift Cards_.
 
-![](RackMultipart20210323-4-14tsl8n_html_e9f4ae469d1627a2.png)
+<kbd><img alt ="leanswift config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/leanswift-giftcard.PNG"></kbd>
 
-![](RackMultipart20210323-4-14tsl8n_html_c3334e2e7d587108.png)
+<kbd><img alt ="leanswift giftcard" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/leanswift-giftcard-config.PNG"></kbd>
 
 **Gift Card Line Charge ID (Sales)**
 
