@@ -3,22 +3,22 @@
 
 **Product Version**  **4.1.0**
 
-**eConnect version 20.3.0**
+**eConnect version 20.3.1**
 
 
 **TABLE OF CONTENTS**
 
 
-[1.0 GENERAL INFORMATION](#general-information)
-- [1.1 System Overview](#system-overview)
-- [1.2 Points of Contact](#points-of-contact)
-- [1.2.1 Information](#information)
-- [1.3 Organization of the Manual](#organization-of-the-manual)
-- [1.4 Acronyms and Abbreviations](#acronyms-and-abbreviations)
-[2.0 RMA ADD-ON](#rma-add-on)
-- [2.0.1 Summary](#summary)
-- [2.0.2 Assumptions/Limitations](#assumptionslimitations)
-- [2.1 CONFIGURATION](#configuration)
+- [1.0 GENERAL INFORMATION](#general-information)
+  - [1.1 System Overview](#system-overview)
+  - [1.2 Points of Contact](#points-of-contact)
+    - [1.2.1 Information](#information)
+  - [1.3 Organization of the Manual](#organization-of-the-manual)
+  - [1.4 Acronyms and Abbreviations](#acronyms-and-abbreviations)
+- [2.0 RMA ADD-ON](#rma-add-on)
+  - [2.0.1 Summary](#summary)
+  - [2.0.2 Assumptions/Limitations](#assumptionslimitations)
+  - [2.1 CONFIGURATION](#configuration)
 	- [2.1.1 Standard Magento Configuration - General](#standard-magento-configuration-general)
 	- [2.1.2 Standard Magento Configuration – RMA Item Attributes](#standard-magento-configuration-rma-item-attributes)
 	- [2.1.3 Standard Magento Configuration – Product Setup](#standard-magento-configuration-product-setup)
@@ -88,8 +88,6 @@ These add-ons can, if necessary, be modified, and new add-ons can be added to fu
 During setup, the Magento Admin panel is used to configure which transactions that should be used and how they should function. There is also additional configuration within the Connector to support the transactions.
 
 **Validated versions**
-
-Magento Open Source 2.4.1
 
 Magento Commerce 2.4.1
 
