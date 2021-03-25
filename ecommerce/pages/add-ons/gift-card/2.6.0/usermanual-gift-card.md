@@ -49,6 +49,7 @@
 
 
 [Go to Top](#table-of-contents)
+
  
 ## Architecture
 
@@ -128,7 +129,7 @@ The _Gift Card_ module extends the standard Magento Enterprise functionality for
 
 - Gift Card requires Magento Commerce.
 - Up to 4 Gift coupons can be used for redemption per order
-- 
+
 [Go to Top](#table-of-contents)
 
 ## 2.1 CONFIGURATION
