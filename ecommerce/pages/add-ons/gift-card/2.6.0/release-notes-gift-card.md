@@ -2,7 +2,7 @@
 
 # **Gift Card**
 
-## **Version 2.5.1**
+## **Version 2.6.0**
 
 
 **Table of Contents**
@@ -12,7 +12,6 @@
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
 - [**Enhancements**](#enhancements)
-- [**Bug Fixes**](#bug-fixes)
 - [**Pre-requisites**](#pre-requisites)
 - [**Limitations**](#limitations)
 
@@ -53,8 +52,6 @@ Functionality remains the same as in the previous version.
 - With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn     sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
 
 _Note: This version is tested only on M3-Multi-tenant_
-
-# **Bug Fixes**
 
 
 # **Pre-requisites**
