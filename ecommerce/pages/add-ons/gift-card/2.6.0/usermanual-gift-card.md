@@ -95,8 +95,6 @@ During setup, the Magento Admin panel is used to configure which transactions th
 
 **Validated versions**
 
-Magento OpenSource 2.4.1
-
 Magento Commerce 2.4.1
 
 Infor M3 CloudSuite
