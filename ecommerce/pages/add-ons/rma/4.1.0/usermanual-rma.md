@@ -12,7 +12,7 @@
 - [1.0 GENERAL INFORMATION](#general-information)
   - [1.1 System Overview](#system-overview)
   - [1.2 Points of Contact](#points-of-contact)
-    - [1.2.1 Information](#information)
+  - [1.2.1 Information](#information)
   - [1.3 Organization of the Manual](#organization-of-the-manual)
   - [1.4 Acronyms and Abbreviations](#acronyms-and-abbreviations)
 - [2.0 RMA ADD-ON](#rma-add-on)
