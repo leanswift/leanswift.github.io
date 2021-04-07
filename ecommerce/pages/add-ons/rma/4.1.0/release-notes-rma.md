@@ -55,13 +55,15 @@ Return header creation (or) the association of header and line charges.
 
 # **Enhancements**
 
-- With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
+- With 20.3.1, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
 
 _Note: This version is tested only on M3-Multi-tenant_
 
 # **Known Issues**
 
-ERP Final Order number will not be updated in Magento when different Order Type is configured in Global and Website level. Order BOD's are validated against global settings so order from website level are ignored.
+- ERP Final Order number will not be updated in Magento when different Order Type is configured in Global and Website level. Order BOD's are validated against global settings so order from website level are ignored.
+
+- Multiple return order sync is not possible (via cron and from backend ) due to the order object not getting unset and thus getting undefined index error. This is a Magento core issue, also exists in clean Magento 2.4.2.
 
 # **Pre-requisites**
 
