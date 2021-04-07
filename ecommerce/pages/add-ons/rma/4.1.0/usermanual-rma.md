@@ -1,69 +1,41 @@
-# **eConnect User Manual – RMA**
+# **User Manual – RMA Add-on for eConnect**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
-## **LeanSwift eConnect for Infor M3 &amp; Magento** 
-
 
 **Product Version**  **4.1.0**
 
-**eConnect version 20.3.0**
+**eConnect version 20.3.1**
 
 
 **TABLE OF CONTENTS**
 
 
-[1.0 GENERAL INFORMATION](#general-information)
-
-- [1.1 System Overview](#system-overview)
-
-- [1.2 Points of Contact](#points-of-contact)
-
-- [1.2.1 Information](#information)
-
-- [1.3 Organization of the Manual](#organization-of-the-manual)
-
-- [1.4 Acronyms and Abbreviations](#acronyms-and-abbreviations)
-
-[2.0 RMA ADD-ON](#rma-add-on)
-
-- [2.0.1 Summary](#summary)
-
-- [2.0.2 Assumptions/Limitations](#assumptionslimitations)
-
-- [2.1 CONFIGURATION](#configuration)
-
+- [1.0 GENERAL INFORMATION](#general-information)
+  - [1.1 System Overview](#system-overview)
+  - [1.2 Points of Contact](#points-of-contact)
+  - [1.2.1 Information](#information)
+  - [1.3 Organization of the Manual](#organization-of-the-manual)
+  - [1.4 Acronyms and Abbreviations](#acronyms-and-abbreviations)
+- [2.0 RMA ADD-ON](#rma-add-on)
+  - [2.0.1 Summary](#summary)
+  - [2.0.2 Assumptions/Limitations](#assumptionslimitations)
+  - [2.1 CONFIGURATION](#configuration)
 	- [2.1.1 Standard Magento Configuration - General](#standard-magento-configuration-general)
-
 	- [2.1.2 Standard Magento Configuration – RMA Item Attributes](#standard-magento-configuration-rma-item-attributes)
-
 	- [2.1.3 Standard Magento Configuration – Product Setup](#standard-magento-configuration-product-setup)
-
 	- [2.1.4 LeanSwift Extension Configuration – RMA](#leanSwift-extension-configuration-rma)
-
 		- [2.1.4.1 LeanSwift Extension Configuration – General Configuration](#leanSwift-extension-configuration-general-configuration)
-
 		- [2.1.4.2 LeanSwift Extension Configuration – Warehouses](#leanSwift-extension-configuration-warehouses)
-
 		- [2.1.4.3 LeanSwift Extension Configuration – Reason Codes](#leanSwift-extension-configuration-reason-codes)
-
 - [2.2 PROCESS](#process)
-
 	- [2.2.1 RMA Creation (Return) – Magento Admin](#rma-creation-(return)–magento-admin)
-
 		- [2.2.1.1 RMA Creation – Magento Admin](#rma-creation-magento-admin)
-
 		- [2.2.1.2 RMA Synchronization](#rma-synchronization)
-
 		- [2.2.1.3 M3 Processing – Return](#m3-processing-return)
-
 	- [2.2.2 RMA Creation (Exchange) – Magento Admin](#rma-creation-(exchange)-magento-admin)
-
 		- [2.2.2.1 RMA Creation – Exchange](#rma-creation-exchange)
-
 		- [2.2.2.2 RMA Synchronization](#rma-synchronization)
-
 		- [2.2.2.3 M3 Processing of Exchange](#m3-processing-of-exchange)
-
-[3.0 APPENDIX A – Status mapping](#appendix-a-status-mapping)
+- [3.0 APPENDIX A – Status mapping](#appendix-a-status-mapping)
 
 
 # GENERAL INFORMATION
@@ -117,11 +89,9 @@ During setup, the Magento Admin panel is used to configure which transactions th
 
 **Validated versions**
 
-Magento Open Source 2.4.1
-
 Magento Commerce 2.4.1
 
-Infor M3 16.x
+Infor M3 CloudSuite
 
 ## 1.2 Points of Contact
 

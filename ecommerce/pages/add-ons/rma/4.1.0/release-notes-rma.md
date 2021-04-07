@@ -11,11 +11,9 @@
 - [**Overview**](#overview)
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
-- [**New Features**](#new-features)
 - [**Enhancements**](#enhancements)
-- [**Bug Fixes**](#bug-fixes)
+- [**Known Issues**](#known-issues)
 - [**Pre-requisites**](#pre-requisites)
-- [**Limitations**](#limitations)
 
 # **Overview**
 
@@ -25,19 +23,19 @@ Extends standard Magento functionality and offers several transactions to ensure
 
  **LeanSwift eConnect for Infor M3** is available for Magento Open Source and Magento Commerce and for Infor M3 version 7.x and above. It is also compatible with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 
- **Add-on Sales Representative** for eConnect provides the ability to leverage Magento to manage customers and customer sales orders in M3.
+ **Add-on RMA** for eConnect leverages built-in functionality for returns management in Magento Commerce and provides integration with M3.
 
 # **Environment Details**
 
 | **Environment** | **Version** |
 | --- | --- |
-| Magento Open source | 2.4.1 |
 | Magento Community | 2.4.1 |
-| eConnect | 20.3.0 |
+| eConnect | 20.3.1 |
 | eConnect Base | 5.0.0 |
 | Rabbitmq | 3.8.3 |
 | ION Desk | 12.0 |
 | PHP | 7.4.12 |
+|LeanSwift ION-BOD package |3.0.0 |
 
 # **Standard Features**
 
@@ -55,28 +53,21 @@ The M3 OIS390 functionality is not used as it does not automatically provide for
 Return header creation (or) the association of header and line charges.
 
 
-# **New Features**
-
-
-
 # **Enhancements**
 
-- With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
+- With 20.3.1, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
 
 _Note: This version is tested only on M3-Multi-tenant_
 
-# **Bug Fixes**
+# **Known Issues**
 
+- ERP Final Order number will not be updated in Magento when different Order Type is configured in Global and Website level. Order BOD's are validated against global settings so order from website level are ignored.
+
+- Multiple return order sync is not possible (via cron and from backend ) due to the order object not getting unset and thus getting undefined index error. This is a Magento core issue, also exists in clean Magento 2.4.2.
 
 # **Pre-requisites**
 
-- LeanSwift eConnect 20.3.0 must be installed on Magento 2.4.1 or greater
-
-
-# **Limitations**
-
-
-
+- LeanSwift eConnect 20.3.1 must be installed on Magento 2.4.1 or greater
 
 
 
