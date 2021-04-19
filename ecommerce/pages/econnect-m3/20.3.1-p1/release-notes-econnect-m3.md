@@ -36,11 +36,9 @@ All the standard functionalities of core eConnect are supported in v20.3.1-p1, w
 - Order History
 - Initial Load
 
-# **Enhancements**
-
 
 # **Bug Fixes**
-
+- Variation ID has been handled to check and update emtpy variation id when show bods(currently sync bods) are triggered
 
 
 
