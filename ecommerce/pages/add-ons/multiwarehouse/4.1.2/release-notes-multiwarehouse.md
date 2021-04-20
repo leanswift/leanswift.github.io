@@ -30,8 +30,8 @@ Extends standard Magento functionality and offers several transactions to ensure
 | --- | --- |
 | Magento Open source | 2.4.2 |
 | Magento Community | 2.4.2 |
-| eConnect Community| 20.3.1-p1 CE|
-| eConnect Commerce| 20.3.1-p1 EE|
+| eConnect Community| 20.3.1-p1 |
+| eConnect Commerce| 20.3.1-p1 |
 | eConnect Base | 5.0.0 |
 | Rabbitmq | 3.8.3 |
 | ION Desk | 12.0 |
