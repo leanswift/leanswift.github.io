@@ -1,4 +1,9 @@
-![](RackMultipart20201224-4-dzt8sl_html_390ba5139005650c.png)
+
+# **20.3.1-p1**
+
+## **Bug Fixes**
+
+- Variation ID has been handled to check and update empty variation id when show bods(currently sync bods) are triggered
 
 # **20.3.1**
 
