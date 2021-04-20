@@ -12,7 +12,6 @@
 - [**Overview**](#overview)
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
-- [**Enhancement**](#Enhancement)
 - [**Bugfix**](#bugfix)
 
 ## **Overview**
