@@ -4,7 +4,6 @@
 
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
-- [**Enhancements**](#enhancements)
 - [**Bug Fixes**](#bug-fixes)
 - [**Point of Contact**](#point-of-contact)
 
