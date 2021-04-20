@@ -13,7 +13,7 @@
 | **Software Name** | **Version** |
 | --- | --- |
 | Magento version | 2.4.2 |
-| PHP version | 7.4.12 |
+| PHP version | 7.4.16 |
 | RabbitMQ | 3.8.3 |
 | Infor M3 (MT) | 16.1 |
 
@@ -39,13 +39,14 @@ All the standard functionalities of core eConnect are supported in v20.3.1-p1, w
 # **Bug Fixes**
 - Variation ID has been handled to check and update empty variation id when show bods(currently sync bods) are triggered
 
+_Note: This version is tested on Magento 2.4.2 and this patch release includes only the above fix. Only basic testing has been covered._
 
 
 # **Point of Contact**
 
 - [prabhu.mano@leanswift.com](mailto:prabhu.mano@leanswift.com)
-- [niranjan.b@leanswift.com](mailto:prabhu.mano@leanswift.com)
-- [deepthi.tadikamalla@leanswift.com](mailto:prabhu.mano@leanswift.com)
+- [niranjan.b@leanswift.com](mailto:niranjan.b@leanswift.com)
+- [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@leanswift.com)
 - [srinidhi.narayanan@leanswift.com](mailto:prabhu.mano@leanswift.com)
 - [nrithya.rajagopalan@leanswift.com](mailto:prabhu.mano@leanswift.com)
 
