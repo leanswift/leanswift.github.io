@@ -4,4 +4,4 @@
 
 User Manual for 4.1.1 is same as 4.1.0
 
-To view the part-1 user manual click [here](../4.1.0/usermanual-material-plan.md).
+To view the 4.1.0 user manual click [here](../4.1.0/usermanual-material-plan.md).
