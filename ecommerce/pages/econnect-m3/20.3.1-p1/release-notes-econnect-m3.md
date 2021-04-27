@@ -38,6 +38,7 @@ All the standard functionalities of core eConnect are supported in v20.3.1-p1, w
 
 # **Bug Fixes**
 - Variation ID has been handled to check and update empty variation id when show bods(currently sync bods) are triggered
+- Resolved the case where SalesOrder BOD is getting skipped due to Shipment BODs variation Id got saved to the SalesOrder table
 
 _Note: This version is tested on Magento 2.4.2 and this patch release includes only the above fix. Only basic testing has been covered._
 
