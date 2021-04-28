@@ -4,6 +4,7 @@
 
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
+- [**Enhancements**](#enhancements)
 - [**Bug Fixes**](#bug-fixes)
 - [**Point of Contact**](#point-of-contact)
 
@@ -35,10 +36,24 @@ All the standard functionalities of core eConnect are supported in v21.1.0, whic
 - Order History
 - Initial Load
 
+# **Enhancements**
+
+ ## Scope of Shipping Methods
+  
+  In our previous versions, shipping method configuration will appear in the default config, store, store view but now it will appear only on websites.(
+
 
 # **Bug Fixes**
 
+Re-engineered Order, Shipment, Invoice and Tracking Info to improve performance
 
+Wrong status update when websites are configured with different company has been fixed
+
+Cron jobs are added at Crontab.xml in Commerce version
+
+MITBAL and MITFAC values are getting updated in Magento during Product Sync
+
+Order with Customer price as null can be reordered from Magento
 
 # **Point of Contact**
 
