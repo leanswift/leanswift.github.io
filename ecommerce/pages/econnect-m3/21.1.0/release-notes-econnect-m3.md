@@ -40,7 +40,7 @@ All the standard functionalities of core eConnect are supported in v21.1.0, whic
 
  ## Scope of Shipping Methods
   
-  In our previous versions, shipping method configuration will appear in the default config, store, store view but now it will appear only on websites.(
+  In our previous versions, shipping method configuration will appear in the default config, store, store view but now it will appear only on websites
 
 
 # **Bug Fixes**
