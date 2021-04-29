@@ -50,7 +50,7 @@ MWH displays stock from multiple warehouses in product detail page.
 
 ## **Bugfix**
 
-- Variation ID has been handled to check and update empty variation id when show bods(currently sync bods) are triggered
+- Stock update validation handled when same product is present in multiple companies.
 
 _Note: This version is tested on Magento 2.4.2 and this patch release includes only the above fix. Only basic testing has been covered._
 
