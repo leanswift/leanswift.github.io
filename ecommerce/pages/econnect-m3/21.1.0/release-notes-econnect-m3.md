@@ -17,6 +17,8 @@
 | PHP version | 7.4.16 |
 | RabbitMQ | 3.8.3 |
 | Infor M3 (MT) | 16.1 |
+| ION package | |
+| eConnect Base | |
 
 # **Standard Features**
 
@@ -38,30 +40,32 @@ All the standard functionalities of core eConnect are supported in v21.1.0, whic
 
 # **Enhancements**
 
- ## Scope of Shipping Methods
-  
-  In our previous versions, shipping method configuration will appear in the default config, store, store view but now it will appear only on websites
+
+ - Re-engineered Order, Shipment, Invoice, and Tracking to improve performance
 
 
 # **Bug Fixes**
 
-Re-engineered Order, Shipment, Invoice and Tracking Info to improve performance
 
-Wrong status update when websites are configured with different company has been fixed
+- Wrong status update when websites are configured with different company has been fixed
 
-Cron jobs are added at Crontab.xml in Commerce version
+- Cron jobs for API are added at Crontab.xml in Commerce version
 
-MITBAL and MITFAC values are getting updated in Magento during Product Sync
+- Scope of Shipping method configuration changed to Website-only scope.
 
-Order with Customer price as null can be reordered from Magento
+- MITBAL and MITFAC values are getting updated in Magento during Product Sync
+
+- Validation done to handle empty Customer price in backend 
+
+- Indexer now runs for product id that receives stock update instead of full re-indexing of catalog
 
 # **Point of Contact**
 
 - [prabhu.mano@leanswift.com](mailto:prabhu.mano@leanswift.com)
 - [niranjan.b@leanswift.com](mailto:niranjan.b@leanswift.com)
 - [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@leanswift.com)
-- [srinidhi.narayanan@leanswift.com](mailto:prabhu.mano@leanswift.com)
-- [nrithya.rajagopalan@leanswift.com](mailto:prabhu.mano@leanswift.com)
+- [srinidhi.narayanan@leanswift.com](mailto:srinidhi.narayanan@leanswift.com)
+- [nrithya.rajagopalan@leanswift.com](mailto:nrithya.rajagopalan@leanswift.com)
 
 
 
