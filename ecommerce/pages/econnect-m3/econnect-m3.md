@@ -4,7 +4,14 @@
 # [Product Overview](overview-econnect-m3.md)
 
 ---
+# Version 21.1.0
 
+- ## [User Manual - Part 1](21.1.0/usermanual-econnect-m3-part-1.md)
+
+- ## [User Manual - Part 2](21.1.0/usermanual-econnect-m3-part-2.md)
+
+- ## [Release Notes](21.1.0/release-notes-econnect-m3.md)
+---
 
 # Version 20.3.1-p1
 
