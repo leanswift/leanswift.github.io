@@ -1,4 +1,25 @@
 
+# **21.`.0**
+
+## **Enhancements**
+
+ - Re-engineered Order, Shipment, Invoice, and Tracking to improve performance
+
+## **Bug Fixes**
+
+- Wrong status update when websites are configured with different company has been fixed
+
+- Cron jobs for API are added at Crontab.xml in Commerce version
+
+- Scope of Shipping method configuration changed to Website-only scope.
+
+- MITBAL and MITFAC values are getting updated in Magento during Product Sync
+
+- Validation done to handle empty Customer price in backend 
+
+- Indexer now runs for product id that receives stock update instead of full re-indexing of catalog
+
+
 # **20.3.1-p1**
 
 ## **Bug Fixes**
