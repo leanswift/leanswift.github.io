@@ -17,8 +17,8 @@
 | PHP version | 7.4.16 |
 | RabbitMQ | 3.8.3 |
 | Infor M3 (MT) | 16.1 |
-| ION package | |
-| eConnect Base | |
+| ION package | 3.1.0 |
+| eConnect Base | 5.1.0 |
 
 # **Standard Features**
 
@@ -66,6 +66,7 @@ All the standard functionalities of core eConnect are supported in v21.1.0, whic
 - [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@leanswift.com)
 - [srinidhi.narayanan@leanswift.com](mailto:srinidhi.narayanan@leanswift.com)
 - [nrithya.rajagopalan@leanswift.com](mailto:nrithya.rajagopalan@leanswift.com)
+
 
 
 
