@@ -59,6 +59,8 @@ All the standard functionalities of core eConnect are supported in v21.1.0, whic
 
 - Indexer now runs for product id that receives stock update instead of full re-indexing of catalog
 
+- Shipment bod will now be triggered during order sync ( any missed shipments )
+
 # **Point of Contact**
 
 - [prabhu.mano@leanswift.com](mailto:prabhu.mano@leanswift.com)
