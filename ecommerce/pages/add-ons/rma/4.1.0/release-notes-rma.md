@@ -63,7 +63,7 @@ _Note: This version is tested only on M3-Multi-tenant_
 
 - ERP Final Order number will not be updated in Magento when different Order Type is configured in Global and Website level. Order BOD's are validated against global settings so order from website level are ignored.
 
-- Multiple return order sync is not possible (via cron and from backend ) due to the order object not getting unset and thus getting undefined index error. This is a Magento core issue, also exists in clean Magento 2.4.2. Patch fix is available for this issue, please access the link below https://docs.google.com/document/d/1BrQ9Rzda7KOtyahaR6u4zE8tTV10jdC_QKrESeJYxLc/edit
+- Multiple return order sync is not possible (via cron and from backend ) due to the order object not getting unset and thus getting undefined index error. This is a Magento core issue, also exists in clean Magento 2.4.2. Patch fix is available for this issue, please access the link below https://drive.google.com/file/d/1Jmk7RpMM7j6CZSEB1iOWCT32JHK51JZp/view
 
 # **Pre-requisites**
 
