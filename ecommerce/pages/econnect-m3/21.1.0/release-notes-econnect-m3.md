@@ -47,7 +47,7 @@ All the standard functionalities of core eConnect are supported in v21.1.0, whic
 # **Bug Fixes**
 
 
-- Wrong status update when websites are configured with different company has been fixed
+- Wrong status update to order when websites are configured with different company has been fixed
 
 - Cron jobs for API are added at Crontab.xml in Commerce version
 
