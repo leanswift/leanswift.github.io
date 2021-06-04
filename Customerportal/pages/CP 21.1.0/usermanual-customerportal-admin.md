@@ -29,7 +29,15 @@ To view the user manual for Portal Users, click [here](usermanual-customerportal
 
 **Order history CRON**
 
+<kbd>
+<img alt="Order history CRON" src="../../images/usermanual-admin/order_history_cron.png">
+</kbd>
+
 **Invoice History CRON**
+
+<kbd>
+<img alt="Invoice History CRON" src="../../images/usermanual-admin/order_history_cron.png">
+</kbd>
 
 ### Customer Add/Sync Configuration
 
