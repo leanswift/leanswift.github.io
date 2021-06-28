@@ -9,13 +9,13 @@
 
 - ## [Release Notes](customer-portal/21.1.0/release-notes-customer-portal.md)
 
-- ## [User Manual - Customer Portal - user](customer-portal/21.1.0/UserManual-CustomerPortal-FrontEndUser.md)
+- ## [User Manual - Customer Portal - user](customer-portal/21.1.0/usermanual-customerportal-user.md)
 
-- ## [User Manual - Customer Portal - admin user](customer-portal/21.1.0/UserManual-CustomerPortal-AdminUser.md)
+- ## [User Manual - Customer Portal - admin user](customer-portal/21.1.0/usermanual-customerportal-admin-user.md)
 
-- ## [User Manual - m3 login](add-ons/m3-login/UserManual-M3LoginModule-AdminUser.md)
+- ## [User Manual - m3 login](add-ons/m3-login/usermanual-m3-login.md)
 
-- ## [User Manual - payment portal - user](add-ons/payment-portal/UserManual-PaymentModule-CustomerPortal-FrontEndUser.md)
+- ## [User Manual - payment portal - user](add-ons/payment-portal/usermanual-paymentportal-user.md)
 
-- ## [User Manual - payment portal - admin user](add-ons/payment-portal/UserManual-PaymentModule-CustomerPortal-AdminUser.md)
+- ## [User Manual - payment portal - admin user](add-ons/payment-portal/usermanual-paymentportal-admin-user.md)
 
