@@ -223,25 +223,9 @@ This document and the software it describes are provided by LeanSwift Solutions 
 ### Customer User Permissions 
 - Users must have roles assigned to them in Magento, and they can only log in to the frontend based on the rights they have been allowed.
 
-- **Default permission for External User**
-
-<kbd>
-<kbd><img alt="UserPermission-DefaulltPermission" src="../../../images/add-ons/m3-login/UserPermission-DefaulltPermission.png"></kbd>
-</kbd>
-
 - **Internal User Permission**
 <kbd>
 <kbd><img alt="UserPermission-InternalUserPermission" src="../../../images/add-ons/m3-login/UserPermission-InternalUserPermission.png"></kbd>
-</kbd>
-
-- **STAT Admin Permission**
-<kbd>
-<kbd><img alt="STATAdminPermission" src="../../../images/add-ons/m3-login/UserPermission-STATAdminPermission.png"></kbd>
-</kbd>
-
-- **STAT Sub Account Permission**
-<kbd>
-<kbd><img alt="UserPermission-STATSubAccountPermission" src="../../../images/add-ons/m3-login/UserPermission-STATSubAccountPermission.png"></kbd>
 </kbd>
 
 - M3 USER Role - Internal User permissions are leveraged at M3 user Role configuration. 
