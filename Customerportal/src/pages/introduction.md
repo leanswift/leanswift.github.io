@@ -1,4 +1,4 @@
-![LeanSwift Customer Portal](https://github.com/leanswift/leanswift.github.io/blob/LCP-147/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
+![LeanSwift Customer Portal](/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
 - ## [Product Overview](customer-portal/21.1.0/overview-customer-portal.md)
 
