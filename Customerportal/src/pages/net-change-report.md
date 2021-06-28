@@ -1,4 +1,4 @@
-![Customer portal banner](https://github.com/leanswift/leanswift.github.io/blob/LCP-147/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
+![Customer portal banner](/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
 # Customer Portal-Net Change Report
 
