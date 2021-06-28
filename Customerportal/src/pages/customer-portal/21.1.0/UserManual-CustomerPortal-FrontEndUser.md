@@ -51,7 +51,7 @@ LeanSwift Customer Portal is a customer self-service web portal that enables use
 # Architecture
 
 <kbd>
-<kbd><img alt="CustomerPortal_Architecture" src="../../../images/customer-portal/front-end-user/CustomerPortal_Architecture.JPG"></kbd>
+<kbd><img alt="CustomerPortal_Architecture" src="../../../images/customer-portal/front-end-user/CustomerPortal_Architecture.jpg"></kbd>
 </kbd>
 
 <div align="right">
