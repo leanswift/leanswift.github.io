@@ -1,26 +1,21 @@
 ![LeanSwift Customer Portal](https://github.com/leanswift/leanswift.github.io/blob/LCP-147/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
-- ## [Product Overview](20.1.0/overview-supplier-portal.md)
+- ## [Product Overview](21.1.0/overview-customer-portal.md)
 
 - ## [Net Change Report](net-change-report.md)
 
 
 # Version 21.1.0
 
-- ## [User Manual - Admin](21.1.0/usermanual-supplierportal-admin.md)
+- ## [Release Notes](customer-portal/21.1.0/release-notes-customer-portal.md)
 
-- ## [User Manual - User](21.1.0/usermanual-supplierportal-user.md)
+- ## [User Manual - Customer Portal - User](customer-portal/21.1.0/UserManual-CustomerPortal-FrontEndUser.md)
 
-- ## [Release Notes](21.1.0/release-notes-21.1.0-supplier-portal.md)
+- ## [User Manual - Customer Portal - Admin User](customer-portal/21.1.0/UserManual-CustomerPortal-AdminUser.md)
 
-- ## [User Manual - Advise-Notify-Admin](21.1.0/usermanual-supplierportal-advise-notify-admin.md)
+- ## [User Manual - M3 Login](add-ons/m3-login/UserManual-M3LoginModule-AdminUser.md)
 
-- ## [User Manual - Advise-Notify-User](21.1.0/usermanual-supplierportal-advise-notify-user.md)
+- ## [User Manual - Payment Portal - User](add-ons/payment-portal/UserManual-PaymentModule-CustomerPortal-FrontEndUser.md)
 
-- ## [User Manual - Deliveries-Admin](21.1.0/usermanual-supplierportal-deliveries-admin.md)
+- ## [User Manual - Payment Portal - Admin User](add-ons/payment-portal/UserManual-PaymentModule-CustomerPortal-AdminUser.md)
 
-- ## [User Manual - Deliveries-User](21.1.0/usermanual-supplierportal-deliveries-user.md)
-
-- ## [User Manual - Invoice-Admin](21.1.0/usermanual-supplierportal-invoice-admin.md)
-
-- ## [User Manual - Invoice-User](21.1.0/usermanual-supplierportal-invoice-user.md)
