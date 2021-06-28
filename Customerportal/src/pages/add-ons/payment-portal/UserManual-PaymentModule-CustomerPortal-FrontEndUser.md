@@ -1,5 +1,7 @@
-![](../../../images/add-ons/payment-portal/payment-user/CustomerPortalHeader.PNG)
-# User Manual – Payment Module – Customer Portal – Front end User
+![](https://github.com/leanswift/leanswift.github.io/blob/LCP-147/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
+
+
+# Version 1.1.0 - User Manual - Payment Portal - User
 
 # Table of Contents
 
@@ -30,7 +32,9 @@
     - [General Guidelines](#General_Guidelines)
 
 <div id = "Overview"> </div>
+
 # Overview
+
 LeanSwift Customer Portal is a customer self-service web portal that enables users to get instance access to information about their orders, invoices and payments. With additional add-ons, uses can also make e-payments directly via the portal. It is seamlessly integrated with Infor M3 CloudSuite using ION. Customer Portal offers a single point of access to structured information about customer transactions and self-service functionality such as pay invoices, user management and much more.
 
 The Payment Portal module is an add-on for Customer Portal which provides customers the ability to make payments for orders and invoices via the portal. The first version of this module uses CyberSource as the payment gateway and provides support for Credit Card payments.
