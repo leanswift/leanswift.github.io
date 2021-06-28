@@ -46,7 +46,7 @@ The Payment Portal module is an add-on for Customer Portal which provides custom
 # Architecture
 
 <kbd>
-<kbd><img alt="CustomerPortal_Architecture" src="../../../images/add-ons/payment-portal/payment-user/CustomerPortal_Architecture.JPG"></kbd>
+<kbd><img alt="CustomerPortal_Architecture" src="../../../images/add-ons/payment-portal/payment-user/CustomerPortal_Architecture.jpg"></kbd>
 </kbd>
 
 <div align="right">
@@ -330,7 +330,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 	- Missing data for invoices option is accessible under Payments tab when Invoice/Order Sync Roles is enabled for the customer M3 User Role.
 
 <kbd>
-<kbd><img alt="CustomerPortal-PaymentPortal-Missingdata" src="../../images/PaymentAdmin/CustomerPortal-PaymentPortal-Missingdata.PNG"></kbd>
+<kbd><img alt="CustomerPortal-PaymentPortal-Missingdata" src="../../../images/add-ons/payment-portal/payment-user/CustomerPortal-PaymentPortal-Missingdata.PNG"></kbd>
 </kbd>
 
 - Clicking on Missing data, takes the user to screen, where the user can mention document number and run sync job or run by default for 3 days.
@@ -339,13 +339,13 @@ This document and the software it describes are provided by LeanSwift Solutions 
     - Can enter multiple document numbers separated by comma. Sync from M3 will be performed for the specified invoices alone.
 
 <kbd>
-<kbd><img alt="CustomerPortal-PaymentPortal-MissingdataDoc" src="../../images/PaymentAdmin/CustomerPortal-PaymentPortal-MissingdataDoc.PNG"></kbd>
+<kbd><img alt="CustomerPortal-PaymentPortal-MissingdataDoc" src="../../../images/add-ons/payment-portal/payment-user/CustomerPortal-PaymentPortal-MissingdataDoc.PNG"></kbd>
 </kbd>
 
 - Status of the sync job will be displayed in the display message space of Customer Portal.
 
 <kbd>
-<kbd><img alt="CustomerPortal-PaymentPortal-MissingdataSuccess" src="../../images/PaymentAdmin/CustomerPortal-PaymentPortal-MissingdataSuccess.PNG"></kbd>
+<kbd><img alt="CustomerPortal-PaymentPortal-MissingdataSuccess" src="../../../images/add-ons/payment-portal/payment-user/CustomerPortal-PaymentPortal-MissingdataSuccess.PNG"></kbd>
 </kbd>
 
 <div align="right">
@@ -427,7 +427,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - To cancel the payment process, the user can click on Cancel order, and confirm to cancel.
 
 <kbd>
-<kbd><img alt="CustomerPortal-Payment-CancelOrder" src="../../../images/add-ons/payment-portal/payment-user/CustomerPortal-Payment-CancelOrderR.PNG"></kbd>
+<kbd><img alt="CustomerPortal-Payment-CancelOrder" src="../../../images/add-ons/payment-portal/payment-user/CustomerPortal-Payment-CancelOrder.PNG"></kbd>
 </kbd>
 
 <div align="right">
