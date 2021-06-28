@@ -16,6 +16,8 @@
 
 - [Pre-Requisites](#pre-requisites)
 
+- [Limitations](#limitations)
+
 
 
 ## **Overview**
@@ -43,7 +45,7 @@
 
 ## **Standard Features**
 
-Account
+**Account**
 
 - Registration and Login of External User  
 - Import and Login of Internal User  
@@ -51,7 +53,7 @@ Account
 - Customer Selection by logged in user  
 - Switch Customer Account
 
-Orders
+**Orders**
 
 - View Order History
 - Synchronization of Order Status in real-time
@@ -59,7 +61,7 @@ Orders
 - Filter by Order Status
 - Sort by Order Date
 
-Invoices
+**Invoices**
 
 - View Invoice History
 - Synchronization of Invoice Status in real-time
@@ -67,7 +69,7 @@ Invoices
 - Filter by Invoice Status
 - Sort by Invoice Date
   
-Payments
+**Payments**
 
 - Pay Invoices by CC
 - Pay Invoices by Credit Memos
@@ -75,7 +77,7 @@ Payments
 - Support for both Full & Partial Payments
 - Synchronization of Payment Status in real-time
   
-Admin
+**Admin**
 
 - Settings and Configuration for Portal and M3 Connectivity
 - M3 User Roles Configuration, User Permissions and sub-account management
@@ -85,11 +87,11 @@ Admin
 
 - Internal users should be active users on Mingle / Infor OS in order to be able to log into and use the portal.
 
--	Internal users should have at least one valid user role assigned in ‘m3 user roles’ configuration to login.
+- Internal users should have at least one valid user role assigned in ‘m3 user roles’ configuration to login.
 
--	Internal users should have permissions granted in both ‘m3 user roles’ section and the customer panel.
+- Internal users should have permissions granted in both ‘m3 user roles’ section and the customer panel.
 
--	CyberSource is the default payment gateway. Hence a CyberSource account is required for taking payments from the portal. If any other payment gateway is required to be supported, that can be done only by additional, customized development and is not available out-of-the-box.
+- CyberSource is the default payment gateway. Hence a CyberSource account is required for taking payments from the portal. If any other payment gateway is required to be supported, that can be done only by additional, customized development and is not available out-of-the-box.
 
 
 ## **Limitations**
@@ -98,12 +100,12 @@ Admin
 
 - Multiple currency support is not supported at the customer level.
 
--	When importing customer data (update multiple customer information via csv), fields like view sections, ‘is admin’ and ‘make payments’ are mandatory and cannot be empty.
+- When importing customer data (update multiple customer information via csv), fields like view sections, ‘is admin’ and ‘make payments’ are mandatory and cannot be empty.
 
--	Only Payments by Credit Card are supported via the portal in this version.
+- Only Payments by Credit Card are supported via the portal in this version.
 	
--	 Customers will not be able to edit payment and billing information on CyberSource payment pages.
+- Customers will not be able to edit payment and billing information on CyberSource payment pages.
 
--	Import Order History data is limited to 10,000 records per M3 customer number.
+- Import Order History data is limited to 10,000 records per M3 customer number.
 
 
