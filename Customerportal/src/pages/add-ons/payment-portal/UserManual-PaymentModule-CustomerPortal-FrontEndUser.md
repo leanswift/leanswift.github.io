@@ -1,4 +1,4 @@
-![](https://github.com/leanswift/leanswift.github.io/blob/LCP-147/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
+![](/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
 
 # Version 1.1.0 - User Manual - Payment Portal - User
