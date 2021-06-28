@@ -1,6 +1,6 @@
 ![LeanSwift Customer Portal](https://github.com/leanswift/leanswift.github.io/blob/LCP-147/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
-- ## [Product Overview](21.1.0/overview-customer-portal.md)
+- ## [Product Overview](customer-portal/21.1.0/overview-customer-portal.md)
 
 - ## [Net Change Report](net-change-report.md)
 
