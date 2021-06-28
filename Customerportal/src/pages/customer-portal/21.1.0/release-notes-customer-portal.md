@@ -18,6 +18,11 @@
 
 - [Limitations](#limitations)
 
+- [Validated Versions](#validated-versions)
+
+- [Point of Contact](#point-of-contact)
+
+
 
 
 ## **Overview**
@@ -107,5 +112,24 @@
 - Customers will not be able to edit payment and billing information on CyberSource payment pages.
 
 - Import Order History data is limited to 10,000 records per M3 customer number.
+
+
+## **Validated Versions**
+
+Chrome Version 91.0.4472.114
+
+
+## **Point of Contact**
+
+[prabhu.mano@leanswift.com](mailto:prabhu.mano@leanswift.com)
+
+[niranjan.b@leanswift.com](mailto:niranjan.b@leanswift.com)
+
+[vaithiyanathan.paramasivam@leanswift.com](vaithiyanathan.paramasivam@leanswift.com)
+
+[srinidhi.narayanan@leanswift.com](mailto:srinidhi.narayanan@leanswift.com)
+
+[nrithya.rajagopalan@leanswift.com](mailto:nrithya.rajagopalan@leanswift.com)
+
 
 
