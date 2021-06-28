@@ -24,8 +24,7 @@
 <div id = "Overview"> </div>
 
 ## Overview
-LeanSwift Customer Portal is a customer self-service web portal that enables users to get instance access to information about their orders, invoices and payments. With additional add-ons, uses can also make e-payments directly via the portal. It is seamlessly integrated with Infor M3 CloudSuite using ION. Customer Portal offers a single point of access to structured information about customer transactions and self-service functionality such as pay invoices, user management and much more.
-
+**LeanSwift M3 login module** provides the ability to log into Magento with an Infor OS user (Single Sign-on support with Infor OS). It also retrieves the list of users in Infor M3 along with security roles. The module leverages ION APIs and Infor’s authentication and authorization services to validate M3 user credentials (Ming.le user) via IFS (Infor Federation Services).
 <div id = "Architecture"></div>
 
 # Architecture
