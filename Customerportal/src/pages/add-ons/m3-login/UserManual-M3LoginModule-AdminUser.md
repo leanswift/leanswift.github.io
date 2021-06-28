@@ -1,4 +1,4 @@
-![Supplier portal banner](https://github.com/leanswift/leanswift.github.io/blob/LCP-147/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
+![Supplier portal banner](/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
 # Version 1.0.0 - User Manual - M3 Login
 
