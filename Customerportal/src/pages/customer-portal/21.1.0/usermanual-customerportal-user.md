@@ -197,7 +197,7 @@ Note: Please check the Junk or Spam folder in case this mail does not arrive wit
 </kbd>
 
 <kbd>
-<kbd><img alt="CustomerPortalEmail" src="../../../images/customer-portal/front-end-user/CustomerPortalEmail.png"></kbd>
+<kbd><img alt="CustomerPortalEmail" src="../../../images/customer-portal/front-end-user/Email_Customer_Registration.PNG"></kbd>
 </kbd>
 
 - The link in the email directs the user to the password creation screen, where they can create a new password in accordance with the [password policy](#Password_Policy).
@@ -426,7 +426,7 @@ Characteristics of Strong Password:
 - The Addresses option displays the customer's invoice address as well as any extra addresses.
 
 <kbd>
-<kbd><img alt="CustomerPortalAddresses" src="../../../images/customer-portal/front-end-user/CustomerPortalAddresses.png"></kbd>
+<kbd><img alt="CustomerPortalAddresses" src="../../../images/customer-portal/front-end-user/Additional_Address.PNG"></kbd>
 </kbd>
 
 <div align="right">
@@ -456,10 +456,10 @@ Characteristics of Strong Password:
 ## Invoice Search
 - Search by Invoice Number or Order Number.
 - Search by Invoice Date 
-  - The user can view Invoices up to 180 days from the current date.
+  - The user can view Invoices by slecting start date(Year 2018) and end date(Current year).
 
 <kbd>
-<kbd><img alt="CustomerPortalSearchOption" src="../../../images/customer-portal/front-end-user/CustomerPortalSearchOption.png"></kbd>
+<kbd><img alt="CustomerPortalSearchOption" src="../../../images/customer-portal/front-end-user/Invoice_Search_Date.PNG"></kbd>
 </kbd>
 
 <div align="right">
