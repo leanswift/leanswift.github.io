@@ -456,7 +456,7 @@ Characteristics of Strong Password:
 ## Invoice Search
 - Search by Invoice Number or Order Number.
 - Search by Invoice Date 
-  - The user can view Invoices up to 180 days from the current date.
+  - The user can view Invoices by slecting start date(Year 2018) and end date(Current year).
 
 <kbd>
 <kbd><img alt="CustomerPortalSearchOption" src="../../../images/customer-portal/front-end-user/CustomerPortalSearchOption.png"></kbd>
