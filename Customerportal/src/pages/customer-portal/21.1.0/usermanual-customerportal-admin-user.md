@@ -239,12 +239,12 @@ Logging to Customer Portal Configuration:
     - To set the from date to fetch Order history, configure From Date to Fetch Invoices – Specify the date.
     - Enabling Use System Value, sets the from date to fetch Invoices as default value, 180 days behind the current date. 
 
-- Invoice History Max Records
-    - To limit the maximum number of records retrieved while executing Invoice History CRON, configure Invoice History Max Records – Specify the number of records.
-    - Enabling Use System value sets the maximum invoice records to default value, 10000. 
+- Invoice/Order History Max Records
+    - To limit the maximum number of records retrieved while executing Invoice/Order History CRON, configure Invoice/Order History Max Records – Specify the number of records.
+    - Enabling Use System value sets the maximum invoice/order records to default value, 10000. 
 
 <kbd>
-<kbd><img alt="CustomerPortalAdminGeneral-Restrict3" src="../../../images/customer-portal/admin-user/CustomerPortalAdminGeneral-Restrict3.jpg"></kbd>
+<kbd><img alt="CustomerPortalAdminGeneral-Restrict3" src="../../../images/customer-portal/admin-user/Invoice_Orders_Max_Records.PNG"></kbd>
 </kbd>
 
 <div id = "Customer-Add/Sync-Configuration"> </div>
@@ -274,6 +274,10 @@ Customer Add/Sync Configurations section allows admin to configure customer add/
 
 <kbd>
 <kbd><img alt="M3RefScreen1" src="../../../images/customer-portal/admin-user/M3RefScreen1.png"></kbd>
+</kbd>
+
+<kbd>
+<kbd><img alt="M3RefScreen2" src="../../../images/customer-portal/admin-user/Free_Field_M3.PNG"></kbd>
 </kbd>
 
 - Additional Filter(s)
