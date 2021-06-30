@@ -276,6 +276,10 @@ Customer Add/Sync Configurations section allows admin to configure customer add/
 <kbd><img alt="M3RefScreen1" src="../../../images/customer-portal/admin-user/M3RefScreen1.png"></kbd>
 </kbd>
 
+<kbd>
+<kbd><img alt="M3RefScreen2" src="../../../images/customer-portal/admin-user/Free_Field_M3.PNG"></kbd>
+</kbd>
+
 - Additional Filter(s)
 	- To add additional filters to filter customers, configure Additional Filter(s) – Add conditions. Ex: OKSTAT = 20 AND OKWHLO = 001.
 	- Additional filters are applied to CRON jobs executed.
