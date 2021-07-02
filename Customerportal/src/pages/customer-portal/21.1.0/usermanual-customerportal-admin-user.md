@@ -306,6 +306,7 @@ Customer Add/Sync Configurations section allows admin to configure customer add/
     - Import Customer
     - Import Order History
     - Import Invoice History
+- After Initial import, cron job run based on the last updated timestamp for regular sync.
 
 For detailed understanding of CRON configurations refer to [cron - Wikipedia](https://en.wikipedia.org/wiki/Cron#Predefined_scheduling_definitions).
 
@@ -361,6 +362,12 @@ For detailed understanding of CRON configurations refer to [cron - Wikipedia](ht
 
 <kbd>
 <kbd><img alt="CustomerPortalAdmin-M3User-Home" src="../../../images/customer-portal/admin-user/CustomerPortalAdmin-M3User-Home.jpg"></kbd>
+</kbd>
+
+- To know the User Roles available in M3, Open program MNS410. This gives you list of user roles for M3 user.	
+
+<kbd>
+<kbd><img alt="CustomerPortalAdmin-M3UserRole" src="../../../images/customer-portal/admin-user/M3_UserRoles.PNG"></kbd>
 </kbd>
 
 <div align="right">
