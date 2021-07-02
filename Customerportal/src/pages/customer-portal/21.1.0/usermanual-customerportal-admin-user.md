@@ -364,6 +364,12 @@ For detailed understanding of CRON configurations refer to [cron - Wikipedia](ht
 <kbd><img alt="CustomerPortalAdmin-M3User-Home" src="../../../images/customer-portal/admin-user/CustomerPortalAdmin-M3User-Home.jpg"></kbd>
 </kbd>
 
+- To know the User Roles available in M3, Open program MNS410. This gives you list of user roles for M3 user.	
+
+<kbd>
+<kbd><img alt="CustomerPortalAdmin-M3UserRole" src="../../../images/customer-portal/admin-user/CustomerPortalAdmin-M3User-Home.jpg"></kbd>
+</kbd>
+
 <div align="right">
 <b>
  <a href="#toc">↥ Go to Top</a>
