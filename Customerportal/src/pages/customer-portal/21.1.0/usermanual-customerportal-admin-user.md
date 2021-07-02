@@ -306,6 +306,7 @@ Customer Add/Sync Configurations section allows admin to configure customer add/
     - Import Customer
     - Import Order History
     - Import Invoice History
+- After Initial import, cron job run based on the last updated timestamp for regular sync.
 
 For detailed understanding of CRON configurations refer to [cron - Wikipedia](https://en.wikipedia.org/wiki/Cron#Predefined_scheduling_definitions).
 
