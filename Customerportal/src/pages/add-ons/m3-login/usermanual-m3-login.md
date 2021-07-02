@@ -136,6 +136,14 @@ This document and the software it describes are provided by LeanSwift Solutions 
 
 <div id = "Prerequisites"> </div>
 
+## Import M3 User Roles
+- It is part of add-on to fetch M3 User Roles and Functions as initial import. This is not reuired for Customer Portal v21.1.0.
+
+
+<kbd>
+<kbd><img alt="M3UserRoles_Import" src="../../../images/add-ons/m3-login/Import_M3_UserRoles.PNG"></kbd>
+</kbd>
+
 ## Prerequisites
 
 <div id = "Force_Customer_Login"> </div>
