@@ -47,7 +47,7 @@
 
 ## Note
 
-- This is a bug fix release with the latest Magento version 2.4.2-p1, so only the minimal testing is done 
+- This is a bug fix release with the latest Magento version 2.4.2-p1, only minimal testing is done 
 
 ## Points of Contact
 
