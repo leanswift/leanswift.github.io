@@ -21,7 +21,7 @@
 
 - [eConnect SX.e/CSD CE](21.1.0/release-notes-for-eConnect-SX.e-or-CSD-21.1.0%20CE.md)
 
-- [eConnect SX.e/CSD EE](21.1.0/release-notes-for-eConnect-SX.e-or-CSD-21.1.020EE.md)
+- [eConnect SX.e/CSD EE](21.1.0/release-notes-for-eConnect-SX.e-or-CSD-21.1.0%20EE.md)
 
 - [CenPOS](Add-ons/CenPOS/CenPOS%20Payment%203.0.0-Release%20Notes.md)
 
