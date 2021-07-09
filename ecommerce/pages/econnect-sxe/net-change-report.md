@@ -4,6 +4,29 @@
 
 # eConnect for SX.e/CSD - Net Change Report
 
+## 21.1.0
+
+
+### Enhancements
+
+- Selected shipping address will now be seen in the ShipTo section on the checkout page
+- Stock is updated and refelected on Stock sync from the frontend via Product View page
+- Salable quantity is updated and refelected on Stock sync from the frontend
+- Re-ordering the orders with more than one quantity now adds all the items to the cart
+- Category is getting mapped to the product without any error
+- Order Sync, Order history and Inventory Cron issues are resolved
+- Order creation is working as expected for CE after the latest code changes
+- The error thrown during the initial installation's 'setup:upgrade' process is resolved
+- Resolved the Exception thrown for the customers without the Sx.e/CSD Customer number during the customer login 
+
+
+### Known Issues
+
+- Checkout sidebar is not getting updated when changing the quantity in mini cart from checkout page
+- CenPOS order comments won't appear in Infor SX.e/CSD.
+- Point to note: Customer cron will take long time to run (depending on the size of customers to be synced and the APIs configured in the Backend Mapping section).
+
+
 ## 20.3.0
 
 
