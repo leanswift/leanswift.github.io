@@ -745,6 +745,8 @@ The Search configuration needs to be updated when this option is selected.
 <kbd><img alt="Search IDM document" src="../../../images/customer-portal/admin-user/Search_idm_confi.png"></kbd>
 </kbd>
 
+
+
 - **Send Email from M3 IDM as No**
 
 When *Send Email from M3 IDM* is selected as No, two additional configuration is enabled to configure the Email sender and Email template. When *Email Documents Cron* is triggered the items/search api call is made to IDM to retrive the Customer invoice or Order confirmation document. The document is stored in magento db, mail is sent to customer with the configured sender and email template based on when *Email Documents Cron* is triggered.
@@ -759,4 +761,11 @@ Download idm configuration needs to be updated when the Send Email from M3 IDM i
 <kbd>
 <kbd><img alt="download IDM Docs" src="../../../images/customer-portal/admin-user/download_idm_config.png"></kbd>
 </kbd>
+
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
