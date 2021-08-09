@@ -616,11 +616,26 @@ The user can filter orders based on the status of invoices.
 - Click on the PDF icon on left side of an invoice to download customer invoice document.
 - Document(s) will be downloaded and opened in new tab(s).
 
+<kbd>
+<kbd><img alt="invoice docs" src="../../../images/customer-portal/front-end-user/invoice_document_open.png"></kbd>
+</kbd>
+
+When no document is available for the selected invoice, following message is displayed.
+
+<kbd>
+<kbd><img alt="invoice docs" src="../../../images/customer-portal/front-end-user/no_document_invoice.png"></kbd>
+</kbd>
 
 
 # Document Download in Order History
 - Click on the PDF icon on left side of an order to download Order Confirmation document.
 - Document(s) will be downloaded and opened in new tab(s).
+
+<kbd>
+<kbd><img alt="invoice docs" src="../../../images/customer-portal/front-end-user/order_documents.png"></kbd>
+</kbd>
+
+When no document is available for the selected order, following message is displayed.
 
 <kbd>
 <kbd><img alt="email doc order success message" src="../../../images/customer-portal/front-end-user/no_document.png"></kbd>
