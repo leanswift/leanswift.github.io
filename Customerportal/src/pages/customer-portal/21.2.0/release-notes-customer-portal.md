@@ -96,6 +96,7 @@
 - Download Customer Invoice documents
 - Email Customer Invoice documents to customer
 - Download Delivery documents
+- View Order shipment details
 
 ## **Technical Changes**
 
