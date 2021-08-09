@@ -31,6 +31,9 @@
         - [File to Import](#File-to-Import)
         - [Check Data](#Check-Data)
 	- [Customer User Permissions](#Customer-User-Permissions)
+	- [Upload supporting document on Short Pay invoices](#upload-supporting-document-on-short-pay-invoices)
+	- [Download and email invoice and order documents](#download-and-email-invoice-and-order-documents)
+
 
 <div id = "User-Manual-for-Customer-Portal-Admin-User"> </div>
 
@@ -710,3 +713,11 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
+
+## Upload supporting document on Short Pay invoices
+
+IDM module needs to be installed in magento to support document upload for short pay invoices. The Upload configuration in the IDM module needs to be enabled. User can mention the allowed file types that can be uploaded. Documents are uploaded when *paymentportal_invoice_payment_sync* is executed.
+
+## Download and email invoice and order documents
+
