@@ -14,6 +14,8 @@
 
 - [Standard Features](#standard-features)
 
+- [Highlighted Features](#highlighted-features)
+
 - [Pre-Requisites](#pre-requisites)
 
 - [Limitations](#limitations)
@@ -33,10 +35,11 @@
 | **Software Name**  |  **Version**  |
 | --- | --- |
 | Magento Open Source | 2.4.2 |
-| LeanSwift eConnect Base | 6.0.0 |
-| LeanSwift M3 Login | 1.0.0 |
-| LeanSwift Customer Portal | 21.1.0 |
-| LeanSwift Payment Portal | 1.0.0 |
+| LeanSwift eConnect Base | 6.1.0 |
+| LeanSwift M3 Login | 1.1.0 |
+| LeanSwift Customer Portal | 21.2.0 |
+| LeanSwift Payment Portal | 2.0.0 |
+| LeanSwift IDM | 4.0.0 |
 | RabbitMQ | 3.8.3 |
 | ION Desk (CloudSuite) | 12.0.0 |
 | Infor M3 (CloudSuite) | 16.1 |
@@ -84,6 +87,14 @@
 - Settings and Configuration for Portal and M3 Connectivity
 - M3 User Roles Configuration, User Permissions and sub-account management
 
+## **Highlighted Features**
+
+- Uploading supporting document for short pay invoices
+- Download Order Confirmation documents 
+- Email Order Confirmation documents to customer
+- Download Customer Invoice documents
+- Email Customer Invoice documents to customer
+- Download Delivery documents
 
 ## **Pre-Requisites**
 
@@ -98,7 +109,6 @@
 
 ## **Limitations**
 
-- Performing Magento cache flush from admin can affect payment process if any user is in the middle of making a payment from the portal at that point in time. This limitation would be rectified in the next upcoming release.
 
 - Multiple currency support is not supported at the customer level.
 
@@ -118,12 +128,7 @@ Chrome Version 91.0.4472.114
 
 ## **Point of Contact**
 
-[prabhu.mano@leanswift.com](mailto:prabhu.mano@leanswift.com)
-
 [niranjan.b@leanswift.com](mailto:niranjan.b@leanswift.com)
-
-[vaithiyanathan.paramasivam@leanswift.com](vaithiyanathan.paramasivam@leanswift.com)
 
 [srinidhi.narayanan@leanswift.com](mailto:srinidhi.narayanan@leanswift.com)
 
-[nrithya.rajagopalan@leanswift.com](mailto:nrithya.rajagopalan@leanswift.com)
