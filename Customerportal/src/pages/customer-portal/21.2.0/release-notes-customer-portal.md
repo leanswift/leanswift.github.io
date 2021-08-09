@@ -16,6 +16,8 @@
 
 - [Highlighted Features](#highlighted-features)
 
+-[Technical Changes](#technical-changes)
+
 - [Pre-Requisites](#pre-requisites)
 
 - [Limitations](#limitations)
@@ -44,7 +46,6 @@
 | ION Desk (CloudSuite) | 12.0.0 |
 | Infor M3 (CloudSuite) | 16.1 |
 | Infor ION Grid (CloudSuite) | 2020-10.135425.10 |
-
 
 
 
@@ -96,6 +97,11 @@
 - Email Customer Invoice documents to customer
 - Download Delivery documents
 
+## **Technical Changes**
+
+- Upgraded IDM add-on to be compatible with latest eConnect-base
+- Modified CustomerPortal and PaymentPortal to fit Magento Standards
+
 ## **Pre-Requisites**
 
 - Internal users should be active users on Mingle / Infor OS in order to be able to log into and use the portal.
@@ -120,15 +126,22 @@
 
 - Import Order History data is limited to 10,000 records per M3 customer number.
 
+- Clears the downloaded files from IDM and Cron/Real time configurations in IDM upload and download is not supported.
+
 
 ## **Validated Versions**
 
-Chrome Version 91.0.4472.114
+Chrome Version 92.0.4515.131
 
 
 ## **Point of Contact**
 
+
 [niranjan.b@leanswift.com](mailto:niranjan.b@leanswift.com)
 
+[oleksii.solonenko@leanswift.com](mailto:leksii.solonenko@leanswift.com)
+
 [srinidhi.narayanan@leanswift.com](mailto:srinidhi.narayanan@leanswift.com)
+
+[henrik.refsnes@leanswift.com](mailto:henrik.refsnes@leanswift.com)
 
