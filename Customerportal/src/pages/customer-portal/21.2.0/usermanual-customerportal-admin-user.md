@@ -719,6 +719,10 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 
 IDM module needs to be installed in magento to support document upload for short pay invoices. The Upload configuration in the IDM module needs to be enabled. User can mention the allowed file types that can be uploaded. Documents are uploaded when *paymentportal_invoice_payment_sync* is executed.
 
+<kbd>
+<kbd><img alt="supporting documents" src="../../../images/customer-portal/admin-user/Supporting_doc_upload.png"></kbd>
+</kbd>
+
 
 
 ## Email IDM documents
@@ -728,7 +732,7 @@ When Email IDM document is enabled, the option to select *Send Email from M3 IDM
 
 - **Send Email from M3 IDM as Yes**
   
-When *Send Email from M3 IDM* is selected as Yes, /items/search api call is made to IDM to retrive the Customer invoice or Order confirmation document and documents are sent directly from M3 IDM based on when *Email Documents Cron* is triggered. The documents are not saved in magento db.
+When *Send Email from M3 IDM* is selected as Yes, /items/search api call is made to IDM to retrive the Customer invoice or Order confirmation document. Along with it, /email api is called to directly send documents from M3 IDM based on when *Email Documents Cron* is triggered. The documents are not saved in magento db.
   
   
 <kbd>
@@ -743,7 +747,7 @@ The Search configuration needs to be updated when this option is selected.
 
 - **Send Email from M3 IDM as No**
 
-When *Send Email from M3 IDM* is selected as No, two additional configuration is enabled to configure the Email sender and Email template. When *Email Documents Cron* is triggered the items/download api call is made to IDM to retrive the Customer invoice or Order confirmation document. The document is stored in magento db, mail is sent to customer with the configured sender and email template.
+When *Send Email from M3 IDM* is selected as No, two additional configuration is enabled to configure the Email sender and Email template. When *Email Documents Cron* is triggered the items/search api call is made to IDM to retrive the Customer invoice or Order confirmation document. The document is stored in magento db, mail is sent to customer with the configured sender and email template based on when *Email Documents Cron* is triggered.
   
   
 <kbd>
