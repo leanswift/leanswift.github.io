@@ -16,7 +16,7 @@
 
 - [Highlighted Features](#highlighted-features)
 
--[Technical Changes](#technical-changes)
+- [Technical Changes](#technical-changes)
 
 - [Pre-Requisites](#pre-requisites)
 
