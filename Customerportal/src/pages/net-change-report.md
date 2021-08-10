@@ -5,6 +5,20 @@
 ## Table of contents
   - [21.1.0](#2110)
     - [Features](#features)
+  - [21.2.0](#2120)
+    - [Features](#features)
+
+## 21.2.0
+
+### Features
+
+- Uploading supporting document for short pay invoices
+- Download Order Confirmation documents
+- Email Order Confirmation documents to customer
+- Download Customer Invoice documents
+- Email Customer Invoice documents to customer
+- Download Delivery documents
+- View Order shipment details
 
 ## 21.1.0
 
