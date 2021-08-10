@@ -511,6 +511,7 @@ Characteristics of Strong Password:
 <div id="Download_Current_Statement"></div>
 
 ## Download Current Statement
+
 - Click on Download Current Statement menu to download Current Open Invoices in CSV format.
 
 <kbd>
@@ -540,6 +541,7 @@ Characteristics of Strong Password:
 
 
 ## Document Download in Invoice History 
+
 - Click on the PDF icon on left side of an invoice to download customer invoice document.
 - Document(s) will be downloaded and opened in new tab(s).
 
@@ -605,6 +607,7 @@ The user can filter orders based on the status of invoices.
 <div id="Sign_Out"></div>
 
 ## Email Order Confirmation Document
+
 - Select one or multiple Orders and click on Send Email icon
 - The user will be displayed with a success message.
 
@@ -619,6 +622,7 @@ The user can filter orders based on the status of invoices.
 
 
 ## Document Download in Order History
+
 - Click on the PDF icon on left side of an order to download Order Confirmation document.
 - Document(s) will be downloaded and opened in new tab(s).
 
@@ -633,11 +637,13 @@ When no document is available for the selected order, following message is displ
 </kbd>
 
 ## Delivery Document Download
+
 - Click on the truck icon on right corner of order history page. 
 - Click on the PDF icon next to delivery number
 - Document(s) will be downloaded and opened in new tab(s)
 
-## View Order Shipment information 
+## View Order Shipment information
+
 - Click on the truck icon on right corner of order history page. 
 - View the order shipment details such as Shipment number, delivery number, forwarding agent etc.
 
