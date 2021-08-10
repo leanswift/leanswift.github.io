@@ -4,4 +4,4 @@
 
 User manual for Payment Portal 2.0.0 is same as 1.0.0
 
-To view the part-1 user manual click [here](../usermanual-paymentportal-admin-user.md)
+To view the part-1 user manual click [here](/Customerportal/src/pages/add-ons/payment-portal/usermanual-paymentportal-admin-user.md)
