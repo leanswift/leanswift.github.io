@@ -29,10 +29,16 @@
     - [Invoice Filter](#Invoice_Filter)
     - [Invoice Sort](#Invoice_Sort)
     - [Download Current Statement](#Download_Current_Statement)
+    - [Email Invoice Document](Email_Invoice_Document)
+    - [Document Download in Invoice History](Document_Download_in_Invoice_History)
 - [Orders](#Orders)
     - [Order Search](#Order_Search)
     - [Order Filter](#Order_Filter)
     - [Order Sort](#Order_Sort)
+    - [Email Order Confirmation Document](Email_Order_Confirmation_Document)
+    - [Document Download in Order History](Document_Download_in_Order_History)
+    - [Delivery Document Download](Delivery_Document_Download)
+    - [View Order Shipment information](View_Order_Shipment_information)
 - [Sign Out](#Sign_Out)
 
 # User Manual - Customer Portal - Front end User
@@ -519,6 +525,35 @@ Characteristics of Strong Password:
 
 <div id="Orders"></div>
 
+
+## Email Invoice Document
+- Select one or multiple invoice and click on Send Email icon.
+- The user will be displayed with a success message.
+
+<kbd>
+<kbd><img alt="email doc invoice" src="../../../images/customer-portal/front-end-user/Email_doc_invoice.png"></kbd>
+</kbd>
+
+<kbd>
+<kbd><img alt="email doc invoice success message" src="../../../images/customer-portal/front-end-user/Email_doc_invoice_success_msg.png"></kbd>
+</kbd>
+
+
+## Document Download in Invoice History 
+- Click on the PDF icon on left side of an invoice to download customer invoice document.
+- Document(s) will be downloaded and opened in new tab(s).
+
+<kbd>
+<kbd><img alt="invoice docs" src="../../../images/customer-portal/front-end-user/invoice_document_open.png"></kbd>
+</kbd>
+
+When no document is available for the selected invoice, following message is displayed.
+
+<kbd>
+<kbd><img alt="invoice docs" src="../../../images/customer-portal/front-end-user/no_document_invoice.png"></kbd>
+</kbd>
+
+
 # Orders
 - Orders tab displays the customer's order information – Order number, Customer number, Customer PO/Reference, Order Date and Order Status.
 - Ten order entries are displayed per page.
@@ -569,6 +604,48 @@ The user can filter orders based on the status of invoices.
 
 <div id="Sign_Out"></div>
 
+## Email Order Confirmation Document
+- Select one or multiple Orders and click on Send Email icon
+- The user will be displayed with a success message.
+
+<kbd>
+<kbd><img alt="email doc order" src="../../../images/customer-portal/front-end-user/Email_doc_order.png"></kbd>
+</kbd>
+
+<kbd>
+<kbd><img alt="email doc order success message" src="../../../images/customer-portal/front-end-user/Email_doc_order_success.png"></kbd>
+</kbd>
+
+
+
+## Document Download in Order History
+- Click on the PDF icon on left side of an order to download Order Confirmation document.
+- Document(s) will be downloaded and opened in new tab(s).
+
+<kbd>
+<kbd><img alt="invoice docs" src="../../../images/customer-portal/front-end-user/order_documents.png"></kbd>
+</kbd>
+
+When no document is available for the selected order, following message is displayed.
+
+<kbd>
+<kbd><img alt="email doc order success message" src="../../../images/customer-portal/front-end-user/no_document.png"></kbd>
+</kbd>
+
+## Delivery Document Download
+- Click on the truck icon on right corner of order history page. 
+- Click on the PDF icon next to delivery number
+- Document(s) will be downloaded and opened in new tab(s)
+
+## View Order Shipment information 
+- Click on the truck icon on right corner of order history page. 
+- View the order shipment details such as Shipment number, delivery number, forwarding agent etc.
+
+<kbd>
+<kbd><img alt="email doc order success message" src="../../../images/customer-portal/front-end-user/Order_shipment.png"></kbd>
+</kbd>
+
+
 # Sign Out
 - Click on the arrow next to the user's name on top right corner of the Customer Portal. 
 - Select Sign Out from the dropdown menu.
@@ -588,68 +665,6 @@ The user can filter orders based on the status of invoices.
 </b>
 </div>
 
-# Email Invoice Document
-- Select one or multiple invoice and click on Send Email icon.
-- The user will be displayed with a success message.
-
-<kbd>
-<kbd><img alt="email doc invoice" src="../../../images/customer-portal/front-end-user/Email_doc_invoice.png"></kbd>
-</kbd>
-
-<kbd>
-<kbd><img alt="email doc invoice success message" src="../../../images/customer-portal/front-end-user/Email_doc_invoice_success_msg.png"></kbd>
-</kbd>
-
-# Email Order Confirmation document
-- Select one or multiple Orders and click on Send Email icon
-- The user will be displayed with a success message.
-
-<kbd>
-<kbd><img alt="email doc order" src="../../../images/customer-portal/front-end-user/Email_doc_order.png"></kbd>
-</kbd>
-
-<kbd>
-<kbd><img alt="email doc order success message" src="../../../images/customer-portal/front-end-user/Email_doc_order_success.png"></kbd>
-</kbd>
-
-# Document Download in Invoice History 
-- Click on the PDF icon on left side of an invoice to download customer invoice document.
-- Document(s) will be downloaded and opened in new tab(s).
-
-<kbd>
-<kbd><img alt="invoice docs" src="../../../images/customer-portal/front-end-user/invoice_document_open.png"></kbd>
-</kbd>
-
-When no document is available for the selected invoice, following message is displayed.
-
-<kbd>
-<kbd><img alt="invoice docs" src="../../../images/customer-portal/front-end-user/no_document_invoice.png"></kbd>
-</kbd>
 
 
-# Document Download in Order History
-- Click on the PDF icon on left side of an order to download Order Confirmation document.
-- Document(s) will be downloaded and opened in new tab(s).
 
-<kbd>
-<kbd><img alt="invoice docs" src="../../../images/customer-portal/front-end-user/order_documents.png"></kbd>
-</kbd>
-
-When no document is available for the selected order, following message is displayed.
-
-<kbd>
-<kbd><img alt="email doc order success message" src="../../../images/customer-portal/front-end-user/no_document.png"></kbd>
-</kbd>
-
-# Delivery Document Download
-- Click on the truck icon on right corner of order history page. 
-- Click on the PDF icon next to delivery number
-- Document(s) will be downloaded and opened in new tab(s)
-
-# View Shipment and delivery information of an Order
-- Click on the truck icon on right corner of order history page. 
-- View the order shipment details such as Shipment number, delivery number, forwarding agent etc.
-
-<kbd>
-<kbd><img alt="email doc order success message" src="../../../images/customer-portal/front-end-user/Order_shipment.png"></kbd>
-</kbd>
