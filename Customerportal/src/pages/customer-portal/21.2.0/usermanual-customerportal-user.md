@@ -524,7 +524,7 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-<div id="Orders"></div>
+<div id="Email_Invoice_Document"></div>
 
 
 ## Email Invoice Document
@@ -536,6 +536,7 @@ Characteristics of Strong Password:
 <kbd><img alt="email doc invoice" src="../../../images/customer-portal/front-end-user/Email_doc_invoice.png"></kbd>
 </kbd>
 
+
 <kbd>
 <kbd><img alt="email doc invoice success message" src="../../../images/customer-portal/front-end-user/Email_doc_invoice_success_msg.png"></kbd>
 </kbd>
@@ -546,6 +547,8 @@ Characteristics of Strong Password:
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
+<div id="Document_Download_in_Invoice_History"></div>
 
 ## Document Download in Invoice History 
 
@@ -568,6 +571,8 @@ When no document is available for the selected invoice, following message is dis
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
+<div id="Orders"></div>
 
 # Orders
 - Orders tab displays the customer's order information – Order number, Customer number, Customer PO/Reference, Order Date and Order Status.
@@ -617,7 +622,7 @@ The user can filter orders based on the status of invoices.
 </b>
 </div>
 
-<div id="Sign_Out"></div>
+<div id="Email_Order_Confirmation_Document"></div>
 
 ## Email Order Confirmation Document
 
@@ -640,6 +645,8 @@ The user can filter orders based on the status of invoices.
 </b>
 </div>
 
+<div id="Document_Download_in_Order_History"></div>
+
 ## Document Download in Order History
 
 - Click on the PDF icon on left side of an order to download Order Confirmation document.
@@ -661,6 +668,8 @@ When no document is available for the selected order, following message is displ
 </b>
 </div>
 
+<div id="Delivery_Document_Download"></div>
+
 ## Delivery Document Download
 
 - Click on the truck icon on right corner of order history page. 
@@ -672,6 +681,8 @@ When no document is available for the selected order, following message is displ
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
+<div id="View_Order_Shipment_information"></div>
 
 ## View Order Shipment information
 
@@ -688,6 +699,8 @@ When no document is available for the selected order, following message is displ
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
+<div id="Sign_Out"></div>
 
 # Sign Out
 - Click on the arrow next to the user's name on top right corner of the Customer Portal. 
