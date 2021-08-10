@@ -528,6 +528,7 @@ Characteristics of Strong Password:
 
 
 ## Email Invoice Document
+
 - Select one or multiple invoice and click on Send Email icon.
 - The user will be displayed with a success message.
 
