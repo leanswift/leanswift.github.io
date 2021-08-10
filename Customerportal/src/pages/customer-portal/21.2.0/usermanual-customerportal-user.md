@@ -541,6 +541,12 @@ Characteristics of Strong Password:
 </kbd>
 
 
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 ## Document Download in Invoice History 
 
 - Click on the PDF icon on left side of an invoice to download customer invoice document.
@@ -556,6 +562,12 @@ When no document is available for the selected invoice, following message is dis
 <kbd><img alt="invoice docs" src="../../../images/customer-portal/front-end-user/no_document_invoice.png"></kbd>
 </kbd>
 
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 # Orders
 - Orders tab displays the customer's order information – Order number, Customer number, Customer PO/Reference, Order Date and Order Status.
@@ -616,11 +628,17 @@ The user can filter orders based on the status of invoices.
 <kbd><img alt="email doc order" src="../../../images/customer-portal/front-end-user/Email_doc_order.png"></kbd>
 </kbd>
 
+
 <kbd>
 <kbd><img alt="email doc order success message" src="../../../images/customer-portal/front-end-user/Email_doc_order_success.png"></kbd>
 </kbd>
 
 
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 ## Document Download in Order History
 
@@ -637,11 +655,23 @@ When no document is available for the selected order, following message is displ
 <kbd><img alt="email doc order success message" src="../../../images/customer-portal/front-end-user/no_document.png"></kbd>
 </kbd>
 
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 ## Delivery Document Download
 
 - Click on the truck icon on right corner of order history page. 
 - Click on the PDF icon next to delivery number
 - Document(s) will be downloaded and opened in new tab(s)
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 ## View Order Shipment information
 
@@ -652,6 +682,12 @@ When no document is available for the selected order, following message is displ
 <kbd><img alt="email doc order success message" src="../../../images/customer-portal/front-end-user/Order_shipment.png"></kbd>
 </kbd>
 
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 # Sign Out
 - Click on the arrow next to the user's name on top right corner of the Customer Portal. 
