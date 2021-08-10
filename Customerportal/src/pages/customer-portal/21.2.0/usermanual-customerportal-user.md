@@ -622,7 +622,7 @@ The user can filter orders based on the status of invoices.
 </b>
 </div>
 
-<div id="Sign_Out"></div>
+<div id="Email_Order_Confirmation_Document"></div>
 
 ## Email Order Confirmation Document
 
@@ -645,6 +645,8 @@ The user can filter orders based on the status of invoices.
 </b>
 </div>
 
+<div id="Document_Download_in_Order_History"></div>
+
 ## Document Download in Order History
 
 - Click on the PDF icon on left side of an order to download Order Confirmation document.
@@ -666,6 +668,8 @@ When no document is available for the selected order, following message is displ
 </b>
 </div>
 
+<div id="Delivery_Document_Download"></div>
+
 ## Delivery Document Download
 
 - Click on the truck icon on right corner of order history page. 
@@ -677,6 +681,8 @@ When no document is available for the selected order, following message is displ
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
+<div id="View_Order_Shipment_information"></div>
 
 ## View Order Shipment information
 
@@ -693,6 +699,8 @@ When no document is available for the selected order, following message is displ
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
+<div id="Sign_Out"></div>
 
 # Sign Out
 - Click on the arrow next to the user's name on top right corner of the Customer Portal. 
