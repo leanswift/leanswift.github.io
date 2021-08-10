@@ -4,5 +4,5 @@
 
 User manual for M3 login 1.1.0 is same as 1.0.0
 
-To view the part-1 user manual click [here](/Customerportal/src/pages/add-ons/m3-login/usermanual-m3-login.html)
+To view the part-1 user manual click [here](https://leanswift.github.io/Customerportal/src/pages/add-ons/m3-login/usermanual-m3-login.html)
 
