@@ -22,7 +22,7 @@ There is also additional background configuration specific to eConnect.
 - Magento Commerce 2.4.3
 - Infor SX.e 6.1.19
 - Infor CloudSuite Distribution 11.20.1
-- PHP 7.4.21
+- PHP 7.4.25
 
 # Point of Contact
 

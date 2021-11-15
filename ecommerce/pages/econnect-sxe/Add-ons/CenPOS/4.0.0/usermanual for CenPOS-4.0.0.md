@@ -1,4 +1,4 @@
-# Version 3.0.0 - CenPOS Addon for eConnect SX.e/CSD
+# Version 4.0.0 - CenPOS Addon for eConnect SX.e/CSD
 
 ## User Manual
 
