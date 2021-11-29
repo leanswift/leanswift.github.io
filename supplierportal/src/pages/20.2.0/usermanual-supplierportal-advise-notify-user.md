@@ -63,6 +63,8 @@ Clicking on Advise, changes process indicator to &#39;Request is Processing&#39;
 <img alt="metrics display" src="../../images/usermanual/process-indicator-advise.png"> 
 </kbd>
 
+Once the line/lines are Advised, api call PPS001MI/AdviseLine is made for all the selected lines. When Advise All is selected, PPS001MI/AdviseAll api call is made for all the lines of the purchase order.
+
 Once the line/lines are Advised/Advised All, the process indicator is updated and the &#39;Advised Shipment&#39; icon is displayed along with all the information filled in the &#39;Advise Shipment&#39; window below each line.
 
 <kbd>
@@ -104,6 +106,8 @@ Additionally there is a &#39;Search PO&#39; dropdown. Users can search order num
 As the user select’s PO from dropdown, it appears on the top with a &#39;x&#39; mark beside it. Users can select multiple POs and can choose to remove it by clicking on the &#39;x&#39; mark.
 
 _Note that by choosing the PO, all eligible lines of the PO gets advised._
+
+On selecting the Advise button, PPS001MI/AdviseAll api call is made (either realtime or cron execution) for all lines of the purchase orders selected.
 
 <div align="right">
 <b>
@@ -171,6 +175,8 @@ Clicking on notify, changes process indicator to &#39;Request is Processing&#39;
 <img alt="metrics display" src="../../images/usermanual/notify-process-indicator.png"> 
 </kbd>
 
+Once the line/lines are Notified, api call PPS001MI/NotifyLine (realtime or cron execution) is made for selected lines of the purchase orders. When Notify All is selected, api call PPS001MI/NotifyALL (realtime or cron execution) is made for all the lines of the purchase order.
+
 Once the line/lines are Notified/Notified All, the process indicator is updated and the &#39;Notified Transportation&#39; icon is displayed along with all the information filled in the &#39;Transport Notification&#39; window below each line.
 
 <div align="right">
@@ -205,6 +211,8 @@ Additionally there is a &#39;Search PO&#39; dropdown. Users can search order num
 As the user selects PO from dropdown, it appears on the top with a &#39;x&#39; mark beside it. Users can select multiple POs and can choose to remove it by clicking on the &#39;x&#39; mark.
 Note that by choosing the PO, all eligible lines of the PO get notified.
 
+On selecting the Notify button, PPS001MI/NotifyAll api call is made (either realtime or cron execution) for all lines of the purchase orders selected.
+
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
@@ -231,7 +239,7 @@ On clicking, &quot;Notify&quot; button on top, &quot;Notify Transportation by&qu
 
 Note that all the above except &#39;Delivery Note Number&#39; are optional input attributes.
 
-User can enter the Delivery note number and click on Notify. This will notify all the lines with the given Delivery note number.
+User can enter the Delivery note number and click on Notify. This will notify all the lines with the given Delivery note number. On clicking Notify, api call (realtime or cron execution) PPS001MI/NotifyDelNot call is made for all the lines which has the selected delivery note number.
 
 <div align="right">
 <b>
