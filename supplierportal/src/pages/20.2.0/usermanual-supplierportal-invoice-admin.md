@@ -21,4 +21,9 @@ The list of filter options can be configured under Leanswift > Supplier Portal >
 <img alt="metrics display" src="../../images/usermanual/invoice-filter-settings.png"> 
 </kbd>
 
+During initial load, either open invoices or all the invoices within the configured date are fetched from table FPLEDG . ExportMI/ select query is used. Below are the fields fetched during the initial load.
+EPSINO (Invoice number), EPIVDT(invoice date), EPCUCD (currency), EPDUDT(Due date), EPINYR (Invoice year), EPCUAM (foreign currency amount)
+
+Invoices are also updated via Sync.SupplierInvoice bod (Whenever the due date is changed or an invoice is generated, this BOD gets triggered in m3) and Sync.PayableTransaction bod (whenever the amount or status gets changed, this BOD gets triggered in m3 )
+
 
