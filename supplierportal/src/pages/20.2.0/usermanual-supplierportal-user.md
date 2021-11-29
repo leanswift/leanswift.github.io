@@ -381,7 +381,8 @@ Functionality is similar to Filter in **My Purchase Order** section. Refer [Filt
 
 Functionality is similar to Download as CSV in **My Purchase Order** section. Refer [Download as CSV](#download-as-csv).
 
-The forecast information is fetched from the MPOPLP table using ExportMI/select query. This information is fetched during the initial load of the supplier information.
+Note : The forecast information is fetched from the MPOPLP table using ExportMI/select query. This information is fetched during the initial load of the supplier information.
+Bod sync is not available and fetch forecast cron needs to be executed at regular interval to have the updated planned purchase orders available in PPS170 (m3).
 
 ### Enhancements
 
