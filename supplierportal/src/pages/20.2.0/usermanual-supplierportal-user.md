@@ -192,6 +192,8 @@ The different types of supplier's address such as *Postal Address*, *Street Addr
 
 <kbd><img alt="My Accounts Address" src="../../images/usermanual/my-accounts-address.png"></kbd>
 
+On succesfull buyer approval, all the account informations of the supplier from m3 are synced to the portal via Sync.SupplierPartyMaster BOD.  
+
 <div align="right">
 <b>
  <a href="#table-of-contents">↥ Go to Top</a>
@@ -207,6 +209,8 @@ My Purchase Orders section contains all the purchase orders that belongs to the 
 
 By clicking on the side arrow in a Purchase Order, it expands to display the purchase order lines and related information corresponding to the particular purchase order. The purchase order lines have *Line Number*, *Sub Line Number*, *Item*, *Description*, *Quantity*, *Confirmed Quantity*, *Received Quantity*, *Price*, *U/M*, *Confirmed Price*, *Requested Date*, *Confirmed Date* and *Status*.
 Single select, Multi select or select all of the purchase order lines can be done. 
+
+On succesfull buyer approval, all the purchase order information of the supplier from m3 are synced to the portal via Sync.PurchaseOrder BOD.
 
 <kbd><img alt="Purchase Orders Lines" src="../../images/usermanual/purchase-orderlines.png"></kbd>
 
@@ -258,7 +262,7 @@ Confirming a PO line can be done in two ways,
 
 - **Confirm with changes** :
 
-   When a PO line is confirmed with changes, approval request is sent to ION. To confirm a PO line with changes, Change the Conf            Qty/ Conf Date/ Conf Price an click on confirm button. When Confirm with changes are done, PO Confirm approval request is sent to the    buyer. The PO lines confirmed with changes has indicator with red dot to differentiate with lines confirmed without changes.
+   When a PO line is confirmed with changes, approval request is sent to ION. To confirm a PO line with changes, Change the Conf Qty/ Conf Date/ Conf Price an click on confirm button. When Confirm with changes are done, PO Confirm approval request is sent to the buyer. The PO lines confirmed with changes has indicator with red dot to differentiate with lines confirmed without changes.
    
    <kbd><img alt="Confirming PO Line With Changes" src="../../images/usermanual/confirm-with-changes.png"></kbd>
    
@@ -266,26 +270,31 @@ Confirming a PO line can be done in two ways,
    
    <kbd><img alt="Confirming PO Line Rejection" src="../../images/usermanual/confirm-poline-reject.png"></kbd>
    
-   When PO line confirm quantity or date or price is modified, a text dialog box appears to add comments. User can add short notes to      track it further. The text box appears for each PO line. When there is no change in conf qty/date/price, the dialog box is not shown.
+   When PO line confirm quantity or date or price is modified, a text dialog box appears to add comments. User can add short notes to track it further. The text box appears for each PO line. When there is no change in conf qty/date/price, the dialog box is not shown.
    
    <kbd><img alt="Confirming PO Line Textbox" src="../../images/usermanual/confirm-poline-textbox.png"></kbd>
+   
+   On confirming a PO line with changes, buyer approval request with subject 'Confirm PO Request' is sent to the buyer.The buyer can review the changes and either select or reject the request. On succesful buyer approval, api call PPS001MI/ConfirmLine is made for the selected line of purchase order.
   
 - **Confirm without changes** :
 
-   To confrim a PO line without changes, keep the conf qty/ conf date/ conf price as same as the requested date/ price/ qty. When a PO      line is confirmed without changes, line is confirmed directly and no 'PO Confirm approval request' is not sent to the buyer.            Confirmed line without any changes has a plain green indicator. 
+   To confrim a PO line without changes, keep the conf qty/ conf date/ conf price as same as the requested date/ price/ qty. When a PO line is confirmed without changes, line is confirmed directly and no 'PO Confirm approval request' is not sent to the buyer. Confirmed line without any changes has a plain green indicator. 
 
    <kbd><img alt="Confirming PO Line Without Changes" src="../../images/usermanual/confirm-with-changes.png"></kbd>
    
-Apart from confirmed and rejected indicators, there is a **waiting**/**Processing** indicator applied to a PO line before it moves to    confirmed state.
+Apart from confirmed and rejected indicators, there is a **waiting**/**Processing** indicator applied to a PO line before it moves to confirmed state.
  
 <kbd><img alt="Confirming PO Line Waiting" src="../../images/usermanual/poline-waiting-indicator.png"></kbd>
  
+On confirming PO lines without changes, api call (either realtime or cron based on the backend configuration ) PPS001MI/ConfirmLine is made for all the selected lines.
 
 ### Confirm All Lines
 
 When Confirm All Lines is selected , all the purhase order lines in a PO is confirmed with same Confirmed Quantity/Price/Date as the Requested Quantity/Price/Date.
 
 <kbd><img alt="My Accounts" src="../../images/usermanual/confirm-all-lines.png"></kbd>
+
+On selecting Confirm All, api call (either realtime or cron based on the backend configuration ) PPS001MI/ConfirmAll is made for all the lines of the purchase order.
 
 ## New in this version
 ### Confirm Multiple POs
@@ -299,6 +308,7 @@ Additionally there is a 'Search PO' dropdown. Users can search order numbers and
 
 <kbd><img alt="confirm-multiple-po-dropdown" src="../../images/usermanual/confirm-multiple-pos-dropdown.png"></kbd>
 
+On selecting Confirm button, api call (either realtime or cron based on the backend configuration ) PPS001MI/ConfirmAll is made for all lines of the purchase orders selected in the dropdown.
 
 ## New in this version
 ## Reconfirm PO
@@ -327,7 +337,7 @@ For more information about process indicator changes refer version 1.0 of the Us
 
 The comments added during re-confirm can be seen below the PO line
 
-
+For re-confirmation of selected PO line/lines, the same api call PPS001MI/ConfirmLine or ConfirmAll  is made and the updated value of confirmed date CODT or confirmed quantity CFQA is sent in the input field. 
 
 
 ### Upload to IDM
@@ -370,6 +380,8 @@ Functionality is similar to Filter in **My Purchase Order** section. Refer [Filt
 ### Download as CSV
 
 Functionality is similar to Download as CSV in **My Purchase Order** section. Refer [Download as CSV](#download-as-csv).
+
+The forecast information is fetched from the MPOPLP table using ExportMI/select query. This information is fetched during the initial load of the supplier information.
 
 ### Enhancements
 
