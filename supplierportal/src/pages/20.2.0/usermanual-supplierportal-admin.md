@@ -278,7 +278,9 @@ The section provides control the Supplier registration approval from system or M
  **Enable Register Approval**
  
  When setting made to "Yes" the supplier registration approval will be send to M3 via workflow and approval process
- can be made in M3.It is set to "No" approval process can be made in Portal Admin.
+ can be made in M3.It is set to "No" approval process can be made in Portal Admin. The admin can directly enable the supplier as mentioned below 
+ 
+ Customers-> All customers-> (select the customer and edit) -> Account Information-> Enable the 'Allow Login'
 
 **Workflow Name**
 
