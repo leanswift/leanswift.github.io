@@ -33,12 +33,12 @@ This Add-on is used to Advise PO lines and should be used along with Supplier Po
 </kbd>
 
 ### Enable:
-If &quot;Yes&quot; is selected, Advise option is enabled.
+If &quot;Yes&quot; is selected, Advise/Advise All option is enabled in the frontend on selecting a purchase order.
 
-If &quot;No&quot; is selected, Advise option is disabled.
+If &quot;No&quot; is selected, Advise/Advise all option is disabled.
 
 ### Can Advise PO before confirm: 
-If &quot;Yes&quot; is selected, Advise PO can be done before Confirm PO.
+If &quot;Yes&quot; is selected, Advise PO can be done before Confirm PO (printed line/lines can be advised).
 
 If &quot;No&quot; is selected, Advise PO cannot be performed before Confirm PO is executed.
 
@@ -52,7 +52,7 @@ If &quot;Yes&quot; is selected, API calls will be made in real time. If &quot;No
 </kbd>
 
 ### Cron setting to send Advise PO requests to M3:
-Set an expression for CRON to send requests to M3 at fixed intervals
+Set an expression for CRON to send requests to M3 at fixed intervals. When the advise po cron runs, PPS001MI/AdviseLine or AdviseAll call will be made for all the purchase orders (lines) that has been advised within the time interval.
 
 <div align="right">
 <b>
@@ -63,20 +63,20 @@ Set an expression for CRON to send requests to M3 at fixed intervals
 
 # Notify
 
-This Add-on is used to Notify PO lines and has to be used along with Supplier Portal and Advise PO.
+This Add-on is used to Notify PO lines (Transport notification) and has to be used along with Supplier Portal and Advise PO. 
 
 <kbd>
 <img alt="Exit system" src="../../images/usermanual/notify_po_setting.png">
 </kbd>
 
 ### Enable:
-If &quot;Yes&quot; is selected, Notify option is enabled.
+If &quot;Yes&quot; is selected, Notify option is enabled in the frontend on selecting a purchase order.
 
 If &quot;No&quot; is selected, Notify option is disabled.
  
 
 ### Allow Notify Transportation before Advise:
-If &quot;Yes&quot; is selected, Notify PO can be done before advise.If &quot;No&quot; is selected, Notify PO cannot be done before advise.
+If &quot;Yes&quot; is selected, Notify PO can be done before advise.If &quot;No&quot; is selected, Notify PO cannot be done before advise. 
 
 When the above setting is No, POs which are in READY/PRINTED/ASN status i.e PO status less than 40 cannot be Notified.
 
@@ -95,7 +95,8 @@ If &quot;Yes&quot; is selected, API calls are processed realtime. If &quot;No&qu
 </kbd>
 
 ### Cron setting to send notify PO requests to M3:
-Set an expression for CRON to send requests to M3 at fixed intervals
+Set an expression for CRON to send requests to M3 at fixed intervals.  When the Notify po cron runs, PPS001MI/NotifyLine or NotifyAll call will be made for all the purchase orders (lines) that has been notified within the time interval.
+
 
 <div align="right">
 <b>
