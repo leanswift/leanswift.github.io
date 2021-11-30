@@ -63,7 +63,9 @@ Clicking on Advise, changes process indicator to &#39;Request is Processing&#39;
 <img alt="metrics display" src="../../images/usermanual/process-indicator-advise.png"> 
 </kbd>
 
-Once the line/lines are Advised, api call PPS001MI/AdviseLine is made for all the selected lines. When Advise All is selected, PPS001MI/AdviseAll api call is made for all the lines of the purchase order.
+Once the line/lines are Advised, api call PPS001MI/AdviseLine is made for all the selected lines. CONO (company), PUNO (purchase order number, PNLI (Purchase order line ), PNLS (purchase order subline), SUNO (supplier number),SMDT( Planned pickup date), SDDT (Suppliers departure date) must be sent in the API call from the portal. Others values such as FWRF(forwarding agent), BOLN (Bill of lading), SUDO (Supplier delivery note), CARN( carrier name ), ADQA (Advised quantity) should be sent if input values are available.
+
+When Advise All is selected, PPS001MI/AdviseAll api call is made for all the lines of the purchase order. CONO (company), PUNO (purchase order number), SUNO (supplier number),SMDT( Planned pickup date), SDDT (Suppliers departure date) must be sent in the API call from the portal. Others values such as FWRF(forwarding agent), BOLN (Bill of lading), SUDO (Supplier delivery note), CARN( carrier name ), ADQA (Advised quantity) should be sent if input values are available.
 
 Once the line/lines are Advised/Advised All, the process indicator is updated and the &#39;Advised Shipment&#39; icon is displayed along with all the information filled in the &#39;Advise Shipment&#39; window below each line.
 
@@ -175,7 +177,9 @@ Clicking on notify, changes process indicator to &#39;Request is Processing&#39;
 <img alt="metrics display" src="../../images/usermanual/notify-process-indicator.png"> 
 </kbd>
 
-Once the line/lines are Notified, api call PPS001MI/NotifyLine (realtime or cron execution) is made for selected lines of the purchase orders. When Notify All is selected, api call PPS001MI/NotifyALL (realtime or cron execution) is made for all the lines of the purchase order.
+Once the line/lines are Notified, api call PPS001MI/NotifyLine (realtime or cron execution) is made for selected lines of the purchase orders. CONO (company), PUNO (purchase order number, PNLI (Purchase order line ), PNLS (purchase order subline), SUNO (supplier number),SMDT( Carrier departure date), ARDT (Arrival date) must be sent in the API call from the portal. Others values such as FWRF(forwarding agent), BOLN (Bill of lading), SUDO (Supplier delivery note), CARN( carrier name ), ADQA (Advised quantity) should be sent if input values are available.
+
+When Notify All is selected, api call PPS001MI/NotifyALL (realtime or cron execution) is made for all the lines of the purchase order.CONO (company), PUNO (purchase order number, SUNO (supplier number),SMDT( Carrier departure date), ARDT (Arrival date) must be sent in the API call from the portal. Others values such as FWRF(forwarding agent), BOLN (Bill of lading), SUDO (Supplier delivery note), CARN( carrier name ), ADQA (Advised quantity) should be sent if input values are available.
 
 Once the line/lines are Notified/Notified All, the process indicator is updated and the &#39;Notified Transportation&#39; icon is displayed along with all the information filled in the &#39;Transport Notification&#39; window below each line.
 
@@ -239,7 +243,7 @@ On clicking, &quot;Notify&quot; button on top, &quot;Notify Transportation by&qu
 
 Note that all the above except &#39;Delivery Note Number&#39; are optional input attributes.
 
-User can enter the Delivery note number and click on Notify. This will notify all the lines with the given Delivery note number. On clicking Notify, api call (realtime or cron execution) PPS001MI/NotifyDelNot call is made for all the lines which has the selected delivery note number.
+User can enter the Delivery note number and click on Notify. This will notify all the lines with the given Delivery note number. On clicking Notify, api call (realtime or cron execution) PPS001MI/NotifyDelNot call is made for all the lines which has the selected delivery note number. CONO (company), SUDO (Supplier delivery note), SUNO (supplier number),SMDT( Carrier departure date), ARDT (Arrival date) must be sent in the API call from the portal. Others values such as FWRF(forwarding agent), BOLN (Bill of lading), , CARN( carrier name ), ADQA (Advised quantity) should be sent if input values are available.
 
 <div align="right">
 <b>
