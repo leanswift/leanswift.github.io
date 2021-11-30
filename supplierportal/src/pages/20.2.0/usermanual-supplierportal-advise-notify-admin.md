@@ -114,12 +114,12 @@ This Add-on is used to Notify POs using Delivery Note Number and has to be used 
 
 
 ### Enable : 
-If &quot;Yes&quot; is selected, Notify Transportation by delivery number is Enabled. 
+If &quot;Yes&quot; is selected, Notify Transportation by delivery number is enabled in the frontend on selecting the Notify (Delivery Note) available globally. 
 
 If &quot;No&quot; is selected, Notify Transportation by delivery number is Disabled.
 
 ### Realtime API call for notify PO:
-If &quot;Yes&quot; is selected, API calls are processed realtime. If &quot;No&quot; is selected, API calls are processed via CRON.
+If &quot;Yes&quot; is selected, API calls are processed realtime. If &quot;No&quot; is selected, API calls are processed via CRON. When Notify by delivery note cron is executed, PPS001MI/NotifyDelNot call is made for all the lines with given delivery note number.
 
 <kbd>
 <img alt="metrics display" src="../../images/usermanual/cron-notifyByDel-settings.png"> 
