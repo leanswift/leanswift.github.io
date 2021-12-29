@@ -2,14 +2,14 @@
 
 # **Highlight**
 
-- Customer price related cache issue on Product Detail Page is now resolved
+- Customer specific price related cache issue on Product Detail Page is now resolved
 
 
-# **Enhancements**
+# **New Features/Enhancements**
+ 
+- 'Additional Entity Attribute Mapping' feature now comes with the support of website scope
 
 - Delivery address chosen by the customers can be sent to M3 just by sending the Address Type and the Address ID(only if valid ID exists) via 'addBatchHead' transaction
- 
-- 'Additional Entity Attribute Mapping' feature comes with the support of website scope
 
 
 # **eConnect-base Compatibility**

@@ -39,16 +39,16 @@ All the standard functionalities of core eConnect are supported in v21.4.0, whic
 - Initial Load
 
 
-# **Highlight**
-
-- Customer price related cache issue on Product Detail Page is now resolved
-
-
-# **Enhancements**
+# **New Features/Enhancements**
+ 
+- 'Additional Entity Attribute Mapping' feature now comes with the support of website scope
 
 - Delivery address chosen by the customers can be sent to M3 just by sending the Address Type and the Address ID(only if valid ID exists) via 'addBatchHead' transaction
- 
-- 'Additional Entity Attribute Mapping' feature comes with the support of website scope
+
+
+# **Highlight**
+
+- Customer specific price related cache issue on Product Detail Page is now resolved
 
 
 # **eConnect-base Compatibility**
@@ -72,7 +72,7 @@ All the standard functionalities of core eConnect are supported in v21.4.0, whic
 
 - Order Status update issue when there are multiple stores is now resolved
 
-- Resolved the 'Order Comments appeared twice in the Order comments Histoy page' issue
+- Resolved the 'Order Comments appeared twice in the Order comments History page' issue
 
 - Order API CRON Job is getting scheduled and running successfully after renamed the JobCode 'leanswift_econnect_order_api'
 
@@ -94,11 +94,13 @@ All the standard functionalities of core eConnect are supported in v21.4.0, whic
 
 - Exception thrown on opening the Backend Configuration page due to the Sorting attribute in XML is now resolved
 
+
 # **Point of Contact**
 
 - [prabhu.mano@leanswift.com](mailto:prabhu.mano@leanswift.com)
 - [nanthini.muralidaran@leanswift.com](mailto:nanthini.muralidaran@leanswift.com)
 - [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@leanswift.com)
+- [narayanan.gurusamy@leanswift.com](mailto:narayanan.gurusamy@leanswift.com)
 
 
 
