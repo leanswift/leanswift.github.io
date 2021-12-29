@@ -17,7 +17,7 @@ Additional Entity Attribute Mapping now provides the options to choose the websi
 To update the delivery address for the orders, now we are sending ADID and ADRT field will be send via ‘AddBatchHead’ transaction. Also, ADRT Value will always be 1 since we are using it for shipping/delivery address. These will be passed via 'addBatchHead' only if it satifies the below conditions.
 
 If the below setting is set to ‘Yes’
-![ADID via AddBatchHead](../../../../econnect-user-manual-ion-part1/adid-via-addbatchhead.jpg)
+![ADID via AddBatchHead](../../../../ecommerce/images/econnect-user-manual-ion-part1/adid-via-addbatchhead.png)
 
 
 If the delivery/shipping/drop address chosen by the customer will have ADID value.
