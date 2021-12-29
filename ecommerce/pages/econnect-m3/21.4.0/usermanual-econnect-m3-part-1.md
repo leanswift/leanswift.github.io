@@ -6,13 +6,13 @@
 
 - [New in This verison](#new-in-this-verison)
 
-### New in This verison
+## New in This verison
 
-#### Additional Entity Attribute Mapping Website Scope
+### Additional Entity Attribute Mapping Website Scope
 
 	Additional Entity Attribute Mapping now provides the options to choose the websites for which the additional API call should run. Also, we can enable or disable the entries and based on that the API Calls will be made.
 
-#### ADID(Shipping) via addBatchHead transaction
+### ADID(Shipping) via addBatchHead transaction
 
 	To update the delivery address for the orders, now we are sending ADID and ADRT field will be send via ‘AddBatchHead’ transaction. Also, ADRT Value will always be 1 since we are using it for shipping/delivery address. These will be passed via 'addBatchHead' only if it satifies the below conditions.
 
