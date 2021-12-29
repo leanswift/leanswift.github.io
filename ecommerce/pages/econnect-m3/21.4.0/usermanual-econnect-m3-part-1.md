@@ -4,9 +4,10 @@
 
 # Table of contents
 
-- [New in This verison](#new-in-this-verison)
+- [New in this version](#new-in-this-version)
 
-## New in This verison
+
+## New in this version
 
 ### Additional Entity Attribute Mapping Website Scope
 
