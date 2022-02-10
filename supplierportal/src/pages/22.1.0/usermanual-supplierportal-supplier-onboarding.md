@@ -30,27 +30,40 @@ To onboard a new supplier, admin user will send invite to supplier usgin his ema
 Navigate to LeanSwift->Supplier Portal->Supplier Invite.
 
 <kbd>
-<kbd><img alt="CustomerPortal_Architecture" src="../../../images/customer-portal/front-end-user/CustomerPortal_Architecture.jpg"></kbd>
+<kbd><img alt="Supplier_Invite" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SuuplierInvite.png"></kbd>
+</kbd>
+ 
+ 
+<kbd>
+<kbd><img alt="Addnewsupplier" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/AddNewSupplier.png"></kbd>
 </kbd>
 
-Image
-
-Image
-
+ 
 Click Add New Supplier Invite and supplier Invite form will be displayed.
 
-Image
+
+<kbd>
+<kbd><img alt="InviteForm" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierInviteForm.png"></kbd>
+</kbd>
+
 
 Enter new Supplier First Name, Supplier Last Name and Supplier Email. Select Associate to Website and Send Welcome Email from the listed drop-down values.
 M3 Supplier Template lists the existing supplier template from M3 based on which new supplier is created. Drop-down values can be configured in supplier onboarding under Supplier settings.
 
 Click Save and Invite. Invite is sent to the supplier email and supplier list is created with status Invitation sent successfully.
 
-Image
+
+<kbd>
+<kbd><img alt="InvitationSent" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/InvitationSent.png"></kbd>
+</kbd>
+
 
 Supplier Invite list can be searched using different filters. When portal fails to send invite mail to customer then status changes to Invitation sent failed.
 
-Image
+
+<kbd>
+<kbd><img alt="SupplierFilter" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierFilters.png"></kbd>
+</kbd>
 
 <div align="right">
 <b>
