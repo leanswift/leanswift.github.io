@@ -21,6 +21,7 @@
 
 Supplier Onboarding feature enables user to create new supplier account from Supplier Portal itself
 
+<div id = "Supplier Invite"> </div> 
 
 ## Supplier Invite
 
@@ -52,6 +53,8 @@ Image
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
+<div id = "Supplier Account Creation"> </div> 
 
 ## Supplier Account Creation
 
@@ -87,6 +90,8 @@ Image
 </b>
 </div>
 
+<div id = "Supplier Onboarding Configuration"> </div> 
+
 ## Supplier Onboarding Configuration
 
 My Information form field values can be configured under Supplier Onboarding in Supplier Configuration settings.
@@ -111,6 +116,8 @@ Selected Dropdown values for M3 Language List, M3 Order Currency List, M3 Paymen
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
+<div id = "My Documents Task"> </div> 
 
 ## My Documents Task
 
