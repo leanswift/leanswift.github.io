@@ -77,29 +77,60 @@ Supplier Invite list can be searched using different filters. When portal fails 
 
 Supplier will receive invite mail as below to create account and open the create supplier account link.
 
-Image
+
+<kbd>
+<kbd><img alt="InviteMail" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/InviteSent.png"></kbd>
+</kbd>
+
 
 Enter Strong Password (combination of alphanumeric and special characters) and click Set a New Password.
+
+
+<kbd>
+<kbd><img alt="SetPassword" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SetPassword.png"></kbd>
+</kbd>
+
+
 Page will be redirected to supplier user portal website based on website chosen to send invite with status as You updated your password. Enter your supplier mail id and password to Sign In
 
-Image
+
+<kbd>
+<kbd><img alt="Updatepassword" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/UpdatePassword.png"></kbd>
+</kbd>
+
 
 When supplier set password and signed in then status will change to Customer Created Successfully in supplier invite list table.
 
-Image
+
+<kbd>
+<kbd><img alt="Created" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/CustomerCreated.png"></kbd>
+</kbd>
+
 
 Initially Supplier can view only My Information tab with form to be submitted with all required information as below.
 
-Image
+
+<kbd>
+<kbd><img alt="MyInformation" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyInformation.png"></kbd>
+</kbd>
+
 
 You can add up to three references.
+
 Clicking on Submit button brings a confirm popup when you submit the information.
 
-Image
+
+<kbd>
+<kbd><img alt="InformationPopup" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/InformationPopup.png"></kbd>
+</kbd>
+
 
 After submitting My Information form, supplier status will be changed to Supplier Mapped to Customer status in Supplier Invite list table.
 
-Image
+
+<kbd>
+<kbd><img alt="SupplierMapped" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierMappedtoCustomer.png"></kbd>
+</kbd>
 
 <div align="right">
 <b>
