@@ -15,7 +15,7 @@
 
 # User Manual - Supplier Onboarding
 
-<div id = "Overview"> </div> 
+<div id = "Supplier Onboarding"> </div> 
 
 # Supplier Onboarding
 
