@@ -146,7 +146,11 @@ My Information form field values can be configured under Supplier Onboarding in 
 
 Navigate to LeanSwift->Supplier Portal->Settings and switch to Multi Website Scope configuration.
 
-Image
+
+<kbd>
+<kbd><img alt="SupplierOnboard" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierOnboarding.png"></kbd>
+</kbd>
+
 
 M3 Supplier Template - Existing supplier template from M3 can be configured with comma separated values.
 
@@ -171,46 +175,70 @@ Selected Dropdown values for M3 Language List, M3 Order Currency List, M3 Paymen
 
 Supplier can view My Documents tab after submitting the onboarding information.
 
-Image
+<kbd>
+<kbd><img alt="Mydocs" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyDocuments.png"></kbd>
+</kbd>
 
 Task to be completed will be triggered and this can be viewed by clicking checkbox icon next to bell icon notification.
 
 The list of tasks available is based on the workflow created in ION.
 
-Image
+<kbd>
+<kbd><img alt="MyTask" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyTask.png"></kbd>
+</kbd>
 
 Upload Documents for assigned tasks with document name and click Mark Complete for the respective task.
 
-Image
+<kbd>
+<kbd><img alt="TaxUploaded" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxCertificateUpload.png"></kbd>
+</kbd>
 
 Approval Task will be generated in M3 for Information submitted by supplier and Document uploads.
 
-Image
+<kbd>
+<kbd><img alt="MyTasksM3" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyTasksM3.png"></kbd>
+</kbd>
 
 M3 Admin will review supplier information submitted and can add notes if any changes required.
 
-Image
+<kbd>
+<kbd><img alt="SupplierApp1" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval1.png"></kbd>
+</kbd>
 
-Image
+<kbd>
+<kbd><img alt="SupplierApp2" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval2.png"></kbd>
+</kbd>
 
-Image
+<kbd>
+<kbd><img alt="TaxuploadM3" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxuploadedM3.png"></kbd>
+</kbd>
 
-Image
+<kbd>
+<kbd><img alt="Taxsavenotes" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxCertificateSave.png"></kbd>
+</kbd>
 
 Bell Icon Notification will be triggered in portal for Task notes updated in M3 and cron is configured to get task notes from M3.
 
-Image
+<kbd>
+<kbd><img alt="NotesCron" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/NotesCron.png"></kbd>
+</kbd>
 
-Image
+<kbd>
+<kbd><img alt="TaskNotify" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaskNoteNotification.png"></kbd>
+</kbd>
 
 As and when tasks are approved in M3, the task will also be removed for the user in frontend portal
 Once all tasks are approved at M3, supplier will get access to all supplier portal features and notification will be triggered as below.
 
-Image
+<kbd>
+<kbd><img alt="Activated" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierActivatedNotification.png"></kbd>
+</kbd>
 
 Now that supplier account is activated, the new supplier can perform all the functionalities available in the supplier portal.
 
-Image
+<kbd>
+<kbd><img alt="SupplierHome" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierHomePage.png"></kbd>
+</kbd>
 
 <div align="right">
 <b>
