@@ -29,6 +29,10 @@ To onboard a new supplier, admin user will send invite to supplier usgin his ema
 
 Navigate to LeanSwift->Supplier Portal->Supplier Invite.
 
+<kbd>
+<kbd><img alt="CustomerPortal_Architecture" src="../../../images/customer-portal/front-end-user/CustomerPortal_Architecture.jpg"></kbd>
+</kbd>
+
 Image
 
 Image
