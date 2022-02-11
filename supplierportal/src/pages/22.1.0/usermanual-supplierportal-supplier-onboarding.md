@@ -25,9 +25,10 @@ Supplier Onboarding feature enables user to create new supplier account from Sup
 
 ## Supplier Invite
 
-To onboard a new supplier, admin user will send invite to supplier usgin his email id. Invite list can be viewed in admin.
+To onboard a new supplier, admin user will send invite to supplier using his email id. Invite list can be viewed in admin portal.
 
 Navigate to LeanSwift->Supplier Portal->Supplier Invite.
+
 
 <kbd>
 <kbd><img alt="Supplier_Invite" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SuuplierInvite.png"></kbd>
@@ -39,7 +40,7 @@ Navigate to LeanSwift->Supplier Portal->Supplier Invite.
 </kbd>
 
  
-Click Add New Supplier Invite and supplier Invite form will be displayed.
+Click **Add New Supplier** Invite and supplier Invite form will be displayed.
 
 
 <kbd>
@@ -47,10 +48,10 @@ Click Add New Supplier Invite and supplier Invite form will be displayed.
 </kbd>
 
 
-Enter new Supplier First Name, Supplier Last Name and Supplier Email. Select Associate to Website and Send Welcome Email from the listed drop-down values.
-M3 Supplier Template lists the existing supplier template from M3 based on which new supplier is created. Drop-down values can be configured in supplier onboarding under Supplier settings.
+Enter new **Supplier First Name, Supplier Last Name and Supplier Email**. Select **Associate to Website and Send Welcome Email** from the listed drop-down values.
+**M3 Supplier Template** lists the existing supplier template from M3 based on which new supplier is created. Drop-down values can be configured in supplier onboarding under Supplier settings.
 
-Click Save and Invite. Invite is sent to the supplier email and supplier list is created with status Invitation sent successfully.
+Click **Save and Invite**. Invite is sent to the supplier email and supplier list is created with status **Invitation sent successfully**.
 
 
 <kbd>
@@ -58,12 +59,13 @@ Click Save and Invite. Invite is sent to the supplier email and supplier list is
 </kbd>
 
 
-Supplier Invite list can be searched using different filters. When portal fails to send invite mail to customer then status changes to Invitation sent failed.
+Supplier Invite list can be searched using different filters. When portal fails to send invite mail to customer then status changes to **Invitation sent failed**.
 
 
 <kbd>
 <kbd><img alt="SupplierFilter" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierFilters.png"></kbd>
 </kbd>
+
 
 <div align="right">
 <b>
@@ -83,7 +85,7 @@ Supplier will receive invite mail as below to create account and open the create
 </kbd>
 
 
-Enter Strong Password (combination of alphanumeric and special characters) and click Set a New Password.
+Enter Strong Password (combination of alphanumeric and special characters) and click **Set a New Password**.
 
 
 <kbd>
@@ -91,7 +93,7 @@ Enter Strong Password (combination of alphanumeric and special characters) and c
 </kbd>
 
 
-Page will be redirected to supplier user portal website based on website chosen to send invite with status as You updated your password. Enter your supplier mail id and password to Sign In
+Page will be redirected to supplier user portal website based on website chosen to send invite with status as **You updated your password**. Enter your supplier mail id and password to **Sign In**
 
 
 <kbd>
@@ -99,7 +101,7 @@ Page will be redirected to supplier user portal website based on website chosen 
 </kbd>
 
 
-When supplier set password and signed in then status will change to Customer Created Successfully in supplier invite list table.
+When supplier set password and signed in then status will change to **Customer Created Successfully ** in supplier invite list table.
 
 
 <kbd>
@@ -107,7 +109,7 @@ When supplier set password and signed in then status will change to Customer Cre
 </kbd>
 
 
-Initially Supplier can view only My Information tab with form to be submitted with all required information as below.
+Initially Supplier can view only **My Information** tab with form to be submitted with all required information as below.
 
 
 <kbd>
@@ -131,20 +133,24 @@ M3 Admin will get supplier onboarding task to review supplier information submit
 <kbd><img alt="MyTasksM3" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyTasksM3.png"></kbd>
 </kbd>
 
+
 <kbd>
 <kbd><img alt="SupplierApp1" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval1.png"></kbd>
 </kbd>
+
 
 <kbd>
 <kbd><img alt="SupplierApp2" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval2.png"></kbd>
 </kbd>
 
 
-When M3 Admin approved Supplier Onboarding task, supplier status will be changed to Supplier Mapped  to Customer status in Supplier Invite list table.
+When M3 Admin approved Supplier Onboarding task, supplier status will be changed to **Supplier Mapped  to Customer** status in Supplier Invite list table.
+
 
 <kbd>
 <kbd><img alt="SupplierMapped" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierMappedtoCustomer.png"></kbd>
 </kbd>
+
 
 <div align="right">
 <b>
@@ -156,9 +162,9 @@ When M3 Admin approved Supplier Onboarding task, supplier status will be changed
 
 ## Supplier Onboarding Configuration
 
-My Information form field values can be configured under Supplier Onboarding in Supplier Configuration settings.
+My Information form field values can be configured under **Supplier Onboarding** in Supplier Configuration settings.
 
-Navigate to LeanSwift->Supplier Portal->Settings and switch to Multi Website Scope configuration.
+Navigate to **LeanSwift->Supplier Portal->Settings** and switch to Multi Website Scope configuration.
 
 
 <kbd>
@@ -166,15 +172,15 @@ Navigate to LeanSwift->Supplier Portal->Settings and switch to Multi Website Sco
 </kbd>
 
 
-M3 Supplier Template - Existing supplier template from M3 can be configured with comma separated values.
+**M3 Supplier Template** - Existing supplier template from M3 can be configured with comma separated values.
 
-M3 Supplier Prefix – New supplier ID will be created with configured prefix value
+**M3 Supplier Prefix** – New supplier ID will be created with configured prefix value
 
-Workflow Name – Give ION workflow Name used for supplier Onboarding
+**Workflow Name** – Give ION workflow Name used for supplier Onboarding
 
-Fetch Configuration – This will fetch M3 Configuration fields with dropdown values.
+**Fetch Configuration** – This will fetch M3 Configuration fields with dropdown values.
 
-Selected Dropdown values for M3 Language List, M3 Order Currency List, M3 Payment Terms, M3 Freight Terms, M3 Delivery Terms List and M3 Payment Method will be prepopulated in My Information form as default values. These values can be changed by supplier before submitting.
+Selected Dropdown values for **M3 Language List**, **M3 Order Currency List**, **M3 Payment Terms**, **M3 Freight Terms**, **M3 Delivery Terms List** and **M3 Payment Method** will be prepopulated in My Information form as default values. These values can be changed by supplier before submitting.
 
 
 <div align="right">
@@ -187,61 +193,77 @@ Selected Dropdown values for M3 Language List, M3 Order Currency List, M3 Paymen
 
 ## My Documents Task
 
-Supplier can view My Documents tab after submitting the onboarding information.
+Supplier can view **My Documents** tab after submitting the onboarding information.
+
 
 <kbd>
 <kbd><img alt="Mydocs" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyDocuments.png"></kbd>
 </kbd>
 
+
 Task to be completed will be triggered and this can be viewed by clicking checkbox icon next to bell icon notification.
 
 The list of tasks available is based on the workflow created in ION.
+
 
 <kbd>
 <kbd><img alt="MyTask" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyTask.png"></kbd>
 </kbd>
 
-Upload Documents for assigned tasks with document name and click Mark Complete for the respective task.
+
+Upload Documents for assigned tasks with document name and click **Mark Complete** for the respective task.
+
 
 <kbd>
 <kbd><img alt="TaxUploaded" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxCertificateUpload.png"></kbd>
 </kbd>
 
+
 Approval Task will be generated in M3 for document uploaded by supplier.
 
 M3 Admin will review all documents tasks submitted and can add notes if any changes required.
+
 
 <kbd>
 <kbd><img alt="TaxuploadM3" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxuploadedM3.png"></kbd>
 </kbd>
 
+
 <kbd>
 <kbd><img alt="Taxsavenotes" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxCertificateSave.png"></kbd>
 </kbd>
 
+
 Bell Icon Notification will be triggered in portal for Task notes updated in M3 and cron is configured to get task notes from M3.
+
 
 <kbd>
 <kbd><img alt="NotesCron" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/NotesCron.png"></kbd>
 </kbd>
 
+
 <kbd>
 <kbd><img alt="TaskNotify" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaskNoteNotification.png"></kbd>
 </kbd>
+
 
 As and when tasks are approved in M3, the task will also be removed for the user in frontend portal.
 
 Once all tasks are approved at M3, supplier will get access to all supplier portal features and notification will be triggered as below.
 
+
 <kbd>
 <kbd><img alt="Activated" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierActivatedNotification.png"></kbd>
 </kbd>
 
+
 Now that supplier account is activated, the new supplier can perform all the functionalities available in the supplier portal.
+
 
 <kbd>
 <kbd><img alt="SupplierHome" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierHomePage.png"></kbd>
 </kbd>
+
 
 <div align="right">
 <b>
