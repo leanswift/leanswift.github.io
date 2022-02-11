@@ -6,7 +6,7 @@
 
 <div id=toc></div>
 
-- [Supplier Onboarding](#supplier_onboarding)
+- [Supplier Onboarding](#Supplier_Onboarding)
  	- [Supplier Invite](#Supplier_Invite)	 
   - [Supplier Account Creation](#Supplier_Account_Creation)	 
   - [Supplier Onboarding Configuration](#Supplier_Onboarding_Configuration)
