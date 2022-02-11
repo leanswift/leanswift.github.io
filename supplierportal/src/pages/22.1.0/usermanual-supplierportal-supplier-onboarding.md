@@ -6,11 +6,11 @@
 
 <div id=toc></div>
 
-- [Supplier Onboarding](#Supplier_Onboarding)
- 	- [Supplier Invite](#Supplier_Invite)	 
-  - [Supplier Account Creation](#Supplier_Account_Creation)	 
-  - [Supplier Onboarding Configuration](#Supplier_Onboarding_Configuration)
-  - [My Documents Task](#My_Documents_Task)
+- [Supplier Onboarding](#supplier_onboarding)
+ 	- [Supplier Invite](#supplier_invite)	 
+  - [Supplier Account Creation](#supplier_account_creation)	 
+  - [Supplier Onboarding Configuration](#supplier_onboarding_configuration)
+  - [My Documents Task](#my_documents_task)
 
 
 # User Manual - Supplier Onboarding
