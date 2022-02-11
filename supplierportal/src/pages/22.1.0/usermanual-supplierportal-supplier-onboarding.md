@@ -1,4 +1,4 @@
-
+![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
 # Version 22.1.0 - User Manual - Supplier Onboarding
 
@@ -181,7 +181,6 @@ Navigate to **LeanSwift->Supplier Portal->Settings** and switch to Multi Website
 **Fetch Configuration** – This will fetch M3 Configuration fields with dropdown values.
 
 Selected Dropdown values for **M3 Language List**, **M3 Order Currency List**, **M3 Payment Terms**, **M3 Freight Terms**, **M3 Delivery Terms List** and **M3 Payment Method** will be prepopulated in My Information form as default values. These values can be changed by supplier before submitting.
-
 
 <div align="right">
 <b>
