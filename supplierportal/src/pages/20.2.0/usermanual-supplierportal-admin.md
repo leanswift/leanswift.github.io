@@ -43,6 +43,7 @@ To view the user manual for Portal Users click [here](usermanual-supplierportal-
       - [Filter and Search](#filter-and-search)
         - [Purchaseorder Filter Mapping](#purchaseorder-filter-mapping)
         - [Forecast Filter Mapping](#forecast-filter-mapping)
+    - [Supplier Invite](#supplier-invite)
     - [Exit System](#exit-system)
   - [Additional Functionality](#additional-functionality)
     - [IDM](#idm)
