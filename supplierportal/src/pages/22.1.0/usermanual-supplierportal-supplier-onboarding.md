@@ -125,8 +125,22 @@ Clicking on Submit button brings a confirm popup when you submit the information
 </kbd>
 
 
-After submitting My Information form, supplier status will be changed to Supplier Mapped to Customer status in Supplier Invite list table.
+M3 Admin will get supplier onboarding task to review supplier information submitted and can add notes if any changes required.
 
+<kbd>
+<kbd><img alt="MyTasksM3" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyTasksM3.png"></kbd>
+</kbd>
+
+<kbd>
+<kbd><img alt="SupplierApp1" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval1.png"></kbd>
+</kbd>
+
+<kbd>
+<kbd><img alt="SupplierApp2" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval2.png"></kbd>
+</kbd>
+
+
+When M3 Admin approved Supplier Onboarding task, supplier status will be changed to Supplier Mapped  to Customer status in Supplier Invite list table.
 
 <kbd>
 <kbd><img alt="SupplierMapped" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierMappedtoCustomer.png"></kbd>
@@ -193,21 +207,9 @@ Upload Documents for assigned tasks with document name and click Mark Complete f
 <kbd><img alt="TaxUploaded" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxCertificateUpload.png"></kbd>
 </kbd>
 
-Approval Task will be generated in M3 for Information submitted by supplier and Document uploads.
+Approval Task will be generated in M3 for document uploaded by supplier.
 
-<kbd>
-<kbd><img alt="MyTasksM3" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyTasksM3.png"></kbd>
-</kbd>
-
-M3 Admin will review supplier information submitted and can add notes if any changes required.
-
-<kbd>
-<kbd><img alt="SupplierApp1" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval1.png"></kbd>
-</kbd>
-
-<kbd>
-<kbd><img alt="SupplierApp2" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval2.png"></kbd>
-</kbd>
+M3 Admin will review all documents tasks submitted and can add notes if any changes required.
 
 <kbd>
 <kbd><img alt="TaxuploadM3" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxuploadedM3.png"></kbd>
@@ -227,7 +229,8 @@ Bell Icon Notification will be triggered in portal for Task notes updated in M3 
 <kbd><img alt="TaskNotify" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaskNoteNotification.png"></kbd>
 </kbd>
 
-As and when tasks are approved in M3, the task will also be removed for the user in frontend portal
+As and when tasks are approved in M3, the task will also be removed for the user in frontend portal.
+
 Once all tasks are approved at M3, supplier will get access to all supplier portal features and notification will be triggered as below.
 
 <kbd>
