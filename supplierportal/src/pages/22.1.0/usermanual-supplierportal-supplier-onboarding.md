@@ -200,7 +200,7 @@ Supplier can view **My Documents** tab after submitting the onboarding informati
 </kbd>
 
 
-Task to be completed will be triggered and this can be viewed by clicking checkbox icon next to bell icon notification.
+Task to be completed will be triggered based on the workflow configuration and this can be viewed by clicking checkbox icon next to bell icon notification.
 
 The list of tasks available is based on the workflow created in ION.
 
