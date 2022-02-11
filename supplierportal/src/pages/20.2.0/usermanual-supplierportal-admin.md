@@ -612,6 +612,10 @@ The section contains the filter limit, filter label mapping for the filter attri
 </b>
 </div>
 
+### Supplier Invite
+
+To view the user manual for Supplier Onboarding click here.
+
 ### Exit System
 
 Log out from Magento admin using the link at the top right.
