@@ -19,7 +19,7 @@
 
 # Supplier Onboarding
 
-Supplier Onboarding feature enables user to create new supplier account from Supplier Portal itself
+Supplier Onboarding feature enables user to create new supplier account from Supplier Portal itself.
 
 <div id = "Supplier Invite"> </div> 
 
