@@ -4,8 +4,8 @@
 
 ## Table of contents
   - [22.1.0](#2210)
-    - [Features:](#features)
-    - [Enhancements:](#enhancement)
+    - [Features](#features)
+    - [Enhancements](#enhancement)
   - [21.1.0](#2110)
     - [Features:](#features)
   - [20.2.0](#2020)
@@ -21,13 +21,13 @@
 
 ## 22.1.0
 
-### Features :
+### Features
 
 - **Supplier Onboarding**
   
     For new feature mention like this: Supplier portal onboarding allows supplier creation from portal itself. New supplier account is created using the invite sent by admin to     his email account.
     
-### Enhancements :
+### Enhancements
   
  -  Supplier Portal supports MultiWebsite Scope
   
