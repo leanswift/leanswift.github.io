@@ -25,7 +25,7 @@
 
 - **Supplier Onboarding**
   
-    For new feature mention like this: Supplier portal onboarding allows supplier creation from portal itself. New supplier account is created using the invite sent by admin to     his email account.
+    Supplier portal onboarding allows supplier creation from portal itself. New supplier account is created using the invite sent by admin to     his email account.
     
 ### Enhancements
   
