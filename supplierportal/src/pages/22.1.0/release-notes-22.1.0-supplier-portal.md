@@ -50,15 +50,15 @@
 
 ## **Standard Features**
 
-This version includes all the standard features from 21.1.0 as mentioned below:
+This version includes all the standard features from **21.1.0** as mentioned below:
 
 **Account**
 
-Registration and Login
+- Registration and Login
 
-View Supplier Information
+- View Supplier Information
 
-User Date Format Setting
+- User Date Format Setting
 
 **Purchase Orders**
 
@@ -122,17 +122,17 @@ This Add-on is to configure the allowed number of Registrations (supplier admin 
 
 **Purchase Proposals/Forecasts**
 
-View Purchase Forecasts
+- View Purchase Forecasts
 
-Search/Filter/Sort on Purchase Forecasts
+- Search/Filter/Sort on Purchase Forecasts
 
 **Performance Metrics**
 
-View Quality metrics based on rejected quantity
+- View Quality metrics based on rejected quantity
 
-View Delivery Performance metrics
+- View Delivery Performance metrics
 
-View Purchase Price Variance metrics
+- View Purchase Price Variance metrics
 
 
 ## **New Features**
