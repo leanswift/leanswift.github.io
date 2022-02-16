@@ -43,6 +43,7 @@ To view the user manual for Portal Users click [here](usermanual-supplierportal-
       - [Filter and Search](#filter-and-search)
         - [Purchaseorder Filter Mapping](#purchaseorder-filter-mapping)
         - [Forecast Filter Mapping](#forecast-filter-mapping)
+    - [Supplier Invite](#supplier-invite)
     - [Exit System](#exit-system)
   - [Additional Functionality](#additional-functionality)
     - [IDM](#idm)
@@ -610,6 +611,10 @@ The section contains the filter limit, filter label mapping for the filter attri
  <a href="#table-of-contents">↥ Go to Top</a>
 </b>
 </div>
+
+### Supplier Invite
+
+To view the user manual for Supplier Onboarding click [here](https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/pages/22.1.0/usermanual-supplierportal-supplier-onboarding.md).
 
 ### Exit System
 

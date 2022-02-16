@@ -3,6 +3,10 @@
 # Supplier Portal-Net Change Report
 
 ## Table of contents
+  - [22.1.0](#2210)
+    - [Features](#features)
+    - [Enhancements](#enhancement)
+    - [Fixes](#fixes)
   - [21.1.0](#2110)
     - [Features:](#features)
   - [20.2.0](#2020)
@@ -16,6 +20,60 @@
     - [Features:](#features)
 #
 
+## 22.1.0
+
+### Features
+
+- **Supplier Onboarding**
+  
+    Supplier portal onboarding allows supplier creation from portal itself. New supplier account is created using the invite sent by admin to     his email account.
+    
+### Enhancements
+  
+ -  Supplier Portal supports MultiWebsite Scope
+
+### Fixes
+
+- Duplicate Mail and BOD validation issue are resolved when Supplier Registration Request is Approved or Rejected
+- Global Notify Dialog Box Button issue is fixed.
+- Terms and Conditions/ Privacy Policy link issue is fixed when supplier is logged in.
+- Download as CSV file issue for Purchase Orders and Forecast orders is resolved.
+- Email and Consolidated Notification issues for new and updated Purchase orders/Forecasts are fixed.
+- IDM Download functionality issue is resolved for My Purchase Orders and My Documents.
+- Process indicator for Multiple Confirm/Advise/Notify PO’s has been fixed.
+- Notify PO By Delivery Note issue is resolved.
+- Added validation When PO with Zero quantity is Confirmed, Advised and Notified.
+- Address and Buyer Info sync with new supplier registration is fixed.
+- Advise and Notify Information retrieval from M3 is fixed.
+- Added validation when confirmed PO is reconfirmed without changes.
+- Resolved status update on PO when Confirm PO request is rejected from M3.
+- Decimal value validation is added for Purchase order price.
+- Supplier Address update from M3 issue is resolved.
+- Added fix for Supplier portal upgrade issue on loading existing data
+- My Deliveries Search Filter issue is fixed.
+- Performance Metrics Page report generation issue is resolved.
+- Bell Notification now displays characters close to 5000.
+- Added code fix to fetch Invoice based on company configured.
+- Forecast order data retrieval issues is resolved.
+- Added case sensitive validation for Supplier Number field in Registration.
+- Confirm, Advise and Notify Multiple PO via Cron issue is fixed.
+- My Invoice data retrieval from M3 issue is fixed.
+- Advise and Notify PO line processing update issue fixed.
+- Data Validation added for Advise and Notify Cron for existing Purchase orders.
+- Fixed cron issue in IDM module.
+- Bell Notification is now mapped correctly to Main and Subaccount users.
+- Updated Bell Notification’s refresh rate.
+- Data retrieval issue for supplier information and Purchase order is fixed.
+- Email Theme issue is fixed.
+- Global Advise and Notify settings now works as per configuration.
+- Data Validation is added for Confirm PO with changes.
+- Invoice Cron issue is fixed.
+- Show Document Upload option issue in admin configuration is fixed.
+- Show Notification issue in admin configuration is fixed.
+- Date Format issue in My Settings page is resolved.
+- Issues on running Forecast cron are fixed.
+- Cron expression path for delivery and invoices is fixed.
+  
 ## 21.1.0
 
 ### Features :
