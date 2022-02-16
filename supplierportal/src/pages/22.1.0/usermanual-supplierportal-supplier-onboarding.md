@@ -162,9 +162,9 @@ When M3 Admin approved Supplier Onboarding task, supplier status will be changed
 
 ## Supplier Onboarding Configuration
 
-My Information form field values can be configured under **Supplier Onboarding** in Supplier Configuration settings.
+My Information form field values can be configured under **Supplier Onboarding** in Supplier Configuration settings.Fields can be configured at website level.
 
-Navigate to **LeanSwift->Supplier Portal->Settings** and switch to Multi Website Scope configuration.
+Navigate to **LeanSwift->Supplier Portal->Settings** and switch to Multi Website Scope configuration. 
 
 
 <kbd>
