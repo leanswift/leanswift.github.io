@@ -5,7 +5,7 @@
 ## Table of contents
   - [22.1.0](#2210)
     - [Features:](#features)
-    - [Enhancement:](#enhancement)
+    - [Enhancements:](#enhancement)
   - [21.1.0](#2110)
     - [Features:](#features)
   - [20.2.0](#2020)
@@ -29,7 +29,7 @@
     
 ### Enhancements :
   
-    Supplier Portal supports MultiWebsite Scope
+ -  Supplier Portal supports MultiWebsite Scope
   
 ## 21.1.0
 
