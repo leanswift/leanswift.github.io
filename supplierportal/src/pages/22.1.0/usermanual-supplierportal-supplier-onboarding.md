@@ -162,6 +162,12 @@ When M3 Admin approved Supplier Onboarding task, supplier status will be changed
 
 ## Supplier Onboarding Configuration
 
+Navigate to **LeanSwift->Supplier Portal->Settings** and configure ION Mingle connection Url's as below.
+
+<kbd>
+<kbd><img alt="SupplierOnboardMingle" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplieronboardingMingle.png"></kbd>
+</kbd>
+
 My Information form field values can be configured under **Supplier Onboarding** in Supplier Configuration settings.Fields can be configured at website level.
 
 Navigate to **LeanSwift->Supplier Portal->Settings** and switch to Multi Website Scope configuration. 
