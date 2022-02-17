@@ -31,12 +31,12 @@ Navigate to LeanSwift->Supplier Portal->Supplier Invite.
 
 
 <kbd>
-<kbd><img alt="Supplier_Invite" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SuuplierInvite.png"></kbd>
+<kbd><img alt="Supplier_Invite" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SuuplierInvite.png"></kbd>
 </kbd>
- 
+
  
 <kbd>
-<kbd><img alt="Addnewsupplier" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/AddNewSupplier.png"></kbd>
+<kbd><img alt="Addnewsupplier" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/AddNewSupplier.png"></kbd>
 </kbd>
 
  
@@ -44,7 +44,7 @@ Click **Add New Supplier** Invite and supplier Invite form will be displayed.
 
 
 <kbd>
-<kbd><img alt="InviteForm" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierInviteForm.png"></kbd>
+<kbd><img alt="InviteForm" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierInviteForm.png"></kbd>
 </kbd>
 
 
@@ -55,7 +55,7 @@ Click **Save and Invite**. Invite is sent to the supplier email and supplier lis
 
 
 <kbd>
-<kbd><img alt="InvitationSent" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/InvitationSent.png"></kbd>
+<kbd><img alt="InvitationSent" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/InvitationSent.png"></kbd>
 </kbd>
 
 
@@ -63,7 +63,7 @@ Supplier Invite list can be searched using different filters. When portal fails 
 
 
 <kbd>
-<kbd><img alt="SupplierFilter" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierFilters.png"></kbd>
+<kbd><img alt="SupplierFilter" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierFilters.png"></kbd>
 </kbd>
 
 
@@ -81,7 +81,7 @@ Supplier will receive invite mail as below to create account and open the create
 
 
 <kbd>
-<kbd><img alt="InviteMail" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/InviteSent.png"></kbd>
+<kbd><img alt="InviteMail" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/InviteSent.png"></kbd>
 </kbd>
 
 
@@ -89,7 +89,7 @@ Enter Strong Password (combination of alphanumeric and special characters) and c
 
 
 <kbd>
-<kbd><img alt="SetPassword" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SetPassword.png"></kbd>
+<kbd><img alt="SetPassword" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SetPassword.png"></kbd>
 </kbd>
 
 
@@ -97,7 +97,7 @@ Page will be redirected to supplier user portal website based on website chosen 
 
 
 <kbd>
-<kbd><img alt="Updatepassword" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/UpdatePassword.png"></kbd>
+<kbd><img alt="Updatepassword" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/UpdatePassword.png"></kbd>
 </kbd>
 
 
@@ -105,7 +105,7 @@ When supplier set password and signed in then status will change to **Customer C
 
 
 <kbd>
-<kbd><img alt="Created" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/CustomerCreated.png"></kbd>
+<kbd><img alt="Created" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/CustomerCreated.png"></kbd>
 </kbd>
 
 
@@ -113,7 +113,7 @@ Initially Supplier can view only **My Information** tab with form to be submitte
 
 
 <kbd>
-<kbd><img alt="MyInformation" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyInformation.png"></kbd>
+<kbd><img alt="MyInformation" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyInformation.png"></kbd>
 </kbd>
 
 
@@ -123,24 +123,24 @@ Clicking on Submit button brings a confirm popup when you submit the information
 
 
 <kbd>
-<kbd><img alt="InformationPopup" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/InformationPopup.png"></kbd>
+<kbd><img alt="InformationPopup" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/InformationPopup.png"></kbd>
 </kbd>
 
 
 M3 Admin will get supplier onboarding task to review supplier information submitted and can add notes if any changes required.
 
 <kbd>
-<kbd><img alt="MyTasksM3" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyTasksM3.png"></kbd>
+<kbd><img alt="MyTasksM3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyTasksM3.png"></kbd>
 </kbd>
 
 
 <kbd>
-<kbd><img alt="SupplierApp1" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval1.png"></kbd>
+<kbd><img alt="SupplierApp1" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval1.png"></kbd>
 </kbd>
 
 
 <kbd>
-<kbd><img alt="SupplierApp2" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval2.png"></kbd>
+<kbd><img alt="SupplierApp2" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierApproval2.png"></kbd>
 </kbd>
 
 
@@ -148,7 +148,7 @@ When M3 Admin approved Supplier Onboarding task, supplier status will be changed
 
 
 <kbd>
-<kbd><img alt="SupplierMapped" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierMappedtoCustomer.png"></kbd>
+<kbd><img alt="SupplierMapped" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierMappedtoCustomer.png"></kbd>
 </kbd>
 
 
@@ -165,7 +165,7 @@ When M3 Admin approved Supplier Onboarding task, supplier status will be changed
 Navigate to **LeanSwift->Supplier Portal->Settings** and configure ION Mingle connection Url's as below.
 
 <kbd>
-<kbd><img alt="SupplierOnboardMingle" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplieronboardingMingle.png"></kbd>
+<kbd><img alt="SupplierOnboardMingle" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplieronboardingMingle.png"></kbd>
 </kbd>
 
 My Information form field values can be configured under **Supplier Onboarding** in Supplier Configuration settings.Fields can be configured at website level.
@@ -174,7 +174,7 @@ Navigate to **LeanSwift->Supplier Portal->Settings** and switch to Multi Website
 
 
 <kbd>
-<kbd><img alt="SupplierOnboard" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierOnboarding.png"></kbd>
+<kbd><img alt="SupplierOnboard" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierOnboarding.png"></kbd>
 </kbd>
 
 
@@ -202,7 +202,7 @@ Supplier can view **My Documents** tab after submitting the onboarding informati
 
 
 <kbd>
-<kbd><img alt="Mydocs" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyDocuments.png"></kbd>
+<kbd><img alt="Mydocs" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyDocuments.png"></kbd>
 </kbd>
 
 
@@ -212,7 +212,7 @@ The list of tasks available is based on the workflow created in ION.
 
 
 <kbd>
-<kbd><img alt="MyTask" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyTask.png"></kbd>
+<kbd><img alt="MyTask" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyTask.png"></kbd>
 </kbd>
 
 
@@ -220,7 +220,7 @@ Upload Documents for assigned tasks with document name and click **Mark Complete
 
 
 <kbd>
-<kbd><img alt="TaxUploaded" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxCertificateUpload.png"></kbd>
+<kbd><img alt="TaxUploaded" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxCertificateUpload.png"></kbd>
 </kbd>
 
 
@@ -230,12 +230,12 @@ M3 Admin will review all documents tasks submitted and can add notes if any chan
 
 
 <kbd>
-<kbd><img alt="TaxuploadM3" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxuploadedM3.png"></kbd>
+<kbd><img alt="TaxuploadM3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxuploadedM3.png"></kbd>
 </kbd>
 
 
 <kbd>
-<kbd><img alt="Taxsavenotes" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxCertificateSave.png"></kbd>
+<kbd><img alt="Taxsavenotes" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaxCertificateSave.png"></kbd>
 </kbd>
 
 
@@ -243,12 +243,12 @@ Bell Icon Notification will be triggered in portal for Task notes updated in M3 
 
 
 <kbd>
-<kbd><img alt="NotesCron" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/NotesCron.png"></kbd>
+<kbd><img alt="NotesCron" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/NotesCron.png"></kbd>
 </kbd>
 
 
 <kbd>
-<kbd><img alt="TaskNotify" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaskNoteNotification.png"></kbd>
+<kbd><img alt="TaskNotify" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/TaskNoteNotification.png"></kbd>
 </kbd>
 
 
@@ -258,7 +258,7 @@ Once all tasks are approved at M3, supplier will get access to all supplier port
 
 
 <kbd>
-<kbd><img alt="Activated" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierActivatedNotification.png"></kbd>
+<kbd><img alt="Activated" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierActivatedNotification.png"></kbd>
 </kbd>
 
 
@@ -266,7 +266,7 @@ Now that supplier account is activated, the new supplier can perform all the fun
 
 
 <kbd>
-<kbd><img alt="SupplierHome" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierHomePage.png"></kbd>
+<kbd><img alt="SupplierHome" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierHomePage.png"></kbd>
 </kbd>
 
 
