@@ -43,9 +43,8 @@
 | ION Package Version | 3.0.0 |
 | PHP | 7.4.27 |
 | RabbitMQ | 3.7.2 |
-| ION Desk | 12.0.0 |
-| Infor M3 | 16.1 |
-| Infor ION Grid | 2022.01.03 |
+| ION Desk | 2022.01.03 |
+| Infor M3 | 10.4.1.20211108_022846_04 |
 
 
 
@@ -140,7 +139,7 @@ This Add-on is to configure the allowed number of Registrations (supplier admin 
 
 **Supplier Onboarding**
  
-Supplier portal onboarding allows supplier creation from portal itself. New supplier account is created using the invite sent by admin to his email account.
+Supplier portal onboarding allows supplier creation from portal itself. New supplier account is created using the invite sent by admin to supplier email account.
 
 ## **Highlights**
 
@@ -150,6 +149,11 @@ Supplier Portal supports MultiWebsite Scope
 
 IDM add-on should be configured for My Purchase orders data to be displayed in supplier portal
 
+
+## **Recommendation**
+
+  It is recommended to use eConnect and Supplier portal in separate instances.
+  
 ## **Bug Fixes**
 
 - Duplicate Mail and BOD validation issue are resolved when Supplier Registration Request is Approved or Rejected
@@ -212,9 +216,6 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 
 - Success message when more number of PO lines are advised or notified is inconsistent
 
-## **Recommendation**
-
-  It is recommended to use eConnect and Supplier portal in separate instances.
 
 ## **Validated Versions**
 
@@ -229,6 +230,8 @@ prabhu.mano@leanswift.com
 deepthi.tadikamalla@leanswift.com
 
 vaithiyanathan.paramasivam@leanswift.com
+
+muthupandi.muniyandi@leanswift.com
 
 narayanan.gurusamy@leanswift.com
 
