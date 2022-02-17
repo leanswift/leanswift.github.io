@@ -31,7 +31,7 @@ Navigate to LeanSwift->Supplier Portal->Supplier Invite.
 
 
 <kbd>
-<kbd><img alt="Supplier_Invite" src="https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SuuplierInvite.png"></kbd>
+<kbd><img alt="Supplier_Invite" src="https://github.com/leanswift/leanswift.github.io/blob/master/supplierportal/src/images/usermanual/supplier-onboarding/SuuplierInvite.png"></kbd>
 </kbd>
  
  
