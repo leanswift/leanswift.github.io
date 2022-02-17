@@ -45,7 +45,11 @@
 | RabbitMQ | 3.7.2 |
 | ION Desk | 2022.01.03 |
 | Infor M3 | 10.4.1.20211108_022846_04 |
-
+| Advise and Notify | 3.0.0 |
+| Supplier Invoices | 2.0.0 |
+| Supplier Deliveries | 3.0.0 |
+| Supplier User Tracking | 2.0.0 |
+| User Management | 2.0.0 |
 
 
 ## **Standard Features**
