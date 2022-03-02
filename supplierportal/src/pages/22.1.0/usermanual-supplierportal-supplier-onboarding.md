@@ -194,6 +194,17 @@ Selected Dropdown values for **M3 Language List**, **M3 Order Currency List**, *
 Navigate to CRS620, enter supplier name, and click create button. Fill all required information and status should be in ’05-Suppl Template’.
 
 
+<kbd>
+<kbd><img alt="CreateSupplierTemplate" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/CreateSupplierTemplate.png"></kbd>
+</kbd>
+
+
+
+<kbd>
+<kbd><img alt="SupplierTemplateStatus" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierTemplateStatus.png"></kbd>
+</kbd>
+
+
 <div align="right">
 <b>
  <a href="#toc">↥ Go to Top</a>
