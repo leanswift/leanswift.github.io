@@ -188,6 +188,12 @@ Navigate to **LeanSwift->Supplier Portal->Settings** and switch to Multi Website
 
 Selected Dropdown values for **M3 Language List**, **M3 Order Currency List**, **M3 Payment Terms**, **M3 Freight Terms**, **M3 Delivery Terms List** and **M3 Payment Method** will be prepopulated in My Information form as default values. These values can be changed by supplier before submitting.
 
+
+**Supplier Template** can be created in M3 using program **CRS620** with status **‘05-Suppl Template’**.
+
+Navigate to CRS620, enter supplier name, and click create button. Fill all required information and status should be in ’05-Suppl Template’.
+
+
 <div align="right">
 <b>
  <a href="#toc">↥ Go to Top</a>
