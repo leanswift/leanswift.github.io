@@ -72,11 +72,6 @@ Highlight
 
 Order grid is made compatible with latest version of eConnect-Base 6.1.1
 
--   Based on Price Sync(Yes/No), customer specific price gets updated in
-    frontend.
-
--   Issue in Visibility of configurable product when signed in
-
 Pre-requisites
 ==============
 
