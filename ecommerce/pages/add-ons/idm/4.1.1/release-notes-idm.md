@@ -16,15 +16,11 @@ Table of contents
 
 -   [Standard Features](#standard-features)
 
--   [Highlights](#highlights)
-
--   [Pre-requisites](#pre-requisites)
-
 -   [Limitations](#limitations)
 
 -   [Bug Fix](#bug-fix)
 
--   Highlight
+-   [Highlight](#highlight)
 
 -   [Points of Contact](#points-of-contact)
 
@@ -45,14 +41,16 @@ with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 documents in Infor Document Management that can be leveraged in the web
 front-end.
 
+
 Environment Details
 -------------------
 
 | **Environment**     | **Version** |
 |---------------------|-------------|
 | Magento Open source | 2.4.3       |
-| Magento Community   | 2.4.3       |
-| eConnect            | 21.4.0      |
+| Magento Commerce    | 2.4.3       |
+| eConnect Community  | 21.4.0      |
+| eConnect Commerce   | 22.2.0      |
 | eConnect Base       | 6.1.1       |
 | Rabbitmq            | 3.7.28      |
 | Infor M3            | 16.1        |
@@ -75,13 +73,6 @@ available to build front-end functionality for the following operations,
 Download Invoices from IDM on the "My Invoices" page. Options available for both
 scheduled as well as real-time access to IDM.
 
-Pre-requisites
---------------
-
--   LeanSwift eConnect Base 5.0.0 must be installed on Magento 2.4.1 or greater
-
--   If "ION" is selected as M3 connection protocol, ION API Service URL must be
-    configured in order to access IDM ION APIs
 
 Limitations
 -----------
@@ -95,22 +86,27 @@ Limitations
 
 -   In the eLink version, everytime user clicks on download, it downloads all
     the files.
+	
 
 Bug Fix 
 --------
 
 -   Fixed errors on running cron
 
+
 Highlight
 ---------
 
 IDM is made compatible to latest version of eConnect-Base 6.1.1
 
-Points of Contact
+
+Point of Contacts
 -----------------
 
--   <niranjan.b@leanswift.com>
+-   <prabhu.mano@leanswift.com>
 
 -   <nanthini.muralidaran@leanswift.com>
 
--   <deepthi.tadikamalla@leanswift.com>
+-   [deepthi.tadikamalla\@leanswift.com](mailto:deepthi@leanswift.com)
+
+-   <narayanan.gurusamy@leanswift.com>

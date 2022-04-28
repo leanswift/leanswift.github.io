@@ -15,11 +15,12 @@ Version 2.6.0
 
 -   [Standard Features](#standard-features)
 
--   Highlight
+-   [Highlight](#highlight)
 
 -   [Pre-requisites](#pre-requisites)
 
 -   [Limitations](#limitations)
+
 
 Overview
 ========
@@ -38,19 +39,22 @@ with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 functionality and provides quick and easy Matrix Ordering capability to product
 pages with synchronization from M3.
 
+
 Environment Details
 ===================
 
 | **Environment**     | **Version** |
 |---------------------|-------------|
 | Magento Open source | 2.4.3       |
-| Magento Community   | 2.4.3       |
-| eConnect            | 21.4.0      |
+| Magento Commerce    | 2.4.3       |
+| eConnect Community  | 21.4.0      |
+| eConnect Commerce   | 22.2.0      |
 | eConnect Base       | 6.1.1       |
 | Rabbitmq            | 3.7.28      |
 | Infor M3            | 16.1        |
 | PHP                 | 7.4         |
-| ION-BOD package     | 3.0.0       |
+| ION Package Version | 3.2.0       |
+
 
 Standard Features
 =================
@@ -67,15 +71,18 @@ instantly
 
 • X and Y axis attributes are configurable by administrator
 
+
 Highlight
 =========
 
 Order grid is made compatible with latest version of eConnect-Base 6.1.1
 
+
 Pre-requisites
 ==============
 
-• LeanSwift eConnect 21.4.0 must be installed on Magento 2.4.1 or greater
+• eConnect Community 21.4.0 and eConnect Commerce 22.2.0 must be installed on Magento 2.4.1 or greater
+
 
 Limitations
 ===========
@@ -92,3 +99,15 @@ the two options, exclusively
 
 (2) ION Document Flows and ION APIs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Point of Contacts
+-----------------
+
+-   <prabhu.mano@leanswift.com>
+
+-   <nanthini.muralidaran@leanswift.com>
+
+-   [deepthi.tadikamalla\@leanswift.com](mailto:deepthi@leanswift.com)
+
+-   <narayanan.gurusamy@leanswift.com>

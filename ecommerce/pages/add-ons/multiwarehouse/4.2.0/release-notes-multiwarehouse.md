@@ -15,7 +15,7 @@ Version 4.2.0
 
 -   [Standard Features](#standard-features)
 
--   Highlight
+-   [Highlight](#highlight)
 
 -   [Point of Contacts](#point-of-contacts)
 
@@ -41,14 +41,15 @@ Environment Details
 | **Environment**     | **Version** |
 |---------------------|-------------|
 | Magento Open source | 2.4.3       |
-| Magento Community   | 2.4.3       |
+| Magento Commerce    | 2.4.3       |
 | eConnect Community  | 21.4.0      |
-| eConnect Commerce   | 21.4.0      |
+| eConnect Commerce   | 22.4.0      |
 | eConnect Base       | 6.1.1       |
 | Rabbitmq            | 3.7.28      |
 | Infor M3            | 16.1        |
 | PHP                 | 7.4         |
-| ION-BOD package     | 3.1.0       |
+| ION Package Version | 3.2.0       |
+
 
 Standard Features
 -----------------
@@ -60,18 +61,20 @@ warehouses in M3 and enables the warehouses to be used within Magento
 
 MWH displays stock from multiple warehouses in product detail page.
 
+
 Highlight
 ---------
 
 MWH is made compatible with latest version of eConnect-Base 6.1.1
 
+
 Point of Contacts
 -----------------
 
--   <niranjan.b@leanswift.com>
+-   <prabhu.mano@leanswift.com>
 
 -   <nanthini.muralidaran@leanswift.com>
 
--   <deepthi.tadikamalla@leanswift.com>
+-   [deepthi.tadikamalla\@leanswift.com](mailto:deepthi@leanswift.com)
 
--   <nrithya.rajagopalan@leanswift.com>
+-   <narayanan.gurusamy@leanswift.com>

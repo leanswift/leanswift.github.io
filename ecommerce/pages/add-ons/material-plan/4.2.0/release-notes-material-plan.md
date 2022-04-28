@@ -15,7 +15,7 @@ Version 4.2.0
 
 -   [Standard Features](#standard-features)
 
--   Highlight
+-   [Highlight](#highlight)
 
 Overview
 --------
@@ -30,20 +30,22 @@ your eCommerce websites contain up-to-date information from your M3 ERP.
 about current available inventory, ATP quantity and the next available date per
 product from M3.
 
+
 Environment Details
 -------------------
 
 | **Environment**     | **Version** |
 |---------------------|-------------|
 | Magento Open source | 2.4.3       |
-| Magento Community   | 2.4.3       |
+| Magento Commerce    | 2.4.3       |
 | eConnect Community  | 21.4.0      |
-| eConnect Commerce   | 21.4.0      |
+| eConnect Commerce   | 22.4.0      |
 | eConnect Base       | 6.1.1       |
 | Rabbitmq            | 3.7.28      |
 | Infor M3            | 16.1        |
 | PHP                 | 7.4         |
-| ION-BOD package     | 3.0.0       |
+| ION Package Version | 3.2.0       |
+
 
 Standard Features
 -----------------
@@ -56,21 +58,19 @@ For Simple Products, ATP is displayed in, - Product Detail Page - Cart Page
 
 For Configurable and Grouped Products, ATP is displayed in, - Cart Page only
 
+
 Highlight
 ---------
 
 Material plan is made compatible with latest version of eConnect-Base 6.1.1
 
+
 ### Point of Contact
 
 -   <prabhu.mano@leanswift.com>
 
--   <niranjan.b@leanswift.com>
+-   <nanthini.muralidaran@leanswift.com>
 
 -   [deepthi.tadikamalla\@leanswift.com](mailto:deepthi@leanswift.com)
 
--   <srinidhi.narayanan@leanswift.com>
-
--   <vaithiyanathan.paramasivam@leanswift.com>
-
--   <nrithya.rajagopalan@leanswift.com>
+-   <narayanan.gurusamy@leanswift.com>
