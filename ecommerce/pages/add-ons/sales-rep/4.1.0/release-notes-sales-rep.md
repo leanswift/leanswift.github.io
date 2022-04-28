@@ -4,7 +4,7 @@ Add-on for eConnect for M3
 Sales Representative
 ====================
 
-Version 4.0.0
+Version 4.1.0
 -------------
 
 **Table of Contents**
@@ -15,11 +15,7 @@ Version 4.0.0
 
 -   [Standard Features](#standard-features)
 
--   [New Features](#new-features)
-
--   [Enhancements](#enhancements)
-
--   [Bug Fixes](#bug-fixes)
+-   [Highlight](#highlight)
 
 -   [Pre-requisites](#pre-requisites)
 
@@ -46,13 +42,15 @@ Environment Details
 
 | **Environment**     | **Version** |
 |---------------------|-------------|
-| Magento Open source | 2.4.1       |
-| Magento Community   | 2.4.1       |
-| eConnect            | 2.3.0       |
-| eConnect Base       | 5.0.0       |
-| Rabbitmq            | 3.8.3       |
-| ION Desk            | 12.0        |
-| PHP                 | 7.4.12      |
+| Magento Open source | 2.4.3       |
+| Magento Commerce    | 2.4.3       |
+| eConnect Community  | 21.4.0      |
+| eConnect Commerce   | 22.2.0      |
+| eConnect Base       | 6.1.1       |
+| Rabbitmq            | 3.7.28      |
+| Infor M3            | 16.1        |
+| PHP                 | 7.4         |
+| ION Package Version | 3.2.0       |
 
 Standard Features
 =================
@@ -67,33 +65,19 @@ Every Sales Representative can, for their respective customers,
 
 -   Create sales orders on behalf of a customer
 
-New Features
-============
-
--   'Login as Customer' now comes with Magento by default.
-
--   For this to work, 'Allow remote shopping assistance' must be enabled and
-    this will happen automatically when 'Cron settings for import sales rep'
-    gets executed
-
-Enhancements
-============
-
--   With 20.3.0, there is a major technical architectural change in the
-    solution. BODs from ION are now configured to be sent to a REST API in
-    Magento, which in turn sends them to RabbitMQ for storage and processing by
-    eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
-
--   Sales rep roles will be automatically assigned during Sales rep
-    installation.
-
-*Note: This version is tested only on M3-Multi-tenant*
-
-Bug Fixes
+Highlight
 =========
 
--   When no email is configured for salesrep in M3, empty response is handled to
-    auto generate default email.
+-   Earlier current Xpath value for SMCD, RESP, was interchanged,
+    Responsible(RESP) in M3 was mapped to SMCD_SalesPerson value in
+    eConnect(Attribute mapping section) and Salesperson(SMCD) in M3 to
+    RESP_Responsible in eConnect(Attribute mapping section)
+
+-   Now  
+    Responsible(RESP) in M3 is mapped to RESP_Responsible in eConnect.  
+    Salesperson(SMCD) in M3 is be mapped to SMCD_SalesPerson in eConnect
+
+*Note : This code change is part of econnect code and not salesrep*
 
 Pre-requisites
 ==============
@@ -123,3 +107,15 @@ Limitations
 -   Clicking on Shipment tab may throw an error. This will happen if Salesrep is
     used along with Multiwarehouse Add-on. To overcome this, we need to install
     v7.7.6 version of Wyomind_AdvancedInventory in Multiwarehouse.
+
+
+Point of Contacts
+-----------------
+
+-   <prabhu.mano@leanswift.com>
+
+-   <nanthini.muralidaran@leanswift.com>
+
+-   [deepthi.tadikamalla\@leanswift.com](mailto:deepthi@leanswift.com)
+
+-   <narayanan.gurusamy@leanswift.com>
