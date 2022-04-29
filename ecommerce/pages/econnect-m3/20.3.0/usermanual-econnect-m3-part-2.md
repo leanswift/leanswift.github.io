@@ -55,7 +55,7 @@
 
 ### Architecture with Magento API
 
-<kbd><img alt="eConnect Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1575/ecommerce/pages/econnect-m3/20.3.0/images/ARCHITECTURE.jpg"></kbd>
+<kbd><img alt="eConnect Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/pages/econnect-m3/20.3.0/images/ARCHITECTURE.jpg"></kbd>
 
 ## New in this version
 
