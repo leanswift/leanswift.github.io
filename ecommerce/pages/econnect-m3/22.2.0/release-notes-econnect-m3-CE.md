@@ -56,7 +56,7 @@ All the standard functionalities of core eConnect are supported in v22.2.0, whic
 
 - Creation of Partial shipment and Invoice will work as expected
 
-- Reapeated status history shown in admin sales_order_view is now resolved
+- Repeated status history shown in admin sales_order_view is now resolved
 
 - Resolved the issue during order creation when the length of the city in Address exceeds the maximum character of 20
 
