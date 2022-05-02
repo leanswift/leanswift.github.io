@@ -39,13 +39,15 @@ All the standard functionalities of core eConnect are supported in v22.2.0, whic
 - Initial Load
 
 
-# **New Features/Enhancements**
+# **Enhancements**
  
 - Based on the M3 release-Oct 2021, changes are done for bringing the Invoice BOD from M3
 
 	- Earlier OINVOH table was used to bring the Customer Order Invoices from M3 but now it has changed to CINHED.
 	
 	- ION Package v3.2.0 must be used for this eConnect version
+	
+	- Provided compatibility for the changes in the structure of the Invoice Line nodes in the Invoice BOD
 
 
 # **Bug Fixes**
