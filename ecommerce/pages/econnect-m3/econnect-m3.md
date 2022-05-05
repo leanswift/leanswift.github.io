@@ -11,6 +11,8 @@
 - ## [User Manual - Part 2](22.2.0/usermanual-econnect-m3-part-2.md)
 
 - ## [Release Notes for Commerce](22.2.0/release-notes-econnect-m3-EE.md)
+
+- ## [Release Notes for Community](22.2.0/release-notes-econnect-m3-CE.md)
 ---
 
 ---
