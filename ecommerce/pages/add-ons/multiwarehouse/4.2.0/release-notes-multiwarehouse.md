@@ -42,7 +42,7 @@ Environment Details
 |---------------------|-------------|
 | Magento Open source | 2.4.3       |
 | Magento Commerce    | 2.4.3       |
-| eConnect Community  | 21.4.0      |
+| eConnect Community  | 22.4.0      |
 | eConnect Commerce   | 22.4.0      |
 | eConnect Base       | 6.1.1       |
 | Rabbitmq            | 3.7.28      |
