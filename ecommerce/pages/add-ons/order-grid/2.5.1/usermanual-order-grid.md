@@ -74,7 +74,7 @@ The new version will coexist with the older version of eConnect which uses LeanS
 
 ### Architecture with ION for multi-tenant Cloud M3
 
-<kbd><img alt ="ION architecture" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1735/ecommerce/images/add-ons/order-grid/ION_Architecture.jpg"></kbd>
+<kbd><img alt ="ION architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/order-grid/ION_Architecture.jpg"></kbd>
 
 
 
