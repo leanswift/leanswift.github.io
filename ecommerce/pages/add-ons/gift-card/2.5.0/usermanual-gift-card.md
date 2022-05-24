@@ -78,7 +78,7 @@ https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce
 
 ### Architecture with ION for multi-tenant Cloud M3
 
-<kbd><img alt ="ION architecture" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/ION_Architecture.jpg"></kbd>
+<kbd><img alt ="ION architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/ION_Architecture.jpg"></kbd>
 
 
 
@@ -136,7 +136,7 @@ The configuration for Gift Cards is made up of two parts – the standard Magent
 
 The general standard Magento configuration can be found under Stores > Configuration > Sales > Gift Cards_.
 
-<kbd><img alt ="giftcard general" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-general.png"></kbd>
+<kbd><img alt ="giftcard general" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/giftcard-general.png"></kbd>
 
 
 #### 2.1.1.1 Gift Card Email Settings
@@ -149,7 +149,7 @@ This group contains the settings related to which e-mail sender within Magento s
 
 This group contains key general settings defining the behavior of Gift Cards. Some of these settings can be overridden on Product level (see further details under section **2.1.2** ).
 
-<kbd><img alt ="giftcard general settings" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-general-settings.PNG"></kbd>
+<kbd><img alt ="giftcard general settings" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/giftcard-general-settings.PNG"></kbd>
 
 **Redeemable**
 
@@ -175,13 +175,13 @@ Controls at what point in the sales process that the Gift Card Account should be
 
 Contains additional details for e-mail generation for the Gift Card Accounts.
 
-<kbd><img alt ="giftcard account management" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-account-management.png"></kbd>
+<kbd><img alt ="giftcard account management" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/giftcard-account-management.png"></kbd>
 
 #### 2.1.1.4 Gift Card Account General Settings
 
 This group contains a number of details setup to control exactly how the Gift Card Accounts within Magento should be generated up.
 
-<kbd><img alt ="giftcard account general" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-account-general.png"></kbd>
+<kbd><img alt ="giftcard account general" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/giftcard-account-general.png"></kbd>
 
 [Go to Top](#table-of-contents)
 
@@ -189,7 +189,7 @@ This group contains a number of details setup to control exactly how the Gift Ca
 
 Each Gift Card is in Magento defined as a product with a product type of &#39;Gift Card&#39; which is further classified as physical, virtual and combined. This separate product type enables a number of unique settings within the product details.
 
-<kbd><img alt ="card type" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/cardtype.png"></kbd>
+<kbd><img alt ="card type" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/cardtype.png"></kbd>
 
 The setup for products can in Magento be found under _Catalog > Products_.
 
@@ -197,11 +197,11 @@ The setup for products can in Magento be found under _Catalog > Products_.
 
 Gift cards can be searched out by filtering on Product Type &#39;Gift Card&#39;:
 
-<kbd><img alt ="type gift card" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/type-giftcard.png"></kbd>
+<kbd><img alt ="type gift card" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/type-giftcard.png"></kbd>
 
 The first part of the product details that are different from other product types is the pricing setup, which can be found under _Product Details_
 
-<kbd><img alt ="gift card ammount" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-amount.png"></kbd>
+<kbd><img alt ="gift card ammount" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/giftcard-amount.png"></kbd>
 
 The layout of the Pricing section is different from a normal product, and offers some specific information related to Gift Cards.
 
@@ -217,7 +217,7 @@ This option defines whether or not a customer can assign their own amount to the
 
 The specific Gift Card settings for a product can be found under _Catalog > Manage Products > Product Information > Gift Card Information_.
 
-<kbd><img alt ="card information" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-information.PNG"></kbd>
+<kbd><img alt ="card information" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/giftcard-information.PNG"></kbd>
 
 **Card Type**
 
@@ -231,9 +231,9 @@ The additional settings in this group have been covered in section 2.1.1.2 above
 
 The LeanSwift-specific settings related to Gift Cards can be found under _Stores> Configuration > LeanSwift Solutions> Gift Cards_.
 
-<kbd><img alt ="leanswift config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/leanswift-giftcard.PNG"></kbd>
+<kbd><img alt ="leanswift config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/leanswift-giftcard.PNG"></kbd>
 
-<kbd><img alt ="leanswift giftcard" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/leanswift-giftcard-config.PNG"></kbd>
+<kbd><img alt ="leanswift giftcard" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/leanswift-giftcard-config.PNG"></kbd>
 
 **Gift Card Line Charge ID (Sales)**
 
@@ -257,11 +257,11 @@ The process of selling gift cards is in this section described by using an examp
 
 In this example, a Physical gift card is being ordered (i.e. a Magento product that follows the same Checkout process as a Simple product for example). Accessing the product detail page reveals the unique options for a gift card, that will vary depending on the configuration of the corresponding product in Magento.
 
-<kbd><img alt ="giftcard frontend" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-giftcard.PNG"></kbd>
+<kbd><img alt ="giftcard frontend" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/frontend-giftcard.PNG"></kbd>
 
 In this example, selecting the drop-down to choose an amount reveals the following options:
 
-<kbd><img alt ="giftcard amount" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-ammount.png"></kbd>
+<kbd><img alt ="giftcard amount" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/frontend-ammount.png"></kbd>
 
 This means that both a so called &quot;open amount&quot; as well as two different fixed amounts ($100 and $300 in this case) are allowed. Selecting one of the fixed amounts will assign that value to the gift card.
 
@@ -270,21 +270,21 @@ Selecting &#39;Other Amount&#39; enables manual input of the value to be assigne
 For this purpose, a gift card with a value of $450 will be purchased by entering this value in the &#39;Amount in USD&#39; field, keep the quantity at &#39;1&#39; and press &#39;Add to Cart&#39;.
 
 
-<kbd><img alt ="giftcard details" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-giftcard-details.PNG"></kbd>
+<kbd><img alt ="giftcard details" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/frontend-giftcard-details.PNG"></kbd>
 
 The cart page will show the associated information entered for the gift card product.
 
-<kbd><img alt ="giftcard cart" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-cart.PNG"></kbd>
+<kbd><img alt ="giftcard cart" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/frontend-cart.PNG"></kbd>
 
 The remaining part of the checkout process is identical to any other physical product being shipped.
 
-<kbd><img alt ="giftcard payment" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-payment.PNG"></kbd>
+<kbd><img alt ="giftcard payment" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/frontend-payment.PNG"></kbd>
 
-<kbd><img alt ="giftcard completeorder" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/frontend-completeorder.PNG"></kbd>
+<kbd><img alt ="giftcard completeorder" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/frontend-completeorder.PNG"></kbd>
 
 The order in Magento Admin looks similar to other product orders
 
-<kbd><img alt ="giftcard salesorder" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/magento-salesorder.PNG"></kbd>
+<kbd><img alt ="giftcard salesorder" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/magento-salesorder.PNG"></kbd>
 
 _Note: To allow placing orders for multiple Gift Cards in a single order, necessary M3 setting must be configured._
 
