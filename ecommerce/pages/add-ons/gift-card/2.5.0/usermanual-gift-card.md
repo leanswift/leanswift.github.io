@@ -72,8 +72,8 @@ The new version will coexist with the older version of eConnect which uses LeanS
 ### Architecture with LeanSwift eLink
 
 <kbd>
-<img alt ="elink architecture" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/elink_Architecture.jpg"></kbd>
-
+<img alt ="elink architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/elink_Architecture.jpg"></kbd>
+https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/architecture-with-leanSwift-eLink.jpg"></kbd>
 
 
 ### Architecture with ION for multi-tenant Cloud M3
@@ -143,7 +143,7 @@ The general standard Magento configuration can be found under Stores > Configura
 
 This group contains the settings related to which e-mail sender within Magento should be used for the e-mail notifications to customers related to Gift Cards, as well as which e-mail template should be applied.
 
-<kbd><img alt ="giftcard email" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-1845/ecommerce/images/add-ons/gift-card/giftcard-email-setting.png"></kbd>
+<kbd><img alt ="giftcard email" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/gift-card/giftcard-email-setting.png"></kbd>
 
 #### 2.1.1.2 Gift Card General Settings
 
