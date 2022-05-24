@@ -1,6 +1,6 @@
 ![CustomerPortalHeader](/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
-# Version 21.1.0 - User Manual - Customer Portal - Admin User
+# Version 21.2.0 - User Manual - Customer Portal - Admin User
 
 # Table of contents
 
