@@ -1,3 +1,12 @@
+# **22.2.0-p1**
+
+# **Enhancements**
+- Now customer price is applicable even sku and erp item number are different, previously sku and erpItemNumber should always same to apply the customer price.
+
+## **Bug Fixes**
+
+- Order view page now display with respective details.Previously order view page is blank when tracking details not available for the respective order.
+
 # **22.2.0**
 
 # **Enhancements**
