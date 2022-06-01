@@ -11,6 +11,7 @@
 - [**Overview**](#overview)
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
+- [**Highlight**](#highlight)
 - [**Limitations**](#limitations)
 
 # **Overview**
@@ -44,6 +45,9 @@ Functionality remains the same as in the previous version.
 
 •	Supports Physical, Virtual & Combined Gift Cards in Magento
 
+# **Highlight**
+
+Gift card is made compatible to the eConnect-base v6.1.1 & eConnect v22.2.0
 
 # **Limitations**
 
@@ -54,4 +58,15 @@ Functionality remains the same as in the previous version.
     
 2.	Gift Card requires Magento Commerce.
 3.	Up to 4 Gift coupons can be used for redemption per order
+
+Point of Contacts
+-----------------
+
+-   <prabhu.mano@leanswift.com>
+
+-   <nanthini.muralidaran@leanswift.com>
+
+-   [deepthi.tadikamalla\@leanswift.com](mailto:deepthi@leanswift.com)
+
+-   <narayanan.gurusamy@leanswift.com>
 
