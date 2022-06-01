@@ -13,3 +13,10 @@
 - ## [User Manual](4.1.0/usermanual-material-plan.md)
 
 - ## [Release Notes](4.1.0/release-notes-material-plan.md)
+
+
+# Version 4.2.0
+
+- ## [User Manual](4.2.0/usermanual-material-plan.md)
+
+- ## [Release Notes](4.2.0/release-notes-material-plan.md)
