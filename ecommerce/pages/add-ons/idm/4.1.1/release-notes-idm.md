@@ -97,7 +97,7 @@ Bug Fix
 Highlight
 ---------
 
-IDM is made compatible to latest version of eConnect-Base 6.1.1
+IDM is made compatible to latest version of eConnect-Base 6.1.1 & eConnect v22.2.0
 
 
 Point of Contacts
