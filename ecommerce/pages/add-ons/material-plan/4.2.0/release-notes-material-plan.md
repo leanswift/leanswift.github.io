@@ -62,7 +62,7 @@ For Configurable and Grouped Products, ATP is displayed in, - Cart Page only
 Highlight
 ---------
 
-Material plan is made compatible with latest version of eConnect-Base 6.1.1
+Material plan is made compatible with latest version of eConnect-Base 6.1.1 & eConnect v22.2.0
 
 
 ### Point of Contact
