@@ -75,13 +75,13 @@ The new version will coexist with the older version of eConnect which uses LeanS
 ### Architecture with LeanSwift eLink
 
 
-<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/elink_Architecture.jpg"></kbd>
+<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/elink_Architecture.jpg"></kbd>
 
 
 ### Architecture with ION for multi-tenant Cloud M3
 
 
-<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/ION_Architecture.jpg"></kbd>
+<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/ION_Architecture.jpg"></kbd>
 
 The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
 
@@ -149,12 +149,12 @@ NOTE - Depending on the M3 version used, the configuration requirements can be s
 User Setup
 The Sales rep code first needs to be defined as a user in ‘User. Open’ (MNS150) in M3. 
 
-<kbd><img alt="MNS150" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/MNS150.png"></kbd>
+<kbd><img alt="MNS150" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/MNS150.png"></kbd>
 
 
 In this case, the details within the user setup aren’t as important as for a regular user. There are however some fields that are required:
 
-<kbd><img alt="MNS150_Details" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/MNS150_Details.png"></kbd>
+<kbd><img alt="MNS150_Details" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/MNS150_Details.png"></kbd>
 
 (1) Name – this is the Name for the Sales Representative that will also be used in the next step of the setup.
 
@@ -164,11 +164,11 @@ In this case, the details within the user setup aren’t as important as for a r
 
 In Magento, e-mail address is a required field for a user. Due to this, it’s recommended that each Sales Rep is configured with an e-mail address within M3 the following way:
 
-<kbd><img alt="M3_ConfigEmail" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/M3_ConfigEmail.png"></kb>
+<kbd><img alt="M3_ConfigEmail" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/M3_ConfigEmail.png"></kb>
 
-<kbd><img alt="M3_Salesrep_CreateEmail" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/M3_Salesrep_CreateEmail.png"></kb>
+<kbd><img alt="M3_Salesrep_CreateEmail" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/M3_Salesrep_CreateEmail.png"></kb>
   
-<kbd><img alt="M3_EmailSetup" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/M3_EmailSetup.png"></kb>
+<kbd><img alt="M3_EmailSetup" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/M3_EmailSetup.png"></kb>
 
 If no e-mail is entered for the Sales Rep user in ‘e-mail Address. Open’ (CRS111) in M3 [which is not mandatory], eConnect will generate and add an e-mail on the Sales Rep user in Magento. The e-mail is generated per the following logic:
 
@@ -180,9 +180,9 @@ First 4 letters of the first name + sales representative code. For example, if t
 ### Sales Person Setup
 Once the user has been defined in MNS150, the Sales Person ID can be added to ‘Salesperson. Open’ (CRS100).
 
-<kbd><img alt="M3_CreateSalesperson" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/M3_CreateSalesperson.png"></kb>
+<kbd><img alt="M3_CreateSalesperson" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/M3_CreateSalesperson.png"></kb>
 
-<kbd><img alt="M3_SetupSalesperson" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/M3_SetupSalesperson.png"></kb>
+<kbd><img alt="M3_SetupSalesperson" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/M3_SetupSalesperson.png"></kb>
 
 
 The ‘Full name’ and ‘Name’ values are brought in from the user setup in MNS150. No other fields are required [provided that for example ‘Sales dept.’ have been configured with a “blank’ table value.]
@@ -196,7 +196,7 @@ NOTE – In order for the Sales Rep to be synchronized over to Magento, the code
 
 A Sales rep is associated to a customer in ‘Customer. Open’ (CRS610/F): 
 
-<kbd><img alt="M3_CustomerwithSalesRep" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/M3_CustomerwithSalesRep.PNG"></kb>
+<kbd><img alt="M3_CustomerwithSalesRep" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/M3_CustomerwithSalesRep.PNG"></kb>
 
 [Go to Top](#table-of-contents)
 
@@ -208,9 +208,9 @@ This section covers the various configuration available within Magento.
 
 There are two LeanSwift specific configuration options. These can be found under LeanSwift > eConnect-add-ons > Sales Representative. It’s advised to not change the Sales Person Role value 
 
-<kbd><img alt="elink_LeanSwift" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/elink_LeanSwift.png"></kb>
+<kbd><img alt="elink_LeanSwift" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/elink_LeanSwift.png"></kb>
 
-<kbd><img alt="elink_SalesRep_Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/elink_SalesRep_Config.png"></kb>
+<kbd><img alt="elink_SalesRep_Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/elink_SalesRep_Config.png"></kb>
 
 
 
@@ -227,7 +227,7 @@ There are two LeanSwift specific configuration options. These can be found under
 
 The only difference between eLink and Ion version is the ‘Enable Timestamp’ option which is removed in ION.
 
-<kbd><img alt="Magento_ION_SalesRep" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Magento_ION_SalesRep.PNG"></kb>
+<kbd><img alt="Magento_ION_SalesRep" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Magento_ION_SalesRep.PNG"></kb>
 
 
 [Go to Top](#table-of-contents)
@@ -245,15 +245,15 @@ To handle these two components in Magento, two new cron jobs have been added to 
 
 The Cron settings for import sales rep cron also ensures that the link to the Sales Rep code is put in place on all associated customers in Magento.
 
-<kbd><img alt="SalesRep_Cronsettings" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/SalesRep_Cronsettings.PNG"></kb>
+<kbd><img alt="SalesRep_Cronsettings" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/SalesRep_Cronsettings.PNG"></kb>
 
 When a customer-salesrep mapping is done in M3, Bod is received and it gets updated in magento. Sales Rep can be found under Account Information of Customer in Magento.
 
-<kbd><img alt="Magento_Customer_AccountInformation" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Magento_Customer_AccountInformation.PNG"></kb>
+<kbd><img alt="Magento_Customer_AccountInformation" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Magento_Customer_AccountInformation.PNG"></kb>
 
 The second cron job (2) ensures the Sales rep gets added as an active user with the appropriate permissions in Magento (System > Permissions > Users):
 
-<kbd><img alt="Magento_Permission_Users" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Magento_Permission_Users.PNG"></kb>
+<kbd><img alt="Magento_Permission_Users" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Magento_Permission_Users.PNG"></kb>
 
 The password for each Sales Rep is automatically set to be [Salesrep1+Sales Rep code]
 
@@ -264,9 +264,9 @@ One new User Role, ‘SalesRep’, is automatically added to Magento when the Sa
 Open one of the user to view user information as below. A new field to designate the Sales Rep code per user in Magento has also been added:
 
 
-<kbd><img alt="Magento_SalesRep_UserInfo" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Magento_SalesRep_UserInfo.PNG"></kb>
+<kbd><img alt="Magento_SalesRep_UserInfo" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Magento_SalesRep_UserInfo.PNG"></kb>
 
-<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Magento_SalesRep_UserRole.PNG"></kb>
+<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Magento_SalesRep_UserRole.PNG"></kb>
 
 ### Role Setup
 #### New in this version
@@ -276,11 +276,11 @@ This is handled under the Role Resources tab in System > Permissions > User Role
 
 LeanSwift enables the following roles for SalesRep role as below with regards to the Role Resources.
 
-<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Rolesetup1.PNG"></kb>
+<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Rolesetup1.PNG"></kb>
 
-<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Rolesetup2.PNG"></kb>
+<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Rolesetup2.PNG"></kb>
 
-<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Rolesetup3.PNG"></kb>
+<kbd><img alt="Magento_SalesRep_UserRole" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Rolesetup3.PNG"></kb>
 
 [Go to Top](#table-of-contents)
 
@@ -296,7 +296,7 @@ Password: 	[Salesrep1+Sales Rep code]
 The Sales Rep is presented with a stripped down version of Magento Admin, and is by default taken in to Customers > Manage Customers grid where the list of their customers is displayed.
 
 
-<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/SalesRep_Login_Customers.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/SalesRep_Login_Customers.PNG"></kb>
 
 
 Only options available are related to those specific customers the sales rep is responsible for (and hence associated with in both M3 and Magento).
@@ -309,7 +309,7 @@ The only parts of Magento Admin that are available for the Sales Rep is Sales an
 ### 2.1.3.2 Customer Management & Order Creation
 Under the Customers section, the only part that’s available to access for the Sales Rep is the Manage Customers subsection. Selecting this is what brings up the Customer’s grid displayed above.
 
-<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_CustomerMenu.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Salesrep_Login_CustomerMenu.PNG"></kb>
 
 Once a Sales rep has opened the details of a Customer record, they can access all the key information in there related to that customer and also edit the customer record. 
 
@@ -319,27 +319,27 @@ It’s also from there that the Sales Rep has the option to login on-behalf-of t
 
 This is done by pressing the &#39;Login as Customer&#39; button in the header of the Customer record.
 
-<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_CustomerView.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Salesrep_Login_CustomerView.PNG"></kb>
 
 #### New in this version
 
 From Magento 2.4.1 onwards, there is a &#39;Login as Customer&#39; option provided by magento itself. (Earlier it was part of Salesrep).
 For this to work,  &#39;Allow remote shopping assistance&#39; must be enabled and this will happen automatically when &#39;Cron settings for import sales rep&#39; gets executed
 
-<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/AllowRemoteLogin.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/AllowRemoteLogin.PNG"></kb>
 
 The rest of the behaviour is same as previous versions.
 
 Pressing &#39;Login as Customer&#39; will log the Sales Rep in as that particular customer from the front-end of Magento. This way, he/she now has access to all of the same things regarding order creation, order- & invoice history etc.
 
-<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/SalesRep_LoginAsCustomer_Frontend.PNG"></kb>
+<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/SalesRep_LoginAsCustomer_Frontend.PNG"></kb>
 
 [Go to Top](#table-of-contents)
 
 ### 2.1.3.3 Sales Management 
 The final feature of the Sales Rep add-on relates to the various parts of the Sales section within Magento Admin the Sales Rep can access.
 
-<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_SalesMenu.PNG"></kb>
+<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Salesrep_Login_SalesMenu.PNG"></kb>
 
 From within Magento Admin, the Sales Rep can view existing orders, Invoices & Shipments (some of which then of course can also be accessed via the front-end).
 
@@ -348,27 +348,27 @@ If the suggested configuration of the SalesRep role has been followed, the Sales
 
 Order grid overview:
 
-<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/SalesRep_Login_Orders.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/SalesRep_Login_Orders.PNG"></kb>
 
 
 Order detail view, including access from within the order to related Invoices, Credit Memos, Shipments, RMA’s as well as the Comments History of the order in question:
 
-<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_OrderView.png"></kb>
+<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Salesrep_OrderView.png"></kb>
 
 Optionally, the Sales rep can go in and review all Invoices and Shipments together across all of their customers. The Invoices are accessed via Sales > Invoices:
 
-<kbd><img alt="SalesRep_Login_Invoice" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/SalesRep_Login_Invoice.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Invoice" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/SalesRep_Login_Invoice.PNG"></kb>
 
 And the complete list of Shipments for all their customers together can be accessed in a single list via Sales > Shipments:
 
-<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_Shipment.png"></kb>
+<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Salesrep_Login_Shipment.png"></kb>
 
 ### Note
 
 - For Shipment and Invoice tabs to be visible for an order in order detail page, extra permissions to 'Archive' section has to be provided.
 _Note: This is applicable only for Magento Commerce 2.4.1._
 
-<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_ArchivePermission.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/Salesrep_ArchivePermission.PNG"></kb>
 
 - Orders associated to multiple customers may get displayed in the Sales Rep Login. If Multiwarehouse and Order Edit Add-ons are also installed along with Salesrep
   To overcome this, We need to disable those Add-ons.
