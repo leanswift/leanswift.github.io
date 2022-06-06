@@ -7,10 +7,12 @@
 
 **eConnect version 20.3.0**
 
+# Table of contents
 
-# **Table of contents**
-
-
+- [**eConnect User Manual – Sales-Rep**](#econnect-user-manual--sales-rep)
+  - [**LeanSwift eConnect for Infor M3 &amp; Magento**](#leanswift-econnect-for-infor-m3-amp-magento)
+    - [**Product Version**  **4.0.0**](#product-version--400)
+- [**Table of contents**](#table-of-contents)
 - [GENERAL INFORMATION](#general-information)
   - [1.1 System Overview](#11-system-overview)
   - [Architecture](#architecture)
@@ -32,21 +34,13 @@
     - [2.1.2.2 Magento Configuration-ION](#2122-magento-configuration-ion)
     - [2.1.2.3 Additional Configuration](#2123-additional-configuration)
     - [Role Setup](#role-setup)
-      - [New in this version](#new-in-this-version)
   - [2.1.3	Process Changes](#213-process-changes)
     - [2.1.3.1 Login](#2131-login)
     - [2.1.3.2 Customer Management & Order Creation](#2132-customer-management--order-creation)
-      - [New in this version](#new-in-this-version)
     - [2.1.3.3 Sales Management](#2133-sales-management)
     - [Note](#note)
-    - [Role Setup](#role-setup)
-      - [New in this version](#new-in-this-version)
-  - [2.1.3	Process Changes](#213-process-changes)
-    - [2.1.3.1 Login](#2131-login)
-    - [2.1.3.2 Customer Management & Order Creation](#2132-customer-management--order-creation)
-      - [New in this version](#new-in-this-version)
-    - [2.1.3.3 Sales Management](#2133-sales-management)
-      
+
+
       
 # GENERAL INFORMATION
 
