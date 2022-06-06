@@ -9,10 +9,7 @@
 
 # Table of contents
 
-- [**eConnect User Manual – Sales-Rep**](#econnect-user-manual--sales-rep)
-  - [**LeanSwift eConnect for Infor M3 &amp; Magento**](#leanswift-econnect-for-infor-m3-amp-magento)
-    - [**Product Version**  **4.0.0**](#product-version--400)
-- [**Table of contents**](#table-of-contents)
+
 - [GENERAL INFORMATION](#general-information)
   - [1.1 System Overview](#11-system-overview)
   - [Architecture](#architecture)
