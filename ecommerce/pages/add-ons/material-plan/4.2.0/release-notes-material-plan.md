@@ -39,7 +39,7 @@ Environment Details
 | Magento Open source | 2.4.3       |
 | Magento Commerce    | 2.4.3       |
 | eConnect Community  | 22.2.0      |
-| eConnect Commerce   | 22.4.0      |
+| eConnect Commerce   | 22.2.0      |
 | eConnect Base       | 6.1.1       |
 | Rabbitmq            | 3.7.28      |
 | Infor M3            | 16.1        |
@@ -50,7 +50,7 @@ Environment Details
 Standard Features
 -----------------
 
-All the features of Material Plan 3.1.0 remain the same in this version Provides
+All the features of Material Plan remain the same as previous version, It Provides
 customers with information about current available inventory, ATP quantity and
 the next available date per productfrom M3
 
