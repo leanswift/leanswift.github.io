@@ -17,10 +17,9 @@ Version 2.6.0
 
 -   [Highlight](#highlight)
 
--   [Pre-requisites](#pre-requisites)
+-   [Pre-requisites](#limitations)
 
 -   [Limitations](#limitations)
-
 
 Overview
 ========
@@ -39,7 +38,6 @@ with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 functionality and provides quick and easy Matrix Ordering capability to product
 pages with synchronization from M3.
 
-
 Environment Details
 ===================
 
@@ -54,7 +52,6 @@ Environment Details
 | Infor M3            | 16.1        |
 | PHP                 | 7.4         |
 | ION Package Version | 3.2.0       |
-
 
 Standard Features
 =================
@@ -71,18 +68,11 @@ instantly
 
 • X and Y axis attributes are configurable by administrator
 
-
 Highlight
 =========
 
-Order grid is made compatible with latest version of eConnect-Base 6.1.1
-
-
-Pre-requisites
-==============
-
-• eConnect Community 21.4.0 and eConnect Commerce 22.2.0 must be installed on Magento 2.4.1 or greater
-
+Order grid is made compatible with latest version of eConnect-Base 6.1.1 &
+eConnect 22.2.0
 
 Limitations
 ===========
@@ -100,6 +90,9 @@ the two options, exclusively
 (2) ION Document Flows and ION APIs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Point of Contacts
 -----------------

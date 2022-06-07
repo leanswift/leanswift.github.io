@@ -77,12 +77,12 @@ Highlight
     Responsible(RESP) in M3 is mapped to RESP_Responsible in eConnect.  
     Salesperson(SMCD) in M3 is be mapped to SMCD_SalesPerson in eConnect
 
+-   SalesRep made compatible to the eConnect-base v6.1.1 & eConnect v22.2.0
+
 *Note : This code change is part of econnect code and not salesrep*
 
 Pre-requisites
 ==============
-
--   LeanSwift eConnect 20.3.0 must be installed on Magento 2.4.1 or greater
 
 -   If "ION" is selected as M3 Connection protocol must ensure that Salesrep
     data for customers from CustomerPartyMaster BOD is imported before using the
@@ -107,7 +107,6 @@ Limitations
 -   Clicking on Shipment tab may throw an error. This will happen if Salesrep is
     used along with Multiwarehouse Add-on. To overcome this, we need to install
     v7.7.6 version of Wyomind_AdvancedInventory in Multiwarehouse.
-
 
 Point of Contacts
 -----------------

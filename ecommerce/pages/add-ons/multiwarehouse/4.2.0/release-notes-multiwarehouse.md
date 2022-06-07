@@ -50,7 +50,6 @@ Environment Details
 | PHP                 | 7.4         |
 | ION Package Version | 3.2.0       |
 
-
 Standard Features
 -----------------
 
@@ -61,12 +60,11 @@ warehouses in M3 and enables the warehouses to be used within Magento
 
 MWH displays stock from multiple warehouses in product detail page.
 
-
 Highlight
 ---------
 
-MWH is made compatible with latest version of eConnect-Base 6.1.1
-
+MWH is made compatible with latest version of eConnect-Base 6.1.1 & eConnect
+v22.2.0
 
 Point of Contacts
 -----------------
