@@ -9,6 +9,35 @@
 
 # IDM Add-on
 
+# Table of contents
+
+- [**eConnect User Manual – IDM**](#econnect-user-manual--idm)
+  - [**LeanSwift eConnect for Infor M3 &amp; Magento**](#leanswift-econnect-for-infor-m3-amp-magento)
+    - [**Product Version**  **3.2.1**](#product-version--321)
+- [IDM Add-on](#idm-add-on)
+- [GENERAL INFORMATION](#general-information)
+  - [1.1 System Overview](#11-system-overview)
+  - [1.2 Points of Contact](#12-points-of-contact)
+    - [1.2.1 Information](#121-information)
+  - [1.3 Organization of the Manual](#13-organization-of-the-manual)
+  - [1.4 Acronyms and Abbreviations](#14-acronyms-and-abbreviations)
+  - [Architecture](#architecture)
+    - [eConnect-base v5.0.0](#econnect-base-v500)
+    - [Architecture with LeanSwift eLink](#architecture-with-leanswift-elink)
+    - [Architecture with ION for multi-tenant Cloud M3](#architecture-with-ion-for-multi-tenant-cloud-m3)
+- [2.0 IDM ADD-ON](#20-idm-add-on)
+    - [2.0.1 Summary](#201-summary)
+    - [2.0.2 Assumptions/Limitations](#202-assumptionslimitations)
+  - [2.1 CONFIGURATION](#21-configuration)
+    - [2.1.1 General Configuration](#211-general-configuration)
+    - [2.1.2 Upload Configuration](#212-upload-configuration)
+    - [2.1.3 Download Configuration](#213-download-configuration)
+    - [2.1.2.0 Frontend Part – IDM Download.](#2120-frontend-part--idm-download)
+    - [2.1.4 Search Configuration](#214-search-configuration)
+    - [2.1.5 Email IDM Document](#215-email-idm-document)
+    - [2.1.6 Mapping](#216-mapping)
+    - [2.1.7 Import Configuration](#217-import-configuration)
+    - [2.1.8 Code Snippet](#214-code-snippet)
 
 
 
@@ -22,11 +51,11 @@ LeanSwift eConnect for Infor M3 provides a seamless integration between Magento 
 
 LeanSwift eConnect for Infor M3 employs a layered architecture to allow more flexibility in supporting different versions of Magento and Infor M3, and to allow independent upgrades. The two components are versioned individually to more easily adapt to different M3- &amp; Magento versions.
 
-![](RackMultipart20220607-1-bgyxzv_html_c8851cdc159a2683.png)
+
 
 **Transactions**
 
-With eConnect 18.2.3, the following add-ons are available:
+With eConnect 20.3.0, the following add-ons are available:
 
 - Sales Rep
 - RMA
@@ -67,6 +96,42 @@ This manual is not intended to cover any standard Magento functionality or user 
 
 IDM – Infor Document Management
 
+## Architecture
+
+
+With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
+
+### eConnect-base v5.0.0
+
+- It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
+- Acts as the communication layer for RabbitMQ Message consumption
+- Acts as a core module for following LeanSwift Magento Extensions
+  - eConnect
+  - IDM
+  - Supplier Portal
+- eConnect add-ons depend on both eConnect-base and eConnect. eConnect and its Add-ons works only with eConnect-base configured
+
+- IDM can now work without eConnect
+
+The new version will coexist with the older version of eConnect which uses LeanSwift eLink and all new installations of eConnect have the ability to choose the connection protocol to M3, that is, either eLink or ION.
+
+
+### Architecture with LeanSwift eLink
+
+
+<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/elink_Architecture.jpg"></kbd>
+
+
+### Architecture with ION for multi-tenant Cloud M3
+
+
+<kbd><img alt="ION Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/sales-rep/ION_Architecture.jpg"></kbd>
+
+The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
+
+These add-ons can, if necessary, be modified, and new add-ons can be added to fulfill specific customer requirements.
+
+
 # 2.0 IDM ADD-ON
 
     
@@ -106,8 +171,14 @@ _Note:_ Frontend part is not supported. Only function is exposed.
 
 The configuration required for the IDM add-on can be separated in three parts – Upload configuration, Download Configuration and Search configuration.
 
+###2.1.1 General Configuration
+
+ION API service URL has to be mentioned here
+
+<kbd><img alt="general config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/ION_GeneralConfig.png"></kbd>
+
     
-### 2.1.1 Upload Configuration
+### 2.1.2 Upload Configuration
 
 - _Enable Upload_- Option can be set to Yes or No.
 - _Allowed File Types_– File extensions to be upload to IDM. This field is not mandatory.
@@ -115,18 +186,19 @@ The configuration required for the IDM add-on can be separated in three parts �
 - _Configurable Options to Upload_– Select the Document Type, required attribute type, Used In [Should be unique to identify the configuration].
 - _Clears the uploaded files to IDM_– Clears the _leanswift\_idm\_upload_ table and documents stored under _Magento\_Root/pub/media/leanswift/idm/upload/_ folder based on cron expression.
 
-![](RackMultipart20220607-1-bgyxzv_html_94f65ae310573ab7.png)
+
+<kbd><img alt="upload config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/IDM_UploadConfig.PNG"></kbd>
+
 
     
-### 2.1.2 Download Configuration
+### 2.1.3 Download Configuration
 
 - _Enable Download_- Option can be set to Yes or No.
 - _Cron / Real-time_ – Documents will be downloaded from IDM based on this option. If cron is chosen, cron expression should be given to download the files from IDM.
 - _Configurable Options to Download_– Select the Document Type, required attribute type, Operation, Used In [Should be unique to identify the configuration].
 - _Clears the downloaded files to IDM_– Clears the _leanswift\_idm\_download_ table and documents stored under _Magento\_Root/pub/media/leanswift/idm/download/_ folder based on cron expression.
 
-![](RackMultipart20220607-1-bgyxzv_html_cfa12867c6078d6f.png)
-
+<kbd><img alt="upload config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/Download_Configuration.png"></kbd>
     
 ### 2.1.2.0 Frontend Part – IDM Download.
 
@@ -135,60 +207,61 @@ The configuration required for the IDM add-on can be separated in three parts �
 - If Download option is set to _Real-time_ in backend, then the file will be opened in new tab on clicking icon.
 - If Download option is _Cron_, user will get a message like &quot;File will be downloaded via cron&quot;.
 
-![](RackMultipart20220607-1-bgyxzv_html_34efe15d5d33fcc3.png)
+<kbd><img alt="download config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/Invoice_Download.png"></kbd>
 
 
-
-### 2.1.3 Search Configuration
+### 2.1.4 Search Configuration
 
 - _Enable Search_- Option can be set to Yes or No.
 - _Configurable Options to Search_– Select the Document Type, required attribute type, Operation, Offset and Limit.
 
-![](RackMultipart20220607-1-bgyxzv_html_fcdf7f6303ac5206.png)
+<kbd><img alt="search config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/Search_Configuration.png"></kbd>
 
-### 2.1.4 Code Snippet
+### 2.1.5 Email IDM Document
+
+This feature enables mails to be sent
+
+
+<kbd><img alt="search config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/email_IDM.png"></kbd>
+
+### 2.1.6 Mapping
+
+<kbd><img alt="mapping config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/Mapping.png"></kbd>
+
+### 2.1.7 Import Configuration
+
+Import configuration fetches IDM related configurable options from M3
+
+
+<kbd><img alt="search config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/IDM_ImportConfig.PNG"></kbd>
+
+
+
+### 2.1.8 Code Snippet
 
 #### How to implement IDM in new custom page
 
 - Configure options to download, upload with attribute type, operation and used in.
 
-|
+
 - To add IDM document add handle in custom layout page
 
- |
-| --- |
-| \&lt;update handle=&quot;econnect\_idm\_document&quot;/\&gt; |
-|
- |
+  <update handle="econnect_idm_document"/>
 
 - To include the download in custom template included in below code
 
-| //give custom template if needed another template$downloadData[&#39;documentName&#39;] = $dynamicNumber;//used in configured in backend should be given as document type
- $downloadData[&#39;documentType&#39;] = $documentType;echo$this-\&gt;getLayout()
- -\&gt;createBlock(&#39;LeanSwift\Idm\Block\Download&#39;)
- -\&gt;setDocumentData($downloadData)
- -\&gt;toHtml(); |
-| --- |
+<kbd><img alt="general config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/template1.png"></kbd>
+
 
 - To include the upload in custom template included in below code
 
-| //give custom template if needed another template//used in configured in backend should be given as document type$uploadData[&#39;documentType&#39;] = $documentType;$uploadData[&#39;documentName&#39;] = $dynamicNumber;//attribute data should match the attributes configured in backend.
- $uploadData[&#39;documentData&#39;] = [&#39;attribute\_data&#39;=\&gt;$documentType];
-echo$this-\&gt;getLayout()
- -\&gt;createBlock(&#39;LeanSwift\Idm\Block\Upload&#39;)
- -\&gt;setDocumentData($uploadData)
- -\&gt;toHtml(); |
-| --- |
-|
- |
+  <kbd><img alt="general config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/template2.png"></kbd>
 
 - Change JS if needed to support new template. Can use the [Javascript Mixin](https://devdocs.magento.com/guides/v2.3/javascript-dev-guide/javascript/js_mixins.html)
 
 **To change the custom values In LeanSwift/Econnect/view/frontend/templates/invoice.phtml, change snippet as**
 
-| \&lt;?php
- $invoiceNumber = $this-\&gt;getData(&#39;invoice\_number&#39;);if($invoiceNumber) {$downloadData[&#39;documentName&#39;] = $invoiceNumber;$downloadData[&#39;documentType&#39;] = &quot;Invoice&quot;;echo $this-\&gt;getLayout()-\&gt;createBlock(&#39;LeanSwift\Idm\Block\Download&#39;)-\&gt;setDocumentData($downloadData)-\&gt;toHtml();$uploadData[&#39;documentType&#39;] = &quot;Invoice&quot;;$uploadData[&#39;documentName&#39;] = $invoiceNumber;$uploadData[&#39;documentData&#39;] = [&#39;MDS\_id1&#39;=\&gt;$invoiceNumber];echo $this-\&gt;getLayout()-\&gt;createBlock(&#39;LeanSwift\Idm\Block\Upload&#39;)-\&gt;setDocumentData($uploadData)-\&gt;toHtml();}
-?\&gt; |
-| --- |
+<kbd><img alt="general config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/template3.png"></kbd>
+
 
 
