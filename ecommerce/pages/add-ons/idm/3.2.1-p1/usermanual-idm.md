@@ -171,7 +171,7 @@ _Note:_ Frontend part is not supported. Only function is exposed.
 
 The configuration required for the IDM add-on can be separated in three parts – Upload configuration, Download Configuration and Search configuration.
 
-###2.1.1 General Configuration
+### 2.1.1 General Configuration
 
 ION API service URL has to be mentioned here
 
