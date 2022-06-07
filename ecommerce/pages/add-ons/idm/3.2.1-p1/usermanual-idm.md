@@ -222,7 +222,7 @@ ION API service URL has to be mentioned here
 This feature enables mails to be sent
 
 
-<kbd><img alt="search config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/Email_IDM_config.png"></kbd>
+<kbd><img alt="email config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/Email_IDM_config.png"></kbd>
 
 ### 2.1.6 Mapping
 
