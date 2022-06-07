@@ -11,10 +11,6 @@
 
 # Table of contents
 
-- [**eConnect User Manual – IDM**](#econnect-user-manual--idm)
-  - [**LeanSwift eConnect for Infor M3 &amp; Magento**](#leanswift-econnect-for-infor-m3-amp-magento)
-    - [**Product Version**  **3.2.1**](#product-version--321)
-- [IDM Add-on](#idm-add-on)
 - [GENERAL INFORMATION](#general-information)
   - [1.1 System Overview](#11-system-overview)
   - [1.2 Points of Contact](#12-points-of-contact)
