@@ -1,3 +1,37 @@
+# **22.2.1**
+# **Highlight**
+
+- eConnect module is now compatible with Magento v2.4.4 and PHP v8.1
+
+# **Enhancements**
+ 
+- External tracking number information will get updated via MWS410MI/GetHead API since it is not coming under the Shipment BOD
+
+- Re-aligned the eConnect-ION backend configuration settings in a user friendly way
+
+# **Compatibility Fixes**
+
+- Resolved all the compilation errors thrown after running the command 'setup:di:compile'
+
+- Unable to read messages from the queue so removed the additional and unused abstract classes with null values used in the constructors
+
+- Resolved the SQL error thrown while reading the SalesOrder/Shipment BOD from the Queue
+
+- JDCD value will be sent as 1 in the order creation request when the 'Ship Complete' checkbox is checked while placing the order
+
+- Resolved the PHP error 'false to array conversion' thrown in customer module
+
+# **Bug Fixes**
+
+- Product's visibility will get updated even when there are multiple sites available 
+
+- Handled the strict validations for all the PHP built-in functions used in eConnect
+	- trim()
+	- substr()
+	- explode()
+	- strtotime()
+	- strpos()
+
 # **22.2.0-p1**
 
 # **Enhancements**
