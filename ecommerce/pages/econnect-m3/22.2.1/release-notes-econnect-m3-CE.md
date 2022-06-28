@@ -4,6 +4,7 @@
 
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
+- [**Prerequisites**](#prerequisites)
 - [**Highlight**](#highlight)
 - [**Enhancements**](#enhancements)
 - [**Compatibility Fixes**](#compatibility-fixes)
