@@ -22,7 +22,7 @@ Table of contents
 
 -   [Highlight](#highlight)
 
--   [Points of Contact](#points-of-contact)
+-   [Points of Contacts](#points-of-contacts)
 
 Overview
 --------
