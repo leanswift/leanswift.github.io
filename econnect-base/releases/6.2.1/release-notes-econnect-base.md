@@ -27,7 +27,7 @@ eConnect-base is an independent extension for other Products or Extensions which
 
 - From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' in order to make successful connection with the Infor ION API.
 
-	![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
+		![oAuth Access Token](../../../../econnect-base/images/access_token_setting.png)
 
 # **Highlight**
 
