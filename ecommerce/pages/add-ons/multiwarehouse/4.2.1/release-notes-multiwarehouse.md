@@ -9,15 +9,17 @@ Version 4.2.1
 
 **Table of Contents**
 
--   [Overview](#overview)
+- [Overview](#overview)
 
--   [Environment Details](#environment-details)
+- [Environment Details](#environment-details)
 
--   [Standard Features](#standard-features)
+- [Standard Features](#standard-features)
 
--   [Highlight](#highlight)
+- [Highlight](#highlight)
 
--   [Point of Contacts](#point-of-contacts)
+- [**Known Issues**](#known-issues)
+
+- [Point of Contacts](#point-of-contacts)
 
 Overview
 --------
