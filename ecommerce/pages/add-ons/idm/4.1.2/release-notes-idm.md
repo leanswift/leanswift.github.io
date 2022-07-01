@@ -1,31 +1,29 @@
-Add-on for eConnect for M3
-==========================
+# **IDM 4.1.2**
 
-IDM
-===
+# Table of contents
 
-Version 4.1.2
--------------
+- [**Environment Details**](#environment-details)
+- [**Overview**](#overview)
+- [**Standard Features**](#standard-features)
+- [**Limitations**](#limitations)
+- [**Bug Fix**](#bug-fix)
+- [**Highlight**](#highlight)
+- [**Point of Contact**](#point-of-contact)
 
-Table of contents
------------------
 
--   [Overview](#overview)
+# **Environment Details**
 
--   [Environment Details](#environment-details)
+| **Environment**     | **Version** |
+|---------------------|-------------|
+| Magento version     | 2.4.4       |
+| PHP                 | 8.1.6       |
+| eConnect 			  | 22.2.1      |
+| eConnect Base       | 6.2.1       |
+| Rabbitmq            | 3.7.28      |
+| Infor M3            | 16.1        |
 
--   [Standard Features](#standard-features)
 
--   [Limitations](#limitations)
-
--   [Bug Fix](#bug-fix)
-
--   [Highlight](#highlight)
-
--   [Point of Contacts](#point-of-contacts)
-
-Overview
---------
+# **Overview**
 
 **LeanSwift eConnect for Infor M3** is a Magento extension that provides simple
 yet powerful integration between Magento eCommerce platform and Infor M3.
@@ -42,22 +40,7 @@ documents in Infor Document Management that can be leveraged in the web
 front-end.
 
 
-Environment Details
--------------------
-
-| **Environment**     | **Version** |
-|---------------------|-------------|
-| Magento Open source | 2.4.4       |
-| Magento Commerce    | 2.4.4       |
-| eConnect Community  | 22.2.1      |
-| eConnect Commerce   | 22.2.1      |
-| eConnect Base       | 6.2.1       |
-| Rabbitmq            | 3.7.28      |
-| Infor M3            | 16.1        |
-| PHP                 | 8.1.6       |
-
-Standard Features
------------------
+# **Standard Features**
 
 Functionality remains the same as in the previous version. Provides integration
 to Infor Document Management and allows access to attributes and documents in it
@@ -74,8 +57,7 @@ Download Invoices from IDM on the "My Invoices" page. Options available for both
 scheduled as well as real-time access to IDM.
 
 
-Limitations
------------
+# **Limitations**
 
 - eConnect and hence the IDM add-on, can be set to work with only ONE of the
     two options, exclusively
@@ -88,25 +70,22 @@ Limitations
     the files.
 	
 
-Bug Fix 
---------
+# **Bug Fix**
 
 - Resolved the exception and the errors while trying to download the documents from IDM
 
 
-Highlight
----------
+# **Highlight**
 
-- IDM is made compatible to latest version of eConnect-Base 6.2.1 & eConnect v22.2.1
+- IDM is made compatible to latest version of eConnect-Base 6.2.1 & eConnect v22.2.1 which works on Magento v2.4.4 with PHP 8.1
 
 
-Point of Contacts
------------------
+# **Point of Contact**
 
 -   <nanthini.muralidaran@leanswift.com>
 
--   <prabhu.mano@leanswift.com>
+-   <niranjan.b@leanswift.com>
 
--   [deepthi.tadikamalla\@leanswift.com](mailto:deepthi@leanswift.com)
+-   <deepthi.tadikamalla@leanswift.com>
 
 -   <narayanan.gurusamy@leanswift.com>
