@@ -39,7 +39,7 @@
 	- Import History
 	- IMS Report
 
-	![Sub Menus](../../../../econnect-base/images/submenus.png)
+	![Sub Menus](../../../econnect-base/images/submenus.png)
 	
 ### Connectivity
 - There are 8 sections under Connectivity:
@@ -47,59 +47,59 @@
 #### Service Configuration
 - M3 Connection Protocol can either be eLink or ION.
 
-![Service Configuration](../../../../econnect-base/images/service-configuration.png)
+![Service Configuration](../../../econnect-base/images/service-configuration.png)
 
 #### Basic Data Configuration
 - When M3 Connection Protocol is eLink
 
-![Basic Data eLink](../../../../econnect-base/images/basic-data-elink.png)
+![Basic Data eLink](../../../econnect-base/images/basic-data-elink.png)
 
 - When M3 Connection Protocol is ION
 
-![Basic Data ION](../../../../econnect-base/images/basic-data.png)
+![Basic Data ION](../../../econnect-base/images/basic-data.png)
 
 #### Authentication
 - When M3 Connection Protocol is eLink
 
-![Authentication eLink](../../../../econnect-base/images/authentication-elink.png)
+![Authentication eLink](../../../econnect-base/images/authentication-elink.png)
 
 - When M3 Connection Protocol is ION
 
-![Authentication ION](../../../../econnect-base/images/authentication.png)
+![Authentication ION](../../../econnect-base/images/authentication.png)
 
 #### Message Queue Configuration
 - Configuration fields to make a connection with the RabbitMQ while using ION as M3 Connection Protocol
 
-![Message Queue](../../../../econnect-base/images/message-queue.png)
+![Message Queue](../../../econnect-base/images/message-queue.png)
 
 #### ION Workflow Configuration
 - Workflow configuration to make use of the workflows used in ION while using ION as M3 Connection Protocol
 
-![Workflow](../../../../econnect-base/images/workflow.png)
+![Workflow](../../../econnect-base/images/workflow.png)
 
 #### IMS Configuration
 - This configuration will work when the M3 Connection Protocol is chosen as ION. We can make use of this Infor Messaging Service to create customers via BODs instead of APIs.
 
-![IMS Configuration](../../../../econnect-base/images/ims-configuration.png)
+![IMS Configuration](../../../econnect-base/images/ims-configuration.png)
 
 #### Cron
 - Cron to clear the inbound BODs which are related to IMS.
 
-![Cron](../../../../econnect-base/images/cron.png)
+![Cron](../../../econnect-base/images/cron.png)
 
 #### Version
 - Displays the installed version of all the extensions
 
-![Version](../../../../econnect-base/images/version.png)
+![Version](../../../econnect-base/images/version.png)
 
 ### Import History
 - This menu is to show the Grid which has the content of `leanswift_econnect_import_history` table i.e. of all the Initial Load calls which has been made by triggering /EVS002MI/Initiate ION API
 
-	![Import History](../../../../econnect-base/images/import-history.png)
+	![Import History](../../../econnect-base/images/import-history.png)
 
 ### IMS Report
 - This menu is to show the reports of the IMS related call results. Currently this feature is used in eConnect module to create customers via IMS(Infor Messaging Service)
 
-	![IMS Report](../../../../econnect-base/images/ims-report.png)
+	![IMS Report](../../../econnect-base/images/ims-report.png)
 
 [Go to Top](#table-of-contents)
