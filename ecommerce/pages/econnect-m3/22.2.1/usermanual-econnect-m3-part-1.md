@@ -43,6 +43,10 @@ From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' in
 			- If the above setting is set to Yes, then the item price will be updated with MMSAPR from MITMAS only if the ODSAPR from OPRBAS is 0 or there is no valid price data for the item.
 
 			- If the above setting is set to No, then the item price will be updated with '0.00'
+ 
+- External tracking number information will get updated via MWS410MI/GetHead API since it is not coming under the Shipment BOD
+
+- Re-aligned the eConnect-ION backend configuration settings in a user friendly way
 
 Rest of the User Manual for  22.2.1 is same as 21.4.0
 
