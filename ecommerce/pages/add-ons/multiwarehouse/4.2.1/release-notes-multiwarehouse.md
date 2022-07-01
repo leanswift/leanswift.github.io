@@ -17,7 +17,7 @@ Version 4.2.1
 
 - [Highlight](#highlight)
 
-- [**Known Issues**](#known-issues)
+- [Known Issues](#known-issues)
 
 - [Point of Contacts](#point-of-contacts)
 
