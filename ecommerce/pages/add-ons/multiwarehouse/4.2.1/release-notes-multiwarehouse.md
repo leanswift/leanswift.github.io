@@ -69,7 +69,7 @@ Highlight
 
 Known Issues
 ---------
-- Wyomind_AdvancedInventory has a few minor bugs and raised a ticket to the Wyominds support team. It is a paid extension so we don't have the source code to fix on their code base. Contact their support team they will provide the patch for the fix.  
+- Wyomind_AdvancedInventory has a few minor bugs and raised a ticket to the Wyominds [Ticket number - 522813] support team. It is a paid extension so we don't have the source code to fix on their code base. Contact their support team they will provide the patch for the fix.  
 
 Point of Contacts
 -----------------
