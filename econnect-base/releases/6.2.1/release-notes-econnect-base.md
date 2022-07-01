@@ -18,10 +18,13 @@
 
 # **Overview**
 
-eConnect-base is an independent extension for other Products or Extensions which doesn’t have to depend on eConnect. This acts as an core module for the below:
+- Provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
+- Acts as the communication layer for RabbitMQ Message consumption
+- Acts as a core module for 
 	- eConnect
 	- IDM
 	- Supplier Portal
+- eConnect add-ons depend on both eConnect-base and eConnect likewise SupplierPortal add-ons depend on both eConnect-base and SupplierPortal
 
 # Prerequisites
 
