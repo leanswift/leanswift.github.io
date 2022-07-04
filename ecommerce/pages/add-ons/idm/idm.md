@@ -1,11 +1,11 @@
 ![eConnect for Infor M3](../../../../images/banner-econnect-m3.jpg)
 
 
-# Version 4.2.1
+# Version 4.1.2
 
-- ## [User Manual](4.2.1/usermanual-idm.md)
+- ## [User Manual](4.1.2/usermanual-idm.md)
 
-- ## [Release Notes](4.2.1/release-notes-idm.md)
+- ## [Release Notes](4.1.2/release-notes-idm.md)
 
 # Version 4.1.1
 
