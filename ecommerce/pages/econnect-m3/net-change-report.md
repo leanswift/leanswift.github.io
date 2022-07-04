@@ -28,7 +28,7 @@
 	- Added an additional field in the Backend Configuration to choose whether the MMSAPR value can be set as an item price if the ODSAPR value is 0 for the item
 
 		- If Item Price field is selected as 'ODSAPR' then a new setting called 'Fallback Item Price' will appear
-![Fallback Item Price](../../../../ecommerce/images/econnect-user-manual-ion-part1/odsapr-field.png)
+![Fallback Item Price](../../../ecommerce/images/econnect-user-manual-ion-part1/odsapr-field.png)
 
 			- If the above setting is set to Yes, then the item price will be updated with MMSAPR from MITMAS only if the ODSAPR from OPRBAS is 0 or there is no valid price data for the item.
 
