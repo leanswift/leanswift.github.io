@@ -11,7 +11,17 @@
 
 - ## [Release Notes for Commerce](22.2.1/release-notes-econnect-m3-EE.md)
 ---
+---
+# Version 22.2.0-p2
 
+- ## [User Manual - Part 1](22.2.0-p2/usermanual-econnect-m3-part-1.md)
+
+- ## [User Manual - Part 2](22.2.0-p2/usermanual-econnect-m3-part-2.md)
+
+- ## [Release Notes for Commerce](22.2.0-p2/release-notes-econnect-m3-EE.md)
+
+- ## [Release Notes for Community](22.2.0-p2/release-notes-econnect-m3-CE.md)
+---
 ---
 # Version 22.2.0-p1
 

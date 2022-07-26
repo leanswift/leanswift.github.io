@@ -61,6 +61,11 @@
 	- strtotime()
 	- strpos()
 
+# **22.2.0-p2**
+
+# **Enhancements**
+- Now customer price is supporting with multiple currency and display the store specific configurable currency prices on product view page.
+
 # **22.2.0-p1**
 
 # **Enhancements**
