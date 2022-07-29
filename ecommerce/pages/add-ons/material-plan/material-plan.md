@@ -2,6 +2,13 @@
 
 eConnect for Infor M3
 
+Version 4.2.2
+=============
+
+- [User Manual](4.2.2/usermanual-material-plan.md)
+
+- [Release Notes](4.2.2/release-notes-material-plan.md)
+
 Version 4.2.1
 =============
 

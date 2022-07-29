@@ -52,6 +52,10 @@ All the standard functionalities of core eConnect are supported in v22.2.1, whic
 
 - Improved the way of fetching ODSAPR to update it as Item Price
 
+- Product, Price, Category, AttributeSet, Customer Price, Shipment & Invoice creation(Order Module) will now get updated even when the SKU and ERP Item Number is different for a product
+
+- eConnect will support the Open Shipments from M3 i.e. when the same shipment number is created for two different customer orders
+
 # **Enhancements**
 
 - Improved the way of fetching ODSAPR from OPRBAS with the below things
@@ -96,7 +100,13 @@ All the standard functionalities of core eConnect are supported in v22.2.1, whic
 
 - Resolved the PHP error 'false to array conversion' thrown in customer module
 
+- Resolved the PHP warning(trying to access array on boolean) while trying to update customer price
+
 # **Bug Fixes**
+
+- Customer Price will get displayed in the frontend based on the currency value specified for that store in the backend
+
+- Errors shown in the phtml files(Order History, Order View, Invoice History) related to PHP Tag are now resolved
 
 - Product's visibility will get updated even when there are multiple sites available 
 
