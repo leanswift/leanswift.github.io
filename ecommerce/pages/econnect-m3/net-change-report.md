@@ -1,3 +1,21 @@
+# **22.2.1-p1-EE**
+
+# **Highlight**
+
+- Product, Price, Category, AttributeSet, Customer Price, Shipment & Invoice creation(Order Module) will now get updated even when the SKU and ERP Item Number is different for a product
+
+- eConnect will support the Open Shipments from M3 i.e. when the same shipment number is created for two different customer orders
+
+# **Compatibility Fixes**
+
+- Resolved the PHP warning(trying to access array on boolean) while trying to update customer price
+
+# **Bug Fixes**
+
+- Customer Price will get displayed in the frontend based on the currency value specified for that store in the backend
+
+- Errors shown in the phtml files(Order History, Order View, Invoice History) related to PHP Tag are now resolved
+	
 # **22.2.1**
 
 # **Highlight**
