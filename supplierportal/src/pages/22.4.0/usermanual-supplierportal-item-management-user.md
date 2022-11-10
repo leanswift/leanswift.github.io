@@ -31,7 +31,9 @@ My Items has below submenus,
 3.	Item Update
 4.	Stock Update
 
-
+<kbd>
+<kbd><img alt="Supplier_Invite" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SuuplierInvite.png"></kbd>
+</kbd>
 
 ## Create New
 
