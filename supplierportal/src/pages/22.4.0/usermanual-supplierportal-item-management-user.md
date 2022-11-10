@@ -72,6 +72,12 @@ Supplier will receive Bell Notification for each item status update with error m
 Supplier can also create new item with Additional Information attributes. These input fields will be configured by portal admin.
 Additional Information fields are optional.
 
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 ## Item Update
 
 Supplier can update existing supplier item created via portal or Infor M3.
@@ -90,7 +96,11 @@ Verification Task is assigned to Buyer with item details submitted by supplier f
 
 -> If Item update process in M3 fails, the status changes to **‘Failed’** with error message displayed in bell notification.
 
-
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 ## Stock Update
 
@@ -101,6 +111,12 @@ Stock cannot be updated for Item with status **Submitted, Failed and Rejected**.
 Supplier Item Number Search will display current stock (existing stock) and revised stock fields.
 
 Revised Stock of the supplier item is updated in RealTime.
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 ## Submitted Status
 
@@ -123,6 +139,11 @@ Items can be filtered using **Supplier Item number, Supplier Item Name, Supplier
 
 **Failed** -> When Item Creation/ Item Update request process failed in Infor M3. Supplier can edit and re-submit the item request. Verification Task is assigned to Buyer for approval.
 
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 ## Item Image Upload
 
