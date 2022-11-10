@@ -31,9 +31,11 @@ My Items has below submenus,
 3.	Item Update
 4.	Stock Update
 
+
 <kbd>
-<kbd><img alt="Supplier_Invite" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SuuplierInvite.png"></kbd>
+<kbd><img alt="Supplier_Invite" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/Menus.png"></kbd>
 </kbd>
+
 
 ## Create New
 
@@ -46,7 +48,17 @@ Supplier must provide **Supplier Item Number, Supplier Item Name and Supplier It
 Valid information must be provided for **Purchase Price, Purchase Price Qty, Minimum Order Quantity, Order Multiple, Country of Origin, Supplier Stock Qty, Valid From and Valid To** under Purchase information.
 
 
+<kbd>
+<kbd><img alt="CreateNewForm" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/CreateNewForm.png"></kbd>
+</kbd>
+
+
 Once the request is submitted, page navigates to submitted status page with success message as below. Initially, item creation request will be in **‘Submitted’** status.
+
+
+<kbd>
+<kbd><img alt="CreateNewItemStatus" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/CreateNewItemStatus.png"></kbd>
+</kbd>
 
 
 Verification Task will be assigned to Buyer with all Item Details submitted by Supplier for approval.
@@ -74,6 +86,12 @@ Supplier will receive Bell Notification for each item status update with error m
 Supplier can also create new item with Additional Information attributes. These input fields will be configured by portal admin.
 Additional Information fields are optional.
 
+
+<kbd>
+<kbd><img alt="CreateNewwithAdditionalInfo" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/CreateNewwithAdditionalInfo.png"></kbd>
+</kbd>
+
+
 <div align="right">
 <b>
  <a href="#toc">↥ Go to Top</a>
@@ -88,7 +106,29 @@ Items are searched using Supplier Item Number. Search opens the editable form wi
 
 Item with status **Submitted, Failed and Rejected** cannot be updated.
 
+
+<kbd>
+<kbd><img alt="ItemUpdateRejectedStatus" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ItemUpdateRejectedStatus.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="SupplierItemUpdateSearch" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/SupplierItemUpdateSearch.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="SupplierItemUpdateForm" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/SupplierItemUpdateForm.png"></kbd>
+</kbd>
+
+
 Once the page is submitted with additional information (if required), page navigates to submitted status with success message and Item status will be in **‘Submitted’** status.
+
+
+<kbd>
+<kbd><img alt="ItemUpdateMessage" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ItemUpdateMessage.png"></kbd>
+</kbd>
+
 
 Verification Task is assigned to Buyer with item details submitted by supplier for approval.
 
@@ -114,6 +154,22 @@ Supplier Item Number Search will display current stock (existing stock) and revi
 
 Revised Stock of the supplier item is updated in RealTime.
 
+
+<kbd>
+<kbd><img alt="StockUpdate" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/StockUpdate.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="StockUpdateMessage" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/StockUpdateMessage.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="StockAfterUpdate" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/StockAfterUpdate.png"></kbd>
+</kbd>
+
+
 <div align="right">
 <b>
  <a href="#toc">↥ Go to Top</a>
@@ -125,6 +181,11 @@ Revised Stock of the supplier item is updated in RealTime.
 This page displays all item requests with respective status.
 
 Items can be filtered using **Supplier Item number, Supplier Item Name, Supplier item Description and Status**.
+
+
+<kbd>
+<kbd><img alt="CreateNewForm" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/SubmittedAllstatus.png"></kbd>
+</kbd>
 
 
  **Status and Actions**
@@ -151,4 +212,13 @@ Items can be filtered using **Supplier Item number, Supplier Item Name, Supplier
 
 Item Image can be uploaded by clicking **Camera** Icon for Item request with status as **Created, Connected and Updated** in the Submitted Status page.
 
+
+<kbd>
+<kbd><img alt="ImageUpload" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ImageUpload.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="ImageUploadMesage" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ImageUploadMesage.png"></kbd>
+</kbd>
 
