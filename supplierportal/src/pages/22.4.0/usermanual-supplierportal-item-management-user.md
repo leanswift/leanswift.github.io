@@ -229,3 +229,8 @@ Item Image can be uploaded by clicking **Camera** Icon for Item request with sta
 <kbd><img alt="ImageUploadMesage" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ImageUploadMesage.png"></kbd>
 </kbd>
 
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
