@@ -112,9 +112,11 @@ Item with status **Submitted, Failed and Rejected** cannot be updated.
 </kbd>
 
 
+
 <kbd>
 <kbd><img alt="SupplierItemUpdateSearch" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/SupplierItemUpdateSearch.png"></kbd>
 </kbd>
+
 
 
 <kbd>
@@ -155,14 +157,17 @@ Supplier Item Number Search will display current stock (existing stock) and revi
 Revised Stock of the supplier item is updated in RealTime.
 
 
+
 <kbd>
 <kbd><img alt="StockUpdate" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/StockUpdate.png"></kbd>
 </kbd>
 
 
+
 <kbd>
 <kbd><img alt="StockUpdateMessage" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/StockUpdateMessage.png"></kbd>
 </kbd>
+
 
 
 <kbd>
@@ -213,9 +218,11 @@ Items can be filtered using **Supplier Item number, Supplier Item Name, Supplier
 Item Image can be uploaded by clicking **Camera** Icon for Item request with status as **Created, Connected and Updated** in the Submitted Status page.
 
 
+
 <kbd>
 <kbd><img alt="ImageUpload" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ImageUpload.png"></kbd>
 </kbd>
+
 
 
 <kbd>
