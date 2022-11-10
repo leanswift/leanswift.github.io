@@ -13,7 +13,7 @@
   - [Stock Update](#stock-update)
   - [Submitted Status](#submitted-status)
 
-# User Manual - Supplier Item Management
+# User Manual - Supplier Item Management - User
 
 <div id = "Supplier Item Management"> </div> 
 
