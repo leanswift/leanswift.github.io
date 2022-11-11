@@ -342,3 +342,9 @@ Add Item Error Message and Update Item Error Message displays error message thro
 <kbd>
 <kbd><img alt="ItemFailedErrorMessage" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ItemFailedErrorMessage.png"></kbd>
 </kbd>
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
