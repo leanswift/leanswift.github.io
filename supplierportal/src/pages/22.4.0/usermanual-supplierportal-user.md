@@ -5,5 +5,5 @@
 
 User manual of 22.4.0 contains the same features of 20.2.0 
 
-To view 20.2.0 user manual, click [here](../20.2.0/usermanual-supplierportal-user.md).
+To view suplier user manual, click [here](../20.2.0/usermanual-supplierportal-user.md).
 
