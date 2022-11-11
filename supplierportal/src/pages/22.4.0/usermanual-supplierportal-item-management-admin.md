@@ -80,6 +80,14 @@ If **override numbering series is Enabled**,
 
 Retrieve Next Item number API is used based on the Nuber Type and Number series. By default, Number Type ‘9’ is used and Number series ‘A’ is used from program CRS165 (Number Series. Open).Number series can be updated by Buyer in the verification task.
 
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
+
 ## Additional Attribute Mapping 
 
 
@@ -104,6 +112,14 @@ Make sure Mapped Attributes are added in the workflow Input parameters manually.
 
 Attributes Mappings can be added and removed.           
 
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
+
 ## Workflow Configuration
 
 
@@ -116,11 +132,27 @@ Attributes Mappings can be added and removed.
 
 **Item Update Workflow:** Name of ION Workflow should be configured for Item Update process. This workflow is triggered when existing item update form is submitted.
 
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
+
 ## Workflow Distribution
 
 **User Name:** Only one M3 UserName must be configured, and this field is mandatory. Verification Task is assigned to the configured username for approval when item creation or update request is submitted.
 
 **User Group:** M3 User Group must be configured, and this field is optional. Verification Task is sent to all the users in the group configured for approval when item creation or update request is submitted.
+
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 
 ## Retrieve Configuration
 
@@ -156,3 +188,10 @@ Buyer can update below values during approval task triggered for Item creation r
 3.	Inspection Text
 4.	Creation Responsible
 5.	Quality Class
+
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
