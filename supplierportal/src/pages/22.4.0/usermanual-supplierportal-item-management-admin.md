@@ -29,18 +29,18 @@ M3 Buyer decides to approve or reject the above requests from the supplier based
 
 Item Management configuration supports Multi Website scope.
 
-Navigate to **Leanswift-> Supplier Portal-> Item management**. Then Switch to respective website configured.
+Navigate to **Leanswift-> Supplier Portal-> Item Management**. Then Switch to respective website configured.
+
+There are three sections
+1.	General Configuration
+2.	Workflow Configuration
+3.	Retrieve Configuration
 
 
 <kbd>
 <kbd><img alt="AdminMenu" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/AdminMenu.png"></kbd>
 </kbd>
 
-
-There are three sections
-1.	General Configuration
-2.	Workflow Configuration
-3.	Retrieve Configuration
 
 
 ## General Configuration
@@ -52,10 +52,7 @@ There are three sections
 
 
 **Item Type:** Item will be created based on the Item type selected. Item Type is retrieved from program CRS045 (Item Type. Open)
-
-Item type must have “Template item” and “Override with manually entered item number” fields enabled.
-
-API MMS200MI/AddItmViaItmTyp(Add Item Via Item Type) is used to create item in M3 program MMS001(Item.Open). 
+Item type must have “Template item” and “Override with manually entered item number” fields enabled.API MMS200MI/AddItmViaItmTyp(Add Item Via Item Type) is used to create item in M3 program MMS001(Item.Open). 
 
 **Creation Responsible:** Entered M3 User is the responsible person for the Item Creation. The value given here gets updated in the RESPONSIBLE field for the newly created item in MMS001 and PPS040.
 
