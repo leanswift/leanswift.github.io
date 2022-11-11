@@ -3,6 +3,9 @@
 # Supplier Portal-Net Change Report
 
 ## Table of contents
+  - [22.4.0](#2240)
+    - [Features](#features)
+    - [Enhancements](#enhancement)
   - [22.1.0](#2210)
     - [Features](#features)
     - [Enhancements](#enhancement)
@@ -19,6 +22,29 @@
   - [20.1.0](#2010)
     - [Features:](#features)
 #
+## 22.4.0
+
+### Features
+
+- **Supplier Item Management**  
+
+  This will be an Add-on to Supplier Portal. With this Supplier can create a new supplier item OR M3 Item /Update item/Connect supplier item to existing M3 item.
+  M3 Buyer makes a decision to approve or reject the above requests from the supplier based on the real time data provided by him. 
+
+### Enhancements
+
+- Provided backend configuration to choose Payment Terms for Onboarding Supplier.
+- Added Supplier Number Length configuration at backend for Onboarding Supplier. 
+- Address 2 and References fields are optional in My Information form for onboarding supplier.
+- Phone Number field accepts maximum of 16 characters with special characters in My Information form.
+- TAX ID field accepts maximum of 15 characters with special characters in My Information form. This value is updated in TINO attribute in M3. 
+- ‘How it works’ link is displayed when My Information is submitted. Link provides steps to complete onboarding supplier process. 
+- Deliveries are now exported with line level information. 
+- Password rules and validation is added in Create an Account page. 
+- Supplier Name can be configured with permission at backend to allow Upper Case and Special Character. 
+- Packaging Terms, Delivery Method, Cash Discount Terms, Monitoring Class, Payment Terms are added to My Information form. These fields are configurable and fetched     from M3 for onboarding supplier. 
+- Freight Terms, Delivery Terms, Packaging Terms, Delivery Method, Cash Discount Terms, Monitoring Class and Payment Terms fields are language specific in My -           Information form. 
+- Approval for Confirm Purchase Order is sent to Buyer assoicated with Purchase Order in PPS200. 
 
 ## 22.1.0
 
