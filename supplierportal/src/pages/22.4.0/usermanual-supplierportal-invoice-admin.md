@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 22.4.0 - Deliveries User Manual - User
+# Version 22.4.0 - Invoice User Manual - Admin
 
 User Manual for 22.4.0 is same as 20.2.0. 
 
