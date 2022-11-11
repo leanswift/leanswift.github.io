@@ -13,6 +13,7 @@
   - [Workflow Configuration](#workflow-configuration)
   - [Workflow Distribution](#workflow-distribution)
   - [Retrieve Configuration](#workflow-distribution)
+- [Buyer Approval and Rejection Process in Mingle Portal](#buyer-approval-and-rejection-process-in-mingle-portal)
 
 # User Manual - Supplier Item Management - Admin
 
@@ -197,7 +198,7 @@ Buyer can update below values during approval task triggered for Item creation r
 </div>
 
 
-## Buyer Approval/Rejection Process in Mingle Portal 
+# Buyer Approval and Rejection Process in Mingle Portal
 
 Buyer is assigned with verification task for item creation/ update submitted by supplier for approval. 
 
@@ -205,7 +206,18 @@ Login to **Mingle Portal** and click **Message** icon.
 
 Then navigate to **Task** option which will display list of tasks and notifications assigned to Buyer. 
 
+
+<kbd>
+<kbd><img alt="ListofTasks" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ListofTasks.png"></kbd>
+</kbd>
+
+
 Click **Show Details** of the assigned task which displays all details. 
+
+
+<kbd>
+<kbd><img alt="CreateNewTaskVerify" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/CreateNewTaskVerify.png"></kbd>
+</kbd>
 
 
 Buyer must verify all details and can update writable field values if required. Updated Task notes updated will be notified to Supplier.
@@ -218,31 +230,115 @@ Then Buyer makes decision either to Approve or Reject or Item Connect the assign
 
 If Buyer approves the task, then notification is triggered with status. New M3 Item is created in MM001 and connected with supplier item in PPS040. 
 
+
+<kbd>
+<kbd><img alt="CreatedSuccess" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/CreatedSuccess.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="CreatedTaskStatus" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/CreatedTaskStatus.png"></kbd>
+</kbd>
+
+
+
 **Item Connect**
 
 If Buyer decides to Connect the supplier item with existing M3 Item, then another task is assigned to enter the existing M3 Item number in the field M3 Item Number. Complete the task by clicking ‘Done’ and notification is received. 
 
+<kbd>
+<kbd><img alt="M3ItemTask" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/M3ItemTask.png"></kbd>
+</kbd>
+
+<kbd>
+<kbd><img alt="AddM3ItemTask" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/AddM3ItemTask.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="ConnectedTask" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ConnectedTask.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="ConnectedStatus" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ConnectedStatus.png"></kbd>
+</kbd>
 
 **Reject**
 
 If Buyer decides to reject the submitted details, then notification is triggered with status. 
+
+<kbd>
+<kbd><img alt="RejectedTask" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/RejectedTask.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="RejectedStatusTask" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/RejectedStatusTask.png"></kbd>
+</kbd>
+
 
 
 **Item Update Task Actions**
 
  Buyer must verify details and choose to approve or reject the task. 
 
+<kbd>
+<kbd><img alt="UpdateItemTask" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/UpdateItemTask.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="UpdateItemTaskDetails" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/UpdateItemTaskDetails.png"></kbd>
+</kbd>
+
 
 **Approve**
 
 If Buyer approves the task, then supplier item deatils are updated in PPS040 and notification is received as below. 
+
+<kbd>
+<kbd><img alt="UpdateItemStatusTask" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/UpdateItemStatusTask.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="UpdateItemStatus" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/UpdateItemStatus.png"></kbd>
+</kbd>
+
 
 
 **Reject**
 
 If Buyer rejects the submitted details, then notification is triggered. 
 
+<kbd>
+<kbd><img alt="ItemUpdateRejectedTask" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ItemUpdateRejectedTask.png"></kbd>
+</kbd>
+
+
+<kbd>
+<kbd><img alt="UpdateItemRejectedStatus" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/UpdateItemRejectedStatus.png"></kbd>
+</kbd>
+
 
 **Failed Status for Item Creation and Update Task** 
 
 When Item Creation or Connection or Update process fails in M3 then Buyer is notified with error message. 
+
+
+<kbd>
+<kbd><img alt="ItemFailedTask" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ItemFailedTask.png"></kbd>
+</kbd>
+
+
+
+<kbd>
+<kbd><img alt="ItemFailedstatus" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ItemFailedstatus.png"></kbd>
+</kbd>
+
+Add Item Error Message and Update Item Error Message displays error message thrown by Infor M3 API's.
+
+<kbd>
+<kbd><img alt="ItemFailedErrorMessage" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ItemFailedErrorMessage.png"></kbd>
+</kbd>
