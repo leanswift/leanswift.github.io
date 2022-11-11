@@ -195,3 +195,54 @@ Buyer can update below values during approval task triggered for Item creation r
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
+
+## Buyer Approval/Rejection Process in Mingle Portal 
+
+Buyer is assigned with verification task for item creation/ update submitted by supplier for approval. 
+
+Login to **Mingle Portal** and click **Message** icon. 
+
+Then navigate to **Task** option which will display list of tasks and notifications assigned to Buyer. 
+
+Click **Show Details** of the assigned task which displays all details. 
+
+
+Buyer must verify all details and can update writable field values if required. Updated Task notes updated will be notified to Supplier.
+
+Then Buyer makes decision either to Approve or Reject or Item Connect the assigned task. 
+
+**Item Creation/Connect Task Actions**
+
+**Approve**
+
+If Buyer approves the task, then notification is triggered with status. New M3 Item is created in MM001 and connected with supplier item in PPS040. 
+
+**Item Connect**
+
+If Buyer decides to Connect the supplier item with existing M3 Item, then another task is assigned to enter the existing M3 Item number in the field M3 Item Number. Complete the task by clicking ‘Done’ and notification is received. 
+
+
+**Reject**
+
+If Buyer decides to reject the submitted details, then notification is triggered with status. 
+
+
+**Item Update Task Actions**
+
+ Buyer must verify details and choose to approve or reject the task. 
+
+
+**Approve**
+
+If Buyer approves the task, then supplier item deatils are updated in PPS040 and notification is received as below. 
+
+
+**Reject**
+
+If Buyer rejects the submitted details, then notification is triggered. 
+
+
+**Failed Status for Item Creation and Update Task** 
+
+When Item Creation or Connection or Update process fails in M3 then Buyer is notified with error message. 
