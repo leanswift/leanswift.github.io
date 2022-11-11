@@ -8,7 +8,7 @@
 # Version 22.4.0
 
 
-- ## [Release Notes](22.4.0/release-notes-22.1.0-supplier-portal.md)
+- ## [Release Notes](22.4.0/release-notes-22.4.0-supplier-portal.md)
 
 - ## [User Manual - Admin](22.4.0/usermanual-supplierportal-admin.md)
 
