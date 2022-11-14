@@ -113,7 +113,7 @@ Initially Supplier can view only **My Information** tab with form to be submitte
 
 
 <kbd>
-<kbd><img alt="MyInformation" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/MyInformation.png"></kbd>
+<kbd><img alt="UpdatedMyInformation" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-onboarding/UpdatedMyInformation.png"></kbd>
 </kbd>
 
 
@@ -174,9 +174,13 @@ Navigate to **LeanSwift->Supplier Portal->Settings** and switch to Multi Website
 
 
 <kbd>
-<kbd><img alt="SupplierOnboard" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierOnboarding.png"></kbd>
+<kbd><img alt="SupplierOnboarding1" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-onboarding/SupplierOnboarding1.png"></kbd>
 </kbd>
 
+
+<kbd>
+<kbd><img alt="SupplierOnboarding2" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-onboarding/SupplierOnboarding2.png"></kbd>
+</kbd>
 
 **M3 Supplier Template** - Existing supplier template from M3 can be configured with comma separated values.
 
