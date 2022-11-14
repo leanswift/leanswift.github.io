@@ -37,14 +37,14 @@
 
 |  **Software Name**  |  **Version**  |
 | --- | --- |
-| Magento Open Source | 2.4.3 |
-| eConnect Base Module Version | 6.1.2 |
-| IDM Module version | 4.1.0 |
+| Magento Open Source | 2.4.4 |
+| eConnect Base Module Version | 6.2.1 |
+| IDM Module version | 4.1.2 |
 | ION Package Version | 3.0.0 |
-| PHP | 7.4.27 |
-| RabbitMQ | 3.7.2 |
+| PHP | 8.1.0 |
+| RabbitMQ | 3.7.28 |
 | ION Desk | 2022.01.03 |
-| Infor M3 | 10.4.1.20211108_022846_04 |
+| Infor M3 | 10.4.1.20220810_084103_01 |
 | Advise and Notify | 3.0.0 |
 | Supplier Invoices | 2.0.0 |
 | Supplier Deliveries | 3.0.0 |
