@@ -116,8 +116,9 @@ Initially Supplier can view only **My Information** tab with form to be submitte
 <kbd><img alt="UpdatedMyInformation" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-onboarding/UpdatedMyInformation.png"></kbd>
 </kbd>
 
+Freight Terms, Payment Terms, Cash Discount Terms, Delivery Method, Monitoring Class, Delivery Terms and Packaging Terms are language specific fields. Based on the language chosen, these filed values must be seleected.
 
-You can add up to three references.
+You can add up to three references and they are optional.
 
 Clicking on Submit button brings a confirm popup when you submit the information.
 
@@ -186,12 +187,21 @@ Navigate to **LeanSwift->Supplier Portal->Settings** and switch to Multi Website
 
 **M3 Supplier Prefix** – New supplier ID will be created with configured prefix value
 
+**M3 Supplier number length** - This field is dropdown list which contains values as 5,6,7,8. Based on chosen length, Supplier number is created exluding 
+
 **Workflow Name** – Give ION workflow Name used for supplier Onboarding
 
 **Fetch Configuration** – This will fetch M3 Configuration fields with dropdown values.
 
-Selected Dropdown values for **M3 Language List**, **M3 Order Currency List**, **M3 Payment Terms**, **M3 Freight Terms**, **M3 Delivery Terms List** and **M3 Payment Method** will be prepopulated in My Information form as default values. These values can be changed by supplier before submitting.
+Selected Dropdown values for **M3 Language List**, **M3 Order Currency List**, **M3 Payment Terms**, **M3 Freight Terms**, **M3 Delivery Terms List**, **M3 Payment Method**, **M3 Packaging Terms List**, **M3 Monitoring Class List**, **M3 Delivery Method List** and **M3 Cash Discount Terms List** will be prepopulated in My Information form as default values. These values can be changed by supplier before submitting.
 
+**M3 Payment Terms**, **M3 Freight Terms**, **M3 Delivery Terms List**, **M3 Packaging Terms List**, **M3 Monitoring Class List**, **M3 Delivery Method List** and **M3 Cash Discount Terms List** are language specific fields. Based on the M3 Language selected, drop down list will be listed.
+
+**Allow to choose Payment terms** - If Yes, then supplier can choose payment terms from the dropdown lisst in my information form. If No, then supplier template payment term will be selected as default in my information form.
+
+**Allow only UPPER CASE in Supplier Name** - By default Yes is configured, Supplier Name will be accepted only in UPPER Case and if lower case is entered then it is changed to uppercase in My Information form.
+
+**Allow Special Character In Supplier Name** - Based on the slection, special characters is allowed for supplier name in My Information form.
 
 **Supplier Template** can be created in M3 using program **CRS620** with status **‘05-Suppl Template’**.
 
