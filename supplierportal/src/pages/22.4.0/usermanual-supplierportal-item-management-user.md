@@ -7,7 +7,7 @@
 <div id=toc></div>
 
 - [Supplier Item Management](#supplier-item-management)
- 	- [My Items](#my-items)	 
+  - [My Items](#my-items)	 
   - [Create New](#create-new)	 
   - [Item Update](#item-update)
   - [Stock Update](#stock-update)
