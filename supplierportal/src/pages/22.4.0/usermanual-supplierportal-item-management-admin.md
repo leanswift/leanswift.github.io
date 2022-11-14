@@ -224,9 +224,9 @@ Buyer must verify all details and can update writable field values if required. 
 
 Then Buyer makes decision either to Approve or Reject or Item Connect the assigned task. 
 
-**Item Creation/Connect Task Actions**
+## **Item Creation/Connect Task Actions**
 
-**Approve**
+### **Approve**
 
 If Buyer approves the task, then notification is triggered with status. New M3 Item is created in MM001 and connected with supplier item in PPS040. 
 
@@ -242,7 +242,7 @@ If Buyer approves the task, then notification is triggered with status. New M3 I
 
 
 
-**Item Connect**
+### **Item Connect**
 
 If Buyer decides to Connect the supplier item with existing M3 Item, then another task is assigned to enter the existing M3 Item number in the field M3 Item Number. Complete the task by clicking ‘Done’ and notification is received. 
 
@@ -264,7 +264,7 @@ If Buyer decides to Connect the supplier item with existing M3 Item, then anothe
 <kbd><img alt="ConnectedStatus" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-item-management/ConnectedStatus.png"></kbd>
 </kbd>
 
-**Reject**
+### **Reject**
 
 If Buyer decides to reject the submitted details, then notification is triggered with status. 
 
@@ -279,7 +279,7 @@ If Buyer decides to reject the submitted details, then notification is triggered
 
 
 
-**Item Update Task Actions**
+## **Item Update Task Actions**
 
  Buyer must verify details and choose to approve or reject the task. 
 
@@ -293,7 +293,7 @@ If Buyer decides to reject the submitted details, then notification is triggered
 </kbd>
 
 
-**Approve**
+### **Approve**
 
 If Buyer approves the task, then supplier item deatils are updated in PPS040 and notification is received as below. 
 
@@ -308,7 +308,7 @@ If Buyer approves the task, then supplier item deatils are updated in PPS040 and
 
 
 
-**Reject**
+### **Reject**
 
 If Buyer rejects the submitted details, then notification is triggered. 
 
@@ -322,7 +322,7 @@ If Buyer rejects the submitted details, then notification is triggered.
 </kbd>
 
 
-**Failed Status for Item Creation and Update Task** 
+## **Failed Status for Item Creation and Update Task** 
 
 When Item Creation or Connection or Update process fails in M3 then Buyer is notified with error message. 
 
