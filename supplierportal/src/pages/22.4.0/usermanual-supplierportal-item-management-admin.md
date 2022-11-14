@@ -7,7 +7,7 @@
 <div id=toc></div>
 
 - [Supplier Item Management](#supplier-item-management)
- 	- [Item Management](#item-management)	 
+  - [Item Management](#item-management)	 
   - [General Configuration](#general-configuration)	 
   - [Additional Attribute Mapping](#additional-attribute-mapping)
   - [Workflow Configuration](#workflow-configuration)
