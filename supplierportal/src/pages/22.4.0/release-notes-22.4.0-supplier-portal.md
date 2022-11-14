@@ -50,6 +50,7 @@
 | Supplier Deliveries | 3.0.0 |
 | Supplier User Tracking | 2.0.0 |
 | User Management | 2.0.0 |
+| Item Management |  |
 
 
 ## **Standard Features**
