@@ -223,14 +223,16 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 
 ## **Point of Contact** 
 
-silambarasan.k@leanswift.com
+silambarasan.kj3@wipro.com
 
-vaithiyanathan.paramasivam@leanswift.com
+vaithiyanathan.paramasivam@wipro.com
 
-deepthi.tadikamalla@leanswift.com
+deepthi.tadikamalla@wipro.com
 
-ketankumar.zanzarukiya@leanswift.com
+ketankumar.zanzarukiya@wipro.com
 
-narayanan.gurusamy@leanswift.com 
+prabhu.manoharan3@wipro.com
+
+narayanan.gurusamy@wipro.com
 
  
