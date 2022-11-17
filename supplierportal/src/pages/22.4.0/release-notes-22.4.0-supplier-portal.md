@@ -50,7 +50,7 @@
 | Supplier Deliveries | 22.4.0 |
 | Supplier User Tracking | 22.4.0 |
 | User Management | 22.4.0 |
-| Item Management | 22.4.0 |
+| Supplier Item Management | 22.4.0 |
 
 
 ## **Standard Features**
