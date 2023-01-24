@@ -132,7 +132,7 @@
 
 - ## [User Manual - User](20.1.2/usermanual-supplierportal-user.md)
 
-- ## [Release Notes](20.1.2/release-notes-supplier-portal.md)
+- ## [Release Notes](20.1.2/release-notes-20.1.2-supplier-portal.md)
 
 
 # Version 20.1.1
