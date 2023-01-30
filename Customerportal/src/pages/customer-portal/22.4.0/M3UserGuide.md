@@ -1,8 +1,10 @@
-[![](RackMultipart20230128-1-nq44dl_html_8e85754fa92f0167.jpg)](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
+![CustomerPortalHeader](/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
 # **Version 22.4.0- User Manual - M3 Login**
 
 # Table of contents
+
+<div id = "toc"></div>
 
 - [**Version 22.4.0- User Manual - M3 Login**](#version-2240--user-manual---m3-login)
 - [**Table of Contents**](#table-of-contents)
@@ -11,13 +13,23 @@
 
 **Overview**
 
+<div id = "overview"> </div>
+
 **LeanSwift M3 login module**  provides the ability to log into Magento with an Infor OS user (Single Sign-on support with Infor OS). It also retrieves the list of users in Infor M3 along with security roles. The module leverages ION APIs and Infor's authentication and authorization services to validate M3 user credentials (Ming.le user) via IFS (Infor Federation Services).
 
 # **Architecture**
 
-[![](RackMultipart20230128-1-nq44dl_html_47799d23ad036281.jpg)](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/images/add-ons/m3-login/CustomerPortal_Architecture.jpg)
+<div id = "architecture"></div>
 
-[↥ **Go to Top**](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/pages/add-ons/m3-login/usermanual-m3-login.md#toc)
+<kbd>
+<kbd><img alt="CustomerPortal_Architecture" src="../../../images/customer-portal/admin-user/CustomerPortal_Architecture.jpg"></kbd>
+</kbd>
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 **Features**
 
@@ -26,13 +38,21 @@
 - Redirect to invoking Magento interface after authentication is successful
 - Retrieves list of M3 users and associated security roles
 
-[↥Go to Top](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/pages/add-ons/m3-login/usermanual-m3-login.md#toc)
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 **Point Of Contact**
 
 This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at [http://www.leanswift.com](http://www.leanswift.com/) or email [info@leanswift.com](mailto:info@leanswift.com).
 
-[↥Go to Top](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/pages/add-ons/m3-login/usermanual-m3-login.md#toc)
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 # **User Guide for M3 Login Module – Admin User**
 
@@ -40,13 +60,21 @@ This document and the software it describes are provided by LeanSwift Solutions 
 
 - To access M3 Login Settings as admin user, go to LeanSwift – M3 Login – Settings.
 
-[![](RackMultipart20230128-1-nq44dl_html_26808ff74ed9a807.jpg)](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/images/add-ons/m3-login/M3Login.jpg)
+<kbd>
+<kbd><img alt="M3Configuration" src="../../../images/22.4.0/M3UserGuide/M3Configuration.png"></kbd>
+</kbd>
 
 - From the M3 Login module the Admin user can configure logging preference, domain and authentication settings and click on Save Config.
 
-[![](RackMultipart20230128-1-nq44dl_html_7369730f8c64bf86.jpg)](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/images/add-ons/m3-login/M3LoginHomePage.jpg)
+<kbd>
+<kbd><img alt="M3SaveConfiguration" src="../../../images/22.4.0/M3UserGuide/M3SaveConfiguration.png"></kbd>
+</kbd>
 
-[↥Go to Top](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/pages/add-ons/m3-login/usermanual-m3-login.md#toc)
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 **General**
 
@@ -60,14 +88,20 @@ This document and the software it describes are provided by LeanSwift Solutions 
   - Setting Debug/log data to No, disables logger.
   - The logger is disabled by default and can be enabled to check request and response data for troubleshooting purposes.
 
-[![](RackMultipart20230128-1-nq44dl_html_60e3173b97f2f465.jpg)](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/images/add-ons/m3-login/M3Login-General.jpg)
+<kbd>
+<kbd><img alt="M3Genral" src="../../../images/22.4.0/M3UserGuide/M3Genral.png"></kbd>
+</kbd>
 
 - Internal user Email domain(s)
   - Configure the internal user email domain(s).
   - Specify comma separated list of internal user email domains.Ex: leanswift.com
   - If the login Id contains any of the internal user email domains, the password field is disabled and the user is taken to Magento for login authentication.
 
-[↥Go to Top](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/pages/add-ons/m3-login/usermanual-m3-login.md#toc)
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 **Authentication**
 
@@ -75,27 +109,39 @@ This document and the software it describes are provided by LeanSwift Solutions 
   - This information can be obtained from [Multi-tenant Cloud Infor OS](https://www.infor.com/resources/infor-ming-le).
 - Go to LeanSwift – M3 Login – Settings – Authentication.
 
-[![](RackMultipart20230128-1-nq44dl_html_c9dd475509758ed9.jpg)](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/images/add-ons/m3-login/M3Login-Authentication.jpg)
+<kbd>
+<kbd><img alt="Authentication" src="../../../images/22.4.0/M3UserGuide/Authentication.png"></kbd>
+</kbd>
 
-[↥Go to Top](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/pages/add-ons/m3-login/usermanual-m3-login.md#toc)
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 **Import M3 User Roles**
 
 - It is part of add-on to fetch M3 User Roles and Functions as initial import. This is not required for Customer Portal v21.1.0.
 
-![](RackMultipart20230128-1-nq44dl_html_61c92283e0aba313.png)
+<kbd>
+<kbd><img alt="M3UserRoles" src="../../../images/22.4.0/M3UserGuide/M3UserRoles.png"></kbd>
+</kbd>
 
 **Customer User Permissions**
 
 - Users must have roles assigned to them in Magento, and they can only log in to the frontend based on the rights they have been allowed.
 - **Internal User Permission**
 
-[![](RackMultipart20230128-1-nq44dl_html_11754d15265a8e96.png)](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/images/add-ons/m3-login/UserPermission-InternalUserPermission.png)
+<kbd>
+<kbd><img alt="InternalPermission" src="../../../images/22.4.0/M3UserGuide/InternalPermission.png"></kbd>
+</kbd>
 
 - M3 USER Role - Internal User permissions are leveraged at M3 user Role configuration.
   - Customers of Magento have permissions by default.
   - Users should have access configured both in Customers Portal Settings and M3 user role settings.
 
-[↥Go to Top](https://github.com/leanswift/leanswift.github.io/blob/master/Customerportal/src/pages/add-ons/m3-login/usermanual-m3-login.md#toc)
-
-![Shape1](RackMultipart20230128-1-nq44dl_html_8364f73a6574c228.gif)
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
