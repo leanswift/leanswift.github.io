@@ -104,15 +104,15 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - To login to the Customer portal Payment module, the front end user can login to Customer Portal – Select customer – Click on Payments.
 
 <kbd>
-<kbd><img alt="HomeScreen" src="../../../images/22.4.0/PaymentUserguide/HomeScreen.png"></kbd>
+<kbd><img alt="HomeScreen" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/HomeScreen.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="LoginCustomers" src="../../../images/22.4.0/PaymentUserguide/LoginCustomers.png"></kbd>
+<kbd><img alt="LoginCustomers" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/LoginCustomers.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="MyPayments" src="../../../images/22.4.0/PaymentUserguide/MyPayments.png"></kbd>
+<kbd><img alt="MyPayments" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/MyPayments.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -127,13 +127,13 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - Selecting Pay Invoices, displays all open invoices of the customer.
 
 <kbd>
-<kbd><img alt="PayOnInvoices" src="../../../images/22.4.0/PaymentUserguide/PayOnInvoices.png"></kbd>
+<kbd><img alt="PayOnInvoices" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/PayOnInvoices.png"></kbd>
 </kbd>
 
 - User can utilize Pagination option to navigate and identify the open invoice.
 
 <kbd>
-<kbd><img alt="Pagenation" src="../../../images/22.4.0/PaymentUserguide/Pagenation.png"></kbd>
+<kbd><img alt="Pagenation" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/Pagenation.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -148,7 +148,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
   - Credit Invoices are displayed with negative amount due, also for easy identification they are displayed along with the orange colour alert symbol next to Amount due.
 
 <kbd>
-<kbd><img alt="CreditInvocies" src="../../../images/22.4.0/PaymentUserguide/CreditInvocies.png"></kbd>
+<kbd><img alt="CreditInvocies" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/CreditInvocies.png"></kbd>
 </kbd>
 
 - Invoices after Discount
@@ -156,7 +156,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
   - Discount rates are applied on the outstanding amount.
 
 <kbd>
-<kbd><img alt="DiscountInvoices" src="../../../images/22.4.0/PaymentUserguide/DiscountInvoices.png"></kbd>
+<kbd><img alt="DiscountInvoices" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/DiscountInvoices.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -171,7 +171,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - Customer Portal User can select payment methods as Apply Credits while making payment.
 
 <kbd>
-<kbd><img alt="ApplyCredits" src="../../../images/22.4.0/PaymentUserguide/ApplyCredits.png"></kbd>
+<kbd><img alt="ApplyCredits" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/ApplyCredits.png"></kbd>
 </kbd>
 
 - Full Payment via Credits
@@ -186,13 +186,13 @@ This document and the software it describes are provided by LeanSwift Solutions 
   - If the invoice requires more amount than Credits, or the user prefers to pay partially from Credit and remaining from other payment methods, user can select/deselect the credits applied automatically by system.
 
 <kbd>
-<kbd><img alt="Pagenation1" src="../../../images/22.4.0/PaymentUserguide/Pagenation1.png"></kbd>
+<kbd><img alt="Pagenation1" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/Pagenation1.png"></kbd>
 </kbd>
 
 - Click on Process Payment.
 
 <kbd>
-<kbd><img alt="ProcessPayment" src="../../../images/22.4.0/PaymentUserguide/ProcessPayment.png"></kbd>
+<kbd><img alt="ProcessPayment" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/ProcessPayment.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -208,14 +208,14 @@ This document and the software it describes are provided by LeanSwift Solutions 
   - If there is an amount to be paid against total Payment, clicking on process payment takes the user to the payment screen, with other payment options.
 
 <kbd>
-<kbd><img alt="CredirsAmount" src="../../../images/22.4.0/PaymentUserguide/CredirsAmount.png"></kbd>
+<kbd><img alt="CredirsAmount" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/CredirsAmount.png"></kbd>
 </kbd>
 
 - In case the credits are higher than required total payment, the system automatically debits only the required amount due from the credit invoice.
 - In the given example, we can find the balance amount in the credit invoice is $118.03, after applying credit.
 
 <kbd>
-<kbd><img alt="PaymentSuccess" src="../../../images/22.4.0/PaymentUserguide/PaymentSuccess.png"></kbd>
+<kbd><img alt="PaymentSuccess" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/PaymentSuccess.png"></kbd>
 </kbd>
 
 - In case of multiple credits also, the credit invoice is updated with its amount due, after successfully applying credit and making payment for the invoice.
@@ -232,7 +232,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - Select multiple invoices, apply credits, verify Gross total, Credits and Total payments and proceed to Process Payment.
 
 <kbd>
-<kbd><img alt="MultiplePayment" src="../../../images/22.4.0/PaymentUserguide/MultiplePayment.png"></kbd>
+<kbd><img alt="MultiplePayment" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/MultiplePayment.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -249,7 +249,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - Apply required credits if any, verify Gross total, Credits and Total payments.
 
 <kbd>
-<kbd><img alt="Partial_Invocies" src="../../../images/22.4.0/PaymentUserguide/Partial_Invocies.png"></kbd>
+<kbd><img alt="Partial_Invocies" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/Partial_Invocies.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -267,7 +267,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - To remove applied credits prior to payment, users can click on Remove Credits.
 
 <kbd>
-<kbd><img alt="RemoveCredits" src="../../../images/22.4.0/PaymentUserguide/RemoveCredits.png"></kbd>
+<kbd><img alt="RemoveCredits" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/RemoveCredits.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -282,13 +282,13 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - Selecting Pay on Account, displays all open orders of the customer.
 
 <kbd>
-<kbd><img alt="PayOnAccount" src="../../../images/22.4.0/PaymentUserguide/PayOnAccount.png"></kbd>
+<kbd><img alt="PayOnAccount" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/PayOnAccount.png"></kbd>
 </kbd>
 
 - User can select the order, clicking on process payment takes the user to the payment screen, with other payment options.
 
 <kbd>
-<kbd><img alt="PayOnAccountProcessPayement" src="../../../images/22.4.0/PaymentUserguide/PayOnAccountProcessPayement.png"></kbd>
+<kbd><img alt="PayOnAccountProcessPayement" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/PayOnAccountProcessPayement.png"></kbd>
 </kbd>
 
 - On successful pay on account, credit Invoice is created for the amount paid and can be viewed in the Pay Invoices tab.
@@ -305,7 +305,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
   - Missing data for invoices option is accessible under Payments tab when Invoice/Order Sync Roles is enabled for the customer M3 User Role.
 
 <kbd>
-<kbd><img alt="MissingData" src="../../../images/22.4.0/PaymentUserguide/MissingData.png"></kbd>
+<kbd><img alt="MissingData" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/MissingData.png"></kbd>
 </kbd>
 
 - Clicking on Missing data, takes the user to screen, where the user can mention document number and run sync job or run by default for 3 days.
@@ -314,13 +314,13 @@ This document and the software it describes are provided by LeanSwift Solutions 
   - Can enter multiple document numbers separated by comma. Sync from M3 will be performed for the specified invoices alone.
 
 <kbd>
-<kbd><img alt="DocNumber" src="../../../images/22.4.0/PaymentUserguide/DocNumber.png"></kbd>
+<kbd><img alt="DocNumber" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/DocNumber.png"></kbd>
 </kbd>
 
 - Status of the sync job will be displayed in the display message space of Customer Portal.
 
 <kbd>
-<kbd><img alt="ImportSuccess" src="../../../images/22.4.0/PaymentUserguide/ImportSuccess.png"></kbd>
+<kbd><img alt="ImportSuccess" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/ImportSuccess.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -336,13 +336,13 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - Click on proceed payment for both cases pay invoices and pay on account, the user is taken to payment screen with other payment method options.
 
 <kbd>
-<kbd><img alt="PayementMethod" src="../../../images/22.4.0/PaymentUserguide/PayementMethod.png"></kbd>
+<kbd><img alt="PayementMethod" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/PayementMethod.png"></kbd>
 </kbd>
 
 - Select the preferred Payment method. Credit Card – MasterCard/Visa/Amex/Discover
 
 <kbd>
-<kbd><img alt="Card" src="../../../images/22.4.0/PaymentUserguide/Card.png"></kbd>
+<kbd><img alt="Card" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/Card.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -357,7 +357,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - Click on change payment method, system takes the user to payment method screen.
 
 <kbd>
-<kbd><img alt="PaymentDetails" src="../../../images/22.4.0/PaymentUserguide/PaymentDetails.png"></kbd>
+<kbd><img alt="PaymentDetails" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/PaymentDetails.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -373,7 +373,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - Click on Pay to proceed with payment.
 
 <kbd>
-<kbd><img alt="ReviewOrder" src="../../../images/22.4.0/PaymentUserguide/ReviewOrder.png"></kbd>
+<kbd><img alt="ReviewOrder" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/ReviewOrder.png"></kbd>
 </kbd>
 
 **Receipt**
@@ -381,7 +381,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - When a payment is completed successfully, the transaction reference and payment status are presented on the Customer Portal's message display space.
 
 <kbd>
-<kbd><img alt="Receipt" src="../../../images/22.4.0/PaymentUserguide/Receipt.png"></kbd>
+<kbd><img alt="Receipt" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/Receipt.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -395,7 +395,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - To cancel the payment process, the user can click on Cancel order, and confirm to cancel.
 
 <kbd>
-<kbd><img alt="CancelOrder" src="../../../images/22.4.0/PaymentUserguide/CancelOrder.png"></kbd>
+<kbd><img alt="CancelOrder" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/CancelOrder.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -411,7 +411,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - Payment by Credit Card only is supported by the Customer portal as of now.
 
 <kbd>
-<kbd><img alt="GudieLines" src="../../../images/22.4.0/PaymentUserguide/GudieLines.png"></kbd>
+<kbd><img alt="GudieLines" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/GudieLines.png"></kbd>
 </kbd>
 
 <div align="right">

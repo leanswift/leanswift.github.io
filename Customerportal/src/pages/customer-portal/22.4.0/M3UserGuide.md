@@ -61,13 +61,13 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - To access M3 Login Settings as admin user, go to LeanSwift – M3 Login – Settings.
 
 <kbd>
-<kbd><img alt="M3Configuration" src="../../../images/22.4.0/M3UserGuide/M3Configuration.png"></kbd>
+<kbd><img alt="M3Configuration" src="../../../images/add-ons/m3-login/22.4.0/M3Configuration.png"></kbd>
 </kbd>
 
 - From the M3 Login module the Admin user can configure logging preference, domain and authentication settings and click on Save Config.
 
 <kbd>
-<kbd><img alt="M3SaveConfiguration" src="../../../images/22.4.0/M3UserGuide/M3SaveConfiguration.png"></kbd>
+<kbd><img alt="M3SaveConfiguration" src="../../../images/add-ons/m3-login/22.4.0/M3SaveConfiguration.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -89,7 +89,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
   - The logger is disabled by default and can be enabled to check request and response data for troubleshooting purposes.
 
 <kbd>
-<kbd><img alt="M3Genral" src="../../../images/22.4.0/M3UserGuide/M3Genral.png"></kbd>
+<kbd><img alt="M3Genral" src="../../../images/add-ons/m3-login/22.4.0/M3Genral.png"></kbd>
 </kbd>
 
 - Internal user Email domain(s)
@@ -110,7 +110,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - Go to LeanSwift – M3 Login – Settings – Authentication.
 
 <kbd>
-<kbd><img alt="Authentication" src="../../../images/22.4.0/M3UserGuide/Authentication.png"></kbd>
+<kbd><img alt="Authentication" src="../../../images/add-ons/m3-login/22.4.0/Authentication.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -124,7 +124,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - It is part of add-on to fetch M3 User Roles and Functions as initial import. This is not required for Customer Portal v21.1.0.
 
 <kbd>
-<kbd><img alt="M3UserRoles" src="../../../images/22.4.0/M3UserGuide/M3UserRoles.png"></kbd>
+<kbd><img alt="M3UserRoles" src="../../../images/add-ons/m3-login/22.4.0/M3UserRoles.png"></kbd>
 </kbd>
 
 **Customer User Permissions**
@@ -133,7 +133,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - **Internal User Permission**
 
 <kbd>
-<kbd><img alt="InternalPermission" src="../../../images/22.4.0/M3UserGuide/InternalPermission.png"></kbd>
+<kbd><img alt="InternalPermission" src="../../../images/add-ons/m3-login/22.4.0/InternalPermission.png"></kbd>
 </kbd>
 
 - M3 USER Role - Internal User permissions are leveraged at M3 user Role configuration.

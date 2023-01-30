@@ -105,11 +105,11 @@ Logging to Customer Portal Configuration:
 - Go to LeanSwift tab (from left panel) - Customer Portal - Settings.
 
 <kbd>
-<kbd><img alt="MagentoLogin" src="../../../images/22.4.0/AdminUserGuide/MagentoLogin.png"></kbd>
+<kbd><img alt="MagentoLogin" src="../../../images/customer-portal/admin-user/22.4.0/MagentoLogin.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="CustomerPortalSettings" src="../../../images/22.4.0/AdminUserGuide/CustomerPortalSettings.png"></kbd>
+<kbd><img alt="CustomerPortalSettings" src="../../../images/customer-portal/admin-user/22.4.0/CustomerPortalSettings.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -126,7 +126,7 @@ Logging to Customer Portal Configuration:
 - Save the configuration by clicking the Save Config button.
 
 <kbd>
-<kbd><img alt="Configuration" src="../../../images/22.4.0/AdminUserGuide/Configuration.png"></kbd>
+<kbd><img alt="Configuration" src="../../../images/customer-portal/admin-user/22.4.0/Configuration.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -140,7 +140,7 @@ Logging to Customer Portal Configuration:
 - General configurations section allows the admin to configure general settings of Customer Portal such as Customer Selection, Internal User allowed Sections, Restricted Customer groups, CRON configurations of Order and Invoice.
 
 <kbd>
-<kbd><img alt="GenralConfiguration" src="../../../images/22.4.0/AdminUserGuide/GenralConfiguration.png"></kbd>
+<kbd><img alt="GenralConfiguration" src="../../../images/customer-portal/admin-user/22.4.0/GenralConfiguration.png"></kbd>
 </kbd>
 
 - Customer Selection
@@ -150,11 +150,11 @@ Logging to Customer Portal Configuration:
   - If customer type is selected as Payer, customers who are payers are listed for the logged in user.
 
 <kbd>
-<kbd><img alt="PayerCustomer" src="../../../images/22.4.0/AdminUserGuide/PayerCustomer.png"></kbd>
+<kbd><img alt="PayerCustomer" src="../../../images/customer-portal/admin-user/22.4.0/PayerCustomer.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="FrontEndPage" src="../../../images/22.4.0/AdminUserGuide/FrontEndPage.png"></kbd>
+<kbd><img alt="FrontEndPage" src="../../../images/customer-portal/admin-user/22.4.0/FrontEndPage.png"></kbd>
 </kbd>
 
 - Internal User Allowed Section
@@ -170,13 +170,13 @@ Logging to Customer Portal Configuration:
 | Payments | \<p\>View Pay Invoices\</p\>\<p\>- View Pay in Account\</p\>\<p\>- Process Pay invoices\</p\>\<p\>Process Pay on Account\</p\> |
 
 <kbd>
-<kbd><img alt="InternalUserAllowedSection" src="../../../images/22.4.0/AdminUserGuide/InternalUserAllowedSection.png"></kbd>
+<kbd><img alt="InternalUserAllowedSection" src="../../../images/customer-portal/admin-user/22.4.0/InternalUserAllowedSection.png"></kbd>
 </kbd>
 
 - To add or delete the internal user allowed section click on Add or delete button.
 
 <kbd>
-<kbd><img alt="InternalUserAllowedSection2" src="../../../images/22.4.0/AdminUserGuide/InternalUserAllowedSection2.png"></kbd>
+<kbd><img alt="InternalUserAllowedSection2" src="../../../images/customer-portal/admin-user/22.4.0/InternalUserAllowedSection2.png"></kbd>
 </kbd>
 
 - Restrict Customer Group
@@ -185,7 +185,7 @@ Logging to Customer Portal Configuration:
   - To restrict multiple customer groups, specify the customer groups as Comma separated. E.g. Y10, Y20.
 
 <kbd>
-<kbd><img alt="RestrictCustomerGroup" src="../../../images/22.4.0/AdminUserGuide/RestrictCustomerGroup.png"></kbd>
+<kbd><img alt="RestrictCustomerGroup" src="../../../images/customer-portal/admin-user/22.4.0/RestrictCustomerGroup.png"></kbd>
 </kbd>
 
 - Order History CRON
@@ -196,7 +196,7 @@ Logging to Customer Portal Configuration:
   - Enabling Use System Value sets the from date to fetch orders to 180 days behind the current date as the default value.
 
 <kbd>
-<kbd><img alt="OrderCron" src="../../../images/22.4.0/AdminUserGuide/OrderCron.png"></kbd>
+<kbd><img alt="OrderCron" src="../../../images/customer-portal/admin-user/22.4.0/OrderCron.png"></kbd>
 </kbd>
 
 - Invoice History CRON
@@ -210,7 +210,7 @@ Logging to Customer Portal Configuration:
   - Enabling Use System value sets the maximum invoice/order records to default value, 10000.
 
 <kbd>
-<kbd><img alt="InvoiceCron" src="../../../images/22.4.0/AdminUserGuide/InvoiceCron.png"></kbd>
+<kbd><img alt="InvoiceCron" src="../../../images/customer-portal/admin-user/22.4.0/InvoiceCron.png"></kbd>
 </kbd>
 
 **Customer Add/Sync Configuration**
@@ -225,22 +225,22 @@ Customer Add/Sync Configurations section allows admin to configure customer add/
   - Configuring Add Sync Customer with STAT ID to No, allows Sync Customer feature for both Customers with STAT ID and Customers without STAT ID.
 
 <kbd>
-<kbd><img alt="CustomerAddSyncConfiguration" src="../../../images/22.4.0/AdminUserGuide/CustomerAddSyncConfiguration.png"></kbd>
+<kbd><img alt="CustomerAddSyncConfiguration" src="../../../images/customer-portal/admin-user/22.4.0/CustomerAddSyncConfiguration.png"></kbd>
 </kbd>
 
 - Free Field Filter
   - To filter customers based on free field value from OCUSMA in M3 system, configure Free Field Filter – Specify the filter with free field values. Ex: CFC5=1 or CFC=5
 
 <kbd>
-<kbd><img alt="FreeFieldFilter" src="../../../images/22.4.0/AdminUserGuide/FreeFieldFilter.png"></kbd>
+<kbd><img alt="FreeFieldFilter" src="../../../images/customer-portal/admin-user/22.4.0/FreeFieldFilter.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="FreeFieldFilter2" src="../../../images/22.4.0/AdminUserGuide/FreeFieldFilter2.png"></kbd>
+<kbd><img alt="FreeFieldFilter2" src="../../../images/customer-portal/admin-user/22.4.0/FreeFieldFilter2.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="FreeFieldFilter3" src="../../../images/22.4.0/AdminUserGuide/FreeFieldFilter3.png"></kbd>
+<kbd><img alt="FreeFieldFilter3" src="../../../images/customer-portal/admin-user/22.4.0/FreeFieldFilter3.png"></kbd>
 </kbd>
 
 - Additional Filter(s)
@@ -251,7 +251,7 @@ Customer Add/Sync Configurations section allows admin to configure customer add/
   - The time stamp configuration is updated after every CRON import with its successful execution timestamp.
 
 <kbd>
-<kbd><img alt="TimeStamp" src="../../../images/22.4.0/AdminUserGuide/TimeStamp.png"></kbd>
+<kbd><img alt="TimeStamp" src="../../../images/customer-portal/admin-user/22.4.0/TimeStamp.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -313,19 +313,19 @@ For detailed understanding of CRON configurations refer to cron [- Wikipedia](ht
 - To access Customer Portal M3 User Roles, Admin user can login to the Magento system with credentials, go to LeanSwift-\> Customer Portal -\> M3 User Roles.
 
 <kbd>
-<kbd><img alt="Cron" src="../../../images/22.4.0/AdminUserGuide/Cron.png"></kbd>
+<kbd><img alt="Cron" src="../../../images/customer-portal/admin-user/22.4.0/Cron.png"></kbd>
 </kbd>
 
 - Admin user can view the list of M3 User Roles, add new roles, edit roles and delete roles.
 
 <kbd>
-<kbd><img alt="M3UserRoles" src="../../../images/22.4.0/AdminUserGuide/M3UserRoles.png"></kbd>
+<kbd><img alt="M3UserRoles" src="../../../images/customer-portal/admin-user/22.4.0/M3UserRoles.png"></kbd>
 </kbd>
 
 - To know the User Roles available in M3, Open program MNS410. This gives you list of user roles for M3 user.
 
 <kbd>
-<kbd><img alt="MagentoM3UserRoles" src="../../../images/22.4.0/AdminUserGuide/MagentoM3UserRoles.png"></kbd>
+<kbd><img alt="MagentoM3UserRoles" src="../../../images/customer-portal/admin-user/22.4.0/MagentoM3UserRoles.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -340,7 +340,7 @@ For detailed understanding of CRON configurations refer to cron [- Wikipedia](ht
 - By adding a new role, Admin users can configure permissions to perform processes such as payments and modules to be displayed for the M3 User role.
 
 <kbd>
-<kbd><img alt="NewUserRole" src="../../../images/22.4.0/AdminUserGuide/NewUserRole.png"></kbd>
+<kbd><img alt="NewUserRole" src="../../../images/customer-portal/admin-user/22.4.0/NewUserRole.png"></kbd>
 </kbd>
 
 - Select the M3 user role, the processes that should be authorised, and the modules that should be displayed.
@@ -350,7 +350,7 @@ For detailed understanding of CRON configurations refer to cron [- Wikipedia](ht
 Note: To deselect an option, hold down the Ctrl key while selecting it.
 
 <kbd>
-<kbd><img alt="NewUserRole2" src="../../../images/22.4.0/AdminUserGuide/NewUserRole2.png"></kbd>
+<kbd><img alt="NewUserRole2" src="../../../images/customer-portal/admin-user/22.4.0/NewUserRole2.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -365,11 +365,11 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - Modify the permissions and Click on Save.
 
 <kbd>
-<kbd><img alt="EditRole" src="../../../images/22.4.0/AdminUserGuide/EditRole.png"></kbd>
+<kbd><img alt="EditRole" src="../../../images/customer-portal/admin-user/22.4.0/EditRole.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="EditRole2" src="../../../images/22.4.0/AdminUserGuide/EditRole2.png"></kbd>
+<kbd><img alt="EditRole2" src="../../../images/customer-portal/admin-user/22.4.0/EditRole2.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -383,7 +383,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - To delete an existing M3 User Role, admin user can Click on delete option next to the user role displayed.
 
 <kbd>
-<kbd><img alt="DeleteUserRole" src="../../../images/22.4.0/AdminUserGuide/DeleteUserRole.png"></kbd>
+<kbd><img alt="DeleteUserRole" src="../../../images/customer-portal/admin-user/22.4.0/DeleteUserRole.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -399,7 +399,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - Specify the fields to be filtered and apply filters.
 
 <kbd>
-<kbd><img alt="SeachFilter" src="../../../images/22.4.0/AdminUserGuide/SeachFilter.png"></kbd>
+<kbd><img alt="SeachFilter" src="../../../images/customer-portal/admin-user/22.4.0/SeachFilter.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -413,7 +413,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - Click on columns and select the columns to be displayed to configure the viewable columns on the M3 User Roles screen.
 
 <kbd>
-<kbd><img alt="Columns" src="../../../images/22.4.0/AdminUserGuide/Columns.png"></kbd>
+<kbd><img alt="Columns" src="../../../images/customer-portal/admin-user/22.4.0/Columns.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -429,7 +429,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - 999 records is the maximum number of records per page.
 
 <kbd>
-<kbd><img alt="Pagenation" src="../../../images/22.4.0/AdminUserGuide/Pagenation.png"></kbd>
+<kbd><img alt="Pagenation" src="../../../images/customer-portal/admin-user/22.4.0/Pagenation.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -445,7 +445,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - To export Customers' Main File, go to Settings –\>Data Transfer –\> Export.
 
 <kbd>
-<kbd><img alt="Export" src="../../../images/22.4.0/AdminUserGuide/Export.png"></kbd>
+<kbd><img alt="Export" src="../../../images/customer-portal/admin-user/22.4.0/Export.png"></kbd>
 </kbd>
 
 - Select the entity type from export settings, as Customers Main File.
@@ -453,13 +453,13 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - Fields enclosure.
 
 <kbd>
-<kbd><img alt="ExportSettings" src="../../../images/22.4.0/AdminUserGuide/ExportSettings.png"></kbd>
+<kbd><img alt="ExportSettings" src="../../../images/customer-portal/admin-user/22.4.0/ExportSettings.png"></kbd>
 </kbd>
 
 - Admin can search the entity attributes and apply attribute-level exclude filters.
 
 <kbd>
-<kbd><img alt="ExportSettings2" src="../../../images/22.4.0/AdminUserGuide/ExportSettings2.png"></kbd>
+<kbd><img alt="ExportSettings2" src="../../../images/customer-portal/admin-user/22.4.0/ExportSettings2.png"></kbd>
 </kbd>
 
 - Click on continue button, to export customers main file with search and exclude filter conditions applied.
@@ -469,13 +469,13 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 "_Message is added to queue, wait to get your file soon. Make sure your Cron job is running to export the file."_
 
 <kbd>
-<kbd><img alt="ExportSettings3" src="../../../images/22.4.0/AdminUserGuide/ExportSettings3.png"></kbd>
+<kbd><img alt="ExportSettings3" src="../../../images/customer-portal/admin-user/22.4.0/ExportSettings3.png"></kbd>
 </kbd>
 
 - Admin can download or delete the exported file from the action menu.
 
 <kbd>
-<kbd><img alt="ExportSettings4" src="../../../images/22.4.0/AdminUserGuide/ExportSettings4.png"></kbd>
+<kbd><img alt="ExportSettings4" src="../../../images/customer-portal/admin-user/22.4.0/ExportSettings4.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -494,7 +494,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
   - Assigned customers field - Verify the list of customers, add or delete to limit access for users.
 
 <kbd>
-<kbd><img alt="SystemImport" src="../../../images/22.4.0/AdminUserGuide/SystemImport.png"></kbd>
+<kbd><img alt="SystemImport" src="../../../images/customer-portal/admin-user/22.4.0/SystemImport.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -509,14 +509,14 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - Select the Entity type as Customers Main File.
 
 <kbd>
-<kbd><img alt="ImportSettings" src="../../../images/22.4.0/AdminUserGuide/ImportSettings.png"></kbd>
+<kbd><img alt="ImportSettings" src="../../../images/customer-portal/admin-user/22.4.0/ImportSettings.png"></kbd>
 </kbd>
 
 - Admin can download Sample file to understand the expected file format and field values.
 - Is Admin, Make Payment and Allow Section are all mandatory and not null fields.
 
 <kbd>
-<kbd><img alt="Import" src="../../../images/22.4.0/AdminUserGuide/Import.png"></kbd>
+<kbd><img alt="Import" src="../../../images/customer-portal/admin-user/22.4.0/Import.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -542,7 +542,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - Empty attribute value constant.
 
 <kbd>
-<kbd><img alt="ImportBehaviour" src="../../../images/22.4.0/AdminUserGuide/ImportBehaviour.png"></kbd>
+<kbd><img alt="ImportBehaviour" src="../../../images/customer-portal/admin-user/22.4.0/ImportBehaviour.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -556,7 +556,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - Select File to Import: Choose the file to be imported, file must be of UTF-8 encoding for proper import.
 
 <kbd>
-<kbd><img alt="FileImport" src="../../../images/22.4.0/AdminUserGuide/FileImport.png"></kbd>
+<kbd><img alt="FileImport" src="../../../images/customer-portal/admin-user/22.4.0/FileImport.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -573,24 +573,24 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
   - Eg: Data validation failed, please check the below errors and upload the file.
 
 <kbd>
-<kbd><img alt="CheckData" src="../../../images/22.4.0/AdminUserGuide/CheckData.png"></kbd>
+<kbd><img alt="CheckData" src="../../../images/customer-portal/admin-user/22.4.0/CheckData.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="CheckData2" src="../../../images/22.4.0/AdminUserGuide/CheckData2.png"></kbd>
+<kbd><img alt="CheckData2" src="../../../images/customer-portal/admin-user/22.4.0/CheckData2.png"></kbd>
 </kbd>
 
 - When the import file is valid, the data is validated and the choice to import is provided in the validation results section.
 - Click on the Import button.
 
 <kbd>
-<kbd><img alt="CheckData3" src="../../../images/22.4.0/AdminUserGuide/CheckData3.png"></kbd>
+<kbd><img alt="CheckData3" src="../../../images/customer-portal/admin-user/22.4.0/CheckData3.png"></kbd>
 </kbd>
 
 - Confirmation on import status is displayed with information on the number of records created, updated or deleted.
 
 <kbd>
-<kbd><img alt="ImportedData" src="../../../images/22.4.0/AdminUserGuide/ImportedData.png"></kbd>
+<kbd><img alt="ImportedData" src="../../../images/customer-portal/admin-user/22.4.0/ImportedData.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -605,25 +605,25 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 - **Default permission for External User**
 
 <kbd>
-<kbd><img alt="DefaultConfiguration" src="../../../images/22.4.0/AdminUserGuide/DefaultConfiguration.png"></kbd>
+<kbd><img alt="DefaultConfiguration" src="../../../images/customer-portal/admin-user/22.4.0/DefaultConfiguration.png"></kbd>
 </kbd>
 
 - **Internal User Permission**
 
 <kbd>
-<kbd><img alt="InternalPermission" src="../../../images/22.4.0/AdminUserGuide/InternalPermission.png"></kbd>
+<kbd><img alt="InternalPermission" src="../../../images/customer-portal/admin-user/22.4.0/InternalPermission.png"></kbd>
 </kbd>
 
 - **STAT Admin Permission**
 
 <kbd>
-<kbd><img alt="StatPermission" src="../../../images/22.4.0/AdminUserGuide/StatPermission.png"></kbd>
+<kbd><img alt="StatPermission" src="../../../images/customer-portal/admin-user/22.4.0/StatPermission.png"></kbd>
 </kbd>
 
 - **STAT Sub Account Permission**
 
 <kbd>
-<kbd><img alt="SubAccountPermission" src="../../../images/22.4.0/AdminUserGuide/SubAccountPermission.png"></kbd>
+<kbd><img alt="SubAccountPermission" src="../../../images/customer-portal/admin-user/22.4.0/SubAccountPermission.png"></kbd>
 </kbd>
 
 - M3 USER Role
@@ -636,7 +636,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
   - Provide the Logo image, Alternate Logo Image and additional details like width height of the logo.
 
 <kbd>
-<kbd><img alt="ConfigurationLogo" src="../../../images/22.4.0/AdminUserGuide/ConfigurationLogo.png"></kbd>
+<kbd><img alt="ConfigurationLogo" src="../../../images/customer-portal/admin-user/22.4.0/ConfigurationLogo.png"></kbd>
 </kbd>
 
 - Configuration of Email Templates
@@ -644,7 +644,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
   - Configure Default welcome email without password.
 
 <kbd>
-<kbd><img alt="ConfigurationEmail" src="../../../images/22.4.0/AdminUserGuide/ConfigurationEmail.png"></kbd>
+<kbd><img alt="ConfigurationEmail" src="../../../images/customer-portal/admin-user/22.4.0/ConfigurationEmail.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -658,11 +658,11 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 IDM module needs to be installed in magento to support document upload for short pay invoices. The Upload configuration in the IDM module needs to be enabled. User can mention the allowed file types that can be uploaded. Documents are uploaded when _paymentportal\_invoice\_payment\_sync_ is executed.
 
 <kbd>
-<kbd><img alt="IDMSettings" src="../../../images/22.4.0/AdminUserGuide/IDMSettings.png"></kbd>
+<kbd><img alt="IDMSettings" src="../../../images/customer-portal/admin-user/22.4.0/IDMSettings.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="IDMUploadConfiguration" src="../../../images/22.4.0/AdminUserGuide/IDMUploadConfiguration.png"></kbd>
+<kbd><img alt="IDMUploadConfiguration" src="../../../images/customer-portal/admin-user/22.4.0/IDMUploadConfiguration.png"></kbd>
 </kbd>
 
 **Email IDM documents**
@@ -674,13 +674,13 @@ When Email IDM document is enabled, the option to select _Send Email from M3 IDM
 When _Send Email from M3 IDM_ is selected as Yes, /items/search API call is made to IDM to retrieve the Customer invoice or Order confirmation document. Along with it, /email API is called to directly send documents from M3 IDM based on when _Email Documents Cron_ is triggered. The documents are not saved in magento db.
 
 <kbd>
-<kbd><img alt="IDM_M3_YES" src="../../../images/22.4.0/AdminUserGuide/IDM_M3_YES.png"></kbd>
+<kbd><img alt="IDM_M3_YES" src="../../../images/customer-portal/admin-user/22.4.0/IDM_M3_YES.png"></kbd>
 </kbd>
 
 The Search configuration needs to be updated when this option is selected.
 
 <kbd>
-<kbd><img alt="IDMConfiguration" src="../../../images/22.4.0/AdminUserGuide/IDMConfiguration.png"></kbd>
+<kbd><img alt="IDMConfiguration" src="../../../images/customer-portal/admin-user/22.4.0/IDMConfiguration.png"></kbd>
 </kbd>
 
 - **Send Email from M3 IDM as No**
@@ -688,13 +688,13 @@ The Search configuration needs to be updated when this option is selected.
 When _Send Email from M3 IDM_ is selected as No, two additional configuration is enabled to configure the Email sender and Email template. When _Email Documents Cron_ is triggered the items/search API call is made to IDM to retrieve the Customer invoice or Order confirmation document. The document is stored in magento db, mail is sent to customer with the configured sender and email template based on when _Email Documents Cron_ is triggered.
 
 <kbd>
-<kbd><img alt="IDM_M3_NO" src="../../../images/22.4.0/AdminUserGuide/IDM_M3_NO.png"></kbd>
+<kbd><img alt="IDM_M3_NO" src="../../../images/customer-portal/admin-user/22.4.0/IDM_M3_NO.png"></kbd>
 </kbd>
 
 Download idm configuration needs to be updated when the Send Email from M3 IDM is set as No
 
 <kbd>
-<kbd><img alt="IDMDownload" src="../../../images/22.4.0/AdminUserGuide/IDMDownload.png"></kbd>
+<kbd><img alt="IDMDownload" src="../../../images/customer-portal/admin-user/22.4.0/IDMDownload.png"></kbd>
 </kbd>
 
 <div align="right">
