@@ -4,32 +4,32 @@
 
 # Table of contents
 
-<div id = "toc"></div>
 
 - [Overview](#Overview)
-	- [Architecture](#Architecture)
-    - [Features](#Features)
-    - [Point Of Contact](#Point_Of_Contact)
-- [User Guide for Payment Module of Customer Portal – Front End User](#User_Guide)
-    - [Login](#Login)
-    - [New in this Version](#New_in_this_Version)
-    - [Pay Invoices](#Pay_Invoices)
-        - [Invoice Classification](#Invoice_Classification)
-        - [Apply Credits](#Apply_Credits)
-        - [Process Payment](#Process_Payment)
-        - [Multiple Invoice Payment](#Multiple_Invoice_Payment)
-        - [Partial Invoice Payment](#Partial_Invoice_Payment)
-        - [Fully Invoiced Payment](#Fully_Invoiced_Payment)
-        - [Remove Credits](#Remove_Credits)
-	- [Pay on Account](#Pay_on_Account)
-	- [ On-demand Synchronization](#On_demand_Synchronization)
-	- [Payment Process](#Payment_Process)
-        - [Payment Method](#Payment_Method)
-        - [Payment Details](#Payment_Details)
-        - [Review your order](#Review_your_order)
-        - [Receipt](#Receipt)
-    - [Cancel Payment](#Cancel_Payment)
-    - [General Guidelines](#General_Guidelines)
+- [Architecture](#Architecture)
+- [Features](#Features)
+- [User Guide for Payment Module of Customer Portal – Front End User](#User-Guide-For-Payment-Module-Of-Customer-Portal--Front-End-User)
+  - [Login](#Login)
+- [New in this Version](#New-in-this-version)
+  -[Payment Search Fields](#Payement_Seach_Fields) 
+  - [Pay Invoices](#Pay-Invoices)
+    - [Invoice Classification](#Invoice-Classification)
+    - [Apply Credits](#Apply-Credits)
+    - [Process Payment](#Process-Payment)
+    - [Multiple Invoice Payment](#Multiple-Invoice-Payment)
+    - [Partial Invoice Payment](#Partial-Invoice-Payment)
+    - [Fully Invoiced Payment](#Fully-Invoiced-Payment)
+    - [Remove Credits](#Remove-Credits)
+  - [Pay on Account](#Pay-on-Account)
+  - [On-demand Synchronization](#On-Demand-Synchronization)
+  - [Payment Process](#Payment-Process)
+    - [Payment Method](#Payment-Method)
+    - [Payment Details](#Payment-Details)
+    - [Review your order](#Review-your-Order)
+    - [Receipt](#Receipt)
+  - [Cancel Payment](#Cancel-Payment)
+  - [General Guidelines](#General-Guidelines)
+
 
 <div id = "overview"> </div>
 
@@ -140,7 +140,6 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-# New in this Version
 
 # New in this version
 
