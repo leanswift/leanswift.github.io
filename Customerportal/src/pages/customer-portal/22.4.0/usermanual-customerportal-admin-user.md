@@ -5,16 +5,38 @@
 
 <div id = "toc"></div>
 
-- [**Version 22.4.0- User Manual - Customer Portal - Admin User**](#version-2240--user-manual---customer-portal---admin-user)
-- [**Table of contents**](#table-of-contents)
-- [**User Manual – Customer Portal Admin User**](#user-manual--customer-portal-admin-user)
-- [**Overview**](#overview)
-- [**Architecture**](#architecture)
-- [**Features**](#features)
-- [**Point Of Contact**](#point-of-contact)
-- [**User Guide for Customer Portal Admin**](#user-guide-for-customer-portal-admin)
+- [Overview](#Overview)
+	- [Architecture](#Architecture)	 
+	- [Features](#Features)
+	- [Point Of Contact](#Point-Of-Contact)
+- [User Manual for Customer Portal - Admin User](#User-Manual-for-Customer-Portal-Admin-User)
+	- [Login](#Login)
+	- [Configuration](#Configuration)
+		- [General](#General)
+		- [Customer Add/Sync Configuration](#Customer-Add/Sync-Configuration)
+		- [Cron](#Cron)
+	- [M3 User Roles](#M3-User-Roles)
+        - [Add New Role](#Add-New-Role)
+            - [Edit Role](#Edit-Role)
+            - [Delete Role](#Delete-Role)
+            - [Search/Filter](#Search/Filter)
+            - [Visible Columns](#Visible-Columns)
+            - [Pagination](#Pagination)
+	- [Sub Account User Management](#Sub-Account-User-Management)
+        - [Export](#Export)
+        - [Import](#Import)
+        - [Import Settings](#Import-Settings)
+        - [Import Behaviour](#Import-Behaviour)
+        - [File to Import](#File-to-Import)
+        - [Check Data](#Check-Data)
+	- [Customer User Permissions](#Customer-User-Permissions)
+	- [Upload supporting document on Short Pay invoices](#upload-supporting-document-on-short-pay-invoices)
+	- [Email IDM documents](#email-idm-documents)
 
 <div id = "overview"> </div>
+
+# User Manual – Customer Portal Admin User
+
 
 # **Overview**
 
@@ -36,7 +58,7 @@ LeanSwift Customer Portal is a customer self-service web portal that enables use
 
 <div id = "features"> </div>
 
-**Features**
+## Features
 
 Account
 
@@ -83,7 +105,7 @@ Admin
 
 <div id = "point-of-contact"> </div>
 
-**Point Of Contact**
+## Point Of Contact
 
 This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at http://www.leanswift.com or email info@leanswift.com.
 
@@ -97,7 +119,9 @@ This document and the software it describes are provided by LeanSwift Solutions 
 
 # **User Guide for Customer Portal Admin**
 
-**Login**
+<div id = "Login"> </div>
+
+## Login
 
 Logging to Customer Portal Configuration:
 
@@ -118,7 +142,7 @@ Logging to Customer Portal Configuration:
 </b>
 </div>
 
-**Configuration**
+## Configuration
 
 - The Configuration module allows the administrator to configure Settings of Customer Portal.
 - Administrator can view, add and edit configurations.
@@ -135,7 +159,7 @@ Logging to Customer Portal Configuration:
 </b>
 </div>
 
-**General**
+### General
 
 - General configurations section allows the admin to configure general settings of Customer Portal such as Customer Selection, Internal User allowed Sections, Restricted Customer groups, CRON configurations of Order and Invoice.
 
@@ -213,7 +237,7 @@ Logging to Customer Portal Configuration:
 <kbd><img alt="InvoiceCron" src="../../../images/customer-portal/admin-user/22.4.0/InvoiceCron.png"></kbd>
 </kbd>
 
-**Customer Add/Sync Configuration**
+## Customer Add/Sync Configuration
 
 Customer Add/Sync Configurations section allows admin to configure customer add/sync settings such as Add/Sync Customers, Add/Sync Customers with STAT Id, Free Field filters, Additional filters and the last updated timestamp.
 
@@ -260,7 +284,7 @@ Customer Add/Sync Configurations section allows admin to configure customer add/
 </b>
 </div>
 
-**Cron**
+### Cron
 
 - To configure CRON job details of Customer portal as admin, go to LeanSwift –\> Customer Portal –\>Settings –\> General –\> CRON.
 - To disable the CRON job, the configuration for CRON shall be empty.
@@ -308,7 +332,7 @@ For detailed understanding of CRON configurations refer to cron [- Wikipedia](ht
 </b>
 </div>
 
-**M3 User Roles**
+## M3 User Roles
 
 - To access Customer Portal M3 User Roles, Admin user can login to the Magento system with credentials, go to LeanSwift-\> Customer Portal -\> M3 User Roles.
 
@@ -334,7 +358,7 @@ For detailed understanding of CRON configurations refer to cron [- Wikipedia](ht
 </b>
 </div>
 
-**Add New Role**
+### Add New Role
 
 - The Admin user can click the Add New Role button to create a new role.
 - By adding a new role, Admin users can configure permissions to perform processes such as payments and modules to be displayed for the M3 User role.
@@ -359,7 +383,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Edit Role**
+### Edit Role
 
 - To edit M3 User Roles, click on the edit option next to M3 user roles.
 - Modify the permissions and Click on Save.
@@ -378,7 +402,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Delete Role**
+### Delete Role
 
 - To delete an existing M3 User Role, admin user can Click on delete option next to the user role displayed.
 
@@ -392,7 +416,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Search/Filter**
+### Search/Filter**
 
 - The Search by Keyword option allows admin to search for M3 User Roles using a keyword.
 - Filter option helps to filter the M3 user roles based on M3 Role, Process, Display, No Access.
@@ -408,7 +432,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Visible Columns**
+### Visible Columns
 
 - Click on columns and select the columns to be displayed to configure the viewable columns on the M3 User Roles screen.
 
@@ -422,7 +446,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Pagination**
+## Pagination
 
 - The pagination menu can be used to change the number of records displayed each page.
 - Custom option allows admin to enter the number manually.
@@ -438,9 +462,11 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Sub Account User Management**
+## Sub Account User Management
 
-**Export**
+<div id = "Export"> </div>
+
+### Export
 
 - To export Customers' Main File, go to Settings –\>Data Transfer –\> Export.
 
@@ -484,7 +510,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Import**
+### Import
 
 - To import the Customer's Main file, Customer portal Admin user can go to Settings –\> Data Transfer –\> Import.
 - Update Fields:
@@ -503,7 +529,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Import Settings**
+### Import Settings
 
 - The maximum size of the import file for Customers Main File is 1536MB.
 - Select the Entity type as Customers Main File.
@@ -525,7 +551,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Import Behaviour**
+### Import Behaviour
 
 - Choose the expected Import behaviour
   - Add/Update Complex Data - Modify the exported file and click on add/update complex data, upload the modified file.
@@ -551,7 +577,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**File to Import**
+### File to Import
 
 - Select File to Import: Choose the file to be imported, file must be of UTF-8 encoding for proper import.
 
@@ -565,7 +591,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Check Data**
+### Check Data
 
 - Once Import settings, Import behaviour and Files to import are provided, admin can check data in import file, by clicking on Check Data button.
 - System validates the import file and displays Validation results.
@@ -599,10 +625,10 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Customer User Permissions**
+## Customer User Permissions
 
 - Users must have roles assigned to them in Magento, and they can only log in to the frontend based on the rights they have been allowed.
-- **Default permission for External User**
+-  **Default permission for External User**
 
 <kbd>
 <kbd><img alt="DefaultConfiguration" src="../../../images/customer-portal/admin-user/22.4.0/DefaultConfiguration.png"></kbd>
@@ -626,7 +652,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 <kbd><img alt="SubAccountPermission" src="../../../images/customer-portal/admin-user/22.4.0/SubAccountPermission.png"></kbd>
 </kbd>
 
-- M3 USER Role
+- **M3 USER Role**
   - Internal User permissions are leveraged at M3 user Role configuration.
   - Customers of Magento have permissions by default.
   - Users should have access configured both in Customers Portal Settings and M3 user role settings.
@@ -653,7 +679,7 @@ Note: To deselect an option, hold down the Ctrl key while selecting it.
 </b>
 </div>
 
-**Upload supporting document on Short Pay invoices**
+## Upload supporting document on Short Pay invoices
 
 IDM module needs to be installed in magento to support document upload for short pay invoices. The Upload configuration in the IDM module needs to be enabled. User can mention the allowed file types that can be uploaded. Documents are uploaded when _paymentportal\_invoice\_payment\_sync_ is executed.
 
@@ -665,7 +691,7 @@ IDM module needs to be installed in magento to support document upload for short
 <kbd><img alt="IDMUploadConfiguration" src="../../../images/customer-portal/admin-user/22.4.0/IDMUploadConfiguration.png"></kbd>
 </kbd>
 
-**Email IDM documents**
+## Email IDM documents
 
 When Email IDM document is enabled, the option to select _Send Email from M3 IDM_ and _Email Documents Cron_ is displayed in admin.
 
