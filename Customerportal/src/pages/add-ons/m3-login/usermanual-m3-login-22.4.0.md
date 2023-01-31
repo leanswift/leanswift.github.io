@@ -14,11 +14,8 @@
   - [Login](#Login)
   - [General](#General)
   - [Authentication](#Authentication)
-  - [Prerequisites](#Prerequisites)
-	- [Force_Customer_Login](#Force_Customer_Login)
-	- [Add Entry](#Add_Entry)
-	- [Edit/Delete Entry](#Edit_Delete_Entry)
-	- [Customer User Permissions](#Customer_User_Permissions)
+  - [Import M3 User Roles](#Import M3 User Roles)
+        - [Customer User Permissions](#Customer_User_Permissions)
 
 ## Overview
 
