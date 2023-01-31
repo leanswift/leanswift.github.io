@@ -37,7 +37,7 @@
 
 # Version 22.4.0 
 
-- ## [Release Notes]()
+- ## [Release Notes](customer-portal/22.4.0/release-notes-customer-portal.md)
 
 - ## [User Manual - Customer Portal - admin-user](customer-portal/22.4.0/usermanual-customerportal-admin-user.md)
 
