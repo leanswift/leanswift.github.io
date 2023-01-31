@@ -399,7 +399,7 @@ Characteristics of Strong Password:
   - Make Payment - Provides information on whether the customer has privileges to make a payment - Yes/No.
 
 <kbd>
-<kbd><img alt="SubAccountExcel" src="../../../images/customer-portal/front-end-user/22.4.0/SubAccountExcel.png"></kbd>
+<kbd><img alt="SubAccountExcel" src="../../../images/customer-portal/front-end-user/22.4.0/CustomerPortal_SubAccountsExcel.png"></kbd>
 </kbd>
 
 <div align="right">
