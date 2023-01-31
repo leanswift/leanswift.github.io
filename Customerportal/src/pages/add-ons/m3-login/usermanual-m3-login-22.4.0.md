@@ -136,7 +136,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 <kbd><img alt="M3UserRoles" src="../../../images/add-ons/m3-login/22.4.0/M3UserRoles.png"></kbd>
 </kbd>
 
-## Customer User Permissions**
+## Customer User Permissions
 
 - Users must have roles assigned to them in Magento, and they can only log in to the frontend based on the rights they have been allowed.
 - **Internal User Permission**
