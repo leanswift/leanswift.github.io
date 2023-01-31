@@ -40,7 +40,9 @@ The Payment Portal module is an add-on for Customer Portal which provides custom
 
 <div align="right">
 <b>
+  
  <a href="#toc">↥ Go to Top</a>
+  
 </b>
 </div>
 
