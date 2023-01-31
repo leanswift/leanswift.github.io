@@ -6,18 +6,27 @@
 
 <div id = "toc"></div>
 
-- [**Version 22.4.0- User Manual - M3 Login**](#version-2240--user-manual---m3-login)
-- [**Table of Contents**](#table-of-contents)
-- [**Architecture**](#architecture)
-- [**User Guide for M3 Login Module – Admin User**](#user-guide-for-m3-login-module--admin-user)
+- [Overview](#Overview)
+    - [Architecture](#Architecture)
+    - [Features](#Features)
+    - [Point of Contact](#Point_of_Contact)
+- [User Guide for M3 Login Module – Admin User](#User_Guide_for_M3_Login_Module_Admin_User)
+  - [Login](#Login)
+  - [General](#General)
+  - [Authentication](#Authentication)
+  - [Prerequisites](#Prerequisites)
+	- [Force_Customer_Login](#Force_Customer_Login)
+	- [Add Entry](#Add_Entry)
+	- [Edit/Delete Entry](#Edit_Delete_Entry)
+	- [Customer User Permissions](#Customer_User_Permissions)
 
-**Overview**
+## Overview
 
 <div id = "overview"> </div>
 
 **LeanSwift M3 login module**  provides the ability to log into Magento with an Infor OS user (Single Sign-on support with Infor OS). It also retrieves the list of users in Infor M3 along with security roles. The module leverages ION APIs and Infor's authentication and authorization services to validate M3 user credentials (Ming.le user) via IFS (Infor Federation Services).
 
-# **Architecture**
+# Architecture
 
 <div id = "architecture"></div>
 
@@ -31,7 +40,7 @@
 </b>
 </div>
 
-**Features**
+## Features
 
 - Redirect user login attempt from Magento to Infor OS (Ming.le) login interface
 - Authenticate Ming.le user credentials
@@ -44,7 +53,7 @@
 </b>
 </div>
 
-**Point Of Contact**
+## Point Of Contact
 
 This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at [http://www.leanswift.com](http://www.leanswift.com/) or email [info@leanswift.com](mailto:info@leanswift.com).
 
@@ -54,9 +63,11 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-# **User Guide for M3 Login Module – Admin User**
+# User Guide for M3 Login Module – Admin User
 
-**Login**
+<div id = "Login"> </div>
+
+## Login
 
 - To access M3 Login Settings as admin user, go to LeanSwift – M3 Login – Settings.
 
@@ -76,7 +87,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**General**
+## General
 
 - M3 Login general module allows admin to configure logging preference and internal email domain settings.
 - Go to LeanSwift – M3 Login – Settings – General.
@@ -103,7 +114,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Authentication**
+## Authentication
 
 - M3 Login authentication module allows admin to configure service URL for authorization, service URL for Ming.le, Client id and Client secret settings.
   - This information can be obtained from [Multi-tenant Cloud Infor OS](https://www.infor.com/resources/infor-ming-le).
@@ -119,7 +130,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Import M3 User Roles**
+## Import M3 User Roles
 
 - It is part of add-on to fetch M3 User Roles and Functions as initial import. This is not required for Customer Portal v21.1.0.
 
