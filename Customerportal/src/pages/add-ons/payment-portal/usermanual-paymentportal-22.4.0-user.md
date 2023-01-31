@@ -12,7 +12,7 @@
   - [Login](#Login)
 - [New in this Version](#New-in-this-version)
    -[Payment Search Fields](#Payement_Seach_Fields) 
-    - [Pay Invoices](#Pay-Invoices)
+   - [Pay Invoices](#Pay-Invoices)
       - [Invoice Classification](#Invoice-Classification)
       - [Apply Credits](#Apply-Credits)
       - [Process Payment](#Process-Payment)
