@@ -140,9 +140,12 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-# New in this Fearture
+# New in this Version
 
-- In this we have added new Search fields like we can search by "Search by Order Number","Search by Order Date","Search by Customer Number"
+# New in this version
+
+- Search fields have been added where invoices can be searched using "Search by Order Number","Search by Order Date","Search by Customer Number"
+
 
 <kbd>
 <kbd><img alt="MyPayments" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/PaymentPortal_SearchField.png/"></kbd>
