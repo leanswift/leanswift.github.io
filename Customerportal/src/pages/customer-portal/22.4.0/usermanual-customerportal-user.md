@@ -6,21 +6,44 @@
 
 <div id = "toc"></div>
 
-- [**New Version 22.4.0 - Registration Manual – LeanSwift Customer Portal - User**](#new-version-2240-registration-manual-leanswift-customer-portal-user)
-- [**Table of contents**](#table-of-contents)
-- [**Overview**](#overview)
-- [**Architecture**](#architecture)
-- [**Features**](#features)
-- [**Point Of Contact**](#point-of-contact)
-- [**Registration**](#registration)
-- [**Login**](#login)
-- [**Forgot Your Password**](#forgot-your-password)
-- [**Switch Customer**](#switch-customer)
-- [**Download Sub Accounts Info**](#download-sub-accounts-info)
-- [**My Account**](#my-account)
-- [**My Invoices**](#my-invoices)
-- [**My Orders**](#my-orders)
-- [**Sign Out**](#sign-out)
+- [Overview](#Overview)
+ 	- [Architecture](#Architecture)	 
+    - [Features](#Features)	 
+    - [Point Of Contact](#Point_Of_Contact)
+- [Registration](#Registration)
+    - [Registration for Internal Customer (M3 User)](#Registration_for_Internal)
+    - [Registration for External Customer](#Registration_for_External)
+    - [Password Policy](#Password_Policy)
+    - [General guidelines/help](#Help)
+- [Login](#Login)
+    - [Login](#Login1)
+    - [User Privileges](#User_Privileges)
+- [Forgot Password](#Forgot_Password)
+- [Switch Customer](#Switch_Customer)
+- [Download Sub Accounts Info](#Download_Sub_Accounts_Info)
+- [New in this Version]
+    - [My Account](#My_Account)
+    - [My Addresses](#Addresses)
+- [New in this Version]
+    - [My Invoices](#Invoices)
+    - [My Invoice Search](#Invoice_Search)
+    - [My Invoice Filter](#Invoice_Filter)
+    - [My Invoice Sort](#Invoice_Sort)
+    - [Download Current Statement](#Download_Current_Statement)
+    - [Email Invoice Document](#Email_Invoice_Document)
+    - [Document Download in Invoice History](#Document_Download_in_Invoice_History)
+- [New in this Version]
+    - [My Orders](#Orders)
+    - [My Order Search](#Order_Search)
+    - [My Order Filter](#Order_Filter)
+    - [My Order Sort](#Order_Sort)
+    - [Email Order Confirmation Document](#Email_Order_Confirmation_Document)
+    - [Document Download in Order History](#Document_Download_in_Order_History)
+    - [Delivery Document Download](#Delivery_Document_Download)
+    - [View Order Shipment information](#View_Order_Shipment_information)
+- [Sign Out](#Sign_Out)
+
+# User Manual - Customer Portal - Front end User
 
 <div id = "overview"> </div>
 
@@ -50,7 +73,7 @@ LeanSwift Customer Portal is a customer self-service web portal that enables use
 
 <div id = "features"> </div>
 
-**Features**
+## Features 
 
 Account
 
@@ -97,7 +120,7 @@ Admin
 
 <div id = "point-of-contact"> </div>
 
-**Point Of Contact**
+## Point Of Contact 
 
 This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at http://www.leanswift.com or email info@leanswift.com.
 
@@ -109,9 +132,11 @@ This document and the software it describes are provided by LeanSwift Solutions 
 
 <div id = "registration"> </div>
 
-# **Registration**
+# Registration
 
-**Registration for Internal Customer (M3 User)**
+<div id = "Registration_for_Internal"> </div> 
+
+## Registration for Internal Customer (M3 User)
 
 - Internal customers (M3 users) can utilise their Infor OS (Mingle) credentials to access the Customer Portal without having to sign up.
 - The password box is disabled whenever an internal user inputs an email address with a valid internal domain.
@@ -149,7 +174,7 @@ Note: After the initial successful login, the Infor OS user id is created in the
 </b>
 </div>
 
-**Registration for External Customer**
+## Registration for External Customer
 
 - Users who have reference current Invoice number or Orders in the M3 system can register as an external customer in the Customer Portal.
 - Registration for External Customer - Prerequisites:
@@ -198,7 +223,7 @@ Note: Please check the Junk or Spam folder in case this mail does not arrive wit
 </b>
 </div>
 
-**Password Policy**
+## Password Policy
 
 Characteristics of Strong Password:
 
@@ -221,7 +246,7 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-**General guidelines/help**
+## General guidelines/help
 
 - The following are some of the possible mistakes that can occur when enrolling a new user.
   - Customer number should not present in the Customer Portal Database.
@@ -243,7 +268,7 @@ Characteristics of Strong Password:
 
 <div id = "login"> </div>
 
-# **Login**
+# Login
 
 - The user logs in to Customer Portal using their registered credentials.
 
@@ -257,7 +282,7 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-**Login**
+## Login
 
 - Successful login takes the front-end user to the Customer Portal main screen, which displays a list of customers.
 - The user can choose a customer and view their information.
@@ -277,7 +302,7 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-**User Privileges**
+## User Privileges 
 
 - Based on the user privileges of the external user, the options are enabled.
 
@@ -296,7 +321,7 @@ Characteristics of Strong Password:
 
 <div id = "forgot-your-password"> </div>
 
-# **Forgot Your Password**
+# Forgot Your Password
 
 - To reset the password, user can click on forgot password button in the home screen of Customer Portal.
 
@@ -336,7 +361,7 @@ Characteristics of Strong Password:
 
 <div id = "switch-customer"> </div>
 
-# **Switch Customer**
+# Switch Customer
 
 - The Switch Customer option on the right side human icon menu is enabled for users with [privileges](https://leanswift.github.io/Customerportal/src/pages/customer-portal/22.4.0/registration-user-guide.html#_heading=h.35nkun2) to view other customer account details.
 
@@ -359,7 +384,7 @@ Characteristics of Strong Password:
 
 <div id = "download-sub-accounts-info"> </div>
 
-# **Download Sub Accounts Info**
+# Download Sub Accounts Info
 
 - Users having Sub Accounts, i.e. Account Admin Users, have the option to download Sub Accounts Info.
 
@@ -385,7 +410,11 @@ Characteristics of Strong Password:
 
 <div id = "my-account"> </div>
 
-# **My Account**
+# New in this Version 
+
+- "Account" page name is changed to "My Account"
+
+# My Account
 
 - The My Account menu shows the selected customer's account information.
 
@@ -399,7 +428,12 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-**My Addresses**
+
+# New in this Version 
+
+- "Addresses" page name is changed to "My Addresses"
+
+## My Addresses
 
 - The My Addresses option displays the customer's invoice address as well as any extra addresses.
 
@@ -415,7 +449,12 @@ Characteristics of Strong Password:
 
 <div id = "my-invoices"> </div>
 
-# **My Invoices**
+
+# New in this Version 
+
+- "Invoices" page name is changed to "My Invoices"
+
+# My Invoices
 
 - The customer's invoice data are displayed in the Invoice tab: Invoice number, Order number, Customer number, Customer PO Ref, Invoice Date, Invoice Amount, and Status.
 - Ten invoice entries are displayed per page.
@@ -430,7 +469,7 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-**My Invoice Search**
+## My Invoice Search
 
 - Search by Invoice Number or Po reference.
 - Search by Invoice Date
@@ -446,7 +485,7 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-**My Invoice Filter**
+## My Invoice Filter
 
 - The user can filter invoices based on the status of invoices.
   - Open Invoices
@@ -463,7 +502,7 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-**My Invoice Sort**
+## My Invoice Sort
 
 - By clicking on the sort of arrow next to Invoice Date, users can sort the invoices by date.
 - By default, invoices are sorted in descending order, with the most recent invoices appearing first.
@@ -478,7 +517,7 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-**Download Current Statement**
+## Download Current Statement
 
 - Click on Download Current Statement menu to download Current Open Invoices in CSV format.
 
@@ -496,7 +535,7 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-**Email Document**
+## Email Invoice Document
 
 - Select one or multiple invoices and click on Send Email icon.
 - The user will be displayed with a success message.
@@ -525,7 +564,7 @@ Characteristics of Strong Password:
 </b>
 </div>
 
-**Document Download in Invoice History**
+## Document Download in Invoice History
 
 - Click on the PDF icon on left side of an invoice to download customer invoice document.
 - Document(s) will be downloaded and opened in new tab(s).
@@ -544,7 +583,12 @@ When no document is available for the selected invoice, following message is dis
 
 <div id = "my-orders"> </div>
 
-# **My Orders**
+
+# New in this Version 
+
+- "Orders" page name is changed to "My Orders"
+
+# My Orders**
 
 - My Orders tab displays the customer's order information – Order number, Customer number, Customer Name, PO/Reference, Order Date and Order Status, Delivery.
 - Ten order entries are displayed per page.
@@ -559,7 +603,7 @@ When no document is available for the selected invoice, following message is dis
 </b>
 </div>
 
-**My Order Search**
+## My Order Search
 
 - Search by Po reference.
 - Search by Order Date.
@@ -568,7 +612,7 @@ When no document is available for the selected invoice, following message is dis
 <kbd><img alt="MyOrdersSearch" src="../../../images/customer-portal/front-end-user/22.4.0/MyOrdersSearch.png"></kbd>
 </kbd>
 
-**My Order Filter**
+## My Order Filter
 
 The user can filter orders based on the status of invoices.
 
@@ -580,7 +624,7 @@ The user can filter orders based on the status of invoices.
 <kbd><img alt="MyOrdersFilter" src="../../../images/customer-portal/front-end-user/22.4.0/MyOrdersFilter.png"></kbd>
 </kbd>
 
-**My Order Sort**
+## My Order Sort
 
 - By clicking on the sort of arrow next to Order Date, users may sort the orders by date.
 - By default, orders are sorted in descending order, with the most recent orders appearing first.
@@ -595,7 +639,7 @@ The user can filter orders based on the status of invoices.
 </b>
 </div>
 
-**Email Order Confirmation Document**
+## Email Order Confirmation Document
 
 - Select one or multiple Orders and click on Send Email icon
 - The user will be displayed with a success message.
@@ -614,7 +658,7 @@ The user can filter orders based on the status of invoices.
 </b>
 </div>
 
-**Document Download in Order History**
+## Document Download in Order History
 
 - Click on the PDF icon on left side of an order to download Order Confirmation document.
 - Document(s) will be downloaded and opened in new tab(s).
@@ -635,7 +679,7 @@ When no document is available for the selected order, following message is displ
 </b>
 </div>
 
-**Delivery Document Download**
+## Delivery Document Download
 
 - Click on the truck icon on right corner of order history page.
 - Click on the PDF icon next to delivery number
@@ -647,7 +691,7 @@ When no document is available for the selected order, following message is displ
 </b>
 </div>
 
-**View Order Shipment information**
+## View Order Shipment information
 
 - Click on the truck icon on right corner of order history page.
 - View the order shipment details such as Shipment number, delivery number, forwarding agent etc.
@@ -664,7 +708,7 @@ When no document is available for the selected order, following message is displ
 
 <div id = "sign-out"> </div>
 
-# **Sign Out**
+# Sign Out
 
 - Click on the human ion on right corner.
 - Select Sign Out from the dropdown menu.
