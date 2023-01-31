@@ -8,25 +8,16 @@
 
 **Table of Contents**
 
-- [Overview](#overview)
+  - [**Overview**](#overview)
+  - [**Environment Details**](#environment-details)
+  - [**Standard Features**](#standard-features)
+  - [**Enhancements**](#enhancements)
+  - [**Pre-Requisites**](#pre-requisites)
+  - [**Bug Fixes**](#bug-fixes)
+  - [**Limitations**](#limitations)
+  - [**Validated Versions**](#validated-versions)
+  - [**Point of Contact**](#point-of-contact)
 
-- [Environment Details](#environment-details)
-
-- [Standard Features](#standard-features)
-
-- [Enhancements](#Enhancements)
-
-- [Technical Changes](#technical-changes)
-
-- [Pre-Requisites](#pre-requisites)
-
-- [Bug Fixes](#Bug_Fixes)
-
-- [Limitations](#limitations)
-
-- [Validated Versions](#validated-versions)
-
-- [Point of Contact](#point-of-contact)
 
 ## **Overview**
 
