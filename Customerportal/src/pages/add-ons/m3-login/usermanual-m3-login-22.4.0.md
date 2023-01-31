@@ -6,16 +6,18 @@
 
 <div id = "toc"></div>
 
-- [Overview](#Overview)
-    - [Architecture](#Architecture)
-    - [Features](#Features)
-    - [Point of Contact](#Point_of_Contact)
-- [User Guide for M3 Login Module – Admin User](#User_Guide_for_M3_Login_Module_Admin_User)
-  - [Login](#Login)
-  - [General](#General)
-  - [Authentication](#Authentication)
-  - [Import M3 User Roles](#Import_M3_User_Roles)
-   - [Customer User Permissions](#Customer_User_Permissions)
+# Table of contents
+
+  - [Overview](#overview)
+  - [Architecture](#architecture)
+  - [Features](#features)
+  - [Point Of Contact](#point-of-contact)
+  - [User Guide for M3 Login Module – Admin User](#user-guide-for-m3-login-module--admin-user)
+     - [Login](#login)
+     - [General](#general)
+     - [Authentication](#authentication)
+     - [Import M3 User Roles](#import-m3-user-roles)
+     - [Customer User Permissions](#customer-user-permissions)
 
 
 ## Overview
