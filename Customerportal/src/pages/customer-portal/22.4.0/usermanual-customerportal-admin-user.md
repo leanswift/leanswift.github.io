@@ -326,6 +326,10 @@ For detailed understanding of CRON configurations refer to cron [- Wikipedia](ht
 
 ![](RackMultipart20230128-1-rnpz7d_html_2e54c7e40d836549.png)
 
+<kbd>
+<kbd><img alt="Cron" src="../../../images/customer-portal/admin-user/22.4.0/Cron.png"></kbd>
+</kbd>
+
 <div align="right">
 <b>
  <a href="#toc">↥ Go to Top</a>
@@ -337,19 +341,19 @@ For detailed understanding of CRON configurations refer to cron [- Wikipedia](ht
 - To access Customer Portal M3 User Roles, Admin user can login to the Magento system with credentials, go to LeanSwift-\> Customer Portal -\> M3 User Roles.
 
 <kbd>
-<kbd><img alt="Cron" src="../../../images/customer-portal/admin-user/22.4.0/Cron.png"></kbd>
+<kbd><img alt="M3UserRoles" src="../../../images/customer-portal/admin-user/22.4.0/M3UserRoles.png"></kbd>
 </kbd>
 
 - Admin user can view the list of M3 User Roles, add new roles, edit roles and delete roles.
 
 <kbd>
-<kbd><img alt="M3UserRoles" src="../../../images/customer-portal/admin-user/22.4.0/M3UserRoles.png"></kbd>
+<kbd><img alt="M3UserRoles" src="../../../images/customer-portal/admin-user/22.4.0/MagentoM3UserRoles.png"></kbd>
 </kbd>
 
 - To know the User Roles available in M3, Open program MNS410. This gives you list of user roles for M3 user.
 
 <kbd>
-<kbd><img alt="MagentoM3UserRoles" src="../../../images/customer-portal/admin-user/22.4.0/MagentoM3UserRoles.png"></kbd>
+<kbd><img alt="MagentoM3UserRoles" src="../../../images/customer-portal/admin-user/22.4.0/M3UserRoles1.png"></kbd>
 </kbd>
 
 <div align="right">
