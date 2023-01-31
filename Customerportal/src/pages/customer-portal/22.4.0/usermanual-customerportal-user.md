@@ -9,7 +9,7 @@
 # Table of contents
 
 - [Overview](#overview)
-- [**Architecture**](#architecture)
+- [Architecture](#architecture)
   - [Features](#features)
   - [Point Of Contact](#point-of-contact)
 - [Registration](#registration)
