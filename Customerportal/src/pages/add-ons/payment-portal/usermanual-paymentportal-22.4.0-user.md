@@ -116,6 +116,8 @@ This document and the software it describes are provided by LeanSwift Solutions 
 
 # **User Guide for Payment Module of Customer Portal – Front End User**
 
+<div id = "Login"> </div> 
+
 ## Login
 
 - To login to the Customer portal Payment module, the front end user can login to Customer Portal – Select customer – Click on Payments.
@@ -137,6 +139,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+
 # New in this Fearture
 
 - In this we have added new Search fields like we can search by "Search by Order Number","Search by Order Date","Search by Customer Number"
