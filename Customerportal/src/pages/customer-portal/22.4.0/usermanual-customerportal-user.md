@@ -4,7 +4,7 @@
 
 # Table of contents
 
-<div id = "toc"></div>
+<div id=toc></div>
 
 - [Overview](#Overview)
  	- [Architecture](#Architecture)	 
