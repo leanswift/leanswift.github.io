@@ -11,7 +11,7 @@
 - [User Guide for Payment Module of Customer Portal – Front End User](#User-Guide-For-Payment-Module-Of-Customer-Portal--Front-End-User)
   - [Login](#Login)
 - [New in this Version](#New-in-this-version)
-     -[Payment Search Fields](#Payement_Seach_Fields) 
+   -[Payment Search Fields](#Payement_Seach_Fields) 
     - [Pay Invoices](#Pay-Invoices)
       - [Invoice Classification](#Invoice-Classification)
       - [Apply Credits](#Apply-Credits)
