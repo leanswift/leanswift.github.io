@@ -145,7 +145,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - In this we have added new Search fields like we can search by "Search by Order Number","Search by Order Date","Search by Customer Number"
 
 <kbd>
-<kbd><img alt="MyPayments" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/"></kbd>
+<kbd><img alt="MyPayments" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/PaymentPortal_SearchField.png/"></kbd>
 </kbd>
 
 ## Pay Invoices
