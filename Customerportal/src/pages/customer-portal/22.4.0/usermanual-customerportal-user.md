@@ -263,7 +263,9 @@ Characteristics of Strong Password:
 
 <div align="right">
 <b>
- <a href="#toc">↥ Go to Top</a>
+ 
+  <a href="#toc">↥ Go to Top</a>
+  
 </b>
 </div>
 
