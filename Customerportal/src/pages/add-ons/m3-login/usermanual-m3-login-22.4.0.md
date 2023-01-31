@@ -14,8 +14,9 @@
   - [Login](#Login)
   - [General](#General)
   - [Authentication](#Authentication)
-  - [Import M3 User Roles](#Import M3 User Roles)
-        - [Customer User Permissions](#Customer_User_Permissions)
+  - [Import M3 User Roles](#Import_M3_User_Roles)
+	    - [Customer User Permissions](#Customer_User_Permissions)
+
 
 ## Overview
 
