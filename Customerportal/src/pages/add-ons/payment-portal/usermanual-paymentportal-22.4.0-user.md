@@ -6,14 +6,31 @@
 
 <div id = "toc"></div>
 
-- [**Version 22.4.0- User Manual - Payment Portal - User**](#version-2240--user-manual---payment-portal---user)
-- [**Table of Contents**](#table-of-contents)
-- [**Overview**](#overview)
-- [**Architecture**](#architecture)
-- [**Features**](#features)
-- [**Point Of Contact**](#point-of-contact)
-- [**User Guide for Payment Module of Customer Portal – Front End User**](#user-guide-for-payment-module-of-customer-portal--front-end-user)
-
+- [Overview](#Overview)
+	- [Architecture](#Architecture)
+    - [Features](#Features)
+    - [Point Of Contact](#Point_Of_Contact)
+- [User Guide for Payment Module of Customer Portal – Front End User](#User_Guide)
+    - [Login](#Login)
+    - [New in this Version](#New_in_this_Version)
+          -[Payment Search Field](#Payment_Search_Field) 
+    - [Pay Invoices](#Pay_Invoices)
+          - [Invoice Classification](#Invoice_Classification)
+          - [Apply Credits](#Apply_Credits)
+          - [Process Payment](#Process_Payment)
+          - [Multiple Invoice Payment](#Multiple_Invoice_Payment)
+          - [Partial Invoice Payment](#Partial_Invoice_Payment)
+          - [Fully Invoiced Payment](#Fully_Invoiced_Payment)
+          - [Remove Credits](#Remove_Credits)
+	- [Pay on Account](#Pay_on_Account)
+	- [ On-demand Synchronization](#On_demand_Synchronization)
+	- [Payment Process](#Payment_Process)
+        - [Payment Method](#Payment_Method)
+        - [Payment Details](#Payment_Details)
+        - [Review your order](#Review_your_order)
+        - [Receipt](#Receipt)
+    - [Cancel Payment](#Cancel_Payment)
+    - [General Guidelines](#General_Guidelines)
 <div id = "overview"> </div>
 
 # **Overview**
@@ -99,7 +116,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 
 # **User Guide for Payment Module of Customer Portal – Front End User**
 
-**Login**
+## Login
 
 - To login to the Customer portal Payment module, the front end user can login to Customer Portal – Select customer – Click on Payments.
 
@@ -120,8 +137,15 @@ This document and the software it describes are provided by LeanSwift Solutions 
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+# New in this Fearture
 
-**Pay Invoices**
+- In this we have added new Search fields like we can search by "Search by Order Number","Search by Order Date","Search by Customer Number"
+
+<kbd>
+<kbd><img alt="MyPayments" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/"></kbd>
+</kbd>
+
+## Pay Invoices
 
 - Customer Portal Front end users can pay their invoices from Payment module - Pay Invoices.
 - Selecting Pay Invoices, displays all open invoices of the customer.
@@ -142,7 +166,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Invoice Classification**
+### Invoice Classification
 
 - Credit Invoices
   - Credit Invoices are displayed with negative amount due, also for easy identification they are displayed along with the orange colour alert symbol next to Amount due.
@@ -165,7 +189,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Apply Credits**
+### Apply Credits
 
 - Any open invoice can be paid by applying credits.
 - Customer Portal User can select payment methods as Apply Credits while making payment.
@@ -201,7 +225,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Process Payment**
+### Process Payment
 
 - When the user clicks on Process Payment:
   - If Total Payment due is zero, the credits are applied directly.
@@ -226,7 +250,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Multiple Invoice Payment**
+### Multiple Invoice Payment
 
 - Users can perform multiple invoice payments.
 - Select multiple invoices, apply credits, verify Gross total, Credits and Total payments and proceed to Process Payment.
@@ -241,7 +265,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Partial Invoice Payment**
+### Partial Invoice Payment
 
 - Users can perform partial payment towards an invoice or group of invoices.
 - Select invoice, type the amount preferred to pay, in the Payment Amt field.
@@ -258,11 +282,11 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Fully Invoiced Payment**
+### Fully Invoiced Payment
 
 - Fully Invoiced payments can be viewed under the Invoices tab in the Customer Portal.
 
-**Remove Credits**
+### Remove Credits
 
 - To remove applied credits prior to payment, users can click on Remove Credits.
 
@@ -276,7 +300,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Pay on Account**
+## Pay on Account
 
 - Users can pay for open orders also from the portal via the "Pay on Account" tab, thereby creating credit invoices against their account.
 - Selecting Pay on Account, displays all open orders of the customer.
@@ -299,7 +323,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**On-demand Synchronization**
+## On-demand Synchronization
 
 - Missing Invoices
   - Missing data for invoices option is accessible under Payments tab when Invoice/Order Sync Roles is enabled for the customer M3 User Role.
@@ -329,9 +353,11 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Payment Process**
+## Payment Process
 
-**Payment Method**
+<div id = "Payment_Method"> </div> 
+
+### Payment Method
 
 - Click on proceed payment for both cases pay invoices and pay on account, the user is taken to payment screen with other payment method options.
 
@@ -351,7 +377,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Payment Details**
+### Payment Details
 
 - In the Payment process, once the user selects the payment method, the payment information screen is displayed to enter Card type, number and expiry details.
 - Click on change payment method, system takes the user to payment method screen.
@@ -366,7 +392,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Review your order**
+### Review your order
 
 - Enter payment details and click next, the payment review screen appears.
 - Users can review all payment details, from billing address, card type, number, expiry or edit the details.
@@ -376,7 +402,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 <kbd><img alt="ReviewOrder" src="../../../images/add-ons/payment-portal/payment-user/22.4.0/ReviewOrder.png"></kbd>
 </kbd>
 
-**Receipt**
+### Receipt
 
 - When a payment is completed successfully, the transaction reference and payment status are presented on the Customer Portal's message display space.
 
@@ -390,7 +416,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**Cancel Payment**
+## Cancel Payment
 
 - To cancel the payment process, the user can click on Cancel order, and confirm to cancel.
 
@@ -404,7 +430,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 </b>
 </div>
 
-**General Guidelines**
+## General Guidelines
 
 - Payment processing is enabled only on Google Chrome and Safari (on Mac).
 - Users can view responses/error messages from the system in the message display space of Customer Portal.
