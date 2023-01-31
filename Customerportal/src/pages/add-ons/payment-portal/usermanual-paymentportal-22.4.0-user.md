@@ -4,6 +4,7 @@
 
 # Table of contents
 
+<div id=toc></div>
 
 - [Overview](#Overview)
 - [Architecture](#Architecture)
