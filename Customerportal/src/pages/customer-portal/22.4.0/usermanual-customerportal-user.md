@@ -350,8 +350,7 @@ Characteristics of Strong Password:
 <kbd><img alt="ForgotPasswordEmail" src="../../../images/customer-portal/front-end-user/22.4.0/ForgotPasswordEmail.png"></kbd>
 </kbd>
 
-- The link redirects the user to the password reset page, where they can create a new password that meets the[ password policy](https://leanswift.github.io/Customerportal/src/pages/customer-portal/22.4.0/registration-user-guide.html#_heading=h.17dp8vu).
-
+- The link redirects the user to the password reset page, where they can create a new password that meets the password policy.
 <kbd>
 <kbd><img alt="ForgotPasswordNewPassword" src="../../../images/customer-portal/front-end-user/22.4.0/ForgotPasswordNewPassword.png"></kbd>
 </kbd>
@@ -366,7 +365,7 @@ Characteristics of Strong Password:
 
 # Switch Customer
 
-- The Switch Customer option on the right side human icon menu is enabled for users with [privileges](https://leanswift.github.io/Customerportal/src/pages/customer-portal/22.4.0/registration-user-guide.html#_heading=h.35nkun2) to view other customer account details.
+- The Switch Customer option on the right side human icon menu is enabled for users with privileges to view other customer account details.
 
 <kbd>
 <kbd><img alt="SwitchCustomer" src="../../../images/customer-portal/front-end-user/22.4.0/SwitchCustomer.png"></kbd>
@@ -591,7 +590,7 @@ When no document is available for the selected invoice, following message is dis
 
 - "Orders" page name is changed to "My Orders"
 
-# My Orders**
+# My Orders
 
 - My Orders tab displays the customer's order information – Order number, Customer number, Customer Name, PO/Reference, Order Date and Order Status, Delivery.
 - Ten order entries are displayed per page.
