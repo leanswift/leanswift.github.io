@@ -685,6 +685,10 @@ When no document is available for the selected order, following message is displ
 - Click on the PDF icon next to delivery number
 - Document(s) will be downloaded and opened in new tab(s)
 
+<kbd>
+<kbd><img alt="DeliveryDocuments" src="../../../images/customer-portal/front-end-user/22.4.0/CustomerPortal_DeliveryDocument.png"></kbd>
+</kbd>
+
 <div align="right">
 <b>
  <a href="#toc">↥ Go to Top</a>
