@@ -8,9 +8,6 @@
 
 # Table of contents
 
-- [**Version 22.4.0 - Registration Manual – LeanSwift Customer Portal - User**](#version-2240---registration-manual--leanswift-customer-portal---user)
-- [Table of contents](#table-of-contents)
-- [User Manual - Customer Portal - Front end User](#user-manual---customer-portal---front-end-user)
 - [Overview](#overview)
 - [**Architecture**](#architecture)
   - [Features](#features)
