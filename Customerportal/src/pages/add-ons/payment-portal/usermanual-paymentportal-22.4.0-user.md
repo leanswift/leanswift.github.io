@@ -61,7 +61,7 @@ The Payment Portal module is an add-on for Customer Portal which provides custom
 
 <div id = "features"> </div>
 
-**Features**
+# Features
 
 Account
 
