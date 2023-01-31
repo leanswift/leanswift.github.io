@@ -212,7 +212,7 @@ Note: Please check the Junk or Spam folder in case this mail does not arrive wit
 <kbd><img alt="ExternalCustomerMail" src="../../../images/customer-portal/front-end-user/22.4.0/ExternalCustomerMail.png"></kbd>
 </kbd>
 
-- The link in the email directs the user to the password creation screen, where they can create a new password in accordance with the [password policy](https://leanswift.github.io/Customerportal/src/pages/customer-portal/22.4.0/registration-user-guide.html#Password_Policy).
+- The link in the email directs the user to the password creation screen, where they can create a new password in accordance with the password policy
 
 <kbd>
 <kbd><img alt="SetNewPassword" src="../../../images/customer-portal/front-end-user/22.4.0/SetNewPassword.png"></kbd>
