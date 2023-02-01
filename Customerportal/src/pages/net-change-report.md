@@ -3,14 +3,16 @@
 # Customer Portal-Net Change Report
 
 ## Table of contents
-  - [21.1.0](#2110)
-    - [Features](#features)
-  - [21.2.0](#2120)
-    - [Features](#features)
+
   - [22.4.0](#2240)
     - [Features](#features)
     - [Bug Fixes](#Bug_Fixes)
     - [Enhancements](#Enhancements)
+  - [21.1.0](#2110)
+    - [Features](#features)
+  - [21.2.0](#2120)
+    - [Features](#features)
+
 
 ## 22.4.0
 
