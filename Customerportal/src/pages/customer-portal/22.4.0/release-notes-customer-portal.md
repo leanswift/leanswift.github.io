@@ -83,7 +83,7 @@
 
 ## **Enhancements**
 
-- Upgraded IDM add-on to be compatible with latest eConnect-base.
+- Upgraded IDM add-on to be compatible with eConnect-base version 6.2.2.
 
 - Magento version upgraded to 2.4.4. 
 
