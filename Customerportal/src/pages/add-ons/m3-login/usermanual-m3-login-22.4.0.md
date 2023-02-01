@@ -138,6 +138,91 @@ This document and the software it describes are provided by LeanSwift Solutions 
 <kbd><img alt="M3UserRoles" src="../../../images/add-ons/m3-login/22.4.0/M3UserRoles.png"></kbd>
 </kbd>
 
+## Prerequisites
+
+<div id = "Force_Customer_Login"> </div>
+
+### Force Customer Login
+
+<div id = "White_List"> </div>
+
+#### White List
+- To whitelist URLs, admin shall login to Magento System and go to Customers – White List. 
+- For first-time internal user login, whitelisting URLs is a prerequisite.
+<kbd>
+<kbd><img alt="Customer-Whitelist" src="../../../images/add-ons/m3-login/22.4.0/M3Login_WhiteList.png"></kbd>
+</kbd>
+
+- Force Customer Login – Overview screen displays whitelisted URLS, id, label, rules, Strategy and Store.
+<kbd>
+<kbd><img alt="Customer-ForceLogin" src="../../../images/add-ons/m3-login/22.4.0/M3Login_ForceCustomerLogin.png"></kbd>
+</kbd>
+
+<div align="right">
+<p>
+ <a href="#toc">↥ Go to Top</a>
+</p>
+</div>
+
+<div id = "Add_Entry"> </div>
+
+#### *Add Entry*
+- To add white list entry admin users can go to Customers – White List – Click on Add Entry. 
+
+<kbd>
+<kbd><img alt="Customer-Whitelist-AddentryButton" src="../../../images/add-ons/m3-login/22.4.0/M3Login_AddEntry.png"></kbd>
+</kbd>
+
+- Force Customer Login – Create a new entry screen.
+- Provide details of white list entry.
+  - Label – Specify the label for entry. Eg: M3 Login Page.
+  - URL rule – Specify the URL Path /lslogin/index/index. This configuration is standard for Customer Portal.
+  - Strategy – Specify the Strategy - Static, RegEx (All), RegEx (Negation).
+  - Store – Select Store view – Eg: All Stores, Default Store View, CP Stage Store View.
+- Click on Save to create a new white list entry.
+
+<kbd>
+<kbd><img alt="Customer-Whitelist-Addentry-Save" src="../../../images/add-ons/m3-login/22.4.0/M3Login_AddEntry_Save.png"></kbd>
+</kbd>
+
+<div align="right">
+<p>
+ <a href="#toc">↥ Go to Top</a>
+</p>
+</div>
+
+<div id = "Edit_Delete_Entry"> </div>
+
+#### *Edit/Delete Entry*
+- To edit or delete Whitelist entry, go to Customers – Whitelist – Click on Edit or Delete next to the entry.
+
+<kbd>
+<kbd><img alt="Customer-Whitelist-Edit" src="../../../images/add-ons/m3-login/22.4.0/M3Login_ForceCustomerLogin_EditOrDelete.png"></kbd>
+</kbd>
+
+<div align="right">
+<p>
+ <a href="#toc">↥ Go to Top</a>
+</p>
+</div>
+
+<div id = "Restore_Defaults"> </div>
+
+#### *Restore Defaults*
+- To restore defaults of white listed URLs, go to Customer – White List – Click on Restore Defaults.
+- Restoring default is a prerequisite for internal users to have access for **Customer Portal**.
+<kbd>
+<kbd><img alt="Customer-Whitelist-Restore" src="../../../images/add-ons/m3-login/22.4.0/M3Login_RestoreDefaults.png"></kbd>
+</kbd>
+
+<div align="right">
+<p>
+ <a href="#toc">↥ Go to Top</a>
+</p>
+</div>
+
+<div id = "Customer_User_Permissions"> </div>
+
 ## Customer User Permissions
 
 - Users must have roles assigned to them in Magento, and they can only log in to the frontend based on the rights they have been allowed.
