@@ -6,7 +6,6 @@
 
 <div id = "toc"></div>
 
-# Table of contents
 
   - [Overview](#overview)
   - [Architecture](#architecture)
