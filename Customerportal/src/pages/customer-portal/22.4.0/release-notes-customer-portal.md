@@ -34,7 +34,7 @@
 | LeanSwift M3 Login | 22.4.0 |
 | LeanSwift Customer Portal | 22.4.0 |
 | LeanSwift Payment Portal | 22.4.0 |
-| LeanSwift IDM | 4.1.0 |
+| LeanSwift IDM | 4.1.2 |
 | RabbitMQ | 3.7.28 |
 | ION Desk (CloudSuite) | 2022.01.03  |
 | Infor M3 (CloudSuite) | 10.4.1.20220810_084103_01   |
