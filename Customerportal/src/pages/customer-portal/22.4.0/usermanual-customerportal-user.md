@@ -1,6 +1,6 @@
 ![CustomerPortalHeader](/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
-# **Version 22.4.0 - Registration Manual – LeanSwift Customer Portal - User**
+# **Version 22.4.0 - User Manual – Customer Portal - User**
 
 # Table of contents
 
