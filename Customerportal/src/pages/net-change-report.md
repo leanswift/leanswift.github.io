@@ -6,7 +6,7 @@
 
   - [22.4.0](#2240)
     - [Features](#features)
-    - [Bug Fixes](#bug_fixes)
+    - [Bug Fixes](#bug fixes)
     - [Enhancements](#enhancements)
   - [21.1.0](#2110)
     - [Features](#features)
