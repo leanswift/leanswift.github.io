@@ -130,7 +130,7 @@
 - Clears the downloaded files from IDM and Cron/Real time configurations in IDM upload and download is not supported.
 
 
-## **Validated Versions**
+## **Validated Browser Versions**
 
 Chrome version 108.0.5359.125 
 
