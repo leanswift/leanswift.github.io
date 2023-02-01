@@ -38,7 +38,7 @@
 | RabbitMQ | 3.7.28 |
 | ION Desk (CloudSuite) | 2022.01.03  |
 | Infor M3 (CloudSuite) | 10.4.1.20220810_084103_01   |
-| ION Package Version  |22.4.0  |
+| ION Package Version  |1.0.0  |
 
 
 
