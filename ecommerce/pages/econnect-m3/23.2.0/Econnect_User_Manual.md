@@ -9,5 +9,3 @@ To view the part-1 user manual click [here](https://github.com/leanswift/leanswi
 ![Shape1](RackMultipart20230417-1-w1pvdp_html_8364f73a6574c228.gif)
 
 Internal - General Use 
-
-Anjana
