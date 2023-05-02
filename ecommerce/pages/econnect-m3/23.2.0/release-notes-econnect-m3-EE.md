@@ -41,31 +41,34 @@ All the standard functionalities of core eConnect are supported in v23.2.0, whic
 - Order History
 - Initial Load
 
-# Prerequisites
+## Prerequisites
 
 - From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' in order to make successful connection with the Infor ION API.
 
 	![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
 
-# **Highlight**
+## **Highlight**
 
 - eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too)
 
-# **Compatibility Fixes**
+## **Compatibility Fixes**
 
 - Resolved the unsupported operand type error during Order Creation cron
 
-# **Other Fixes**
+## **Other Fixes**
 
 - Resolved the error 'Undefined array key STAT' thrown during Order Creation
 
-# **ION Package Update**
+## **ION Package Update**
 
 - Updated ION Package version to 3.2.1 with the below fix
 	- Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
 
-# **Point of Contact**
+## **Point of Contact**
 
 - [prabhu.manoharan3@leanswift.com](mailto:prabhu.manoharan3@wipro.com)
 - [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@wipro.com)
 - [narayanan.gurusamy@leanswift.com](mailto:narayanan.gurusamy@wipro.com)
+- [challa.anjana@wipro.com](mailto:challa.anjana@wipro.com)
+- [kalaivani.nagarajan1@wipro.com](mailto:kalaivani.nagarajan1@wipro.com)
+
