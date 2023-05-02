@@ -1,3 +1,22 @@
+# **23.2.0**
+
+# **Highlight**
+
+- eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too)
+
+# **Compatibility Fixes**
+
+- Resolved the unsupported operand type error during Order Creation cron
+
+# **Other Fixes**
+
+- Resolved the error 'Undefined array key STAT' thrown during Order Creation
+
+# **ION Package Update**
+
+- Updated ION Package version to 3.2.1 with the below fix
+	- Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
+
 # **22.2.1-p1-EE**
 
 # **Highlight**
