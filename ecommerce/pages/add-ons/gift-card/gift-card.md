@@ -11,3 +11,9 @@
 - ## [User Manual](3.0.0/usermanual-gift-card.md)
 
 - ## [Release Notes](3.0.0/release-notes-gift-card.md)
+
+# Version 3.1.0
+
+- ## [User Manual](3.1.0/usermanual-gift-card.md)
+
+- ## [Release Notes](3.1.0/release-notes-gift-card.md)
