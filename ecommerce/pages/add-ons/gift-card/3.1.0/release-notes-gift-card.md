@@ -47,7 +47,7 @@ Functionality remains the same as in the previous version.
 
 # **Highlight**
 
-Gift card is made compatible to the eConnect-base v6.1.1 & eConnect v22.2.0
+Gift card is made compatible to the eConnect-base v6.3.0 & eConnect v23.2.0
 
 # **Limitations**
 
