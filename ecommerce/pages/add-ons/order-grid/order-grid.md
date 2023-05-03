@@ -2,6 +2,13 @@
 
 eConnect for Infor M3
 
+Version 2.6.1
+=============
+
+-   [User Manual](2.6.1/usermanual-order-grid.md)
+
+-   [Release Notes](2.6.1/release-notes-order-grid.md)
+
 Version 2.6.0
 =============
 
