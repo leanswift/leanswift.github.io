@@ -17,9 +17,11 @@ Version 2.6.1
 
 -   [Highlight](#highlight)
 
--   [Pre-requisites](#limitations)
+-   [Pre-requisites](#pre-requisites)
 
 -   [Limitations](#limitations)
+
+-   [Bug Fixes](#bug-fixes)
 
 Overview
 ========
@@ -91,9 +93,12 @@ the two options, exclusively
 (2) ION Document Flows and ION APIs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Bug Fixes
+=========
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Resolved the exception thrown while adding the out of stock product with backorder to cart
+
+- Resolved the exception thrown while opening the configurable product once the customer has logged into the site
 
 Point of Contacts
 -----------------
