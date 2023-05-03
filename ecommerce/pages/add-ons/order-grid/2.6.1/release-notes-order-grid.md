@@ -17,8 +17,6 @@ Version 2.6.1
 
 -   [Highlight](#highlight)
 
--   [Pre-requisites](#pre-requisites)
-
 -   [Limitations](#limitations)
 
 -   [Bug Fixes](#bug-fixes)
