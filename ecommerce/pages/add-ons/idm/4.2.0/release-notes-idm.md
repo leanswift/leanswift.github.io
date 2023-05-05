@@ -6,7 +6,6 @@
 - [**Overview**](#overview)
 - [**Standard Features**](#standard-features)
 - [**Limitations**](#limitations)
-- [**Bug Fix**](#bug-fix)
 - [**Highlight**](#highlight)
 - [**Point of Contact**](#point-of-contact)
 
