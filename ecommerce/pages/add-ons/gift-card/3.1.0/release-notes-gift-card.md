@@ -62,11 +62,14 @@ Gift card is made compatible to the eConnect-base v6.3.0 & eConnect v23.2.0
 Point of Contacts
 -----------------
 
--   <prabhu.mano@leanswift.com>
+-   <prabhu.manoharan3@wipro.com>
 
--   <nanthini.muralidaran@leanswift.com>
+-   <deepthi.tadikamalla@wipro.com>
 
--   [deepthi.tadikamalla\@leanswift.com](mailto:deepthi@leanswift.com)
+-   <narayanan.gurusamy@wipro.com>
 
--   <narayanan.gurusamy@leanswift.com>
+-   <challa.anjana@wipro.com>
+
+-   <kalaivani.nagarajan1@wipro.com>
+
 
