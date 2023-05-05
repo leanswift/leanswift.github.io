@@ -4,7 +4,7 @@ Add-on for eConnect for M3
 Sales Representative
 ====================
 
-Version 4.1.0
+Version 4.2.0
 -------------
 
 **Table of Contents**
@@ -42,10 +42,8 @@ Environment Details
 
 | **Environment**     | **Version** |
 |---------------------|-------------|
-| Magento Open source | 2.4.3       |
-| Magento Commerce    | 2.4.3       |
-| eConnect Community  | 22.2.0      |
-| eConnect Commerce   | 22.2.0      |
+| Magento Commerce    | 2.4.6       |
+| eConnect Commerce   | 23.2.0      |
 | eConnect Base       | 6.1.1       |
 | Rabbitmq            | 3.7.28      |
 | Infor M3            | 16.1        |
