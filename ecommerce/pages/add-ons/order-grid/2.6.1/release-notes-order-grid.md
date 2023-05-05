@@ -7,7 +7,7 @@ Configurable Order Grid
 Version 2.6.1
 -------------
 
-**Table of Contents**
+Table of Contents
 
 -   [Overview](#overview)
 
