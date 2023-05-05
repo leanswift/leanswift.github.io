@@ -12,7 +12,7 @@
 - [**Standard Features**](#standard-features)
 - [**Highlight**](#highlight)
 - [**Limitations**](#limitations)
-- [Point of Contacts](#point-of-contacts)
+- [**Point of Contacts**](#point-of-contacts)
 
 # **Overview**
 

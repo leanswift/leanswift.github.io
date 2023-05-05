@@ -9,13 +9,11 @@ Version 4.3.0
 
 **Table of Contents**
 
--   [Overview](#overview)
-
--   [Environment Details](#environment-details)
-
--   [Standard Features](#standard-features)
-
--   [Highlight](#highlight)
+  - [Overview](#overview)
+  - [Environment Details](#environment-details)
+  - [Standard Features](#standard-features)
+  - [Highlight](#highlight)
+  - [Point of Contact](#point-of-contact)
 
 Overview
 --------
@@ -60,10 +58,11 @@ For Configurable and Grouped Products, ATP is displayed in, - Cart Page only
 Highlight
 ---------
 
-- Materialplan is made compatible to latest version of eConnect-Base 6.3.0 & eConnect v23.2.0 which works on Magento v2.4.6 with PHP 8.1(Supports v8.2 too)
+- Material plan is made compatible to latest version of eConnect-Base 6.3.0 & eConnect v23.2.0 which works on Magento v2.4.6 with PHP 8.1(Supports v8.2 too)
 
 
-### Point of Contact
+Point of Contact
+----------------
 
 -   <prabhu.manoharan3@wipro.com>
 

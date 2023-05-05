@@ -7,12 +7,11 @@
 
 **Table of Contents**
 
-
 - [**Overview**](#overview)
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
 - [**Highlight**](#highlight)
-
+- [**Point of Contacts**](#point-of-contacts)
 
 
 # **Overview**
@@ -65,7 +64,6 @@ _Note: This version is tested only on M3-Multi-tenant_
 
 Point of Contacts
 -----------------
-
 -   <prabhu.manoharan3@wipro.com>
 
 -   <deepthi.tadikamalla@wipro.com>

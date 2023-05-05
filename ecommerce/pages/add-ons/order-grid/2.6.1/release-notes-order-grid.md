@@ -9,17 +9,12 @@ Version 2.6.1
 
 Table of Contents
 
--   [Overview](#overview)
-
--   [Environment Details](#environment-details)
-
--   [Standard Features](#standard-features)
-
--   [Highlight](#highlight)
-
--   [Limitations](#limitations)
-
--   [Bug Fixes](#bug-fixes)
+- [Environment Details](#environment-details)
+- [Standard Features](#standard-features)
+- [Highlight](#highlight)
+- [Limitations](#limitations)
+- [Bug Fixes](#bug-fixes)
+- [Point of Contacts](#point-of-contacts)
 
 Overview
 ========
