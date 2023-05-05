@@ -17,8 +17,6 @@ Version 4.2.2
 
 - [Highlight](#highlight)
 
-- [Known Issues](#known-issues)
-
 - [Point of Contacts](#point-of-contacts)
 
 Overview
@@ -49,7 +47,7 @@ Environment Details
 | Infor M3                 | 16.1        |
 | PHP                      | 8.1         |
 | ION Package Version      | 3.2.1       |
-| Wyomind AdvancedInventory | 7.8.9      |
+| Wyomind AdvancedInventory | 8.0.0      |
 
 Standard Features
 -----------------
@@ -67,9 +65,6 @@ Highlight
 - Fully compatible with Adobe Commerce 2.4.6
 - Fully compatible with the latest version of eConnect-Base 6.3.0 & eConnect v23.2.0
 
-Known Issues
----------
-- Wyomind_AdvancedInventory has a few minor bugs and raised a ticket to the Wyominds [Ticket number - 522813] support team. It is a paid extension so we don't have the source code to fix on their code base. Contact their support team they will provide the patch for the fix.  
 
 Point of Contacts
 -----------------
