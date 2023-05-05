@@ -17,7 +17,7 @@
 |---------------------|-------------|
 | Magento version     | 2.4.6       |
 | PHP                 | 8.1.6       |
-| eConnect 			  | 23.2.0      |
+| eConnect 		    | 23.2.0      |
 | eConnect Base       | 6.3.0       |
 | Rabbitmq            | 3.7.28      |
 | Infor M3            | 16.1        |
@@ -77,8 +77,12 @@ scheduled as well as real-time access to IDM.
 
 # **Point of Contact**
 
--   <nanthini.muralidaran@leanswift.com>
+-   <prabhu.manoharan3@wipro.com>
 
--   <deepthi.tadikamalla@leanswift.com>
+-   <deepthi.tadikamalla@wipro.com>
 
--   <narayanan.gurusamy@leanswift.com>
+-   <narayanan.gurusamy@wipro.com>
+
+-   <challa.anjana@wipro.com>
+
+-   <kalaivani.nagarajan1@wipro.com>

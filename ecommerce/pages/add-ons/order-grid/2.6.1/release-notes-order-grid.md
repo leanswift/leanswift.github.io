@@ -43,9 +43,7 @@ Environment Details
 
 | **Environment**     | **Version** |
 |---------------------|-------------|
-| Magento Open source | 2.4.6       |
 | Magento Commerce    | 2.4.6       |
-| eConnect Community  | 23.2.0      |
 | eConnect Commerce   | 23.2.0      |
 | eConnect Base       | 6.3.0       |
 | Rabbitmq            | 3.7.28      |
@@ -101,8 +99,12 @@ Bug Fixes
 Point of Contacts
 -----------------
 
--   <prabhu.mano@leanswift.com>
+-   <prabhu.manoharan3@wipro.com>
 
--   [deepthi.tadikamalla\@leanswift.com](mailto:deepthi@leanswift.com)
+-   <deepthi.tadikamalla@wipro.com>
 
--   <narayanan.gurusamy@leanswift.com>
+-   <narayanan.gurusamy@wipro.com>
+
+-   <challa.anjana@wipro.com>
+
+-   <kalaivani.nagarajan1@wipro.com>

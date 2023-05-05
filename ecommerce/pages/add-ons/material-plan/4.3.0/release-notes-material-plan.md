@@ -37,7 +37,6 @@ Environment Details
 | **Environment**     | **Version** |
 |---------------------|-------------|
 | Adobe Commerce      | 2.4.6       |
-| eConnect Community  | 23.2.0      |
 | eConnect Commerce   | 23.2.0      |
 | eConnect Base       | 6.3.0       |
 | Rabbitmq            | 3.7.28      |
@@ -66,10 +65,12 @@ Highlight
 
 ### Point of Contact
 
--   <nanthini.muralidaran@leanswift.com>
+-   <prabhu.manoharan3@wipro.com>
 
--   <prabhu.mano@leanswift.com>
+-   <deepthi.tadikamalla@wipro.com>
 
--   [deepthi.tadikamalla\@leanswift.com](mailto:deepthi@leanswift.com)
+-   <narayanan.gurusamy@wipro.com>
 
--   <narayanan.gurusamy@leanswift.com>
+-   <challa.anjana@wipro.com>
+
+-   <kalaivani.nagarajan1@wipro.com>
