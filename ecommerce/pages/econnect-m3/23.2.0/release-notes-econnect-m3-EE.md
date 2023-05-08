@@ -66,9 +66,9 @@ All the standard functionalities of core eConnect are supported in v23.2.0, whic
 
 ## **Point of Contact**
 
-- [prabhu.manoharan3@leanswift.com](mailto:prabhu.manoharan3@wipro.com)
-- [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@wipro.com)
-- [narayanan.gurusamy@leanswift.com](mailto:narayanan.gurusamy@wipro.com)
+- [prabhu.manoharan3@wipro.com](mailto:prabhu.manoharan3@wipro.com)
+- [deepthi.tadikamalla@wipro.com](mailto:deepthi.tadikamalla@wipro.com)
+- [narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com)
 - [challa.anjana@wipro.com](mailto:challa.anjana@wipro.com)
 - [kalaivani.nagarajan1@wipro.com](mailto:kalaivani.nagarajan1@wipro.com)
 
