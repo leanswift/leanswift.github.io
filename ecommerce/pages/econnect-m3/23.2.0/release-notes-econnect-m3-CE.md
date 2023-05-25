@@ -51,6 +51,8 @@ All the standard functionalities of core eConnect are supported in v23.2.0, whic
 
 - eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too)
 
+- Zend framework dependency was completely replaced with Laminas
+
 ## **Compatibility Fixes**
 
 - Resolved the unsupported operand type error during Order Creation cron
