@@ -4,12 +4,12 @@
 
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
-  - [Prerequisites](#prerequisites)
-  - [**Highlight**](#highlight)
-  - [**Compatibility Fixes**](#compatibility-fixes)
-  - [**Other Fixes**](#other-fixes)
-  - [**ION Package Update**](#ion-package-update)
-  - [**Point of Contact**](#point-of-contact)
+- [Prerequisites](#prerequisites)
+- [**Highlight**](#highlight)
+- [**Compatibility Fixes**](#compatibility-fixes)
+- [**Other Fixes**](#other-fixes)
+- [**ION Package Update**](#ion-package-update)
+- [**Point of Contact**](#point-of-contact)
 
 # **Environment Details**
 
