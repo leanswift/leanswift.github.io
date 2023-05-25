@@ -39,7 +39,9 @@ Environment Details
 | **Environment**     | **Version** |
 |---------------------|-------------|
 | Magento Commerce    | 2.4.6       |
+| Magento Community   | 2.4.6       |
 | eConnect Commerce   | 23.2.0      |
+| eConnect Community  | 23.2.0      |
 | eConnect Base       | 6.3.0       |
 | Rabbitmq            | 3.7.28      |
 | Infor M3            | 16.1        |
