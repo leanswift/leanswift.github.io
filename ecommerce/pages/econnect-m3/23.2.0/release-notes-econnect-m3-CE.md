@@ -4,24 +4,24 @@
 
 - [**Environment Details**](#environment-details)
 - [**Standard Features**](#standard-features)
-- [**Prerequisites**](#prerequisites)
-- [**Highlight**](#highlight)
-- [**Compatibility Fixes**](#compatibility-fixes)
-- [**Other Fixes**](#other-fixes)
-- [**ION Package Update**](#ion-package-update)
-- [**Point of Contact**](#point-of-contact)
-
+  - [Prerequisites](#prerequisites)
+  - [**Highlight**](#highlight)
+  - [**Compatibility Fixes**](#compatibility-fixes)
+  - [**Other Fixes**](#other-fixes)
+  - [**ION Package Update**](#ion-package-update)
+  - [**Point of Contact**](#point-of-contact)
 
 # **Environment Details**
 
-| **Software Name** | **Version** |
-| --- | --- |
-| Magento version | 2.4.6 |
-| eConnect Base | 6.3.0 |
-| PHP version | 8.1.6 |
-| RabbitMQ | 3.7.28 |
-| Infor M3 (MT) | 16.1 |
-| ION Package | 3.2.1 |
+| **Software Name**   | **Version** |
+| --------------------| ----------- |
+| Magento Community   | 2.4.6       |
+| eConnect Community  | 23.2.0      |
+| eConnect Base       | 6.3.0       |
+| PHP version         | 8.1.6       |
+| RabbitMQ            | 3.7.28      |
+| Infor M3 (MT)       | 16.1        |
+| ION Package         | 3.2.1       |
 
 # **Standard Features**
 
