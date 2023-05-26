@@ -84,7 +84,7 @@ The new version will coexist with the older version of eConnect which uses LeanS
 ### Architecture with LeanSwift eLink
 
 
-<kbd><img alt="eLink Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/masters/ecommerce/images/add-ons/sales-rep/elink_Architecture.jpg"></kbd>
+<kbd><img alt="eLink Architecture" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/elink_Architecture.jpg"></kbd>
 
 
 ### Architecture with ION for multi-tenant Cloud M3
