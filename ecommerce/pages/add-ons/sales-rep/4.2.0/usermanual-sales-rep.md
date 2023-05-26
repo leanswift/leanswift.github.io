@@ -341,14 +341,14 @@ The rest of the behaviour is same as previous versions.
 
 Pressing &#39;Login as Customer&#39; will log the Sales Rep in as that particular customer from the front-end of Magento. This way, he/she now has access to all of the same things regarding order creation, order- & invoice history etc.
 
-<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src=""></kb>
+<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/SalesRep_LoginAsCustomer_Frontend.PNG"></kb>
 
 [Go to Top](#table-of-contents)
 
 ### 2.1.3.3 Sales Management 
 The final feature of the Sales Rep add-on relates to the various parts of the Sales section within Magento Admin the Sales Rep can access.
 
-<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_SalesMenu.PNG"></kb>
+<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/Salesrep_Login_SalesMenu.PNG"></kb>
 
 From within Magento Admin, the Sales Rep can view existing orders, Invoices & Shipments (some of which then of course can also be accessed via the front-end).
 
@@ -357,27 +357,27 @@ If the suggested configuration of the SalesRep role has been followed, the Sales
 
 Order grid overview:
 
-<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/SalesRep_Login_Orders.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Orders" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/SalesRep_Login_Orders.PNG"></kb>
 
 
 Order detail view, including access from within the order to related Invoices, Credit Memos, Shipments, RMA’s as well as the Comments History of the order in question:
 
-<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_OrderView.png"></kb>
+<kbd><img alt="SalesRep_Login_Orders" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/Salesrep_OrderView.png"></kb>
 
 Optionally, the Sales rep can go in and review all Invoices and Shipments together across all of their customers. The Invoices are accessed via Sales > Invoices:
 
-<kbd><img alt="SalesRep_Login_Invoice" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/SalesRep_Login_Invoice.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Invoice" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/SalesRep_Login_Invoice.PNG"></kb>
 
 And the complete list of Shipments for all their customers together can be accessed in a single list via Sales > Shipments:
 
-<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_Login_Shipment.png"></kb>
+<kbd><img alt="SalesRep_Login_Orders" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/Salesrep_Login_Shipment.png"></kb>
 
 ### Note
 
 - For Shipment and Invoice tabs to be visible for an order in order detail page, extra permissions to 'Archive' section has to be provided.
 _Note: This is applicable only for Magento Commerce 2.4.1._
 
-<kbd><img alt="SalesRep_Login_Orders" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/Salesrep_ArchivePermission.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Orders" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/Salesrep_ArchivePermission.PNG"></kb>
 
 - Orders associated to multiple customers may get displayed in the Sales Rep Login. If Multiwarehouse and Order Edit Add-ons are also installed along with Salesrep
   To overcome this, We need to disable those Add-ons.
