@@ -318,7 +318,7 @@ The only parts of Magento Admin that are available for the Sales Rep is Sales an
 ### 2.1.3.2 Customer Management & Order Creation
 Under the Customers section, the only part that’s available to access for the Sales Rep is the Manage Customers subsection. Selecting this is what brings up the Customer’s grid displayed above.
 
-<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/Salesrep_Login_CustomerMenu.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Customers" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/Salesrep_Login_CustomerMenu.PNG"></kb>
 
 Once a Sales rep has opened the details of a Customer record, they can access all the key information in there related to that customer and also edit the customer record. 
 
@@ -328,20 +328,20 @@ It’s also from there that the Sales Rep has the option to login on-behalf-of t
 
 This is done by pressing the &#39;Login as Customer&#39; button in the header of the Customer record.
 
-<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/Salesrep_Login_CustomerView.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Customers" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/Salesrep_Login_CustomerView.PNG"></kb>
 
 #### New in this version
 
 From Magento 2.4.1 onwards, there is a &#39;Login as Customer&#39; option provided by magento itself. (Earlier it was part of Salesrep).
 For this to work,  &#39;Allow remote shopping assistance&#39; must be enabled and this will happen automatically when &#39;Cron settings for import sales rep&#39; gets executed
 
-<kbd><img alt="SalesRep_Login_Customers" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/AllowRemoteLogin.PNG"></kb>
+<kbd><img alt="SalesRep_Login_Customers" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/sales-rep/AllowRemoteLogin.PNG"></kbd>
 
 The rest of the behaviour is same as previous versions.
 
 Pressing &#39;Login as Customer&#39; will log the Sales Rep in as that particular customer from the front-end of Magento. This way, he/she now has access to all of the same things regarding order creation, order- & invoice history etc.
 
-<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/ECNT-1733/ecommerce/images/add-ons/sales-rep/SalesRep_LoginAsCustomer_Frontend.PNG"></kb>
+<kbd><img alt="SalesRep_LoginAsCustomer_Frontend" src=""></kb>
 
 [Go to Top](#table-of-contents)
 
