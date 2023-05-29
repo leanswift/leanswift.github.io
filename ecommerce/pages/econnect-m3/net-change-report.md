@@ -8,6 +8,10 @@
 
 - Resolved the unsupported operand type error during Order Creation cron
 
+# **Highlight**
+
+- Zend framework dependency is completely replaced with Laminas
+
 # **Other Fixes**
 
 - Resolved the error 'Undefined array key STAT' thrown during Order Creation
