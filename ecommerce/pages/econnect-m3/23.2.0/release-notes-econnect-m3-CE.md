@@ -1,3 +1,4 @@
+
 # **eConnect 23.2.0**
 
 # Table of contents
@@ -73,4 +74,5 @@ All the standard functionalities of core eConnect are supported in v23.2.0, whic
 - [narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com)
 - [challa.anjana@wipro.com](mailto:challa.anjana@wipro.com)
 - [kalaivani.nagarajan1@wipro.com](mailto:kalaivani.nagarajan1@wipro.com)
+
 
