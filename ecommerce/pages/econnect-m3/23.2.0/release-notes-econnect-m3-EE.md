@@ -15,13 +15,14 @@
 # **Environment Details**
 
 | **Software Name** | **Version** |
-| --- | --- |
-| Magento version | 2.4.6 |
-| eConnect Base | 6.3.0 |
-| PHP version | 8.1.6 |
-| RabbitMQ | 3.7.28 |
-| Infor M3 (MT) | 16.1 |
-| ION Package | 3.2.1 |
+| ----------------- | ----------- |
+| Magento Commerce  | 2.4.6       |
+| eConnect Commerce | 23.2.0      |
+| eConnect Base     | 6.3.0       |
+| PHP version       | 8.1.6       |
+| RabbitMQ          | 3.7.28      |
+| Infor M3 (MT)     | 16.1        |
+| ION Package       | 3.2.1       |
 
 # **Standard Features**
 

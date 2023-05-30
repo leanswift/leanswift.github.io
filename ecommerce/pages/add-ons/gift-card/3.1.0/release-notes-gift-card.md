@@ -7,12 +7,12 @@
 
 **Table of Contents**
 
-- [**Overview**](#overview)
-- [**Environment Details**](#environment-details)
-- [**Standard Features**](#standard-features)
-- [**Highlight**](#highlight)
-- [**Limitations**](#limitations)
-- [**Point of Contacts**](#point-of-contacts)
+- [Overview](#overview)
+- [Environment Details](#environment-details)
+- [Standard Features](#standard-features)
+- [Highlight](#highlight)
+- [Limitations](#limitations)
+- [Point of Contacts](#point-of-contacts)
 
 # **Overview**
 

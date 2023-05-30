@@ -34,16 +34,18 @@ warehouses in M3 and enables the warehouses to be used within Magento.
 Environment Details
 -------------------
 
-| **Environment**          | **Version** |
-|--------------------------|-------------|
-| Adobe Commerce           | 2.4.6       |
-| eConnect Commerce        | 23.2.0      |
-| eConnect Base            | 6.3.0       |
-| Rabbitmq                 | 3.7.28      |
-| Infor M3                 | 16.1        |
-| PHP                      | 8.1         |
-| ION Package Version      | 3.2.1       |
-| Wyomind AdvancedInventory | 8.0.0      |
+| **Environment**           | **Version** |
+|---------------------------|-------------|
+| Magento Commerce          | 2.4.6       |
+| Magento Community         | 2.4.6       |
+| eConnect Commerce         | 23.2.0      |
+| eConnect Community        | 23.2.0      |
+| eConnect Base             | 6.3.0       |
+| Rabbitmq                  | 3.7.28      |
+| Infor M3                  | 16.1        |
+| PHP                       | 8.1         |
+| ION Package Version       | 3.2.1       |
+| Wyomind AdvancedInventory | 8.0.0       |
 
 Standard Features
 -----------------
