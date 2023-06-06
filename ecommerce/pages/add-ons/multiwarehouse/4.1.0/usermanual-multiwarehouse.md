@@ -8,7 +8,7 @@
 **eConnect version 20.3.0**
 
 
-**TABLE OF CONTENTS**
+# TABLE OF CONTENTS
 
 - [GENERAL INFORMATION](#general-information)
   - [1.1 System Overview](#11-system-overview)
@@ -47,7 +47,7 @@
  
 <div align="left">
 <b>
- <a href="#toc">↥ Go to Top</a>
+ <a href="#toc"> Go to Top</a>
 </b>
 </div>
 
