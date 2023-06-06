@@ -168,6 +168,8 @@ Note: Stock available at date and current date only gets displayed in Magento fr
 
 <kbd><img alt ="m3 orderline" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/pps250.png "></kbd>
 
+[Go to Top](#table-of-contents)
+
 ## 2.2 PROCESS
 
 Once the setup described in the previous section has been completed, the MP functionality is ready to use from within Magento.
