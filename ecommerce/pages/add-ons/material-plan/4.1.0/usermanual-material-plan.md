@@ -18,10 +18,10 @@
     - [1.2.1 Information](#121-information)
   - [1.3 Organization of the Manual](#13-organization-of-the-manual)
   - [1.4 Acronyms and Abbreviations](#14-acronyms-and-abbreviations)
-  - [2.0 Material Plan](#20-material-plan)
-- [MATERIAL PLAN ADD-ON](#material-plan-add-on)
-    - [2.0.1 Summary](#201-summary)
-    - [2.0.2 Assumptions/Limitations](#202-assumptionslimitations)
+ - [2.0 Material Plan](#20-material-plan)
+    - [MATERIAL PLAN ADD-ON](#material-plan-add-on)
+      - [2.0.1 Summary](#201-summary)
+      - [2.0.2 Assumptions/Limitations](#202-assumptionslimitations)
   - [2.1 CONFIGURATION](#21-configuration)
     - [2.1.2 M3 Configuration](#212-m3-configuration)
   - [2.2 PROCESS](#22-process)
@@ -35,6 +35,8 @@
 ## 1.1 System Overview
 LeanSwift eConnect for Infor M3 provides a seamless integration between Magento and Infor M3 ERP. The product consists of a Magento extension, and a Tomcat based server application that manages the communication with the M3 ERP system.
 LeanSwift eConnect for Infor M3 employs a layered architecture to allow more flexibility in supporting different versions of Magento and Infor M3, and to allow independent upgrades. The two components are versioned individually to more easily adapt to different M3- &amp; Magento versions.
+
+[Go to Top](#table-of-contents)
 
 ## Architecture
 With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
@@ -60,6 +62,8 @@ The new version will coexist with the older version of eConnect which uses LeanS
 
 The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
 These add-ons can, if necessary, be modified, and new add-ons can be added to fulfill specific customer requirements.
+
+[Go to Top](#table-of-contents)
 
 **Transactions**
 
@@ -102,9 +106,11 @@ B2C – Business to consumer
 
 MP – Material Plan
 
-## 2.0 Material Plan
+[Go to Top](#table-of-contents)
 
-# MATERIAL PLAN ADD-ON
+# 2.0 Material Plan
+
+## MATERIAL PLAN ADD-ON
 
 ### 2.0.1 Summary
 The _MP_ module extends the standard Magento Enterprise functionality for displaying stock based on warehouse and stock zone by providing full integration to Infor&#39;s M3 ERP.
@@ -147,6 +153,8 @@ The options enable us to control MP visibility in the frontend. We can either di
 **Cron:**
 
 **Cron settings for receiving ATP details from ERP:** Based on the expression, Magento gets updated with ATP from M3.
+
+[Go to Top](#table-of-contents)
 
 ### 2.1.2 M3 Configuration
 Here in M3, Purchase order is being in created in PPS200.
@@ -196,3 +204,5 @@ Fill in the fields and save config, click on Import to import the data
 
 When the cache is set to 0, Real-time calls is made to M3 every time the product is browsed and ATP details are updated.
 When the cache is set to a particular number, A call to M3 is made only after the specified number of hours.
+
+[Go to Top](#table-of-contents)
