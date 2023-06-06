@@ -90,6 +90,8 @@ This manual is not intended to cover any standard Magento functionality or user 
 
 IDM – Infor Document Management
 
+[Go to Top](#table-of-contents)
+
 ## Architecture
 
 
