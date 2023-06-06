@@ -63,7 +63,6 @@ The new version will coexist with the older version of eConnect which uses LeanS
 The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
 These add-ons can, if necessary, be modified, and new add-ons can be added to fulfill specific customer requirements.
 
-[Go to Top](#table-of-contents)
 
 **Transactions**
 
@@ -89,6 +88,8 @@ Magento Enterprise 2.0.0 and up
 
 Infor M3 13.x
 
+[Go to Top](#table-of-contents)
+
 ## 1.2 Points of Contact
 
 ### 1.2.1 Information
@@ -107,6 +108,8 @@ B2C – Business to consumer
 MP – Material Plan
 
 [Go to Top](#table-of-contents)
+
+## 2.0 Material Plan
 
 # MATERIAL PLAN ADD-ON
 
