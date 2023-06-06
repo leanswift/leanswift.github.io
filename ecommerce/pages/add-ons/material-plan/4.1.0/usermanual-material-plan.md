@@ -107,9 +107,7 @@ MP – Material Plan
 
 [Go to Top](#table-of-contents)
 
-# 2.0 Material Plan
-
-## MATERIAL PLAN ADD-ON
+# MATERIAL PLAN ADD-ON
 
 ### 2.0.1 Summary
 The _MP_ module extends the standard Magento Enterprise functionality for displaying stock based on warehouse and stock zone by providing full integration to Infor&#39;s M3 ERP.
