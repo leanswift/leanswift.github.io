@@ -203,7 +203,7 @@ ION API service URL has to be mentioned here
 - If Download option is set to _Real-time_ in backend, then the file will be opened in new tab on clicking icon.
 - If Download option is _Cron_, user will get a message like &quot;File will be downloaded via cron&quot;.
 
-<kbd><img alt="download config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/Invoice_Download.png"></kbd>
+<kbd><img alt="download config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2313/ecommerce/images/add-ons/idm/Invoice_Download.png"></kbd>
 
 
 ### 2.1.4 Search Configuration
