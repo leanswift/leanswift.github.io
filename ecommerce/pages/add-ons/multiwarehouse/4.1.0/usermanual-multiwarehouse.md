@@ -45,7 +45,12 @@
 
  **LeanSwift eConnect for Infor M3** employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
  
-[Go to Top](#table-of-contents)
+<div align="left">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
  
  ## Architecture
 
