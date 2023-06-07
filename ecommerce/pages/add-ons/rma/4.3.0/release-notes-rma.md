@@ -28,8 +28,8 @@ Extends standard Magento functionality and offers several transactions to ensure
 
 | **Environment**     | **Version** |
 |---------------------|-------------|
-| Adobe Commerce      | 2.4.6       |
-| eConnect            | 23.2.0      |
+| Magento Commerce    | 2.4.6       |
+| eConnect Commerce   | 23.2.0      |
 | eConnect Base       | 6.3.0       |
 | Rabbitmq            | 3.7.28      |
 | Infor M3            | 16.1        |
