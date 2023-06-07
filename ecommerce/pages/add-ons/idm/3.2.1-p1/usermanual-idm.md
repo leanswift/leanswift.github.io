@@ -173,7 +173,7 @@ The configuration required for the IDM add-on can be separated in three parts â€
 
 ION API service URL has to be mentioned here
 
-<kbd><img alt="general config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/ION_GeneralConfig.png"></kbd>
+<kbd><img alt="general config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2313/ecommerce/images/add-ons/idm/ION_GeneralConfig.png"></kbd>
 
     
 ### 2.1.2 Upload Configuration
