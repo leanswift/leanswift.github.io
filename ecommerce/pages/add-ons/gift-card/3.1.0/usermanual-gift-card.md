@@ -4,4 +4,4 @@
 
 User Manual for 3.1.0 is same as 2.5.0
 
-To view the 3.1.0 user manual click [here](../2.5.0/usermanual-gift-card.md).
+To view the 2.5.0 user manual click [here](../2.5.0/usermanual-gift-card.md).
