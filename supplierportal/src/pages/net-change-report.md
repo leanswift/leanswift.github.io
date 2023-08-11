@@ -3,17 +3,21 @@
 # Supplier Portal-Net Change Report
 
 ## Table of contents
+
+  - [23.3.0](#2330)
+  - [**Enhancements**](#enhancements)
   - [22.4.0](#2240)
     - [Features](#features)
-    - [Enhancements](#enhancement)
+    - [Enhancements](#enhancements)
   - [22.1.0](#2210)
     - [Features](#features)
-    - [Enhancements](#enhancement)
+    - [Enhancements](#enhancements)
     - [Fixes](#fixes)
   - [21.1.0](#2110)
-    - [Features:](#features)
+    - [Features :](#features-)
   - [20.2.0](#2020)
-    - [Features:](#features)
+    - [Features :](#features-)
+    - [Enhancements :](#enhancements-)
   - [20.1.2](#2012)
     - [Fixes:](#fixes)
   - [20.1.1](#2011)
@@ -21,6 +25,15 @@
     - [Fixes:](#fixes)
   - [20.1.0](#2010)
     - [Features:](#features)
+
+##23.3.0
+
+## **Enhancements** 
+
+- Existing Supplier Items from M3 is imported to Database during Supplier Registration2.
+- Provided backend configuration for Supplier Onboarding My Information form submission message.
+- TAX ID field characters can be configured from Magento Admin.
+- Confirmation email will be sent to Supplier once onboarded to portal.
 
 ## 22.4.0
 
