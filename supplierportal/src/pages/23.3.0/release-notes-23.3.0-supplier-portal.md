@@ -35,7 +35,7 @@
 
 |  **Software Name**  |  **Version**  |
 | --- | --- |
-| Magento Open Source | 2.4.4 |
+| Magento Open Source | 2.4.6 |
 | eConnect Base Module Version | 6.3.0 |
 | IDM Module version | 4.2.0 |
 | ION Package Version | 23.3.0 |
