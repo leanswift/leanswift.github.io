@@ -5,7 +5,7 @@
 ## Table of contents
 
   - [23.3.0](#2330)
-  - [**Enhancements**](#enhancements)
+  - [Enhancements](#enhancements)
   - [22.4.0](#2240)
     - [Features](#features)
     - [Enhancements](#enhancements)
@@ -26,7 +26,7 @@
   - [20.1.0](#2010)
     - [Features:](#features)
 
-##23.3.0
+## 23.3.0
 
 ## **Enhancements** 
 
