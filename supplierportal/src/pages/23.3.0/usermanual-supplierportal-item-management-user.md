@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 22.4.0 - User Manual - Supplier Item Management - User
+# Version 23.3.0 - User Manual - Supplier Item Management - User
 
 # Table of contents
 
