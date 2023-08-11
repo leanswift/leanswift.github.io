@@ -1,5 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
+
 # Version 23.3.0 - User Manual - Supplier Onboarding
 
 User Manual for 23.3.0 is same as 22.1.0 with enhancements

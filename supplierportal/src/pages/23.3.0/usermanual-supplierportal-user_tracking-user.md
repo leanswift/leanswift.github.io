@@ -1,5 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
+
 # Version 23.3.0 - User Tracking - User Manual - User
 
 User Manual for 23.3.0 is same as 20.2.0. 
