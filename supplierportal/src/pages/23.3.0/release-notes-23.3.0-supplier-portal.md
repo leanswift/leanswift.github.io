@@ -14,8 +14,6 @@
 
 - [Standard Features](#standard-features)
 
-- [New Features](#new-features)
-
 - [Enhancements](#enhancements)
 
 - [Pre-Requisites](#pre-requisites)
@@ -140,56 +138,12 @@ This Add-on is to configure the allowed number of Registrations (supplier admin 
 - View Purchase Price Variance metrics
 
 
-## **New Features**
-
-**Supplier Item Management**
- 
-  This will be an Add-on to Supplier Portal. With this Supplier can create a new supplier item OR M3 Item /Update item/Connect supplier item to existing M3 item. 
-  M3 Buyer makes a decision to approve or reject the above requests from the supplier based on the real time data provided by him. 
-
-**My Items**  
-
-  My Items has below submenus, 
-
-  1.	Submitted status 
-
-  2.	Create New 
-
-  3.	Item Update 
-
-  4.	Stock Update 
-
-**Submitted Status**  
-
-This feature allows supplier to view the status of the submitted Item request. Supplier can view and resubmit the item details. 
-
-**Create New**
-
-Supplier can create new item by submitting basic and aaditional attribute details.
-
-**Item Update**
-     
-Supplier can update existing supplier item created via portal or supplier item created in Infor M3. 
-
-**Stock Update**            
-
- Supplier can update stock of supplier item created via portal or supplier item created in Infor M3  
-
 ## **Enhancements** 
 
-- Provided backend configuration to choose Payment Terms for Onboarding Supplier.
-- Added Supplier Number Length configuration at backend for Onboarding Supplier. 
-- Address 2 and References fields are optional in My Information form for onboarding supplier. 
-- Phone Number field accepts maximum of 16 characters with special characters in My Information form. 
-- TAX ID field accepts maximum of 15 characters with special characters in My Information form. This value is updated in TINO attribute in M3.
-- ‘How it works’ link is displayed when My Information is submitted. Link provides steps to complete onboarding supplier process. 
-- Deliveries are now exported with line level information. 
-- Password rules and validation is added in Create an Account page.
-- Supplier Name can be configured with permission at backend to allow Upper Case and Special Character. 
-- Packaging Terms, Delivery Method, Cash Discount Terms, Monitoring Class, Payment Terms are added to My Information form. These fields are configurable and fetched     from M3 for onboarding supplier. 
-- Freight Terms, Delivery Terms, Packaging Terms, Delivery Method, Cash Discount Terms, Monitoring Class and Payment Terms fields are language specific in My -           Information form. 
-- Approval for Confirm Purchase Order is sent to Buyer assoicated with Purchase Order in PPS200. 
-
+- Existing Supplier Items from M3 is imported to Database during Supplier Registration2.
+- Provided backend configuration for Supplier Onboarding My Information form submission message.
+- TAX ID field characters can be configured from Magento Admin.
+- Confirmation email will be sent to Supplier once onboarded to portal.
 
 
 ## **Pre-Requisites**
@@ -219,20 +173,26 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
  
 ## **Validated Versions** 
 
-- Chrome 107.0.5304.88  
+-  Chrome Version 115.0.5790.171
 
 ## **Point of Contact** 
 
-silambarasan.kj3@wipro.com
 
-vaithiyanathan.paramasivam@wipro.com
+[silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com )
 
-deepthi.tadikamalla@wipro.com
+[vaithiyanathan.paramasivam@wipro.com](mailto:vaithiyanathan.paramasivam@wipro.com )
 
-ketankumar.zanzarukiya@wipro.com
+[ketankumar.zanzarukiya@wipro.com](mailto:ketankumar.zanzarukiya@wipro.com )
 
-prabhu.manoharan3@wipro.com
+[prabhu.manoharan3@wipro.com ](mailto:prabhu.manoharan3@wipro.com )
 
-narayanan.gurusamy@wipro.com
+[deepthi.tadikamalla@wipro.com ](mailto:deepthi.tadikamalla@wipro.com )
+
+[challa.anjana@wipro.com](mailto:challa.anjana@wipro.com )
+
+[alam.sreevidya@wipro.com ](mailto:alam.sreevidya@wipro.com )
+
+[narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com )
+
 
  
