@@ -178,21 +178,21 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 ## **Point of Contact** 
 
 
-[silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com )
+- [silambarasan.kj3@wipro.com] (mailto:silambarasan.kj3@wipro.com )
 
-[vaithiyanathan.paramasivam@wipro.com](mailto:vaithiyanathan.paramasivam@wipro.com )
+- [vaithiyanathan.paramasivam@wipro.com] (mailto:vaithiyanathan.paramasivam@wipro.com )
 
-[ketankumar.zanzarukiya@wipro.com](mailto:ketankumar.zanzarukiya@wipro.com )
+- [ketankumar.zanzarukiya@wipro.com] (mailto:ketankumar.zanzarukiya@wipro.com )
 
-[prabhu.manoharan3@wipro.com ](mailto:prabhu.manoharan3@wipro.com )
+- [prabhu.manoharan3@wipro.com ] (mailto:prabhu.manoharan3@wipro.com )
 
-[deepthi.tadikamalla@wipro.com ](mailto:deepthi.tadikamalla@wipro.com )
+- [deepthi.tadikamalla@wipro.com ] (mailto:deepthi.tadikamalla@wipro.com )
 
-[challa.anjana@wipro.com](mailto:challa.anjana@wipro.com )
+- [challa.anjana@wipro.com] (mailto:challa.anjana@wipro.com )
 
-[alam.sreevidya@wipro.com ](mailto:alam.sreevidya@wipro.com )
+- [alam.sreevidya@wipro.com ] (mailto:alam.sreevidya@wipro.com )
 
-[narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com )
+- [narayanan.gurusamy@wipro.com] (mailto:narayanan.gurusamy@wipro.com )
 
 
  
