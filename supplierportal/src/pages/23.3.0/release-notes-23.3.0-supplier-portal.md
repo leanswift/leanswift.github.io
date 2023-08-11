@@ -41,14 +41,14 @@
 | ION Package Version | 23.3.0 |
 | PHP  | 8.1.0 |
 | RabbitMQ | 3.7.28 |
-| ION Desk | 2022.01.03 |
-| Infor M3 | 10.4.1.20220810_084103_01 |
-| Advise and Notify | 22.4.0 |
-| Supplier Invoices | 22.4.0 |
-| Supplier Deliveries | 22.4.0 |
-| Supplier User Tracking | 22.4.0 |
-| User Management | 22.4.0 |
-| Supplier Item Management | 22.4.0-P1 |
+| ION Desk | 2023.07.01|
+| Infor M3 | 10.4.1.20230516_070212_04 |
+| Advise and Notify | 23.3.0 |
+| Supplier Invoices | 23.3.0 |
+| Supplier Deliveries | 23.3.0 |
+| Supplier User Tracking | 23.3.0 |
+| User Management | 23.3.0 |
+| Supplier Item Management | 23.3.0 |
 
 
 ## **Standard Features**
