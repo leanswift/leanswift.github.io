@@ -161,12 +161,6 @@ When M3 Admin approved Supplier Onboarding task, supplier status will be changed
 
 <div id = "Supplier Onboarding Configuration"> </div> 
 
-- Confirmation email will be sent to Supplier once onboarded to portal.
-
-<kbd>
-<kbd><img alt="OnBoardedMail" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1973/supplierportal/src/images/usermanual/supplier-onboarding/OnBoardedMail.png"></kbd>
-</kbd>
-
 
 ## Supplier Onboarding Configuration
 
@@ -217,7 +211,7 @@ Selected Dropdown values for **M3 Language List**, **M3 Order Currency List**, *
 
 **Tax ID Maximum Length** - Based on this configuration the length of the Tax ID is defined. The maximum length is 15 and the minimum length is 11.
 
-**My Information Form Success Message** - This message will be dispalyed once the onboarded supplier submits the form. 
+**My Information Form Success Message** - Configured message will be displayed when supplier submits my information form. 
 
 **Supplier Template** can be created in M3 using program **CRS620** with status **‘05-Suppl Template’**.
 
@@ -306,6 +300,12 @@ Once all tasks are approved at M3, supplier will get access to all supplier port
 
 <kbd>
 <kbd><img alt="Activated" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierActivatedNotification.png"></kbd>
+</kbd>
+
+Confirmation email will be sent to Supplier once onboarded to portal.
+
+<kbd>
+<kbd><img alt="OnBoardedMail" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1973/supplierportal/src/images/usermanual/supplier-onboarding/OnBoardedMail.png"></kbd>
 </kbd>
 
 
