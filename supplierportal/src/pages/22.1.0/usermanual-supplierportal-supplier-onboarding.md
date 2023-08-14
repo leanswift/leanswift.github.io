@@ -302,6 +302,7 @@ Once all tasks are approved at M3, supplier will get access to all supplier port
 <kbd><img alt="Activated" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1272/supplierportal/src/images/usermanual/supplier-onboarding/SupplierActivatedNotification.png"></kbd>
 </kbd>
 
+
 Confirmation email will be sent to Supplier once onboarded to portal.
 
 <kbd>
