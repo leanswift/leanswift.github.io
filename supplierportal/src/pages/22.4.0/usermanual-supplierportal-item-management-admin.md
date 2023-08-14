@@ -38,12 +38,13 @@ Existing Supplier Items from M3 is imported using cron to Database during Suppli
 <kbd><img alt="DefaultConfig" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1973/supplierportal/src/images/usermanual/supplier-item-management/DefaultConfig.png"></kbd>
 </kbd>
 
+
 Then Switch to respective website configured.
 
 There are three sections
-1.	General Configuration
-2.	Workflow Configuration
-3.	Retrieve Configuration
+1. General Configuration
+2. Workflow Configuration
+3. Retrieve Configuration
 
 
 <kbd>
