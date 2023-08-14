@@ -161,6 +161,13 @@ When M3 Admin approved Supplier Onboarding task, supplier status will be changed
 
 <div id = "Supplier Onboarding Configuration"> </div> 
 
+- Confirmation email will be sent to Supplier once onboarded to portal.
+
+<kbd>
+<kbd><img alt="OnBoardedMail" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1973/supplierportal/src/images/usermanual/supplier-onboarding/OnBoardedMail.png"></kbd>
+</kbd>
+
+
 ## Supplier Onboarding Configuration
 
 Navigate to **LeanSwift->Supplier Portal->Settings** and configure ION Mingle connection Url's as below.
@@ -183,6 +190,11 @@ Navigate to **LeanSwift->Supplier Portal->Settings** and switch to Multi Website
 <kbd><img alt="SupplierOnboarding2" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1640/supplierportal/src/images/usermanual/supplier-onboarding/SupplierOnboarding2.png"></kbd>
 </kbd>
 
+
+<kbd>
+<kbd><img alt="SupplierOnboarding3" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1973/supplierportal/src/images/usermanual/supplier-onboarding/SupplierOnboarding3.png"></kbd>
+</kbd>
+
 **M3 Supplier Template** - Existing supplier template from M3 can be configured with comma separated values.
 
 **M3 Supplier Prefix** – New supplier ID will be created with configured prefix value
@@ -202,6 +214,10 @@ Selected Dropdown values for **M3 Language List**, **M3 Order Currency List**, *
 **Allow only UPPER CASE in Supplier Name** - By default Yes is configured, Supplier Name will be accepted only in UPPER Case and if lower case is entered then it is changed to uppercase in My Information form.
 
 **Allow Special Character In Supplier Name** - Based on the slection, special characters is allowed for supplier name in My Information form.
+
+**Tax ID Maximum Length** - Based on this configuration the length of the Tax ID is defined. The maximum length is 15 and the minimum length is 11.
+
+**My Information Form Success Message** - This message will be dispalyed once the onboarded supplier submits the form. 
 
 **Supplier Template** can be created in M3 using program **CRS620** with status **‘05-Suppl Template’**.
 
