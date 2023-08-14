@@ -53,7 +53,7 @@
 
 ## **Standard Features**
 
-This version includes all the standard features from **21.1.0** as mentioned below:
+This version includes all the standard features from **22.4.0** as mentioned below:
 
 **Account**
 
@@ -119,6 +119,11 @@ This Add-on is to manage sub-accounts (users) and their roles and permissions.
 
 This Add-on is used to display all the invoices associated with the supplier’s PO and also other details such as outstanding amount, due date and open/paid.
 
+**Supplier Item Management**
+ 
+  This will be an Add-on to Supplier Portal. With this Supplier can create a new supplier item OR M3 Item /Update item/Connect supplier item to existing M3 item. 
+  M3 Buyer makes a decision to approve or reject the above requests from the supplier based on the real time data provided by him. 
+
 **User Tracking**
 
 This Add-on is to configure the allowed number of Registrations (supplier admin ) and allowed sub-account users per supplier admin.
@@ -140,7 +145,7 @@ This Add-on is to configure the allowed number of Registrations (supplier admin 
 
 ## **Enhancements** 
 
-- Existing Supplier Items from M3 is imported to Database during Supplier Registration2.
+- Existing Supplier Items from M3 is imported to Database during Supplier Registration.
 - Provided backend configuration for Supplier Onboarding My Information form submission message.
 - TAX ID field characters can be configured from Magento Admin.
 - Confirmation email will be sent to Supplier once onboarded to portal.

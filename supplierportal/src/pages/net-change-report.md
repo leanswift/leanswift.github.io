@@ -28,9 +28,9 @@
 
 ## 23.3.0
 
-## **Enhancements** 
+### Enhancements 
 
-- Existing Supplier Items from M3 is imported to Database during Supplier Registration2.
+- Existing Supplier Items from M3 is imported to Database during Supplier Registration.
 - Provided backend configuration for Supplier Onboarding My Information form submission message.
 - TAX ID field characters can be configured from Magento Admin.
 - Confirmation email will be sent to Supplier once onboarded to portal.
