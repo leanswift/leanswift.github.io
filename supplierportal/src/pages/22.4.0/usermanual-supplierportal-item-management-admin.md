@@ -32,7 +32,7 @@ Item Management configuration supports Multi Website scope.
 
 Navigate to **Leanswift-> Supplier Portal-> Item Management**. 
 
-Existing Supplier Items from M3 is imported to Database during Supplier Registration.This can be configured in Defalut configuration.
+Existing Supplier Items from M3 is imported using cron to Database during Supplier Registration.This can be configured in Defalut configuration.
 
 <kbd>
 <kbd><img alt="DefaultConfig" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/SP-1973/supplierportal/src/images/usermanual/supplier-item-management/DefaultConfig.png"></kbd>
