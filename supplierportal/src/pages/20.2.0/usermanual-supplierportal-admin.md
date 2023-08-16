@@ -70,9 +70,11 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 ## Features
 
 ### Account
+
 - Registration and Login
 - View Supplier Information
 - User Date Format Setting
+
 
 ### Purchase Orders 
 - View Purchase Orders.
@@ -243,12 +245,14 @@ Provide an option to test connectivity between application to ION workflow.
 
 **PO Confirmation**
 
-The section different setting configuration for sending purchase order to M3.
+- The section different setting configuration for sending purchase order to M3.
+- The confirmation of PO in M3 can be done in PPS250.
 
 **Realtime API call for Confirm PO**
 
-When an option set to "Yes", Confirmed Purchase orders will push to M3 in realtime. If it is set to
- "No" the confirmed Purchase order pushed to M3 via CRON.
+- When Realtime API call for confirm po is set to “YES” then the confirmed PO’s will be M3 by Realtime.
+- If it is set to “NO” the confirmed PO will push to M3 via cron.
+
  
  <blockquote>
     How to enable in cron 
@@ -278,23 +282,30 @@ The section provides control the Supplier registration approval from system or M
 
  **Enable Register Approval**
  
- When setting made to "Yes" the supplier registration approval will be send to M3 via workflow and approval process
- can be made in M3.It is set to "No" approval process can be made in Portal Admin.
+ - When setting made to "Yes" the supplier registration approval will be send to M3 via workflow and approval process
+ can be made in M3.
+ - By checking in tasks, the approval procedure is carried out in M3
+ - It is set to "No" approval process can be made in Portal Admin.
 
 **Workflow Name**
 
-Provide workflow name for Supplier registration.
+- Provide workflow name for Supplier registration will trigger an Name of ION Workflow created for the portal approval process.
 
-> This will be shown when Enable Register Approval set to true
+> This will be shown when Enable Register Approval set to “YES”.
 
 **Request to be approved by**
 
 Provide an option to select request approver.
+    
+  - **Buyer**:  The Registration approval will be sent to buyer which is associated for the Supplier in CRS620 while creating the supplier.
+    
+  - **Authorized User**:  This also same as the Buyer the request approval will be sent to the Authorized User. In CRS620/E-Purchase details page we can see the Authorized User.
+    
+  - **Generic Admin User**:  When we select Generic Admin User it will enable another option Admin User Name in that we need to give the User name so that the request approval will go the particular Admin User.
+    
+  - **Generic Admin Group**:  When this option is selected it will enable another option Admin Group Name in this will be giving the group name which in created in Infor M3. 
 
-- Buyer
-- Authorized User
-- Generic Admin User
-- Generic Admin Group
+To view the groups, click on Profile icon->User Management->Users->Manage->Groups.
 
 > This will be shown when Enable Register Approval set to true
   
@@ -317,23 +328,25 @@ The section contains configuration for list of different metrics to display ot n
 
 **On-Time Delivery**
 
-Provide an option to display or hide to Supplier.
+- If it set to “YES” it will display the on-time delivery to the Supplier.
+- If it is set to “NO” the on-time delivery will be disabled.
 
 >This metric records the percentage of inbound deliveries received on time, that is Requested Delivery Date Vs
 > Actual
  Delivery Date.
  
  
- 
 **Quality: Rejected Inventory**
 
-Provide an option to display or hide to Supplier.
+- If it set to “YES” it will display Quality: Rejected Inventory to the supplier.
+- If it is set to “NO” the Quality: Rejected Inventory will be disabled.
 
 >This metric records the total number of rejected supplies in a given period of time.
 
 **Purchase Price Variance**
 
-Provide an option to display or hide to Supplier.
+- If it set to “YES” it will display Purchase Price Variance to the supplier.
+- If it is set to “NO” the Purchase Price Variance will be disabled.
 
 > This metric records the difference between the actual price paid to buy an item and its standard price as confirmed
  by the supplier, multiplied by the actual number of units purchased (Confirmed Quantity), i.e Confirmed Price Vs
@@ -382,8 +395,13 @@ Provide an option to select a parameter, Based on selection the graph will be pl
 
 #### Email templates
 
-The section provides an option to choose email templates for each operation. It is configured with default email
+- The section provides an option to choose email templates for each operation. It is configured with default email
  templates. When a new email template is created it can be changed over here. 
+- Navigate to Leanswift -> Supplier portal ->Settings -> switch to Main website ->Email Templates 
+- Email templates have two different templates: 
+      - Header Template: It has header email template (Default) and Supplier Portal PWA Invite mail. Based on the supplier requirement they can configure.
+      - Footer Template: It has Footer email template (Default)  and Supplier Portal PWA Invite mail. Based on the supplier requirement they can configure.
+
 
 <kbd>
 <img alt="Email templates" src="../../images/usermanual/supplier-settings/email-templates.png">
@@ -399,17 +417,17 @@ The section provides an option to choose email templates for each operation. It 
 
 #### Cron
 
-This section contains the basic setup for how often the Supplier portal specific background (cron) jobs should run. The
-actual configuration of the job in the screen shot below is not representative of a normal customer installation.
-The setup will vary from customer to customer depending on a number of factors such as basic data volumes, frequency
- of changing purchase order etc.This section should always be reviewed within the project, and with the help of the
-  LeanSwift Services team be adjusted to best fit each customer’s environment.
+- This section contains the basic setup for how often the Supplier portal specific background (cron) jobs should run. 
+- The actual configuration of the job in the screen shot below is not representative of a normal customer installation. 
+- The setup will vary from Supplier to Supplier depending on a number of factors such as basic data volumes, frequency of changing purchase order etc.
+- This section should always be reviewed within the project, and with the help of the LeanSwift Services team be adjusted to best fit each customer’s environment.
+- Navigate to Leanswift -> Supplier Portal -> settings -> Cron.
 
 **Cron setting to send confirm PO requests to M3**
 
-The Setting facilitate to send confirmed Purchase orders to supplier.
-
-> Setting is useful only when we disable the Realtime API call for Confirm PO.
+- The setting facilitates to send confirmed Purchase orders to supplier.
+- Setting is useful only when we disable the Realtime API call for Confirm PO.
+- If the cron is left blank, then the cron will be disabled.
 
 
 **Cron setting to get forecast PO from M3**
@@ -429,9 +447,10 @@ The settings used to pull the forecast purchase order's from M3.
 
 ### Design Settings
 
-The section provides configuration for the company images with color code configuration affecting frontend behaviour
-with an option to choose different colors for each status of Purchase order and forecast. It provides
-an option to create customizable filters for the purchase order and forecast pages.
+- The section provides configuration for the company images with color code configuration affecting frontend behaviour
+with an option to choose different colors for each status of Purchase order and forecast. 
+- It provides an option to create customizable filters for the purchase order and forecast pages.
+- Navigate to Leanswift -> Supplier portal -> Design and Display -> switch to main website.
 
 #### General
 
@@ -439,19 +458,19 @@ The section contains information to be basic configuration for company.
 
 **Company Logo** 
 
-Provide the company logo.
+Provide the company logo by choosing the file from your local.
 
 **Company Logo**
 
-Provide the product logo.
+Provide the product logo by choosing the file from your local.
 
 **Homepage Banner**
 
-Provide the homepage banner.
+Provide the homepage banner by choosing the file from your local.
 
 **Facicon Image** 
 
-Provide the Favicon for the website.
+Provide the Favicon for the website by choosing the file from your local.
 
 **Show Supplier Portal Homepage** 
 
@@ -487,10 +506,14 @@ When an option selected as &quot;Yes&quot; upload document in
 | Text HighLight   | Headings in account page, supplier name,filter name color. |
 | Sign In Button color  | Normal Button BG color in supplier portal pages. |
 | Filter Button color  | Filter list add button BG color for purchase order and forecast page. |
+|Confirm All Button Color	|Color code used for Confirm All Button color|
 | Special Button color  | The color code used in download button, confirm, all button and chart types menu in metrics page. |
+|Document Upload BG color	|Color code used for Document upload background color| 
 | Menu color  | Color code used for paginization , active menu selection, Table head BG color, Collapsible menu in my account and metrics page. |
 | Chart color  | Chart color Background color in metrics page. |
 | Confirmed Status BG color  | Confirmed purchase order line BG color. |
+|Advised Status BG color	|Color code used for Advised purchase order line background color|
+|Notify Status BG color	|Color code used for Notify purchase order line background color|
 | Waiting Status BG color  | Waiting purchase order line BG color. |
 
  > BG  -  Background color
@@ -618,7 +641,7 @@ To view the user manual for Supplier Onboarding click [here](https://github.com/
 
 ### Exit System
 
-Log out from Magento admin using the link at the top right.
+Log out from Magento admin using the link at the top right human Icon and sign out.
 
 <kbd>
 <img alt="Exit system" src="../../images/usermanual/admin-logout.png">
@@ -640,18 +663,19 @@ Uploading documents into IDM against Purchase Orders requires LeanSwift IDM Mage
 **Configuration**
 
 The configurable options available for IDM add-on can be separated as three parts – *Upload*, *Download* and *Search*.
+Navigate to Leanswift -> IDM -> Settings.
 
 **Upload Configuration**
 
-- Enable Upload - Option can be set to Yes or No.
+- Enable Upload - If the option is set to “YES” the supplier can upload the files. If the enable Upload option is set to “NO” the supplier is not allowed upload the files.
 
-- Allowed File Types – File extensions that are allowed to be uploaded to IDM. This field is not mandatory.
+- Allowed File Types – Enter the file extensions that are allowed to be uploaded to IDM. Example: docx, png, jpg, pdf etc. This field is not mandatory. They can be multiple file extensions can be added by separating them by comma.
 
-- Cron / Real-time – Documents will be uploaded to IDM based on this option. If cron is chosen, cron expression should be provided to     upload the files on a periodic basis.
+- Cron / Real-time – If the option is chosen as real time the idm documents will upload based on real time. If cron is chosen, cron expression should be provided to upload the files on a periodic basis.
 
 - Configurable Options to Upload – Select the Document Type from the drop-down list, required Attribute Type(s), Used In[Should be         unique to identify the configuration]. Can add as many options as necessary.
 
-- Clears the uploaded files to IDM – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/upload/ folder periodically   based on cron expression. It’s good practice to configure suitable cron expressions here to manage disk space.
+- Clears the uploaded files to IDM – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/upload/ folder periodically based on cron expression. It’s good practice to configure suitable cron expressions here to manage disk space. But we should not configure upload through cron and clear the uploaded files to IDM at same time else it will conflict and not work.
 
 <kbd>
 <img alt="Exit system" src="../../images/usermanual/idm-backend-upload.png">
@@ -660,13 +684,13 @@ The configurable options available for IDM add-on can be separated as three part
 
 **Download Configuration**
 
-- Enable Download - Option can be set to Yes or No
+- Enable Download - If the option is set to “YES” the supplier can download the files. If the enable Upload option is set to “NO” the supplier is not allowed download the files.
 
 - Cron / Real-time – Documents will be downloaded from IDM based on this option. If cron is chosen, cron expression should be given to     download the files from IDM on a periodic basis.
 
 - Configurable Options to Download – Select the Document Type, required Attribute Type, Operation, Used In [Should be unique to identify   the configuration]. Can add as many options as necessary.
 
-- Clears the downloaded files to IDM – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/download/ folder             periodically based on cron expression. It’s good practice to configure suitable cron expression here to manage disk space.
+- Clears the downloaded files to IDM – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/download/ folder periodically based on cron expression. It’s good practice to configure suitable cron expression here to manage disk space. But we should not configure download through cron and clear the downloaded files to IDM at same time else it will conflict and not work.
 
 <kbd>
 <img alt="Exit system" src="../../images/usermanual/idm-backend-download.png">
@@ -676,7 +700,7 @@ The configurable options available for IDM add-on can be separated as three part
 
 - Enable Search - Option can be set to Yes or No
 
-- Configurable Options to Search – Select the Document Type, required Attribute Type, Operation, Offset and Limit
+- Configurable Options to Search – Select the Document Type, required Attribute Type, Operation, Offset and Limit. Here we can multiple functions as per our requirement.
 
 <kbd>
 <img alt="Exit system" src="../../images/usermanual/idm-backend-search.png">

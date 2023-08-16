@@ -42,7 +42,7 @@
 | PHP  | 8.1.0 |
 | RabbitMQ | 3.7.28 |
 | ION Desk | 2023.07.01|
-| Infor M3 | 10.4.1.20230516_070212_04 |
+| Infor M3 | Cloudsuite |
 | Advise and Notify | 23.3.0 |
 | Supplier Invoices | 23.3.0 |
 | Supplier Deliveries | 23.3.0 |
