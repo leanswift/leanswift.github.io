@@ -70,9 +70,11 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 ## Features
 
 ### Account
+
 - Registration and Login
 - View Supplier Information
 - User Date Format Setting
+
 
 ### Purchase Orders 
 - View Purchase Orders.
