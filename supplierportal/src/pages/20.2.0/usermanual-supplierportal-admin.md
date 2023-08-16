@@ -297,13 +297,13 @@ The section provides control the Supplier registration approval from system or M
 
 Provide an option to select request approver.
     
-  - Buyer: The Registration approval will be sent to buyer which is associated for the Supplier in CRS620 while creating the supplier.
+  - **Buyer**:  The Registration approval will be sent to buyer which is associated for the Supplier in CRS620 while creating the supplier.
     
-  - Authorized User: This also same as the Buyer the request approval will be sent to the Authorized User. In CRS620/E-Purchase details page we can see the Authorized User.
+  - **Authorized User**:  This also same as the Buyer the request approval will be sent to the Authorized User. In CRS620/E-Purchase details page we can see the Authorized User.
     
-  - Generic Admin User: When we select Generic Admin User it will enable another option Admin User Name in that we need to give the User name so that the request approval will go the particular Admin User.
+  - **Generic Admin User**:  When we select Generic Admin User it will enable another option Admin User Name in that we need to give the User name so that the request approval will go the particular Admin User.
     
-  - Generic Admin Group: When this option is selected it will enable another option Admin Group Name in this will be giving the group name which in created in Infor M3. 
+  - **Generic Admin Group**:  When this option is selected it will enable another option Admin Group Name in this will be giving the group name which in created in Infor M3. 
 
 To view the groups, click on Profile icon->User Management->Users->Manage->Groups.
 
