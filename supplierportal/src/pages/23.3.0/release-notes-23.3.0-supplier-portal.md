@@ -193,7 +193,7 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 
 - [deepthi.tadikamalla@wipro.com ](mailto:deepthi.tadikamalla@wipro.com )
 
-- <challa.anjana@wipro.com>(mailto:challa.anjana@wipro.com )
+- [challa.anjana@wipro.com](mailto:challa.anjana@wipro.com )
 
 - [alam.sreevidya@wipro.com ](mailto:alam.sreevidya@wipro.com )
 
