@@ -8,7 +8,7 @@
 **eConnect version 20.3.0**
 
 
-**TABLE OF CONTENTS**
+# TABLE OF CONTENTS
 
 - [GENERAL INFORMATION](#general-information)
   - [1.1 System Overview](#11-system-overview)
@@ -45,7 +45,8 @@
 
  **LeanSwift eConnect for Infor M3** employs a layered architecture to allow flexibility in supporting different versions of Magento and Infor M3 and to allow independent upgrades.
  
- [Go to Top](#table-of-contents)
+[Go to Top](#table-of-contents)
+
  
  ## Architecture
 
@@ -170,7 +171,7 @@ Once necessary permissions are provided, warehouses can be created from Sales> M
 
 Click on the Create New Point of Sale / Warehouse to create warehouses. Under General Information, enter the necessary details.
 
-<kbd><img alt="Magento_WH_General" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_WH_General.PNG"></kbd>
+<kbd><img alt="Magento_WH_General" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2313/ecommerce/images/add-ons/multiwarehouse/Magento_WH_General.PNG"></kbd>
 
 Make sure necessary Customer groups are selected.
 

@@ -7,4 +7,4 @@ eConnect banner
 
 User Manual for 2.6.0 is same as 2.5.1
 
-To view the 2.5.0 user manual click [here](../2.5.1/usermanual-order-grid.md).
+To view the 2.5.1 user manual click [here](../2.5.1/usermanual-order-grid.md).

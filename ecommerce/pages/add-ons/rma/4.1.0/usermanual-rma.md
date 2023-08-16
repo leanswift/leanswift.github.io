@@ -8,7 +8,6 @@
 
 # Table of contents
 
-- [**User Manual – RMA Add-on for eConnect**](#user-manual--rma-add-on-for-econnect)
 - [GENERAL INFORMATION](#general-information)
   - [1.1 System Overview](#11-system-overview)
   - [Architecture](#architecture)

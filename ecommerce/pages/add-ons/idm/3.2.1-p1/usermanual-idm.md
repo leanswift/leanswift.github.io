@@ -36,8 +36,6 @@
     - [2.1.8 Code Snippet](#214-code-snippet)
 
 
-
-
 # GENERAL INFORMATION
 
  
@@ -46,7 +44,6 @@
 LeanSwift eConnect for Infor M3 provides a seamless integration between Magento and Infor M3 ERP. The product consists of a Magento extension, and a Tomcat based server application that manages the communication with the M3 ERP system.
 
 LeanSwift eConnect for Infor M3 employs a layered architecture to allow more flexibility in supporting different versions of Magento and Infor M3, and to allow independent upgrades. The two components are versioned individually to more easily adapt to different M3- &amp; Magento versions.
-
 
 
 **Transactions**
@@ -75,6 +72,7 @@ Magento Enterprise 2.2.4 and up
 
 Infor M3 13.x
 
+[Go to Top](#table-of-contents)
   
 ## 1.2 Points of Contact
 
@@ -91,6 +89,8 @@ This manual is not intended to cover any standard Magento functionality or user 
 ## 1.4 Acronyms and Abbreviations
 
 IDM â€“ Infor Document Management
+
+[Go to Top](#table-of-contents)
 
 ## Architecture
 
@@ -127,6 +127,7 @@ The add-ons for LeanSwift eConnect provide extended functionality over the stand
 
 These add-ons can, if necessary, be modified, and new add-ons can be added to fulfill specific customer requirements.
 
+[Go to Top](#table-of-contents)
 
 # 2.0 IDM ADD-ON
 
@@ -162,6 +163,7 @@ _Note:_ Frontend part is not supported. Only function is exposed.
 
 - **775** permissions should be given to _Magento\_Root/pub/media/leanswift/idm/._
 
+ [Go to Top](#table-of-contents)
  
 ## 2.1 CONFIGURATION
 
@@ -171,7 +173,7 @@ The configuration required for the IDM add-on can be separated in three parts â€
 
 ION API service URL has to be mentioned here
 
-<kbd><img alt="general config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/ION_GeneralConfig.png"></kbd>
+<kbd><img alt="general config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2313/ecommerce/images/add-ons/idm/ION_GeneralConfig.png"></kbd>
 
     
 ### 2.1.2 Upload Configuration
@@ -203,7 +205,7 @@ ION API service URL has to be mentioned here
 - If Download option is set to _Real-time_ in backend, then the file will be opened in new tab on clicking icon.
 - If Download option is _Cron_, user will get a message like &quot;File will be downloaded via cron&quot;.
 
-<kbd><img alt="download config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/Invoice_Download.png"></kbd>
+<kbd><img alt="download config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2313/ecommerce/images/add-ons/idm/Invoice_Download.png"></kbd>
 
 
 ### 2.1.4 Search Configuration
@@ -259,5 +261,5 @@ Import configuration fetches IDM related configurable options from M3
 
 <kbd><img alt="general config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/idm/template3.png"></kbd>
 
-
+[Go to Top](#table-of-contents)
 

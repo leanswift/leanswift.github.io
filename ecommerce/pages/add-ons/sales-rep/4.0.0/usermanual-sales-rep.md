@@ -375,3 +375,5 @@ _Note: This is applicable only for Magento Commerce 2.4.1._
   
 - Clicking on Shipment tab may throw an error. This will happen if Salesrep is used along with Multiwarehouse Add-on.
   To overcome this, we need to install v7.7.6 version of Wyomind_AdvancedInventory in Multiwarehouse.
+
+[Go to Top](#table-of-contents)

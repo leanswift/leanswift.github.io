@@ -36,6 +36,8 @@
 LeanSwift eConnect for Infor M3 provides a seamless integration between Magento and Infor M3 ERP. The product consists of a Magento extension, and a Tomcat based server application that manages the communication with the M3 ERP system.
 LeanSwift eConnect for Infor M3 employs a layered architecture to allow more flexibility in supporting different versions of Magento and Infor M3, and to allow independent upgrades. The two components are versioned individually to more easily adapt to different M3- &amp; Magento versions.
 
+[Go to Top](#table-of-contents)
+
 ## Architecture
 With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
 
@@ -61,6 +63,7 @@ The new version will coexist with the older version of eConnect which uses LeanS
 The add-ons for LeanSwift eConnect provide extended functionality over the standard features available on eConnect Core.
 These add-ons can, if necessary, be modified, and new add-ons can be added to fulfill specific customer requirements.
 
+
 **Transactions**
 
 With eConnect 17.2, the following add-ons are available:
@@ -85,6 +88,8 @@ Magento Enterprise 2.0.0 and up
 
 Infor M3 13.x
 
+[Go to Top](#table-of-contents)
+
 ## 1.2 Points of Contact
 
 ### 1.2.1 Information
@@ -101,6 +106,8 @@ B2B – Business to business
 B2C – Business to consumer
 
 MP – Material Plan
+
+[Go to Top](#table-of-contents)
 
 ## 2.0 Material Plan
 
@@ -148,6 +155,8 @@ The options enable us to control MP visibility in the frontend. We can either di
 
 **Cron settings for receiving ATP details from ERP:** Based on the expression, Magento gets updated with ATP from M3.
 
+[Go to Top](#table-of-contents)
+
 ### 2.1.2 M3 Configuration
 Here in M3, Purchase order is being in created in PPS200.
 
@@ -158,6 +167,8 @@ Once an order is created, ATP is recalculated. This can be found in MMS080. Ente
 Note: Stock available at date and current date only gets displayed in Magento frontend
 
 <kbd><img alt ="m3 orderline" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/material-plan/pps250.png "></kbd>
+
+[Go to Top](#table-of-contents)
 
 ## 2.2 PROCESS
 
@@ -196,3 +207,5 @@ Fill in the fields and save config, click on Import to import the data
 
 When the cache is set to 0, Real-time calls is made to M3 every time the product is browsed and ATP details are updated.
 When the cache is set to a particular number, A call to M3 is made only after the specified number of hours.
+
+[Go to Top](#table-of-contents)
