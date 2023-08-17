@@ -34,7 +34,7 @@
 <img alt="metrics display" src="../../images/usermanual/advise_po_setting.png"> 
 </kbd>
 
-### Enable:
+### Enable
 - If &quot;Yes&quot; is selected, Advise option is enabled.
 
 - If &quot;No&quot; is selected, Advise option is disabled.
@@ -84,7 +84,7 @@
 <img alt="Exit system" src="../../images/usermanual/notify_po_setting.png">
 </kbd>
 
-### Enable:
+### Enable
 - If &quot;Yes&quot; is selected, Notify option is enabled.
 
 - If &quot;No&quot; is selected, Notify option is disabled.
@@ -143,7 +143,7 @@ Example: every 10 mins- */10 * * * *. If it is left blank it will automatically 
 </kbd>
 
 
-### Enable : 
+### Enable
 If &quot;Yes&quot; is selected, Notify Transportation by delivery number is Enabled. 
 
 If &quot;No&quot; is selected, Notify Transportation by delivery number is Disabled.
@@ -170,3 +170,12 @@ Prerequisite: Supplier should have Shipment Advice (SHAC) value as !=0 or \&gt;0
 </b>
 </div>
 
+SHAC:  Shipment advice can be seen in CRS624/F - Finacial Details. 
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/notify-shac-m3.png"> 
+</kbd>
+
+<kbd>
+<img alt="metrics display" src="../../images/usermanual/notify-shipment-adivce.png"> 
+</kbd>
