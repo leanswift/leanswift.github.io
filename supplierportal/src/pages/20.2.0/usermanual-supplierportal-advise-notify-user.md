@@ -35,7 +35,7 @@
 
 - The status of the PO will be “Ready to Print” (15). 
 
-# Confirmation of Purchase Order in M3: 
+## Confirmation of Purchase Order in M3: 
 
 - Open PPS250, enter the PO Number and select the PO line. 
 
