@@ -5,7 +5,7 @@
 # Table of contents
 
 - [Creation of Purchase order in M3](#creation-of-purchase-order-in-m3)
-- [Confirmation of Purchase Order in M3](#confirmation-of-purchase-order-in-m3)
+  - [Confirmation of Purchase Order in M3](#confirmation-of-purchase-order-in-m3)
 - [Advise](#advise)
   - [Advise a PO in M3](#advise-a-po-in-m3)
   - [Advise a PO Line](#advise-a-po-line)
