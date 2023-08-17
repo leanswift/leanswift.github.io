@@ -4,12 +4,14 @@
 
 # Table of contents
 
-- [Version 20.2.0 - Advise/Notify User Manual - User](#version-2020---advisenotify-user-manual---user)
-- [Table of contents](#table-of-contents)
+- [Creation of Purchase order in M3](#creation-of-purchase-order-in-m3)
+- [Confirmation of Purchase Order in M3](#confirmation-of-purchase-order-in-m3)
 - [Advise](#advise)
+  - [Advise a PO in M3](#advise-a-po-in-m3)
   - [Advise a PO Line](#advise-a-po-line)
   - [Advise Multiple POs](#advise-multiple-pos)
 - [Notify](#notify)
+  - [Notify a PO in M3](#notify-a-po-in-m3)
   - [Notify a PO Line](#notify-a-po-line)
   - [Notify Multiple POs](#notify-multiple-pos)
 - [Notify Transportation By Delivery Note number](#notify-transportation-by-delivery-note-number)
