@@ -176,6 +176,7 @@ SHAC:  Shipment advice can be seen in CRS624/F - Finacial Details.
 <img alt="metrics display" src="../../images/usermanual/notify-shac-m3.png"> 
 </kbd>
 
+
 <kbd>
 <img alt="metrics display" src="../../images/usermanual/notify-shipment-adivce.png"> 
 </kbd>
