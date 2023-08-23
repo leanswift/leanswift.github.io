@@ -112,7 +112,7 @@
 
 - ## [Release Notes](21.1.0/release-notes-21.1.0-supplier-portal.md)
 
-- ## [User Manual - Admin](21.1.0/usermanual-supplierportal-admin.md)
+- ## [User Manual - Admin](22.1.0/usermanual-supplierportal-admin.md)
 
 - ## [User Manual - User](21.1.0/usermanual-supplierportal-user.md)
 
@@ -135,9 +135,7 @@
 
 - ## [Release Notes](20.2.0/release-notes-20.2.0-supplier-portal.md)
 
-- ## [User Manual - Admin](20.2.0/usermanual-supplierportal-admin.md)
-
-- ## [User Manual - Admin](22.2.0/usermanual-supplierportal-admin.md)
+- ## [User Manual - Admin](22.0.0/usermanual-supplierportal-admin.md)
   
 - ## [User Manual - User](20.2.0/usermanual-supplierportal-user.md)
 
