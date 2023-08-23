@@ -110,11 +110,11 @@
 
 # Version 21.1.0
 
+- ## [Release Notes](21.1.0/release-notes-21.1.0-supplier-portal.md)
+
 - ## [User Manual - Admin](21.1.0/usermanual-supplierportal-admin.md)
 
 - ## [User Manual - User](21.1.0/usermanual-supplierportal-user.md)
-
-- ## [Release Notes](21.1.0/release-notes-21.1.0-supplier-portal.md)
 
 - ## [User Manual - Advise-Notify-Admin](21.1.0/usermanual-supplierportal-advise-notify-admin.md)
 
@@ -132,6 +132,8 @@
 # Version 20.2.0
 
 - ## Solution Summary
+
+- ## [Release Notes](20.2.0/release-notes-20.2.0-supplier-portal.md)
 
 - ## [User Manual - Admin](20.2.0/usermanual-supplierportal-admin.md)
 
@@ -159,36 +161,40 @@
 
 - ## [User Manual - User-Tracking-User](20.2.0/usermanual-supplierportal-user_tracking-user.md)
 
-- ## [Release Notes](20.2.0/release-notes-20.2.0-supplier-portal.md)
 
 
 # Version 20.1.2
 
 - ## Solution Summary
 
+- ## [Release Notes](20.1.2/release-notes-20.1.2-supplier-portal.md)
+
 - ## [User Manual - Admin](20.1.2/usermanual-supplierportal-admin.md)
 
 - ## [User Manual - User](20.1.2/usermanual-supplierportal-user.md)
 
-- ## [Release Notes](20.1.2/release-notes-20.1.2-supplier-portal.md)
 
 
 # Version 20.1.1
 
 - ## Solution Summary
 
+- ## [Release Notes](20.1.1//release-notes-supplier-portal.md)
+
 - ## [User Manual - Admin](20.1.1/usermanual-supplierportal-admin.md)
 
 - ## [User Manual - User](20.1.1/usermanual-supplierportal-user.md)
 
-- ## [Release Notes](20.1.1//release-notes-supplier-portal.md)
+
 
 # Version 20.1.0
 
 - ## Solution Summary
 
+- ## [Release Notes](20.1.0//release-notes-supplier-portal.md)
+
 - ## [User Manual - Admin](20.1.0/usermanual-supplierportal-admin.md)
 
 - ## [User Manual - User](20.1.0/usermanual-supplierportal-user.md)
 
-- ## [Release Notes](20.1.0//release-notes-supplier-portal.md)
+
