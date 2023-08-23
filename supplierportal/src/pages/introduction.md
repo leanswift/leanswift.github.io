@@ -14,6 +14,8 @@
 
 - ## [User Manual - User](23.3.0/usermanual-supplierportal-user.md)
 
+- ## [User Manual - User](23.3.0/usermanual-supplierportal-admin.md)
+
 - ## [User Manual - Advise-Notify-Admin](23.3.0/usermanual-supplierportal-advise-notify-admin.md)
 
 - ## [User Manual - Advise-Notify-User](23.3.0/usermanual-supplierportal-advise-notify-user.md)
@@ -136,6 +138,8 @@
 - ## [User Manual - Admin](20.2.0/usermanual-supplierportal-admin.md)
 
 - ## [User Manual - User](20.2.0/usermanual-supplierportal-user.md)
+
+- ## [User Manual - User](20.2.0/usermanual-supplierportal-admin.md)
 
 - ## [User Manual - Advise-Notify-Admin](20.2.0/usermanual-supplierportal-advise-notify-admin.md)
 
