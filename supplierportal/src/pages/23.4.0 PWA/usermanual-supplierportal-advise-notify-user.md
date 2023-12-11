@@ -17,7 +17,7 @@
 - To Advise PO lines, Select PO lines from the list of POs that are either in Printed or Confirmed status (Based on the configuration in the Leanswift Settings in Magento) and click on 'Advise' button on the right side. 
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/advise-po-lines.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/advise_po_lines.png"> 
 </kbd>
 
 
@@ -26,7 +26,7 @@
 All PO lines will be selected and applicable to do advise. Click Advise button.
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/advise_all.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/advise_all.png"> 
 </kbd>
 
 
@@ -47,7 +47,7 @@ All PO lines will be selected and applicable to do advise. Click Advise button.
 7. Carrier Name 
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/advise_shipment.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/advise_shipment.png"> 
 </kbd>
 
 - All the above are optional input fields. 
@@ -56,25 +56,25 @@ All PO lines will be selected and applicable to do advise. Click Advise button.
 - When we advise all lines in PO, then Confirmation dialogue box appears on the top. 
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/advise_confirmation_dialog_box.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/advise_confirmation_dialog_box.png"> 
 </kbd>
 
 - Once confirmed, status indicator changes from Printed/Confirmed to 'Request is Processing' 
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/notify_process_indicater.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/notify_process_indicater.png"> 
 </kbd>
 
 - The information submitted above for Advise is viewable for each Advised PO Line
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/advise_info.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/advise_info.png"> 
 </kbd>
 
 - Once the line/lines are Advised/Advised All, the process indicator is updated, and the 'Advised Shipment' icon is displayed along with all the information filled in the 'Advise Shipment' window below each line. 
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/subline_advise.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/subline_advise.png"> 
 </kbd>
 
 <div align="right">
@@ -89,7 +89,7 @@ All PO lines will be selected and applicable to do advise. Click Advise button.
 - Click on the Advise button (with "Truck Icon") on right side of the page
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/global_advise.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/global_advise.png"> 
 </kbd>
 
 
@@ -108,7 +108,7 @@ All PO lines will be selected and applicable to do advise. Click Advise button.
 6. Carrier Name 
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/advise_multiple_po.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/advise_multiple_po.png"> 
 </kbd>
 
 All the above are optional input fields. 
@@ -116,7 +116,7 @@ All the above are optional input fields. 
 - There is a 'Search PO' dropdown. Users can search purchase order numbers and choose from the dropdown.  
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/selected_po_advise.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/selected_po_advise.png"> 
 </kbd>
 
 - Only eligible POs will be displayed in the dropdown (POs that can be advised based on the backend configuration).  
@@ -157,14 +157,14 @@ _Note that by choosing the PO, all eligible lines of the PO get advised._ 
 </b>
 </div>
  
-# **Notify**
+#**Notify**
 
 **Notify a PO Line**  
 
 - To notify PO lines, Select PO lines from the list of POs that are either in Printed or Confirmed status or Shipment Advised (Based on the settings made in the Magento configuration) and click on 'Bell' Icon on the right side of the page. And click on "Notify."
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/notify_po.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/notify_po.png"> 
 </kbd>
 
 - Once notify is chosen, 'notify Shipment' window opens at right side of the page, where user can fill in the below information: 
@@ -184,7 +184,7 @@ _Note that by choosing the PO, all eligible lines of the PO get advised._ 
 7. Bill of Lading 
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise-notify/transport_notification.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/transport_notification.png"> 
 </kbd>
 
 - All the above are optional input fields. 
@@ -193,14 +193,14 @@ _Note that by choosing the PO, all eligible lines of the PO get advised._ 
 - When 'Notify' option is chosen, a Confirmation dialogue box appears on the top.
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/advise-notify/notify_confirmation.png"> 
+<img alt="metrics display" src="../../images/pwa/advise_notify/notify_confirmation.png"> 
 </kbd>
 
 
 - Quantity can be reduced in case of Partial Notify, then new Subline number will be created with "Shipment Advise" status below the actual line. 
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/advise-notify/notify_subline.png"> 
+<img alt="metrics display" src="../../images/pwa/advise_notify/notify_subline.png"> 
 </kbd>
 
 
@@ -208,14 +208,14 @@ _Note that by choosing the PO, all eligible lines of the PO get advised._ 
 
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/advise-notify/notify_info.png"> 
+<img alt="metrics display" src="../../images/pwa/advise_notify/notify_info.png"> 
 </kbd>
 
 
 - Clicking on notify, changes process indicator to 'Request is Processing'. 
 
 <kbd>
-<img alt="metrics display" src="../../images/usermanual/notify_process_indicator.png"> 
+<img alt="metrics display" src="../../images/pwa/advise_notify/notify_process_indicator.png"> 
 </kbd>
 
 
@@ -234,7 +234,7 @@ _Note that by choosing the PO, all eligible lines of the PO get advised._ 
 - This can be used when multiple POs are to be Notified. Click on the Notify button on the right side of the page with "Bell Icon" 
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/advise-notify/global_notify.png"> 
+<img alt="metrics display" src="../../images/pwa/advise_notify/global_notify.png"> 
 </kbd>
 
 - Similar to Notify functionality, 'Notify Transportation By PO window opens with the following options: 
@@ -252,7 +252,7 @@ _Note that by choosing the PO, all eligible lines of the PO get advised._ 
 6. Bill of Lading 
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/advise-notify/notify_multiple_pos.png"> 
+<img alt="metrics display" src="../../images/pwa/advise_notify/notify_multiple_pos.png"> 
 </kbd>
 
 
@@ -295,7 +295,7 @@ _Note that by choosing the PO, all eligible lines of the PO get notified. _
 - Once the check box is selected, search PO box will be disabled.
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/advise-notify/notify_by_del_num.png"> 
+<img alt="metrics display" src="../../images/pwa/advise_notify/notify_by_del_num.png"> 
 </kbd>
 
 _Note that all the above except 'Delivery Note Number' are optional input attributes. _
