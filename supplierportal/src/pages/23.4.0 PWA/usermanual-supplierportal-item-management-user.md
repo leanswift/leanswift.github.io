@@ -53,6 +53,8 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 </kbd>
 
 
+
+
 <kbd>
 <img alt="Item_Management" src="../../images/pwa/item_management/CreateNewForm.png"> 
 </kbd>
@@ -62,6 +64,8 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 <kbd>
 <img alt="Item_Management" src="../../images/pwa/item_management/CreateNewItemStatus.png"> 
 </kbd>
+
+
 
 <kbd>
 <img alt="Item_Management" src="../../images/pwa/item_management/CreateNewItemStatus1.png"> 
@@ -138,7 +142,7 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 
 
 <kbd>
-<img alt="Item_Management" src="../../images/pwa/item_management/SupplieritemUpdateForm2.png"> 
+<img alt="Item_Management" src="../../images/pwa/item_management/SupplierIitemUpdateForm2.png"> 
 </kbd>
 
 - Once the page is submitted with additional information (if required), success message is displayed, and Item status will be in  **'Submitted'**  status.
@@ -165,7 +169,13 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 - If Buyer rejects, status changes to  **'Rejected'**.
 - If Item update process fails in M3, the status changes to  **'Failed'**  with error message displayed in bell notification.
 
-[↥ **Go to Top**](https://github.com/leanswift/leanswift.github.io/blob/master/supplierportal/src/pages/22.4.0/usermanual-supplierportal-item-management-user.md#toc)
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 
 ## **Stock Update**
 
@@ -233,7 +243,13 @@ Items can be filtered using  **Supplier Item number, Supplier Item Name, Suppl
 
 **Failed:** When Item Creation/ Item Update request process failed in Infor M3. Supplier can edit and re-submit the item request. Verification Task will assign to Buyer for approval.
 
-[↥ **Go to Top**](https://github.com/leanswift/leanswift.github.io/blob/master/supplierportal/src/pages/22.4.0/usermanual-supplierportal-item-management-user.md#toc)
+
+<div align="left">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 
 ## **Item Image Upload**
 
