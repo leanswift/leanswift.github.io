@@ -62,7 +62,7 @@ All PO lines will be selected and applicable to do advise. Click Advise button.
 - Once confirmed, status indicator changes from Printed/Confirmed to 'Request is Processing' 
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise_notify/notify_process_indicater.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/process_indicator_advise.png"> 
 </kbd>
 
 - The information submitted above for Advise is viewable for each Advised PO Line
