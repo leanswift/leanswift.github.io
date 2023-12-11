@@ -4,21 +4,65 @@
 
 # Table of contents
 
-- [Version 20.2.0 - Advise/Notify User Manual - User](#version-2020---advisenotify-user-manual---user)
-- [Table of contents](#table-of-contents)
+- [Creation of Purchase order in M3](#creation-of-purchase-order-in-m3)
+  - [Confirmation of Purchase Order in M3](#confirmation-of-purchase-order-in-m3)
 - [Advise](#advise)
+  - [Advise a PO in M3](#advise-a-po-in-m3)
   - [Advise a PO Line](#advise-a-po-line)
   - [Advise Multiple POs](#advise-multiple-pos)
 - [Notify](#notify)
+  - [Notify a PO in M3](#notify-a-po-in-m3)
   - [Notify a PO Line](#notify-a-po-line)
   - [Notify Multiple POs](#notify-multiple-pos)
 - [Notify Transportation By Delivery Note number](#notify-transportation-by-delivery-note-number)
 
+
+# Creation of Purchase order in M3: 
+
+- The Supplier can be created in CRS610. 
+
+- To create a purchase order, we must go to PPS200, where "New" will be located at the top. 
+
+- Need to give the Supplier number, Order Type (M20), Request delivery date, click next. 
+
+- Here we can also change the buyer if needed. Click next. 
+
+- We will get the line entry page there we need to give the Item Number, Required Quantity and click on “Add”. The line will be added to the PO. To have multiple line we add multiple times with different item numbers and different quantities. 
+
+- After adding the line, we need to give the good receiving method (M30) click “Next” until the po is created and actions and “Close”. 
+
+- The purchase order is created, to check go to PPS200 and place the PO Number. 
+
+- The status of the PO will be “Ready to Print” (15). 
+
+## Confirmation of Purchase Order in M3: 
+
+- Open PPS250, enter the PO Number and select the PO line. 
+
+- Right click -> Related -> Confirmation. 
+
+- The line status will change to 35 (Purchase price and delivery date confirmed and approved). 
+
+
 # Advise
 
+## Advise a PO in M3: 
+
+- Open PPS260 give the PO number, the initial status of the line will be 35. 
+
+- Select the PO line, Right click -> Related -> Advise. The line status will change to 40 (Advised for shipment). 
+
+- Partial Advise: We can also do partial advise for a po line. While we are doing the advise we can reduce the Quantity to advise. 
+
+- And shows the remaining qty. 
+
+- Then we will get a pop up like “Order Line will be split”. Click next.  
+
+- The two lines status will be same i.e., 40 (Advised for shipment).
+ 
 ## Advise a PO Line
 
-To Advise PO lines, Select PO lines from the list of POs that are either in Printed or Confirmed status (Based on the settings made in the Magento configuration) and click on &#39;Advise&#39;
+-  To Advise PO lines, Select PO lines from the list of POs that are either in Printed or Confirmed status (Based on the settings made in the Magento configuration) and click on &#39;Advise&#39;
 
 <kbd>
 <img alt="advise-po-lines" src="../../images/usermanual/advise-po-lines.png"> 
@@ -113,6 +157,12 @@ _Note that by choosing the PO, all eligible lines of the PO gets advised._
 
 
 # Notify
+
+## Notify a PO in M3: 
+
+Open PPS270 give the PO Number, the line with advised status will be displayed. 
+
+Select the PO line, Right click -> Related -> Notify. The line status will change to 45 (Notified for transportation). 
 
 ## Notify a PO Line
 
