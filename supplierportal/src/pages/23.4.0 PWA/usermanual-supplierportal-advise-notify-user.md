@@ -6,9 +6,9 @@
 
 # Table of contents
 
-- [**Advise**](#advise)
-- [**Notify**](#notify)
-- [**Notify Transportation by Delivery Note number.**](#notify-transportation-by-delivery-note-number)
+- [Advise](#advise)
+- [Notify](#notify)
+- [Notify Transportation by Delivery Note number.](#notify-transportation-by-delivery-note-number)
 
 # **Advise**
 
