@@ -17,7 +17,7 @@
 - To Advise PO lines, Select PO lines from the list of POs that are either in Printed or Confirmed status (Based on the configuration in the Leanswift Settings in Magento) and click on 'Advise' button on the right side. 
 
 <kbd>
-<img alt="advise-po-lines" src="../../images/pwa/advise_notify/advise_pol_lines.png"> 
+<img alt="advise-po-lines" src="../../images/pwa/advise_notify/adive_pol_lines.png"> 
 </kbd>
 
 
@@ -157,7 +157,7 @@ _Note that by choosing the PO, all eligible lines of the PO get advised._ 
 </b>
 </div>
  
-#**Notify**
+# **Notify**
 
 **Notify a PO Line**  
 
