@@ -109,6 +109,8 @@ Once your registration is complete, you will receive a confirmation email and a 
 <img alt="metrics display" src="../../images/pwa/onboarding_user/AccountActivatedNotification.png"> 
 </kbd>
 
+
+
 <kbd>
 <img alt="metrics display" src="../../images/pwa/onboarding_user/AccontApproval.png"> 
 </kbd>
