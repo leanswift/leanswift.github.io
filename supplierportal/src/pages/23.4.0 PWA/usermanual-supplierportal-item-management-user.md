@@ -244,7 +244,7 @@ Items can be filtered using  **Supplier Item number, Supplier Item Name, Suppl
 **Failed:** When Item Creation/ Item Update request process failed in Infor M3. Supplier can edit and re-submit the item request. Verification Task will assign to Buyer for approval.
 
 
-<div align="left">
+<div align="right">
 <b>
  <a href="#toc">↥ Go to Top</a>
 </b>
