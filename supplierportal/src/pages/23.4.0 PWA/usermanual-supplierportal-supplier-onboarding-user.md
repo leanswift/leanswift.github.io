@@ -14,8 +14,6 @@ Supplier portal onboarding allows supplier creation from portal itself. New supp
 
 **Supplier Account Creation**
 
- `
-
 The supplier will receive an invitation email from Buyer, as shown below, click the **Create Supplier Account** link to create an account.
 
 <kbd>
@@ -112,6 +110,6 @@ Once your registration is complete, you will receive a confirmation email and a 
 </kbd>
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/onboarding_user/AccountApproval.png"> 
+<img alt="metrics display" src="../../images/pwa/onboarding_user/AccontApproval.png"> 
 </kbd>
 
