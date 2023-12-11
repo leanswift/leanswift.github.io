@@ -36,7 +36,7 @@ Users can also filter the invoices based on the above fields.
 
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/my_invoices/invoice_status.png"> 
+<img alt="metrics display" src="../../images/pwa/my_invoices/filter_invoice.png"> 
 </kbd>
 
 Invoices can be filtered based on the following status:
@@ -49,13 +49,17 @@ Invoices can be filtered based on the following status:
 
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/my_invoices/filter_invoice.png"> 
+<img alt="metrics display" src="../../images/pwa/my_invoices/invoice_status.png"> 
 </kbd>
 
 
 Total Amount and Total Outstanding Amount are displayed on the top of the invoice table.
 
 Download option downloads the list of available invoices or based on filtered invoice results.
+
+<kbd>
+<img alt="metrics display" src="../../images/pwa/my_invoices/invoice_download.png"> 
+</kbd>
 
 **Create Invoices in M3:**
 
@@ -69,7 +73,7 @@ Download option downloads the list of available invoices or based on filtered in
 - Actions -\> Close(F3).
 - The PO status will change to 85(Invoiced).
 
-**Partially Invoiced **
+**Partially Invoiced**
 
 - Once the goods receiving process is done the PO line status is changed to 75(Put away complete)
 - Go to APS100 -\> FAM 400 (step match 4), enter Supplier number, invoice number, invoice amount (right click PO-\>related-\>charges or Received/Not Invoiced), purchase order number, Authorizer, Currency.
