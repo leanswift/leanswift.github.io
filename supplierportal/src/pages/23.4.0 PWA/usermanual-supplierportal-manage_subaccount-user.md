@@ -2,7 +2,15 @@
 
 # **Version 23.4.0 - User Manual - Manage Sub-account – User**
 
-**Create new user**  
+<div id=toc></div>
+
+# Table of contents
+
+- [Create New User](#create-new-user)
+- [Edit User](#edit-user--)
+- [Delete User](#delete-user)
+
+# **Create New User**  
 
 - Click on "Create new" which is on top of the page to create a new Sub Account user.  
 - A Pop-up window is opened on the right side.
@@ -58,8 +66,13 @@
 <img alt="Subaccount Management" src="../../images/pwa/subaccounts_management/subaccount_after_login.png"> 
 </kbd>
 
+<div align="right">
+<b>
+<a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
-**Edit User:****  **
+# **Edit User**
 
 - Once the user is created, it can also be edited by clicking on the "Edit icon" option on the right side of the subaccount's user details.
 
@@ -80,7 +93,13 @@
 <img alt="Subaccount Management" src="../../images/pwa/subaccounts_management/edit_success_message.png"> 
 </kbd>
 
-**Delete User:**
+<div align="right">
+<b>
+<a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
+# **Delete User**
 
 - Created users can be deleted by clicking on the "Delete" option on the right-side of subaccount's details.
 
