@@ -49,12 +49,15 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 - Valid information must be provided for  **Purchase Price, Purchase Price Qty, Minimum Order Quantity, Order Multiple, Country of Origin, Supplier Stock Qty, Valid From and Valid To**  under Purchase information.
 
 <kbd>
-<img alt="Item_Management" src="../../images/pwa/item_management/CreateNewForm.png"> 
-</kbd>
+<img alt="Item_Management" src="../../images/pwa/item_management/CreateNewForm.png">  
+</kbd> 
+<br/>
 
 <kbd>
-<img alt="Item_Management" src="../../images/pwa/item_management/CreateNewForm1.png"> 
-</kbd>
+<img alt="Item_Management" src="../../images/pwa/item_management/CreateNewForm1.png">
+</kbd> 
+
+
 
 - Once the form is submitted, the supplier item is created successfully with success message as below. Initially, item creation request will be in  **'Submitted'**  status.
 
