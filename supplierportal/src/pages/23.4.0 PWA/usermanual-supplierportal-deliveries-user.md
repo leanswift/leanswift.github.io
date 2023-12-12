@@ -6,18 +6,18 @@ My Deliveries displays all the Delivery notes for Purchase Order (of order statu
 
 The Delivery head contains the following:
 
-1. Delivery Note Number
+1. Delivery Note# (Delivery Note Number)
 2. Delivery Date
-3. Invoice Matching Status
+3. Status
 
 The Delivery note lines contains the following,
 
-1. Receiving Number
-2. Supplier Order number
-3. PO Number
-4. PO Line Number
-5. PO Sub Line Number
-6. Item number
+1. Receiving# (Receiving Number)
+2. Supplier Order# (Supplier Order number)
+3. PO#
+4. PO Line#
+5. PO Line Sub# (Sub Line Number)
+6. Item#
 7. Item Description
 8. Quantity
 
