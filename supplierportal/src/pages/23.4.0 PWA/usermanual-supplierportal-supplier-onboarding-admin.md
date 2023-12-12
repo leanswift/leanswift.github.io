@@ -58,7 +58,7 @@ Associate User role as Buyer and save user.
 Login as Buyer user (who has only limited access) to Magento portal and invite supplier for onboarding.
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/onboarding_adminLogin.png"> 
+<img alt="metrics display" src="../../images/pwa/onboarding_admin/Login.png"> 
 </kbd>
 
 <div align="right">
