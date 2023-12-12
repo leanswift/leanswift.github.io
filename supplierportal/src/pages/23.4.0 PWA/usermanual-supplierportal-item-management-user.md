@@ -66,7 +66,6 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 </kbd>
 
 
-
 <kbd>
 <img alt="Item_Management" src="../../images/pwa/item_management/CreateNewItemStatus1.png"> 
 </kbd>
@@ -135,10 +134,12 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 <kbd>
 <img alt="Item_Management" src="../../images/pwa/item_management/ItemupdateErrorMessage.png"> 
 </kbd>
+<br/>
 
 <kbd>
 <img alt="Item_Management" src="../../images/pwa/item_management/SupplieritemUpdateForm1.png"> 
 </kbd>
+<br/>
 
 
 <kbd>
@@ -197,6 +198,7 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 <kbd>
 <img alt="Item_Management" src="../../images/pwa/item_management/Revisedstock.png"> 
 </kbd>
+<br/>
 
 
 <kbd>
