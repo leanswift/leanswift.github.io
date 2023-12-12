@@ -52,11 +52,8 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 <img alt="Item_Management" src="../../images/pwa/item_management/CreateNewForm.png"> 
 </kbd>
 
-
-
-
 <kbd>
-<img alt="Item_Management" src="../../images/pwa/item_management/CreateNewForm.png"> 
+<img alt="Item_Management" src="../../images/pwa/item_management/CreateNewForm1.png"> 
 </kbd>
 
 - Once the form is submitted, the supplier item is created successfully with success message as below. Initially, item creation request will be in  **'Submitted'**  status.
