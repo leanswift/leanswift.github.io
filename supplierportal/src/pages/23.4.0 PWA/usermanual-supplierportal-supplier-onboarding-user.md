@@ -2,17 +2,17 @@
 
 # **Version 23.4.0 - User Manual – Supplier Onboarding**
 
-# **Table of contents**
+# Table of contents
 
-  1. Supplier Onboarding
-  2. Supplier Account Creation
-  3. My Documents Task
+- [**Supplier Onboarding**](#supplier-onboarding)
+- [**Supplier Account Creation**](#supplier-account-creation)
+- [**My Documents Task**](#my-documents-task)
 
-**Supplier Onboarding**
+# **Supplier Onboarding**
 
 Supplier portal onboarding allows supplier creation from portal itself. New supplier account is created using the invite sent by buyer to supplier email account.
 
-**Supplier Account Creation**
+# **Supplier Account Creation**
 
 The supplier will receive an invitation email from Buyer, as shown below, click the **Create Supplier Account** link to create an account.
 
@@ -63,7 +63,7 @@ Clicking on Submit button brings a confirm popup and click 'OK' button to start 
 <img alt="metrics display" src="../../images/pwa/onboarding_user/SuccessMessage2.png"> 
 </kbd>
 
-**My Documents Task**
+# **My Documents Task**
 
 Supplier can view **My Documents** (next to 'My Information') after submitting the My Information form.
 
