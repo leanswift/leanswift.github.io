@@ -37,7 +37,7 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 
 <kbd>
 <p align="center">
-<img width="460" height="300" src="http://www.fillmurray.com/460/300">
+<img width="460" height="300" src="../../images/pwa/item_management/Menus.png/460/300">
 <img alt="Item_Management" src="../../images/pwa/item_management/Menus.png"> 
 </p>
 </kbd>
