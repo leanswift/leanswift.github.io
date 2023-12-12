@@ -97,7 +97,7 @@ Enter new **Supplier First Name** , **Supplier Last Name** and **Supplier Email*
 Click **Save and Invite**. Invite is sent to the supplier email and supplier list is created with status **Invitation sent successfully**.
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/onboarding_admin/InviationSent.png"> 
+<img alt="metrics display" src="../../images/pwa/onboarding_admin/InvitationSent.png"> 
 </kbd>
 
 Supplier Invite list can be searched using different filters. When portal fails to send invite mail to customer then status changes to **Invitation sent failed**.
@@ -111,7 +111,7 @@ Supplier Invite list can be searched using different filters. When portal fails 
 Supplier will receive invite mail to create account, once supplier set password and logged in then status will change to **Customer Created Successfully** in supplier invite list table.
 
 <kbd>
-<img alt="metrics display" src="../../images/pwa/onboarding_admin/CoustmerCreated.png"> 
+<img alt="metrics display" src="../../images/pwa/onboarding_admin/CustomerCreated.png"> 
 </kbd>
 
 <div align="right">
