@@ -9,7 +9,7 @@
 - Fill in the details like "Email ID", "First Name", "Last Name". Choose the necessary permissions and click on "Create". 
 
 <kbd>
-<img alt="Subaccount Management" src="../../images/pwa/subaccounts-management/add_new_subaccount.png"> 
+<img alt="Subaccount Management" src="../../images/pwa/subaccounts_management/add_new_subaccount.png"> 
 </kbd>
 
 
@@ -17,13 +17,13 @@
 - By Default, newly added users get added in active status. Admin can switch the toggle to make the user Active/Inactive. 
 
 <kbd>
-<img alt="Subaccount Management" src="../../images/pwa/subaccounts-management/active_status.png"> 
+<img alt="Subaccount Management" src="../../images/pwa/subaccounts_management/active_status.png"> 
 </kbd>
 
 - Success messaged is displayed, once the subaccount user is created successfully.  
 
 <kbd>
-<img alt="Subaccount Management" src="../../images/pwa/subaccounts-management/subaccount_success_message.png"> 
+<img alt="Subaccount Management" src="../../images/pwa/subaccounts_management/subaccount_success_message.png"> 
 </kbd>
 
 - The newly created users appear in the table with all the details such as "Email ID", "First name", "Last Name", "Status", "Permissions".  
@@ -31,7 +31,7 @@
  
 
 <kbd>
-<img alt="Subaccount Management" src="../../images/pwa/subaccounts-management/new_subaccount.png"> 
+<img alt="Subaccount Management" src="../../images/pwa/subaccounts_management/new_subaccount.png"> 
 </kbd>
 
 **Note:** _Newly created Sub-account by default will have permission to view "My Account" and "My Purchase Order" details. _
