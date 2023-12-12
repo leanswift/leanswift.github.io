@@ -6,12 +6,12 @@
 
 # Table of contents
 
-- [**Supplier Onboarding**](#supplier-onboarding)
-- [**Magento Admin User Role**](#magento-admin-user-role)
-- [**Supplier Invite**](#supplier-invite)
-- [**Supplier Onboarding Configuration**](#supplier-onboarding-configuration)
-- [**Onboarding Task**](#onboarding-task)
-- [**My Documents Task**](#my-documents-task)
+- [Supplier Onboarding](#supplier-onboarding)
+- [Magento Admin User Role](#magento-admin-user-role)
+- [Supplier Invite](#supplier-invite)
+- [Supplier Onboarding Configuration](#supplier-onboarding-configuration)
+- [Onboarding Task](#onboarding-task)
+- [My Documents Task](#my-documents-task)
 
 
 # **Supplier Onboarding**
