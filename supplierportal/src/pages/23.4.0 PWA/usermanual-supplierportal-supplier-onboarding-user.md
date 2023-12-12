@@ -4,9 +4,9 @@
 
 # Table of contents
 
-- [**Supplier Onboarding**](#supplier-onboarding)
-- [**Supplier Account Creation**](#supplier-account-creation)
-- [**My Documents Task**](#my-documents-task)
+- [Supplier Onboarding](#supplier-onboarding)
+- [Supplier Account Creation](#supplier-account-creation)
+- [My Documents Task](#my-documents-task)
 
 # **Supplier Onboarding**
 
@@ -108,7 +108,7 @@ Once your registration is complete, you will receive a confirmation email and a 
 <kbd>
 <img alt="metrics display" src="../../images/pwa/onboarding_user/AccountActivatedNotification.png"> 
 </kbd>
-
+<br/>
 
 
 <kbd>
