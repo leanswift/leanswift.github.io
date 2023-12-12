@@ -19,9 +19,8 @@
     - [Realtime API call for notify PO:](#realtime-api-call-for-notify-po)
     - [Cron setting to send notify PO requests to M3:](#cron-setting-to-send-notify-po-requests-to-m3)
 - [Notify Transportation By Delivery Note number](#notify-transportation-by-delivery-note-number)
-    - [Enable](#enable-)
+    - [Enable](#enable)
     - [Realtime API call for notify PO:](#realtime-api-call-for-notify-po)
-
 
 
 # Advise
