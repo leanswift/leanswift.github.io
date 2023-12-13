@@ -1,54 +1,22 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 20.2.0 - User Manual - Admin User
+# Version 23.4.0 - User Manual - Admin User
 
 To view the user manual for Portal Users click [here](usermanual-supplierportal-user.md).
 
-
 # Table of contents
 
-- [Version 20.2.0 - User Manual - Admin User](#version-2010---user-manual---admin-user)
-- [Table of contents](#table-of-contents)
 - [Overview](#overview)
   - [Organization of the Manual](#organization-of-the-manual)
   - [Architecture](#architecture)
   - [Features](#features)
-    - [Account](#account)
-    - [Purchase Orders](#purchase-orders)
-    - [Purchase Proposals/Forecasts](#purchase-proposalsforecasts)
-    - [Performance Metrics](#performance-metrics)
   - [Point of Contact](#point-of-contact)
 - [User Guide for Portal Admin](#user-guide-for-portal-admin)
   - [Log in](#log-in)
   - [Configuration](#configuration)
-    - [Menus](#menus)
-    - [eConnect-base Configuration](#econnect-base-configuration)
-      - [Service Configuration](#service-configuration)
-      - [Basic Data Configuration](#basic-data-configuration)
-      - [Authentication](#authentication)
-    - [Supplier Portal Settings](#supplier-portal-settings)
-      - [General Configuration](#general-configuration)
-      - [ION WorkFlow Configuration](#ion-workflow-configuration)
-      - [Metrics Display](#metrics-display)
-      - [On-Time Delivery KPI](#on-time-delivery-kpi)
-      - [Email templates](#email-templates)
-      - [Cron](#cron)
-    - [Design Settings](#design-settings)
-      - [General](#general)
-      - [Frontend Color Codes](#frontend-color-codes)
-      - [Logo Image size](#logo-image-size)
-      - [Status Mapping](#status-mapping)
-        - [PO Status Mapping](#po-status-mapping)
-        - [Forecast Status Mapping](#forecast-status-mapping)
-      - [Filter and Search](#filter-and-search)
-        - [Purchaseorder Filter Mapping](#purchaseorder-filter-mapping)
-        - [Forecast Filter Mapping](#forecast-filter-mapping)
-    - [Supplier Invite](#supplier-invite)
-    - [Exit System](#exit-system)
   - [Additional Functionality](#additional-functionality)
-    - [IDM](#idm)
   - [ION Workflows](#ion-workflows)
-    
+
 # Overview
 
 LeanSwift Supplier Portal is a supplier self-service web portal that enables efficient online communication with vendors. It is seamlessly integrated with Infor M3 Cloudsuite via ION. Supplier Portal helps automate the entire purchase-to-pay process for the customer.
