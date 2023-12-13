@@ -614,24 +614,26 @@ Log out from Magento admin using the link at the top right human Icon and sign o
 
 ### IDM
 
-Uploading documents into IDM against Purchase Orders requires LeanSwift IDM Magento Extension. The LeanSwift IDM extension for Infor M3 provides the ability to upload, download (multiple files for ION) and search documents in IDM. Also, when the IDM extension is installed along with Supplier Portal, it provides the ability to download/ view  IDM documents from supplier portal **My Purchase Order** page.
+- Uploading documents into IDM against Purchase Orders requires LeanSwift IDM Magento Extension. 
+- The LeanSwift IDM extension for Infor M3 provides the ability to upload, download (multiple files for ION) and search documents in IDM. 
+- Also, when the IDM extension is installed along with Supplier Portal, it provides the ability to download/ view  IDM documents from supplier portal **My Purchase Order** page.
 
 **Configuration**
 
-The configurable options available for IDM add-on can be separated as three parts – *Upload*, *Download* and *Search*.
-Navigate to Leanswift -> IDM -> Settings.
+- The configurable options available for IDM add-on can be separated as three parts – *Upload*, *Download* and *Search*.
+- Navigate to Leanswift -> IDM -> Settings.
 
 **Upload Configuration**
 
-- Enable Upload - If the option is set to “YES” the supplier can upload the files. If the enable Upload option is set to “NO” the supplier is not allowed upload the files.
+- **Enable Upload** - If the option is set to “YES” the supplier can upload the files. If the enable Upload option is set to “NO” the supplier is not allowed upload the files.
 
-- Allowed File Types – Enter the file extensions that are allowed to be uploaded to IDM. Example: docx, png, jpg, pdf etc. This field is not mandatory. They can be multiple file extensions can be added by separating them by comma.
+- **Allowed File Types** – Enter the file extensions that are allowed to be uploaded to IDM. Example: docx, png, jpg, pdf etc. This field is not mandatory. They can be multiple file extensions can be added by separating them by comma.
 
-- Cron / Real-time – If the option is chosen as real time the idm documents will upload based on real time. If cron is chosen, cron expression should be provided to upload the files on a periodic basis.
+- **Cron / Real-time** – If the option is chosen as real time the idm documents will upload based on real time. If cron is chosen, cron expression should be provided to upload the files on a periodic basis.
 
-- Configurable Options to Upload – Select the Document Type from the drop-down list, required Attribute Type(s), Used In[Should be         unique to identify the configuration]. Can add as many options as necessary.
+- **Configurable Options to Upload** – Select the Document Type from the drop-down list, required Attribute Type(s), Used In[Should be         unique to identify the configuration]. Can add as many options as necessary.
 
-- Clears the uploaded files to IDM – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/upload/ folder periodically based on cron expression. It’s good practice to configure suitable cron expressions here to manage disk space. But we should not configure upload through cron and clear the uploaded files to IDM at same time else it will conflict and not work.
+- **Clears the uploaded files to IDM** – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/upload/ folder periodically based on cron expression. It’s good practice to configure suitable cron expressions here to manage disk space. But we should not configure upload through cron and clear the uploaded files to IDM at same time else it will conflict and not work.
 
 <kbd>
 <img alt="Exit system" src="../../images/usermanual/idm-backend-upload.png">
@@ -640,13 +642,13 @@ Navigate to Leanswift -> IDM -> Settings.
 
 **Download Configuration**
 
-- Enable Download - If the option is set to “YES” the supplier can download the files. If the enable Upload option is set to “NO” the supplier is not allowed download the files.
+- **Enable Download** - If the option is set to “YES” the supplier can download the files. If the enable Upload option is set to “NO” the supplier is not allowed download the files.
 
-- Cron / Real-time – Documents will be downloaded from IDM based on this option. If cron is chosen, cron expression should be given to     download the files from IDM on a periodic basis.
+- **Cron / Real-time** – Documents will be downloaded from IDM based on this option. If cron is chosen, cron expression should be given to     download the files from IDM on a periodic basis.
 
-- Configurable Options to Download – Select the Document Type, required Attribute Type, Operation, Used In [Should be unique to identify   the configuration]. Can add as many options as necessary.
+- **Configurable Options to Download** – Select the Document Type, required Attribute Type, Operation, Used In [Should be unique to identify   the configuration]. Can add as many options as necessary.
 
-- Clears the downloaded files to IDM – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/download/ folder periodically based on cron expression. It’s good practice to configure suitable cron expression here to manage disk space. But we should not configure download through cron and clear the downloaded files to IDM at same time else it will conflict and not work.
+- **Clears the downloaded files to IDM** – Clears the documents stored under Magento_Root/pub/media/leanswift/idm/download/ folder periodically based on cron expression. It’s good practice to configure suitable cron expression here to manage disk space. But we should not configure download through cron and clear the downloaded files to IDM at same time else it will conflict and not work.
 
 <kbd>
 <img alt="Exit system" src="../../images/usermanual/idm-backend-download.png">
@@ -654,9 +656,9 @@ Navigate to Leanswift -> IDM -> Settings.
 
 **Search Configuration**
 
-- Enable Search - Option can be set to Yes or No
+- **Enable Search** - Option can be set to Yes or No
 
-- Configurable Options to Search – Select the Document Type, required Attribute Type, Operation, Offset and Limit. Here we can multiple functions as per our requirement.
+- **Configurable Options to Search** – Select the Document Type, required Attribute Type, Operation, Offset and Limit. Here we can multiple functions as per our requirement.
 
 <kbd>
 <img alt="Exit system" src="../../images/usermanual/idm-backend-search.png">
