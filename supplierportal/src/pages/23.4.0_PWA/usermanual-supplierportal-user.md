@@ -2,7 +2,49 @@
 
 # **Version 23.4.0 - User Manual - Supplier User**
 
+<div id=toc></div>
+
 # **Table of contents**
+
+- [System Overview](#system-overview)
+  - [Organization of the Manual](#organization-of-the-manual)
+  - [Architecture](#architecture)
+  - [Features](#features)
+  - [User Interface](#user-interface)
+  - [Validated Versions](#validated-versions)
+  - [Point of Contact](#point-of-contact)
+- [User Guide for Suppliers](#user-guide-for-suppliers)
+  - [Registration](#registration)
+  - [Log in](#log-in)
+  - [Forgot Password](#forgot-password)
+  - [My Settings](#my-settings)
+  - [My Account](#my-account)
+- [My Purchase Orders](#my-purchase-orders)
+  - [Pagination Scrolling](#pagination-scrolling)
+  - [Sort](#sort)
+  - [Search](#search)
+  - [Filter](#filter)
+  - [Filter on Status](#filter-on-status)
+  - [Download as CSV](#download-as-csv)
+  - [Confirm Lines in PO](#confirm-lines-in-po)
+  - [Confirm with changes:](#confirm-with-changes-)
+  - [Confirm without changes:](#confirm-without-changes)
+    - [Confirm All Lines](#confirm-all-lines)
+    - [Confirm Multiple POs](#confirm-multiple-pos)
+    - [Reconfirm PO](#reconfirm-po)
+    - [Upload to IDM](#upload-to-idm)
+- [My Forecasts](#my-forecasts)
+  - [Pagination Scrolling](#pagination-scrolling)
+  - [Sort](#sort)
+  - [Search](#search)
+  - [Filter](#filter)
+  - [Download as CSV](#download-as-csv)
+- [My Performance Metrics](#my-performance-metrics)
+  - [On-Time Delivery%](#on-time-delivery-)
+  - [Quality - Rejected Inventory](#quality---rejected-inventory)
+  - [Purchase Price Variance](#purchase-price-variance)
+- [Bell and Email Notifications](#bell-and-email-notifications)
+- [Log out](#log-out)
 
 
 # **System Overview**
@@ -13,7 +55,7 @@ LeanSwift Supplier Portal is a supplier self-service web portal that enables eff
 
 This manual describes the frontend look and feel of LeanSwift Supplier Portal for Infor M3 and is meant for the Portal user (Supplier Representative).
 
-To view the user manual for Portal admin, [click here](https://github.com/leanswift/leanswift.github.io/blob/dev/supplierportal/src/pages/23.4.0PWA/usermanual-supplierportal-admin.md).
+To view the user manual for Portal admin, [click here](https://github.com/leanswift/leanswift.github.io/blob/dev/supplierportal/src/pages/23.4.0_PWA/usermanual-supplierportal-admin.md).
 
 ## **Architecture**
 
@@ -68,7 +110,7 @@ This document and the software it describe are provided by LeanSwift Solutions I
 - The Registration Page is used to register the user as a supplier, and the supplier portal registration page is displayed as shown below
 
 <kbd>
-<img alt="Registration Page without econnect" src="../../images/pwa/user/registationpage-without-econnect.png">
+<img alt="Registration Page without econnect" src="../../images/pwa/user/registationpage_without_econnect.png">
 </kbd>
 
 **Prerequisites to register as supplier:**
