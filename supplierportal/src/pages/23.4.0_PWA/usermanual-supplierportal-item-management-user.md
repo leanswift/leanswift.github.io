@@ -28,11 +28,8 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 
 
 1. Create New
-
 2. Item Update
-
 3. Stock Update
-
 4. Refresh
 
 <kbd>
@@ -73,20 +70,13 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
 - Verification Task will be assigned to Buyer with all Item Details submitted by Supplier for approval.
 - Buyer can approve, connect or reject the approval request.
 - If approved, new item will be created in M3 and item will be connected to the supplier in PPS040.
-
-- The status of the supplier item will change to  **'Created'**.
-
+  - The status of the supplier item will change to  **'Created'**.
 - If the item is rejected, item will not be created in M3.
-
-- The status of the supplier item will change to  **'Rejected'**.
-
+  - The status of the supplier item will change to  **'Rejected'**.
 - If Buyer Connects the existing M3 item with supplier,
-
-- The status changes to  **'Connected'**.
-
+  - The status changes to  **'Connected'**.
 - If Item creation process fails in M3,
-
-- The status changes to  **'Failed'**.
+  - The status changes to  **'Failed'**.
 
 <kbd>
 <img alt="Item_Management" src="../../images/pwa/item_management/CreatedItem.png"> 
@@ -223,6 +213,7 @@ To enable My Items feature in Supplier Portal, Item Management add on should be 
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
+<br/>
 
 
 <kbd>

@@ -6,9 +6,9 @@
 
 # Table of contents
 
-- [**Create New User**](#create-new-user)
-- [**Edit User**](#edit-user)
-- [**Delete User**](#delete-user)
+- [Create New User](#create-new-user)
+- [Edit User](#edit-user)
+- [Delete User](#delete-user)
 
 # **Create New User**  
 

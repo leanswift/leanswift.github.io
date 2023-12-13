@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# **Version 23.4.0 - Deliveries User Manual – User**
+# **Version 23.4.0 - User Manual – Deliveries - User**
 
 My Deliveries displays all the Delivery notes for Purchase Order (of order status \> 50)
 
@@ -43,17 +43,17 @@ There is a 'refresh' option that reloads the page to update the new records.
 <img alt="metrics display" src="../../images/pwa/my_deliveries/deliveries_refresh.png"> 
 </kbd>
 
-The number of 'FULLY MATCHED' and 'PARTIALLY MATCHED' Purchase orders are shown on the top of the deliveries table.
+The number of '**FULLY MATCHED**' and '**PARTIALLY MATCHED**' Purchase orders are shown on the top of the deliveries table.
 
-FULLY MATCHED – All the PO lines associated with that delivery note are Invoiced
+**FULLY MATCHED** – All the PO lines associated with that delivery note are Invoiced
 
-PARTIALLY MATCHED-All the PO lines associated with that delivery note is not invoiced (even if one PO line is not invoiced)
+**PARTIALLY MATCHED** - All the PO lines associated with that delivery note is not invoiced (even if one PO line is not invoiced)
 
 <kbd>
 <img alt="metrics display" src="../../images/pwa/my_deliveries/deliveries_status.png"> 
 </kbd>
 
-_Note:_
+_**Note**:_
 
 - _When Delivery date is different, but the delivery number is the same, a new record with the same delivery number and a different delivery date is added._
 - _When a Delivery name and Delivery date is the same, all the lines advised with the delivery note are added as lines and when we try to advise a line with different planned pick update, the following error message is shown 'Shipment Advise is not allowed. Delivery note XXX is already advised with shipment date XXYYMM'._
@@ -66,7 +66,6 @@ _Note:_
 - **Direct put away** : Go to PPS300 give the PO number and change the sorting order by open lines, Right click -\> Change -\> Enter Delivery Note no -\> Submit.
 - The status of the PO will change to 75 (Put-away completed).
 - **One step put away** : For one step put away the goods receiving method must be selected as M10(Goods receipt/ Quality inspect/put away)
-
     - Go to PPS200 and create a Purchase order.
     - The PO status must be 45(Notify)
     - Go to PPS300 enter the PO number and right click-\> change and enter the delivery note number and click next.

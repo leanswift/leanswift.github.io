@@ -55,7 +55,7 @@ LeanSwift Supplier Portal is a supplier self-service web portal that enables eff
 
 This manual describes the frontend look and feel of LeanSwift Supplier Portal for Infor M3 and is meant for the Portal user (Supplier Representative).
 
-To view the user manual for Portal admin, [click here](https://github.com/leanswift/leanswift.github.io/blob/SP-2178/supplierportal/src/pages/23.4.0_PWA/usermanual-supplierportal-user.md#toc).
+To view the user manual for Portal admin, [click here](https://github.com/leanswift/leanswift.github.io/blob/SP-2178/supplierportal/src/pages/23.4.0_PWA/usermanual-supplierportal-admin.md#toc).
 
 ## **Architecture**
 
@@ -128,13 +128,12 @@ _Note: Already registered supplier cannot be registered again._
 
 - Go to Home page and select 'Create an Account.'
 - Enter all the mandatory fields and click on "Create Account."
-
 - Once the supplier registration is completed and request is sent to buyer for approval.
 - The user will be notified with the following message on the homepage: "Thank you for registering with us. Your request has been sent for review. It may take a few hours or days to receive a response."
 
 <kbd><img alt="After Supplier Registration" src="../../images/pwa/user/after_supplier_registration.png"></kbd>
 
-_ **Note** __: Once registration is complete, an approval request is sent to the buyer. The supplier can only log in after the buyer has approved the registration request. The supplier will be notified via email regarding the approval or decline of the registration to their registered email ID._
+_**Note**: Once registration is complete, an approval request is sent to the buyer. The supplier can only log in after the buyer has approved the registration request. The supplier will be notified via email regarding the approval or decline of the registration to their registered email ID._
 
 <div align="right">
 <b>
@@ -165,7 +164,6 @@ _ **Note** __: Once registration is complete, an approval request is sent to the
 ## **Forgot Password**
 
 - To change the password or supplier forgot the password, click on  **forgot password**  link and enter the  **username**  and  **captcha** and click on **Reset My Password**
-
 - An email will be sent to the registered mail id to reset the password.
 
 <kbd><img alt="forgot_password" src="../../images/pwa/user/forgot_password.png"></kbd>
@@ -176,7 +174,7 @@ _ **Note** __: Once registration is complete, an approval request is sent to the
 
 Click **Set a New Password** enter the **New Password**, **Confirm Password** and then click **Set a New Password.**
 
-<kbd><img alt="reset_password_success-message" src="../../images/pwa/user/reset_password_success-message.png"></kbd>
+<kbd><img alt="forgot_setnewpassword" src="../../images/pwa/user/forgot_setnewpassword.png"></kbd>
 
 Next page will be redirected to supplier user portal with status as **Your password has been updated. You may now log into your account.** Enter your supplier email address and password to **Sign In.**
 
@@ -376,7 +374,7 @@ To Confirm a PO line, select a single PO line or multiple lines and click on the
 
 - Once the Confirm button is clicked for reconfirmation, the process indicator changes to 'Request is Processing' or 'Confirmation awaiting approval' based on configuration.
 
-<kbd><img alt="reconfirm_with_approval_disabled" src="../../images/pwa/user/reconfirm_with_approval_disabled.png"></kbd>
+<kbd><img alt="reconfirm_with_approval_disabled" src="../../images/pwa/user/reconfirm_with_aprroval_disabled.png"></kbd>
 
 - Once re-confirmation is done the process indicator changes to 'Confirmed without changes' (if 'Activate approval process for Confirm PO' is set to No') or 'Confirmed with changes' (if 'Activate approval process for Confirm PO' is set to Yes')
 
@@ -437,7 +435,7 @@ It provides a simple text search functionality and can be used to search at orde
 
 ## **Filter**
 
-Based on admin configuration PO's can be filtered using _Equals_, _Less Than_, _Greater Than_ _Contains_, _Starts With_, _Ends With_ operands_._
+Based on admin configuration PO's can be filtered using _Equals_, _Less Than_, _Greater Than_ _Contains_, _Starts With_, _Ends With_ operands.
 
 <kbd><img alt="forecasts_filters" src="../../images/pwa/user/forecasts_filters.png"></kbd>
 
@@ -468,9 +466,7 @@ This metric records the percentage of inbound deliveries received on time, that 
 Y-Axis Date Field Criteria should be configurable in Admin 
 
 1.Receipt Date 
-
-2.Confirmed Date  
-
+2.Confirmed Date
 3.Planning Date 
 
 If planned date is selected, but planned date is not available for a received PO, then transaction/receipt date should be used for the calculation.  

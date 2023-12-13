@@ -12,20 +12,13 @@ My Invoices Displays list of Invoices associated to the supplier
 
 The Invoice page has the following details:
 
-1. Invoice number: Invoice number given by the buyer in M3.
-
-2. Invoice Date: Date of the invoice.
-
-3. Invoice amount: The total amount of the invoice.
-
-4. Due date: The due date to pay the invoice.
-
-5. Currency: Type of the currency.
-
-6. Outstanding amount: Remaining amount to be paid.
-
-7. Status: Status of the invoice (Paid or Open).
-
+1. **Invoice number**: Invoice number given by the buyer in M3.
+2. **Invoice Date**: Date of the invoice.
+3. **Invoice amount**: The total amount of the invoice.
+4. **Due date**: The due date to pay the invoice.
+5. **Currency**: Type of the currency.
+6. **Outstanding amount**: Remaining amount to be paid.
+7. **Status**: Status of the invoice (Paid or Open).
 
 <kbd>
 <img alt="metrics display" src="../../images/pwa/my_invoices/invoice.png"> 
@@ -42,9 +35,7 @@ Users can also filter the invoices based on the above fields.
 Invoices can be filtered based on the following status:
 
 1. All: Combination of Open and Paid Invoices
-
 2. Open: Invoices which are not yet paid and partially paid
-
 3. Paid: Invoices which are fully paid.
 
 
@@ -64,12 +55,11 @@ Download option downloads the list of available invoices or based on filtered in
 **Create Invoices in M3:**
 
 - Once the goods receiving process is done the PO line status is changed to 75(Put away complete)
-
 - Go to APS100 -\> FAM 400 (step match 4), enter Supplier number, invoice number, invoice amount (right click PO-\>related-\>charges or Received/Not Invoiced), purchase order number, Authorizer, Currency.
-- Go to APS351 (Received good lines) -\>select po number (ctrl1)-\>create inv lines (act-f14)
-- APS360 -\> PO matching -\>action-\>approve all
-- Actions -\> Check invoice f8
-- Actions -\> Create acct entries f11
+- Go to APS351 (Received good lines) -\>select po number (ctrl1)-\>create inv lines (act-f14).
+- APS360 -\> PO matching -\>action-\>approve all.
+- Actions -\> Check invoice f8.
+- Actions -\> Create acct entries f11.
 - Actions -\> Close(F3).
 - The PO status will change to 85(Invoiced).
 
