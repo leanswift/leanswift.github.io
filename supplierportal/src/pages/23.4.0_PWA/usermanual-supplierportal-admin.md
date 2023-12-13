@@ -229,7 +229,7 @@ When an option set to "Yes", Changes made in Purchase order will push to M3 for 
 
 Provide workflow name for PO confirmation.
 
-> This will be shown when activate approval process for confirm PO is set to true
+This will be shown when activate approval process for confirm PO is set to true
 
 <kbd>
 <img alt="Approval process Workflow Configuration" src="../../images/usermanual/supplier-settings/po-confirmation-with-workflow.png">
@@ -251,7 +251,7 @@ The section provides control the Supplier registration approval from system or M
 
 - Provide workflow name for Supplier registration will trigger an Name of ION Workflow created for the portal approval process.
 
-> This will be shown when Enable Register Approval set to “YES”.
+This will be shown when Enable Register Approval set to “YES”.
 
 **Request to be approved by**
 
@@ -267,7 +267,7 @@ Provide an option to select request approver.
 
 To view the groups, click on Profile icon->User Management->Users->Manage->Groups.
 
-> This will be shown when Enable Register Approval set to true
+This will be shown when Enable Register Approval set to true
   
 <kbd>
 <img alt="Approval process Workflow Configuration" src="../../images/usermanual/supplier-settings/workflow-registration.png">
@@ -291,9 +291,7 @@ The section contains configuration for list of different metrics to display ot n
 - If it set to “YES” it will display the on-time delivery to the Supplier.
 - If it is set to “NO” the on-time delivery will be disabled.
 
->This metric records the percentage of inbound deliveries received on time, that is Requested Delivery Date Vs
-> Actual
- Delivery Date.
+This metric records the percentage of inbound deliveries received on time, that is Requested Delivery Date Vs Actual Delivery Date.
  
  
 **Quality: Rejected Inventory**
@@ -301,21 +299,18 @@ The section contains configuration for list of different metrics to display ot n
 - If it set to “YES” it will display Quality: Rejected Inventory to the supplier.
 - If it is set to “NO” the Quality: Rejected Inventory will be disabled.
 
->This metric records the total number of rejected supplies in a given period of time.
+This metric records the total number of rejected supplies in a given period of time.
 
 **Purchase Price Variance**
 
 - If it set to “YES” it will display Purchase Price Variance to the supplier.
 - If it is set to “NO” the Purchase Price Variance will be disabled.
 
-> This metric records the difference between the actual price paid to buy an item and its standard price as confirmed
- by the supplier, multiplied by the actual number of units purchased (Confirmed Quantity), i.e Confirmed Price Vs
-  Invoiced Price	
+This metric records the difference between the actual price paid to buy an item and its standard price as confirmed by the supplier, multiplied by the actual number of units purchased (Confirmed Quantity), i.e Confirmed Price Vs Invoiced Price	
 
 <kbd>
 <img alt="metrics display" src="../../images/usermanual/supplier-settings/metrics.png">
 </kbd>
-
 <br/>
 
 
@@ -344,7 +339,6 @@ Provide an option to select a parameter, Based on selection the graph will be pl
 <kbd>
 <img alt="on-time delivery" src="../../images/usermanual/supplier-settings/ontime-delivery.png">
 </kbd>
-
 <br/>
 
 <div align="right">
@@ -359,8 +353,8 @@ Provide an option to select a parameter, Based on selection the graph will be pl
  templates. When a new email template is created it can be changed over here. 
 - Navigate to Leanswift -> Supplier portal ->Settings -> switch to Main website ->Email Templates 
 - Email templates have two different templates: 
-      - Header Template: It has header email template (Default) and Supplier Portal PWA Invite mail. Based on the supplier requirement they can configure.
-      - Footer Template: It has Footer email template (Default)  and Supplier Portal PWA Invite mail. Based on the supplier requirement they can configure.
+  - **Header Template**: It has header email template (Default) and Supplier Portal PWA Invite mail. Based on the supplier requirement they can configure.
+  - **Footer Template**: It has Footer email template (Default)  and Supplier Portal PWA Invite mail. Based on the supplier requirement they can configure.
 
 
 <kbd>
@@ -420,7 +414,7 @@ The section contains information to be basic configuration for company.
 
 Provide the company logo by choosing the file from your local.
 
-**Company Logo**
+**Product Logo**
 
 Provide the product logo by choosing the file from your local.
 
@@ -437,14 +431,14 @@ Provide the Favicon for the website by choosing the file from your local.
 When an option selected as &quot;Yes&quot; Supplier portal homepage is shown.When
  it is set to &quot;No&quot; default homepage configured to website will be displayed.
  
- > The option wil be enabled only when LeanSwift Econnect Module is installed 
+The option wil be enabled only when LeanSwift Econnect Module is installed 
 
 **Show document upload option** 
 
 When an option selected as &quot;Yes&quot; upload document in
  Purchase order page will be displayed. When set to &quot;No&quot; upload document is disabled.
 
-> The option wil be enabled only when LeanSwift IDM Module is installed
+The option wil be enabled only when LeanSwift IDM Module is installed
 
 <kbd>
 <img alt="General Configuration" src="../../images/usermanual/supplier-design/general.png">
@@ -476,7 +470,7 @@ When an option selected as &quot;Yes&quot; upload document in
 |Notify Status BG color	|Color code used for Notify purchase order line background color|
 | Waiting Status BG color  | Waiting purchase order line BG color. |
 
- > BG  -  Background color
+BG  -  Background color
 
 <kbd>
     <img alt="Frontend color code" src="../../images/usermanual/supplier-design/frontend-color.png">
@@ -533,7 +527,10 @@ The section contains the status code ,label and color code mapping for forecast 
 
 <br/>
 
-<p>Forecast M3 status shown below</p>
+
+Forecast M3 status shown below
+
+
 <kbd>
 <img alt="Forecast order M3" src="../../images/usermanual/supplier-design/forecast-m3.png">
 </kbd>
@@ -559,7 +556,6 @@ Inbuild filter operations are
 - Contains
 - Starts with
 - Ends with
-
 
 **Filter types** 
 
@@ -597,7 +593,7 @@ The section contains the filter limit, filter label mapping for the filter attri
 
 ### Supplier Invite
 
-To view the user manual for Supplier Onboarding click [here](https://github.com/leanswift/leanswift.github.io/blob/SP-1272/supplierportal/src/pages/22.1.0/usermanual-supplierportal-supplier-onboarding.md).
+To view the user manual for Supplier Onboarding click [here](https://github.com/leanswift/leanswift.github.io/blob/SP-2178/supplierportal/src/pages/23.4.0_PWA/usermanual-supplierportal-supplier-onboarding-admin.md#supplier-invite).
 
 ### Exit System
 
