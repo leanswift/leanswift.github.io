@@ -139,9 +139,9 @@ Attributes Mappings can be added and removed.
 </kbd>
 
 
-**Item Creation Workflow:** Name of the ION Workflow should be configured for New Item Creation process. This workflow is triggered when ‘Create New’ form is submitted. 
+**Item Creation Workflow**: Based on the workflow the item creation process will be happen. When item created Supplier_Portal_Item_Creation workflow will be triggered. Buyer can Approve or Reject or connect the item to exiting M3 item. 
 
-**Item Update Workflow:** Name of ION Workflow should be configured for Item Update process. This workflow is triggered when existing item update form is submitted.
+**Item Update Workflow**: Based on the workflow the item update will be happen. When any item is updated by the supplier then Supplier_Portal_Supplier_Connect_Item_Updation workflow will be triggered. The buyer can Approve or Reject.  
 
 
 <div align="right">
@@ -153,9 +153,9 @@ Attributes Mappings can be added and removed.
 
 ## Workflow Distribution
 
-**User Name:** Only one M3 UserName must be configured, and this field is mandatory. Verification Task is assigned to the configured username for approval when item creation or update request is submitted.
+**User Name**: The workflow task will be sent to the configured M3 User Name. 
 
-**User Group:** M3 User Group must be configured, and this field is optional. Verification Task is sent to all the users in the group configured for approval when item creation or update request is submitted.
+**User Group**: The workflow task will be sent to the configured M3 User Group. 
 
 
 <div align="right">
@@ -175,30 +175,30 @@ Fetch Configuration will fetch the configurations from M3.
 
 Export MI is used to fetch the list for Item Type, Additional Attribute Mapping, Quality Class, and Country of Origin (Create New form) from M3.
 
-1.	**Item Type** -> Item Type will be fetched from M3 with the condition that Template Item should be configured and Override with manually entered item number should be checked in CRS040 Program.
+1. **Item Type** -> Item Type will be fetched from M3 with the condition that Template Item should be configured and Override with manually entered item number should be checked in CRS040 Program.
 Transaction: /apiTxnList/EXPORTMI/Select/MITTTY ,
 [{"transaction":"Select","record":{"SEPC":";","HDRS":"1","QERY":"TYTX15, TYITTY from MITTTY where TYNUMR <> “ and TYTPLI <> '' and TYOVIT = 1"}}]}
 
-2.	**Country of origin** -> List of countries from program CRS045 are fetched. 
+2. **Country of origin** -> List of countries from program CRS045 are fetched. 
 Transaction: /apiTxnList/EXPORTMI/Select/CSYTAB,
 [{"transaction":"Select","record":{"SEPC":";","HDRS":"1","QERY":"CTSTKY, CTTX15 from CSYTAB where CTSTCO = CSCD"}}]}
 
-3.	**Additional Attribute Mapping** -> Attributes from PPS040 will be fetched.
+3. **Additional Attribute Mapping** -> Attributes from PPS040 will be fetched.
 Transaction: /apiTxnList/MRS001MI/LstFields,
 [{"transaction":"LstFields","record":{"MINM":"PPS040MI","TRNM":"AddItemSupplier","TRTP":"I"}}]}
 Transaction: /apiTxnList/MRS001MI/LstFields,
 [{"transaction":"LstFields","record":{"MINM":"PPS040MI","TRNM":"UpdItemSupplier","TRTP":"I"}}]}
 
-4.	**Quality Class** -> Quality Class list will be fetched from PPS020 (Quality Class)
+4. **Quality Class** -> Quality Class list will be fetched from PPS020 (Quality Class)
 Transaction: /apiTxnList/EXPORTMI/Select/CSYTAB,
 [{"transaction":"Select","record":{"SEPC":";","HDRS":"1","QERY":"CTSTKY, CTTX15 from CSYTAB where CTSTCO = QUCL"}}]}
 
 Buyer can update below values during approval task triggered for Item creation request submitted by the supplier.
-1.	M3 Item Type
-2.	Lowest Permitted Quality Inspection
-3.	Inspection Text
-4.	Creation Responsible
-5.	Quality Class
+1. M3 Item Type
+2. Lowest Permitted Quality Inspection
+3. Inspection Text
+4. Creation Responsible
+5. Quality Class
 
 
 <div align="right">

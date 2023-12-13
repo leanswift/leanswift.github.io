@@ -6,9 +6,9 @@
 
 # Table of contents
 
-- [Create New User](#create-new-user)
-- [Edit User](#edit-user--)
-- [Delete User](#delete-user)
+- [**Create New User**](#create-new-user)
+- [**Edit User**](#edit-user)
+- [**Delete User**](#delete-user)
 
 # **Create New User**  
 
@@ -43,8 +43,6 @@
 </kbd>
 
 **Note:** _Newly created Sub-account by default will have permission to view "My Account" and "My Purchase Order" details. _
-
- 
 
 - Once a new user is created, a reset password email id is sent to their mail id. Users can click the reset password link and will navigate to reset password page.
 - Provide the required information like "Email ID", "New Password", "Confirm Password" click on "Save Password" button.

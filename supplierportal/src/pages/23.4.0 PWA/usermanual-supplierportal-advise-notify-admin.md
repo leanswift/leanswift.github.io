@@ -1,4 +1,3 @@
-
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
 # Version 23.4.0 - Advise/Notify User Manual - Admin
@@ -164,12 +163,6 @@ If &quot;No&quot; is selected, Notify Transportation by delivery number is Disab
 
 Prerequisite: Supplier should have Shipment Advice (SHAC) value as !=0 or \&gt;0, that is, it can be 1 or 2.
 
-<div align="right">
-<b>
- <a href="#table-of-contents">↥ Go to Top</a>
-</b>
-</div>
-
 SHAC:  Shipment advice can be seen in CRS624/F - Finacial Details. 
 
 <kbd>
@@ -181,3 +174,9 @@ SHAC:  Shipment advice can be seen in CRS624/F - Finacial Details.
 <kbd>
 <img alt="metrics display" src="../../images/usermanual/notify-shipment-adivce.png"> 
 </kbd>
+
+<div align="right">
+<b>
+ <a href="#table-of-contents">↥ Go to Top</a>
+</b>
+</div>

@@ -34,9 +34,9 @@ The list of Permissions available can be configured in the Configuration under U
 
 Supplier Admin can group permissions under different categories and label them as required.
 
-Supplier and list of users can be viewed under the Customer Grid page in the backend.
+Supplier and list of subaccount users can be viewed in All Customers Grid page in the backend with subaccount columns. If it is 'YES' then it is subaccount user if it 'NO' then it is not a subaccount user. 
 
-Supplier Admin will have the &#39;Sub Account&#39; option&#39; enabled and Sub accounts will have that option disabled.
+For supplier Admin the “Manage Sub Account” option is enabled and for sub account user the option will be disabled. Here it will display the “customer id” and its “parent id”.
 
 <kbd>
 <img alt="metrics display" src="../../images/usermanual/supplier-subaccount-list.png"> 

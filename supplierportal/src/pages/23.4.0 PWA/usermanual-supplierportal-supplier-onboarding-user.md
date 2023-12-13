@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# **Version 23.4.0 - User Manual – Supplier Onboarding**
+# **Version 23.4.0 - User Manual – Supplier Onboarding - User**
 
 # Table of contents
 
