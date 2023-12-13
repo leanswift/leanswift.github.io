@@ -36,42 +36,29 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 </kbd>
 
 ## Features
-
 - Registration and Login
-
-### Account
-
- - My Information 
- - My Documents 
-
-### My Settings
- 
- - Date Format
- 
-### My Purchase Orders 
-
- - View Purchase Orders 
- - Search/Filter/Sort on Purchase Orders 
- - Confirm Purchase Orders  
- - Download Purchase Orders Information 
- - Upload documents into IDM against Purchase Orders 
+- Account
+  - My Information 
+  - My Documents 
+- My Settings
+  - Date Format
+- My Purchase Orders 
+  - View Purchase Orders 
+  - Search/Filter/Sort on Purchase Orders 
+  - Confirm Purchase Orders  
+  - Download Purchase Orders Information 
+  - Upload documents into IDM against Purchase Orders 
      - This is available ONLY if additional functionality for IDM integration is included as part of license  
-
-### My Forecasts 
-
- - View Purchase Forecasts 
- - Download Forecast Orders Information 
- - Search/Filter/Sort on Purchase Forecasts 
-
-### My Performance Metrics 
-
- - View Delivery Performance metrics 
- - View Quality metrics based on Rejected quantity 
- - View Purchase Price Variance metrics 
-
-### Admin 
-
- - Settings and Configuration for Portal and M3 Connection 
+- My Forecasts 
+  - View Purchase Forecasts 
+  - Download Forecast Orders Information 
+  - Search/Filter/Sort on Purchase Forecasts 
+- My Performance Metrics 
+  - View Delivery Performance metrics 
+  - View Quality metrics based on Rejected quantity 
+  - View Purchase Price Variance metrics 
+- Admin 
+  - Settings and Configuration for Portal and M3 Connection 
 
 ## Point of Contact
 
