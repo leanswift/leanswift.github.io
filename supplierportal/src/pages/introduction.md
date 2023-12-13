@@ -9,35 +9,35 @@
 
 - ## [Release Notes](23.3.0/release-notes-23.3.0-supplier-portal.md)
 
-- ## [User Manual - Admin](23.4.0 PWA/usermanual-supplierportal-admin.md)
+- ## [User Manual - Admin](23.4.0-PWA/usermanual-supplierportal-admin.md)
 
-- ## [User Manual - User](23.4.0 PWA/usermanual-supplierportal-user.md)
+- ## [User Manual - User](23.4.0-PWA/usermanual-supplierportal-user.md)
 
-- ## [User Manual - Advise-Notify-Admin](23.4.0 PWA/usermanual-supplierportal-advise-notify-admin.md)
+- ## [User Manual - Advise-Notify-Admin](23.4.0-PWA/usermanual-supplierportal-advise-notify-admin.md)
 
-- ## [User Manual - Advise-Notify-User](23.4.0 PWA/usermanual-supplierportal-advise-notify-user.md)
+- ## [User Manual - Advise-Notify-User](23.4.0-PWA/usermanual-supplierportal-advise-notify-user.md)
 
-- ## [User Manual - Deliveries-Admin](23.4.0 PWA/usermanual-supplierportal-deliveries-admin.md)
+- ## [User Manual - Deliveries-Admin](23.4.0-PWA/usermanual-supplierportal-deliveries-admin.md)
 
-- ## [User Manual - Deliveries-User](23.4.0 PWA/usermanual-supplierportal-deliveries-user.md)
+- ## [User Manual - Deliveries-User](23.4.0-PWA/usermanual-supplierportal-deliveries-user.md)
 
-- ## [User Manual - Invoice-Admin](23.4.0 PWA/usermanual-supplierportal-invoice-admin.md)
+- ## [User Manual - Invoice-Admin](23.4.0-PWA/usermanual-supplierportal-invoice-admin.md)
 
-- ## [User Manual - Invoice-User](23.4.0 PWA/usermanual-supplierportal-invoice-user.md)
+- ## [User Manual - Invoice-User](23.4.0-PWA/usermanual-supplierportal-invoice-user.md)
 
-- ## [User Manual - Manage-Subaccount-Admin](23.4.0 PWA/usermanual-supplierportal-manage_subaccount-admin.md)
+- ## [User Manual - Manage-Subaccount-Admin](23.4.0-PWA/usermanual-supplierportal-manage_subaccount-admin.md)
 
-- ## [User Manual - Manage-Subaccount-User](23.4.0 PWA/usermanual-supplierportal-manage_subaccount-user.md)
+- ## [User Manual - Manage-Subaccount-User](23.4.0-PWA/usermanual-supplierportal-manage_subaccount-user.md)
 
-- ## [User Manual - User-Tracking-Admin](23.4.0 PWA/usermanual-supplierportal-user_tracking-admin.md)
+- ## [User Manual - User-Tracking-Admin](23.4.0-PWA/usermanual-supplierportal-user_tracking-admin.md)
 
-- ## [User Manual - User-Tracking-User](23.4.0 PWA/usermanual-supplierportal-user_tracking-user.md)
+- ## [User Manual - User-Tracking-User](23.4.0-PWA/usermanual-supplierportal-user_tracking-user.md)
 
-- ## [User Manual - Supplier-Onboarding](23.4.0 PWA/usermanual-supplierportal-supplier-onboarding.md)
+- ## [User Manual - Supplier-Onboarding](23.4.0-PWA/usermanual-supplierportal-supplier-onboarding.md)
 
-- ## [User Manual - Supplier-Item-Management-User](23.4.0 PWA/usermanual-supplierportal-item-management-user.md)
+- ## [User Manual - Supplier-Item-Management-User](23.4.0-PWA/usermanual-supplierportal-item-management-user.md)
 
-- ## [User Manual - Supplier-Item-Management-Admin](23.4.0 PWA/usermanual-supplierportal-item-management-admin.md)
+- ## [User Manual - Supplier-Item-Management-Admin](23.4.0-PWA/usermanual-supplierportal-item-management-admin.md)
 
 
 # Version 23.3.0
