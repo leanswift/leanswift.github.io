@@ -2,8 +2,6 @@
 
 # Version 23.4.0 - User Manual - Admin User
 
-To view the user manual for Portal Users click [here](usermanual-supplierportal-user.md).
-
 # Table of contents
 
 - [Overview](#overview)
