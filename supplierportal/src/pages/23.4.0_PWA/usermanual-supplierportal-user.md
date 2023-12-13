@@ -281,7 +281,7 @@ To Confirm a PO line, select a single PO line or multiple lines and click on the
 
 <kbd><img alt="Admin User Guide" src="../../images/pwa/user/confirm_poline_textbox.png"></kbd>
 
-### **Confirm without changes** :
+## **Confirm without changes**:
 
 - To confirm a PO line without changes, keep the conf qty/ conf date/ conf price as same as the requested date/ price/ qty.
 - When a PO line is confirmed without changes, line is confirmed directly and 'PO Confirm approval request' is not sent to the buyer.
@@ -454,7 +454,7 @@ Purchase Price Variance = (Confirmed Price \* Qnty) - (Requested Price or price 
 - The bell icon has a red dot which indicates that there are unread notifications (once all notifications are read, red dot is removed).
 - The notification is highlighted in bold initially, once it is clicked bold is removed symbolising that the message is read.
 
-<kbd><img alt="Admin User Guide" src="../../images/pwa/user/bell_notification_dropdown.png"></kbd>
+<kbd><img alt="bell_notification_dropdown" src="../../images/pwa/user/bell_notification_dropdown.png"></kbd>
 
 - Email notifications are sent to the Supplier and Sub accounts (Based on permissions granted to sub accounts users) when the following events occur:
    - When a new Purchase Order is added.
@@ -466,7 +466,7 @@ Purchase Price Variance = (Confirmed Price \* Qnty) - (Requested Price or price 
 
 - To Log out click on the profile icon and select sign out.
 
-<kbd><img alt="Admin User Guide" src="../../images/pwa/user/logout_icon.png"></kbd>
+<kbd><img alt="logout_icon" src="../../images/pwa/user/logout_icon.png"></kbd>
 
 <div align="right">
 <b>

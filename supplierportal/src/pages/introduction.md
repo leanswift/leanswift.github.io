@@ -9,11 +9,11 @@
 
 - ## [Release Notes](23.3.0/release-notes-23.3.0-supplier-portal.md)
 
-- ## [User Manual - Admin](23.4.0-PWA/usermanual-supplierportal-admin.md)
+- ## [User Manual - Admin](23.4.0_PWA/usermanual-supplierportal-admin.md)
 
-- ## [User Manual - User](23.4.0-PWA/usermanual-supplierportal-user.md)
+- ## [User Manual - User](23.4.0_PWA/usermanual-supplierportal-user.md)
 
-- ## [User Manual - Advise-Notify-Admin](23.4.0-PWA/usermanual-supplierportal-advise-notify-admin.md)
+- ## [User Manual - Advise-Notify-Admin](23.4.0_PWA/usermanual-supplierportal-advise-notify-admin.md)
 
 - ## [User Manual - Advise-Notify-User](23.4.0-PWA/usermanual-supplierportal-advise-notify-user.md)
 
