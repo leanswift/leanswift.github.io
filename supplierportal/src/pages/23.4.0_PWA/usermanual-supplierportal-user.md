@@ -254,7 +254,7 @@ Next page will be redirected to supplier user portal with status as **Your passw
 
 <kbd><img alt="Admin User Guide" src="../../images/pwa/user/download_csv.png"></kbd>
 
-# **Confirm Lines in PO**
+## **Confirm Lines in PO**
 
 To Confirm a PO line, select a single PO line or multiple lines and click on the Confirm button which is on right side . Confirming a PO line can be done in two ways:
 
@@ -366,7 +366,7 @@ To Confirm a PO line, select a single PO line or multiple lines and click on the
 </b>
 </div>
 
-## **My Forecasts**
+# **My Forecasts**
 
 - My Forecast page list the Planned purchase orders created via  **delivery schedules**.
 - The graph has been plotted for number of planned orders against requested month.
@@ -375,25 +375,25 @@ To Confirm a PO line, select a single PO line or multiple lines and click on the
 
 The Forecast page has the following functionalities.
 
-### **Pagination Scrolling**
+## **Pagination Scrolling**
 
 Content is loaded dynamically as the user scrolls down the page.
 
 <kbd><img alt="Admin User Guide" src="../../images/pwa/user/forecasts_pagination.png"></kbd>
 
-### **Sort**
+## **Sort**
 
 _Order number, Item, Description, Price_, Currency, Qty, Pln Date, Req Date and Rel Date can be sorted ascendingly or discendingly.
 
 <kbd><img alt="Admin User Guide" src="../../images/pwa/user/forecasts_sort.png"></kbd>
 
-### **Search**
+## **Search**
 
 It provides a simple text search functionality and can be used to search at order level.
 
 <kbd><img alt="Admin User Guide" src="../../images/pwa/user/forecasts_search.png"></kbd>
 
-### **Filter**
+## **Filter**
 
 Based on admin configuration PO's can be filtered using _Equals_, _Less Than_, _Greater Than_ _Contains_, _Starts With_, _Ends With_ operands_._
 
@@ -407,7 +407,7 @@ By default, it downloads all the orders, When the Forecast order is filtered, it
 
 <kbd><img alt="Admin User Guide" src="../../images/pwa/user/forecasts_file.png"></kbd>
 
-## **My Performance Metrics**
+# **My Performance Metrics**
 
 Three key performance metrics are displayed.
 
@@ -419,19 +419,19 @@ Graph can be viewed either as bar or line chart. All metrics are plotted for  
 
 <kbd><img alt="Admin User Guide" src="../../images/pwa/user/my_performance_metrics.png"></kbd>
 
-**On-Time Delivery %**
+## **On-Time Delivery %**
 
 This metric records the percentage of inbound deliveries received on time, that is  **Requested Delivery Date**  Vs  **Actual Delivery Date**.
 
 <kbd><img alt="Admin User Guide" src="../../images/pwa/user/on_time_delivery.png"></kbd>
 
-**Quality - Rejected Inventory**
+## **Quality - Rejected Inventory**
 
 This metric records the total number of items rejected by the Buyer. 
 
 <kbd><img alt="Admin User Guide" src="../../images/pwa/user/quality_graph.png"></kbd>
 
-**Purchase Price Variance**
+## **Purchase Price Variance**
 
 This metric records the difference between the Confirmed price multiplied by the actual number of units purchased price paid to supplier and Requested Price its requested price multiplied by the actual number of units purchased (Confirmed **Price**  Vs  **Invoiced Price** )
 
@@ -445,7 +445,7 @@ Purchase Price Variance = (Confirmed Price \* Qnty) - (Requested Price or price 
 </b>
 </div>
 
-## **Bell and Email Notifications**
+# **Bell and Email Notifications**
 
 - Bell Notifications is used to display all the latest changes or additions of POs.
 
@@ -462,7 +462,7 @@ Purchase Price Variance = (Confirmed Price \* Qnty) - (Requested Price or price 
    - When a new Purchase Forecast is added.
    - When a Forecast is updated.
 
-## **Log out**
+# **Log out**
 
 - To Log out click on the profile icon and select sign out.
 
