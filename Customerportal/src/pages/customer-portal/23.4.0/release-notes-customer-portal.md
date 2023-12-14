@@ -2,7 +2,7 @@
 
 # **LeanSwift Customer Portal**
 
-# **23.4.0 **
+# **23.4.0**
 
 ## **Release Notes**
 
