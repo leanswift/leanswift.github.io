@@ -5,7 +5,7 @@
 # Table of contents
 
   - [23.4.0_PWA](#2340_pwa)
-    - [**Enhancements**](#enhancements)
+    - [Enhancements](#enhancements)
   - [23.3.0](#2330)
     - [Enhancements](#enhancements)
   - [22.4.0](#2240)

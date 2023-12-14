@@ -1,21 +1,37 @@
+![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+
 # **Supplier Portal**
+
+# **23.4.0_PWA**
 
 # **Release Notes**
 
 # Table of contents
 
-- [**Supplier Portal**](#supplier-portal)
-- [**Release Notes**](#release-notes)
-- [**Table of contents**](#table-of-contents)
-- [**Environment Details**](#environment-details)
-- [**Standard Features**](#standard-features)
-- [**Enhancements**](#enhancements)
-- [**Prerequisites**](#prerequisites)
-- [**Limitations**](#limitations)
-- [**Known Issues**](#known-issues)
-- [**Recommendation**](#recommendation)
-- [**Validated Versions**](#validated-versions)
-- [**Point of Contact**](#point-of-contact)
+- [Supplier Portal](#supplier-portal)
+
+- [Release Notes](#release-notes)
+
+- [Table of contents](#table-of-contents)
+
+- [Environment Details](#environment-details)
+
+- [Standard Features](#standard-features)
+
+- [Enhancements](#enhancements)
+
+- [Prerequisites](#prerequisites)
+
+- [Limitations](#limitations)
+
+- [Known Issues](#known-issues)
+
+- [Recommendation](#recommendation)
+
+- [Validated Versions](#validated-versions)
+
+- [Point of Contact](#point-of-contact)
+
 
 # **Overview**
 
@@ -24,9 +40,7 @@
 # **Environment Details**
 
 | **Software Name** | **Version** |
-| --- | --- |
 | Magento version | 2.4.6 |
-| --- | --- |
 | eConnect Base Module Version | 6.3.0 |
 | IDM Module Version | 4.2.0 |
 | ION Package Version | 23.4.0 |
@@ -138,7 +152,7 @@ This Add-on is to configure the allowed number of Registrations (supplier admin)
 - Portal login lands on Dashboard which gives metrics of Purchase orders, invoices and deliveries.
 - Supplier Item Number is now displayed in purchase order lines.
 - Reconfirm All is not allowed for confirmed status of PO.
-- Removed Confirm All, Advise All and Notify All button and replaced with PO# check box (which will display All lines or selected line based on selection of PO lines) under advise and notify buttons.
+- Removed Confirm All, Advise All and Notify All button and replaced with PO# check box (which will display All lines or selected line based on selection of PO lines under advise and notify buttons.
 - The total number of purchase orders and the total number of CONFIRMED, COMPLETE, NOTIFIED/ IN TRANSIT status POs (Purchase Order) are now displayed on My Purchase Orders page.
 - A graph plotted for the total number of planned orders against the requested month is displayed on My Forecasts page.
 - The total number of FULLY MATCHED and PARTIALLY MATCHED status are now displayed on My Deliveries.
