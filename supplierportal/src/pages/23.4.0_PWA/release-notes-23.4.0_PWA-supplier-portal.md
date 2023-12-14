@@ -40,6 +40,7 @@
 # **Environment Details**
 
 | **Software Name** | **Version** |
+| --- | --- |
 | Magento version | 2.4.6 |
 | eConnect Base Module Version | 6.3.0 |
 | IDM Module Version | 4.2.0 |
