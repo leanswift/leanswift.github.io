@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# **Version 23.4.0 - Supplier Onboarding Admin**
+# **Version 23.4.0_PWA - Supplier Onboarding Admin**
 
 <div id=toc></div>
 

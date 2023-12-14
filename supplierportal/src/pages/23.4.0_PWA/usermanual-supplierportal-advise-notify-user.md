@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# **Version 23.4.0 - Advise/Notify User Manual - User**
+# **Version 23.4.0_PWA - Advise/Notify User Manual - User**
 
 <div id=toc></div>
 

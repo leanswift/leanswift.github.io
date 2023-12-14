@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# Version 23.4.0 - User Manual - Admin User
+# Version 23.4.0_PWA - User Manual - Admin User
 
 # Table of contents
 
@@ -671,8 +671,3 @@ Attribute Key refers to M3_AttributeKey Name of IDM Document Type and the Custom
 <kbd>
 <img alt="Exit system" src="../../images/usermanual/idm-backend-mapping.png">
 </kbd>
-
-
-## ION Workflows
-
-\&lt;\&lt; Mention about the custom ION Workflows required for the functioning of the portal, details on functionality, prerequisites, how to set up/install, basic troubleshooting, if any. Add relevant images from MT demo environment \&gt;\&gt;

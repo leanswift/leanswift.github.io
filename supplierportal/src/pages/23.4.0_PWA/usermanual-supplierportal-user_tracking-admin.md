@@ -1,6 +1,6 @@
 ![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
-# **Version 23.4.0 - User Tracking - User Manual - Admin**
+# **Version 23.4.0_PWA - User Tracking - User Manual - Admin**
 
 This an Add-on can be used along side Supplier Portal.
 
