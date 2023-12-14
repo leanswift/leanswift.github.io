@@ -413,7 +413,7 @@ Provide an option to select a parameter, Based on selection the graph will be pl
 <img alt="Email templates" src="../../images/pwa/user/email_template_content.png">
 </kbd>
 
-1. After changing above line save template.
+5. After changing above line save template.
 
 **Steps to create PWA Supplier Reset Password Email Templates.**
 
