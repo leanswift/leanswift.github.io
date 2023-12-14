@@ -4,6 +4,20 @@
 
 - ## [Net Change Report](net-change-report.md)
 
+# Version 23.4.0
+
+- ## [Release Notes](customer-portal/23.4.0/release-notes-customer-portal.md)
+
+- ## [User Manual - Customer Portal - admin-user](customer-portal/23.4.0/usermanual-customerportal-admin-user.md)
+
+- ## [User Manual - Customer Portal - user](customer-portal/23.4.0/usermanual-customerportal-user.md)
+
+- ## [User Manual - m3 login](add-ons/m3-login/usermanual-m3-login-23.4.0.md)
+
+- ## [User Manual - payment portal - user](add-ons/payment-portal/usermanual-paymentportal-23.4.0-user.md)
+
+- ## [User Manual -  payment portal - admin user](add-ons/payment-portal/usermanual-paymentportal-23.4.0-admin-user.md)
+
 # Version 22.4.0 
 
 - ## [Release Notes](customer-portal/22.4.0/release-notes-customer-portal.md)
