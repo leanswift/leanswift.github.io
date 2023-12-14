@@ -1,6 +1,6 @@
-![CustomerPortalHeader](/Customerportal/src/images/customer-portal/front-end-user/23.1.0/CP_banner.jpg)
+![CustomerPortalHeader](/Customerportal/src/images/customer-portal/front-end-user/23.4.0/CP_banner.jpg)
 
-# **Version 23.1.0 - User Manual – Customer Portal - User**
+# **Version 23.4.0 - User Manual – Customer Portal - User**
 
 # Table of contents
 
@@ -138,20 +138,20 @@ This document and the software it describes are provided by LeanSwift Solutions 
 - The password box is disabled whenever an internal user inputs an email address with a valid internal domain.
 
 <kbd>
-<kbd><img alt="InternalLogin" src="../../../images/customer-portal/front-end-user/23.1.0/InternalLogin.png"></kbd>
+<kbd><img alt="InternalLogin" src="../../../images/customer-portal/front-end-user/23.4.0/InternalLogin.png"></kbd>
 </kbd>
 
 - By clicking Sign in, the front-end user is redirected to Infor OS to authenticate their credentials.
   - Note: The user must use the same credentials to login to Infor OS as used to log in to the customer portal.
 
 <kbd>
-<kbd><img alt="M3Credentials" src="../../../images/customer-portal/front-end-user/23.1.0/M3Credentials.png"></kbd>
+<kbd><img alt="M3Credentials" src="../../../images/customer-portal/front-end-user/23.4.0/M3Credentials.png"></kbd>
 </kbd>
 
 - Following successful validation in the Infor OS, the system generates a Request for Approval, which includes the requester's information and the choice to grant or deny access.
 
 <kbd>
-<kbd><img alt="M3Approval" src="../../../images/customer-portal/front-end-user/23.1.0/M3Approval.png"></kbd>
+<kbd><img alt="M3Approval" src="../../../images/customer-portal/front-end-user/23.4.0/M3Approval.png"></kbd>
 </kbd>
 
 - Once the internal user has authorised access, the user gets signed into Customer Portal.
@@ -159,7 +159,7 @@ This document and the software it describes are provided by LeanSwift Solutions 
 Note: After the initial successful login, the Infor OS user id is created in the Customer Portal Database.
 
 <kbd>
-<kbd><img alt="InternalCustomerPage" src="../../../images/customer-portal/front-end-user/23.1.0/InternalCustomerPage.png"></kbd>
+<kbd><img alt="InternalCustomerPage" src="../../../images/customer-portal/front-end-user/23.4.0/InternalCustomerPage.png"></kbd>
 </kbd>
 
 - If a user is unable to log in to Infor OS, they can utilise Forgot password to reset their password or contact us to contact the team.
@@ -183,7 +183,7 @@ Note: After the initial successful login, the Infor OS user id is created in the
   - Confirm Email
 
 <kbd>
-<kbd><img alt="ExternalCustomer" src="../../../images/customer-portal/front-end-user/23.1.0/ExternalCustomer.png"></kbd>
+<kbd><img alt="ExternalCustomer" src="../../../images/customer-portal/front-end-user/23.4.0/ExternalCustomer.png"></kbd>
 </kbd>
 
 - As the user enters the above details, Customer number, Invoice/Order Number and Invoice/Order amount is validated.
@@ -192,7 +192,7 @@ Note: After the initial successful login, the Infor OS user id is created in the
 - All other users will have limited access on the site, until the admin provides additional privileges.
 
 <kbd>
-<kbd><img alt="ExternalCustomerDetails" src="../../../images/customer-portal/front-end-user/23.1.0/ExternalCustomerDetails.png"></kbd>
+<kbd><img alt="ExternalCustomerDetails" src="../../../images/customer-portal/front-end-user/23.4.0/ExternalCustomerDetails.png"></kbd>
 </kbd>
 
 - Following successful registration, an email with a link for account verification and password creation is sent to the registered email address.
@@ -200,17 +200,17 @@ Note: After the initial successful login, the Infor OS user id is created in the
 Note: Please check the Junk or Spam folder in case this mail does not arrive within few minutes.
 
 <kbd>
-<kbd><img alt="ExternalCustomerSucessfull" src="../../../images/customer-portal/front-end-user/23.1.0/ExternalCustomerSucessfull.png"></kbd>
+<kbd><img alt="ExternalCustomerSucessfull" src="../../../images/customer-portal/front-end-user/23.4.0/ExternalCustomerSucessfull.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="ExternalCustomerMail" src="../../../images/customer-portal/front-end-user/23.1.0/ExternalCustomerMail.png"></kbd>
+<kbd><img alt="ExternalCustomerMail" src="../../../images/customer-portal/front-end-user/23.4.0/ExternalCustomerMail.png"></kbd>
 </kbd>
 
 - The link in the email directs the user to the password creation screen, where they can create a new password in accordance with the password policy
 
 <kbd>
-<kbd><img alt="SetNewPassword" src="../../../images/customer-portal/front-end-user/23.1.0/SetNewPassword.png"></kbd>
+<kbd><img alt="SetNewPassword" src="../../../images/customer-portal/front-end-user/23.4.0/SetNewPassword.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -233,7 +233,7 @@ Characteristics of Strong Password:
 - Leading and trailing spaces are ignored.
 
 <kbd>
-<kbd><img alt="PasswordPolicy" src="../../../images/customer-portal/front-end-user/23.1.0/PasswordPolicy.png"></kbd>
+<kbd><img alt="PasswordPolicy" src="../../../images/customer-portal/front-end-user/23.4.0/PasswordPolicy.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -253,7 +253,7 @@ Characteristics of Strong Password:
   - There is already an account with this email address. If you are sure that it is your email address, [click here](https://cpqa.leanswiftdev.net/customer/account/forgotpassword/) to get your password and access your account.
 
 <kbd>
-<kbd><img alt="ExternalCustomerError" src="../../../images/customer-portal/front-end-user/23.1.0/ExternalCustomerError.png"></kbd>
+<kbd><img alt="ExternalCustomerError" src="../../../images/customer-portal/front-end-user/23.4.0/ExternalCustomerError.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -271,7 +271,7 @@ Characteristics of Strong Password:
 - The user logs in to Customer Portal using their registered credentials.
 
 <kbd>
-<kbd><img alt="LoginPage" src="../../../images/customer-portal/front-end-user/23.1.0/LoginPage.png"></kbd>
+<kbd><img alt="LoginPage" src="../../../images/customer-portal/front-end-user/23.4.0/LoginPage.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -287,11 +287,11 @@ Characteristics of Strong Password:
 - We can logout to that customer while we are opening a particular customer.
 
 <kbd>
-<kbd><img alt="ExternalCustomerPage" src="../../../images/customer-portal/front-end-user/23.1.0/ExternalCustomerPage.png"></kbd>
+<kbd><img alt="ExternalCustomerPage" src="../../../images/customer-portal/front-end-user/23.4.0/ExternalCustomerPage.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="MyAccountPage" src="../../../images/customer-portal/front-end-user/23.1.0/MyAccountPage.png"></kbd>
+<kbd><img alt="MyAccountPage" src="../../../images/customer-portal/front-end-user/23.4.0/MyAccountPage.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -324,30 +324,30 @@ Characteristics of Strong Password:
 - To reset the password, user can click on forgot password button in the home screen of Customer Portal.
 
 <kbd>
-<kbd><img alt="ForgotPassword" src="../../../images/customer-portal/front-end-user/23.1.0/ForgotPassword.png"></kbd>
+<kbd><img alt="ForgotPassword" src="../../../images/customer-portal/front-end-user/23.4.0/ForgotPassword.png"></kbd>
 </kbd>
 
 - The user can provide a registered email id and request a reset password.
 
 <kbd>
-<kbd><img alt="ForgotPasswordGiven" src="../../../images/customer-portal/front-end-user/23.1.0/ForgotPasswordGiven.png"></kbd>
+<kbd><img alt="ForgotPasswordGiven" src="../../../images/customer-portal/front-end-user/23.4.0/ForgotPasswordGiven.png"></kbd>
 </kbd>
 
 - After entering email id and clicking on Reset My password, it will take to Customer portal home page with message displayed " **If there is an account associated with challa.anjana@leanswift.com you will receive an email with a link to reset your password.**"
 
 <kbd>
-<kbd><img alt="ForgotPasswordEmailSent" src="../../../images/customer-portal/front-end-user/23.1.0/ForgotPasswordEmailSent.png"></kbd>
+<kbd><img alt="ForgotPasswordEmailSent" src="../../../images/customer-portal/front-end-user/23.4.0/ForgotPasswordEmailSent.png"></kbd>
 </kbd>
 
 - The password reset link will be sent to the user's email address.
 
 <kbd>
-<kbd><img alt="ForgotPasswordEmail" src="../../../images/customer-portal/front-end-user/23.1.0/ForgotPasswordEmail.png"></kbd>
+<kbd><img alt="ForgotPasswordEmail" src="../../../images/customer-portal/front-end-user/23.4.0/ForgotPasswordEmail.png"></kbd>
 </kbd>
 
 - The link redirects the user to the password reset page, where they can create a new password that meets the password policy.
 <kbd>
-<kbd><img alt="ForgotPasswordNewPassword" src="../../../images/customer-portal/front-end-user/23.1.0/ForgotPasswordNewPassword.png"></kbd>
+<kbd><img alt="ForgotPasswordNewPassword" src="../../../images/customer-portal/front-end-user/23.4.0/ForgotPasswordNewPassword.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -363,14 +363,14 @@ Characteristics of Strong Password:
 - If the current customer wishes to switch to another customer, they need to navigate to the dropdown section for customer names in the header.
 
 <kbd>
-<kbd><img alt="SwitchCustomer" src="../../../images/customer-portal/front-end-user/23.1.0/SwitchCustomer.png"></kbd>
+<kbd><img alt="SwitchCustomer" src="../../../images/customer-portal/front-end-user/23.4.0/SwitchCustomer.png"></kbd>
 </kbd>
 
 - Once the user clicks on the switch customer option, a list of the user's customers are displayed.
 - To view details about a customer, the user must first select the customer.
 
 <kbd>
-<kbd><img alt="ExternalCustomerPage" src="../../../images/customer-portal/front-end-user/23.1.0/SwitchExternalCustomerPage.png"></kbd>
+<kbd><img alt="ExternalCustomerPage" src="../../../images/customer-portal/front-end-user/23.4.0/SwitchExternalCustomerPage.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -386,7 +386,7 @@ Characteristics of Strong Password:
 - Users having Sub Accounts, i.e. Account Admin Users, have the option to download Sub Accounts Info.
 
 <kbd>
-<kbd><img alt="DownloadSubAccounts" src="../../../images/customer-portal/front-end-user/23.1.0/DownloadSubAccounts.png"></kbd>
+<kbd><img alt="DownloadSubAccounts" src="../../../images/customer-portal/front-end-user/23.4.0/DownloadSubAccounts.png"></kbd>
 </kbd>
 
 - Click on Download Sub Accounts Info Option, to download the details of sub accounts in CSV format.
@@ -396,7 +396,7 @@ Characteristics of Strong Password:
   - Make Payment - Provides information on whether the customer has privileges to make a payment - Yes/No.
 
 <kbd>
-<kbd><img alt="SubAccountExcel" src="../../../images/customer-portal/front-end-user/23.1.0/CustomerPortal_SubAccountsExcel.png"></kbd>
+<kbd><img alt="SubAccountExcel" src="../../../images/customer-portal/front-end-user/23.4.0/CustomerPortal_SubAccountsExcel.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -412,7 +412,7 @@ Characteristics of Strong Password:
 - In the Accounts Overview menu, the selected customer's account information and addresses are displayed, which include Default Addresses, Invoice Addresses, and Additional Address Entries.
 - The header navigation menu allows the customer to navigate Orders, Invoices and Payments.
 <kbd>
-<kbd><img alt="MyAccounts" src="../../../images/customer-portal/front-end-user/23.1.0/MyAccounts.png"></kbd>
+<kbd><img alt="MyAccounts" src="../../../images/customer-portal/front-end-user/23.4.0/MyAccounts.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -429,7 +429,7 @@ Characteristics of Strong Password:
 - As the user scrolls down the page, the content is loaded dynamically and displayed.
 
 <kbd>
-<kbd><img alt="MyInvoices" src="../../../images/customer-portal/front-end-user/23.1.0/MyInvoices.png"></kbd>
+<kbd><img alt="MyInvoices" src="../../../images/customer-portal/front-end-user/23.4.0/MyInvoices.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -447,7 +447,7 @@ Characteristics of Strong Password:
   - The user can view Invoices by selecting start date (Year 2018) and end date (Current year).
 
 <kbd>
-<kbd><img alt="MyInvoicesSearch" src="../../../images/customer-portal/front-end-user/23.1.0/MyInvoicesSearch.png"></kbd>
+<kbd><img alt="MyInvoicesSearch" src="../../../images/customer-portal/front-end-user/23.4.0/MyInvoicesSearch.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -466,7 +466,7 @@ Characteristics of Strong Password:
   - All Invoices
 
 <kbd>
-<kbd><img alt="MyInvoicesFilters" src="../../../images/customer-portal/front-end-user/23.1.0/MyInvoicesFilters.png"></kbd>
+<kbd><img alt="MyInvoicesFilters" src="../../../images/customer-portal/front-end-user/23.4.0/MyInvoicesFilters.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -481,7 +481,7 @@ Characteristics of Strong Password:
 - By default, invoices are sorted in descending order, with the most recent invoices appearing first.
 
 <kbd>
-<kbd><img alt="MyInvoicesSort" src="../../../images/customer-portal/front-end-user/23.1.0/MyInvoicesSort.png"></kbd>
+<kbd><img alt="MyInvoicesSort" src="../../../images/customer-portal/front-end-user/23.4.0/MyInvoicesSort.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -495,11 +495,11 @@ Characteristics of Strong Password:
 - Click on Download Current Statement menu to download Current Open Invoices in CSV format.
 
 <kbd>
-<kbd><img alt="DownloadCurrentStatement" src="../../../images/customer-portal/front-end-user/23.1.0/DownloadCurrentStatement.png"></kbd>
+<kbd><img alt="DownloadCurrentStatement" src="../../../images/customer-portal/front-end-user/23.4.0/DownloadCurrentStatement.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="DownloadCurrentStatementExcel" src="../../../images/customer-portal/front-end-user/23.1.0/DownloadCurrentStatementExcel.png"></kbd>
+<kbd><img alt="DownloadCurrentStatementExcel" src="../../../images/customer-portal/front-end-user/23.4.0/DownloadCurrentStatementExcel.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -514,21 +514,21 @@ Characteristics of Strong Password:
 - The user will be displayed with a success message.
 
 <kbd>
-<kbd><img alt="EmailDocument" src="../../../images/customer-portal/front-end-user/23.1.0/EmailDocument.png"></kbd>
+<kbd><img alt="EmailDocument" src="../../../images/customer-portal/front-end-user/23.4.0/EmailDocument.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="EmailDocumentScuess" src="../../../images/customer-portal/front-end-user/23.1.0/EmailDocumentScuess.png"></kbd>
+<kbd><img alt="EmailDocumentScuess" src="../../../images/customer-portal/front-end-user/23.4.0/EmailDocumentScuess.png"></kbd>
 </kbd>
 
 - The documents are sent email through Infrocloudsite and Customer portal also (as configured in back end).
 
 <kbd>
-<kbd><img alt="CustomerPortalMail" src="../../../images/customer-portal/front-end-user/23.1.0/CustomerPortalMail.png"></kbd>
+<kbd><img alt="CustomerPortalMail" src="../../../images/customer-portal/front-end-user/23.4.0/CustomerPortalMail.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="InfroM3Mail" src="../../../images/customer-portal/front-end-user/23.1.0/InfroM3Mail.png"></kbd>
+<kbd><img alt="InfroM3Mail" src="../../../images/customer-portal/front-end-user/23.4.0/InfroM3Mail.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -545,7 +545,7 @@ Characteristics of Strong Password:
 When no document is available for the selected invoice, following message is displayed" No Documents available".
 
 <kbd>
-<kbd><img alt="NoDocuments" src="../../../images/customer-portal/front-end-user/23.1.0/NoDocuments.png"></kbd>
+<kbd><img alt="NoDocuments" src="../../../images/customer-portal/front-end-user/23.4.0/NoDocuments.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -564,7 +564,7 @@ Clear All.
 - As the user scrolls down the page, the content is loaded dynamically and displayed.
 
 <kbd>
-<kbd><img alt="MyOrders" src="../../../images/customer-portal/front-end-user/23.1.0/MyOrders.png"></kbd>
+<kbd><img alt="MyOrders" src="../../../images/customer-portal/front-end-user/23.4.0/MyOrders.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -580,7 +580,7 @@ Clear All.
 - Search by Order Date.
 
 <kbd>
-<kbd><img alt="MyOrdersSearch" src="../../../images/customer-portal/front-end-user/23.1.0/MyOrdersSearch.png"></kbd>
+<kbd><img alt="MyOrdersSearch" src="../../../images/customer-portal/front-end-user/23.4.0/MyOrdersSearch.png"></kbd>
 </kbd>
 
 ## Order Filter
@@ -593,7 +593,7 @@ The user can filter orders based on the status of invoices.
 - Fully Invoiced Orders
 
 <kbd>
-<kbd><img alt="MyOrdersFilter" src="../../../images/customer-portal/front-end-user/23.1.0/MyOrdersFilter.png"></kbd>
+<kbd><img alt="MyOrdersFilter" src="../../../images/customer-portal/front-end-user/23.4.0/MyOrdersFilter.png"></kbd>
 </kbd>
 
 ## Order Sort
@@ -602,7 +602,7 @@ The user can filter orders based on the status of invoices.
 - By default, orders are sorted in descending order, with the most recent orders appearing first.
 
 <kbd>
-<kbd><img alt="MyOrdersSort" src="../../../images/customer-portal/front-end-user/23.1.0/MyOrdersSort.png"></kbd>
+<kbd><img alt="MyOrdersSort" src="../../../images/customer-portal/front-end-user/23.4.0/MyOrdersSort.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -617,11 +617,11 @@ The user can filter orders based on the status of invoices.
 - The user will be displayed with a success message.
 
 <kbd>
-<kbd><img alt="MyOrdersEmail" src="../../../images/customer-portal/front-end-user/23.1.0/MyOrdersEmail.png"></kbd>
+<kbd><img alt="MyOrdersEmail" src="../../../images/customer-portal/front-end-user/23.4.0/MyOrdersEmail.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="MyOrdersDocumentsSent" src="../../../images/customer-portal/front-end-user/23.1.0/MyOrdersDocumentsSent.png"></kbd>
+<kbd><img alt="MyOrdersDocumentsSent" src="../../../images/customer-portal/front-end-user/23.4.0/MyOrdersDocumentsSent.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -636,13 +636,13 @@ The user can filter orders based on the status of invoices.
 - Document(s) will be downloaded and opened in new tab(s).
 
 <kbd>
-<kbd><img alt="MyOrdersDocumentsNewTab" src="../../../images/customer-portal/front-end-user/23.1.0/MyOrdersDocumentsNewTab.png"></kbd>
+<kbd><img alt="MyOrdersDocumentsNewTab" src="../../../images/customer-portal/front-end-user/23.4.0/MyOrdersDocumentsNewTab.png"></kbd>
 </kbd>
 
 When no document is available for the selected order, following message is displayed.
 
 <kbd>
-<kbd><img alt="MyOrdersNoDoc" src="../../../images/customer-portal/front-end-user/23.1.0/MyOrdersNoDoc.png"></kbd>
+<kbd><img alt="MyOrdersNoDoc" src="../../../images/customer-portal/front-end-user/23.4.0/MyOrdersNoDoc.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -658,7 +658,7 @@ When no document is available for the selected order, following message is displ
 - Document(s) will be downloaded and opened in new tab(s)
 
 <kbd>
-<kbd><img alt="DeliveryDocuments" src="../../../images/customer-portal/front-end-user/23.1.0/CustomerPortal_DeliveryDocument.png"></kbd>
+<kbd><img alt="DeliveryDocuments" src="../../../images/customer-portal/front-end-user/23.4.0/CustomerPortal_DeliveryDocument.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -673,7 +673,7 @@ When no document is available for the selected order, following message is displ
 - View the order shipment details such as Shipment number, delivery number, forwarding agent etc.
 
 <kbd>
-<kbd><img alt="ShipmentDetails" src="../../../images/customer-portal/front-end-user/23.1.0/ShipmentDetails.png"></kbd>
+<kbd><img alt="ShipmentDetails" src="../../../images/customer-portal/front-end-user/23.4.0/ShipmentDetails.png"></kbd>
 </kbd>
 
 <div align="right">
@@ -691,11 +691,11 @@ When no document is available for the selected order, following message is displ
 - The user will be redirected to the main page in 5 seconds after successfully signing out.
 
 <kbd>
-<kbd><img alt="LogOut" src="../../../images/customer-portal/front-end-user/23.1.0/LogOut.png"></kbd>
+<kbd><img alt="LogOut" src="../../../images/customer-portal/front-end-user/23.4.0/LogOut.png"></kbd>
 </kbd>
 
 <kbd>
-<kbd><img alt="LoginPage" src="../../../images/customer-portal/front-end-user/23.1.0/LoginPage.png"></kbd>
+<kbd><img alt="LoginPage" src="../../../images/customer-portal/front-end-user/23.4.0/LoginPage.png"></kbd>
 </kbd>
 
 <div align="right">
