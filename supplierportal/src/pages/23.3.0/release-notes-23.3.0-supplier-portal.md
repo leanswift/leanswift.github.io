@@ -4,9 +4,9 @@
 
 # **23.3.0**
 
-## **Release Notes**
+# **Release Notes**
 
-**Table of Contents**
+# **Table of Contents**
 
 - [Overview](#overview)
 

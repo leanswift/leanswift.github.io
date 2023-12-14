@@ -7,7 +7,7 @@
 
 # Version 23.4.0_PWA
 
-- ## [Release Notes](23.4.0/release-notes-23.4.0_PWA-supplier-portal.md)
+- ## [Release Notes](23.4.0_PWA/release-notes-23.4.0_PWA-supplier-portal.md)
 
 - ## [User Manual - Admin](23.4.0_PWA/usermanual-supplierportal-admin.md)
 
