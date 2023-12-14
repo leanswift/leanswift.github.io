@@ -33,7 +33,9 @@
 
 - ## [User Manual - User-Tracking-User](23.4.0_PWA/usermanual-supplierportal-user_tracking-user.md)
 
-- ## [User Manual - Supplier-Onboarding](23.4.0_PWA/usermanual-supplierportal-supplier-onboarding.md)
+- ## [User Manual - Supplier-Onboarding-Admin](23.4.0_PWA/usermanual-supplierportal-supplier-onboarding-admin.md)
+
+- ## [User Manual - Supplier-Onboarding-User](23.4.0_PWA/usermanual-supplierportal-supplier-onboarding-user.md)
 
 - ## [User Manual - Supplier-Item-Management-User](23.4.0_PWA/usermanual-supplierportal-item-management-user.md)
 
