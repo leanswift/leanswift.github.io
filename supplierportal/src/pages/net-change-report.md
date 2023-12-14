@@ -2,8 +2,10 @@
 
 # Supplier Portal-Net Change Report
 
-## Table of contents
+# Table of contents
 
+  - [23.4.0_PWA](#2340_pwa)
+    - [**Enhancements**](#enhancements)
   - [23.3.0](#2330)
     - [Enhancements](#enhancements)
   - [22.4.0](#2240)
@@ -14,17 +16,38 @@
     - [Enhancements](#enhancements)
     - [Fixes](#fixes)
   - [21.1.0](#2110)
-    - [Features ](#features-)
+    - [Features :](#features-)
   - [20.2.0](#2020)
-    - [Features ](#features-)
-    - [Enhancements ](#enhancements-)
+    - [Features :](#features-)
+    - [Enhancements :](#enhancements-)
   - [20.1.2](#2012)
-    - [Fixes](#fixes)
+    - [Fixes:](#fixes)
   - [20.1.1](#2011)
-    - [Enhancement](#enhancement)
-    - [Fixes](#fixes)
+    - [Enhancement:](#enhancement)
+    - [Fixes:](#fixes)
   - [20.1.0](#2010)
-    - [Features](#features)
+    - [Features:](#features)
+
+## 23.4.0_PWA
+
+### **Enhancements**
+
+- Buyer can send invite to supplier directly via his Magento user login.
+- Buyer will receive the Onboarding approval task notification in M3.
+- Notification from Infor is sent to the Buyer's email when document uploaded by supplier reaches IDM.
+- The Final onboarding Approval task is sent to the respective final approvers configured in Distribution list. After buyer approve all his tasks.
+- Portal login lands on Dashboard which gives metrics of Purchase orders, invoices and deliveries.
+- Supplier Item Number is now displayed in purchase order lines.
+- Reconfirm All is not allowed for confirmed status of PO.
+- Removed Confirm All, Advise All and Notify All button and replaced with PO# check box (which will display All lines or selected line based on selection of PO lines) under advise and notify buttons.
+- The total number of purchase orders and the total number of CONFIRMED, COMPLETE, NOTIFIED/ IN TRANSIT status POs (Purchase Order) are now displayed on My Purchase Orders page.
+- A graph plotted for the total number of planned orders against the requested month is displayed on My Forecasts page.
+- The total number of FULLY MATCHED and PARTIALLY MATCHED status are now displayed on My Deliveries.
+- The 'Create New' button is added, and 'View Item' Icon is removed from the My Items page.
+- The 'Refresh' button is added for My Forecasts, My Deliveries, My Invoices and My Items.
+- Password set email is sent to the Subaccount user, once main supplier creates sub account user to the portal.
+- Each Notification is displayed with header.
+
 
 ## 23.3.0
 
