@@ -97,7 +97,7 @@ During setup, the Magento Admin is used to configure the supplier portal. Some o
 
 ## **Validated Versions**
 
-Refer [Release Notes ](https://wipro365-my.sharepoint.com/personal/ch20276537_wipro_com/Documents/supplier%20portal%20documents/usermanual-supplierportal-admin.docx?web=1)
+Refer [Release Notes ](https://github.com/leanswift/leanswift.github.io/blob/SP-2178/supplierportal/src/pages/23.4.0_PWA/release-notes-23.4.0_PWA-supplier-portal.md)
 
 ## **Point of Contact**
 

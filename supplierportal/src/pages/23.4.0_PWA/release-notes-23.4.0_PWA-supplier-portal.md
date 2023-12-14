@@ -8,30 +8,18 @@
 
 # Table of contents
 
-- [Supplier Portal](#supplier-portal)
-
-- [Release Notes](#release-notes)
-
-- [Table of contents](#table-of-contents)
-
+- [Overview](#overview)
 - [Environment Details](#environment-details)
-
 - [Standard Features](#standard-features)
-
+- [Supported Devices](#supported-devices)
+- [Technical Features](#technical-features)
 - [Enhancements](#enhancements)
-
 - [Prerequisites](#prerequisites)
-
 - [Limitations](#limitations)
-
 - [Known Issues](#known-issues)
-
 - [Recommendation](#recommendation)
-
 - [Validated Versions](#validated-versions)
-
 - [Point of Contact](#point-of-contact)
-
 
 # **Overview**
 
@@ -58,6 +46,9 @@
 | SupplierPortalGraphql | 23.4.0 |
 | IDMGraphql | 23.4.0 |
 | SupplierPortalInvoiceGraphql | 23.4.0 |
+| PWA Build pack  | 11.4.1 | 
+| Node JS |  16.19.0 | 
+| Yarn | 1.22.19 | 
 
 # **Standard Features**
 
@@ -144,23 +135,35 @@ This Add-on is to configure the allowed number of Registrations (supplier admin)
 - View Delivery Performance metrics.
 - View Purchase Price Variance metrics.
 
+# **Supported Devices** 
+
+- Desktop- All Browsers 
+- Android version - 11,12,13 
+- IOS – Testing InProgress 
+
+# **Technical Features**
+
+- Magento PWA using REACT JS 
+- Graphql 
+
 # **Enhancements**
 
 - Buyer can send invite to supplier directly via his Magento user login.
 - Buyer will receive the Onboarding approval task notification in M3.
-- Notification from Infor is sent to the Buyer's email when document uploaded by supplier reaches IDM.
+- Notification from Infor is sent to the Buyer’s email when document uploaded by supplier reaches IDM.
 - The Final onboarding Approval task is sent to the respective final approvers configured in Distribution list. After buyer approve all his tasks.
-- Portal login lands on Dashboard which gives metrics of Purchase orders, invoices and deliveries.
+Portal login lands on Dashboard which gives metrics of Purchase orders, invoices and deliveries.
 - Supplier Item Number is now displayed in purchase order lines.
 - Reconfirm All is not allowed for confirmed status of PO.
-- Removed Confirm All, Advise All and Notify All button and replaced with PO# check box (which will display All lines or selected line based on selection of PO lines under advise and notify buttons.
+- Removed Confirm All, Advise All and Notify All button and replaced with PO# check box (which will display All lines or selected line based on selection of PO lines) under advise and notify buttons. 
 - The total number of purchase orders and the total number of CONFIRMED, COMPLETE, NOTIFIED/ IN TRANSIT status POs (Purchase Order) are now displayed on My Purchase Orders page.
 - A graph plotted for the total number of planned orders against the requested month is displayed on My Forecasts page.
 - The total number of FULLY MATCHED and PARTIALLY MATCHED status are now displayed on My Deliveries.
-- The 'Create New' button is added, and 'View Item' Icon is removed from the My Items page.
-- The 'Refresh' button is added for My Forecasts, My Deliveries, My Invoices and My Items.
+- The ‘Create New’ button is added, and ‘View Item’ Icon is removed from the My Items page.
+- The ‘Refresh’ button is added for My Forecasts, My Deliveries, My Invoices and My Items. 
 - Password set email is sent to the Subaccount user, once main supplier creates sub account user to the portal.
 - Each Notification is displayed with header.
+
 
 # **Prerequisites**
 
@@ -170,10 +173,11 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 
 - If multiple (more than 5) conditions are added or removed in a non-sequential manner, Filters may not fetch appropriate results.
 - Upload/Download Documents work only when IDM is Enabled
-- Order type ADN (Automatic Delivery note Generation) flag value saved in Magento only once during registration (assuming Order type configurations will not be changed in m3).
+- Order type ADN (Automatic Delivery note Generation) flag value saved in Magento only once during registration (assuming Order type configurations will not be changed in m3). 
 - Default configuration that comes with installation cannot be deleted.
 - The buyer should unassign the task, after adding notes to onboarding task.
 - Magento Admin user cannot send the invite to Supplier for onboarding.
+
 
 # **Known Issues**
 

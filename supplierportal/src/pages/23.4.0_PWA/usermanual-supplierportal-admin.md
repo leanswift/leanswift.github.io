@@ -12,8 +12,34 @@
 - [User Guide for Portal Admin](#user-guide-for-portal-admin)
   - [Log in](#log-in)
   - [Configuration](#configuration)
+    - [Menus](#menus)
+    - [eConnect-base Configuration](#econnect-base-configuration)
+      - [Service Configuration](#service-configuration)
+      - [Basic Data Configuration](#basic-data-configuration)
+      - [Authentication](#authentication)
+    - [Supplier Portal Settings](#supplier-portal-settings)
+      - [General Configuration](#general-configuration)
+      - [ION WorkFlow Configuration](#ion-workflow-configuration)
+      - [Metrics Display](#metrics-display)
+      - [On-Time Delivery KPI](#on-time-delivery-kpi)
+      - [Email templates](#email-templates)
+      - [Email Templates for PWA](#email-templates-for-pwa)
+      - [Cron](#cron)
+    - [Design Settings](#design-settings)
+      - [General](#general)
+      - [Frontend Color Codes](#frontend-color-codes)
+      - [Logo Image size](#logo-image-size)
+      - [Status Mapping](#status-mapping)
+        - [PO Status Mapping](#po-status-mapping)
+        - [Forecast Status Mapping](#forecast-status-mapping)
+      - [Filter and Search](#filter-and-search)
+        - [Purchaseorder Filter Mapping](#purchaseorder-filter-mapping)
+        - [Forecast Filter Mapping](#forecast-filter-mapping)
+    - [Supplier Invite](#supplier-invite)
+    - [Exit System](#exit-system)
   - [Additional Functionality](#additional-functionality)
-  - [ION Workflows](#ion-workflows)
+    - [IDM](#idm)
+
 
 # Overview
 
@@ -34,6 +60,7 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 </kbd>
 
 ## Features
+
 - Registration and Login
 - Account
   - My Information 
@@ -360,6 +387,76 @@ Provide an option to select a parameter, Based on selection the graph will be pl
 <kbd>
 <img alt="Email templates" src="../../images/usermanual/supplier-settings/email-templates.png">
 </kbd>
+
+#### **Email Templates for PWA**
+
+**Steps to create PWA Supplier Invite Email Templates.**
+
+1. Go to marketing -\> Email Templates
+2. Click on "Add New Template" button.
+3. Select "Supplier Portal Invite Mail" from template button and click on "load template" button.
+4. Give template name "Supplier Portal PWA Invite Mail". **(Note: you can use custom email template name also, but template name should be unique)**
+
+<kbd>
+<img alt="Email templates" src="../../images/pwa/user/new_email_template.png">
+</kbd>
+
+5. Search below line from template content and replace it.
+
+**search line:** \<a href="{{var this.getUrl($store,'supplierportal/account/create/',[\_query:[token:$invite\_token],\_nosid:1])}}" target="\_blank"\>{{trans "Create Supplier Account"}}\</a\>
+ **replace line:** \<a href="{{var this.getUrl($store,'create-password/')}}{{trans "?token=%token" token=$invite\_token}}" target="\_blank"\>{{trans "Create Supplier Account"}}\</a\>
+
+**Note:** If you are using external url for your pwa app than replace with pwa\_app\_line with your pwa app url.
+**replace line:** \<a href="pwa\_app\_url/create-password/{{trans "?token=%token" token=$invite\_token}}" target="\_blank"\>{{trans "Create Supplier Account"}}\</a\>
+
+<kbd>
+<img alt="Email templates" src="../../images/pwa/user/email_template_content.png">
+</kbd>
+
+1. After changing above line save template.
+
+**Steps to create PWA Supplier Reset Password Email Templates.**
+
+1. Go to marketing -\> Email Templates
+2. Click on "Add New Template" button.
+3. Select "Supplier Password Reset Confirmation" from template button and click on "load template" button.
+
+<kbd>
+<img alt="Email templates" src="../../images/pwa/user/email_template_content2.png">
+</kbd>
+
+4. Give template name "PWA Supplier Password Reset Confirmation" and search below line from template content and replace it. **(Note: you can use custom email template name also, but template name should be unique)**
+
+**search line:** \<a href="{{var this.getUrl($store,'customer/account/createPassword/',[\_query:[id:$customer.id, token:$customer.rp\_token],\_nosid:1])}}" target="\_blank"\>{{trans "Set a New Password"}}\</a\>
+**replace line:** \<a href="{{var this.getUrl($store,'reset-password')}}{{trans "?id=%id&token=%token" token=$customer.rp\_token id=$customer.id}}" target="\_blank"\>{{trans "Set a New Password"}}\</a\>
+
+**Note:** If you are using external url for your pwa app than replace with pwa\_app\_line with your pwa app url.
+**replace line:** \<a href=" pwa\_app\_url/reset-password/{{trans "?id=%id&token=%token" token=$customer.rp\_token id=$customer.id}}" target="\_blank"\>{{trans "Set a New Password"}}\</a\>
+
+<kbd>
+<img alt="Email templates" src="../../images/pwa/user/email_template_info.png">
+</kbd>
+
+5. After changing above line save template.
+
+**Steps to configure email templates**
+
+1. Go to store -\> configuration and select website from scope.
+
+<kbd>
+<img alt="Email templates" src="../../images/pwa/user/email_template_cnfiguration1.png">
+</kbd>
+
+2. Go to Supplier Portal -\> Setting -\> Email Templates -\> Supplier Template.
+3. Select Supplier Portal PWA Invite Mail (newly created Supplier portal pwa invite email template) from Supplier invite email dropdown.
+4. Select PWA Supplier Password Reset Confirmation (newly created pwa supplier password reset email template) from Reset Password Confirmation Dropdown.
+
+<kbd>
+<img alt="Email templates" src="../../images/pwa/user/email_template_cnfiguration2.png">
+</kbd>
+<br/>
+
+5. Save Configuration and clear cache.
 
 <br/>
 
