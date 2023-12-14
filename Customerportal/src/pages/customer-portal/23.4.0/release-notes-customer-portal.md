@@ -11,6 +11,7 @@
   - [**Overview**](#overview)
   - [**Environment Details**](#environment-details)
   - [**Standard Features**](#standard-features)
+  - [**Highlights**](#highlights)
   - [**Enhancements**](#enhancements)
   - [**Pre-Requisites**](#pre-requisites)
   - [**Bug Fixes**](#bug-fixes)
@@ -81,7 +82,7 @@
 - Settings and Configuration for Portal and M3 Connectivity
 - M3 User Roles Configuration, User Permissions and sub-account management
 
-## **HighLights**
+## **Highlights**
 
 ### **PWA Storefront Implementation:**
 
