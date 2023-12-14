@@ -2,6 +2,8 @@
 
 # **Version 23.4.0_PWA - User Manual – Supplier Onboarding - User**
 
+<div id=toc></div>
+
 # Table of contents
 
 - [Supplier Onboarding](#supplier-onboarding)
@@ -63,6 +65,12 @@ Clicking on Submit button brings a confirm popup and click 'OK' button to start 
 <img alt="metrics display" src="../../images/pwa/onboarding_user/SuccessMessage2.png"> 
 </kbd>
 
+<div align="right">
+<b>
+<a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 # **My Documents Task**
 
 Supplier can view **My Documents** (next to 'My Information') after submitting the My Information form.
@@ -114,4 +122,10 @@ Once your registration is complete, you will receive a confirmation email and a 
 <kbd>
 <img alt="metrics display" src="../../images/pwa/onboarding_user/AccontApproval.png"> 
 </kbd>
+
+<div align="right">
+<b>
+<a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
