@@ -89,7 +89,7 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 
 ## Point of Contact
 
-This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at http://www.leanswift.com or email [info@leanswift.com](mailto:info@leanswift.com).
+This document and the software it describe are provided by Wipro Limited. For additional information regarding support, licensing, functionality etc. please contact Wipro Limited, via contact form at http://www.leanswift.com or email [scott.roush@wipro.com](mailto:scott.roush@wipro.com).
 
 
 # User Guide for Portal Admin

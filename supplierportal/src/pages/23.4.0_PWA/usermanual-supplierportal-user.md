@@ -101,7 +101,7 @@ Refer [Release Notes ](https://github.com/leanswift/leanswift.github.io/blob/SP-
 
 ## **Point of Contact**
 
-This document and the software it describe are provided by Wipro Limited. For additional information regarding support, licensing, functionality etc. please contact Wipro Limited. via contact form at http://www.leanswift.com or email [scott.roush@wipro.com](mailto:scott.roush@wipro.com).
+This document and the software it describe are provided by Wipro Limited. For additional information regarding support, licensing, functionality etc. please contact Wipro Limited, via contact form at http://www.leanswift.com or email [scott.roush@wipro.com](mailto:scott.roush@wipro.com).
 
 # **User Guide for Suppliers**
 
