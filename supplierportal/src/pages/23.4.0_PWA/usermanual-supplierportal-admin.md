@@ -49,7 +49,9 @@ LeanSwift Supplier Portal is a supplier self-service web portal that enables eff
 
 This manual describes the admin configuration of LeanSwift Supplier Portal for Infor M3 and is meant for the Portal administrator.
 
+
 To view the user manual for Portal Users, click [here](./usermanual-supplierportal-user.md).
+
 
 ## Architecture
 
