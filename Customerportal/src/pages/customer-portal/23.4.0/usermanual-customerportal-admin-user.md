@@ -1,4 +1,4 @@
-# Version 23.4.0 - USer Manual - Customer Portal
+# Version 23.4.0 - User Manual - Customer Portal
 
 ![CustomerPortalHeader](/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
