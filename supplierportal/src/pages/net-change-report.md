@@ -1,4 +1,4 @@
-![Supplier portal banner](../../../images/banner-supplier-portal.jpg)
+<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
 # Supplier Portal-Net Change Report
 
