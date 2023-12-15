@@ -1,4 +1,4 @@
-![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+![Supplier portal banner](../../../../images/pwa/SupplierPortal_Banner.png)
 
 # **Supplier Portal**
 
