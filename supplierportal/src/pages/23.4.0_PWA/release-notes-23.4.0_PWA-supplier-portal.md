@@ -1,6 +1,4 @@
-<kbd>
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
-</kbd>
 
 # **Supplier Portal**
 

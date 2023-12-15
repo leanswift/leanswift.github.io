@@ -1,4 +1,4 @@
-![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
 # **Version 23.4.0_PWA - Supplier Onboarding - Admin**
 

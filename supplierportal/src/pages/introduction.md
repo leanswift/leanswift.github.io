@@ -1,6 +1,4 @@
-<kbd>
-<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
-</kbd>
+<img alt ="Supplier Portal Banner" src="../images/pwa/SupplierPortal_Banner.png">
 
 - ## [Product Overview](20.1.0/overview-supplier-portal.md)
 
