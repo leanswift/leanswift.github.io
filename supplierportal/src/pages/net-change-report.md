@@ -47,7 +47,7 @@ Notification from Infor is sent to the Buyer’s email when document uploaded by
 - The ‘Refresh’ button is added for My Forecasts, My Deliveries, My Invoices and My Items.  
 - Password set email is sent to the Subaccount user, once main supplier creates sub account user to the portal. 
 - Each Notification in Bell icon is displayed with header.
-- UI Enhancement for Portal Users.
+- UI Enhancement for Portal users.
 
 ## 23.3.0
 
