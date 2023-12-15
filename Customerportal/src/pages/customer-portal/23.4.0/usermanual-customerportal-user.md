@@ -1,4 +1,4 @@
-![CustomerPortalHeader](/Customerportal/src/images/customer-portal/front-end-user/23.4.0/CP_banner.jpg)
+![CustomerPortalHeader](/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
 # **Version 23.4.0 - User Manual – Customer Portal - User**
 
