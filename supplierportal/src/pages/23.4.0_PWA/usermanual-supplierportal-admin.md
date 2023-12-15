@@ -690,7 +690,7 @@ The section contains the filter limit, filter label mapping for the filter attri
 
 ### Supplier Invite
 
-To view the user manual for Supplier Onboarding click [here](https://github.com/leanswift/leanswift.github.io/blob/SP-2178/supplierportal/src/pages/23.4.0_PWA/usermanual-supplierportal-supplier-onboarding-admin.md#supplier-invite).
+To view the user manual for Supplier Onboarding click [here](./usermanual-supplierportal-supplier-onboarding-admin.md).
 
 ### Exit System
 
