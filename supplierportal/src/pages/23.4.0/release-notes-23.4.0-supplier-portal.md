@@ -2,7 +2,7 @@
 
 # **Supplier Portal**
 
-# **23.4.0_PWA**
+# **23.4.0**
 
 # **Release Notes**
 

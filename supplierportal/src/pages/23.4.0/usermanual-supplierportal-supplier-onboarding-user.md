@@ -1,6 +1,6 @@
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# **Version 23.4.0_PWA - User Manual – Supplier Onboarding - User**
+# **Version 23.4.0 - User Manual – Supplier Onboarding - User**
 
 <div id=toc></div>
 

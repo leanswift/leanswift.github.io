@@ -1,6 +1,6 @@
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# **Version 23.4.0_PWA - User Tracking - User Manual - Admin**
+# **Version 23.4.0 - User Tracking - User Manual - Admin**
 
 This an Add-on can be used along side Supplier Portal.
 

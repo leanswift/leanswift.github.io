@@ -4,7 +4,7 @@
 
 # Table of contents
 
-  - [23.4.0_PWA](#2340_pwa)
+  - [23.4.0](#2340)
     - [Enhancements](#enhancements)
   - [23.3.0](#2330)
     - [Enhancements](#enhancements)
@@ -28,7 +28,7 @@
   - [20.1.0](#2010)
     - [Features:](#features)
 
-## 23.4.0_PWA
+## 23.4.0
 
 ### **Enhancements**
 

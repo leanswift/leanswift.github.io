@@ -1,6 +1,6 @@
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# **Version 23.4.0_PWA - User Manual - Supplier User**
+# **Version 23.4.0 - User Manual - Supplier User**
 
 <div id=toc></div>
 
@@ -97,7 +97,7 @@ During setup, the Magento Admin is used to configure the supplier portal. Some o
 
 ## **Validated Versions**
 
-Refer [Release Notes ](https://github.com/leanswift/leanswift.github.io/blob/SP-2178/supplierportal/src/pages/23.4.0_PWA/release-notes-23.4.0_PWA-supplier-portal.md)
+Refer [Release Notes ](./release-notes-23.4.0-supplier-portal.md)
 
 ## **Point of Contact**
 

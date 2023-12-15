@@ -1,6 +1,6 @@
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# Version 23.4.0_PWA - Deliveries User Manual - Admin
+# Version 23.4.0 - Deliveries User Manual - Admin
 
 - This is a separate add-on and has to be used alongside Supplier Portal. 
 - 'My Deliveries' displays all the Delivery notes of the registered supplier. 
