@@ -1,4 +1,6 @@
-![LeanSwift Supplier Portal](../../../images/banner-supplier-portal.jpg)
+<kbd>
+<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
+</kbd>
 
 - ## [Product Overview](20.1.0/overview-supplier-portal.md)
 
