@@ -1,6 +1,6 @@
-![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# Version 23.4.0_PWA - User Manual - Admin User
+# Version 23.4.0 - User Manual - Admin User
 
 # Table of contents
 
@@ -89,7 +89,7 @@ The solution is built on **Magento Open Source Platform**. It interacts with **I
 
 ## Point of Contact
 
-This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc. via contact form at http://www.leanswift.com or email [info@leanswift.com](mailto:info@leanswift.com).
+This document and the software it describe are provided by Wipro Limited. For additional information regarding support, licensing, functionality etc. please contact Wipro Limited, via contact form at http://www.leanswift.com or email [scott.roush@wipro.com](mailto:scott.roush@wipro.com).
 
 
 # User Guide for Portal Admin
@@ -692,7 +692,7 @@ The section contains the filter limit, filter label mapping for the filter attri
 
 ### Supplier Invite
 
-To view the user manual for Supplier Onboarding click [here](https://github.com/leanswift/leanswift.github.io/blob/SP-2178/supplierportal/src/pages/23.4.0_PWA/usermanual-supplierportal-supplier-onboarding-admin.md#supplier-invite).
+To view the user manual for Supplier Onboarding click [here](./usermanual-supplierportal-supplier-onboarding-admin.md).
 
 ### Exit System
 

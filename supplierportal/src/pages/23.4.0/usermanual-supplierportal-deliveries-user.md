@@ -1,6 +1,6 @@
-![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# **Version 23.4.0_PWA - User Manual – Deliveries - User**
+# **Version 23.4.0 - User Manual – Deliveries - User**
 
 My Deliveries displays all the Delivery notes for Purchase Order (of order status \> 50)
 

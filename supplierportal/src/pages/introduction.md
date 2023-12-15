@@ -1,45 +1,45 @@
-![LeanSwift Supplier Portal](../../../images/banner-supplier-portal.jpg)
+<img alt ="Supplier Portal Banner" src="../images/pwa/SupplierPortal_Banner.png">
 
 - ## [Product Overview](20.1.0/overview-supplier-portal.md)
 
 - ## [Net Change Report](net-change-report.md)
 
 
-# Version 23.4.0_PWA
+# Version 23.4.0
 
-- ## [Release Notes](23.4.0_PWA/release-notes-23.4.0_PWA-supplier-portal.md)
+- ## [Release Notes](23.4.0/release-notes-23.4.0-supplier-portal.md)
 
-- ## [User Manual - Admin](23.4.0_PWA/usermanual-supplierportal-admin.md)
+- ## [User Manual - Admin](23.4.0/usermanual-supplierportal-admin.md)
 
-- ## [User Manual - User](23.4.0_PWA/usermanual-supplierportal-user.md)
+- ## [User Manual - User](23.4.0/usermanual-supplierportal-user.md)
 
-- ## [User Manual - Advise-Notify-Admin](23.4.0_PWA/usermanual-supplierportal-advise-notify-admin.md)
+- ## [User Manual - Advise-Notify-Admin](23.4.0/usermanual-supplierportal-advise-notify-admin.md)
 
-- ## [User Manual - Advise-Notify-User](23.4.0_PWA/usermanual-supplierportal-advise-notify-user.md)
+- ## [User Manual - Advise-Notify-User](23.4.0/usermanual-supplierportal-advise-notify-user.md)
 
-- ## [User Manual - Deliveries-Admin](23.4.0_PWA/usermanual-supplierportal-deliveries-admin.md)
+- ## [User Manual - Deliveries-Admin](23.4.0/usermanual-supplierportal-deliveries-admin.md)
 
-- ## [User Manual - Deliveries-User](23.4.0_PWA/usermanual-supplierportal-deliveries-user.md)
+- ## [User Manual - Deliveries-User](23.4.0/usermanual-supplierportal-deliveries-user.md)
 
-- ## [User Manual - Invoice-Admin](23.4.0_PWA/usermanual-supplierportal-invoice-admin.md)
+- ## [User Manual - Invoice-Admin](23.4.0/usermanual-supplierportal-invoice-admin.md)
 
-- ## [User Manual - Invoice-User](23.4.0_PWA/usermanual-supplierportal-invoice-user.md)
+- ## [User Manual - Invoice-User](23.4.0/usermanual-supplierportal-invoice-user.md)
 
-- ## [User Manual - Manage-Subaccount-Admin](23.4.0_PWA/usermanual-supplierportal-manage_subaccount-admin.md)
+- ## [User Manual - Manage-Subaccount-Admin](23.4.0/usermanual-supplierportal-manage_subaccount-admin.md)
 
-- ## [User Manual - Manage-Subaccount-User](23.4.0_PWA/usermanual-supplierportal-manage_subaccount-user.md)
+- ## [User Manual - Manage-Subaccount-User](23.4.0/usermanual-supplierportal-manage_subaccount-user.md)
 
-- ## [User Manual - User-Tracking-Admin](23.4.0_PWA/usermanual-supplierportal-user_tracking-admin.md)
+- ## [User Manual - User-Tracking-Admin](23.4.0/usermanual-supplierportal-user_tracking-admin.md)
 
-- ## [User Manual - User-Tracking-User](23.4.0_PWA/usermanual-supplierportal-user_tracking-user.md)
+- ## [User Manual - User-Tracking-User](23.4.0/usermanual-supplierportal-user_tracking-user.md)
 
-- ## [User Manual - Supplier-Onboarding-Admin](23.4.0_PWA/usermanual-supplierportal-supplier-onboarding-admin.md)
+- ## [User Manual - Supplier-Onboarding-Admin](23.4.0/usermanual-supplierportal-supplier-onboarding-admin.md)
 
-- ## [User Manual - Supplier-Onboarding-User](23.4.0_PWA/usermanual-supplierportal-supplier-onboarding-user.md)
+- ## [User Manual - Supplier-Onboarding-User](23.4.0/usermanual-supplierportal-supplier-onboarding-user.md)
 
-- ## [User Manual - Supplier-Item-Management-User](23.4.0_PWA/usermanual-supplierportal-item-management-user.md)
+- ## [User Manual - Supplier-Item-Management-User](23.4.0/usermanual-supplierportal-item-management-user.md)
 
-- ## [User Manual - Supplier-Item-Management-Admin](23.4.0_PWA/usermanual-supplierportal-item-management-admin.md)
+- ## [User Manual - Supplier-Item-Management-Admin](23.4.0/usermanual-supplierportal-item-management-admin.md)
 
 
 # Version 23.3.0

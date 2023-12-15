@@ -1,6 +1,6 @@
-![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# Version 23.4.0_PWA - User Manual - Supplier Item Management - Admin
+# Version 23.4.0 - User Manual - Supplier Item Management - Admin
 
 <div id=toc></div>
 

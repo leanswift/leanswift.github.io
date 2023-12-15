@@ -1,6 +1,6 @@
-![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# **Version 23.4.0_PWA - User Manual - Supplier User**
+# **Version 23.4.0 - User Manual - Supplier User**
 
 <div id=toc></div>
 
@@ -55,7 +55,7 @@ LeanSwift Supplier Portal is a supplier self-service web portal that enables eff
 
 This manual describes the frontend look and feel of LeanSwift Supplier Portal for Infor M3 and is meant for the Portal user (Supplier Representative).
 
-To view the user manual for Portal admin, [click here](https://github.com/leanswift/leanswift.github.io/blob/SP-2178/supplierportal/src/pages/23.4.0_PWA/usermanual-supplierportal-admin.md).
+To view the user manual for Portal admin, click [here](./usermanual-supplierportal-admin.md).
 
 ## **Architecture**
 
@@ -97,11 +97,11 @@ During setup, the Magento Admin is used to configure the supplier portal. Some o
 
 ## **Validated Versions**
 
-Refer [Release Notes ](https://github.com/leanswift/leanswift.github.io/blob/SP-2178/supplierportal/src/pages/23.4.0_PWA/release-notes-23.4.0_PWA-supplier-portal.md)
+Refer [Release Notes ](./release-notes-23.4.0-supplier-portal.md)
 
 ## **Point of Contact**
 
-This document and the software it describe are provided by Wipro Limited. For additional information regarding support, licensing, functionality etc. please contact Wipro Limited. via contact form at http://www.leanswift.com or email [scott.roush@wipro.com](mailto:scott.roush@wipro.com).
+This document and the software it describe are provided by Wipro Limited. For additional information regarding support, licensing, functionality etc. please contact Wipro Limited, via contact form at http://www.leanswift.com or email [scott.roush@wipro.com](mailto:scott.roush@wipro.com).
 
 # **User Guide for Suppliers**
 

@@ -1,8 +1,8 @@
-![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
+<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
 # **Supplier Portal**
 
-# **23.4.0_PWA**
+# **23.4.0**
 
 # **Release Notes**
 
