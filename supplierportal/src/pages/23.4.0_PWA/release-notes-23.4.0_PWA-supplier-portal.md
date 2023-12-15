@@ -165,6 +165,10 @@ Notification from Infor is sent to the Buyer’s email when document uploaded by
 - Each Notification in Bell icon is displayed with header.
 - UI Enhancement for Portal Users.
 
+<kbd>
+<img alt ="Supplier UI" src="../../images/pwa/PWA_UI.jpg">
+</kbd>
+
 # **Prerequisites**
 
 IDM add-on should be configured for My Purchase orders data to be displayed in supplier portal.
