@@ -11,6 +11,7 @@
 - [Overview](#overview)
 - [Environment Details](#environment-details)
 - [Standard Features](#standard-features)
+- [Highlights](#highlights)
 - [Supported Devices](#supported-devices)
 - [Technical Features](#technical-features)
 - [Enhancements](#enhancements)
