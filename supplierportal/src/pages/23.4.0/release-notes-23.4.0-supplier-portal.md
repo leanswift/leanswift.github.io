@@ -11,6 +11,7 @@
 - [Overview](#overview)
 - [Environment Details](#environment-details)
 - [Standard Features](#standard-features)
+- [Highlights](#highlights)
 - [Supported Devices](#supported-devices)
 - [Technical Features](#technical-features)
 - [Enhancements](#enhancements)
@@ -135,6 +136,11 @@ This Add-on is to configure the allowed number of Registrations (supplier admin)
 - View Delivery Performance metrics.
 - View Purchase Price Variance metrics.
 
+# **Highlights**
+
+- Portal user experience is enhanced with PWA and GraphQL implementation.
+- Portal is now compatible with Mobile devices(Android and iOS)
+
 # **Supported Devices** 
 
 - Desktop- All Browsers 
@@ -181,6 +187,7 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 - Default out of the box configuration that comes with installation cannot be deleted. 
 - The buyer should unassign the task, after adding notes to supplier onboarding task. 
 - Magento Admin user cannot send the invite to Supplier for onboarding. 
+- Portal will auto logout after an hour.
 
 
 # **Known Issues**
