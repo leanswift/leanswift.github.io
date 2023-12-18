@@ -143,9 +143,9 @@ This Add-on is to configure the allowed number of Registrations (supplier admin)
 
 # **Supported Devices** 
 
-- Desktop- All Browsers 
-- Android version - 11,12,13 
-- IOS – Testing InProgress 
+- **Desktop**- All Browsers 
+- **Android version** - 11,12,13 
+- **IOS** – Test On Demand 
 
 # **Technical Features**
 
