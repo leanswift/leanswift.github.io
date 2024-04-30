@@ -1,5 +1,5 @@
 
-# **eConnect 23.2.0**
+# **eConnect 24.1.0**
 
 # Table of contents
 
