@@ -55,7 +55,6 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 ## **Compatibility Fixes**
 
-- Resolved the unsupported operand type error during Order Creation cron.
 - Resolved the unsupported operand type error encountered during Order Creation cron.
 - Addressed the error 'Undefined array key STAT' that occurred during Order Creation.
 - Updated the customer PO reference number in order history to resolve issues.
