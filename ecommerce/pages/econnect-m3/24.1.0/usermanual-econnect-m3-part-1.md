@@ -19,9 +19,8 @@
 - If configuration is set to "NO” the customer will be created with unwanted mail address like "[ERPnumber@someone.com]"(mailto:ERPnumber@someone.com)
 
 <kbd>
-<img alt ="Skip Account creation without email" src="ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email.jpg">
+<img alt ="Skip Account creation without email" src=" ../images/econnect-user-manual-ion-part1/skip-account-creation-without-email.jpg ">
 </kbd>
-ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email.jpg
 
 ### User Manual for 23.2.0 is same as 22.2.1.
 
