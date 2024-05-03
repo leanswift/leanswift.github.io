@@ -7,8 +7,6 @@
   - [Prerequisites](#prerequisites)
   - [New in this Version](#new-in-this-version)
 
-## **Prerequisites**
-
 
 ## **New in this Version**
 
@@ -20,6 +18,12 @@
 
 
 ![skip account creation without email](../../../../ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email.png)
+
+
+- Display temporary and final order number in admin order view page.
+
+
+   ![display temporary and final order number](../../../../ecommerce/images/econnect-user-manual-ion-part1/temp-and-final-order-number.png)
 
 
 ### User Manual for 24.1.0 is same as 23.2.0
