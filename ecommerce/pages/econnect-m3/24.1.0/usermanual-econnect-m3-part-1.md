@@ -18,7 +18,7 @@
 - Once the email address is given for customer in M3 it will generate a BOD and the customer will reflect in Customer Page in Magento.
 - If configuration is set to "NO” the customer will be created with unwanted mail address like "[ERPnumber@someone.com](mailto:ERPnumber@someone.com)"
 
-[Skip Account creation without Email](https://github.com/leanswift/leanswift.github.io/images/econnect-user-manual-ion-part1/skip-account-creation-without-email.jpg)
+![Skip Account creation without Email](https://github.com/leanswift/leanswift.github.io/images/econnect-user-manual-ion-part1/skip-account-creation-without-email.jpg)
 
 
 ### User Manual for 23.2.0 is same as 22.2.1.
