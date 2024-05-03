@@ -51,7 +51,6 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 ## Highlight
 
 - eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too).
-- Zend framework dependency was completely replaced with Laminas.
 
 ## **Compatibility Fixes**
 
@@ -70,10 +69,6 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 - Added features to skip account creation without an email address to enhance functionality.
 - Added temporary and final order numbers in the admin order view page to provide additional information.
-
-## Other Fixes
-
-- Resolved the error 'Undefined array key STAT' thrown during Order Creation
 
 ## ION Package Update
 
