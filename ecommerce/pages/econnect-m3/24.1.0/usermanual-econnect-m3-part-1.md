@@ -7,6 +7,12 @@
   - [Prerequisites](#prerequisites)
   - [New in this Version](#new-in-this-version)
 
+## Prerequisites
+
+- From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' in order to make successful connection with the Infor ION API.
+
+	![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
+
 
 ## **New in this Version**
 
