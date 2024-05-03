@@ -19,7 +19,7 @@
 - If configuration is set to "NO” the customer will be created with unwanted mail address like "[ERPnumber@someone.com](mailto:ERPnumber@someone.com)"
 
 
-![Skip Account Creation without Email](../../../../images/econnect-user-manual-ion-part1/skip-account-creation-without-email.png)
+![skip account creation without email](../../../../ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email.png)
 
 
 ### User Manual for 24.1.0 is same as 23.2.0
