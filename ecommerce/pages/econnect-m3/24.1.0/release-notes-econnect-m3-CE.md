@@ -17,7 +17,7 @@
 | **Software Name**   | **Version** |
 | --------------------| ----------- |
 | Magento Open Source | 2.4.6       |
-| eConnect Community  | 23.2.0      |
+| eConnect Community  | 24.1.0      |
 | eConnect Base       | 6.3.0       |
 | PHP version         | 8.1.6       |
 | RabbitMQ            | 3.7.28      |
@@ -26,7 +26,7 @@
 
 # Standard Features
 
-All the standard functionalities of core eConnect are supported in v23.2.0, which includes the following:
+All the standard functionalities of core eConnect are supported in v24.1.0, which includes the following:
 
 - Customer Registration
 - Customer Addition
@@ -51,12 +51,26 @@ All the standard functionalities of core eConnect are supported in v23.2.0, whic
 ## Highlight
 
 - eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too).
-
 - Zend framework dependency was completely replaced with Laminas.
 
 ## **Compatibility Fixes**
 
-- Resolved the unsupported operand type error during Order Creation cron
+- Resolved the unsupported operand type error during Order Creation cron.
+- Resolved the unsupported operand type error encountered during Order Creation cron.
+- Addressed the error 'Undefined array key STAT' that occurred during Order Creation.
+- Updated the customer PO reference number in order history to resolve issues.
+- Fixed the URL key generation for products with name, SKU, and randomNumber to ensure compatibility.
+- Addressed BOD XML path changes for invoice quantity to maintain compatibility.
+- Fixed issues related to invoice and shipment quantity to ensure compatibility.
+- Added validation for customer number during order sync with M3 and displayed actual error messages.
+- Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
+- Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
+- Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
+
+## **Enhancements**
+
+- Added features to skip account creation without an email address to enhance functionality.
+- Added temporary and final order numbers in the admin order view page to provide additional information.
 
 ## Other Fixes
 
@@ -65,14 +79,15 @@ All the standard functionalities of core eConnect are supported in v23.2.0, whic
 ## ION Package Update
 
 - Updated ION Package version to 3.2.1 with the below fix
-	- Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
+- Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
 
 ## Point of Contact
 
 - [prabhu.manoharan3@wipro.com](mailto:prabhu.manoharan3@wipro.com)
 - [deepthi.tadikamalla@wipro.com](mailto:deepthi.tadikamalla@wipro.com)
 - [narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com)
-- [challa.anjana@wipro.com](mailto:challa.anjana@wipro.com)
+- [saurabh.gupta77@wipro.com](mailto:saurabh.gupta77@wipro.com)
+- [shoubhik.ghosh@wipro.com](mailto:shoubhik.ghosh@wipro.com)
 - [kalaivani.nagarajan1@wipro.com](mailto:kalaivani.nagarajan1@wipro.com)
 
 
