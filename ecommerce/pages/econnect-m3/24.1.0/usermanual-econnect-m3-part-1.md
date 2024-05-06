@@ -16,11 +16,11 @@
 
 ## **New in this Version**
 
-- Configuration was implemented under "Customer Addition/Synchronization" to restrict customer creation with different Emai IDs (i.e. [ERPnumber@someone.com](mailto:ERPnumber@someone.com))
+- Implemented Configuration under "**Customer Addition/Synchronization**" to restrict customer creation with different Emai IDs (i.e. [ERPnumber@someone.com](mailto:ERPnumber@someone.com))
 - Navigate to Leanswift -> Econnect ION -> Configuration -> Switch to the required Website -> Customer Addition and Synchronization. 
-- If a configuration is set to “YES” the customer creation will be skipped. When the email ID is not provided.
-- Once the email address is given to the customer in M3 it will generate a BOD and the customer will reflect in the Customer Page in Magento.
-- If the configuration is set to "NO” the customer will be created with an anonymous mail address like "[ERPnumber@someone.com](mailto:ERPnumber@someone.com)"
+- If the configuration **Skip Account Creation Without Email** is set to “YES” the customer creation will be skipped When the email ID is not provided.
+- Once the email address is updated to the customer in M3 it will generate a BOD and the customer will reflect in the Customer Page in Magento.
+- If the configuration **Skip Account Creation Without Email** is set to "NO” the customer will be created with an anonymous mail address like "[ERPnumber@someone.com](mailto:ERPnumber@someone.com)"
 
 
 ![skip account creation without email](../../../../ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email.png)
