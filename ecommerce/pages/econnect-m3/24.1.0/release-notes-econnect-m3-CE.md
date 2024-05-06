@@ -80,6 +80,7 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 - [prabhu.manoharan3@wipro.com](mailto:prabhu.manoharan3@wipro.com)
 - [deepthi.tadikamalla@wipro.com](mailto:deepthi.tadikamalla@wipro.com)
 - [narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com)
+- [silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com)
 - [saurabh.gupta77@wipro.com](mailto:saurabh.gupta77@wipro.com)
 - [kalaivani.nagarajan1@wipro.com](mailto:kalaivani.nagarajan1@wipro.com)
 
