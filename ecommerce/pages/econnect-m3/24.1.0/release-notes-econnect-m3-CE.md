@@ -7,6 +7,7 @@
 - [Standard Features](#standard-features)
 - [Prerequisites](#prerequisites)
 - [Highlight](#highlight)
+- [Enhancements](#enhancements)
 - [Compatibility Fixes](#compatibility-fixes)
 - [ION Package Update](#ion-package-update)
 - [Point of Contact](#point-of-contact)
@@ -51,6 +52,11 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 - eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too).
 
+## **Enhancements**
+
+- Added features to skip account creation without an email address to enhance functionality.
+- Added temporary and final order numbers in the admin order view page to provide additional information.
+
 ## **Compatibility Fixes**
 
 - Resolved the unsupported operand type error encountered during Order Creation cron.
@@ -63,11 +69,6 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 - Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
 - Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
 - Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
-
-## **Enhancements**
-
-- Added features to skip account creation without an email address to enhance functionality.
-- Added temporary and final order numbers in the admin order view page to provide additional information.
 
 ## ION Package Update
 
