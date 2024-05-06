@@ -59,7 +59,7 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 - Fixed the URL key generation for products with name, SKU, and randomNumber to ensure compatibility.
 - Addressed BOD XML path changes for invoice quantity to maintain compatibility.
 - Fixed issues related to invoice and shipment quantity to ensure compatibility.
-- Added validation for customer number during order sync with M3 and displayed actual error messages.
+- Added validation for customer numbers during order sync with M3 and displayed actual error messages.
 - Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
 - Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
 - Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
