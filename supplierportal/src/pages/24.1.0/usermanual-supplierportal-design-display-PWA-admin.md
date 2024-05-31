@@ -1,6 +1,6 @@
 ﻿<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# *Version 24.1.0 - Theme Configuration - Admin*
+# Version 24.1.0 - Design/dispaly PWA User Manual - Admin
 
 This is a separate Add-on which can be used along Supplier Portal and any other extension.
 
@@ -12,7 +12,7 @@ There are three types of theme configuration.
 2. Dark Theme
 3. Custom Theme 
 
-**Light Theme:** 
+## Light Theme:
 
 This is bythe default theme which is pre-configured whilewith initial installation of Supplier Portal. 
 
@@ -29,11 +29,11 @@ Under Theme Section, Choose Theme dropdown as ‘Light Theme’.
 Supplier Portal theme looks as below,
 
 <kbd>
-<img alt="Portal Light Theme" src="../../images/pwa/design_display_PWA/portal_light_theme.png"> 
+<img alt="Portal Light Theme" src="../../images/pwa/design_display_PWA/portal_light-theme.png"> 
 </kbd>
 
 
-**Dark Theme:** 
+## Dark Theme:
 
 Navigate to leanswift -> supplier Portal -> Design/Display PWA -> Main website.
 
@@ -51,14 +51,14 @@ In Dark theme we can configure major two fields,
 <img alt="Dark Theme Activelink" src="../../images/pwa/design_display_PWA/dark_theme_frontend_activelink.png"> 
 </kbd>
 
-1. **Button Colour:** Color code configured is applied to all the buttons in Portal such as: Sign-in button at login page, Reset Password, Create New Account, Confirm, Notify, Advise, My Settings ‘Save’ etc. 
+2. **Button Colour:** Color code configured is applied to all the buttons in Portal such as: Sign-in button at login page, Reset Password, Create New Account, Confirm, Notify, Advise, My Settings ‘Save’ etc. 
 
 <kbd>
 <img alt="Dark Theme Button color" src="../../images/pwa/design_display_PWA/dark_theme_frontend_buttoncolor.png"> 
 </kbd>
 
 
-**Custom Theme:** 
+## Custom Theme:
 
 Navigate to leanswift -> supplier Portal -> Design/Display PWA -> Main website.
 
