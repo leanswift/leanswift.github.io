@@ -1,6 +1,6 @@
 ﻿<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# Version 24.1.0 - Design/dispaly PWA User Manual - Admin
+# Version 24.1.0 - Design/Display PWA User Manual - Admin
 
 This is a separate Add-on which can be used along Supplier Portal and any other extension.
 
