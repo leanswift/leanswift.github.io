@@ -1,10 +1,10 @@
 ﻿<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# Version 24.1.0 - Design/Display PWA User Manual - Admin
+# Version 24.1.0 - Design/Display pwa User Manual
 
 This is a separate Add-on which can be used along Supplier Portal and any other extension.
 
-Admin user can configure the portal theme for suppliers registered to Supplier Portal.
+Admin user can configure the portal theme of supplier portal  for supplier's to experience the user interface.
 
 There are three types of theme configuration.
 
@@ -14,7 +14,7 @@ There are three types of theme configuration.
 
 ## Light Theme:
 
-This is bythe default theme which is pre-configured whilewith initial installation of Supplier Portal. 
+This is the default theme which is pre-configured with initial installation of Supplier Portal. 
 
 Theme can be configured by,
 
@@ -45,13 +45,15 @@ Under Theme Section, Choose Theme dropdown as ‘Dark Theme’.
 
 In Dark theme we can configure major two fields,
 
-1. **Active Menu Color / Icon Colour**: Color code configured here is applied to highlight the text of menu selected in Left side menu and all the icons in Portal such as: My Purchase Orders, Icons on the right -side menu and Totals stats Icons in every page. 
+1. **Active Menu Color / Icon Colour**: Color code configured here is applied to highlight the text of menu selected in Left side menu and all the icons in Portal.
+       Ex:My Purchase Orders, Icons on the right -side menu and Totals stats Icons in every page. 
 
 <kbd>
 <img alt="Dark Theme Activelink" src="../../images/pwa/design_display_PWA/dark_theme_frontend_activelink.png"> 
 </kbd>
 
-2. **Button Colour:** Color code configured is applied to all the buttons in Portal such as: Sign-in button at login page, Reset Password, Create New Account, Confirm, Notify, Advise, My Settings ‘Save’ etc. 
+2. **Button Colour:** Color code configured is applied to all the buttons in Portal. 
+       Ex: Sign-in button at login page, Reset Password, Create New Account, Confirm, Notify, Advise, My Settings ‘Save’ etc. 
 
 <kbd>
 <img alt="Dark Theme Button color" src="../../images/pwa/design_display_PWA/dark_theme_frontend_buttoncolor.png"> 
@@ -70,13 +72,14 @@ Under Theme Section, Choose Theme dropdown as ‘CustomTheme’
 
 Custom theme has following fields to be configured:
 
-1. **Icon Colour:** color is applied to Filter fields add button border ( "+") colour, filter delete ("-") sign color in filters in all pages, status icon colour, Total Stats Icons, Attribute selected sign colour
+1. **Icon Colour:** color is applied to Filter fields add button border ( "+") colour, filter delete ("-") sign color in filters in all pages, Total Stats Icons, Filter attribute selected sign colour.
 
 <kbd>
 <img alt="Custom Theme Icon Color" src="../../images/pwa/design_display_PWA/custom_theme_icon_color.png"> 
 </kbd>
 
-2. **Button Colour**: All the buttons in Portal will appear as configured colour. Ex: Sign-in button, Reset Password, Create New Account, Confirm, Notify, Advise, My Settings ‘Save’ etc. 
+2. **Button Colour**: All the buttons in Portal will appear as configured colour. 
+       Ex: Sign-in button, Reset Password, Create New Account, Confirm, Notify, Advise, My Settings ‘Save’ etc. 
 
 <kbd>
 <img alt="Custom Theme Button Color" src="../../images/pwa/design_display_PWA/custom_theme_button_color.png"> 
@@ -95,7 +98,7 @@ Custom theme has following fields to be configured:
 </kbd>
 
 
-5. **Left Side Menu Active Link Colour**: Color code configured here is applied to highlight the text of menu selected in Left side menu highlighted text. 
+5. **Left Side Menu Active Link Colour**: Color code configured here is applied to highlight the text of menu selected in Left side menu. 
 
 <kbd>
 <img alt="Left Side Menu Active Link Colour" src="../../images/pwa/design_display_PWA/custom_theme_leftmenu_activelink_color.png"> 
