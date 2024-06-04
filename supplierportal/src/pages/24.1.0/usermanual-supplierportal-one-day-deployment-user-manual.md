@@ -70,7 +70,7 @@ When supplier portal is initially installed there are some default values which 
 </kbd>
 
 
-## IDM Configuration
+## Import IDM Configuration
 
 - For IDM Configuration navigate to Leanswift -> Supplier portal -> Settings
 - Expand the menu Leanswift -> Initial load / Import -> default config -> Import IDM Configuration -> Click on Import Button.
@@ -91,7 +91,7 @@ When supplier portal is initially installed there are some default values which 
 
 If there are any changes in Document Type and Attribute Type in Infor M3 once the “Reset” is clicked it will fetch the new added values from Infor M3.
 
-## Supplier Portal Configurable
+## Import Supplier Portal Configuration
 
 - Supplier Portal configuration is website specific.
 - Navigate to Leanswift -> Supplier portal -> Settings.
@@ -102,7 +102,7 @@ If there are any changes in Document Type and Attribute Type in Infor M3 once th
 </kbd>
 
 - When “Import” button is clicked it will retrieve the settings from M3 and configure itself using the default values which are given program.
-- ` `Upon uploading or loading the “config.csv”, it will retrieve the values from M3 and configure accordingly.
+- Upon uploading or loading the “config.csv”, it will retrieve the values from M3 and configure accordingly.
 - Fields of Supplier Onboarding (M3 supplier template, SP Prefix, M3 Language list, M3 Order Currency List, M3 payment terms, M3 Fright Terms, M3 Delivery Terms list, M3 Payment Method List, M3 Packing terms list, M3 Monitoring class list, M3 delivery method list) will be Imported and overridden with new values. 
 - Remaining values of Supplier Portal Settings will be given in the program by default. 
 
@@ -114,7 +114,7 @@ If there are any changes in Document Type and Attribute Type in Infor M3 once th
 <img alt="Supplier portal import fields" src="../../images/pwa/one_day_deployment/supplier_portal_fields2.png"> 
 </kbd>
 
-## Item Management configuration
+## Import Item Management configuration
 
 - Item Management Configuration is website specific.
 - Navigate to Leanswift -> Supplier portal -> Settings.
@@ -189,7 +189,8 @@ To verify the import history, navigate to Leanswift -> Econnect Base -> Import H
 
 - Upload ION components are used to import the Connection Points, Data Flows, Workflows to ION from admin portal.
 - Navigate to Leanswift ->Econnect base -> Upload ION components.
-- When initial installation of supplier these values will be Empty once the config.csv file is uploaded then the values will be auto populated. 
+- When initial installation of supplier portal some values will be Empty once the config.csv file is uploaded with client specific values then those values will auto populated. 
+- Initialy Proxy URL, ION connect /Process model URL, Encoded service account, Encoded Service Account values will be "Empty".
 - The Proxy URL, ION connect /Process model URL, Encoded service account, Encoded Service Account values are updated from the “config.csv” file.
 
 **Prerequisites**: The file format must be in zip or Json file only.  
@@ -225,10 +226,10 @@ To verify the import history, navigate to Leanswift -> Econnect Base -> Import H
 
 - Once the file is uploaded, a success message is displayed. The activated data flow can be verified in M3 under ION Desk -> Connect -> Data flows.
 - List of data flows are: 
-1) Supplier\_Portal\_M3\_Invoice\_Show\_Sync\_BOD
-2) Supplier\_Portal\_M3\_PO\_Show\_Sync\_BOD
-3) Supplier\_Portal\_M3\_Supplier\_Show\_Sync\_BOD
-4) Supplier\_Portal\_M3\_Sync\_BOD
+	1) Supplier\_Portal\_M3\_Invoice\_Show\_Sync\_BOD
+	2) Supplier\_Portal\_M3\_PO\_Show\_Sync\_BOD
+	3) Supplier\_Portal\_M3\_Supplier\_Show\_Sync\_BOD
+	4) Supplier\_Portal\_M3\_Sync\_BOD
 
 <kbd>
 <img alt="M3 Data Flows" src="../../images/pwa/one_day_deployment/m3_data_flows.png"> 
@@ -244,14 +245,14 @@ To verify the import history, navigate to Leanswift -> Econnect Base -> Import H
 
 - Once the file is uploaded, a success message is displayed and work flow is activated in M3. The activated work flow can be verified in Infor under ION Desk -> Monitors & Workflows -> Workflows. 
 - List of Workflows are:
-1) supplier\_access\_approval
-2) supplier\_onboarding\_idm\_notification
-3) supplier\_portal\_item\_creation
-4) supplier\_portal\_onboard
-5) supplier\_portal\_onboard\_document
-6) supplier\_portal\_supplier\_connect\_item
-7) supplier\_portal\_supplier\_connect\_item\_updation
-8) confirm\_po\_approval
+	1) supplier\_access\_approval
+	2) supplier\_onboarding\_idm\_notification
+	3) supplier\_portal\_item\_creation
+	4) supplier\_portal\_onboard
+	5) supplier\_portal\_onboard\_document
+	6) supplier\_portal\_supplier\_connect\_item
+	7) supplier\_portal\_supplier\_connect\_item\_updation
+	8) confirm\_po\_approval
 
 <kbd>
 <img alt="M3 Work Flow" src="../../images/pwa/one_day_deployment/m3_work_flows.png"> 
