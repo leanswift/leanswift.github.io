@@ -190,7 +190,7 @@ To verify the import history, navigate to Leanswift -> Econnect Base -> Import H
 - Upload ION components are used to import the Connection Points, Data Flows, Workflows to ION from admin portal.
 - Navigate to Leanswift ->Econnect base -> Upload ION components.
 - When initial installation of supplier portal some values will be Empty once the config.csv file is uploaded with client specific values then those values will auto populated. 
-- Initialy Proxy URL, ION connect /Process model URL, Encoded service account, Encoded Service Account values will be "Empty".
+- Initially  Proxy URL, ION connect /Process model URL, Encoded service account, Encoded Service Account values will be "Empty".
 - The Proxy URL, ION connect /Process model URL, Encoded service account, Encoded Service Account values are updated from the “config.csv” file.
 
 **Prerequisites**: The file format must be in zip or Json file only.  
@@ -262,7 +262,7 @@ To verify the import history, navigate to Leanswift -> Econnect Base -> Import H
 
 - <a name="_hlk164779897"></a>To verify the upload history of ION components, navigate to Leanswift ->Econnect Base -> ION Component Upload history.   
 - If the Job ID is 201 means the connection is successfully done.
-- If the Job ID is 400 means invalid input <a name="_int_glqdya80"></a>work flow, workflow already exists, or workflow name is missing, and it is displayed on the configuration page also.
+- If the Job ID is 400 means invalid input work flow, workflow already exists, or workflow name is missing, and it is displayed on the configuration page also.
 - If the Job ID is 500 means Server Error 
 - If the Job ID is 403 means No Authorization.
 

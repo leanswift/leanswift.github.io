@@ -18,7 +18,7 @@ This is the default theme which is pre-configured with initial installation of S
 
 Theme can be configured by,
 
-Navigate to Leanswift -> Supplier Portal -> Design/Display PWA -> Main website.
+Navigate to Leanswift -> Supplier Portal -> Design/Display PWA -> Associate website.
 
 Under Theme Section, Choose Theme dropdown as ‘Light Theme’.
 
@@ -35,7 +35,7 @@ Supplier Portal theme looks as below,
 
 ## Dark Theme:
 
-Navigate to leanswift -> supplier Portal -> Design/Display PWA -> Main website.
+Navigate to leanswift -> supplier Portal -> Design/Display PWA -> Associate website.
 
 Under Theme Section, Choose Theme dropdown as ‘Dark Theme’.
 
@@ -64,7 +64,7 @@ In Dark theme we can configure major two fields,
 
 ## Custom Theme:
 
-Navigate to leanswift -> supplier Portal -> Design/Display PWA -> Main website.
+Navigate to leanswift -> supplier Portal -> Design/Display PWA -> Associate website.
 
 Under Theme Section, Choose Theme dropdown as ‘CustomTheme’
 
@@ -112,5 +112,4 @@ Custom theme has following fields to be configured:
 <kbd>
 <img alt="Total Stats Background Colour" src="../../images/pwa/design_display_PWA/custom_theme_total_stats_background_color.png"> 
 </kbd>
-
 
