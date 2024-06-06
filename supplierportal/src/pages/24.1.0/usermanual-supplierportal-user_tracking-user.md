@@ -1,6 +1,6 @@
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# **Version 24.1.0 - User Tracking - User Manual - User**
+# **Version 24.2.0 - User Tracking - User Manual - User**
 
 Based on the number of allowed user in the configuration for ‘Allowed Registered Admin User Count’, an error message is displayed when ‘Create Account’’ is clicked. 
 

@@ -1,6 +1,6 @@
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# **Version 24.1.0 - Advise/Notify User Manual - User**
+# **Version 24.2.0 - Advise/Notify User Manual - User**
 
 <div id=toc></div>
 

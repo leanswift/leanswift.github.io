@@ -2,7 +2,7 @@
 
 # **Supplier Portal**
 
-# **23.4.0**
+# **24.2.0**
 
 # **Release Notes**
 
@@ -51,7 +51,7 @@
 | Node JS |  16.19.0 | 
 | Yarn | 1.22.19 | 
 
-# **Standard Features**
+# Standard Features
 
 This version includes all the standard features as mentioned below:
 
@@ -136,23 +136,23 @@ This Add-on is to configure the allowed number of Registrations (supplier admin)
 - View Delivery Performance metrics.
 - View Purchase Price Variance metrics.
 
-# **Highlights**
+# Highlights
 
 - Portal user experience is enhanced with PWA and GraphQL implementation.
 - Portal is now compatible with Mobile devices(Android and iOS)
 
-# **Supported Devices** 
+# Supported Devices 
 
 - **Desktop**- All Browsers 
 - **Android version** - 11,12,13 
 - **IOS** – Test On Demand 
 
-# **Technical Features**
+# Technical Features
 
 - Magento PWA using REACT JS 
 - Graphql 
 
-# **Enhancements**
+# Enhancements
 
 - Buyer can send invite to supplier directly via his Magento user login. 
 - Buyer will receive the Onboarding approval task notification in M3. 
@@ -175,11 +175,11 @@ Notification from Infor is sent to the Buyer’s email when document uploaded by
 <img alt ="Supplier UI" src="../../images/pwa/PWA_UI.jpg">
 </kbd>
 
-# **Prerequisites**
+# Prerequisites
 
 IDM add-on should be configured for My Purchase orders data to be displayed in supplier portal.
 
-# **Limitations**
+# Limitations
 
 - If multiple (more than 5) conditions are added or removed in a non-sequential manner, Filters may not fetch appropriate results. 
 - Upload/Download Documents work only when IDM is Enabled 
@@ -190,26 +190,24 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 - Portal will auto logout after an hour.
 
 
-# **Known Issues**
+# Known Issues
 
 - When SHAC is kept as 2, and Automatic delivery note generation is enabled, advise and notify is done for a delivery note number PPS360 / TransNotifyHead is called. when the SHAC is disabled for the same supplier, and I advise a line with same delivery note number (line is not added in PPS360) but since the delivery note number is available in PPS360 during notify the PPS360 / TransNotifyHead is called and the PPS001MI/NotifyDelNot is not called. This causes the line to remain in processing state.
 - When one line of PO is advised with a delivery note number (where Automatic delivery note generation is enabled) and Advise all / Advise multiple po's is tried for same PO with delivery note number, error message 'Shipment advice is not allowed - the order is already advised with delivery note' is displayed.
 
-# **Recommendation**
+# Recommendation
 
 - It is recommended to use eConnect and Supplier portal in separate instances.
 
-# **Validated Versions**
+# Validated Versions
 
 - Chrome Version 120.0.6099.71
 - Android OS 11,12,13 
 
-# **Point of Contact**
+# Point of Contact
 
 - [silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com)
 - [vaithiyanathan.paramasivam@wipro.com](mailto:vaithiyanathan.paramasivam@wipro.com)
 - [ketankumar.zanzarukiya@wipro.com](mailto:ketankumar.zanzarukiya@wipro.com)
-- [alam.sreevidya@wipro.com](mailto:alam.sreevidya@wipro.com)
 - [challa.anjana@wipro.com](mailto:challa.anjana@wipro.com)
-- [vignesh.s50@wipro.com](mailto:vignesh.s50@wipro.com)
 - [narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com)

@@ -1,6 +1,6 @@
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# Version 24.1.0 - User Manual - Supplier Item Management - Admin
+# Version 24.2.0 - User Manual - Supplier Item Management - Admin
 
 <div id=toc></div>
 

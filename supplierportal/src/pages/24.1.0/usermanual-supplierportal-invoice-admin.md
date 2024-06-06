@@ -1,6 +1,6 @@
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# Version 24.1.0 - User Manual - Invoice - Admin 
+# Version 24.2.0 - User Manual - Invoice - Admin 
 
 This is an Add-on to display a list of Invoices for that Supplier.
 
