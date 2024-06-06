@@ -2,7 +2,7 @@
 
 # Version 24.2.0 - Design/Display pwa User Manual
 
-This is a separate Add-on which can be used along Supplier Portal and any other extension.
+This feature is implemented for user to experience different themes of the supplier portal.
 
 Admin user can configure the portal theme of supplier portal  for supplier's to experience the user interface.
 
