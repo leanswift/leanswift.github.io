@@ -274,6 +274,7 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 <kbd>
 <img alt="M3 Work Flow" src="../../images/pwa/one_day_deployment/m3_work_flows.png"> 
 </kbd>
+
 - Once the file is uploaded, a success message is displayed, and work flow is activated in M3. The activated work flow can be verified in Infor under ION Desk -> Monitors & Workflows -> Workflows. 
 - List of Workflows are:
 	1) supplier_access_approval
