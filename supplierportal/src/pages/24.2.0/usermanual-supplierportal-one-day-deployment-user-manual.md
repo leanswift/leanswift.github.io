@@ -237,14 +237,17 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 <kbd>
 <img alt="M3 Connection point" src="../../images/pwa/one_day_deployment/m3_connection_point.png"> 
 </kbd>
+
 - In OS portal, initially the connection point will be “Inactive” state, once the data flows are uploaded then the connection point will become “Active”.
 - List of connection point: 
-	1) Supplier_Portal_API_SPQA
+1) Supplier_Portal_API_SPQA
 - An error message” There's an issue with the input, or it already exists within Infor ION for ConnectionPoint.json Connection Point.” will be displayed if there is issue in the file uploaded.
+
 
 <kbd>
 <img alt="Connection Point Packages" src="../../images/pwa/one_day_deployment/connection_point_packages.png"> 
 </kbd>
+
 
 ### Data Flow Packages
 
@@ -257,10 +260,11 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 
 - Once the file is uploaded, a success message is displayed. The activated data flow can be verified in M3 under ION Desk -> Connect -> Data flows.
 - List of data flows are: 
-	1) Supplier\_Portal\_M3\_Invoice\_Show\_Sync\_BOD
-	2) Supplier\_Portal\_M3\_PO\_Show\_Sync\_BOD
-	3) Supplier\_Portal\_M3\_Supplier\_Show\_Sync\_BOD
-	4) Supplier\_Portal\_M3\_Sync\_BOD
+1) Supplier\_Portal\_M3\_Invoice\_Show\_Sync\_BOD
+2) Supplier\_Portal\_M3\_PO\_Show\_Sync\_BOD
+3) Supplier\_Portal\_M3\_Supplier\_Show\_Sync\_BOD
+4) Supplier\_Portal\_M3\_Sync\_BOD
+
 <kbd>
 <img alt="Data Flow Packages" src="../../images/pwa/one_day_deployment/data_flow_packages.png"> 
 </kbd>
@@ -277,14 +281,14 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 
 - Once the file is uploaded, a success message is displayed, and work flow is activated in M3. The activated work flow can be verified in Infor under ION Desk -> Monitors & Workflows -> Workflows. 
 - List of Workflows are:
-	1) supplier_access_approval
-	2) supplier_onboarding_idm_notification
-	3) supplier_portal_item_creation
-	4) supplier_portal_onboard
-	5) supplier_portal_onboard_document
-	6) supplier_portal_supplier_connect_item
-	7) supplier_portal_supplier_connect_item_updation
-	8) confirm_po_approval
+1) supplier_access_approval
+2) supplier_onboarding_idm_notification
+3) supplier_portal_item_creation
+4) supplier_portal_onboard
+5) supplier_portal_onboard_document
+6) supplier_portal_supplier_connect_item
+7) supplier_portal_supplier_connect_item_updation
+8) confirm_po_approval
 
 <kbd>
 <img alt="Work Flow Packages" src="../../images/pwa/one_day_deployment/work_flow_packages.png"> 
