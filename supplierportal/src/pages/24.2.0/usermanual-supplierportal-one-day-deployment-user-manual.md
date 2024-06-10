@@ -36,7 +36,6 @@ Some of the configuration's fields are set as default values while installing th
 - When “Import” is clicked, values from the config.csv file will update the configuration field values.
 - The config.csv file will be uploaded under "root_folder/template" in the server.
 - List of values which are imported from config.csv file are: 
-      	
 	- Company
 	- Division
 	- authenticate_m3_user
@@ -63,6 +62,7 @@ Some of the configuration's fields are set as default values while installing th
 <img alt="Data templates Packages" src="../../images/pwa/one_day_deployment/data_template_packages.png"> 
 </kbd>
  
+
 <kbd>
 <img alt="Config.csv file" src="../../images/pwa/one_day_deployment/config.csv_file.png"> 
 </kbd>
@@ -71,11 +71,12 @@ Some of the configuration's fields are set as default values while installing th
 
 - The ION API file will auto populate other API URL fields in the configuration.
 - Navigate to Leanswift -> eConnect base -> Connectivity -> Authentication -> ION API Credentials file. 
-- Once the ION API file is uploaded the other below fields will get auto populated.
+- Once the ION API file is uploaded the below fields will get auto populated.
 
 <kbd>
 <img alt="ION Authentication file upload" src="../../images/pwa/one_day_deployment/ion_authentication_file_upload.png"> 
 </kbd>
+
 
 1. Store -> Configuration -> Leanswift -> Econnect Base -> service configuration -> API service url.
 
@@ -83,11 +84,13 @@ Some of the configuration's fields are set as default values while installing th
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields1.png"> 
 </kbd>
 
+
 2. Store -> Configuration -> Leanswift -> Econnect Base ->Authentication all field except M3 user.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields2.png"> 
 </kbd>
+
 
 3. Store -> Configuration -> Leanswift -> Econnect Base ->ION Workflow Configuration -> API service Url.
 
@@ -95,17 +98,20 @@ Some of the configuration's fields are set as default values while installing th
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields3.png"> 
 </kbd>
 
+
 4. Store -> Configuration -> Supplier portal -> Settings -> Supplier onboarding -> ION ProcessUserService Url.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields4.png"> 
 </kbd>
 
+
 5. Store -> Configuration -> LeanSwift -> Idm -> General Configuration -> ION Api service url.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields5.png"> 
 </kbd>
+
 
 ## Import History
 
@@ -138,7 +144,7 @@ To verify the import history, navigate to Leanswift -> Econnect Base -> Import H
 
 After import is clicked, import changes to “Reset” Button.
 
-If there are any changes in Document Type and Attribute Type from IDM, click the “Reset” button, newly added or updated values will be retrieved from Infor M3.
+If there are any changes in Document Type and Attribute Type from IDM, click the “Reset” button, newly added or updated values will be retrieved from IDM.
 
 <kbd>
 <img alt="IDM Reset" src="../../images/pwa/one_day_deployment/idm_reset.png"> 
@@ -301,7 +307,7 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 
 **Prerequisites**: 
 - The handy file format must be in zip or json file only.  
-- Initially Proxy URL, ION connect /Process model URL, Encoded service account (update in connection point), Encoded Service Account (update in workflow) values will be "Empty". These values should be updated in config.csv file from backend before installation.
+- Initially Proxy URL, ION connect /Process model URL, Encoded service account (to update in cp_service_account), Encoded Service Account (to update in wf_service_account) values will be "Empty". These values should be updated in config.csv file from backend before installation.
 
 <kbd>
 <img alt="Upload ION Components" src="../../images/pwa/one_day_deployment/upload_ion_components.png"> 

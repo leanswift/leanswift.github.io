@@ -2,9 +2,7 @@
 
 # Version 24.2.0 - Design/Display pwa User Manual
 
-This feature is implemented for user to experience different themes of the supplier portal.
-
-Admin user can configure the portal theme of supplier portal  for supplier's to experience the user interface.
+This feature is implemented for user to experience different themes of the supplier portal, admin user can configure the portal theme of supplier portal.
 
 There are three types of theme configuration.
 
@@ -18,7 +16,7 @@ This is the default theme which is pre-configured with initial installation of S
 
 Theme can be configured by,
 
-Navigate to Leanswift -> Supplier Portal -> Design/Display PWA -> Associate website.
+Navigate to Leanswift -> Supplier Portal -> Design/Display PWA. Select the scope of website
 
 Under Theme Section, Choose Theme dropdown as ‘Light Theme’.
 
@@ -35,7 +33,7 @@ Supplier Portal theme looks as below,
 
 ## Dark Theme:
 
-Navigate to leanswift -> supplier Portal -> Design/Display PWA -> Associate website.
+Navigate to leanswift -> supplier Portal -> Design/Display PWA. Select the scope of website
 
 Under Theme Section, Choose Theme dropdown as ‘Dark Theme’.
 
@@ -64,7 +62,7 @@ In Dark theme we can configure major two fields,
 
 ## Custom Theme:
 
-Navigate to leanswift -> supplier Portal -> Design/Display PWA -> Associate website.
+Navigate to leanswift -> supplier Portal -> Design/Display PWA. Select the scope of website
 
 Under Theme Section, Choose Theme dropdown as ‘CustomTheme’
 

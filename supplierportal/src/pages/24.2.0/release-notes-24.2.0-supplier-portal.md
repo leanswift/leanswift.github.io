@@ -170,6 +170,7 @@ Notification from Infor is sent to the Buyer’s email when document uploaded by
 - Password set email is sent to the Subaccount user, once main supplier creates sub account user to the portal. 
 - Each Notification in Bell icon is displayed with header.
 - UI Enhancement for Portal Users.
+- To set configuration by one click and make Supplier Portal ready to use by one day.
 - The Connection Point, Data Flow, Work Flow can be imported from the Supplier Portal admin. 
 - Admin user can configure 3 different themes. They are Light theme, Dark theme, Custom theme.
 
@@ -191,7 +192,6 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 - The buyer should unassign the task, after adding notes to supplier onboarding task. 
 - Magento Admin user cannot send the invite to Supplier for onboarding. 
 - Portal will auto logout after an hour.
-
 
 # Known Issues
 
