@@ -6,6 +6,7 @@
 
 # Table of contents
 
+- [Introduction](#introduction)
 - [Configuration Setup](#configuration-setup)
   - [Data Templates Packages](#data-templates-packages)
 - [ION Authentication](#ion-authentication)
@@ -23,6 +24,8 @@
     - [Data Flows](#data-flows)
     - [Workflows](#workflows)
   - [ION Component Upload History](#ion-component-upload-history)
+
+# Introduction
 
 This is a new feature implemented to set configuration by one click and make Supplier Portal ready to use by one day.
 
@@ -131,6 +134,13 @@ To verify the import history, navigate to Leanswift -> eConnect Base -> Import H
 <kbd>
 <img alt="Import History" src="../../images/pwa/one_day_deployment/import_history.png"> 
 </kbd>
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 
 # Import IDM Configuration
 
