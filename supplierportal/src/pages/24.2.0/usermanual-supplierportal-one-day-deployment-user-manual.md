@@ -337,6 +337,12 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 <img alt="Work Flow Packages" src="../../images/pwa/one_day_deployment/work_flow_packages.png"> 
 </kbd>
 
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 
 ## 2.Upload Connection Points, Data Flows, Workflows:
 

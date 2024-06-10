@@ -1,10 +1,10 @@
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# **Supplier Portal**
+# Supplier Portal
 
-# **24.2.0**
+# 24.2.0
 
-# **Release Notes**
+# Release Notes
 
 # Table of contents
 
@@ -22,31 +22,32 @@
 - [Validated Versions](#validated-versions)
 - [Point of Contact](#point-of-contact)
 
-# **Overview**
+# Overview
 
 **LeanSwift Supplier Portal** for Infor M3 CloudSuite is a supplier self-service portal that enables efficient online communication with vendors. It is seamlessly integrated with Infor M3 Cloudsuite via ION. Supplier Portal helps automate the entire purchase-to-pay process for the customer.
 
-# **Environment Details**
+# Environment Details
 
 | **Software Name** | **Version** |
 | --- | --- |
 | Magento version | 2.4.6 |
-| eConnect Base Module Version | 6.3.0 |
-| IDM Module Version | 4.2.0 |
-| ION Package Version | 23.4.0 |
+| eConnect Base Module Version | 6.4.0 |
+| IDM Module Version | 4.3.0 |
+| ION Package Version | 24.2.0 |
 | PHP version | 8.1.0 |
 | RabbitMQ | 3.7.28 |
 | ION Desk | 2023.11.02 |
 | Infor M3 | Cloudsuite |
-| Advise and Notify | 23.4.0 |
-| Supplier Invoices | 23.4.0 |
-| Supplier Deliveries | 23.4.0 |
-| Supplier User Tracking | 23.4.0 |
-| User Management | 23.4.0 |
-| Supplier Item Management | 23.4.0 |
-| SupplierPortalGraphql | 23.4.0 |
-| IDMGraphql | 23.4.0 |
-| SupplierPortalInvoiceGraphql | 23.4.0 |
+| Supplier Portal Module | 24.2.0 |
+| Advise and Notify | 24.2.0 |
+| Supplier Invoices | 24.2.0 |
+| Supplier Deliveries | 24.2.0 |
+| Supplier User Tracking | 24.2.0 |
+| User Management | 24.2.0 |
+| Supplier Item Management | 24.2.0 |
+| SupplierPortalGraphql | 24.2.0 |
+| IDMGraphql | 24.2.0 |
+| SupplierPortalInvoiceGraphql | 24.2.0 |
 | PWA Build pack  | 11.4.1 | 
 | Node JS |  16.19.0 | 
 | Yarn | 1.22.19 | 
@@ -170,9 +171,9 @@ Notification from Infor is sent to the Buyer’s email when document uploaded by
 - Password set email is sent to the Subaccount user, once main supplier creates sub account user to the portal. 
 - Each Notification in Bell icon is displayed with header.
 - UI Enhancement for Portal Users.
-- To set configuration by one click and make Supplier Portal ready to use by one day.
-- The Connection Point, Data Flow, Work Flow can be imported from the Supplier Portal admin. 
-- Admin user can configure 3 different themes. They are Light theme, Dark theme, Custom theme.
+- To set default configurations by one click and make Supplier Portal ready to use by one day.
+- The Connection Point, Data Flow, Work Flow can be imported from the Supplier Portal admin.
+- Theme Configurations are enabled in PWA for better user experience.
 
 
 <kbd>
