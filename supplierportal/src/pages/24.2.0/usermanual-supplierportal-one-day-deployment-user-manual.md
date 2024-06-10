@@ -117,7 +117,7 @@ Some of the configuration's fields are set as default values while installing th
 
 Once the all the configuration is imported (Supplier Portal settings, Item Management, IDM Settings), history of import is recorded.
 
-To verify the import history, navigate to Leanswift -> Econnect Base -> Import History. 
+To verify the import history, navigate to Leanswift -> eConnect Base -> Import History. 
 
 <kbd>
 <img alt="Import History" src="../../images/pwa/one_day_deployment/import_history.png"> 
@@ -126,7 +126,7 @@ To verify the import history, navigate to Leanswift -> Econnect Base -> Import H
 # Import IDM Configuration
 
 - For IDM configuration, navigate to Leanswift -> Supplier portal -> Settings.
-- Expand the menu Leanswift -> Initial load / Import -> default config -> Import IDM Configuration.
+- Expand the menu Leanswift -> Initial load / Import -> Default Config -> Import IDM Configuration -> IDM Initial Load/ Configure.
 
 <kbd>
 <img alt="IDM Import" src="../../images/pwa/one_day_deployment/idm_import.png"> 
@@ -155,7 +155,7 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 
 - Import Supplier Portal configuration is website specific.
 - Navigate to Leanswift -> Supplier portal -> Settings.
-- Expand the menu Leanswift -> Initial load / Import -> Main Website -> Import Supplier portal configuration.
+- Expand the menu Leanswift -> Initial load / Import -> Main Website -> Import Supplier Portal configuratio ->Supplier Portal Initial Load/ Configure.
 
 <kbd>
 <img alt="Supplier portal Configuration Import" src="../../images/pwa/one_day_deployment/supplier_portal_comfiguration_import.png"> 
@@ -164,17 +164,17 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 - When “Import” button is clicked it will fetch the M3 attributes values from Infor M3 and configure default values based on the values updated in “config.csv” file. M3 attribute fields are available in csv file.
 - They list of M3 Attribute fields fetched from Infor M3 are:
 	- Supplier Onboarding:
-		- M3 supplier template.
+		- M3 Supplier template.
 		- SP Prefix.
 		- M3 Language list.
 		- M3 Order Currency List.
-		- M3 payment terms.
+		- M3 Payment Terms.
 		- M3 Fright Terms.
 		- M3 Delivery Terms list.
 		- M3 Payment Method List.
-		- M3 Packing terms list.
-		- M3 Monitoring class list.
-		- M3 delivery method list.
+		- M3 Packing Terms List.
+		- M3 Monitoring Class List.
+		- M3 Delivery Method List.
 - By default, all other configuration values are updated in Supplier Portal settings. 
 
 
@@ -199,7 +199,7 @@ If there are any newly added M3 attributes, when the “Reset” button is click
 
 - Import Item Management Configuration is website specific.
 - Navigate to Leanswift -> Supplier portal -> Settings.
-- Expand the menu Leanswift -> Initial load / Import -> Main Website -> Import Item Management configuration -> Click on Import Button.
+- Expand the menu Leanswift -> Initial load / Import -> Main Website -> Import Item Management configuration -> Item Management Initial Load/ Configure.
 
 
 <kbd>
@@ -230,14 +230,14 @@ If there are any newly added values in Item type or quality class in Infor M3, t
 
 The ION components can be configured in two different ways:
 
-## Configuration Setup 
+## 1.Configuration Setup 
 
 At the time of Supplier Portal installation, the Connection Point file (Json), Data Flows file(zip), Work Flows file(zip) should be given under "root_folder/template" in the server.
 
 ### Connection Point Packages
 
 - Navigate to Leanswift -> eConnect-base -> Connectivity -> Configuration Setup -> Connection Point Packages.
-- Once “Upload” is clicked, success message is displayed. The connection point can be verified in Infor under OS -> ION -> Connect -> Connection Point.
+- Once “Upload” is clicked, success message is displayed. The Connection Point can be verified in Infor under OS -> ION -> Connect -> Connection Point.
 
 <kbd>
 <img alt="M3 Connection point" src="../../images/pwa/one_day_deployment/m3_connection_point.png"> 
@@ -300,7 +300,7 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 </kbd>
 
 
-## Upload Connection Points, Data Flows, Workflows:
+## 2.Upload Connection Points, Data Flows, Workflows:
 
 - Upload ION components are used to import the Connection Points, Data Flows, Workflows to ION from admin portal.
 - Navigate to Leanswift -> eConnect-base -> Upload ION components.
@@ -315,7 +315,7 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 
 ### Connection Point
 
-- Navigate to Leanswift -> Econnect base -> Upload ION Components -> Upload connection point, data flow and workflow -> Upload ION Connection Point 
+- Navigate to Leanswift -> eConnect base -> Upload ION Components -> Upload Connection Point, DataFlow and WorkFlow -> Upload ION Connection Point 
 
 <kbd>
 <img alt="Upload ION Components Connection point" src="../../images/pwa/one_day_deployment/upload_ion_connection_point.png"> 
@@ -323,7 +323,7 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 
 ### Data Flows
 
-- Navigate to Leanswift -> Econnect base -> Upload ION Components -> Upload connection point, data flow and workflow -> Upload ION data flow
+- Navigate to Leanswift -> Econnect base -> Upload ION Components -> Upload connection point, data flow and workflow -> Upload ION Data Flow
 
 <kbd>
 <img alt="Upload ION Components Data Flows" src="../../images/pwa/one_day_deployment/upload_ion_data_flow.png"> 
@@ -331,7 +331,7 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 
 ### Workflows
 
-- Navigate to Leanswift -> Econnect base -> Upload ION Components -> Upload connection point, data flow and workflow -> Upload ION <a name="_int_ymdqpoer"></a>work flow.
+- Navigate to Leanswift -> Econnect base -> Upload ION Components -> Upload connection point, data flow and workflow -> Upload ION Work Flow.
 
 <kbd>
 <img alt="Upload ION Components Work Flow" src="../../images/pwa/one_day_deployment/upload_ion_work_flow.png"> 
@@ -340,7 +340,7 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 
 ## ION Component Upload History
 
-- To verify the upload history of ION components, navigate to Leanswift ->Econnect Base -> ION Component Upload history.   
+- To verify the upload history of ION components, navigate to Leanswift ->eConnect Base -> ION Component Upload History.   
 - If the Job ID is 201 means the connection is successfully done.
 - If the Job ID is 400 means invalid input work flow, workflow already exists, or workflow name is missing, and it is displayed on the configuration page also.
 - If the Job ID is 500 means Server Error 
