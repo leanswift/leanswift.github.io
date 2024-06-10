@@ -36,7 +36,8 @@ Some of the configuration's fields are set as default values while installing th
 - When “Import” is clicked, values from the config.csv file will update the configuration field values.
 - The config.csv file will be uploaded under "root_folder/template" in the server.
 - List of values which are imported from config.csv file are: 
-      	- Company
+      	
+	- Company
 	- Division
 	- authenticate_m3_user
 	- queue_host
@@ -333,7 +334,7 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 
 ## ION Component Upload History
 
-- <a name="_hlk164779897"></a>To verify the upload history of ION components, navigate to Leanswift ->Econnect Base -> ION Component Upload history.   
+- To verify the upload history of ION components, navigate to Leanswift ->Econnect Base -> ION Component Upload history.   
 - If the Job ID is 201 means the connection is successfully done.
 - If the Job ID is 400 means invalid input work flow, workflow already exists, or workflow name is missing, and it is displayed on the configuration page also.
 - If the Job ID is 500 means Server Error 
