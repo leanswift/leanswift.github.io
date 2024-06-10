@@ -170,6 +170,9 @@ Notification from Infor is sent to the Buyer’s email when document uploaded by
 - Password set email is sent to the Subaccount user, once main supplier creates sub account user to the portal. 
 - Each Notification in Bell icon is displayed with header.
 - UI Enhancement for Portal Users.
+- The Connection Point, Data Flow, Work Flow can be imported from the Supplier Portal admin. 
+- Admin user can configure 3 different themes. They are Light theme, Dark theme, Custom theme.
+
 
 <kbd>
 <img alt ="Supplier UI" src="../../images/pwa/PWA_UI.jpg">

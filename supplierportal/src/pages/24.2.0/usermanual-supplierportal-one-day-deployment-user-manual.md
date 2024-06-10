@@ -4,8 +4,6 @@
 
 # Table of contents
 
-# Table of contents
-
 - [Configuration Setup](#configuration-setup)
   - [Data Templates Packages](#data-templates-packages)
 - [ION Authentication](#ion-authentication)
@@ -36,8 +34,8 @@ Some of the configuration's fields are set as default values while installing th
 - Navigate to Leanswift -> eConnect-base -> Connectivity -> Configuration Setup -> Data Template Packages. 
 - Admin user can update configuration values in standard ‘config.csv’ template as per their environment requirements.
 - When “Import” is clicked, values from the config.csv file will update the configuration field values.
-- The config.csv file will be uploaded under root_folder/template
-- List of values which are imported from config.csv file is,
+- The config.csv file will be uploaded under "root_folder/template" in the server.
+- List of values which are imported from config.csv file are: 
       	- Company
 	- Division
 	- authenticate_m3_user
@@ -227,7 +225,7 @@ The ION components can be configured in two different ways:
 
 ## Configuration Setup 
 
-At the time of Supplier Portal installation, the Connection Point file (Json), Data Flows file(zip), Work Flows file(zip) should be given under root_folder/template in the server.
+At the time of Supplier Portal installation, the Connection Point file (Json), Data Flows file(zip), Work Flows file(zip) should be given under "root_folder/template" in the server.
 
 ### Connection Point Packages
 
@@ -253,12 +251,12 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 
 - Navigate to Leanswift -> eConnect-base -> Connectivity -> Configuration Setup -> Data Flow Packages.  
 - Once “Upload” is clicked in Data Flow packages, the Data flows will automatically generate in Infor OS. 
+- Once the file is uploaded, a success message is displayed. The activated data flow can be verified in M3 under ION Desk -> Connect -> Data flows.
 
 <kbd>
 <img alt="M3 Data Flows" src="../../images/pwa/one_day_deployment/m3_data_flows.png"> 
 </kbd>
 
-- Once the file is uploaded, a success message is displayed. The activated data flow can be verified in M3 under ION Desk -> Connect -> Data flows.
 - List of data flows are: 
 	- Supplier\_Portal\_M3\_Invoice\_Show\_Sync\_BOD
 	- Supplier\_Portal\_M3\_PO\_Show\_Sync\_BOD
@@ -274,12 +272,12 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 
 - Navigate to Leanswift -> eConnect-base -> Connectivity -> Configuration Setup -> Work Flow Packages.  
 - Once “Upload” is clicked in Work Flow packages the Work flows will automatically generate in Infor OS. 
+- Once the file is uploaded, a success message is displayed, and work flow is activated in M3. The activated work flow can be verified in Infor under ION Desk -> Monitors & Workflows -> Workflows. 
 
 <kbd>
 <img alt="M3 Work Flow" src="../../images/pwa/one_day_deployment/m3_work_flows.png"> 
 </kbd>
 
-- Once the file is uploaded, a success message is displayed, and work flow is activated in M3. The activated work flow can be verified in Infor under ION Desk -> Monitors & Workflows -> Workflows. 
 - List of Workflows are:
 	- supplier_access_approval
 	- supplier_onboarding_idm_notification
