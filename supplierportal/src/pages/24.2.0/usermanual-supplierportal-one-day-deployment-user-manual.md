@@ -2,6 +2,8 @@
 
 # Version 24.2.0 - One Day Deployment User Manual
 
+<div id = "toc"></div>
+
 # Table of contents
 
 - [Configuration Setup](#configuration-setup)
@@ -12,11 +14,11 @@
 - [Import Supplier Portal Configuration](#import-supplier-portal-configuration)
 - [Import Item Management configuration](#import-item-management-configuration)
 - [Upload ION components](#upload-ion-components)
-  - [Configuration Setup](#configuration-setup)
+  - [1.Configuration Setup](#1configuration-setup)
     - [Connection Point Packages](#connection-point-packages)
     - [Data Flow Packages](#data-flow-packages)
     - [Work Flow Packages](#work-flow-packages)
-  - [Upload Connection Points, Data Flows, Workflows:](#upload-connection-points-data-flows-workflows)
+  - [2.Upload Connection Points, Data Flows, Workflows:](#2upload-connection-points-data-flows-workflows)
     - [Connection Point](#connection-point)
     - [Data Flows](#data-flows)
     - [Workflows](#workflows)
@@ -66,6 +68,13 @@ Some of the configuration's fields are set as default values while installing th
 <kbd>
 <img alt="Config.csv file" src="../../images/pwa/one_day_deployment/config.csv_file.png"> 
 </kbd>
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 
 # ION Authentication
 
@@ -150,6 +159,12 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 <img alt="IDM Reset" src="../../images/pwa/one_day_deployment/idm_reset.png"> 
 </kbd>
 
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 
 # Import Supplier Portal Configuration
 
@@ -194,6 +209,12 @@ If there are any newly added M3 attributes, when the “Reset” button is click
 <img alt="Supplier portal Reset" src="../../images/pwa/one_day_deployment/supplier_portal_comfiguration_reset.png"> 
 </kbd>
 
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 
 # Import Item Management configuration
 
@@ -225,6 +246,13 @@ If there are any newly added values in Item type or quality class in Infor M3, t
 <kbd>
 <img alt="Item Management Reset" src="../../images/pwa/one_day_deployment/item_management_reset.png"> 
 </kbd>
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
+
 
 # Upload ION components
 
@@ -350,3 +378,9 @@ At the time of Supplier Portal installation, the Connection Point file (Json), D
 <img alt="ION Component Upload History" src="../../images/pwa/one_day_deployment/upload_ion_history.png"> 
 </kbd>
 
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
