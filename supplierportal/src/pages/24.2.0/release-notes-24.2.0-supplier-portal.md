@@ -1,4 +1,4 @@
-<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
+<img alt ="Supplier Portal Banner" src="../images/pwa/SupplierPortal_Banner.png">
 
 # Supplier Portal
 
@@ -159,11 +159,6 @@ This Add-on is to configure the allowed number of Registrations (supplier admin)
 - The Connection Point, Data Flow, Work Flow can be imported from the Supplier Portal admin.
 - Theme Configurations are enabled in PWA for better user experience.
 
-
-<kbd>
-<img alt ="Supplier UI" src="../../images/pwa/PWA_UI.jpg">
-</kbd>
-
 # Prerequisites
 
 IDM add-on should be configured for My Purchase orders data to be displayed in supplier portal.
@@ -176,7 +171,6 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 - Default out of the box configuration that comes with installation cannot be deleted. 
 - The buyer should unassign the task, after adding notes to supplier onboarding task. 
 - Magento Admin user cannot send the invite to Supplier for onboarding. 
-- Portal will auto logout after an hour.
 
 # Known Issues
 
@@ -189,7 +183,7 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 
 # Validated Versions
 
-- Chrome Version 120.0.6099.71
+- Chrome Version 125.0.6422.142
 - Android OS 11,12,13 
 
 # Point of Contact
@@ -197,5 +191,6 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 - [silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com)
 - [vaithiyanathan.paramasivam@wipro.com](mailto:vaithiyanathan.paramasivam@wipro.com)
 - [ketankumar.zanzarukiya@wipro.com](mailto:ketankumar.zanzarukiya@wipro.com)
+- [prabhu.manoharan3@wipro.com](mailto:prabhu.manoharan3@wipro.com)
 - [challa.anjana@wipro.com](mailto:challa.anjana@wipro.com)
 - [narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com)
