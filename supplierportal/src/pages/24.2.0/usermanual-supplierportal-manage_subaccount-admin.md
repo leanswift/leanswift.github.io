@@ -1,6 +1,6 @@
 <img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# Version 24.2.0 - Manage Sub-Account User Manual - Admin 
+# Version 24.2.0 - User Manual- Manage Sub-Account - Admin 
 
 This is a separate Add-on which can be used with Supplier Portal and any other extension.
 

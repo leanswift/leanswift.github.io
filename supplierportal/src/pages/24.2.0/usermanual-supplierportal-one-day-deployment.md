@@ -1,6 +1,6 @@
 ﻿<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# Version 24.2.0 - One Day Deployment User Manual
+# Version 24.2.0 - User Manual- One Day Deployment
 
 <div id = "toc"></div>
 

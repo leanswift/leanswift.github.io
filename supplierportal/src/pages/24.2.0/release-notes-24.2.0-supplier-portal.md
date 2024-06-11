@@ -11,7 +11,6 @@
 - [Overview](#overview)
 - [Environment Details](#environment-details)
 - [Standard Features](#standard-features)
-- [Highlights](#highlights)
 - [Supported Devices](#supported-devices)
 - [Technical Features](#technical-features)
 - [Enhancements](#enhancements)
@@ -136,11 +135,6 @@ This Add-on is to configure the allowed number of Registrations (supplier admin)
 - View Quality metrics based on rejected quantity.
 - View Delivery Performance metrics.
 - View Purchase Price Variance metrics.
-
-# Highlights
-
-- Portal user experience is enhanced with PWA and GraphQL implementation.
-- Portal is now compatible with Mobile devices(Android and iOS)
 
 # Supported Devices 
 
