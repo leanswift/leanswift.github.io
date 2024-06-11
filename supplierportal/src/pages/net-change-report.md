@@ -1,4 +1,4 @@
-<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
+![Supplier portal banner](../../../../images/banner-supplier-portal.jpg)
 
 # Supplier Portal-Net Change Report
 
@@ -30,7 +30,6 @@
   - [20.1.0](#2010)
     - [Features:](#features)
 
-ihakbsjcnoailwksnc
 
 ## 24.2.0
 
