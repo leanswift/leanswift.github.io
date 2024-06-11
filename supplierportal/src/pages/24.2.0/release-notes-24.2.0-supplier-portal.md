@@ -171,6 +171,7 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 - Default out of the box configuration that comes with installation cannot be deleted. 
 - The buyer should unassign the task, after adding notes to supplier onboarding task. 
 - Magento Admin user cannot send the invite to Supplier for onboarding. 
+- IDM document notification from Infor is not triggered due to Wipro environment issue. But this works fine in LeanSwift environment.
 
 # Known Issues
 
