@@ -1,9 +1,11 @@
-<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
+<img alt ="Supplier Portal Banner" src="../images/pwa/SupplierPortal_Banner.png">
 
 # Supplier Portal-Net Change Report
 
 # Table of contents
 
+  - [24.2.0](#2420)
+    - [Enhancements](#enhancements)
   - [23.4.0](#2340)
     - [Enhancements](#enhancements)
   - [23.3.0](#2330)
@@ -26,11 +28,20 @@
     - [Enhancement:](#enhancement)
     - [Fixes:](#fixes)
   - [20.1.0](#2010)
-    - [Features:](#features)
+    - [Features](#features)
+
+## 24.2.0
+
+### Enhancements
+
+- To set default configurations by one click and make Supplier Portal ready to use by one day.
+- The Connection Point, Data Flow, Work Flow can be imported from the Supplier Portal admin.
+- Theme Configurations are enabled in PWA for better user experience.
+
 
 ## 23.4.0
 
-### **Enhancements**
+### Enhancements
 
 - Buyer can send invite to supplier directly via his Magento user login. 
 - Buyer will receive the Onboarding approval task notification in M3. 

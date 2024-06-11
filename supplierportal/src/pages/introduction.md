@@ -5,6 +5,47 @@
 - ## [Net Change Report](net-change-report.md)
 
 
+# Version 24.2.0
+
+- ## [Release Notes](24.2.0/release-notes-24.2.0-supplier-portal.md)
+
+- ## [User Manual - Admin](24.2.0/usermanual-supplierportal-admin.md)
+
+- ## [User Manual - User](24.2.0/usermanual-supplierportal-user.md)
+
+- ## [User Manual - Advise-Notify-Admin](24.2.0/usermanual-supplierportal-advise-notify-admin.md)
+
+- ## [User Manual - Advise-Notify-User](24.2.0/usermanual-supplierportal-advise-notify-user.md)
+
+- ## [User Manual - Deliveries-Admin](24.2.0/usermanual-supplierportal-deliveries-admin.md)
+
+- ## [User Manual - Deliveries-User](24.2.0/usermanual-supplierportal-deliveries-user.md)
+
+- ## [User Manual - Design-Display-PWA](24.2.0/usermanual-supplierportal-design-display-pwa.md)
+
+- ## [User Manual - Invoice-Admin](24.2.0/usermanual-supplierportal-invoice-admin.md)
+
+- ## [User Manual - Invoice-User](24.2.0/usermanual-supplierportal-invoice-user.md)
+
+- ## [User Manual - Manage-Subaccount-Admin](24.2.0/usermanual-supplierportal-manage_subaccount-admin.md)
+
+- ## [User Manual - Manage-Subaccount-User](24.2.0/usermanual-supplierportal-manage_subaccount-user.md)
+
+- ## [User Manual - User-Tracking-Admin](24.2.0/usermanual-supplierportal-user_tracking-admin.md)
+
+- ## [User Manual - User-Tracking-User](24.2.0/usermanual-supplierportal-user_tracking-user.md)
+
+- ## [User Manual - SupplierPortal-One-Day-Deployment](24.2.0/usermanual-supplierportal-one-day-deployment.md)
+
+- ## [User Manual - Supplier-Onboarding-Admin](24.2.0/usermanual-supplierportal-supplier-onboarding-admin.md)
+
+- ## [User Manual - Supplier-Onboarding-User](24.2.0/usermanual-supplierportal-supplier-onboarding-user.md)
+
+- ## [User Manual - Supplier-Item-Management-User](24.2.0/usermanual-supplierportal-item-management-user.md)
+
+- ## [User Manual - Supplier-Item-Management-Admin](24.2.0/usermanual-supplierportal-item-management-admin.md)
+
+
 # Version 23.4.0
 
 - ## [Release Notes](23.4.0/release-notes-23.4.0-supplier-portal.md)

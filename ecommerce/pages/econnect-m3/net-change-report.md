@@ -1,34 +1,3 @@
-# **24.1.0**
-
-# **Highlight**
-
-- eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too).
-
-# **Enhancements**
-
-- Added features to skip account creation without an email address to enhance functionality.
-- Added temporary and final order numbers in the admin order view page to provide additional information.
-
-# **Compatibility Fixes**
-
-- Resolved the unsupported operand type error encountered during Order Creation cron.
-- Addressed the error 'Undefined array key STAT' that occurred during Order Creation.
-- Updated the customer PO reference number in order history to resolve issues.
-- Fixed the URL key generation for products with name, SKU, and randomNumber to ensure compatibility.
-- Addressed BOD XML path changes for invoice quantity to maintain compatibility.
-- Fixed issues related to invoice and shipment quantity to ensure compatibility.
-- Added validation for customer numbers during order sync with M3 and displayed actual error messages.
-- Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
-- Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
-- Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
-
-# **ION Package Update**
-
-- Updated ION Package version to 3.2.1 with the below fix
-- Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
-
-
-
 # **23.2.0**
 
 # **Highlight**
