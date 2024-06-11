@@ -28,9 +28,7 @@
     - [Enhancement:](#enhancement)
     - [Fixes:](#fixes)
   - [20.1.0](#2010)
-    - [Features:](#features)
-
-ysgdkjhcnmlsz
+    - [Features](#features)
 
 ## 24.2.0
 
