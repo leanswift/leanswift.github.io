@@ -1,4 +1,4 @@
-<img alt ="Supplier Portal Banner" src="../images/pwa/SupplierPortal_Banner.png">
+<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
 # Supplier Portal
 
