@@ -1,6 +1,6 @@
 ﻿<img alt ="Supplier Portal Banner" src="../../images/pwa/SupplierPortal_Banner.png">
 
-# Version 24.2.0 - Design/Display pwa User Manual
+# Version 24.2.0 - User Manual- Design/Display pwa User Manual
 
 This feature is implemented for user to experience different themes of the supplier portal, admin user can configure the portal theme of supplier portal.
 
