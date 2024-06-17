@@ -16,8 +16,8 @@
 
 | **Software Name**   | **Version** |
 | --------------------| ----------- |
-| Magento Open Source | 2.4.6       |
-| eConnect Commerce  | 24.1.0      |
+| Adobe Commerce      | 2.4.6       |
+| eConnect Commerce   | 24.1.0      |
 | eConnect Base       | 6.3.0       |
 | PHP version         | 8.1.6       |
 | RabbitMQ            | 3.7.28      |
@@ -80,7 +80,7 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 - [prabhu.manoharan3@wipro.com](mailto:prabhu.manoharan3@wipro.com)
 - [deepthi.tadikamalla@wipro.com](mailto:deepthi.tadikamalla@wipro.com)
 - [narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com)
-- [silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com)
+- [ketankumar.zanzarukiya@wipro.com](ketankumar.zanzarukiya@wipro.com)
 - [saurabh.gupta77@wipro.com](mailto:saurabh.gupta77@wipro.com)
 - [kalaivani.nagarajan1@wipro.com](mailto:kalaivani.nagarajan1@wipro.com)
 
