@@ -4,19 +4,19 @@
 
 # Table of contents
 
-  - [Prerequisites](#prerequisites)
-  - [New in this Version](#new-in-this-version)
+  - [Prerequisites](prerequisites)
+  - [New in this Version](new-in-this-version)
 
-## **Prerequisites**
+# **Prerequisites**
 
 - From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' to make a successful connection with the Infor ION API.
 
 <kbd>
-<img alt="Access Token Settings" src="ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png"> 
+<img alt="Access Token Settings" src="../../econnect-user-manual-ion-part1/access_token_setting.png"> 
 </kbd>
 
 
-## **New in this Version**
+# **New in this Version**
 
 - Implemented not to create unwanted customers with different email ID’s (i.e. [ERPnumber@someone.com](mailto:ERPnumber@someone.com))
 - Navigate to Leanswift -> Econnect ION -> Configuration -> Switch to required Website -> Customer Addition and Synchronization. 
@@ -26,14 +26,14 @@
 
 
 <kbd>
-<img alt="Skip Account Creation without Email" src="ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email1.png"> 
+<img alt="Skip Account Creation without Email" src="../../econnect-user-manual-ion-part1/skip-account-creation-without-email1.png"> 
 </kbd>
 
 
 - The admin order view page displays the ERP temporary and final order numbers.
 
 <kbd>
-<img alt="Temp order and Final order Number" src="ecommerce/images/econnect-user-manual-ion-part1/temp-and-final-order-number.png"> 
+<img alt="Temp order and Final order Number" src="../../econnect-user-manual-ion-part1/temp-and-final-order-number.png"> 
 </kbd>
 
 **User Manual for 24.1.0 is same as 23.2.0**
