@@ -32,10 +32,10 @@
 
 - The admin order view page displays the ERP temporary and final order numbers.
 
-
 <kbd>
 <img alt="Temp order and Final order Number" src="ecommerce/images/econnect-user-manual-ion-part1/temp-and-final-order-number.png"> 
 </kbd>
 
+**User Manual for 24.1.0 is same as 23.2.0**
 
 To view the part-1 user manual click [here](https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/pages/econnect-m3/23.2.0/usermanual-econnect-m3-part-1.md).
