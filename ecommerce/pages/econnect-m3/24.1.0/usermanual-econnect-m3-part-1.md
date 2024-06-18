@@ -7,14 +7,14 @@
   - [Prerequisites](#prerequisites)
   - [New in this Version](#new-in-this-version)
 
-## Prerequisites
+# Prerequisites
 
 - From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' to make a successful connection with the Infor ION API.
 
 	![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
 
 
-## **New in this Version**
+# **New in this Version**
 
 - Implemented Configuration under "**Customer Addition/Synchronization**" to restrict customer creation with different Email IDs (i.e. [ERPnumber@someone.com](mailto:ERPnumber@someone.com))
 - Navigate to Leanswift -> Econnect ION -> Configuration -> Switch to the required Website -> Customer Addition and Synchronization. 
