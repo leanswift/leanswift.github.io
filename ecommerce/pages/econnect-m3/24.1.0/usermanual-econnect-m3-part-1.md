@@ -11,10 +11,7 @@
 
 - From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' to make a successful connection with the Infor ION API.
 
-<kbd>
-<img alt="Access Token Settings" src="../../econnect-user-manual-ion-part1/access_token_setting.png"> 
-</kbd>
-
+	![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
 
 # **New in this Version**
 
@@ -25,17 +22,13 @@
 - If configuration is set to "NO” the customer will be created with unwanted mail address like [ERPnumber@someone.com](mailto:ERPnumber@someone.com)
 
 
-<kbd>
-<img alt="Skip Account Creation without Email" src="../../econnect-user-manual-ion-part1/skip-account-creation-without-email1.png"> 
-</kbd>
+![skip account creation without email](../../../../ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email1.png)
 
 
 - The admin order view page displays the ERP temporary and final order numbers.
 
-<kbd>
-<img alt="Temp order and Final order Number" src="../../econnect-user-manual-ion-part1/temp-and-final-order-number.png"> 
-</kbd>
-
+  ![display temporary and final order number](../../../../ecommerce/images/econnect-user-manual-ion-part1/temp-and-final-order-number.png)
+  
 **User Manual for 24.1.0 is same as 23.2.0**
 
 To view the part-1 user manual click [here](https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/pages/econnect-m3/23.2.0/usermanual-econnect-m3-part-1.md).
