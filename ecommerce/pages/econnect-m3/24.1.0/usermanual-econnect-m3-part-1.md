@@ -23,7 +23,7 @@
 - If the configuration **Skip Account Creation Without Email** is set to "NO” the customer will be created with an anonymous mail address like "[ERPnumber@someone.com](mailto:ERPnumber@someone.com)"
 
 
-![skip account creation without email](../../../../ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email.png)
+![skip account creation without email](../../../../ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email1.png)
 
 
 - The admin order view page displays the ERP temporary and final order numbers.
