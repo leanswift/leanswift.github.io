@@ -29,6 +29,6 @@
 
   ![display temporary and final order number](../../../../ecommerce/images/econnect-user-manual-ion-part1/temp-and-final-order-number.png)
   
-**User Manual for 24.1.0 is same as 23.2.0**
+**User Manual for 24.1.0 is same as 22.2.1**
 
 To view the part-1 user manual click [here](https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/pages/econnect-m3/22.2.1/usermanual-econnect-m3-part-1.md).
