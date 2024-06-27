@@ -69,6 +69,8 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 - Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
 - Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
 - Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
+- Fixed the issue for invoice amount wrongly update in "My Invoices" section.
+- Fixed the code for price is not updated from M3 to Magento.
 
 ## ION Package Update
 
