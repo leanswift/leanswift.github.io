@@ -1,15 +1,71 @@
+
+
+# eCommerce - Net Change Report 
+
+# Table of contents
+
+- [24.1.0](#2410)
+  - [Highlight](#highlight)
+  - [Enhancements](#enhancements)
+  - [Compatibility Fixes](#compatibility-fixes)
+  - [ION Package Update](#ion-package-update)
+- [**23.2.0**](#2320)
+  - [**Highlight**](#highlight)
+  - [**Compatibility Fixes**](#compatibility-fixes)
+  - [**Highlight**](#highlight)
+- [**Other Fixes**](#other-fixes)
+  - [**ION Package Update**](#ion-package-update)
+- [**22.2.1-p1-EE**](#2221-p1-ee)
+  - [**Highlight**](#highlight)
+  - [**Compatibility Fixes**](#compatibility-fixes)
+  - [**Bug Fixes**](#bug-fixes)
+- [**22.2.1**](#2221)
+  - [**Highlight**](#highlight)
+  - [**Enhancements**](#enhancements)
+  - [**Compatibility Fixes**](#compatibility-fixes)
+  - [**Bug Fixes**](#bug-fixes)
+- [**22.2.0-p2**](#2220-p2)
+  - [**Enhancements**](#enhancements)
+- [**22.2.0-p1**](#2220-p1)
+  - [**Enhancements**](#enhancements)
+  - [**Bug Fixes**](#bug-fixes)
+- [**22.2.0**](#2220)
+  - [**Enhancements**](#enhancements)
+  - [**eConnect Compatibility for Commerce**](#econnect-compatibility-for-commerce)
+  - [**Bug Fixes**](#bug-fixes)
+- [**21.4.0**](#2140)
+  - [**Highlight**](#highlight)
+  - [**New Features/Enhancements**](#new-featuresenhancements)
+  - [**eConnect-base Compatibility**](#econnect-base-compatibility)
+  - [**Bug Fixes**](#bug-fixes)
+- [**21.1.0**](#2110)
+  - [**Enhancements**](#enhancements)
+  - [**Bug Fixes**](#bug-fixes)
+- [**20.3.1-p1**](#2031-p1)
+  - [**Bug Fixes**](#bug-fixes)
+- [**20.3.1**](#2031)
+  - [**Enhancements**](#enhancements)
+  - [**Bug Fixes**](#bug-fixes)
+- [**20.3.0-p2-CE**](#2030-p2-ce)
+  - [**Bug Fixes**](#bug-fixes)
+- [**20.3.0-p1-CE**](#2030-p1-ce)
+  - [**Bug Fixes**](#bug-fixes)
+- [**20.3.0**](#2030)
+  - [**New Features**](#new-features)
+  - [**Enhancements**](#enhancements)
+  - [**Bug Fixes**](#bug-fixes)
 # **24.1.0**
 
-# **Highlight**
+## **Highlight**
 
 - eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too).
 
-# **Enhancements**
+## **Enhancements**
 
 - Added features to skip account creation without an email address to enhance functionality.
 - Added temporary and final order numbers in the admin order view page to provide additional information.
 
-# **Compatibility Fixes**
+## Compatibility Fixes
 
 - Resolved the unsupported operand type error encountered during Order Creation cron.
 - Addressed the error 'Undefined array key STAT' that occurred during Order Creation.
@@ -22,7 +78,7 @@
 - Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
 - Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
 
-# **ION Package Update**
+## **ION Package Update**
 
 - Updated ION Package version to 3.2.1 with the below fix
 - Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
@@ -31,15 +87,15 @@
 
 # **23.2.0**
 
-# **Highlight**
+## **Highlight**
 
 - eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too)
 
-# **Compatibility Fixes**
+## **Compatibility Fixes**
 
 - Resolved the unsupported operand type error during Order Creation cron
 
-# **Highlight**
+## **Highlight**
 
 - Zend framework dependency is completely replaced with Laminas
 
@@ -47,24 +103,24 @@
 
 - Resolved the error 'Undefined array key STAT' thrown during Order Creation
 
-# **ION Package Update**
+## **ION Package Update**
 
 - Updated ION Package version to 3.2.1 with the below fix
 	- Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
 
 # **22.2.1-p1-EE**
 
-# **Highlight**
+## **Highlight**
 
 - Product, Price, Category, AttributeSet, Customer Price, Shipment & Invoice creation(Order Module) will now get updated even when the SKU and ERP Item Number is different for a product
 
 - eConnect will support the Open Shipments from M3 i.e. when the same shipment number is created for two different customer orders
 
-# **Compatibility Fixes**
+## **Compatibility Fixes**
 
 - Resolved the PHP warning(trying to access array on boolean) while trying to update customer price
 
-# **Bug Fixes**
+## **Bug Fixes**
 
 - Customer Price will get displayed in the frontend based on the currency value specified for that store in the backend
 
@@ -72,13 +128,13 @@
 	
 # **22.2.1**
 
-# **Highlight**
+## **Highlight**
 
 - eConnect module is now compatible with Magento v2.4.4 and PHP v8.1
 
 - Improved the way of fetching ODSAPR to update it as Item Price
 
-# **Enhancements**
+## **Enhancements**
 
 - Improved the way of fetching ODSAPR from OPRBAS with the below things
 	- ODSAPR will now be retrieved via EXPORTMI instead of using the below APIs
@@ -110,7 +166,7 @@
 
 - Re-aligned the eConnect-ION backend configuration settings in a user friendly way
 
-# **Compatibility Fixes**
+## **Compatibility Fixes**
 
 - Resolved all the compilation errors thrown after running the command 'setup:di:compile'
 
@@ -122,7 +178,7 @@
 
 - Resolved the PHP error 'false to array conversion' thrown in customer module
 
-# **Bug Fixes**
+## **Bug Fixes**
 
 - Product's visibility will get updated even when there are multiple sites available 
 
@@ -135,12 +191,12 @@
 
 # **22.2.0-p2**
 
-# **Enhancements**
+## **Enhancements**
 - Now customer price is supporting with multiple currency and display the store specific configurable currency prices on product view page.
 
 # **22.2.0-p1**
 
-# **Enhancements**
+## **Enhancements**
 - Now customer price is applicable even sku and erp item number are different, previously sku and erpItemNumber should always same to apply the customer price.
 
 ## **Bug Fixes**
@@ -149,7 +205,7 @@
 
 # **22.2.0**
 
-# **Enhancements**
+## **Enhancements**
  
 - Based on the M3 release-Oct 2021, changes are done for bringing the Invoice BOD from M3
 
@@ -160,12 +216,12 @@
 	- Provided compatibility for the changes in the structure of the Invoice Line nodes in the Invoice BOD
 
 
-# **eConnect Compatibility for Commerce**
+## **eConnect Compatibility for Commerce**
 
 - Overall modules are now similar to the eConnect-Community code except for the Product save logic and Gift wrap related code changes in Order
 
 
-# **Bug Fixes**
+## **Bug Fixes**
 
 - Resolved the error in Order Creation flow when the shipping address does not exist for the order
 
@@ -186,24 +242,24 @@
 
 # **21.4.0**
 
-# **Highlight**
+## **Highlight**
 
 - Customer specific price related cache issue on Product Detail Page is now resolved
 
 
-# **New Features/Enhancements**
+## **New Features/Enhancements**
  
 - 'Additional Entity Attribute Mapping' feature now comes with the support of website scope
 
 - Delivery address chosen by the customers can be sent to M3 just by sending the Address Type and the Address ID(only if valid ID exists) via 'addBatchHead' transaction
 
 
-# **eConnect-base Compatibility**
+## **eConnect-base Compatibility**
 
 - Changes are done in the Order Creation flow to make it compatible with the eConnect-base 6.1.1.
 
 
-# **Bug Fixes**
+## **Bug Fixes**
 
 - Resolved the issue of 'Duplication of Order creation in M3'
 
