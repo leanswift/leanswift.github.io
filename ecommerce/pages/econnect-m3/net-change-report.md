@@ -1,3 +1,5 @@
+![eConnect for Infor M3](../../../images/banner-econnect-m3.jpg)
+
 # eCommerce - Net Change Report 
 
 # Table of contents
