@@ -11,7 +11,7 @@
   - [Highlight](#highlight)
   - [Compatibility Fixes](#compatibility-fixes)
   - [Highlight](#highlight)
-- [Other Fixes](#other-fixes)
+  - [Other Fixes](#other-fixes)
   - [ION Package Update](#ion-package-update)
 - [22.2.1-p1-EE](#2221-p1-ee)
   - [Highlight](#highlight)
