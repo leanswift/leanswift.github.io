@@ -1,4 +1,4 @@
-
+![eConnect banner](../../../../images/banner-econnect-m3.jpg)
 
 # eCommerce - Net Change Report 
 
