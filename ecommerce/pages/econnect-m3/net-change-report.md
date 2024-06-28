@@ -2,62 +2,6 @@
 
 # eCommerce - Net Change Report 
 
-# Table of contents
-
-- [24.1.0](#2410)
-  - [Highlight](#highlight)
-  - [Enhancements](#enhancements)
-  - [Compatibility Fixes](#compatibility-fixes)
-  - [ION Package Update](#ion-package-update)
-- [23.2.0](#2320)
-  - [Highlight](#highlight)
-  - [Compatibility Fixes](#compatibility-fixes)
-  - [Highlight](#highlight)
-  - [Other Fixes](#other-fixes)
-  - [ION Package Update](#ion-package-update)
-- [22.2.1-p1-EE](#2221-p1-ee)
-  - [Highlight](#highlight)
-  - [Compatibility Fixes](#compatibility-fixes)
-  - [Bug Fixes](#bug-fixes)
-- [22.2.1](#2221)
-  - [Highlight](#highlight)
-  - [Enhancements](#enhancements)
-  - [Compatibility Fixes](#compatibility-fixes)
-  - [Bug Fixes](#bug-fixes)
-- [22.2.0-p2](#2220-p2)
-  - [Enhancements](#enhancements)
-- [22.2.0-p1](#2220-p1)
-  - [Enhancements](#enhancements)
-  - [Bug Fixes](#bug-fixes)
-- [22.2.0](#2220)
-  - [Enhancements](#enhancements)
-  - [eConnect Compatibility for Commerce](#econnect-compatibility-for-commerce)
-  - [Bug Fixes](#bug-fixes)
-- [21.4.0](#2140)
-  - [Highlight](#highlight)
-  - [New Features/Enhancements](#new-featuresenhancements)
-  - [eConnect-base Compatibility](#econnect-base-compatibility)
-  - [Bug Fixes](#bug-fixes)
-- [21.1.0](#2110)
-  - [Enhancements](#enhancements)
-  - [Bug Fixes](#bug-fixes)
-- [20.3.1-p1](#2031-p1)
-  - [Bug Fixes](#bug-fixes)
-- [20.3.1](#2031)
-  - [Enhancements](#enhancements)
-  - [Bug Fixes](#bug-fixes)
-- [20.3.0-p2-CE](#2030-p2-ce)
-  - [Bug Fixes](#bug-fixes)
-- [20.3.0-p1-CE](#2030-p1-ce)
-  - [Bug Fixes](#bug-fixes)
-- [20.3.0](#2030)
-  - [New Features](#new-features)
-  - [Enhancements](#enhancements)
-  - [Bug Fixes](#bug-fixes)
-
-
-  
- 
 # 24.1.0
 
 ## Highlight
