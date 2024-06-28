@@ -25,6 +25,8 @@
 - Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
 - Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
 - Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
+- Corrected the invoice amount which was wrongly updated in the "My Invoices" section.
+- Fixed the code to update the MMSAPR price which is not updated from M3 to Magento (only for Commerce).
 
 ## ION Package Update
 
