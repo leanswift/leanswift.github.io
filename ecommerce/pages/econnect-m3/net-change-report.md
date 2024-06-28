@@ -1,53 +1,90 @@
-# **23.2.0**
+![eConnect for Infor M3](../../../images/banner-econnect-m3.jpg)
 
-# **Highlight**
+# eCommerce - Net Change Report 
+
+# 24.1.0
+
+## Highlight
+
+- eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too).
+
+## Enhancements
+
+- Added features to skip account creation without an email address to enhance functionality.
+- Added temporary and final order numbers to provide additional information on the admin order view page.
+
+## Compatibility Fixes
+
+- Resolved the unsupported operand type error encountered during Order Creation cron.
+- Addressed the error 'Undefined array key STAT' that occurred during Order Creation.
+- Updated the customer PO reference number in order history to resolve issues.
+- Fixed the URL key generation for products with name, SKU, and randomNumber to ensure compatibility.
+- Addressed BOD XML path changes for invoice quantity to maintain compatibility.
+- Fixed issues related to invoice and shipment quantity to ensure compatibility.
+- Added validation for customer numbers during order sync with M3 and displayed actual error messages.
+- Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
+- Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
+- Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
+- Corrected the invoice amount which was wrongly updated in the "My Invoices" section.
+- Fixed the code to update the MMSAPR price which is not updated from M3 to Magento (only for Commerce).
+
+## ION Package Update
+
+- Updated ION Package version to 3.2.1 with the below fix
+- Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
+
+
+
+# 23.2.0
+
+## Highlight
 
 - eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too)
 
-# **Compatibility Fixes**
+## Compatibility Fixes
 
 - Resolved the unsupported operand type error during Order Creation cron
 
-# **Highlight**
+## Highlight
 
 - Zend framework dependency is completely replaced with Laminas
 
-# **Other Fixes**
+## Other Fixes
 
 - Resolved the error 'Undefined array key STAT' thrown during Order Creation
 
-# **ION Package Update**
+## ION Package Update
 
 - Updated ION Package version to 3.2.1 with the below fix
 	- Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
 
-# **22.2.1-p1-EE**
+# 22.2.1-p1-EE
 
-# **Highlight**
+## Highlight
 
 - Product, Price, Category, AttributeSet, Customer Price, Shipment & Invoice creation(Order Module) will now get updated even when the SKU and ERP Item Number is different for a product
 
 - eConnect will support the Open Shipments from M3 i.e. when the same shipment number is created for two different customer orders
 
-# **Compatibility Fixes**
+## Compatibility Fixes
 
 - Resolved the PHP warning(trying to access array on boolean) while trying to update customer price
 
-# **Bug Fixes**
+## Bug Fixes
 
 - Customer Price will get displayed in the frontend based on the currency value specified for that store in the backend
 
 - Errors shown in the phtml files(Order History, Order View, Invoice History) related to PHP Tag are now resolved
 	
-# **22.2.1**
+# 22.2.1
 
-# **Highlight**
+## Highlight
 
 - eConnect module is now compatible with Magento v2.4.4 and PHP v8.1
 
 - Improved the way of fetching ODSAPR to update it as Item Price
 
-# **Enhancements**
+## Enhancements
 
 - Improved the way of fetching ODSAPR from OPRBAS with the below things
 	- ODSAPR will now be retrieved via EXPORTMI instead of using the below APIs
@@ -79,7 +116,7 @@
 
 - Re-aligned the eConnect-ION backend configuration settings in a user friendly way
 
-# **Compatibility Fixes**
+## Compatibility Fixes
 
 - Resolved all the compilation errors thrown after running the command 'setup:di:compile'
 
@@ -91,7 +128,7 @@
 
 - Resolved the PHP error 'false to array conversion' thrown in customer module
 
-# **Bug Fixes**
+## Bug Fixes
 
 - Product's visibility will get updated even when there are multiple sites available 
 
@@ -102,23 +139,23 @@
 	- strtotime()
 	- strpos()
 
-# **22.2.0-p2**
+# 22.2.0-p2
 
-# **Enhancements**
+## Enhancements
 - Now customer price is supporting with multiple currency and display the store specific configurable currency prices on product view page.
 
-# **22.2.0-p1**
+# 22.2.0-p1
 
-# **Enhancements**
+## Enhancements
 - Now customer price is applicable even sku and erp item number are different, previously sku and erpItemNumber should always same to apply the customer price.
 
-## **Bug Fixes**
+## Bug Fixes
 
 - Order view page now display with respective details.Previously order view page is blank when tracking details not available for the respective order.
 
-# **22.2.0**
+# 22.2.0
 
-# **Enhancements**
+## Enhancements
  
 - Based on the M3 release-Oct 2021, changes are done for bringing the Invoice BOD from M3
 
@@ -129,12 +166,12 @@
 	- Provided compatibility for the changes in the structure of the Invoice Line nodes in the Invoice BOD
 
 
-# **eConnect Compatibility for Commerce**
+## eConnect Compatibility for Commerce
 
 - Overall modules are now similar to the eConnect-Community code except for the Product save logic and Gift wrap related code changes in Order
 
 
-# **Bug Fixes**
+## Bug Fixes
 
 - Resolved the error in Order Creation flow when the shipping address does not exist for the order
 
@@ -153,26 +190,26 @@
 - API's configured in the 'Additional Entity Attribute Mapping' will work only when their status is Enabled
 
 
-# **21.4.0**
+# 21.4.0
 
-# **Highlight**
+## Highlight
 
 - Customer specific price related cache issue on Product Detail Page is now resolved
 
 
-# **New Features/Enhancements**
+## New Features/Enhancements
  
 - 'Additional Entity Attribute Mapping' feature now comes with the support of website scope
 
 - Delivery address chosen by the customers can be sent to M3 just by sending the Address Type and the Address ID(only if valid ID exists) via 'addBatchHead' transaction
 
 
-# **eConnect-base Compatibility**
+## eConnect-base Compatibility
 
 - Changes are done in the Order Creation flow to make it compatible with the eConnect-base 6.1.1.
 
 
-# **Bug Fixes**
+## Bug Fixes
 
 - Resolved the issue of 'Duplication of Order creation in M3'
 
@@ -211,13 +248,13 @@
 - Exception thrown on opening the Backend Configuration page due to the Sorting attribute in XML is now resolved
 
 
-# **21.1.0**
+# 21.1.0
 
-## **Enhancements**
+## Enhancements
 
  - Re-engineered Order, Shipment, Invoice, and Tracking to improve performance
 
-## **Bug Fixes**
+## Bug Fixes
 
 - Wrong status update when websites are configured with different company has been fixed
 
@@ -232,19 +269,19 @@
 - Indexer now runs for product id that receives stock update instead of full re-indexing of catalog
 
 
-# **20.3.1-p1**
+# 20.3.1-p1
 
-## **Bug Fixes**
+## Bug Fixes
 
 - Variation ID has been handled to check and update empty variation id when show bods(currently sync bods) are triggered
 
-# **20.3.1**
+# 20.3.1
 
-## **Enhancements**
+## Enhancements
 
 - IMS architecure updated to support econnect 20.3.0 architecture where BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
 
-## **Bug Fixes**
+## Bug Fixes
 
 - Order total was not saved in order history table
 
@@ -262,9 +299,9 @@
 
 - Issue while saving product in admin
 
-# **20.3.0-p2-CE**
+# 20.3.0-p2-CE
 
-## **Bug Fixes**
+## Bug Fixes
 
 - Product sync will work even if there are multiple "Item Id" nodes in the BOD
 
@@ -273,16 +310,16 @@
 - Instructions under 'M3 Category Source' are updated with the proper details
 
 
-# **20.3.0-p1-CE**
+# 20.3.0-p1-CE
 
-## **Bug Fixes**
+## Bug Fixes
 
 - Product detail page works properly without going 404
 
 
-# **20.3.0**
+# 20.3.0
 
-## **New Features**
+## New Features
 
 - Separate amqp-leanswift connection to connect RabbitMQ
 - Additional-Entity API programs are more flexible and configurable to support Product, Customer, and Order.
@@ -291,7 +328,7 @@
 - API maxReturnedRecords option is now configurable.
 - New configuration section to provide the RabbitMQ credentials for amqp-leanswift connection.
 
-## **Enhancements**
+## Enhancements
 
 - Implement mixins for Javascript to prevent interference with other modules
 - Implement declarative schema for the database tables.
@@ -299,7 +336,7 @@
 - Adding the customer default address from CustomerPartyMaster BOD
 
 
-## **Bug Fixes**
+## Bug Fixes
 
 - Customer Default Address from the CustomerPartyMaster BOD are now added to Magento
 - Support for overriding standard Xpath from the configuration has been provided.

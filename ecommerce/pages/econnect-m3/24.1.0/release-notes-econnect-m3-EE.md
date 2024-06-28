@@ -16,8 +16,8 @@
 
 | **Software Name**   | **Version** |
 | --------------------| ----------- |
-| Magento Open Source | 2.4.6       |
-| eConnect Community  | 24.1.0      |
+| Adobe Commerce      | 2.4.6       |
+| eConnect Commerce   | 24.1.0      |
 | eConnect Base       | 6.3.0       |
 | PHP version         | 8.1.6       |
 | RabbitMQ            | 3.7.28      |
@@ -69,7 +69,8 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 - Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
 - Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
 - Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
-- Fixed the issue for invoice amount wrongly update in "My Invoices" section.
+- Corrected the invoice amount which was wrongly updated in the "My Invoices" section.
+- Fixed the code to update MMSAPR price which is not updated from M3 to Magento.
 
 ## ION Package Update
 
@@ -81,8 +82,9 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 - [prabhu.manoharan3@wipro.com](mailto:prabhu.manoharan3@wipro.com)
 - [deepthi.tadikamalla@wipro.com](mailto:deepthi.tadikamalla@wipro.com)
 - [narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com)
-- [silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com)
+- [ketankumar.zanzarukiya@wipro.com](ketankumar.zanzarukiya@wipro.com)
 - [saurabh.gupta77@wipro.com](mailto:saurabh.gupta77@wipro.com)
 - [kalaivani.nagarajan1@wipro.com](mailto:kalaivani.nagarajan1@wipro.com)
+
 
 
