@@ -4,8 +4,8 @@
 
 # Table of contents
 
-  - [Prerequisites](prerequisites)
-  - [New in this Version](new-in-this-version)
+  - [Prerequisites](#prerequisites)
+  - [New in this Version](#new-in-this-version)
 
 # **Prerequisites**
 
