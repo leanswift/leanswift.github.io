@@ -6,4 +6,4 @@ User Manual - MultiWareHouse - V4.2.2
 
 User Manual for 4.2.2 is the same as 4.1.0
 
-(To view the 4.1.0 user manual click [here](../4.1.0/usermanual-multiwarehouse.md).)
+To view the 4.1.0 user manual click [here](../4.1.0/usermanual-multiwarehouse.md).
