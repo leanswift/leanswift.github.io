@@ -6,7 +6,7 @@
 
 **Product Version**  **4.1.0**
 
-**eConnect version 20.3.0**
+**eConnect version 24.1.0**
 
 
 # TABLE OF CONTENTS
