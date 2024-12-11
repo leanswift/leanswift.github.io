@@ -1,10 +1,10 @@
 
-# **eConnect User Manual – Multi-Warehouse**
+# **eConnect User Manual – Multi-Warehouse - V4.2.3**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
 
-**Product Version**  **4.1.0**
+**Product Version**  **4.2.3**
 
 **eConnect version 24.1.0**
 
@@ -146,7 +146,7 @@ We can add multiple warehouses and stock zone and this information will appear f
 
 ### 2.1.1 Magento Configuration-eLink
 
-The MWH setting can be found under LEANSWIFT SOLUTIONS > eConnect
+The MWH setting can be found under LEANSWIFT SOLUTIONS > eConnect-eLink
 The options enable us to control MWH stock visibility in the backend and frontend.
 
 <kbd><img alt="Magento_elink_Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_elink_Config.PNG"></kbd>
