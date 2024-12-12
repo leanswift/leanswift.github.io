@@ -162,10 +162,11 @@ The only difference is ‘Sync’ option is removed.
 When stock bods are received, stock gets updated in Magento.
 
 
-To enable creation of warehouse on POS, Go to Sales>Point of sales>User permission and select permission to admin.
+#### Creation of Warehouse in Magento 
+ Go to Stores->Inventory->Sources-> Manage Sources.
 
-<kbd><img alt="Magento_Permission" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_Permission.PNG"></kbd>
-
+<kbd><img alt="Create_MWH-Sources" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_MWH-Sources.png"></kbd>
+By clicking the Add New Sources button, we can set up a new warehouse. The newly created warehouse will be listed in the drop-down magento warehouse in the configuration 
 Once necessary permissions are provided, warehouses can be created from Sales> Manage POS/WH
 
 <kbd><img alt="Magento_Create_WH" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_Create_WH.PNG"></kbd>
