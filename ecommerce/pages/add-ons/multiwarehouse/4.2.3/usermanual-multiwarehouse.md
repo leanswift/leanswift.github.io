@@ -102,11 +102,11 @@ Infor M3 16.x
 
 ### 1.2.1 Information
 
-This document and the software it describes are provided by LeanSwift Solutions Inc. For additional information regarding support, licensing, functionality etc. please contact LeanSwift Solutions Inc via contact form at [http://www.leanswift.com](http://www.leanswift.com/)or email info@leanswift.com
+LeanSwift Solutions Inc provides this document and the software it describes. For additional information regarding support, licensing, functionality etc. please get in touch with LeanSwift Solutions Inc via the contact form at [http://www.leanswift.com](http://www.leanswift.com/)or email info@leanswift.com
 
 ## 1.3 Organization of the Manual
 
-This manual is not intended to cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation – though the general workflow is similar.
+This manual does not cover any standard Magento functionality or user experience. The Magento user experience is customized and slightly different in each eCommerce implementation – though the general workflow is similar.
 
 ## 1.4 Acronyms and Abbreviations
 
@@ -167,6 +167,7 @@ When stock bods are received, stock gets updated in Magento.
 
 <kbd><img alt="Create_MWH-Sources" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_MWH-Sources.png"></kbd>
 By clicking the Add New Sources button, we can set up a new warehouse. The newly created warehouse will be listed in the drop-down magento warehouse in the configuration 
+
 Once necessary permissions are provided, warehouses can be created from Sales> Manage POS/WH
 
 <kbd><img alt="Magento_Create_WH" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_Create_WH.PNG"></kbd>
