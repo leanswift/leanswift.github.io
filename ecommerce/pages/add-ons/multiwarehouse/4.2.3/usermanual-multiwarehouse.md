@@ -166,7 +166,17 @@ When stock bods are received, stock gets updated in Magento.
  Go to Stores->Inventory->Sources-> Manage Sources.
 
 <kbd><img alt="Create_MWH-Sources" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_MWH-Sources.png"></kbd>
-By clicking the Add New Sources button, we can set up a new warehouse. The newly created warehouse will be listed in the drop-down magento warehouse in the configuration 
+
+
+<kbd><img alt="General_WH _Creation.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/General_WH%20_Creation.png"></kbd>
+
+
+<kbd><img alt="Contact_Info.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Contact_Info.png"></kbd>
+
+
+<kbd><img alt="Address_Data.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Address_Data.png"></kbd>
+
+We can set up a new warehouse by clicking the Add New Sources button. Once all necessary values are updated, Click the Save & Continue button. The newly created warehouse will be displayed in the drop-down magento warehouse in the configuration 
 
 Once necessary permissions are provided, warehouses can be created from Sales> Manage POS/WH
 
