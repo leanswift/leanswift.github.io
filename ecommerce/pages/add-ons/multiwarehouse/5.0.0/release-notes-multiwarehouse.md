@@ -29,7 +29,7 @@ Magento Commerce and for Infor M3 version 7.x and above. It is also compatible
 with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 
 **Add-on MWH** for eConnect provides synchronization of inventory from multiple
-warehouses in M3 and enables the warehouses to be used within Magento.
+warehouses in M3, enabling the warehouses to be used within Magento.
 
 Environment Details
 -------------------
@@ -45,7 +45,7 @@ Environment Details
 | Infor M3                  | 16.1        |
 | PHP                       | 8.1         |
 | ION Package Version       | 3.2.1       |
-| Wyomind AdvancedInventory | 8.0.0       |
+
 
 Standard Features
 -----------------
@@ -69,10 +69,10 @@ Point of Contacts
 
 -   <prabhu.manoharan3@wipro.com>
 
--   <deepthi.tadikamalla@wipro.com>
+-   <silambarasan.kj3@wipro.com>
 
 -   <narayanan.gurusamy@wipro.com>
 
--   <challa.anjana@wipro.com>
+-   <saurabh.gupta77@wipro.com>
 
 -   <kalaivani.nagarajan1@wipro.com>
