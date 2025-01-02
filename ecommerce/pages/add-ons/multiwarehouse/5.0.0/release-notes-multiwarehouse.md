@@ -4,7 +4,7 @@ Add-on for eConnect for M3
 Multi-Warehouse
 ---------------
 
-Version 4.2.2
+Version 5.0.0
 -------------
 
 **Table of Contents**
@@ -55,7 +55,7 @@ Functionality remains the same as in the previous version.
 **Add-on MWH** for eConnect provides synchronization of inventory from multiple
 warehouses in M3 and enables the warehouses to be used within Magento
 
-MWH displays stock from multiple warehouses in product detail page.
+MWH displays stock from multiple warehouses on the product detail page.
 
 Highlight
 ---------
