@@ -37,10 +37,10 @@ Environment Details
 | **Environment**           | **Version** |
 |---------------------------|-------------|
 | Magento Commerce          | 2.4.6       |
-| Magento Community         | 2.4.6       |
-| eConnect Commerce         | 23.2.0      |
-| eConnect Community        | 23.2.0      |
-| eConnect Base             | 6.3.0       |
+| Magento Community         | 2.4.7       |
+| eConnect Commerce         | 24.1.0      |
+| eConnect Community        | 24.1.0      |
+| eConnect Base             | 6.4.0       |
 | Rabbitmq                  | 3.7.28      |
 | Infor M3                  | 16.1        |
 | PHP                       | 8.1         |
@@ -60,8 +60,8 @@ MWH displays stock from multiple warehouses on the product detail page.
 Highlight
 ---------
 - Fully compatible and tested on PHP 8.1(Supports 8.2 too)
-- Fully compatible with Adobe Commerce 2.4.6
-- Fully compatible with the latest version of eConnect-Base 6.3.0 & eConnect v23.2.0
+- Fully compatible with Adobe Commerce 2.4.7
+- Fully compatible with the latest version of eConnect-Base 6.4.0 & eConnect v24.1.0
 
 
 Point of Contacts
