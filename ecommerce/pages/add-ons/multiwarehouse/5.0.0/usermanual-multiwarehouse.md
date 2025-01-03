@@ -1,10 +1,10 @@
 
-# **eConnect User Manual – Multi-Warehouse - V4.2.3**
+# **eConnect User Manual – Multi-Warehouse - V5.0.0**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
 
-**Product Version**  **4.2.3**
+**Product Version**  **5.0.0**
 
 **eConnect version 24.1.0**
 
