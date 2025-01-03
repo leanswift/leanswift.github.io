@@ -75,4 +75,6 @@ Point of Contacts
 
 -   <saurabh.gupta77@wipro.com>
 
+-   <vaithiyanathan.paramasivam@wipro.com>
+
 -   <kalaivani.nagarajan1@wipro.com>
