@@ -129,16 +129,21 @@ We can add multiple warehouses and stock zones; this information will appear for
 
 
 ### 2.0.2 Limitations
+	
+1.	Stock display is only available in product detail page and not in list page or cart page
 
-1.	This add-on requires Wyoming’s Advanced Inventory Magento extension to be installed. This is a pre-requisite
+2.	Only swatches are supported for configurable items wrt MWH
 
-2.	Stock display is only available in product detail page and not in list page or cart page
-
-3.	Only swatches are supported for configurable items wrt MWH
-
-4.	For Configurable product, cumulative stock from all stock zones is displayed for each child item. This will be displayed only with Order Grid extension
+3.	For Configurable product, cumulative stock from all stock zones is displayed for each child item. This will be displayed only with Order Grid extension
      
-5.	The warehouse created from Sales-> POS must be assigned to customer groups in order for Add to cart option to be available and for Stock to be displayed in frontend
+4.	The warehouse created from Sales-> POS must be assigned to customer groups in order for Add to cart option to be available and for Stock to be displayed in frontend
+   -------
+
+   1.MSI doesn't support inventory management at the store view level.
+   2. Stock display is only available on the product detail page, not the list page or cart page.
+   3. For Configurable products, cumulative stock from all stock zones is displayed for each child item. This will be displayed only with
+      Order Grid extension.
+   4. Multiwarehouse mapping in configuration can't be removed after syncing inventory.
 
 [Go to Top](#table-of-contents)
 
