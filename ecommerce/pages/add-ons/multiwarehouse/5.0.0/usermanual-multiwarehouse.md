@@ -123,9 +123,9 @@ MWH– Multi-Warehouse
 
 The MWH module extends the standard Magento functionality for displaying stock based on warehouse and stock zone by providing full integration to Infor M3 ERP.
 
-MWH helps us discover the available stock based on the warehouse, stock zone, company, division, facility and stock id.
+MWH helps us discover the available stock based on the  Magento warehouse, stock zone, company, division, facility, and M3 warehouse.
 
-We can add multiple warehouses and stock zone and this information will appear for each product in the frontend.
+We can add multiple warehouses and stock zones; this information will appear for each product in the front end.
 
 
 ### 2.0.2 Limitations
