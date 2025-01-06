@@ -59,7 +59,8 @@ MWH displays stock from multiple warehouses on the product detail page.
 
 Highlight
 ---------
-- Fully compatible and tested on PHP 8.1(Supports 8.2 too)
+- In the previous version, we used Wyoming’s Advanced Inventory Magento extension to achieve multi-warehouse functionality. Now, the current version of Magento includes all the modules from Wyoming’s Advanced Inventory, allowing us to use Magento’s standard functionality.
+-  Fully compatible and tested on PHP 8.1(Supports 8.2 too)
 - Fully compatible with Adobe Commerce 2.4.7
 - Fully compatible with the latest version of eConnect-Base 6.4.0 & eConnect v24.1.0
 
