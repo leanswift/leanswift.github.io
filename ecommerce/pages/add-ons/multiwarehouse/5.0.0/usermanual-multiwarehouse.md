@@ -136,10 +136,9 @@ We can add multiple warehouses and stock zones; this information will appear for
  
 3. The stock display is only available on the product detail page, not the list page or cart page.
     
-4. For Configurable products, cumulative stock from all stock zones is displayed for each child item. This will be displayed only with
-   Order Grid extension.
+4. For Configurable products, cumulative stock from all stock zones is displayed for each child item. This will be displayed only with the Order Grid extension.
 
-5. Multiwarehouse mapping in configuration can't be removed after syncing inventory.
+5. Once the product inventory is synchronized with Magento, it is not possible to remove the warehouses configured in the settings.
 
 [Go to Top](#table-of-contents)
 
