@@ -162,7 +162,7 @@ The only difference is ‘Sync’ option is removed.
 When stock bods are received, the stock gets updated in Magento.
 
 
-#### Creation of Warehouse in Magento 
+#### Create Warehouses in Magento 
  Go to Stores->Inventory->Sources-> Manage Sources.
 
 <kbd><img alt="Create_MWH-Sources" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_MWH-Sources.png"></kbd>
@@ -178,6 +178,14 @@ When stock bods are received, the stock gets updated in Magento.
 
 We can set up a new warehouse by clicking the Add New Sources button. Once all necessary information are updated, Click the Save & Continue button. The newly created warehouse  will now be available in the dropdown under the eConnect configuration 
 
+ ### Create new stock and Assign Sources for Stock
+ 
+ Go to Stores->Inventory->Stocks-> Manage Stock.
+
+ <kbd><img alt="Manage_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Manage_Stock.png"></kbd>
+ 
+
+ 
 When multiple Stock zones are configured for the same warehouse like below:
 
 <kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Inventory_SameWH1.PNG"></kbd>
