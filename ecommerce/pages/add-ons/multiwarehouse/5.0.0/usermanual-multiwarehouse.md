@@ -156,10 +156,10 @@ The options enable us to control MWH stock visibility in the backend and fronten
 
 ### 2.1.2 Magento Configuration-ION
 
-<kbd><img alt="Magento_ION_Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_ION_Config.PNG"></kbd>
+<kbd><img alt="Magento_ION_Config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Inventory_Sync_%20Magento%20Config-%20ION.png"></kbd>
 
 The only difference is ‘Sync’ option is removed.
-When stock bods are received, stock gets updated in Magento.
+When stock bods are received, the stock gets updated in Magento.
 
 
 #### Creation of Warehouse in Magento 
