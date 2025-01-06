@@ -176,25 +176,7 @@ When stock bods are received, the stock gets updated in Magento.
 
 <kbd><img alt="Address_Data.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Address_Data.png"></kbd>
 
-We can set up a new warehouse by clicking the Add New Sources button. Once all necessary values are updated, Click the Save & Continue button. The newly created warehouse will be displayed in the drop-down magento warehouse in the configuration 
-
-Once necessary permissions are provided, warehouses can be created from Sales> Manage POS/WH
-
-<kbd><img alt="Magento_Create_WH" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_Create_WH.PNG"></kbd>
-
-Click on the Create New Point of Sale / Warehouse to create warehouses. Under General Information, enter the necessary details.
-
-<kbd><img alt="Magento_WH_General" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2313/ecommerce/images/add-ons/multiwarehouse/Magento_WH_General.PNG"></kbd>
-
-Make sure necessary Customer groups are selected.
-
-<kbd><img alt="Magento_WH_Customer" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_WH_Customer.PNG"></kbd>
-
-Fill up the Inventory settings as required.
-
-<kbd><img alt="Magento_WH_Inventory" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_WH_Inventory.PNG"></kbd>
-
-Once all the tabs are filled with required information, Warehouse will now be available in the dropdown under eConnect configuration.
+We can set up a new warehouse by clicking the Add New Sources button. Once all necessary information are updated, Click the Save & Continue button. The newly created warehouse  will now be available in the dropdown under the eConnect configuration 
 
 When multiple Stock zones are configured for the same warehouse like below:
 
