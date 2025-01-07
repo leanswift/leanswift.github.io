@@ -214,9 +214,8 @@ Click on ‘Assign Sources’ to view the list of sources we created under ‘So
  Multiple Stock zones can be configured for the same warehouse like below:
 
 
-<kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Inventory_SameWH1.PNG"></kbd>
+<kbd><img alt="Multiple_Stock Zone _Same WH.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Multiple_Stock Zone _Same WH.png"></kbd> 
 
-<kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Inventory_SameWH2.PNG"></kbd>
 
 When the stock is updated in stock zone YB, a BOD gets generated with value in YB which gets updated in eConnect.
 
