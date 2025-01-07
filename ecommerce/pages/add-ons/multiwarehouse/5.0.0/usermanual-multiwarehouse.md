@@ -210,6 +210,7 @@ Click on ‘Assign Sources’ to view the list of sources we created under ‘So
 
 <kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Assign Sources1.png"></kbd> 
 
+
  
  Multiple Stock zones can be configured for the same warehouse like below:
 
