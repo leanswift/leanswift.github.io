@@ -268,21 +268,15 @@ The following sections cover the MWH Stocks display in detail page.
 
 Browse the product in the frontend and click on the product to view the product detail page.
 
-<kbd><img alt="Frontend_Stock" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Frontend_Stock.png"></kbd>
+<kbd><img alt="Frontend_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Simple_Product.png"></kbd>
 
 Stocks of the product based on warehouses are displayed.
 
 A similar split up can be viewed in the Magento admin section on Catalog> Products
 
-<kbd><img alt="Magento_Product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_Product.PNG"></kbd>
+<kbd><img alt="Product_admin_view" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Product_Admin_View.png"></kbd>
 
-Open the product, and click on ‘Advanced Inventory’ hyperlink
 
-<kbd><img alt="Magento_AdvancedInventory" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_AdvancedInventory.PNG"></kbd>
-
-Set Manage Local Stocks to yes to see the stock split up
-
-<kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_Wyomind.PNG"></kbd>
 
 
 ### 2.2.1.2 Grouped Product
