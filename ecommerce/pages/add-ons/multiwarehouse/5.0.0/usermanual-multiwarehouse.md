@@ -134,7 +134,7 @@ We can add multiple warehouses and stock zones; this information will appear for
 
 2. Only swatches are supported for configurable items with MWH
  
-3. The stock display on the front end is only available on the product detail page, and not on the list page or cart page.
+3. The stock of the product is displayed only on the product detail page, and not on the list or cart page in the frontend.
     
 4. For Configurable products, cumulative stock from all stock zones is displayed for each child item. This will be displayed only with the Order Grid extension.
 
@@ -237,8 +237,7 @@ Stock zone can be viewed/created in program MMS040
 
 These are the available stock zones for the logged-in Comp/Div.
 
-To know the product details based on the warehouse, it can be viewed/created in program MMS002
-where the stock zone is available in panel G
+To know the product details based on the warehouse, it can be viewed/created in the program MMS002 where the stock zone is available in panel "G"
 
 <kbd><img alt="M3_MMS002" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/M3_MMS002.PNG"></kbd>
 
@@ -250,7 +249,7 @@ MMS010 displays the Location-Stock Zone mapping
 <kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/MM010_StockZone.PNG"></kbd>
 
 
-Note: To know stock based on zone, Program MWS060 with sort order (30) by zone can be chosen.
+Note: To know stock based on zone, Open Program MWS060 with sort order (30) by zone can be chosen.
 
 
 [Go to Top](#table-of-contents)
@@ -259,9 +258,8 @@ Note: To know stock based on zone, Program MWS060 with sort order (30) by zone c
 
 Once the setup described in the previous section has been completed, the MWH functionality is ready to use from within Magento.
 
-Note: Make sure the license and activation code of Wyomind Advanced Inventory extension are entered and activated.
 
-The following sections cover MWH display in detail page.
+The following sections cover the MWH Stock display in detail page.
 
 
 ### 2.2.1 MWH in Product detail page
@@ -272,9 +270,9 @@ Browse the product in the frontend and click on the product to view the product 
 
 <kbd><img alt="Frontend_Stock" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Frontend_Stock.png"></kbd>
 
-This is where the stock based on warehouses can be seen.
+Stocks of the product based on warehouses are displayed.
 
-Similar split up can be viewed in the admin section on Catalog> Products
+A similar split up can be viewed in the Magento admin section on Catalog> Products
 
 <kbd><img alt="Magento_Product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_Product.PNG"></kbd>
 
