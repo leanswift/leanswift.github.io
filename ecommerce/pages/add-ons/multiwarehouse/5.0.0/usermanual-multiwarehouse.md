@@ -52,17 +52,17 @@
  ## Architecture
 
 
-With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
+With 20.3.0, there is a major technical architectural change in the solution.  from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODS to RabbitMQ directly.
 
-### eConnect-base v5.0.0
+### eConnect-base v6.4.0
 
-- It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
+- It provides connectivity to eLink and/or Infor systems with the use of a generic function that decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 - Acts as the communication layer for RabbitMQ Message consumption
 - Acts as a core module for following LeanSwift Magento Extensions
   - eConnect
   - IDM
   - Supplier Portal
-- eConnect add-ons depend on both eConnect-base and eConnect. eConnect and its Add-ons works only with eConnect-base configured
+- eConnect add-ons depend on both eConnect-base and eConnect. eConnect and its Add-ons work only with eConnect base configured
 
 - IDM can now work without eConnect
 
@@ -92,9 +92,9 @@ During setup, the Magento Admin panel is used to configure which transactions th
 
 **Validated versions**
 
-Magento Community 2.4.1
+Magento Community 2.4.7
 
-Magento Enterprise 2.4.1
+Magento Enterprise 2.4.6
 
 Infor M3 16.x
 
@@ -163,7 +163,7 @@ LEANSWIFT SOLUTIONS -> eConnect-ION -> Configuration -> Default Config -> Invent
 <kbd><img alt="Magento_ION_Config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Inventory_Sync_%20Magento%20Config-%20ION.png"></kbd>
 
 
-The only difference is that "Sync" Options are removed in ION and when stock bods are received, the stock gets updated in Magento
+The only difference is that "Sync" Options are removed in ION and when stock BODS are received, the stock gets updated in Magento
 
 #### Create Warehouses in Magento 
 
@@ -173,7 +173,7 @@ The only difference is that "Sync" Options are removed in ION and when stock bod
 <kbd><img alt="Create_MWH-Sources" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_MWH-Sources.png"></kbd>
 
 
-We can create a new warehouse by clicking the Add New Sources button. Enter all required information in the General, Contact Info, and Address data section.Click the Save & Continue button.
+We can create a new warehouse by clicking the Add New Sources button. Enter all required information in the General, Contact Info, and Address data section. Click the Save & Continue button.
 
 Now, the newly created warehouse will be available in the Magento Warehouse dropdown under the eConnect configuration.
 
@@ -186,7 +186,7 @@ Now, the newly created warehouse will be available in the Magento Warehouse drop
 
 <kbd><img alt="Address_Data.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Address_Data.png"></kbd>
 
- ### Create new stock and Assign Sources for Stock
+ ### Create New Stock and Assign Sources for Stock
  
  Go to Stores->Inventory->Stocks-> Manage Stock.
 
@@ -222,7 +222,7 @@ When the stock is updated in stock zone YB, a BOD gets generated with value in Y
 
 When the stock is updated in stock zone Y9, a BOD gets generated with the value from MMS002’s ‘On-hand approve’ (YB+Y9). This value will get updated in eConnect in the Y9 zone
 
-Now if YB is again updated with stock, ((new value in Y9) +YB) gets updated in the Y9 zone in econnect and so on.
+Now if YB is again updated with stock, ((new value in Y9) +YB) gets updated in the Y9 zone in reconnect and so on.
 
 NOTE: This might be based on StockZone-Location settings in M3. If only one stock zone-warehouse is configured, the value that comes in BOD for that respective stock zone gets updated.
 
