@@ -166,6 +166,7 @@ LEANSWIFT SOLUTIONS -> eConnect-ION -> Configuration -> Default Config -> Invent
 The only difference is that "Sync" Options are removed in ION and when stock bods are received, the stock gets updated in Magento
 
 #### Create Warehouses in Magento 
+
  Go to Stores->Inventory->Sources-> Manage Sources.
 
 
