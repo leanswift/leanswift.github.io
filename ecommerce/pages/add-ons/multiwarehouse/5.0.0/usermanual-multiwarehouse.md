@@ -185,8 +185,19 @@ We can set up a new warehouse by clicking the Add New Sources button. Once all n
  <kbd><img alt="Manage_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Manage_Stock.png"></kbd>
  
 
+By clicking on Add New Stock we can able to create new stock
+
+
 <kbd><img alt="Create_New_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_New_Stock.png"></kbd>
- 
+																					    
+
+<kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/sources_Stock.png"></kbd>
+
+
+ <kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Assign Sources.png"></kbd> 
+
+
+<kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Assign Sources1.png"></kbd> 
  
 When multiple Stock zones are configured for the same warehouse like below:
 
@@ -211,9 +222,9 @@ Stock zone can be viewed/created in program MMS040
 
 <kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/M3_MMS040.PNG"></kbd>
 
-These are the available stock zones for the logged in Comp/Div.
+These are the available stock zones for the logged-in Comp/Div.
 
-To know the product details based on warehouse, it can be viewed/created in program MMS002
+To know the product details based on the warehouse, it can be viewed/created in program MMS002
 where the stock zone is available in panel G
 
 <kbd><img alt="M3_MMS002" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/M3_MMS002.PNG"></kbd>
