@@ -134,7 +134,7 @@ We can add multiple warehouses and stock zones; this information will appear for
 
 2. Only swatches are supported for configurable items with MWH
  
-3. The stock display is only available on the product detail page, not the list page or cart page.
+3. The stock display on the front end is only available on the product detail page, and not on the list page or cart page.
     
 4. For Configurable products, cumulative stock from all stock zones is displayed for each child item. This will be displayed only with the Order Grid extension.
 
@@ -146,8 +146,9 @@ We can add multiple warehouses and stock zones; this information will appear for
 
 ### 2.1.1 Magento Configuration-eLink
 
-The MWH setting can be found under LEANSWIFT SOLUTIONS > eConnect-eLink
+The MWH setting can be found under LEANSWIFT SOLUTIONS > eConnect-eLink.
 The options enable us to control MWH stock visibility in the backend and frontend.
+
 
 <kbd><img alt="Magento_elink_Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_elink_Config.PNG"></kbd>
 
@@ -156,16 +157,24 @@ The options enable us to control MWH stock visibility in the backend and fronten
 
 ### 2.1.2 Magento Configuration-ION
 
+LEANSWIFT SOLUTIONS -> eConnect-ION -> Configuration -> Default Config -> Inventory Synchronization.
+
+
 <kbd><img alt="Magento_ION_Config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Inventory_Sync_%20Magento%20Config-%20ION.png"></kbd>
 
-The only difference is ‘Sync’ option is removed.
-When stock bods are received, the stock gets updated in Magento.
 
+The only difference is that "Sync" Options are removed in ION and when stock bods are received, the stock gets updated in Magento
 
 #### Create Warehouses in Magento 
  Go to Stores->Inventory->Sources-> Manage Sources.
 
+
 <kbd><img alt="Create_MWH-Sources" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_MWH-Sources.png"></kbd>
+
+
+We can create a new warehouse by clicking the Add New Sources button. Enter all required information in the General, Contact Info, and Address data section.Click the Save & Continue button.
+
+Now, the newly created warehouse will be available in the Magento Warehouse dropdown under the eConnect configuration.
 
 
 <kbd><img alt="General_WH _Creation.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/General_WH%20_Creation.png"></kbd>
@@ -176,8 +185,6 @@ When stock bods are received, the stock gets updated in Magento.
 
 <kbd><img alt="Address_Data.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Address_Data.png"></kbd>
 
-We can set up a new warehouse by clicking the Add New Sources button. Once all necessary information are updated, Click the Save & Continue button. The newly created warehouse  will now be available in the dropdown under the eConnect configuration 
-
  ### Create new stock and Assign Sources for Stock
  
  Go to Stores->Inventory->Stocks-> Manage Stock.
@@ -185,7 +192,7 @@ We can set up a new warehouse by clicking the Add New Sources button. Once all n
  <kbd><img alt="Manage_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Manage_Stock.png"></kbd>
  
 
-Click on ‘Add New Stock’ allows us to create a new stock by entering the name and selecting the sales channels.
+Click on ‘Add New Stock’ which allows us to create a new stock by entering the name and selecting the sales channels.
 
 
 <kbd><img alt="Create_New_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_New_Stock.png"></kbd>
@@ -201,8 +208,10 @@ Click on ‘Assign Sources’ to view the list of sources we created under ‘So
 
 
 <kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Assign Sources1.png"></kbd> 
+
  
-When multiple Stock zones are configured for the same warehouse like below:
+ Multiple Stock zones can be configured for the same warehouse like below:
+
 
 <kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Inventory_SameWH1.PNG"></kbd>
 
