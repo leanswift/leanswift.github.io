@@ -268,37 +268,44 @@ The following sections cover the MWH Stocks display in detail page.
 
 Browse the product in the frontend and click on the product to view the product detail page.
 
+
 <kbd><img alt="Frontend_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Simple_Product.png"></kbd>
+
 
 Stocks of the product based on warehouses are displayed.
 
-A similar split up can be viewed in the Magento admin section on Catalog> Products
+A similar split up can be viewed in the Magento admin section on Catalog> Products.
+
 
 <kbd><img alt="Product_admin_view" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Product_Admin_View.png"></kbd>
-
-
 
 
 ### 2.2.1.2 Grouped Product
 
 When Grouped Products are browsed in frontend and product details page appears as below.
 
+
 <kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/GroupProducts.PNG"></kbd>
 
-To view multiple warehouse stock items for each product click ‘Know More’
+To view multiple warehouse stock items for each product click ‘Know More’.
+
 
 <kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/GroupedProduct_StockDetails.PNG"></kbd>
 
 
 ### 2.2.1.3 Configurable Product
 
+
 When configurable product is browsed in the front end, Price and Quantity are displayed in the grid, where quantity value will be cumulative of all stock zones. (Value that is displayed in Qty field in product detail page)
 
 Note: Qty is displayed for child items only if Order Grid extension is installed.
 
+
 <kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/ConfigPdt_Details.PNG"></kbd>
 
+
 Price and Quantity can be switched from Dropdown grid.
+
 
 <kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Configpdt_Quantity.PNG"></kbd>
 
