@@ -259,7 +259,7 @@ Note: To know stock based on zone, Open Program MWS060 with sort order (30) by z
 Once the setup described in the previous section has been completed, the MWH functionality is ready to use from within Magento.
 
 
-The following sections cover the MWH Stock display in detail page.
+The following sections cover the MWH Stocks display in detail page.
 
 
 ### 2.2.1 MWH in Product detail page
