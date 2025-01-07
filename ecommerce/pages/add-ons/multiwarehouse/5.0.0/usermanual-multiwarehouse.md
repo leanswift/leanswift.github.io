@@ -185,13 +185,16 @@ We can set up a new warehouse by clicking the Add New Sources button. Once all n
  <kbd><img alt="Manage_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Manage_Stock.png"></kbd>
  
 
-By clicking on Add New Stock we can able to create new stock
+Click on ‘Add New Stock’ allows us to create a new stock by entering the name and selecting the sales channels.
 
 
 <kbd><img alt="Create_New_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_New_Stock.png"></kbd>
 																					    
 
 <kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/sources_Stock.png"></kbd>
+
+
+Click on ‘Assign Sources’ to view the list of sources we created under ‘Sources’. Select the desired sources and click ‘Done’.The selected sources will then appear under Assigned Sources.
 
 
  <kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Assign Sources.png"></kbd> 
