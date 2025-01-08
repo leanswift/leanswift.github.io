@@ -237,7 +237,7 @@ Stock zone can be viewed/created in program MMS040
 
 These are the available stock zones for the logged-in Comp/Div.
 
-To know the product details based on the warehouse, it can be viewed/created in the program MMS002 where the stock zone is available in panel "G"
+To know the stock of the product based on zone, open the Program MWS060 with sort order (30) by zone.
 
 <kbd><img alt="M3_MMS002" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/M3_MMS002.PNG"></kbd>
 
