@@ -279,6 +279,10 @@ A similar split up can be viewed in the Magento admin section on Catalog> Produc
 
 <kbd><img alt="Product_admin_view" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Product_Admin_View.png"></kbd>
 
+Open the product to view the split up under sources.
+
+
+
 
 ### 2.2.1.2 Grouped Product
 
