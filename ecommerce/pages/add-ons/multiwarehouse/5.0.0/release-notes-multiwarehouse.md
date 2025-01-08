@@ -59,7 +59,7 @@ MWH displays stock from multiple warehouses on the product detail page.
 
 Highlight
 ---------
-- In the previous version, we used Wyomind Advanced Inventory extension for multi-warehouse functionality. Now, it is replaced by  Magento's Standard Multiwarehouse which is hassle-free to use and supports same functionality.
+- Wyomind Advanced Inventory extension for multi-warehouse functionality has been removed and replaced by  Magento's Standard Multiwarehouse which is hassle-free to use and supports same functionality.
 -  Fully compatible and tested on PHP 8.1(Supports 8.2 too)
 - Fully compatible with Adobe Commerce 2.4.7
 - Fully compatible with the latest version of eConnect-Base 6.4.0 & eConnect v24.1.0
