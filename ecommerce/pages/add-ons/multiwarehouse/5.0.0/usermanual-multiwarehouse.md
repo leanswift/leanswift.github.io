@@ -146,7 +146,7 @@ We can add multiple warehouses and stock zones; this information will appear for
 
 ### 2.1.1 Magento Configuration-eLink
 
-The MWH setting can be found under LEANSWIFT SOLUTIONS > eConnect-eLink.
+The MWH setting can be found under LEANSWIFT SOLUTIONS -> eConnect-eLink.
 The options enable us to control MWH stock visibility in the backend and frontend.
 
 
@@ -157,7 +157,7 @@ The options enable us to control MWH stock visibility in the backend and fronten
 
 ### 2.1.2 Magento Configuration-ION
 
-LEANSWIFT SOLUTIONS -> eConnect-ION -> Configuration -> Default Config -> Inventory Synchronization.
+Navigate to LEANSWIFT SOLUTIONS -> eConnect-ION -> Configuration -> Default Config -> Inventory Synchronization.
 
 
 <kbd><img alt="Magento_ION_Config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Inventory_Sync_%20Magento%20Config-%20ION.png"></kbd>
