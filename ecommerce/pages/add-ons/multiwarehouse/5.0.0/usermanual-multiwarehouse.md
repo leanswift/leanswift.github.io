@@ -274,7 +274,7 @@ Browse the product in the frontend and click on the product to view the product 
 
 Stocks of the product based on warehouses are displayed.
 
-A similar split up can be viewed in the Magento admin section on Catalog> Products.
+A similar split up can be viewed in the Magento admin section on Catalog -> Products.
 
 
 <kbd><img alt="Product_admin_view" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Product_Admin_View.png"></kbd>
