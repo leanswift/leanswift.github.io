@@ -160,7 +160,7 @@ The options enable us to control MWH stock visibility in the backend and fronten
 Navigate to LEANSWIFT SOLUTIONS -> eConnect-ION -> Configuration -> Default Config -> Inventory Synchronization.
 
 
-<kbd><img alt="Magento_ION_Config" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Inventory_Sync_%20Magento%20Config-%20ION.png"></kbd>
+<kbd><img alt="Magento_ION_Config" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/multiwarehouse/Inventory_Sync_%20Magento%20Config-%20ION.png"></kbd>
 
 
 The only difference is that "Sync" Options are removed in ION and when stock BODS are received, the stock gets updated in Magento
