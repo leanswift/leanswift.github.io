@@ -170,7 +170,7 @@ The only difference is that "Sync" Options are removed in ION and when stock BOD
  Go to Stores->Inventory->Sources-> Manage Sources.
 
 
-<kbd><img alt="Create_MWH-Sources" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_MWH-Sources.png"></kbd>
+<kbd><img alt="Create_MWH-Sources" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Create_MWH-Sources.png"></kbd>
 
 
 We can create a new warehouse by clicking the Add New Sources button. Enter all required information in the General, Contact Info, and Address data section. Click the Save & Continue button.
@@ -178,44 +178,44 @@ We can create a new warehouse by clicking the Add New Sources button. Enter all 
 Now, the newly created warehouse will be available in the Magento Warehouse dropdown under the eConnect configuration.
 
 
-<kbd><img alt="General_WH _Creation.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/General_WH%20_Creation.png"></kbd>
+<kbd><img alt="General_WH _Creation.png" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/General_WH%20_Creation.png"></kbd>
 
 
-<kbd><img alt="Contact_Info.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Contact_Info.png"></kbd>
+<kbd><img alt="Contact_Info.png" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Contact_Info.png"></kbd>
 
 
-<kbd><img alt="Address_Data.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Address_Data.png"></kbd>
+<kbd><img alt="Address_Data.png" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Address_Data.png"></kbd>
 
  ### Create New Stock and Assign Sources for Stock
  
  Go to Stores->Inventory->Stocks-> Manage Stock.
 
- <kbd><img alt="Manage_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Manage_Stock.png"></kbd>
+ <kbd><img alt="Manage_Stock" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Manage_Stock.png"></kbd>
  
 
 Click on ‘Add New Stock’ which allows us to create a new stock by entering the name and selecting the sales channels.
 
 
-<kbd><img alt="Create_New_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_New_Stock.png"></kbd>
+<kbd><img alt="Create_New_Stock" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Create_New_Stock.png"></kbd>
 																					    
 
-<kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/sources_Stock.png"></kbd>
+<kbd><img alt="sources_Stock" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/sources_Stock.png"></kbd>
 
 
 Click on ‘Assign Sources’ to view the list of sources we created under ‘Sources’. Select the desired sources and click ‘Done’.The selected sources will then appear under Assigned Sources.
 
 
- <kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Assign Sources.png"></kbd> 
+ <kbd><img alt="sources_Stock" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Assign Sources.png"></kbd> 
 
 
-<kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Assign Sources1.png"></kbd> 
+<kbd><img alt="sources_Stock" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Assign Sources1.png"></kbd> 
 
 
  
  Multiple Stock zones can be configured for the same warehouse like below:
 
 
-<kbd><img alt="Multiple_Stock Zone _Same WH.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Multiple_Stock Zone _Same WH.png"></kbd> 
+<kbd><img alt="Multiple_Stock Zone _Same WH.png" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Multiple_Stock Zone _Same WH.png"></kbd> 
 
 
 When the stock is updated in stock zone YB, a BOD gets generated with value in YB which gets updated in eConnect.
@@ -269,7 +269,7 @@ The following sections cover the MWH Stocks display in detail page.
 Browse the product in the frontend and click on the product to view the product detail page.
 
 
-<kbd><img alt="Frontend_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Simple_Product.png"></kbd>
+<kbd><img alt="Frontend_Stock" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Simple_Product.png"></kbd>
 
 
 Stocks of the product based on warehouses are displayed.
@@ -277,12 +277,12 @@ Stocks of the product based on warehouses are displayed.
 A similar split up can be viewed in the Magento admin section on Catalog -> Products.
 
 
-<kbd><img alt="Product_admin_view" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Product_Admin_View.png"></kbd>
+<kbd><img alt="Product_admin_view" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Product_Admin_View.png"></kbd>
 
 Open the product to view the split up under sources.
 
 
-<kbd><img alt="Product_admin_view_Sources" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Product_Admin_View_Sources.png"></kbd>
+<kbd><img alt="Product_admin_view_Sources" src="https://raw.github.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Product_Admin_View_Sources.png"></kbd>
 
 
 
