@@ -4,9 +4,9 @@
 ## **LeanSwift eConnect for Infor M3 &amp; Magento**
 
 
-**Product Version**  **2.5.1**
+**Product Version**  **3.0.0**
 
-**eConnect version 20.3.1**
+**eConnect version 24.1.0**
 
 
 # TABLE OF CONTENTS
@@ -14,7 +14,7 @@
 - [GENERAL INFORMATION](#general-information)
   - [1.1 System Overview](#11-system-overview)
   - [Architecture](#architecture)
-    - [eConnect-base v5.0.0](#econnect-base-v500)
+    - [eConnect-base v6.4.0](#econnect-base-v500)
     - [Architecture with LeanSwift eLink](#architecture-with-leanswift-elink)
     - [Architecture with ION for multi-tenant Cloud M3](#architecture-with-ion-for-multi-tenant-cloud-m3)
   - [1.2 Points of Contact](#12-points-of-contact)
