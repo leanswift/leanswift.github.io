@@ -92,9 +92,9 @@ During setup, the Magento Admin panel is used to configure which transactions th
 
 **Validated versions**
 
-Magento Community 2.4.1
+Magento Community 2.4.7
 
-Magento Enterprise 2.4.1
+Magento Enterprise 2.4.6
 
 Infor M3 16.x
 
