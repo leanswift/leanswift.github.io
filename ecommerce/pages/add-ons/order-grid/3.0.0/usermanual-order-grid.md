@@ -50,7 +50,7 @@
 
 With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
 
-### eConnect-base v5.0.0
+### eConnect-base v6.4.0
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 - Acts as the communication layer for RabbitMQ Message consumption
