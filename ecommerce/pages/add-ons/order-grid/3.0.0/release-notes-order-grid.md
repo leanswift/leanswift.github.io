@@ -39,10 +39,10 @@ Environment Details
 | **Environment**     | **Version** |
 |---------------------|-------------|
 | Magento Commerce    | 2.4.6       |
-| Magento Community   | 2.4.6       |
-| eConnect Commerce   | 23.2.0      |
-| eConnect Community  | 23.2.0      |
-| eConnect Base       | 6.3.0       |
+| Magento Community   | 2.4.7       |
+| eConnect Commerce   | 24.1.0      |
+| eConnect Community  | 24.1.0      |
+| eConnect Base       | 6.4.0       |
 | Rabbitmq            | 3.7.28      |
 | Infor M3            | 16.1        |
 | PHP                 | 8.1         |
@@ -58,17 +58,17 @@ based on selected attributes along with stock and price details.
 
 • Displays real-time stock and price details of each product variant
 
-• Can add different product variants of a Magento Configurable Product to cart
+• Can add different product variants of a Magento Configurable Product to the cart
 instantly
 
-• X and Y axis attributes are configurable by administrator
+• X and Y axis attributes are configurable by the administrator
 
 Highlight
 =========
 
-- Order grid is made compatible with Magento v2.4.6 and PHP v8.1(Supports v8.2 too)
+- Order grid is made compatible with Magento v2.4.7 and PHP v8.1(Supports v8.2 too)
 
-- Tested on eConnect-base v6.3.0 and eConnect v23.2.0
+- Tested on eConnect-base v6.3.0 and eConnect v24.1.0
 
 Limitations
 ===========
