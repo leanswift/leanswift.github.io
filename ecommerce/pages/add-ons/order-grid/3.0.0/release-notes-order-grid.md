@@ -68,7 +68,7 @@ Highlight
 
 - Order grid is made compatible with Magento v2.4.7 and PHP v8.1(Supports v8.2 too)
 
-- Tested on eConnect-base v6.3.0 and eConnect v24.1.0
+- Tested on eConnect-base v6.4.0 and eConnect v24.1.0
 
 Limitations
 ===========
