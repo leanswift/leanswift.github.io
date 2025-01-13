@@ -4,7 +4,7 @@ Add-on for eConnect for M3
 Configurable Order Grid
 =======================
 
-Version 2.6.1
+Version 3.0.0
 -------------
 
 Table of Contents
@@ -89,7 +89,7 @@ the two options, exclusively
 Bug Fixes
 =========
 
-- Resolved the exception thrown while adding the out of stock product with backorder to cart
+- Resolved the exception thrown while adding the out-of-stock product with back order to the cart
 
 - Resolved the exception thrown while opening the configurable product once the customer has logged into the site
 
@@ -98,10 +98,12 @@ Point of Contacts
 
 -   <prabhu.manoharan3@wipro.com>
 
--   <deepthi.tadikamalla@wipro.com>
-
 -   <narayanan.gurusamy@wipro.com>
 
--   <challa.anjana@wipro.com>
+-   <silambarasan.kj3@wipro.com>
+
+-   <saurabh.gupta77@wipro.com>
+  
+-   <vaithiyanathan.paramasivam@wipro.com>
 
 -   <kalaivani.nagarajan1@wipro.com>
