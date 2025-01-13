@@ -4,7 +4,7 @@ Add-on for eConnect for M3
 Multi-Warehouse
 ---------------
 
-Version 4.2.2
+Version 5.0.0
 -------------
 
 **Table of Contents**
@@ -29,7 +29,7 @@ Magento Commerce and for Infor M3 version 7.x and above. It is also compatible
 with multi-tenant cloud editions of Infor M3 (Cloudsuite).
 
 **Add-on MWH** for eConnect provides synchronization of inventory from multiple
-warehouses in M3 and enables the warehouses to be used within Magento.
+warehouses in M3, enabling the warehouses to be used within Magento.
 
 Environment Details
 -------------------
@@ -37,15 +37,15 @@ Environment Details
 | **Environment**           | **Version** |
 |---------------------------|-------------|
 | Magento Commerce          | 2.4.6       |
-| Magento Community         | 2.4.6       |
-| eConnect Commerce         | 23.2.0      |
-| eConnect Community        | 23.2.0      |
-| eConnect Base             | 6.3.0       |
+| Magento Community         | 2.4.7       |
+| eConnect Commerce         | 24.1.0      |
+| eConnect Community        | 24.1.0      |
+| eConnect Base             | 6.4.0       |
 | Rabbitmq                  | 3.7.28      |
 | Infor M3                  | 16.1        |
 | PHP                       | 8.1         |
 | ION Package Version       | 3.2.1       |
-| Wyomind AdvancedInventory | 8.0.0       |
+
 
 Standard Features
 -----------------
@@ -55,13 +55,14 @@ Functionality remains the same as in the previous version.
 **Add-on MWH** for eConnect provides synchronization of inventory from multiple
 warehouses in M3 and enables the warehouses to be used within Magento
 
-MWH displays stock from multiple warehouses in product detail page.
+MWH displays stock from multiple warehouses on the product detail page.
 
 Highlight
 ---------
-- Fully compatible and tested on PHP 8.1(Supports 8.2 too)
-- Fully compatible with Adobe Commerce 2.4.6
-- Fully compatible with the latest version of eConnect-Base 6.3.0 & eConnect v23.2.0
+- Wyomind Advanced Inventory extension for multi-warehouse functionality has been removed and replaced by  Magento's Standard Multiwarehouse which is hassle-free to use and supports same functionality.
+-  Fully compatible and tested on PHP 8.1(Supports 8.2 too)
+- Fully compatible with Adobe Commerce 2.4.7
+- Fully compatible with the latest version of eConnect-Base 6.4.0 & eConnect v24.1.0
 
 
 Point of Contacts
@@ -69,10 +70,12 @@ Point of Contacts
 
 -   <prabhu.manoharan3@wipro.com>
 
--   <deepthi.tadikamalla@wipro.com>
+-   <silambarasan.kj3@wipro.com>
 
 -   <narayanan.gurusamy@wipro.com>
 
--   <challa.anjana@wipro.com>
+-   <saurabh.gupta77@wipro.com>
+
+-   <vaithiyanathan.paramasivam@wipro.com>
 
 -   <kalaivani.nagarajan1@wipro.com>

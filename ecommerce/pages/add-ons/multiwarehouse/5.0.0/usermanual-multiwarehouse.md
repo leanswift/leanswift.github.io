@@ -1,10 +1,10 @@
 
-# **eConnect User Manual – Multi-Warehouse - V4.2.3**
+# **eConnect User Manual – Multi-Warehouse - V5.0.0**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
 
-**Product Version**  **4.2.3**
+**Product Version**  **5.0.0**
 
 **eConnect version 24.1.0**
 
@@ -52,17 +52,17 @@
  ## Architecture
 
 
-With 20.3.0, there is a major technical architectural change in the solution. BODs from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODs to RabbitMQ directly.
+With 20.3.0, there is a major technical architectural change in the solution.  from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODS to RabbitMQ directly.
 
-### eConnect-base v5.0.0
+### eConnect-base v6.4.0
 
-- It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
+- It provides connectivity to eLink and/or Infor systems with the use of a generic function that decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 - Acts as the communication layer for RabbitMQ Message consumption
 - Acts as a core module for following LeanSwift Magento Extensions
   - eConnect
   - IDM
   - Supplier Portal
-- eConnect add-ons depend on both eConnect-base and eConnect. eConnect and its Add-ons works only with eConnect-base configured
+- eConnect add-ons depend on both eConnect-base and eConnect. eConnect and its Add-ons work only with eConnect base configured
 
 - IDM can now work without eConnect
 
@@ -92,9 +92,9 @@ During setup, the Magento Admin panel is used to configure which transactions th
 
 **Validated versions**
 
-Magento Community 2.4.1
+Magento Community 2.4.7
 
-Magento Enterprise 2.4.1
+Magento Enterprise 2.4.6
 
 Infor M3 16.x
 
@@ -123,22 +123,22 @@ MWH– Multi-Warehouse
 
 The MWH module extends the standard Magento functionality for displaying stock based on warehouse and stock zone by providing full integration to Infor M3 ERP.
 
-MWH helps us discover the available stock based on the warehouse, stock zone, company, division, facility and stock id.
+MWH helps us discover the available stock based on the  Magento warehouse, stock zone, company, division, facility, and M3 warehouse.
 
-We can add multiple warehouses and stock zone and this information will appear for each product in the frontend.
+We can add multiple warehouses and stock zones; this information will appear for each product in the front end.
 
 
 ### 2.0.2 Limitations
+	
+1. MSI doesn't support inventory management at the store view level.
 
-1.	This add-on requires Wyoming’s Advanced Inventory Magento extension to be installed. This is a pre-requisite
+2. Only swatches are supported for configurable items with MWH
+ 
+3. The stock of the product is displayed only on the product detail page, and not on the list or cart page in the frontend.
+    
+4. For Configurable products, cumulative stock from all stock zones is displayed for each child item. This will be displayed only with the Order Grid extension.
 
-2.	Stock display is only available in product detail page and not in list page or cart page
-
-3.	Only swatches are supported for configurable items wrt MWH
-
-4.	For Configurable product, cumulative stock from all stock zones is displayed for each child item. This will be displayed only with Order Grid extension
-     
-5.	The warehouse created from Sales-> POS must be assigned to customer groups in order for Add to cart option to be available and for Stock to be displayed in frontend
+5. Once the product inventory is synchronized with Magento, it is not possible to remove the warehouses configured in the settings.
 
 [Go to Top](#table-of-contents)
 
@@ -146,8 +146,9 @@ We can add multiple warehouses and stock zone and this information will appear f
 
 ### 2.1.1 Magento Configuration-eLink
 
-The MWH setting can be found under LEANSWIFT SOLUTIONS > eConnect-eLink
+The MWH setting can be found under LEANSWIFT SOLUTIONS -> eConnect-eLink.
 The options enable us to control MWH stock visibility in the backend and frontend.
+
 
 <kbd><img alt="Magento_elink_Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_elink_Config.PNG"></kbd>
 
@@ -156,16 +157,25 @@ The options enable us to control MWH stock visibility in the backend and fronten
 
 ### 2.1.2 Magento Configuration-ION
 
-<kbd><img alt="Magento_ION_Config" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_ION_Config.PNG"></kbd>
-
-The only difference is ‘Sync’ option is removed.
-When stock bods are received, stock gets updated in Magento.
+Navigate to LEANSWIFT SOLUTIONS -> eConnect-ION -> Configuration -> Default Config -> Inventory Synchronization.
 
 
-#### Creation of Warehouse in Magento 
+<kbd><img alt="Magento_ION_Config" src="https://github.com/leanswift/leanswift.github.io/blob/master/ecommerce/images/add-ons/multiwarehouse/Inventory_Sync_%20Magento%20Config-%20ION.png"></kbd>
+
+
+The only difference is that "Sync" Options are removed in ION and when stock BODS are received, the stock gets updated in Magento
+
+#### Create Warehouses in Magento 
+
  Go to Stores->Inventory->Sources-> Manage Sources.
 
+
 <kbd><img alt="Create_MWH-Sources" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_MWH-Sources.png"></kbd>
+
+
+We can create a new warehouse by clicking the Add New Sources button. Enter all required information in the General, Contact Info, and Address data section. Click the Save & Continue button.
+
+Now, the newly created warehouse will be available in the Magento Warehouse dropdown under the eConnect configuration.
 
 
 <kbd><img alt="General_WH _Creation.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/General_WH%20_Creation.png"></kbd>
@@ -176,37 +186,43 @@ When stock bods are received, stock gets updated in Magento.
 
 <kbd><img alt="Address_Data.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Address_Data.png"></kbd>
 
-We can set up a new warehouse by clicking the Add New Sources button. Once all necessary values are updated, Click the Save & Continue button. The newly created warehouse will be displayed in the drop-down magento warehouse in the configuration 
+ ### Create New Stock and Assign Sources for Stock
+ 
+ Go to Stores->Inventory->Stocks-> Manage Stock.
 
-Once necessary permissions are provided, warehouses can be created from Sales> Manage POS/WH
+ <kbd><img alt="Manage_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Manage_Stock.png"></kbd>
+ 
 
-<kbd><img alt="Magento_Create_WH" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_Create_WH.PNG"></kbd>
+Click on ‘Add New Stock’ which allows us to create a new stock by entering the name and selecting the sales channels.
 
-Click on the Create New Point of Sale / Warehouse to create warehouses. Under General Information, enter the necessary details.
 
-<kbd><img alt="Magento_WH_General" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2313/ecommerce/images/add-ons/multiwarehouse/Magento_WH_General.PNG"></kbd>
+<kbd><img alt="Create_New_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Create_New_Stock.png"></kbd>
+																					    
 
-Make sure necessary Customer groups are selected.
+<kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/sources_Stock.png"></kbd>
 
-<kbd><img alt="Magento_WH_Customer" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_WH_Customer.PNG"></kbd>
 
-Fill up the Inventory settings as required.
+Click on ‘Assign Sources’ to view the list of sources we created under ‘Sources’. Select the desired sources and click ‘Done’.The selected sources will then appear under Assigned Sources.
 
-<kbd><img alt="Magento_WH_Inventory" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_WH_Inventory.PNG"></kbd>
 
-Once all the tabs are filled with required information, Warehouse will now be available in the dropdown under eConnect configuration.
+ <kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Assign Sources.png"></kbd> 
 
-When multiple Stock zones are configured for the same warehouse like below:
 
-<kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Inventory_SameWH1.PNG"></kbd>
+<kbd><img alt="sources_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Assign Sources1.png"></kbd> 
 
-<kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Inventory_SameWH2.PNG"></kbd>
+
+ 
+ Multiple Stock zones can be configured for the same warehouse like below:
+
+
+<kbd><img alt="Multiple_Stock Zone _Same WH.png" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Multiple_Stock Zone _Same WH.png"></kbd> 
+
 
 When the stock is updated in stock zone YB, a BOD gets generated with value in YB which gets updated in eConnect.
 
 When the stock is updated in stock zone Y9, a BOD gets generated with the value from MMS002’s ‘On-hand approve’ (YB+Y9). This value will get updated in eConnect in the Y9 zone
 
-Now if YB is again updated with stock, ((new value in Y9) +YB) gets updated in the Y9 zone in econnect and so on.
+Now if YB is again updated with stock, ((new value in Y9) +YB) gets updated in the Y9 zone in reconnect and so on.
 
 NOTE: This might be based on StockZone-Location settings in M3. If only one stock zone-warehouse is configured, the value that comes in BOD for that respective stock zone gets updated.
 
@@ -219,10 +235,9 @@ Stock zone can be viewed/created in program MMS040
 
 <kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/M3_MMS040.PNG"></kbd>
 
-These are the available stock zones for the logged in Comp/Div.
+These are the available stock zones for the logged-in Comp/Div.
 
-To know the product details based on warehouse, it can be viewed/created in program MMS002
-where the stock zone is available in panel G
+To know the stock of the product based on zone, open the Program MWS060 with sort order (30) by zone.
 
 <kbd><img alt="M3_MMS002" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/M3_MMS002.PNG"></kbd>
 
@@ -234,7 +249,7 @@ MMS010 displays the Location-Stock Zone mapping
 <kbd><img alt="M3_MMS040" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/MM010_StockZone.PNG"></kbd>
 
 
-Note: To know stock based on zone, Program MWS060 with sort order (30) by zone can be chosen.
+Note: To know stock based on zone, Open Program MWS060 with sort order (30) by zone can be chosen.
 
 
 [Go to Top](#table-of-contents)
@@ -243,9 +258,8 @@ Note: To know stock based on zone, Program MWS060 with sort order (30) by zone c
 
 Once the setup described in the previous section has been completed, the MWH functionality is ready to use from within Magento.
 
-Note: Make sure the license and activation code of Wyomind Advanced Inventory extension are entered and activated.
 
-The following sections cover MWH display in detail page.
+The following sections cover the MWH Stocks display in detail page.
 
 
 ### 2.2.1 MWH in Product detail page
@@ -254,43 +268,55 @@ The following sections cover MWH display in detail page.
 
 Browse the product in the frontend and click on the product to view the product detail page.
 
-<kbd><img alt="Frontend_Stock" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Frontend_Stock.png"></kbd>
 
-This is where the stock based on warehouses can be seen.
+<kbd><img alt="Frontend_Stock" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Simple_Product.png"></kbd>
 
-Similar split up can be viewed in the admin section on Catalog> Products
 
-<kbd><img alt="Magento_Product" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_Product.PNG"></kbd>
+Stocks of the product based on warehouses are displayed.
 
-Open the product, and click on ‘Advanced Inventory’ hyperlink
+A similar split up can be viewed in the Magento admin section on Catalog -> Products.
 
-<kbd><img alt="Magento_AdvancedInventory" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_AdvancedInventory.PNG"></kbd>
 
-Set Manage Local Stocks to yes to see the stock split up
+<kbd><img alt="Product_admin_view" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Product_Admin_View.png"></kbd>
 
-<kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Magento_Wyomind.PNG"></kbd>
+Open the product to view the split up under sources.
+
+
+<kbd><img alt="Product_admin_view_Sources" src="https://github.com/leanswift/leanswift.github.io/blob/ECNT-2547/ecommerce/images/add-ons/multiwarehouse/Product_Admin_View_Sources.png"></kbd>
+
+
+
+
+
+
 
 
 ### 2.2.1.2 Grouped Product
 
 When Grouped Products are browsed in frontend and product details page appears as below.
 
+
 <kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/GroupProducts.PNG"></kbd>
 
-To view multiple warehouse stock items for each product click ‘Know More’
+To view multiple warehouse stock items for each product click ‘Know More’.
+
 
 <kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/GroupedProduct_StockDetails.PNG"></kbd>
 
 
 ### 2.2.1.3 Configurable Product
 
+
 When configurable product is browsed in the front end, Price and Quantity are displayed in the grid, where quantity value will be cumulative of all stock zones. (Value that is displayed in Qty field in product detail page)
 
 Note: Qty is displayed for child items only if Order Grid extension is installed.
 
+
 <kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/ConfigPdt_Details.PNG"></kbd>
 
+
 Price and Quantity can be switched from Dropdown grid.
+
 
 <kbd><img alt="Magento_Wyomind" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/add-ons/multiwarehouse/Configpdt_Quantity.PNG"></kbd>
 
