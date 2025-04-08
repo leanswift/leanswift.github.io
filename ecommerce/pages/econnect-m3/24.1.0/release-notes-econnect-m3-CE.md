@@ -44,7 +44,7 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 ## Prerequisites
 
-- From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' in order to make successful connection with the Infor ION API.
+- From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' to make a successful connection with the Infor ION API.
 
 	![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
 
@@ -54,6 +54,8 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 ## **Enhancements**
 
+- To set default configurations with one click and make the eConnect Portal ready to use in one day.
+- The Connection Point, Data Flow, and Work Flow can be imported from the eConnect Portal admin.
 - Added features to skip account creation without an email address to enhance functionality.
 - Added temporary and final order numbers in the admin order view page to provide additional information.
 
