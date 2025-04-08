@@ -54,8 +54,6 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 ## **Enhancements**
 
-- To set default configurations with one click and make the eConnect Portal ready to use in one day.
-- The Connection Point, Data Flow, and Work Flow can be imported from the eConnect Portal admin.
 - Added features to skip account creation without an email address to enhance functionality.
 - Added temporary and final order numbers in the admin order view page to provide additional information.
 
@@ -82,7 +80,6 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 - [prabhu.manoharan3@wipro.com](mailto:prabhu.manoharan3@wipro.com)
 - [deepthi.tadikamalla@wipro.com](mailto:deepthi.tadikamalla@wipro.com)
-- [ketankumar.zanzarukiya@wipro.com](mailto:ketankumar.zanzarukiya@wipro.com)
 - [silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com)
 - [saurabh.gupta77@wipro.com](mailto:saurabh.gupta77@wipro.com)
 - [kalaivani.nagarajan1@wipro.com](mailto:kalaivani.nagarajan1@wipro.com)
