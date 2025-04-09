@@ -84,12 +84,10 @@ The list of values that are imported from the config.csv file are:
 
 ![ion_authentication_file_upload.png](../../../../ecommerce/images/one_day_deployment/ion_authentication_file_upload.png)
 
+
 1. Leanswift -> Econnect Base -> service configuration -> API service url.
 
-<kbd>
-<img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields1.png"> 
-</kbd>
-
+![ion_authentication_file_upload.png](../../../../ecommerce/images/one_day_deployment/ion_authentication_fields1.png)
 
 
 2. Leanswift -> Econnect Base ->Authentication all field except M3 user.
