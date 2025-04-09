@@ -1,6 +1,6 @@
 
 
-# Version 24.2.0 - User Manual- One-Day Deployment
+# Version 25.2.0 - User Manual- One-Day Deployment
 
 <div id = "toc"></div>
 
@@ -80,44 +80,37 @@ The list of values that are imported from the config.csv file are:
 
 # ION Authentication
 
-- The ION API file will auto populate other API URL fields in the configuration.
+- The ION API file will auto-populate other API URL fields in the configuration.
 - Navigate to Leanswift -> eConnect base -> Connectivity -> Authentication -> ION API Credentials file. 
-- Once the ION API file is uploaded the below fields will get auto populated.
+- Once the ION API file is uploaded the below fields will get auto-populated.
 
 <kbd>
 <img alt="ION Authentication file upload" src="../../images/pwa/one_day_deployment/ion_authentication_file_upload.png"> 
 </kbd>
 
 
-1. Store -> Configuration -> Leanswift -> Econnect Base -> service configuration -> API service url.
+1. Leanswift -> Econnect Base -> service configuration -> API service url.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields1.png"> 
 </kbd>
 
 
-2. Store -> Configuration -> Leanswift -> Econnect Base ->Authentication all field except M3 user.
+2. Leanswift -> Econnect Base ->Authentication all field except M3 user.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields2.png"> 
 </kbd>
 
 
-3. Store -> Configuration -> Leanswift -> Econnect Base ->ION Workflow Configuration -> API service Url.
+3. Leanswift -> Econnect Base ->ION Workflow Configuration -> API service Url.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields3.png"> 
 </kbd>
 
 
-4. Store -> Configuration -> Supplier portal -> Settings -> Supplier onboarding -> ION ProcessUserService Url.
-
-<kbd>
-<img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields4.png"> 
-</kbd>
-
-
-5. Store -> Configuration -> LeanSwift -> Idm -> General Configuration -> ION Api service url.
+4. LeanSwift -> Idm -> Settings -> General Configuration -> ION Api service url.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields5.png"> 
