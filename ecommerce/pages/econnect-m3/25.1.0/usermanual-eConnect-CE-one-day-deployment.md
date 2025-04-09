@@ -67,9 +67,14 @@ The list of values that are imported from the config.csv file are:
 </kbd>
  
 
+<img alt="Data templates Packages" src="../ecommerce/images/one_day_deployment/config.csv_file.png"> 
+</kbd>
+
 <kbd>
 <img alt="Config.csv file" src="../../images/pwa/one_day_deployment/config.csv_file.png"> 
 </kbd>
+
+supplierportal/src/images/pwa/one_day_deployment/config.csv_file.png
 
 <div align="right">
 <b>
@@ -94,6 +99,7 @@ The list of values that are imported from the config.csv file are:
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields1.png"> 
 </kbd>
+
 
 
 2. Leanswift -> Econnect Base ->Authentication all field except M3 user.
