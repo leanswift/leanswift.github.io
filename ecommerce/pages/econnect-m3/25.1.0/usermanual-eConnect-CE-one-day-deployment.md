@@ -72,6 +72,13 @@ The list of values that are imported from the config.csv file are:
 </kbd>
 
 
+  ![display temporary and final order number](../../../../ecommerce/images/econnect-user-manual-ion-part1/temp-and-final-order-number.png)
+
+  
+![Config.csv file](../../../../ecommerce/images/one_day_deployment/config.csv_file.png)
+
+
+
 <kbd>
 <img alt="Config.csv file" src="../../images/pwa/one_day_deployment/config.csv_file.png"> 
 </kbd>
