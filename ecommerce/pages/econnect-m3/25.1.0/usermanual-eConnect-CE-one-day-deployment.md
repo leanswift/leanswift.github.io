@@ -25,11 +25,10 @@
     - [Workflows](#workflows)
   - [ION Component Upload History](#ion-component-upload-history)
 
-# Introduction
+# Introductio
+This is a new feature implemented to set configuration with one click and make eConnect Portal ready to use in one day.
 
-This is a new feature implemented to set configuration by one click and make Supplier Portal ready to use by one day.
-
-Some of the configuration's fields are set as default values while installing the supplier portal.
+Some of the configuration's fields are set as default values while installing the eConnect portal.
  
 # Configuration Setup
 
@@ -37,10 +36,10 @@ Some of the configuration's fields are set as default values while installing th
 
 - This will update eConnect-Base configurations at once click.
 - Navigate to Leanswift -> eConnect-base -> Connectivity -> Configuration Setup -> Data Template Packages. 
-- Admin user can update configuration values in standard ‘config.csv’ template as per their environment requirements.
+- Admin users can update configuration values in the standard ‘config.csv’ template as per their environment requirements.
 - When “Import” is clicked, values from the config.csv file will update the configuration field values.
 - The config.csv file will be uploaded under "root_folder/template" in the server.
-- List of values which are imported from config.csv file are: 
+The list of values that are imported from the config.csv file are: 
 	- Company
 	- Division
 	- authenticate_m3_user
