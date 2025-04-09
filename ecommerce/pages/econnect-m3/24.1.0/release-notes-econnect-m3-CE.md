@@ -44,7 +44,7 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 ## Prerequisites
 
-- From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' in order to make successful connection with the Infor ION API.
+- From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' to make a successful connection with the Infor ION API.
 
 	![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
 
@@ -69,7 +69,7 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 - Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
 - Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
 - Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
-- Fixed the issue for invoice amount wrongly update in "My Invoices" section.
+- Fixed the issue of invoice amount wrongly updated in the "My Invoices" section.
 
 ## ION Package Update
 
@@ -80,7 +80,6 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 - [prabhu.manoharan3@wipro.com](mailto:prabhu.manoharan3@wipro.com)
 - [deepthi.tadikamalla@wipro.com](mailto:deepthi.tadikamalla@wipro.com)
-- [narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com)
 - [silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com)
 - [saurabh.gupta77@wipro.com](mailto:saurabh.gupta77@wipro.com)
 - [kalaivani.nagarajan1@wipro.com](mailto:kalaivani.nagarajan1@wipro.com)
