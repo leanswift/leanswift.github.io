@@ -66,8 +66,8 @@ The list of values that are imported from the config.csv file are:
 <img alt="Data templates Packages" src="../../images/pwa/one_day_deployment/data_template_packages.png"> 
 </kbd>
  
-
-<img alt="Data templates Packages" src="../images/one_day_deployment/config.csv_file.png"> 
+<kbd>
+<img alt="Config.csv file" src="../images/one_day_deployment/config.csv_file.png"> 
 </kbd>
 
 <kbd>
