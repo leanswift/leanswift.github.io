@@ -1,6 +1,6 @@
 
 
-# Version 24.2.0 - User Manual- One-Day Deployment
+# Version 25.2.0 - User Manual- One-Day Deployment
 
 <div id = "toc"></div>
 
@@ -25,11 +25,10 @@
     - [Workflows](#workflows)
   - [ION Component Upload History](#ion-component-upload-history)
 
-# Introduction
+# Introductio
+This is a new feature implemented to set configuration with one click and make eConnect Portal ready to use in one day.
 
-This is a new feature implemented to set configuration by one click and make Supplier Portal ready to use by one day.
-
-Some of the configuration's fields are set as default values while installing the supplier portal.
+Some of the configuration's fields are set as default values while installing the eConnect portal.
  
 # Configuration Setup
 
@@ -37,10 +36,10 @@ Some of the configuration's fields are set as default values while installing th
 
 - This will update eConnect-Base configurations at once click.
 - Navigate to Leanswift -> eConnect-base -> Connectivity -> Configuration Setup -> Data Template Packages. 
-- Admin user can update configuration values in standard ‘config.csv’ template as per their environment requirements.
+- Admin users can update configuration values in the standard ‘config.csv’ template as per their environment requirements.
 - When “Import” is clicked, values from the config.csv file will update the configuration field values.
 - The config.csv file will be uploaded under "root_folder/template" in the server.
-- List of values which are imported from config.csv file are: 
+The list of values that are imported from the config.csv file are: 
 	- Company
 	- Division
 	- authenticate_m3_user
@@ -81,44 +80,37 @@ Some of the configuration's fields are set as default values while installing th
 
 # ION Authentication
 
-- The ION API file will auto populate other API URL fields in the configuration.
+- The ION API file will auto-populate other API URL fields in the configuration.
 - Navigate to Leanswift -> eConnect base -> Connectivity -> Authentication -> ION API Credentials file. 
-- Once the ION API file is uploaded the below fields will get auto populated.
+- Once the ION API file is uploaded the below fields will get auto-populated.
 
 <kbd>
 <img alt="ION Authentication file upload" src="../../images/pwa/one_day_deployment/ion_authentication_file_upload.png"> 
 </kbd>
 
 
-1. Store -> Configuration -> Leanswift -> Econnect Base -> service configuration -> API service url.
+1. Leanswift -> Econnect Base -> service configuration -> API service url.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields1.png"> 
 </kbd>
 
 
-2. Store -> Configuration -> Leanswift -> Econnect Base ->Authentication all field except M3 user.
+2. Leanswift -> Econnect Base ->Authentication all field except M3 user.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields2.png"> 
 </kbd>
 
 
-3. Store -> Configuration -> Leanswift -> Econnect Base ->ION Workflow Configuration -> API service Url.
+3. Leanswift -> Econnect Base ->ION Workflow Configuration -> API service Url.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields3.png"> 
 </kbd>
 
 
-4. Store -> Configuration -> Supplier portal -> Settings -> Supplier onboarding -> ION ProcessUserService Url.
-
-<kbd>
-<img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields4.png"> 
-</kbd>
-
-
-5. Store -> Configuration -> LeanSwift -> Idm -> General Configuration -> ION Api service url.
+4. LeanSwift -> Idm -> Settings -> General Configuration -> ION Api service url.
 
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields5.png"> 
