@@ -68,7 +68,7 @@ The list of values that are imported from the config.csv file are:
  
 
 <kbd>
-<img alt="Config.csv file" src="ecommerce/images/one_day_deployment/config.csv_file.png"> 
+<img alt="Config.csv file" src="../images/one_day_deployment/config.csv_file.png"> 
 </kbd>
 
 
