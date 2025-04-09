@@ -62,14 +62,12 @@ The list of values that are imported from the config.csv file are:
 	- wf_service_account
 	- proxy_url
 
-<kbd>
-<img alt="Data templates Packages" src="../../images/pwa/one_day_deployment/data_template_packages.png"> 
-</kbd>
- 
 
-<kbd>
-<img alt="Config.csv file" src="../../images/pwa/one_day_deployment/config.csv_file.png"> 
-</kbd>
+![data_template_packages.png](../../../../ecommerce/images/one_day_deployment/data_template_packages.png)
+ 
+![Config.csv file](../../../../ecommerce/images/one_day_deployment/config.csv_file.png)
+
+
 
 <div align="right">
 <b>
@@ -94,6 +92,7 @@ The list of values that are imported from the config.csv file are:
 <kbd>
 <img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields1.png"> 
 </kbd>
+
 
 
 2. Leanswift -> Econnect Base ->Authentication all field except M3 user.
