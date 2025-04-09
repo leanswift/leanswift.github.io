@@ -82,10 +82,7 @@ The list of values that are imported from the config.csv file are:
 - Navigate to Leanswift -> eConnect base -> Connectivity -> Authentication -> ION API Credentials file. 
 - Once the ION API file is uploaded the below fields will get auto-populated.
 
-<kbd>
-<img alt="ION Authentication file upload" src="../../images/pwa/one_day_deployment/ion_authentication_file_upload.png"> 
-</kbd>
-
+![ion_authentication_file_upload.png](../../../../ecommerce/images/one_day_deployment/ion_authentication_file_upload.png)
 
 1. Leanswift -> Econnect Base -> service configuration -> API service url.
 
