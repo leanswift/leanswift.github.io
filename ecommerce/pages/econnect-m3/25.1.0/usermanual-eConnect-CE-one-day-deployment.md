@@ -92,23 +92,17 @@ The list of values that are imported from the config.csv file are:
 
 2. Leanswift -> Econnect Base ->Authentication all field except M3 user.
 
-<kbd>
-<img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields2.png"> 
-</kbd>
+![ion_authentication_file_upload.png](../../../../ecommerce/images/one_day_deployment/ion_authentication_fields2.png)
 
 
 3. Leanswift -> Econnect Base ->ION Workflow Configuration -> API service Url.
 
-<kbd>
-<img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields3.png"> 
-</kbd>
+![ion_authentication_file_upload.png](../../../../ecommerce/images/one_day_deployment/ion_authentication_fields3.png)
 
 
 4. LeanSwift -> Idm -> Settings -> General Configuration -> ION Api service url.
 
-<kbd>
-<img alt="ION Authentication URL Fields" src="../../images/pwa/one_day_deployment/ion_authentication_fields5.png"> 
-</kbd>
+![ion_authentication_file_upload.png](../../../../ecommerce/images/one_day_deployment/ion_authentication_fields5.png)
 
 
 ## Import History
