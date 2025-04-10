@@ -126,14 +126,12 @@ To verify the import history, navigate to Leanswift -> eConnect Base -> Import H
 - For IDM configuration, navigate to Leanswift -> IDM-> Settings.
 - Expand the menu Leanswift -> Initial load / Import -> Default Config -> Import IDM Configuration -> IDM Initial Load/ Configure.
 
-<kbd>
-<img alt="IDM Import" src="../../images/pwa/one_day_deployment/idm_import.png"> 
-</kbd>
+![idm_import.png](../../../../ecommerce/images/one_day_deployment/idm_import.png)
+
 
 - This will import/fetch Document Type and Attribute Type fields in the **Configurable Options to Upload** and **Configurable Options to Download** from IDM to configurations.
-
-<kbd>
-<img alt="IDM Upload" src="../../images/pwa/one_day_deployment/idm_upload.png"> 
+- 
+idm/idm_upload.png"> 
 </kbd>
 
 <kbd>
