@@ -107,7 +107,7 @@ The list of values that are imported from the config.csv file are:
 
 ## Import History
 
-Once the all the configuration is imported (Supplier Portal settings, Item Management, IDM Settings), history of import is recorded.
+Once the all the configuration is imported (eConnect IoN Configuration, M3 Configuration, IDM Settings), history of import is recorded.
 
 To verify the import history, navigate to Leanswift -> eConnect Base -> Import History. 
 
@@ -123,7 +123,7 @@ To verify the import history, navigate to Leanswift -> eConnect Base -> Import H
 
 # Import IDM Configuration
 
-- For IDM configuration, navigate to Leanswift -> Supplier portal -> Settings.
+- For IDM configuration, navigate to Leanswift -> IDM-> Settings.
 - Expand the menu Leanswift -> Initial load / Import -> Default Config -> Import IDM Configuration -> IDM Initial Load/ Configure.
 
 <kbd>
