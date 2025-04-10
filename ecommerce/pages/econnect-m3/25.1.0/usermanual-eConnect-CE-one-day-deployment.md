@@ -111,9 +111,8 @@ Once the all the configuration is imported (Supplier Portal settings, Item Manag
 
 To verify the import history, navigate to Leanswift -> eConnect Base -> Import History. 
 
-<kbd>
-<img alt="Import History" src="../../images/pwa/one_day_deployment/import_history.png"> 
-</kbd>
+![import_history.png](../../../../ecommerce/images/one_day_deployment/import_history.png)
+
 
 <div align="right">
 <b>
