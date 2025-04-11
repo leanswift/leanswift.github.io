@@ -59,12 +59,17 @@ All the standard functionalities of core eConnect are supported in v25.1.0, whic
 
 ## **Compatibility Fixes**
 
-- Resolved issue to display correct invoice amount.
-- Fixed issue to update saleble quantity while saleble quantity is zero and sync with M3.
-- Resolved the issue for visiblity of configurable simple item sync.
-- Resolved the issue for order sync in multiple store website.
-- Resolved the issue for partial shipment with zero quantity of multiple order line.
-- Implemented OIS100MI GetOrderHead transaction for performance reasons.
+- Addressed the issue to ensure the correct invoice amount is displayed. 
+
+- Fixed the problem of updating salable quantity when it is zero and synchronized with M3.
+
+- Improved visibility for the synchronization of configurable simple items. 
+
+- Resolved the issue with order synchronization across multiple stores on the website. 
+
+- Fixed the problem of partial shipment with zero quantity across multiple order lines.
+
+- Implemented the OIS100MI GetOrderHead transaction to enhance performance.
 
 ## ION Package Update
 
