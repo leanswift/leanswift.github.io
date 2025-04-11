@@ -306,7 +306,8 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
 
 - Navigate to Leanswift -> eConnect base -> Upload ION Components -> Upload Connection Point, DataFlow and WorkFlow -> Upload ION Connection Point.
 
-![Upload ION Components Connection point](../../../../ecommerce/images/one_day_deployment/Upload ION Components Connection point.png)
+![upload_ion_connection_point.png](../../../../ecommerce/images/one_day_deployment/upload_ion_connection_point.png)
+
 
 
 ### Data Flows
