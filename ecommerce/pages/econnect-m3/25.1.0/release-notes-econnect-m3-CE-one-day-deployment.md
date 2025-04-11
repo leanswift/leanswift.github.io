@@ -9,7 +9,6 @@
 - [Highlight](#highlight)
 - [Enhancements](#enhancements)
 - [Compatibility Fixes](#compatibility-fixes)
-- [ION Package Update](#ion-package-update)
 - [Point of Contact](#point-of-contact)
 
 # Environment Details
@@ -23,7 +22,6 @@
 | RabbitMQ            | 3.7.28      |
 | Infor M3 (MT)       | 16.1        |
 | ION Package         | 3.2.1       |
-
 # Standard Features
 
 All the standard functionalities of core eConnect are supported in v25.1.0, which includes the following:
@@ -59,17 +57,17 @@ All the standard functionalities of core eConnect are supported in v25.1.0, whic
 
 ## **Compatibility Fixes**
 
-- Resolved issue to display correct invoice amount.
-- Fixed issue to update saleble quantity while saleble quantity is zero and sync with M3.
-- Resolved the issue for visiblity of configurable simple item sync.
-- Resolved the issue for order sync in multiple store in website.
-- Resolved the issue for partial shipment with zero quantity of multiple order line.
-- Implemented OIS100MI GetOrderHead transaction for performance reasons.
+- Addressed the issue to ensure the correct invoice amount is displayed. 
 
-## ION Package Update
+- Fixed the problem of updating salable quantity when it is zero and synchronized with M3.
 
-- Updated ION Package version to 3.2.1 with the below fix
-- Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
+- Improved visibility for the synchronization of configurable simple items. 
+
+- Resolved the issue with order synchronization across multiple stores on the website. 
+
+- Fixed the problem of partial shipment with zero quantity across multiple order lines.
+
+- Implemented the OIS100MI GetOrderHead transaction to enhance performance.
 
 ## Point of Contact
 
