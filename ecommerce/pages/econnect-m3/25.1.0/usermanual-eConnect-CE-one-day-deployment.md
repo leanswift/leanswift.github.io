@@ -232,7 +232,7 @@ The list of data flows are:
         - LS_eConnect_DF_ShowToSync_SalesOrder
         - LS_eConnect_DF_ShowToSync_Shipment
         - LS_eConnect_DF_ShowToSync_ShipToPartyMaster
-        --LS_eConnect_DF_Sync_BODs 
+        - LS_eConnect_DF_Sync_BODs 
 
 ![data_flow_packages.png](../../../../ecommerce/images/one_day_deployment/data_flow_packages.png)
 
