@@ -152,9 +152,8 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 - Import eConnect configuration is website-specific.
   Leanswift -> Initial load / Import -> Default website ->Import eConnect ION Configuration ->Initial Load/ Configure.
 
-<kbd>
-<img alt="Supplier portal Configuration Import" src="../../images/pwa/one_day_deployment/supplier_portal_comfiguration_import.png"> 
-</kbd>
+![AttributeSet_Category_Default.pang.png](../../../../ecommerce/images/one_day_deployment/AttributeSet_Category_Default.pang.png)
+
 
 - When “Import” button is clicked it will fetch the M3 attributes values from Infor M3 and configure default values based on the values updated in “config.csv” file. M3 attribute fields are available in csv file.
 - They list of M3 Attribute fields fetched from Infor M3 are:
