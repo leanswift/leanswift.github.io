@@ -54,7 +54,7 @@ All the standard functionalities of core eConnect are supported in v25.1.0, whic
 
 ## **Enhancements**
 
-- To set default configurations with one click and make the eConnect Portal ready to use in one day.
+- To set default configurations with one click and make eConnect Portal ready to use in one day.
 - The Connection Point, Data Flow, and Work Flow can be imported from the eConnect Portal admin.
 - Added features to skip account creation without an email address to enhance functionality.
 - Added temporary and final order numbers in the admin order view page to provide additional information.
