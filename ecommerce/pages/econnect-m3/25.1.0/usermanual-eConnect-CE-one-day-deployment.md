@@ -134,14 +134,22 @@ To verify the import history, navigate to Leanswift -> eConnect Base -> Import H
 ![idm_import.png](../../../../ecommerce/images/one_day_deployment/idm_upload.png)
 
 
-![idm_download.png](../../../../ecommerce/images/one_day_deployment/idm_download.png)
+
+<img alt="IDM Reset" src="../../images/pwa/one_day_deployment/idm_reset.png"> 
 
 
 After the import is clicked, import changes to the “Reset” Button.
 
 If there are any changes in Document Type and Attribute Type from IDM, click the “Reset” button, newly added or updated values will be retrieved from IDM.
 
-![idm_reset.png](../../../../ecommerce/images/one_day_deploymentt/idm_reset.png) 
+![idm_reset.png](../../../../ecommerce/images/one_day_deployment/idm_reset.png)
+
+
+<div align="right">
+<b>
+ <a href="#toc">↥ Go to Top</a>
+</b>
+</div>
 
 
 # Import Supplier Portal Configuration
