@@ -50,7 +50,7 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 ## Highlight
 
-- eConnect module is now compatible with Magento v2.4.6 and tested on PHP v8.1(but supports PHP v8.2 too).
+- eConnect module is now compatible with Magento v2.4.7 and tested on PHP v8.1(but supports PHP v8.2,PHP v8.3 too).
 
 ## **Enhancements**
 
