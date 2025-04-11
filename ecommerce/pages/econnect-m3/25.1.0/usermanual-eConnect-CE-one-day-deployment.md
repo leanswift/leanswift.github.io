@@ -12,7 +12,7 @@
 - [ION Authentication](#ion-authentication)
   - [Import History](#import-history)
 - [Import IDM Configuration](#import-idm-configuration)
-- [Import eConnect ION Configuration](#import-supplier-portal-configuration)  
+- [Import eConnect ION Configuration](#Import-eConnect-ION-Configuration)  
 - [Upload ION components](#upload-ion-components)
   - [1.Configuration Setup](#1configuration-setup)
     - [Connection Point Packages](#connection-point-packages)
@@ -162,8 +162,24 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 
 If there are any newly added M3 attributes, when the “Reset” button is clicked, the newly added values will be retrieved from Infor M3 and configure based on the values available in config.csv file.
 
--Leanswift -> Initial load / Import -> Main website ->Import eConnect ION Configuration ->Initial Load/ Configure.
+- Leanswift -> Initial load / Import -> Main website ->Import eConnect ION Configuration ->Initial Load/ Configure.
 
+  ![ION inital load.png](../../../../ecommerce/images/one_day_deployment/ION inital load.png)
+
+  - When “Import” button is clicked it will fetch the M3 attributes values from Infor M3 and configure default values based on the values updated in “config.csv” file. M3 attribute fields are available in csv file.
+
+  - After import is clicked, import changes to Reset Button.
+
+![ION inital load_reset.png](../../../../ecommerce/images/one_day_deployment/ION inital load_reset.png)
+
+
+When “Import” button is clicked it will fetch the M3 attributes values from Infor M3 and configure default values based on the values updated in “config.csv” file. M3 attribute fields are available in csv file.
+- The following configurations have a RESET button during installation of eConnect:
+- Leanswift -> Initial load / Import -> Main website ->Import eConnect ION Configuration->Customer Master Mapping Configure,Customer Address Mapping Configure,Customer Address Mapping Configure.
+
+![Default-reset.png](../../../../ecommerce/images/one_day_deployment/Default-reset.png)
+
+When "RESET" button is clicked it will retrieves the default Configuration values for these Configuration Customer Master Mapping Configure,Customer Address Mapping Configure,Customer Address Mapping Configure..
 
 <div align="right">
 <b>
