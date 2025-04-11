@@ -17,7 +17,7 @@
 | --------------------| ----------- |
 | Magento Open Source | 2.4.7      |
 | eConnect Community  | 25.1.0      |
-| eConnect Base       | 6.4.0       |
+| eConnect Base       | 6.4.1       |
 | PHP version         | 8.1.6       |
 | RabbitMQ            | 3.7.28      |
 | Infor M3 (MT)       | 16.1        |
