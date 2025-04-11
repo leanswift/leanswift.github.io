@@ -15,7 +15,7 @@
 
 | **Software Name**   | **Version** |
 | --------------------| ----------- |
-| Magento Open Source | 2.4.7      |
+| Magento Open Source | 2.4.7       |
 | eConnect Community  | 25.1.0      |
 | eConnect Base       | 6.4.1       |
 | PHP version         | 8.1.6       |
