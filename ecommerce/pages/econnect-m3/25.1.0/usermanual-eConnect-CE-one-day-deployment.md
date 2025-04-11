@@ -107,7 +107,7 @@ The list of values that are imported from the config.csv file are:
 
 ## Import History
 
-Once the all the configuration is imported (Supplier Portal settings, Item Management, IDM Settings), history of import is recorded.
+Once the all the configuration is imported (eConnect IoN Configuration, M3 Configuration, IDM Settings), history of import is recorded.
 
 To verify the import history, navigate to Leanswift -> eConnect Base -> Import History. 
 
@@ -123,30 +123,27 @@ To verify the import history, navigate to Leanswift -> eConnect Base -> Import H
 
 # Import IDM Configuration
 
-- For IDM configuration, navigate to Leanswift -> Supplier portal -> Settings.
+- For IDM configuration, navigate to Leanswift -> IDM-> Settings.
 - Expand the menu Leanswift -> Initial load / Import -> Default Config -> Import IDM Configuration -> IDM Initial Load/ Configure.
 
-<kbd>
-<img alt="IDM Import" src="../../images/pwa/one_day_deployment/idm_import.png"> 
-</kbd>
+![idm_import.png](../../../../ecommerce/images/one_day_deployment/idm_import.png)
+
 
 - This will import/fetch Document Type and Attribute Type fields in the **Configurable Options to Upload** and **Configurable Options to Download** from IDM to configurations.
 
-<kbd>
-<img alt="IDM Upload" src="../../images/pwa/one_day_deployment/idm_upload.png"> 
-</kbd>
+![idm_import.png](../../../../ecommerce/images/one_day_deployment/idm_upload.png)
 
-<kbd>
-<img alt="IDM Download" src="../../images/pwa/one_day_deployment/idm_download.png"> 
-</kbd>
 
-After import is clicked, import changes to “Reset” Button.
+![idm_download.png](../../../../ecommerce/images/one_day_deployment/idm_download.png)
+
+
+After the import is clicked, import changes to the “Reset” Button.
 
 If there are any changes in Document Type and Attribute Type from IDM, click the “Reset” button, newly added or updated values will be retrieved from IDM.
 
-<kbd>
-<img alt="IDM Reset" src="../../images/pwa/one_day_deployment/idm_reset.png"> 
-</kbd>
+
+![idm_reset.png](../../../../ecommerce/images/one_day_deploymentt/idm_reset.png) 
+
 
 <div align="right">
 <b>
@@ -228,9 +225,9 @@ If there are any newly added M3 attributes, when the “Reset” button is click
 <img alt="Item Management import fileds" src="../../images/pwa/one_day_deployment/item_management_imported_fields2.png"> 
 </kbd>
 
-After import is clicked, import changes to Reset Button.
+After the import is clicked, import changes to the Reset Button.
 
-If there are any newly added values in Item type or quality class in Infor M3, then click the “Reset” button, new values will be retrieved from Infor M3 and configure according to config.csv file.
+If there are any newly added values in the Item type or quality class in Infor M3, then click the “Reset” button, new values will be retrieved from Infor M3 and configure according to config.csv file.
 
 <kbd>
 <img alt="Item Management Reset" src="../../images/pwa/one_day_deployment/item_management_reset.png"> 
