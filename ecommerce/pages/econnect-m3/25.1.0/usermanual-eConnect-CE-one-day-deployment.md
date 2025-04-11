@@ -147,11 +147,10 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 </div>
 
 
-# Import Supplier Portal Configuration
+# Import eConnect ION Configuration:
 
-- Import Supplier Portal configuration is website specific.
-- Navigate to Leanswift -> Supplier portal -> Settings.
-- Expand the menu Leanswift -> Initial load / Import -> Main Website -> Import Supplier Portal configuratio ->Supplier Portal Initial Load/ Configure.
+- Import eConnect configuration is website-specific.
+  Leanswift -> Initial load / Import -> Default website ->Import eConnect ION Configuration ->Initial Load/ Configure.
 
 <kbd>
 <img alt="Supplier portal Configuration Import" src="../../images/pwa/one_day_deployment/supplier_portal_comfiguration_import.png"> 
