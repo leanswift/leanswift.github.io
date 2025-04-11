@@ -273,8 +273,6 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
 ![upload_ion_history.png](../../../../ecommerce/images/one_day_deployment/upload_ion_history.png)
 
 
-
-
 <div align="right">
 <b>
  <a href="#toc">↥ Go to Top</a>
