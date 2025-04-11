@@ -287,17 +287,17 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
         - LS_eConnect_DF_ShowToSync_ShipToPartyMaster
         --LS_eConnect_DF_Sync_BODs 
 
-![Data Flow Packages](../../../../ecommerce/images/one_day_deployment/Data Flow Packages.png)
+![data_flow_packages.png](../../../../ecommerce/images/one_day_deployment/data_flow_packages.png)
 
 
-## 2.Upload Connection Points, Data Flows, Workflows:
+## 2. Upload Connection Points, Data Flows, Workflows:
 
-- Upload ION components are used to import the Connection Points, Data Flows, Workflows to ION from admin portal.
+- Upload ION components are used to import the Connection Points, and Data Flows to ION from the admin portal.
 - Navigate to Leanswift -> eConnect-base -> Upload ION components.
 
 **Prerequisites**: 
-- The handy file format must be in zip or json file only.  
-- Initially Proxy URL, ION connect /Process model URL, Encoded service account (to update in cp_service_account), Encoded Service Account (to update in wf_service_account) values will be "Empty". These values should be updated in config.csv file from backend before installation.
+- The handy file format must be in zip or JSON file only.  
+- Initially Proxy URL, ION connect /Process model URL, Encoded service account (to update in cp_service_account), and Encoded Service Account (to update in wf_service_account) values will be "Empty". These values should be updated in the config.csv file from the backend before installation.
 
 ![upload_ion_components.png](../../../../ecommerce/images/one_day_deployment/upload_ion_components.png)
 
