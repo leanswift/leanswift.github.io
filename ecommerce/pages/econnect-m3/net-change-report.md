@@ -2,6 +2,31 @@
 
 # eCommerce - Net Change Report 
 
+# 25.1.0
+
+## Highlight
+
+- eConnect module is now compatible with Magento v2.4.7 and tested on PHP v8.1(but supports PHP v8.2,PHP v8.3 too).
+
+## **Enhancements**
+
+- To set default configurations with one click and make eConnect Portal ready to use in one day.
+- The Connection Point, Data Flow, and Work Flow can be imported from the eConnect Portal admin.
+
+## **Compatibility Fixes**
+
+- Addressed the issue to ensure the correct invoice amount is displayed. 
+
+- Fixed the problem of updating salable quantity when it is zero and synchronized with M3.
+
+- Improved visibility for the synchronization of configurable simple items. 
+
+- Resolved the issue with order synchronization across multiple stores on the website. 
+
+- Fixed the problem of partial shipment with zero quantity across multiple order lines.
+
+- Implemented the OIS100MI GetOrderHead transaction to enhance performance.
+
 # 24.1.0
 
 ## Highlight
