@@ -255,10 +255,11 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
 
 ![m3_connection_point.png](../../../../ecommerce/images/one_day_deployment/m3_connection_point.png)
 
+
 - In the OS portal, initially, the connection point will be “Inactive” state, once the data flows are uploaded then the connection point will become “Active”.
 - List of connection points: 
 	- LS_CP_eConnect_SSD_API
-- An error message” There's an issue with the input, or it already exists within Infor ION for ConnectionPoint.json Connection Point.” will be displayed if there is issue in the file uploaded.
+- An error message” There's an issue with the input, or it already exists within Infor ION for ConnectionPoint.json Connection Point.” will be displayed if there is an issue in the file uploaded.
 
 ![connection_point_packages.png](../../../../ecommerce/images/one_day_deployment/connection_point_packages.png)
 
@@ -286,7 +287,7 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
         - LS_eConnect_DF_ShowToSync_ShipToPartyMaster
         --LS_eConnect_DF_Sync_BODs 
 
-![Data Flow Packages](../../../../ecommerce/images/one_day_deployment/Data Flow Packages)
+![Data Flow Packages](../../../../ecommerce/images/one_day_deployment/Data Flow Packages.png)
 
 
 ## 2.Upload Connection Points, Data Flows, Workflows:
