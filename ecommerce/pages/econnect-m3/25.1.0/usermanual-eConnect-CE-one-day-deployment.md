@@ -25,7 +25,7 @@
     - [Workflows](#workflows)
   - [ION Component Upload History](#ion-component-upload-history)
 
-# Introductio
+# Introduction
 This is a new feature implemented to set configuration with one click and make eConnect Portal ready to use in one day.
 
 Some of the configuration's fields are set as default values while installing the eConnect portal.
@@ -256,15 +256,12 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
 ![m3_connection_point.png](../../../../ecommerce/images/one_day_deployment/m3_connection_point.png)
 
 
-- In OS portal, initially the connection point will be “Inactive” state, once the data flows are uploaded then the connection point will become “Active”.
+- In the OS portal, initially, the connection point will be “Inactive” state, once the data flows are uploaded then the connection point will become “Active”.
 - List of connection points: 
-	- Supplier_Portal_API_SPQA
+	- LS_CP_eConnect_SSD_API
 - An error message” There's an issue with the input, or it already exists within Infor ION for ConnectionPoint.json Connection Point.” will be displayed if there is issue in the file uploaded.
 
-
-<kbd>
-<img alt="Connection Point Packages" src="../../images/pwa/one_day_deployment/connection_point_packages.png"> 
-</kbd>
+![connection_point_packages.png](../../../../ecommerce/images/one_day_deployment/connection_point_packages.png)
 
 
 ### Data Flow Packages
@@ -273,50 +270,24 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
 - Once “Upload” is clicked in Data Flow packages, the Data flows will automatically generate in Infor OS. 
 - Once the file is uploaded, a success message is displayed. The activated data flow can be verified in M3 under ION Desk -> Connect -> Data flows.
 
-<kbd>
-<img alt="M3 Data Flows" src="../../images/pwa/one_day_deployment/m3_data_flows.png"> 
-</kbd>
+![m3_data_flows.png](../../../../ecommerce/images/one_day_deployment/m3_data_flows.png)
+
 
 - List of data flows are: 
-	- Supplier\_Portal\_M3\_Invoice\_Show\_Sync\_BOD
-	- Supplier\_Portal\_M3\_PO\_Show\_Sync\_BOD
-	- Supplier\_Portal\_M3\_Supplier\_Show\_Sync\_BOD
-	- Supplier\_Portal\_M3\_Sync\_BOD
+	- LS_eConnect_DF_ShowToSync_BillToPartyMaster
+        - LS_eConnect_DF_ShowToSync_BillToPartyMaster
+        - LS_eConnect_DF_ShowToSync_CustomerPartyMaster
+        - LS_eConnect_DF_ShowToSync_Invoice
+        - LS_eConnect_DF_ShowToSync_ItemMaster
+        - LS_eConnect_DF_ShowToSync_LSItemStock
+        - LS_eConnect_DF_ShowToSync_LSPriceList
+        - LS_eConnect_DF_ShowToSync_ReceivableTransaction
+        - LS_eConnect_DF_ShowToSync_SalesOrder
+        - LS_eConnect_DF_ShowToSync_Shipment
+        - LS_eConnect_DF_ShowToSync_ShipToPartyMaster
+        --LS_eConnect_DF_Sync_BODs 
 
-<kbd>
-<img alt="Data Flow Packages" src="../../images/pwa/one_day_deployment/data_flow_packages.png"> 
-</kbd>
-
-
-### Work Flow Packages
-
-- Navigate to Leanswift -> eConnect-base -> Connectivity -> Configuration Setup -> Work Flow Packages.  
-- Once “Upload” is clicked in Work Flow packages the Work flows will automatically generate in Infor OS. 
-- Once the file is uploaded, a success message is displayed, and work flow is activated in M3. The activated work flow can be verified in Infor under ION Desk -> Monitors & Workflows -> Workflows. 
-
-<kbd>
-<img alt="M3 Work Flow" src="../../images/pwa/one_day_deployment/m3_work_flows.png"> 
-</kbd>
-
-- List of Workflows are:
-	- supplier_access_approval
-	- supplier_onboarding_idm_notification
-	- supplier_portal_item_creation
-	- supplier_portal_onboard
-	- supplier_portal_onboard_document
-	- supplier_portal_supplier_connect_item
-	- supplier_portal_supplier_connect_item_updation
-	- confirm_po_approval
-
-<kbd>
-<img alt="Work Flow Packages" src="../../images/pwa/one_day_deployment/work_flow_packages.png"> 
-</kbd>
-
-<div align="right">
-<b>
- <a href="#toc">↥ Go to Top</a>
-</b>
-</div>
+![Data Flow Packages](../../../../ecommerce/images/one_day_deployment/Data Flow Packages)
 
 
 ## 2.Upload Connection Points, Data Flows, Workflows:
@@ -328,46 +299,33 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
 - The handy file format must be in zip or json file only.  
 - Initially Proxy URL, ION connect /Process model URL, Encoded service account (to update in cp_service_account), Encoded Service Account (to update in wf_service_account) values will be "Empty". These values should be updated in config.csv file from backend before installation.
 
-<kbd>
-<img alt="Upload ION Components" src="../../images/pwa/one_day_deployment/upload_ion_components.png"> 
-</kbd>
+![upload_ion_components.png](../../../../ecommerce/images/one_day_deployment/upload_ion_components.png)
+
 
 ### Connection Point
 
-- Navigate to Leanswift -> eConnect base -> Upload ION Components -> Upload Connection Point, DataFlow and WorkFlow -> Upload ION Connection Point 
+- Navigate to Leanswift -> eConnect base -> Upload ION Components -> Upload Connection Point, DataFlow and WorkFlow -> Upload ION Connection Point.
 
-<kbd>
-<img alt="Upload ION Components Connection point" src="../../images/pwa/one_day_deployment/upload_ion_connection_point.png"> 
-</kbd>
+![Upload ION Components Connection point](../../../../ecommerce/images/one_day_deployment/Upload ION Components Connection point.png)
+
 
 ### Data Flows
 
-- Navigate to Leanswift -> Econnect base -> Upload ION Components -> Upload connection point, data flow and workflow -> Upload ION Data Flow
+- Navigate to Leanswift -> Econnect base -> Upload ION Components -> Upload connection point, data flow and workflow -> Upload ION Data Flow.
 
-<kbd>
-<img alt="Upload ION Components Data Flows" src="../../images/pwa/one_day_deployment/upload_ion_data_flow.png"> 
-</kbd>
-
-### Workflows
-
-- Navigate to Leanswift -> Econnect base -> Upload ION Components -> Upload connection point, data flow and workflow -> Upload ION Work Flow.
-
-<kbd>
-<img alt="Upload ION Components Work Flow" src="../../images/pwa/one_day_deployment/upload_ion_work_flow.png"> 
-</kbd>
+![Upload ION Components Data Flows](../../../../ecommerce/images/one_day_deployment/upload_ion_data_flow.png)
 
 
 ## ION Component Upload History
 
 - To verify the upload history of ION components, navigate to Leanswift ->eConnect Base -> ION Component Upload History.   
 - If the Job ID is 201 means the connection is successfully done.
-- If the Job ID is 400 means invalid input work flow, workflow already exists, or workflow name is missing, and it is displayed on the configuration page also.
 - If the Job ID is 500 means Server Error 
 - If the Job ID is 403 means No Authorization.
 
-<kbd>
-<img alt="ION Component Upload History" src="../../images/pwa/one_day_deployment/upload_ion_history.png"> 
-</kbd>
+![upload_ion_history.png](../../../../ecommerce/images/one_day_deployment/upload_ion_history.png)
+
+
 
 
 <div align="right">
