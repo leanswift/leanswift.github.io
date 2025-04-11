@@ -202,6 +202,7 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
 - Once “Upload” is clicked, a success message is displayed. The Connection Point can be verified in Infor under OS -> ION -> Connect -> Connection Point.
 
 ![m3_connection_point.png](../../../../ecommerce/images/one_day_deployment/m3_connection_point.png)
+
 - In the OS portal, initially, the connection point will be “Inactive” state, once the data flows are uploaded then the connection point will become “Active”.
 - List of connection points: 
 	- LS_CP_eConnect_SSD_API
@@ -219,7 +220,7 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
 ![m3_data_flows.png](../../../../ecommerce/images/one_day_deployment/m3_data_flows.png)
 
 
-- List of data flows are: 
+The list of data flows are: 
 	- LS_eConnect_DF_ShowToSync_BillToPartyMaster
         - LS_eConnect_DF_ShowToSync_BillToPartyMaster
         - LS_eConnect_DF_ShowToSync_CustomerPartyMaster
