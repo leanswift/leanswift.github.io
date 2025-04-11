@@ -1,4 +1,4 @@
-# **User Manual Part I - eConnect for M3 -v24.1.0**
+# **User Manual Part I - eConnect for M3 -v25.1.0**
 
 ![eConnect banner](../../../../images/banner-econnect-m3.jpg)
 
