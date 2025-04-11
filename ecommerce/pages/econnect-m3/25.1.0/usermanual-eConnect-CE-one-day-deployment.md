@@ -1,5 +1,3 @@
-
-
 # Version 25.1.0 - User Manual- One-Day Deployment
 
 <div id = "toc"></div>
@@ -12,16 +10,14 @@
 - [ION Authentication](#ion-authentication)
   - [Import History](#import-history)
 - [Import IDM Configuration](#import-idm-configuration)
-- [Import eConnect ION Configuration](#Import-eConnect-ION-Configuration)  
+- [Import eConnect ION Configuration:](#import-econnect-ion-configuration)
 - [Upload ION components](#upload-ion-components)
-  - [1.Configuration Setup](#1configuration-setup)
+  - [1. Configuration Setup](#1-configuration-setup)
     - [Connection Point Packages](#connection-point-packages)
     - [Data Flow Packages](#data-flow-packages)
-    - [Work Flow Packages](#work-flow-packages)
-  - [2.Upload Connection Points, Data Flows, Workflows:](#2upload-connection-points-data-flows-workflows)
+  - [2. Upload Connection Points, Data Flows, Workflows:](#2-upload-connection-points-data-flows-workflows)
     - [Connection Point](#connection-point)
     - [Data Flows](#data-flows)
-    - [Workflows](#workflows)
   - [ION Component Upload History](#ion-component-upload-history)
 
 # Introduction
@@ -220,19 +216,19 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
 ![m3_data_flows.png](../../../../ecommerce/images/one_day_deployment/m3_data_flows.png)
 
 
-The list of data flows are: 
-	- LS_eConnect_DF_ShowToSync_BillToPartyMaster
-        - LS_eConnect_DF_ShowToSync_BillToPartyMaster
-        - LS_eConnect_DF_ShowToSync_CustomerPartyMaster
-        - LS_eConnect_DF_ShowToSync_Invoice
-        - LS_eConnect_DF_ShowToSync_ItemMaster
-        - LS_eConnect_DF_ShowToSync_LSItemStock
-        - LS_eConnect_DF_ShowToSync_LSPriceList
-        - LS_eConnect_DF_ShowToSync_ReceivableTransaction
-        - LS_eConnect_DF_ShowToSync_SalesOrder
-        - LS_eConnect_DF_ShowToSync_Shipment
-        - LS_eConnect_DF_ShowToSync_ShipToPartyMaster
-        - LS_eConnect_DF_Sync_BODs 
+- The list of data flows are:
+  	- LS_eConnect_DF_ShowToSync_BillToPartyMaster
+  	- LS_eConnect_DF_ShowToSync_BillToPartyMaster
+  	- LS_eConnect_DF_ShowToSync_CustomerPartyMaster
+  	- LS_eConnect_DF_ShowToSync_Invoice
+  	- LS_eConnect_DF_ShowToSync_ItemMaster
+  	- LS_eConnect_DF_ShowToSync_LSItemStock
+  	- LS_eConnect_DF_ShowToSync_LSPriceList
+  	- LS_eConnect_DF_ShowToSync_ReceivableTransaction
+  	- LS_eConnect_DF_ShowToSync_SalesOrder
+  	- LS_eConnect_DF_ShowToSync_Shipment
+  	- LS_eConnect_DF_ShowToSync_ShipToPartyMaster
+  	- LS_eConnect_DF_Sync_BODs 
 
 ![data_flow_packages.png](../../../../ecommerce/images/one_day_deployment/data_flow_packages.png)
 
