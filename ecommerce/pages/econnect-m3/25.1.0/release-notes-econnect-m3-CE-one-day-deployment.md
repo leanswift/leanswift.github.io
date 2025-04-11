@@ -1,5 +1,5 @@
 
-# **eConnect 24.1.0**
+# **eConnect 25.1.0**
 
 # Table of contents
 
@@ -16,9 +16,9 @@
 
 | **Software Name**   | **Version** |
 | --------------------| ----------- |
-| Magento Open Source | 2.4.6       |
-| eConnect Community  | 24.1.0      |
-| eConnect Base       | 6.3.0       |
+| Magento Open Source | 2.4.7      |
+| eConnect Community  | 25.1.0      |
+| eConnect Base       | 6.4.0       |
 | PHP version         | 8.1.6       |
 | RabbitMQ            | 3.7.28      |
 | Infor M3 (MT)       | 16.1        |
@@ -26,7 +26,7 @@
 
 # Standard Features
 
-All the standard functionalities of core eConnect are supported in v24.1.0, which includes the following:
+All the standard functionalities of core eConnect are supported in v25.1.0, which includes the following:
 
 - Customer Registration
 - Customer Addition
@@ -44,7 +44,7 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 ## Prerequisites
 
-- From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' in order to make successful connection with the Infor ION API.
+- From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' to make a successful connection with the Infor ION API.
 
 	![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
 
@@ -71,8 +71,8 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 - Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
 - Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
 - Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
-- Fixed the issue for invoice amount wrongly update in "My Invoices" section.
-- Implemented OIS100MI GetOrderHead transaction for performance reason.
+- Fixed the issue of invoice amount wrongly updated in the "My Invoices" section.
+- Implemented OIS100MI GetOrderHead transaction for performance reasons.
 
 ## ION Package Update
 
