@@ -156,23 +156,9 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 
 
 - When “Import” button is clicked it will fetch the M3 attributes values from Infor M3 and configure default values based on the values updated in “config.csv” file. M3 attribute fields are available in csv file.
-- They list of M3 Attribute fields fetched from Infor M3 are:
-	- Supplier Onboarding:
-		- M3 Supplier template.
-		- SP Prefix.
-		- M3 Language list.
-		- M3 Order Currency List.
-		- M3 Payment Terms.
-		- M3 Fright Terms.
-		- M3 Delivery Terms list.
-		- M3 Payment Method List.
-		- M3 Packing Terms List.
-		- M3 Monitoring Class List.
-		- M3 Delivery Method List.
-- By default, all other configuration values are updated in Supplier Portal settings. 
 
 
-<kbd>
+![AttributeSet_Category_Default_reset.png](../../../../ecommerce/images/one_day_deployment/AttributeSet_Category_Default_reset.png)
 <img alt="Supplier portal import fields" src="../../images/pwa/one_day_deployment/supplier_portal_fields.png"> 
 </kbd>
 
