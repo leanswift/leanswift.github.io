@@ -9,7 +9,6 @@
 - [Highlight](#highlight)
 - [Enhancements](#enhancements)
 - [Compatibility Fixes](#compatibility-fixes)
-- [ION Package Update](#ion-package-update)
 - [Point of Contact](#point-of-contact)
 
 # Environment Details
@@ -22,7 +21,6 @@
 | PHP version         | 8.1.6       |
 | RabbitMQ            | 3.7.28      |
 | Infor M3 (MT)       | 16.1        |
-| ION Package         | 3.2.1       |
 
 # Standard Features
 
@@ -70,11 +68,6 @@ All the standard functionalities of core eConnect are supported in v25.1.0, whic
 - Fixed the problem of partial shipment with zero quantity across multiple order lines.
 
 - Implemented the OIS100MI GetOrderHead transaction to enhance performance.
-
-## ION Package Update
-
-- Updated ION Package version to 3.2.1 with the below fix
-- Show Shipment BOD is now working and getting triggered as expected after making changes in the Event Analytics Rules.
 
 ## Point of Contact
 
