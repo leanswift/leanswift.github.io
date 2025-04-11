@@ -156,7 +156,7 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 
 - When “Import” button is clicked it will fetch the M3 attributes values from Infor M3 and configure default values based on the values updated in “config.csv” file. M3 attribute fields are available in csv file.
 
-- After import is clicked, import changes to Reset Button. 
+- After the import is clicked, import changes to Reset Button. 
 ![AttributeSet_Category_Default_reset.png](../../../../ecommerce/images/one_day_deployment/AttributeSet_Category_Default_reset.png)
   
 
@@ -164,7 +164,7 @@ If there are any newly added M3 attributes, when the “Reset” button is click
 
 - Leanswift -> Initial load / Import -> Main website ->Import eConnect ION Configuration ->Initial Load/ Configure.
 
-  ![ION inital load.png](../../../../ecommerce/images/one_day_deployment/ION inital load.png)
+ ![ION inital load.png](../../../../ecommerce/images/one_day_deployment/ION inital load.png)
 
   - When “Import” button is clicked it will fetch the M3 attributes values from Infor M3 and configure default values based on the values updated in “config.csv” file. M3 attribute fields are available in csv file.
 
@@ -174,7 +174,7 @@ If there are any newly added M3 attributes, when the “Reset” button is click
 
 
 When “Import” button is clicked it will fetch the M3 attributes values from Infor M3 and configure default values based on the values updated in “config.csv” file. M3 attribute fields are available in csv file.
-- The following configurations have a RESET button during installation of eConnect:
+- The following configurations have a RESET button during the installation of eConnect:
 - Leanswift -> Initial load / Import -> Main website ->Import eConnect ION Configuration->Customer Master Mapping Configure,Customer Address Mapping Configure,Customer Address Mapping Configure.
 
 ![Default-reset.png](../../../../ecommerce/images/one_day_deployment/Default-reset.png)
