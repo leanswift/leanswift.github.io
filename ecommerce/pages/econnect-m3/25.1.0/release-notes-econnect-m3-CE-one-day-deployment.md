@@ -1,5 +1,5 @@
 
-# **eConnect 24.1.0**
+# **eConnect 25.1.0**
 
 # Table of contents
 
@@ -16,9 +16,9 @@
 
 | **Software Name**   | **Version** |
 | --------------------| ----------- |
-| Magento Open Source | 2.4.6       |
-| eConnect Community  | 24.1.0      |
-| eConnect Base       | 6.3.0       |
+| Magento Open Source | 2.4.7      |
+| eConnect Community  | 25.1.0      |
+| eConnect Base       | 6.4.0       |
 | PHP version         | 8.1.6       |
 | RabbitMQ            | 3.7.28      |
 | Infor M3 (MT)       | 16.1        |
@@ -26,7 +26,7 @@
 
 # Standard Features
 
-All the standard functionalities of core eConnect are supported in v24.1.0, which includes the following:
+All the standard functionalities of core eConnect are supported in v25.1.0, which includes the following:
 
 - Customer Registration
 - Customer Addition
@@ -44,7 +44,7 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 ## Prerequisites
 
-- From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' in order to make successful connection with the Infor ION API.
+- From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' to make a successful connection with the Infor ION API.
 
 	![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
 
@@ -54,25 +54,17 @@ All the standard functionalities of core eConnect are supported in v24.1.0, whic
 
 ## **Enhancements**
 
-- To set default configurations with one click and make the eConnect Portal ready to use in one day.
+- To set default configurations with one click and make eConnect Portal ready to use in one day.
 - The Connection Point, Data Flow, and Work Flow can be imported from the eConnect Portal admin.
-- Added features to skip account creation without an email address to enhance functionality.
-- Added temporary and final order numbers in the admin order view page to provide additional information.
 
 ## **Compatibility Fixes**
 
-- Resolved the unsupported operand type error encountered during Order Creation cron.
-- Addressed the error 'Undefined array key STAT' that occurred during Order Creation.
-- Updated the customer PO reference number in order history to resolve issues.
-- Fixed the URL key generation for products with name, SKU, and randomNumber to ensure compatibility.
-- Addressed BOD XML path changes for invoice quantity to maintain compatibility.
-- Fixed issues related to invoice and shipment quantity to ensure compatibility.
-- Added validation for customer numbers during order sync with M3 and displayed actual error messages.
-- Implemented displaying actual errors in the admin panel when orders sync to ERP to enhance compatibility.
-- Rectified the issue where CUNO was overwritten by ADID in Customer attribute mapping configuration to maintain compatibility.
-- Resolved the problem where shipments were not created for configurable product variants in Magento, ensuring compatibility.
-- Fixed the issue for invoice amount wrongly update in "My Invoices" section.
-- Implemented OIS100MI GetOrderHead transaction for performance reason.
+- Resolved issue to display correct invoice amount.
+- Fixed issue to update saleble quantity while saleble quantity is zero and sync with M3.
+- Resolved the issue for visiblity of configurable simple item sync.
+- Resolved the issue for order sync in multiple store in website.
+- Resolved the issue for partial shipment with zero quantity of multiple order line.
+- Implemented OIS100MI GetOrderHead transaction for performance reasons.
 
 ## ION Package Update
 
