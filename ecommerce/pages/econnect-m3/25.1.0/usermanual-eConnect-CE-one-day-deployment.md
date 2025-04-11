@@ -261,7 +261,7 @@ At the time of eConnect Portal installation, the Connection Point file (Json), D
 	- LS_CP_eConnect_SSD_API
 - An error message” There's an issue with the input, or it already exists within Infor ION for ConnectionPoint.json Connection Point.” will be displayed if there is an issue in the file uploaded.
 
-![connection_point_packages.png](../../../../ecommerce/images/one_day_deployment/connection_point_packages.png)
+  ![connection_point_packages.png](../../../../ecommerce/images/one_day_deployment/connection_point_packages.png)
 
 
 ### Data Flow Packages
