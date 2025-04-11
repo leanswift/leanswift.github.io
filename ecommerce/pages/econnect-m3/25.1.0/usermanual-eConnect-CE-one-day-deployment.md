@@ -12,8 +12,7 @@
 - [ION Authentication](#ion-authentication)
   - [Import History](#import-history)
 - [Import IDM Configuration](#import-idm-configuration)
-- [Import Supplier Portal Configuration](#import-supplier-portal-configuration)
-- [Import Item Management configuration](#import-item-management-configuration)
+- [Import eConnect ION Configuration](#import-supplier-portal-configuration)  
 - [Upload ION components](#upload-ion-components)
   - [1.Configuration Setup](#1configuration-setup)
     - [Connection Point Packages](#connection-point-packages)
@@ -150,7 +149,7 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 # Import eConnect ION Configuration:
 
 - Import eConnect configuration is website-specific.
-  Leanswift -> Initial load / Import -> Default website ->Import eConnect ION Configuration ->Initial Load/ Configure.
+- Leanswift -> Initial load / Import -> Default website ->Import eConnect ION Configuration ->Initial Load/ Configure.
 
 ![AttributeSet_Category_Default.pang.png](../../../../ecommerce/images/one_day_deployment/AttributeSet_Category_Default.pang.png)
 
@@ -163,51 +162,14 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 
 If there are any newly added M3 attributes, when the “Reset” button is clicked, the newly added values will be retrieved from Infor M3 and configure based on the values available in config.csv file.
 
+-Leanswift -> Initial load / Import -> Main website ->Import eConnect ION Configuration ->Initial Load/ Configure.
+
 
 <div align="right">
 <b>
  <a href="#toc">↥ Go to Top</a>
 </b>
 </div>
-
-
-# Import Item Management configuration
-
-- Import Item Management Configuration is website specific.
-- Navigate to Leanswift -> Supplier portal -> Settings.
-- Expand the menu Leanswift -> Initial load / Import -> Main Website -> Import Item Management configuration -> Item Management Initial Load/ Configure.
-
-
-<kbd>
-<img alt="Item Management Import" src="../../images/pwa/one_day_deployment/item_management_import.png"> 
-</kbd>
-
-- Item Type and Quality Class attribute values are fetched from Infor M3 and update based on the default values given in the config.csv file.
-- Creation Responsible, Workflow Distribution Username need to have the user specified values. This can be updated directly in the config.csv file. 
-
-
-<kbd>
-<img alt="Item Management import fileds" src="../../images/pwa/one_day_deployment/item_management_imported_fields.png"> 
-</kbd>
-
-<kbd>
-<img alt="Item Management import fileds" src="../../images/pwa/one_day_deployment/item_management_imported_fields2.png"> 
-</kbd>
-
-After the import is clicked, import changes to the Reset Button.
-
-If there are any newly added values in the Item type or quality class in Infor M3, then click the “Reset” button, new values will be retrieved from Infor M3 and configure according to config.csv file.
-
-<kbd>
-<img alt="Item Management Reset" src="../../images/pwa/one_day_deployment/item_management_reset.png"> 
-</kbd>
-
-<div align="right">
-<b>
- <a href="#toc">↥ Go to Top</a>
-</b>
-</div>
-
 
 # Upload ION components
 
