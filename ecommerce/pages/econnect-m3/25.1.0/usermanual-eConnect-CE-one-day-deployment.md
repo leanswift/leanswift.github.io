@@ -157,22 +157,12 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 
 - When “Import” button is clicked it will fetch the M3 attributes values from Infor M3 and configure default values based on the values updated in “config.csv” file. M3 attribute fields are available in csv file.
 
-
+- After import is clicked, import changes to Reset Button. 
 ![AttributeSet_Category_Default_reset.png](../../../../ecommerce/images/one_day_deployment/AttributeSet_Category_Default_reset.png)
-<img alt="Supplier portal import fields" src="../../images/pwa/one_day_deployment/supplier_portal_fields.png"> 
-</kbd>
-
-<kbd>
-<img alt="Supplier portal import fields" src="../../images/pwa/one_day_deployment/supplier_portal_fields2.png"> 
-</kbd>
-
-After import is clicked, import changes to Reset Button. 
+  
 
 If there are any newly added M3 attributes, when the “Reset” button is clicked, the newly added values will be retrieved from Infor M3 and configure based on the values available in config.csv file.
 
-<kbd>
-<img alt="Supplier portal Reset" src="../../images/pwa/one_day_deployment/supplier_portal_comfiguration_reset.png"> 
-</kbd>
 
 <div align="right">
 <b>
