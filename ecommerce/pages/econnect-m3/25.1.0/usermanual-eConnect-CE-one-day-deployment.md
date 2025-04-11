@@ -244,21 +244,20 @@ If there are any newly added values in the Item type or quality class in Infor M
 
 The ION components can be configured in two different ways:
 
-## 1.Configuration Setup 
+## 1. Configuration Setup 
 
-At the time of Supplier Portal installation, the Connection Point file (Json), Data Flows file(zip), Work Flows file(zip) should be given under "root_folder/template" in the server.
+At the time of eConnect Portal installation, the Connection Point file (Json), Data Flows file(zip), and Work Flows file(zip) should be given under "root_folder/template" in the server.
 
 ### Connection Point Packages
 
 - Navigate to Leanswift -> eConnect-base -> Connectivity -> Configuration Setup -> Connection Point Packages.
-- Once “Upload” is clicked, success message is displayed. The Connection Point can be verified in Infor under OS -> ION -> Connect -> Connection Point.
+- Once “Upload” is clicked, a success message is displayed. The Connection Point can be verified in Infor under OS -> ION -> Connect -> Connection Point.
 
-<kbd>
-<img alt="M3 Connection point" src="../../images/pwa/one_day_deployment/m3_connection_point.png"> 
-</kbd>
+![m3_connection_point.png](../../../../ecommerce/images/one_day_deployment/m3_connection_point.png)
+
 
 - In OS portal, initially the connection point will be “Inactive” state, once the data flows are uploaded then the connection point will become “Active”.
-- List of connection point: 
+- List of connection points: 
 	- Supplier_Portal_API_SPQA
 - An error message” There's an issue with the input, or it already exists within Infor ION for ConnectionPoint.json Connection Point.” will be displayed if there is issue in the file uploaded.
 
