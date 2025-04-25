@@ -16,7 +16,7 @@
 | **Software Name**   | **Version** |
 | --------------------| ----------- |
 | Magento Open Source | 2.4.7      |
-| eConnect Commerce  | 25.1.0      |
+| eConnect Commerce   | 25.1.0      |
 | eConnect Base       | 6.4.1       |
 | PHP version         | 8.1.6       |
 | RabbitMQ            | 3.7.28      |
