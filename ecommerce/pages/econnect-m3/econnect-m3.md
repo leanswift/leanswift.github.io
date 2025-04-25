@@ -9,8 +9,8 @@
 - ## [User Manual - Part 1](25.1.0/usermanual-econnect-m3-part-1.md)
 
 - ## [User Manual - Part 2](25.1.0/usermanual-econnect-m3-part-2.md)
-
-- ##[usermanual-eConnect-one-day-deployment](25.1.0/usermanual-eConnect-one-day-deployment.md)
+  
+- ## [User Manual - Sameday Deployment](25.1.0/usermanual-eConnect-one-day-deployment.md)
 
 - ## [Release Notes for Community](25.1.0/release-notes-econnect-m3-CE-one-day-deployment.md)
 
