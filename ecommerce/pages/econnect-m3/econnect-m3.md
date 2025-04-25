@@ -6,8 +6,6 @@
 
 # Version 25.1.0
 
-- ## [User Manual - sameday-deployment](25.1.0/usermanual-eConnect-CE-one-day-deployment.md)
-
 - ## [User Manual - Part 1](25.1.0/usermanual-econnect-m3-part-1.md)
 
 - ## [User Manual - Part 2](25.1.0/usermanual-econnect-m3-part-2.md)
