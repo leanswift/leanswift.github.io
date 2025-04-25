@@ -12,6 +12,8 @@
 
 - ## [Release Notes for Community](25.1.0/release-notes-econnect-m3-CE-one-day-deployment.md)
 
+- ## [Release Notes for Community](25.1.0/release-notes-econnect-m3-EE-one-day-deployment.md)
+
 # Version 24.1.0
 
 - ## [User Manual - Part 1](24.1.0/usermanual-econnect-m3-part-1.md)
