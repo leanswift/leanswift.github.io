@@ -5,7 +5,6 @@
 # Table of contents
 
   - [Prerequisites](#prerequisites)
-  - [New in this Version](#new-in-this-version)
 
 # **Prerequisites**
 
@@ -13,21 +12,6 @@
 
 	![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
 
-# **New in this Version**
-
-- Option to skip customer creation with random email id is implemented (i.e. [ERPnumber@someone.com](mailto:ERPnumber@someone.com))
-- Navigate to Leanswift -> Econnect ION -> Configuration -> Switch to required Website -> Customer Addition and Synchronization. 
-- If configuration is set to “YES”, the customer creation will be skipped. When the email ID is not provided.
-- Once the email address is given for customer in M3 it will generate a BOD and the customer will reflect in Customer Page in Magento.
-- If configuration is set to "NO” the customer will be created with e-mail address like [ERPnumber@someone.com](mailto:ERPnumber@someone.com)
-
-
-![skip account creation without email](../../../../ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email1.png)
-
-
-- The admin order view page displays the ERP temporary and final order numbers.
-
-  ![display temporary and final order number](../../../../ecommerce/images/econnect-user-manual-ion-part1/temp-and-final-order-number.png)
   
 **User Manual for 25.1.0 is same as 24.1.0**
 
