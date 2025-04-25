@@ -153,7 +153,8 @@ If there are any changes in Document Type and Attribute Type from IDM, click the
 
 - When “Import” button is clicked it will fetch the M3 attributes values from Infor M3 and configure default values based on the values updated in “config.csv” file. M3 attribute fields are available in csv file.
 
-- After the import is clicked, import changes to the Reset Button. 
+- After the import is clicked, import changes to the Reset Button.
+  
 ![AttributeSet_Category_Default_reset.png](../../../../ecommerce/images/one_day_deployment/AttributeSet_Category_Default_reset.png)
   
 
