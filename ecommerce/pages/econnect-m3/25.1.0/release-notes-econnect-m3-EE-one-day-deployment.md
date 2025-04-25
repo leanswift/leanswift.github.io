@@ -22,6 +22,7 @@
 | RabbitMQ            | 3.7.28      |
 | Infor M3 (MT)       | 16.1        |
 | ION Package         | 3.2.1       |
+
 # Standard Features
 
 All the standard functionalities of core eConnect are supported in v25.1.0, which includes the following:
