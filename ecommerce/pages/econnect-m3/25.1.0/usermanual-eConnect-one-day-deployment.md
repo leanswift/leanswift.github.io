@@ -128,7 +128,7 @@ To verify the import history, navigate to Leanswift -> eConnect Base -> Import H
 
 ![idm_import.png](../../../../ecommerce/images/one_day_deployment/idm_upload.png) 
 
-![idm_import.png](../../../../ecommerce/images/one_day_deployment/idm_upload1.png)
+![idm_import1.png](../../../../ecommerce/images/one_day_deployment/idm_upload1.png) 
 
 After the import is clicked, import changes to the “Reset” Button.
 If there are any changes in Document Type and Attribute Type from IDM, click the “Reset” button, newly added or updated values will be retrieved from IDM.
