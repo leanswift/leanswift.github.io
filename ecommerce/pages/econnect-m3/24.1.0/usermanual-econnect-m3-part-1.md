@@ -31,4 +31,4 @@
   
 **User Manual for 24.1.0 is same as 22.2.1**
 
-To view the part-1 user manual click [here]((../22.2.1/usermanual-econnect-m3-part-1.md)..
+To view the part-1 user manual click [here](../22.2.1/usermanual-econnect-m3-part-1.md)
