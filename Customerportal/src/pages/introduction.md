@@ -4,6 +4,10 @@
 
 - ## [Net Change Report](net-change-report.md)
 
+# Version 25.1.0
+
+- ## [Release Notes](customer-portal/25.1.0/release-notes-customer-portal.md)
+  
 # Version 23.4.0
 
 - ## [Release Notes](customer-portal/23.4.0/release-notes-customer-portal.md)
