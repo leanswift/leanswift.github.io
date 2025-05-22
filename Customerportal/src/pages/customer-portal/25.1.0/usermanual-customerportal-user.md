@@ -2,7 +2,7 @@
 
 # **Version 25.1.0 - User Manual – Customer Portal - User**
 
-
+Customer Portal User manual is working in progress
 
 
 
