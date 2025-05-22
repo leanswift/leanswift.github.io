@@ -79,7 +79,7 @@
 - If installed as a standalone, registration requires ERP number, order number, invoice number, and amount.
 - With Econnect, the system will apply the Econnect registration restriction group, while in standalone, it will apply the Customer Portal restriction group.
 
-## **Highlights
+## **Highlights**
 - The Customer Portal modules now support installation with Econnect without the need to create multiple websites.
 - The features of the Customer Portal modules will remain consistent whether using Econnect or as a standalone.
 - Econnect customers can access all Customer Portal features.
