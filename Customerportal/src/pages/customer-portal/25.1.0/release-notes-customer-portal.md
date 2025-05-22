@@ -26,13 +26,13 @@
 | --- | --- |
 | Magento Open Source | 2.4.7 |
 | LeanSwift eConnect Base | 6.4.1 |
-| LeanSwift M3 Login | 22.4.0 |
-| LeanSwift Customer Portal | 22.4.0 |
-| LeanSwift Payment Portal | 22.4.0 |
-| LeanSwift IDM | 4.1.2 |
-| RabbitMQ | 3.7.28 |
-| ION Desk (CloudSuite) | 2022.01.03  |
-| Infor M3 (CloudSuite) | 10.4.1.20220810_084103_01   |
+| LeanSwift M3 Login | 25.1.0 |
+| LeanSwift Customer Portal | 25.1.0 |
+| LeanSwift Payment Portal | 25.1.0 |
+| LeanSwift IDM | 4.3.0|
+| RabbitMQ | 3.8.3 |
+| ION Desk (CloudSuite) | 12.0.0 |
+| Infor M3 (CloudSuite) | 16.1 |
 | ION Package Version  |1.0.0  |
 
 ## **Standard Features**
