@@ -2,7 +2,7 @@
 
 # **LeanSwift Customer Portal**
 
-# **23.4.0**
+# **25.1.0**
 
 ## **Release Notes**
 
@@ -11,43 +11,35 @@
   - [**Overview**](#overview)
   - [**Environment Details**](#environment-details)
   - [**Standard Features**](#standard-features)
-  - [**Highlights**](#highlights)
   - [**Enhancements**](#enhancements)
   - [**Pre-Requisites**](#pre-requisites)
-  - [**Bug Fixes**](#bug-fixes)
   - [**Limitations**](#limitations)
-  - [**Validated Versions**](#validated-versions)
   - [**Point of Contact**](#point-of-contact)
-
 
 ## **Overview**
 
 **LeanSwift Customer Portal** is a customer self-service web portal that enables users to get instance access to information about their orders, invoices, and payments. With additional add-ons, users can also make e-payments directly via the portal. It is seamlessly integrated with Infor M3 Cloud Suite using ION. Customer Portal offers a single point of access to structured information about customer transactions and self-service functionality such as pay invoices, user management and much more.
 
-
-
 ## **Environment Details**
 
 | **Software Name**  |  **Version**  |
 | --- | --- |
-| Magento Open Source | 2.4.6 |
-| LeanSwift eConnect Base | 6.3.0 |
-| LeanSwift M3 Login | 23.4.0 |
-| LeanSwift Customer Portal | 23.4.0 |
-| LeanSwift Payment Portal | 23.4.0 |
-| LeanSwift IDM | 4.2.0 |
-| RabbitMQ | 3.8.3 |
-| ION Desk (CloudSuite) | 12.0.0  |
-| Infor M3 (CloudSuite) | 16.1   |
+| Magento Open Source | 2.4.7 |
+| LeanSwift eConnect Base | 6.4.1 |
+| LeanSwift M3 Login | 22.4.0 |
+| LeanSwift Customer Portal | 22.4.0 |
+| LeanSwift Payment Portal | 22.4.0 |
+| LeanSwift IDM | 4.1.2 |
+| RabbitMQ | 3.7.28 |
+| ION Desk (CloudSuite) | 2022.01.03  |
+| Infor M3 (CloudSuite) | 10.4.1.20220810_084103_01   |
 | ION Package Version  |1.0.0  |
-
-
 
 ## **Standard Features**
 
 **Account**
 
-- Registration and Login of External User  
+- Login of External User  
 - Import and Login of Internal User  
 - View User Account Information  
 - Customer Selection by logged in user  
@@ -82,111 +74,52 @@
 - Settings and Configuration for Portal and M3 Connectivity
 - M3 User Roles Configuration, User Permissions and sub-account management
 
-## **Highlights**
-
-### **PWA Storefront Implementation:**
-
-- We have introduced a Progressive Web App (PWA) storefront by extending the Venia theme. This upgrade offers users a more responsive, faster, and app-like experience, ensuring seamless navigation and improved performance.
-
-### **GraphQL Implementation:**
-
-- Implemented GraphQL for each module, including orders, invoices, payments, and Account Information. This change enhances data fetching efficiency and provides a more flexible and streamlined experience for users.
-
-### **Enhanced Filters:**
-
-- We have improved the filtering capabilities for orders, invoices, and payments. The enhanced filters offer users a more intuitive and efficient way to manage and navigate through their data.
-
-### **Lazyload Pagination:**
-
-- To optimize the user experience, lazyload pagination has been implemented in the order, invoice, and payment sections. This ensures faster loading times and a smoother browsing experience for users with large datasets.
-
-### **Credit Calculation Display:**
-
-- Users can now view credit calculations conveniently at the top of the payment screen. This feature provides instant insights into their credit status during the payment process.
-
-### **Mobile Compatibility (Responsiveness):**
-
-- The PWA storefront is now fully compatible with all mobile devices, ensuring a responsive design that adapts to various screen sizes. Users can enjoy a consistent and user-friendly experience across different devices.
-
-### **New Layout Implementation:**
-
-- We've introduced a new layout to enhance the overall UI experience. The new design focuses on improved aesthetics and usability, providing a more visually appealing and intuitive interface.
-
-### **Performance Enhancement:**
-
-- The release includes optimizations to enhance speed, particularly within the JavaScript framework. This results in a faster and more responsive application, improving overall user satisfaction.
-
-
 ## **Enhancements**
+- When installed with Econnect, customer registration is not required. Users can change their password using their Infor M3 email ID.
+- If installed as a standalone, registration requires ERP number, order number, invoice number, and amount.
+- With Econnect, the system will apply the Econnect registration restriction group, while in standalone, it will apply the Customer Portal restriction group.
 
-- Upgraded IDM add-on to be compatible with eConnect-base version 6.3.0.
-
-- Magento version upgraded to 2.4.6. 
-
--  PHP version upgraded to 8.1.25. 
-
-- Removed SwissUp theme and created LeanSwift Portal Theme.
-
-- Search fields added for Payments page.
-
-- Modified CustomerPortal and PaymentPortal to fit Magento Standards.
-
-
+## **Highlights
+- The Customer Portal modules now support installation with Econnect without the need to create multiple websites.
+- The features of the Customer Portal modules will remain consistent whether using Econnect or as a standalone.
+- Econnect customers can access all Customer Portal features.
+- We have updated the m3 login authentication  process by replacing mingle url with ifs service url
+ 
 ## **Pre-Requisites**
 
-- Internal users should be active users on Mingle / Infor OS in order to be able to log into and use the portal.
+- Internal users must be active on Mingle / Infor OS to log into and use the portal.
 
-- Internal users should have at least one valid user role assigned in ‘m3 user roles’ configuration to login.
+- Internal users need at least one valid user role assigned in the 'm3 user roles' configuration to access the portal.
 
-- Internal users should have permissions granted in both ‘m3 user roles’ section and the customer panel.
+- Permissions must be granted to internal users in both the 'm3 user roles' section and the customer panel.
 
-- CyberSource is the default payment gateway. Hence a CyberSource account is required for taking payments from the portal. If any other payment gateway is required to be supported, that can be done only by additional, customized development and is not available out-of-the-box.
-
-## **Bug Fixes**
-
-- Documents uploaded for Short Pay Invoices is not available in M3 Program ARS200 is resolved.
-
-- Business context is added for the delivery note document type in IDM.
-
-- Customer name search on Upper Cases is now working in  home page.
-
-- Fixed Internal M3 Login authentication Issue.
-
-
+- CyberSource is the default payment gateway, so a CyberSource account is necessary for processing payments through the portal. Supporting any other payment gateway requires additional, customized development and is not available out-of-the-box.
 ## **Limitations**
 
+- Multiple currency support is unavailable at the customer level.
 
-- Multiple currency support is not supported at the customer level.
+- When importing customer data (updating multiple customer information via CSV), fields such as view sections, 'is admin,' and 'make payments' are mandatory and cannot be left empty.
 
-- When importing customer data (update multiple customer information via csv), fields like view sections, ‘is admin’ and ‘make payments’ are mandatory and cannot be empty.
+- In this version, only credit card payments are supported via the portal.
 
-- Only Payments by Credit Card are supported via the portal in this version.
-	
-- Customers will not be able to edit payment and billing information on CyberSource payment pages.
+- Customers cannot edit payment and billing information on CyberSource payment pages.
 
-- Import Order History data is limited to 10,000 records per M3 customer number.
+- Importing order history data is limited to 10,000 records per M3 customer number.
 
-- Clears the downloaded files from IDM and Cron/Real time configurations in IDM upload and download is not supported.
-
-- Please note that the Cybersource Payment Gateway is not fully supported in this release. We apologize for any inconvenience caused and are actively working on addressing this limitation in future updates.
-
-
-## **Validated Browser Version**
-
-Chrome version 120.0.6099.71
-
+- Clearing downloaded files from IDM and Cron/Real-time configurations in IDM upload and download is not supported.
 
 ## **Point of Contact**
-
 
 [prabhu.manoharan3@wipro.com ](mailto:prabhu.manoharan3@wipro.com )
 
 [deepthi.tadikamalla@wipro.com ](mailto:deepthi.tadikamalla@wipro.com )
 
+[silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com)
+
 [saurabh.gupta77@wipro.com](mailto:saurabh.gupta77@wipro.com)
 
-[shoubhik.ghosh@wipro.com](mailto:shoubhik.ghosh@wipro.com)
+[ketankumar.zanzarukiya@wipro.com](mailto:ketankumar.zanzarukiya@wipro.com)
 
 [kalaivani.nagarajan1@wipro.com](mailto:kalaivani.nagarajan1@wipro.com)
 
-[narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com )
+
