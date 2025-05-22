@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+- [25.1.0](#2340)
+    - [Features](#features)
+    - [Enhancements](#enhancements)  
+    - [Highlights](#highlights)
   - [23.4.0](#2340)
     - [Features](#features)
     - [Highlights](#highlights)
@@ -18,6 +22,57 @@
   - [21.2.0](#2120)
     - [Features](#features)
 
+## 23.4.0
+
+## **Features**
+
+**Account**
+
+- Login of External User  
+- Import and Login of Internal User  
+- View User Account Information  
+- Customer Selection by logged in user  
+- Switch Customer Account
+
+**Orders**
+
+- View Order History
+- Synchronization of Order Status in real-time
+- Search by Order#, Order Date
+- Filter by Order Status
+- Sort by Order Date
+
+**Invoices**
+
+- View Invoice History
+- Synchronization of Invoice Status in real-time
+- Search by Invoice#, Invoice Date
+- Filter by Invoice Status
+- Sort by Invoice Date
+  
+**Payments**
+
+- Pay Invoices by CC
+- Pay Invoices by Credit Memos
+- Pay on Account by CC
+- Support for both Full & Partial Payments
+- Synchronization of Payment Status in real-time
+  
+**Admin**
+
+- Settings and Configuration for Portal and M3 Connectivity
+- M3 User Roles Configuration, User Permissions and sub-account management
+
+## **Enhancements**
+- When installed with Econnect, customer registration is not required. Users can change their password using their Infor M3 email ID.
+- If installed as a standalone, registration requires ERP number, order number, invoice number, and amount.
+- With Econnect, the system will apply the Econnect registration restriction group, while in standalone, it will apply the Customer Portal restriction group.
+
+## **Highlights**
+- The Customer Portal modules now support installation with Econnect without the need to create multiple websites.
+- The features of the Customer Portal modules will remain consistent whether using Econnect or as a standalone.
+- Econnect customers can access all Customer Portal features.
+- We have updated the m3 login authentication  process by replacing mingle url with ifs service url
 
 ## 23.4.0
 
