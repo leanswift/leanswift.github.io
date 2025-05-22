@@ -25,6 +25,7 @@
 | **Software Name**  |  **Version**  |
 | --- | --- |
 | Magento Open Source | 2.4.7 |
+| LeanSwift eConnect | 25.1.0 |
 | LeanSwift eConnect Base | 6.4.1 |
 | LeanSwift M3 Login | 25.1.0 |
 | LeanSwift Customer Portal | 25.1.0 |
