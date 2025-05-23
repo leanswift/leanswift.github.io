@@ -98,16 +98,15 @@
 ## **Limitations**
 
 - Multiple currency support is unavailable at the customer level.
-
 - When importing customer data (updating multiple customer information via CSV), fields such as view sections, 'is admin,' and 'make payments' are mandatory and cannot be left empty.
-
 - In this version, only credit card payments are supported via the portal.
-
 - Customers cannot edit payment and billing information on CyberSource payment pages.
-
 - Importing order history data is limited to 10,000 records per M3 customer number.
-
 - Clearing downloaded files from IDM and Cron/Real-time configurations in IDM upload and download is not supported.
+- Customer synchronization and addition will be based on Econnect customer sync configuration 
+- Existing M3 customers (External Customers) can use the forgot password option to set a password for login with their M3 email address 
+- Restrict Customer Group will operate based on Econnect, not from Customer Portal configuration 
+- Orders and Invoices Menu will relate to M3 Orders and invoices, with distinct details for both Econnect and M3 
 
 ## **Point of Contact**
 
