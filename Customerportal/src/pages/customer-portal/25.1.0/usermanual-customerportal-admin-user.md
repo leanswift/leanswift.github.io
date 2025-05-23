@@ -2,5 +2,5 @@
 
 ![CustomerPortalHeader](/Customerportal/src/images/customer-portal/front-end-user/CP_banner.jpg)
 
-The user manual Working in Progress
+The customer portal user manual for Admin Working in Progress
 
