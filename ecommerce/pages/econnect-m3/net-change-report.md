@@ -2,6 +2,19 @@
 
 # eCommerce - Net Change Report 
 
+# 25.2.0
+
+## Highlight
+
+- eConnect module is now compatible with Magento commerce v2.4.7-p5 and tested on PHP v8.3.
+
+
+## **Compatibility Fixes**
+
+- Fixed new product status issue for multiple website.
+
+- Fixed product price float issue.
+
 # 25.1.0
 
 ## Highlight
