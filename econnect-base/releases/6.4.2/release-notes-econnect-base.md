@@ -1,4 +1,4 @@
-# **eConnectBase 6.3.0**
+# **eConnectBase 6.4.2**
 
 # Table of contents
 
@@ -13,8 +13,8 @@
 
 | **Software Name** | **Version** |
 | --- | --- |
-| Magento version | 2.4.6 |
-| PHP version | 8.1.6 |
+| Magento version | 2.4.8-p3 |
+| PHP version | 8.3 |
 
 # **Overview**
 
@@ -28,20 +28,21 @@
 
 # Prerequisites
 
-- From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' in order to make successful connection with the Infor ION API.
+- From Magento v2.4.8-p3 with PHP v8.3, the following setting must be set to 'Yes' in order to make successful connection with the Infor ION API.
 
 	![oAuth Access Token](../../../econnect-base/images/access_token_setting.png)
 
 # **Highlight**
 
-- eConnect-base module is now compatible with Magento v2.4.6 and PHP v8.1(Supports PHP v8.2 too)
+- eConnect-base module is now compatible with Magento v2.4.8-p3 and PHP v8.3
 
 # **Compatibility Fixes**
 
-- Replaced 'Zend' with 'Laminas' to generate Refresh Token and Access Token
+- Fixed compatibility issue for Amqp Queue module
 
 # **Point of Contact**
 
 - [prabhu.mano@leanswift.com](mailto:prabhu.mano@leanswift.com)
 - [deepthi.tadikamalla@leanswift.com](mailto:deepthi.tadikamalla@leanswift.com)
-- [narayanan.gurusamy@leanswift.com](mailto:narayanan.gurusamy@leanswift.com)
+- [pradeep.shinde2@wipro.com](mailto:pradeep.shinde2@wipro.com)
+- [saurabh.gupta77@wipro.com](mailto:saurabh.gupta77@wipro.com)
