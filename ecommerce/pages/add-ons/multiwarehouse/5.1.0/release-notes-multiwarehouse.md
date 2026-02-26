@@ -4,7 +4,7 @@ Add-on for eConnect for M3
 Multi-Warehouse
 ---------------
 
-Version 5.0.0
+Version 5.1.0
 -------------
 
 **Table of Contents**
@@ -36,14 +36,14 @@ Environment Details
 
 | **Environment**           | **Version** |
 |---------------------------|-------------|
-| Magento Commerce          | 2.4.6       |
-| Magento Community         | 2.4.7       |
-| eConnect Commerce         | 24.1.0      |
-| eConnect Community        | 24.1.0      |
-| eConnect Base             | 6.4.0       |
+| Magento Commerce          | 2.4.7-p5    |
+| Magento Community         | 2.4.8-p3    |
+| eConnect Commerce         | 25.2.0      |
+| eConnect Community        | 25.2.0      |
+| eConnect Base             | 6.4.2       |
 | Rabbitmq                  | 3.7.28      |
 | Infor M3                  | 16.1        |
-| PHP                       | 8.1         |
+| PHP                       | 8.3         |
 | ION Package Version       | 3.2.1       |
 
 
@@ -60,22 +60,21 @@ MWH displays stock from multiple warehouses on the product detail page.
 Highlight
 ---------
 - Wyomind Advanced Inventory extension for multi-warehouse functionality has been removed and replaced by  Magento's Standard Multiwarehouse which is hassle-free to use and supports same functionality.
--  Fully compatible and tested on PHP 8.1(Supports 8.2 too)
-- Fully compatible with Adobe Commerce 2.4.7
-- Fully compatible with the latest version of eConnect-Base 6.4.0 & eConnect v24.1.0
+- Fully compatible and tested on PHP 8.3
+- Fully compatible with Adobe Commerce 2.4.7-p5 and Adobe Community 2.4.8-p3
+- Fully compatible with the latest version of eConnect-Base 6.4.2 & eConnect v25.2.0
 
+Compatibility Fixes
+-------------------
+- Fixed manual sync inventory for product.
 
 Point of Contacts
 -----------------
 
 -   <prabhu.manoharan3@wipro.com>
 
--   <silambarasan.kj3@wipro.com>
+-   <deepthi.tadikamalla@wipro.com>
 
--   <narayanan.gurusamy@wipro.com>
+-   <pradeep.shinde2@wipro.com>
 
 -   <saurabh.gupta77@wipro.com>
-
--   <vaithiyanathan.paramasivam@wipro.com>
-
--   <kalaivani.nagarajan1@wipro.com>
