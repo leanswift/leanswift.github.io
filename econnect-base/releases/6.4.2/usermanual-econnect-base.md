@@ -1,4 +1,4 @@
-#  User Manual - eConnect for M3 - v6.3.0
+#  User Manual - eConnect for M3 - v6.4.2
 
 # Table of contents
 
