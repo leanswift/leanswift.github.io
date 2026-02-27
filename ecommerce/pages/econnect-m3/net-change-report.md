@@ -6,7 +6,7 @@
 
 ## Highlight
 
-- eConnect module is now compatible with Magento commerce v2.4.7-p5 and tested on PHP v8.3.
+- eConnect module is now supports Magento commerce v2.4.7-p5 and Magento community v2.4.8-p3 with PHP v8.3 compatibility.
 
 
 ## **Compatibility Fixes**
