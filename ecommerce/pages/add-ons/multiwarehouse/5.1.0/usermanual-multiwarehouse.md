@@ -1,12 +1,12 @@
 
-# **eConnect User Manual – Multi-Warehouse - V5.0.0**
+# **eConnect User Manual – Multi-Warehouse - V5.1.0**
 ![econnect_banner](../../../../../images/banner-econnect-m3.jpg)
 ## **LeanSwift eConnect for Infor M3 &amp; Magento** 
 
 
-**Product Version**  **5.0.0**
+**Product Version**  **5.1.0**
 
-**eConnect version 24.1.0**
+**eConnect version 25.2.0**
 
 
 # TABLE OF CONTENTS
@@ -54,7 +54,7 @@
 
 With 20.3.0, there is a major technical architectural change in the solution.  from ION are now configured to be sent to a REST API in Magento, which in turn sends them to RabbitMQ for storage and processing by eConnect. In the previous versions, ION sends BODS to RabbitMQ directly.
 
-### eConnect-base v6.4.0
+### eConnect-base v6.4.2
 
 - It provides connectivity to eLink and/or Infor systems with the use of a generic function that decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 - Acts as the communication layer for RabbitMQ Message consumption
@@ -90,13 +90,6 @@ These add-ons can, if necessary, be modified, and new add-ons can be added to fu
 
 During setup, the Magento Admin panel is used to configure which transactions that should be used and how they should function. There is also additional configuration within the Connector to support the transactions.
 
-**Validated versions**
-
-Magento Community 2.4.7
-
-Magento Enterprise 2.4.6
-
-Infor M3 16.x
 
 ## 1.2 Points of Contact
 
