@@ -103,9 +103,6 @@
 
 [Go to Top](#table-of-contents)
 
-## New in this version
-
-
 ### LeanSwift AMQP Connection
 
 Provided new amqp Connection type Configuration for handling the eConnect related BOD in separate rabbitmq. After saving the configurations the command php bin/magento setup:leanswift-amqp needs to be run. The Configuration are in global scope and has the following fields, Host, Port, User, Password and VirtualHost.
@@ -373,6 +370,10 @@ The M3 User is the user with which we connect to ION APIs
 
 We have a &#39;Test connection&#39; button to verify if connection is up.
 
+From Magento v2.4.4 with PHP v8.1, the following setting must be set to 'Yes' in order to make successful connection with the Infor ION API.
+
+![oAuth Access Token](../../../../ecommerce/images/econnect-user-manual-ion-part1/access_token_setting.png)
+
 #### Message Queue Configuration
 
 The Section allows to configure the leanswift AMQP rabbitmq details in environment file. Changes are reflected by 
@@ -587,8 +588,6 @@ The New product status should be set to No to ensure the products do not appear 
 
 &#39;Style SKUs as Configurable Products&#39; can be set to Yes if we want style items and can be set to No to save them as simple items
 
-### New in this version
-
 <kbd><img alt="product addition" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/econnect-user-manual-ion-part1/product-addition-sync1.png"></kbd>
 
 <kbd><img alt="product addition" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/images/econnect-user-manual-ion-part1/product-addition-sync2.png"></kbd>
@@ -603,6 +602,35 @@ When ever price is added/updated in MMS001 in M3, Item master BOD gets generated
 
 If **ODSAPR** is chosen, Price available for a product in MMS017 will get updated in product detail page of magento.
 When ever price is added/updated in OIS017 ( For the Price list and currency mapped in Basic Data configuration, provided there is no customer mapped ) in M3, LSPriceList BOD gets generated during which MMS200MI/GetBasePrice API gets triggered and the price gets updated.
+
+- ODSAPR will now be retrieved via EXPORTMI instead of using the below APIs
+		- OIS017MI/LstPriceList
+			- Reason:
+				- LIST API will always bring the whole data including different PriceCodes & CurrencyCodes irrespective of what input data we pass. 
+				- Also, eConnect was always getting the first record from the LIST APIs result without checking the PriceCode and Currency values to fetch the FVDT value which is required to call OIS017MI/GetBasePrice. 
+				- Sometimes it fetches the FVDT value which doesn't matches with the PriceCode and Currency specified in the Backend 'Basic data configuration'
+	
+		- OIS017MI/GetBasePrice
+			- Reason: 
+				- Due to the reason mentioned under the LIST API, we have moved to EXPORTMI which brings all the necessary data we need
+
+	- Added the following additional validations in the EXPORTMI while fetching the ODSAPR
+		- FVDT(Valid From Date must be equal to and lesser than the current date) & LVDT(Valid To Date must be greater than the current date
+	
+		- If the result contains more than one entry with a valid date then the ODSAPR will choose the entry with the nearest date
+	
+	- Added an additional field in the Backend Configuration to choose whether the MMSAPR value can be set as an item price if the ODSAPR value is 0 for the item
+
+		- If Item Price field is selected as 'ODSAPR' then a new setting called 'Fallback Item Price' will appear
+![Fallback Item Price](../../../../ecommerce/images/econnect-user-manual-ion-part1/odsapr-field.png)
+
+			- If the above setting is set to Yes, then the item price will be updated with MMSAPR from MITMAS only if the ODSAPR from OPRBAS is 0 or there is no valid price data for the item.
+
+			- If the above setting is set to No, then the item price will be updated with '0.00'
+ 
+- External tracking number information will get updated via MWS410MI/GetHead API since it is not coming under the Shipment BOD
+
+- Re-aligned the eConnect-ION backend configuration settings in a user friendly way
 
 
 _Note: If multi-website is enabled, Price can be set to work on website level or global. If **Item price** is set to different configurations in different website then Price has to be set to website scope. Otherwise Price from the configuration on the last website will be overriden to all websites._
@@ -697,6 +725,14 @@ This setting provides the option to enable/disable the Customer Sync on website 
 
 This setting provides the option to enable/disable the Customer Addition on website level.
 
+**Skip Acoount Creation Without Email
+
+- If configuration is set to “YES”, the customer creation will be skipped. When the email ID is not provided.
+- Once the email address is given for customer in M3 it will generate a BOD and the customer will reflect in Customer Page in Magento.
+- If configuration is set to "NO” the customer will be created with e-mail address like [ERPnumber@someone.com](mailto:ERPnumber@someone.com)
+
+
+![skip account creation without email](../../../../ecommerce/images/econnect-user-manual-ion-part1/skip-account-creation-without-email1.png)
 
 **Customer Group Id**
 
@@ -736,6 +772,20 @@ If set to &#39;Yes&#39;, this enables sending Price for the order to M3.
 **Capture Payment Online**
 
 This option set to &#39;Yes&#39; will during Invoice creation in Magento [as part of the synchronization when the invoice details from M3 are used to create the Magento invoice] also invoke the &#39;Capture&#39; transaction from Magento for credit card orders. If this option is set to &#39;No&#39;, it&#39;s assumed that capture of funds via whatever payment gateway is used within Magento is handled manually via a separate process.
+
+### ADID(Shipping) via addBatchHead transaction
+
+ - To update the delivery address for the orders, now we are sending ADID and ADRT field will be send via ‘AddBatchHead’ transaction. Also, ADRT Value will always be 1 since we are using it for shipping/delivery address. These will be passed via 'addBatchHead' only if it satifies the below conditions. If any of the below conditions fail, then the existing approach will be followed.
+
+ 	- If the below setting is set to ‘Yes’
+![ADID via AddBatchHead](../../../../ecommerce/images/econnect-user-manual-ion-part1/adid-via-addbatchhead.png)
+
+
+ 	- If the delivery/shipping/drop address chosen by the customer will have ADID value.
+
+ 	- If billing and shipping addresses are not the same. 
+		- Reason: If it’s the same, then ‘ADID’ will also be from the billing address. Since we are sending ‘ADRT’ as 1, passing the ADID from the billing address will cause problems in the order creation like order status will be moved to 15 with the reason like “No such address exists”.
+
 
 [Go to Top](#table-of-contents)
 
