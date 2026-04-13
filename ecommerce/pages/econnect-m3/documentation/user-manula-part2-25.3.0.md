@@ -1,5 +1,27 @@
 #  User Manual Part II - eConnect for M3 - v20.3.0
 
+![eConnect banner](../../../../images/banner-econnect-m3.jpg)
+
+
+# Table of contents
+
+- [1.0 System Overview](#10-system-overview)
+  - [New in this version](#new-in-this-version)
+  - [Points Of Contacts](#points-of-contacts)
+  - [Organization Of The Manual](#organization-of-the-manual)
+  - [Acronyms And Abbrevations](#acronyms-and-abbrevations)
+- [Standard Transactions](#standard-transactions)
+  - [Product Setup and Information](#product-setup-and-information)
+  - [Price](#price)
+  - [Inventory](#inventory)
+  - [Customer Addition/Synchronization](#customer-additionsynchronization)
+  - [Customer Information Sync](#customer-information-sync)
+  - [Order Creation](#order-creation)
+  - [Order Information](#order-information)
+  - [Shipment](#shipment)
+  - [Invoice](#invoice)
+  - [Order History](#order-history)
+  - [Invoice History](#invoice-history)
 
 # 1.0 System Overview
 
@@ -34,6 +56,8 @@
 ### Architecture with Magento API
 
 <kbd><img alt="eConnect Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/pages/econnect-m3/20.3.0/images/ARCHITECTURE.jpg"></kbd>
+
+## New in this version
 
 ### LeanSwift AMQP Connection
 
@@ -454,7 +478,7 @@ The temporary (batch) order number ( **Temp Order #** ) is brought back from M3 
 
 If the order creation progresses successfully [as in the example above], the final customer order number from M3 is also populated and displayed right in the order grid in the **Final Ord #** field.
 
-#### Order Creation–B2C
+### Order Creation–B2C
 
 Order creation in a B2C environment can be handled in two different ways within eConnect, and they differ with regards to how the Customer is managed from an M3 perspective.
 
@@ -475,7 +499,6 @@ For this scenario, the **Create Customer On Placing Order** parameter is then se
 In the Discrete Customer scenario, eConnect always as a first step validates whether the customer has placed an order previously. If so, the already existing customer# is used.
 
 **NOTE: In this case the first order has to be synced twice. During the first sync ERP number is generated, and for the next sync order will be sent to m3.**
-
 
 ### Shipcomplete
 
