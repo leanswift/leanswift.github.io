@@ -478,6 +478,27 @@ The temporary (batch) order number ( **Temp Order #** ) is brought back from M3 
 
 If the order creation progresses successfully [as in the example above], the final customer order number from M3 is also populated and displayed right in the order grid in the **Final Ord #** field.
 
+#### Order Creation–B2C
+
+Order creation in a B2C environment can be handled in two different ways within eConnect, and they differ with regards to how the Customer is managed from an M3 perspective.
+
+Which Customer approach is used is handled via the eConnect configuration within LS > eConnect-ION > Configuration >  Customer General Configuration.
+
+**Common Customer**
+
+Common customer is used when all orders from a Store view/Site should be created in M3 under a single Customer number.
+
+The **Create Customer On Placing Order** parameter is then set to &#39;No&#39;, and the parameter below it ( **Common Customer ID** ) then contains which [common] customer# to use for all orders.
+
+**Discrete Customer**
+
+Discrete customer is the opposite. In this case, each order created within M3 should be added with a unique customer number.
+
+For this scenario, the **Create Customer On Placing Order** parameter is then set to &#39;Yes&#39;, and IONCUST is used as a template to create new customers from (via an additional Add function preceding the creation of each order).
+
+In the Discrete Customer scenario, eConnect always as a first step validates whether the customer has placed an order previously. If so, the already existing customer# is used.
+
+**NOTE: In this case the first order has to be synced twice. During the first sync ERP number is generated, and for the next sync order will be sent to m3.**
 
 ### Shipcomplete
 
