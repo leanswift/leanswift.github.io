@@ -1,27 +1,56 @@
-#  User Manual Part II - eConnect for M3 - v20.3.0
-
-![eConnect banner](../../../../images/banner-econnect-m3.jpg)
-
-
+#  User Manual Part II - eConnect for M3 - v25.3.0
 # Table of contents
 
 - [1.0 System Overview](#10-system-overview)
-  - [New in this version](#new-in-this-version)
+    - [Architecture](#architecture)
+    - [Architecture with Magento API](#architecture-with-magento-api)
+    - [LeanSwift AMQP Connection](#leanswift-amqp-connection)
+    - [Enterprise connector Removal](#enterprise-connector-removal)
+    - [Additional Entity Attribute Mapping](#additional-entity-attribute-mapping)
+    - [Transactions](#transactions)
+    - [User Interface](#user-interface)
+    - [Validated Versions](#validated-versions)
   - [Points Of Contacts](#points-of-contacts)
   - [Organization Of The Manual](#organization-of-the-manual)
   - [Acronyms And Abbrevations](#acronyms-and-abbrevations)
 - [Standard Transactions](#standard-transactions)
+    - [Summary](#summary)
+    - [Assumptions And Limitations](#assumptions-and-limitations)
   - [Product Setup and Information](#product-setup-and-information)
+    - [Manual Sync Process](#manual-sync-process)
   - [Price](#price)
+    - [Single Price List](#single-price-list)
+    - [Customer Specific Price](#customer-specific-price)
   - [Inventory](#inventory)
+    - [Inventory Value Selection](#inventory-value-selection)
+    - [Inventory Sync](#inventory-sync)
+    - [Customer Registration](#customer-registration)
   - [Customer Addition/Synchronization](#customer-additionsynchronization)
   - [Customer Information Sync](#customer-information-sync)
+    - [Transaction Overview](#transaction-overview)
+    - [Synchronization Process](#synchronization-process)
+    - [Manual Sync Process](#manual-sync-process)
   - [Order Creation](#order-creation)
+    - [Transaction Overview](#transaction-overview)
+    - [Order Creation–B2B](#order-creationb2b)
+    - [Order Creation–B2C](#order-creationb2c)
+    - [Shipcomplete](#shipcomplete)
+    - [Gift Wrapping](#gift-wrapping)
+    - [Credit Card Management](#credit-card-management)
+    - [Order Charges](#order-charges)
+    - [Line Charges](#line-charges)
+    - [Manual Sync Process](#manual-sync-process)
   - [Order Information](#order-information)
+    - [Transaction Overview](#transaction-overview)
+    - [Magento and M3 Order Status Relation](#magento-and-m3-order-status-relation)
   - [Shipment](#shipment)
+    - [Shipments In Magento](#shipments-in-magento)
+    - [Deliveries In M3](#deliveries-in-m3)
+    - [Tracking Numbers](#tracking-numbers)
   - [Invoice](#invoice)
   - [Order History](#order-history)
   - [Invoice History](#invoice-history)
+
 
 # 1.0 System Overview
 
@@ -57,7 +86,6 @@
 
 <kbd><img alt="eConnect Architecture" src="https://raw.githubusercontent.com/leanswift/leanswift.github.io/master/ecommerce/pages/econnect-m3/20.3.0/images/ARCHITECTURE.jpg"></kbd>
 
-## New in this version
 
 ### LeanSwift AMQP Connection
 
