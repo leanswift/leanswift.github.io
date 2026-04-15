@@ -9,8 +9,7 @@
     - [Additional Entity Attribute Mapping](#additional-entity-attribute-mapping)
     - [Transactions](#transactions)
     - [User Interface](#user-interface)
-    - [Validated Versions](#validated-versions)
-  - [Points Of Contacts](#points-of-contacts)
+    - [Points Of Contacts](#points-of-contacts)
   - [Organization Of The Manual](#organization-of-the-manual)
   - [Acronyms And Abbrevations](#acronyms-and-abbrevations)
 - [Standard Transactions](#standard-transactions)
@@ -62,11 +61,7 @@
 
 ### Architecture
 
- The part of eConnect functionality dealing with connectivity to Infor OS and data processing has been moved out of eConnect extension into a new extension named, **eConnect-base**.
-
- eConnect 20.3.0 is compatible with eConnect-base 5.0.0.
-
-**eConnect-base v5.0.0**
+**eConnect-base**
 
 - It provides the connectivity to eLink and/or Infor systems with the use of a generic function which decides whether to call the eLink / ION APIs based on the M3 Connection Protocol chosen in the backend
 
@@ -89,11 +84,11 @@
 
 ### LeanSwift AMQP Connection
 
-Provided new amqp Connection type Configuration for handling the eConnect related BOD in separate rabbitmq.
+Provided amqp Connection type Configuration for handling the eConnect related BOD in separate rabbitmq.
 
 ### Enterprise connector Removal
 
-BOD information send to eConnect REST API directly. Instead of sending to rabbitmq eliminating the Enterprise
+BOD information is sent to eConnect REST API directly instead of sending to rabbitmq eliminating the Enterprise
 Connector.
 
 ### Additional Entity Attribute Mapping
@@ -115,7 +110,7 @@ Stock and price Custom BOD will work like before.
 
 ### Transactions
 
-eConnect 20.3.0 includes the following set of standard transactions like its previous versions:
+eConnect includes the following set of standard transactions 
 
 - Product Addition
 - Product Information Sync
@@ -138,15 +133,6 @@ eConnect 20.3.0 includes the following set of standard transactions like its pre
 ### User Interface
 
 During setup, the Magento Admin panel is used to configure which transactions should be used and how they should function.
-
-### Validated Versions
-
-- Magento Commerce 2.4.1
-- Magento Open Source 2.4.1
-- Infor M3 16.1
-- RabbitMQ 3.8.3
-- Infor ION Grid 12.0.2.0.20180308-135417.2
-- ION Desk 12.0.0
 
 ## Points Of Contacts
 
@@ -525,8 +511,6 @@ Discrete customer is the opposite. In this case, each order created within M3 sh
 For this scenario, the **Create Customer On Placing Order** parameter is then set to &#39;Yes&#39;, and IONCUST is used as a template to create new customers from (via an additional Add function preceding the creation of each order).
 
 In the Discrete Customer scenario, eConnect always as a first step validates whether the customer has placed an order previously. If so, the already existing customer# is used.
-
-**NOTE: In this case the first order has to be synced twice. During the first sync ERP number is generated, and for the next sync order will be sent to m3.**
 
 ### Shipcomplete
 
