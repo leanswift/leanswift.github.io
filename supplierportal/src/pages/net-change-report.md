@@ -5,8 +5,8 @@
 # Table of contents
 
   - [26.1.0](#2629)
-    - [Highlight:](#highlight)
-    - [Fixes:](#fixes)
+    - [Highlight](#highlight)
+    - [Fixes](#fixes)
   - [24.2.0](#2420)
     - [Enhancements](#enhancements)
   - [23.4.0](#2340)
