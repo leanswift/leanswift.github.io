@@ -31,7 +31,7 @@
 | --- | --- |
 | Magento version | 2.4.8-p3 |
 | eConnect Base Module Version | 6.4.2 |
-| IDM Module Version | 4.3.0 |
+| IDM Module Version | 4.3.1 |
 | ION Package Version | 24.2.0 |
 | PHP version | 8.3 |
 | RabbitMQ | 3.7.28 |
