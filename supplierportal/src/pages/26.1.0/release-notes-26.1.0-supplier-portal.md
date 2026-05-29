@@ -2,7 +2,7 @@
 
 # Supplier Portal
 
-# 24.2.0
+# 26.1.0
 
 # Release Notes
 
@@ -29,27 +29,27 @@
 
 | **Software Name** | **Version** |
 | --- | --- |
-| Magento version | 2.4.6 |
-| eConnect Base Module Version | 6.4.0 |
+| Magento version | 2.4.8-p3 |
+| eConnect Base Module Version | 6.4.2 |
 | IDM Module Version | 4.3.0 |
 | ION Package Version | 24.2.0 |
-| PHP version | 8.1.0 |
+| PHP version | 8.3 |
 | RabbitMQ | 3.7.28 |
 | ION Desk | 2023.11.02 |
 | Infor M3 | Cloudsuite |
-| Supplier Portal Module | 24.2.0 |
+| Supplier Portal Module | 26.1.0 |
 | Advise and Notify | 24.2.0 |
 | Supplier Invoices | 24.2.0 |
-| Supplier Deliveries | 24.2.0 |
+| Supplier Deliveries | 26.1.0 |
 | Supplier User Tracking | 24.2.0 |
 | User Management | 24.2.0 |
-| Supplier Item Management | 24.2.0 |
-| SupplierPortalGraphql | 24.2.0 |
+| Supplier Item Management | 26.1.0 |
+| SupplierPortalGraphql | 26.1.0 |
 | IDMGraphql | 24.2.0 |
 | SupplierPortalInvoiceGraphql | 24.2.0 |
 | PWA Build pack  | 11.4.1 | 
-| Node JS |  16.19.0 | 
-| Yarn | 1.22.19 | 
+| Node JS |  20.20.1 | 
+| Yarn | 1.22.22 | 
 
 # Standard Features
 
@@ -172,6 +172,10 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 - When SHAC is kept as 2, and Automatic delivery note generation is enabled, advise and notify is done for a delivery note number PPS360 / TransNotifyHead is called. when the SHAC is disabled for the same supplier, and I advise a line with same delivery note number (line is not added in PPS360) but since the delivery note number is available in PPS360 during notify the PPS360 / TransNotifyHead is called and the PPS001MI/NotifyDelNot is not called. This causes the line to remain in processing state.
 - When one line of PO is advised with a delivery note number (where Automatic delivery note generation is enabled) and Advise all / Advise multiple po's is tried for same PO with delivery note number, error message 'Shipment advice is not allowed - the order is already advised with delivery note' is displayed.
 
+# Highlight
+
+- SupplierPortal module is now compatible with Magento community v2.4.8-p3 and tested on PHP v8.3.
+
 # Recommendation
 
 - It is recommended to use eConnect and Supplier portal in separate instances.
@@ -183,9 +187,7 @@ IDM add-on should be configured for My Purchase orders data to be displayed in s
 
 # Point of Contact
 
-- [silambarasan.kj3@wipro.com](mailto:silambarasan.kj3@wipro.com)
-- [vaithiyanathan.paramasivam@wipro.com](mailto:vaithiyanathan.paramasivam@wipro.com)
-- [ketankumar.zanzarukiya@wipro.com](mailto:ketankumar.zanzarukiya@wipro.com)
 - [prabhu.manoharan3@wipro.com](mailto:prabhu.manoharan3@wipro.com)
-- [challa.anjana@wipro.com](mailto:challa.anjana@wipro.com)
-- [narayanan.gurusamy@wipro.com](mailto:narayanan.gurusamy@wipro.com)
+- [deepthi.tadikamalla@wipro.com](mailto:deepthi.tadikamalla@wipro.com)
+- [pradeep.shinde2@wipro.com](mailto:pradeep.shinde2@wipro.com)
+- [saurabh.gupta77@wipro.com](mailto:saurabh.gupta77@wipro.com)
