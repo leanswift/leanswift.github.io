@@ -6,7 +6,7 @@
 
 # Version 26.1.0
 
-- ## [Release Notes](26.1.0/release-notes-24.2.0-supplier-portal.md)
+- ## [Release Notes](26.1.0/release-notes-26.1.0-supplier-portal.md)
 
 - ## [User Manual - Admin](26.1.0/usermanual-supplierportal-admin.md)
 
