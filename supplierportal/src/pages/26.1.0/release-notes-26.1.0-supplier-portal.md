@@ -13,7 +13,7 @@
 - [Standard Features](#standard-features)
 - [Supported Devices](#supported-devices)
 - [Technical Features](#technical-features)
-- [Enhancements](#enhancements)
+- [Fixes](#fixes)
 - [Prerequisites](#prerequisites)
 - [Limitations](#limitations)
 - [Known Issues](#known-issues)
@@ -147,11 +147,10 @@ This Add-on is to configure the allowed number of Registrations (supplier admin)
 - Magento PWA using REACT JS 
 - Graphql 
 
-# Enhancements
+# Fixes
 
-- To set default configurations by one click and make Supplier Portal ready to use by one day.
-- The Connection Point, Data Flow, Work Flow can be imported from the Supplier Portal admin.
-- Theme Configurations are enabled in PWA for better user experience.
+- Fixed PHP 8.3 compatibility issues.
+- Fixed create supplier account from outlook mail showing invalid token issue.
 
 # Prerequisites
 
