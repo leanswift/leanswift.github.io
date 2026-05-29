@@ -6,7 +6,7 @@
 
   - [26.1.0](#2629)
     - [Highlight:](#highlight)
-    - [Compatibility Fixes:](#compatibility fixes)
+    - [Fixes:](#fixes)
   - [24.2.0](#2420)
     - [Enhancements](#enhancements)
   - [23.4.0](#2340)
@@ -38,7 +38,7 @@
 ### Highlight
 - SupplierPortal module is now compatible with Magento community v2.4.8-p3 and tested on PHP v8.3.
 
-### Compatibility Fixes
+### Fixes
 - Fixed PHP 8.3 compatibility issues.
 - Fixed create supplier account from outlook mail showing invalid token issue.
 
